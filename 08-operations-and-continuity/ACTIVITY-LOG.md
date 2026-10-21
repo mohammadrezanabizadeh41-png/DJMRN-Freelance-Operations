@@ -28,3 +28,9 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Added evidence-led report, retrieval protocol and five known-path documentary smoke checks; enriched LESSON schema without creating fake past projects.
 - Exa connected research hit existing credit limit; **no payment** or top-up. No Notion write, installation, website login, proposal, contract, DB or workflow activation.
 - Claims explicitly limited to source-grounded documentary retrieval; operational assistant memory reuse **not yet tested**.
+
+## 2026-10-21 — FMAP-001 — First practical freelancermap opportunity scan
+- User chose their existing freelancermap Basic account as next working platform and requested help selecting listings and preparing expressions of interest.
+- Read GitHub account/status/plan evidence and official freelancermap pricing/FAQ. Basic advertised 10 applications/month; individual remaining allowance not verified.
+- Screened public listings #3063197, #3062183 (possible duplicate #3062182), #3063013, #3059508; [candidate shortlist](../04-opportunities/shortlists/freelancermap-2026-10-21.md).
+- No login, proposal sent, employer contact, site account change, contract, payment or upgrade. Resident-of-Iran eligibility and legal payout remain UNVERIFIED. Await user-visible project pages and explicit application approval.
