@@ -33,3 +33,6 @@ User selected **freelancermap (INT-04)** for real job search, review and possibl
 
 ## Active UI checkpoint — freelancermap, 2026-10-21
 User supplied screenshot of signed-in `my_account.html` **Dashboard**. Onboarding Profile and Project Alerts cards both have check marks; profile views shown 46. This replaces prior uncertainty about seeing a logged-in dashboard **only**; current application quota, region/KYC/payments and applications actually sent remain unverified. **Next user action:** click **Find projects** at top navigation, share project-search page screenshot for exact filtering and review. [Session journal](sessions/FMAP-SESSION-001.md). No application sent or plan upgraded; GitHub sole operational memory.
+
+## Search filter UI captured — 2026-10-21 / FMAP-003
+Five user screenshots document full **visible** Find projects filter sidebar; [reference and reproducible settings](../03-accounts-and-operations/freelancermap-search-ui-2026-10-21.md). As shown: **903 results**, `Newest`, `Worldwide`, active German-speaking-country exclusion; Remote and Freelance not selected. First visible on-site listings are unsuitable without remote filtering. **Next action:** user checks **Workplace → Remote** and **Contract type → Freelance**, sends new count/results; then targeted keyword scans. Existing saved alert unchanged; no application submitted.

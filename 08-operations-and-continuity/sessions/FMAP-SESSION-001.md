@@ -1,6 +1,6 @@
 # FMAP-SESSION-001 — Freelancermap logged-in project sourcing
 
-**Date:** 2026-10-21 · **Track:** INT-04 · **State:** IN_PROGRESS / WAITING_FOR_FIND_PROJECTS_SCREEN · **Authoring:** assistant observing user-shared screen
+**Date:** 2026-10-21 · **Track:** INT-04 · **State:** IN_PROGRESS / FILTERS_VISIBLE_WAITING_FOR_REMOTE_FREELANCE_TOGGLE · **Authoring:** assistant observing user-shared screen
 **Canonical operations:** [freelancermap account review](../../03-accounts-and-operations/freelancermap-2026-10-21-review.md) · [first-pass public shortlist](../../04-opportunities/shortlists/freelancermap-2026-10-21.md).
 
 ## User's intent and decisions
@@ -37,3 +37,11 @@
 
 ## Operational recordkeeping convention going forward
 Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **material events, decision and evidence**, not verbatim messages or private screenshot bytes. Update current site record and CURRENT-STATUS when a state/next-action changes; append a short event receipt to ACTIVITY-LOG; on any successful repo write record Git commit/readback. New sessions start the next FMAP-SESSION-NNN. Link any future OPP and JOB IDs in this journal. If GitHub is unavailable, explicitly disclose unrecorded work rather than claim automatic persistence.
+
+## Event FMAP-003 — full Find projects page inventory observed (5 user screenshots), 2026-10-21
+- User opened the signed-in **Find projects** page and sent five scrolling screenshots revealing the search and filter sidebar. The user explicitly requested that *all options* be durably recorded in GitHub so they are not required to resend these images, and asked to search our existing repo for prior search-related information.
+- Fully documented **visible settings, 903 results, Newest, Worldwide, checked exclusion of German-speaking countries**, all visible checkbox labels/counts and their current selected states, publication slider, keyword controls, Popular categories, and the truncated existing saved-search name in [Search UI reference](../../03-accounts-and-operations/freelancermap-search-ui-2026-10-21.md).
+- Cross-checked original GitHub Plan A freelancermap row, practical account review, current session and public opportunities shortlist; old daily-alert setup is separate from current onsite browser search; no independent source beyond these repo files required.
+- Noted that many first results are repeated Salesforce Marketing Cloud **On-site** placements across several European locations, not suitable on title alone; two other cards read **100% remote** but no specific verified listing ID/payment/eligibility. Do not confuse visible facet counts with combined result totals.
+- **Next:** user ticks **Workplace → Remote** and **Contract type → Freelance** while keeping Worldwide/Newest/current exclude rule. Observe new live result count, then configure skill keywords; nothing submitted or account alert overwritten.
+- Screenshot files not uploaded to GitHub. Only necessary non-private UI facts/transcript logged. All counts are dated observations, not promised current numbers.

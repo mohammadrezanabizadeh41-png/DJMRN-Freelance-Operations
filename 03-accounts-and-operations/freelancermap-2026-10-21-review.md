@@ -28,3 +28,9 @@ User opens their existing logged-in freelancermap Projects search, ideally filte
 - Country/location eligibility, unused monthly applications, actual ability to submit, payment methods, project acceptance, billing are **not** inferred.
 - Next click: **Find projects** (top navigation next to Dashboard), then inspect next screenshot to specify filters. No form/account edits, subscriptions or application submitted.
 - All material session milestones [journaled here](../08-operations-and-continuity/sessions/FMAP-SESSION-001.md) (journal summarizes operational substance, never private screenshot bytes).
+
+## 2026-10-21 — Find projects UI and reproducible filters
+- New screenshot evidence from signed-in search view: **903 jobs & projects**, **Newest**, **Worldwide**, checked **Exclude projects from German speaking countries**. Remote and Freelance checkboxes **not yet selected**.
+- Exact options/values/counts/selected status inventoried in [Find projects UI reference](freelancermap-search-ui-2026-10-21.md); prior daily Project Alert must not be silently overwritten.
+- Search facet counts Remote 302, Freelance 659 refer to pre-combination view, not exact final filtered intersection. User to enable both and report actual resulting count.
+- This screen confirms ability to access search, **not** ability to send applications, unused Basic quota, visa/residence/KYC permissions or payout.

@@ -40,3 +40,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Checked status visible in screenshot: Create your profile ✓; Set up project alerts ✓; 46 profile views displayed. No basis to claim submission/acceptance.
 - Assistant directed **Find projects** top menu, no upgrade/Send applications; exact filters deferred until search-page screenshot.
 - [Detailed redacted session journal](sessions/FMAP-SESSION-001.md). Screenshot not copied into repo; user identifiable text omitted. No fees, messages or site changes.
+
+## 2026-10-21 — FMAP-003 — Persist full visible freelancermap search UI/filter inventory
+- User supplied 5 sequential screenshots of signed-in search results; documented all visible search option names, available facet counts, current selected filters, sort and saved-search affordances.
+- [Canonical reusable screen/filter reference](../03-accounts-and-operations/freelancermap-search-ui-2026-10-21.md) and [session journal](sessions/FMAP-SESSION-001.md) updated. Repository's historic Basic/alert evidence cross-checked; no need to resend same UI images in later sessions.
+- In 903 initial results, both Remote (302) and Freelance (659) remain unchecked; recommended activating both and reading new result count, without changing alert or upgrade. No application sent.
