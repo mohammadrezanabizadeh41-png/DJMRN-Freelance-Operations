@@ -14,3 +14,8 @@
 
 ## Recording contract (new events appended below, never erase earlier ones)
 Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, before → observed action → actual result/after, evidence/source, explicit approval when required, next action. Git history links each update. Corrections are new entries, not silent edits.
+
+## 2026-10-21 — VERIFY-001 — Repository architecture readback
+- Re-read live GitHub main and nine files; checked 1313 historical records, A25/B17, queue7 and relative navigation links.
+- Findings and limitations captured in [REC-ARCH-001](VERIFICATION-2026-10-21.md).
+- PASS for documentation/readback only; user machine Python script and real client/project workflow NOT run.
