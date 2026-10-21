@@ -21,3 +21,10 @@ No proposal has been drafted, approved, submitted or accepted in this session.
 
 ## Next smallest safe step
 User opens their existing logged-in freelancermap Projects search, ideally filters `Remote` + `Freelance` and sorts newest; shares first set of **actual visible listing URLs/screenshots**, without private account data. Compare public shortlist with account-visible pages, determine eligibility/application limitations, then user explicitly chooses 1-2 for tailored proposals. Only after their approval should a real application be submitted.
+
+## 2026-10-21 — user-provided logged-in dashboard photo, current state
+- Page `freelancermap.com/my_account.html` **visually showed signed-in dashboard**. The account is accessible on user's desktop as of the screenshot; assistant has not accessed authenticated session itself.
+- `Create your profile` and `Set up project alerts` cards **checked**; `Send applications` not checked. `Profile views` shows **46**; neither offers nor application count.
+- Country/location eligibility, unused monthly applications, actual ability to submit, payment methods, project acceptance, billing are **not** inferred.
+- Next click: **Find projects** (top navigation next to Dashboard), then inspect next screenshot to specify filters. No form/account edits, subscriptions or application submitted.
+- All material session milestones [journaled here](../08-operations-and-continuity/sessions/FMAP-SESSION-001.md) (journal summarizes operational substance, never private screenshot bytes).

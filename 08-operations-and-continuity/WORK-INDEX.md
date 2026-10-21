@@ -7,7 +7,7 @@
 | Historical discovered sites | [1313-site archive](../01-platforms/discovery/1313-sites.csv) | 1313 historical records; #319 URL unknown | Consult only if screening a specific site |
 | International A | [25 rows](../01-platforms/international/plan-a-25.csv) | Historical signup priority | Read platform account evidence before action |
 | International B | [17 rows](../01-platforms/international/plan-b-17.csv) | Conditional/deferred | Do not promote without user decision |
-| **ACTIVE: freelancermap INT-04** | [site review](../03-accounts-and-operations/freelancermap-2026-10-21-review.md) · [first-pass shortlist](../04-opportunities/shortlists/freelancermap-2026-10-21.md) | Historical Basic account; current login, quota and Iran eligibility unverified | Review logged-in listings with user, then draft a tailored response on approval |
+| **ACTIVE: freelancermap INT-04** | [session journal](sessions/FMAP-SESSION-001.md) · [site review](../03-accounts-and-operations/freelancermap-2026-10-21-review.md) · [public shortlist](../04-opportunities/shortlists/freelancermap-2026-10-21.md) | **Logged-in dashboard seen via user screenshot**; Profile and alerts checked; quota, Iran eligibility unverified | Click **Find projects**, review next screenshot, then choose actual filters; no application sent |
 | Practical 7 | [current 7-site queue](../03-accounts-and-operations/current-7-site-queue.csv) | 4 INT / 3 IR; queued for review | User chooses next site |
 | Iranian A/B full legacy | [recovery gaps](../provenance/MIGRATION-GAPS.md) | UNVERIFIED/PARTIAL | Recover exact original before ranking |
 | Real opportunities | [process](../04-opportunities/WORKFLOW.md) | No verified OPP records in this repo | Add after observed real listing |

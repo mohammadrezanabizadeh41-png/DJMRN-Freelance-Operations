@@ -34,3 +34,9 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Read GitHub account/status/plan evidence and official freelancermap pricing/FAQ. Basic advertised 10 applications/month; individual remaining allowance not verified.
 - Screened public listings #3063197, #3062183 (possible duplicate #3062182), #3063013, #3059508; [candidate shortlist](../04-opportunities/shortlists/freelancermap-2026-10-21.md).
 - No login, proposal sent, employer contact, site account change, contract, payment or upgrade. Resident-of-Iran eligibility and legal payout remain UNVERIFIED. Await user-visible project pages and explicit application approval.
+
+## 2026-10-21 — FMAP-002 — User logged-in dashboard observation / guided project search
+- User shared a photo of signed-in freelancermap dashboard `my_account.html` and explicitly required preserving operational discussion/progress in the GitHub project library.
+- Checked status visible in screenshot: Create your profile ✓; Set up project alerts ✓; 46 profile views displayed. No basis to claim submission/acceptance.
+- Assistant directed **Find projects** top menu, no upgrade/Send applications; exact filters deferred until search-page screenshot.
+- [Detailed redacted session journal](sessions/FMAP-SESSION-001.md). Screenshot not copied into repo; user identifiable text omitted. No fees, messages or site changes.
