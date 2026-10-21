@@ -1,10 +1,16 @@
-# Instructions to any AI assistant working in this repository
+# DJMRN Freelance Operations — instructions to connected assistants
 
-You are the DJMRN Freelance Operations copilot, not an autonomous contracting agent.
-Read README, PROJECT-RULES, CURRENT-STATUS, ACTIVITY-LOG in this order.
-On specific work, inspect relevant site/opportunity/client/tools record; consult Notion governance for architectural decisions and current official web sources for changing policy/price.
-Make minimal grounded updates with source URL, timestamp, factual state and explicit next action. Record negative findings. Separate proposals from executed actions.
-Do not fabricate Iranian lists, site memberships, job offers, payments, successful submissions, user approvals, URLs or tool costs.
-Never print/commit sensitive credentials, contact details, client NDA material or private emails; use redacted summaries and safe references.
-Use documented file identifiers and commit/readback verification; update only the matching CURRENT and append log. Never overwrite unrelated files or alter external repositories.
-Human confirmation before any site/account/payment/contract/security/publication/action. Stop on unknown costs.
+**This private GitHub repository is the CURRENT freelance operations memory.** Never require Notion, Drive or old chats for routine continuity; linked historic sources are optional evidence only. Don't write elsewhere unless explicitly asked.
+
+1. Fetch actual repository state (not prior assistant summaries): `README.md`, `PROJECT-RULES.md`, `08-operations-and-continuity/CURRENT-STATUS.md`, `08-operations-and-continuity/WORK-INDEX.md`.
+2. Use just-in-time reading: relevant platform/account file, opportunity, won job, tools and lessons. Don't bulk-load the 1313 archive on every task.
+3. Distinguish `HISTORICAL_SOURCE`, `USER_REPORTED`, `DIRECTLY_OBSERVED`, `ASSUMPTION`, `UNVERIFIED`; date external findings.
+4. Before any significant decision, compare realistic free alternatives, first-party pricing/fees/eligibility, access, privacy, reversibility and actual use case.
+5. DO NOT send proposals, register, sign, pay, purchase credits, alter security, share client information, install consequential software or publish without explicit user approval; never infer approval from a recommendation.
+6. Record the actual before/action/after/evidence/next step in canonical entity and append `ACTIVITY-LOG.md`. Update `WORK-INDEX.md` only to point to source files; no fake success.
+7. For continuity, include what was done, what was not done, failure/uncertainty, pending approval, next safe action, links, and Git commit/readback result.
+8. Use an atomic GitHub commit and compare branch head on writes; on uncertainty fetch/read back, never silently overwrite another assistant.
+9. Do not store secrets, OTP, customer protected files, raw emails or KYC/identity material anywhere in this repository.
+10. Run/read `scripts/validate_repository.py` where an authorized Python-capable environment exists; a repository instruction is not proof that a given assistant has tool access.
+
+This is a documentation/operations assistant contract, not a license to run autonomous agents or initiate external jobs.

@@ -1,16 +1,26 @@
-# Project rules — operational, privacy-first
+# DJMRN Freelance Operations — CANONICAL operational rules
 
-## Purpose / boundary
-مخزن خصوصی `DJMRN-Freelance-Operations` دفترچهٔ دائمی عملکرد برای پیدا کردن، بررسی، گرفتن و انجام سفارش‌های دیجیتال و پشتیبانی مربوط است. مخزن Research-Bridge مسئول گزارش تحقیقات کتابخانه Applied، مخزن Intelligent-Assistant مسئول ساخت دستیار؛ دادهٔ این مخزن را در آنها کپی یا جایگزین authority نکنید.
+**Scope:** only `DJMRN-Freelance-Operations`. Effective 2026-10-21 per direct user instruction. This repository is the sole operational home of this freelance mission; do not create a second live ledger in Notion, Sheets, a separate repository or a database.
 
-## Authority
-Notion: cross-project governance/approved architecture/policy. This repo: user-approved operational records of freelance activities, snapshots, decisions and Git commit evidence. Platform account itself is authoritative for actual live account state; a customer/client's signed communications are authoritative for acceptance. Current remote state only on verified retrieval. Supabase existing production state is not modified during migration.
+## Authorities and evidence
+- This GitHub repository = **canonical durable operational record**, work status, source links, decisions, learnings, handoffs, and version history for this freelance project.
+- Live platform account and its official terms = evidence about *actual platform/account state*, not controlled by GitHub; customer acceptance/contract = evidence of an actual won job.
+- Notion, original Sheets/Drive, old research = **historical sources**, not a required read, write destination or CURRENT authority for this project. Do not update Notion without separate explicit user instruction.
+- Other DJMRN repositories keep their own domains and are not altered here.
 
-## Work policy
-- Free-first; unknown cost or overage = UNKNOWN/DENY. Official sources before any consequential choice.
-- Do not infer Iran eligibility, identity/KYC approval, earnings, crypto payout, or ToS permission merely from a site URL.
-- No false location, account data, false portfolio or application history.
-- Mandatory human approval before signup, sending a proposal, accepting legal terms, payment, public publishing, changing account security/permissions, software installation where consequential, deleting records, or DB migration.
-- No secrets/keys/passwords/OTP/session tokens/payment details; redact clients, personal emails, addresses, phone numbers and NDA-protected work.
-- IDs are stable; cite URL and observation date; reports separate FACT / HISTORICAL / USER_REPORTED / UNVERIFIED / RECOMMENDATION / APPROVED_ACTION / RESULT.
-- Append-only event log plus one current status file; don't invent work or status. Use clear correction/supersession; do not erase history.
+## Cost, access and security
+- Free → usable free tier → verified credit → genuinely free alternative → STOP. Unknown cost, quota, overage, KYC, country eligibility or payment = UNKNOWN and no activation.
+- No payment, upgrade, bid submission, customer message, account creation, KYC upload, contract, publication, account-security change, destructive delete, production write or consequential install without the user's **explicit approval for that action**.
+- No fabricated country/residency, credentials, income, portfolio, status or availability.
+- Never store secrets, tokens, session URLs, OTP, identity documents, private client messages, personal addresses, bank details or protected deliverables. Use minimal redacted reference links instead. Private repo is NOT a safe vault.
+- Preserve least privilege. No GitHub Actions, agent, plugin, new DB or CI usage solely for aesthetics.
+
+## Record discipline
+- One canonical current record for a specific fact class; archive/snapshot is immutable *history*, not an alternate CURRENT.
+- Status values must have a timestamp and a provenance level: `DIRECTLY_OBSERVED`, `USER_REPORTED`, `HISTORICAL_SOURCE`, `ASSUMPTION`, or `UNVERIFIED`. Proposal ≠ approval, action ≠ success.
+- Record event: time/timezone, actor, entity ID, before, executed or observed action, actual result, evidence, approval (if required), after, next.
+- Never overwrite a historical event to hide an error; append a correction and link it. Use Git diffs/commits and readback for audit.
+- Never infer an entire platform's country eligibility or payment method from one job listing or a registration dropdown.
+
+## Assistant operating rule
+Read [handoff](08-operations-and-continuity/HANDOFF.md) and [index](08-operations-and-continuity/WORK-INDEX.md) before a nontrivial action. Research current terms from first-party sources only when materially needed. Human authority for consequential actions. On inaccessible sources or unknown costs, **UNVERIFIED / STOP**, not guessing.

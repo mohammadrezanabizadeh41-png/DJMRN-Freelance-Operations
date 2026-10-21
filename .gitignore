@@ -1,0 +1,21 @@
+# Local confidential or machine-generated data; never track in operational memory.
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.pem
+*.p12
+*.pfx
+*.key
+*.kdbx
+*.sqlite
+*.sqlite3
+.local/
+private/
+client-private/
+secrets/
+credentials/
+.DS_Store
+Thumbs.db
+# .gitignore is not a secure vault and cannot remove already tracked secrets.
