@@ -19,3 +19,12 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Re-read live GitHub main and nine files; checked 1313 historical records, A25/B17, queue7 and relative navigation links.
 - Findings and limitations captured in [REC-ARCH-001](VERIFICATION-2026-10-21.md).
 - PASS for documentation/readback only; user machine Python script and real client/project workflow NOT run.
+
+## 2026-10-21 — RESEARCH-002 — Evidence-led deep architecture review
+
+- User challenged whether the previous architecture was truly based on direct research; assistant explicitly acknowledged it had not been sufficiently comprehensive.
+- Directly inspected GitHub Issues, AGENTS.md, Diátaxis, ADR, PARA, Fowler Event Sourcing, Google SRE postmortem case and public TIL/Beads repositories; read full HTML A-Mem 2025 research; inspected Generative Agents and MemGPT abstracts (not full papers).
+- Compared Git-native, PARA, GitHub Issues-first, Zettelkasten/TIL, Beads, full event-sourcing and hosted vector-RAG candidates for actual freelance constraints.
+- Added evidence-led report, retrieval protocol and five known-path documentary smoke checks; enriched LESSON schema without creating fake past projects.
+- Exa connected research hit existing credit limit; **no payment** or top-up. No Notion write, installation, website login, proposal, contract, DB or workflow activation.
+- Claims explicitly limited to source-grounded documentary retrieval; operational assistant memory reuse **not yet tested**.

@@ -14,3 +14,7 @@
 10. Run/read `scripts/validate_repository.py` where an authorized Python-capable environment exists; a repository instruction is not proof that a given assistant has tool access.
 
 This is a documentation/operations assistant contract, not a license to run autonomous agents or initiate external jobs.
+
+## Evidence-based long-term retrieval
+
+For requests of the form “What did we do before?” or “How did we solve this?”, follow [MEMORY-RETRIEVAL-PROTOCOL.md](08-operations-and-continuity/MEMORY-RETRIEVAL-PROTOCOL.md): exact ID/current record → dated event → linked specific lesson with scope and exceptions. Cite GitHub paths and observation dates; never invent a prior success. User's free-first approval and no-Notion-write rules still apply.

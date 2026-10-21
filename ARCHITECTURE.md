@@ -50,3 +50,9 @@ These are **logical states**, never claims that the sequence has occurred. Propo
 First useful manual operation → full read/write/readback → one client-work or source review → measure friction. Only add Issues/Projects/automation/DB if observed retrieval/synchronization pain justifies it and user explicitly approves its activation.
 
 [Research and citations](provenance/ARCHITECTURE-RESEARCH-2026-10-21.md) · [Decision DR-0001](08-operations-and-continuity/decisions/DR-0001-github-operational-authority.md).
+
+## 2026-10-21 deep-review follow-up — v1.2 retrieval architecture
+
+A further **direct, multi-source research review** identified that *storing documents* and *retrieving dependable experience* are different problems. Preserve these three boundaries: **historical evidence**, **dated operational state**, **curated scenario-specific lessons**. Short targeted retrieval + explicit provenance outrank expensive semantic search for the present seven-site queue. See [full source-assessed research](provenance/ARCHITECTURE-RESEARCH-2026-10-21-DEEP-REVIEW.md), [assistant memory retrieval protocol](08-operations-and-continuity/MEMORY-RETRIEVAL-PROTOCOL.md) and [five repository readback probes](08-operations-and-continuity/RETRIEVAL-TEST-2026-10-21.md).
+
+This does **not** assert that the architecture is empirically best or that the assistant has automatic persistent knowledge. Validate real work before adding more systems.
