@@ -21,4 +21,4 @@ Select a real site from the 7-item queue or historical A list, verify account/pr
 - No independent end-to-end real client acquisition / delivery / payment has been validated solely by this repository. Documented ≠ operationally proven.
 
 ## Recovery
-Start [README](../../README.md) → [PROJECT-RULES](../../PROJECT-RULES.md) → [WORK-INDEX](WORK-INDEX.md) → specific record. Last architecture log: [ACTIVITY-LOG](ACTIVITY-LOG.md). If source can't be reached say `UNVERIFIED`.
+Start [README](../README.md) → [PROJECT-RULES](../PROJECT-RULES.md) → [WORK-INDEX](WORK-INDEX.md) → specific record. Last architecture log: [ACTIVITY-LOG](ACTIVITY-LOG.md). If source can't be reached say `UNVERIFIED`.
