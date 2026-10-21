@@ -1,0 +1,8 @@
+"id","platform","url","account_state","operational_state","applications_sent","source_url","as_of"
+"INT-01","LaborX","https://laborx.com/","QUEUE_ACCOUNT_UNVERIFIED","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"INT-02","CryptoTask","https://www.cryptotask.org/en","QUEUE_ACCOUNT_UNVERIFIED","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"INT-03","Jobbers.io","https://www.jobbers.io/","ACCOUNT_ACTIVE_8_SERVICES","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"INT-04","freelancermap","https://www.freelancermap.com/projects","ACCOUNT_ACTIVE_BASIC","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"IR-01","کارلنسر","https://www.karlancer.com/","USER_REPORTS_ACCOUNT","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"IR-02","پارس‌کدرز","https://parscoders.com/","USER_REPORTS_ACCOUNT","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
+"IR-03","ای‌استخدام","https://www.e-estekhdam.com/","USER_REPORTS_ACCOUNT","QUEUED_FOR_REVIEW","0_CONFIRMED","https://app.notion.com/p/400c8c6846908125ae1ee0bd4a9625d4","2026-10-21"
