@@ -94,3 +94,7 @@ Values not observed = `UNKNOWN`; no fabricated leaderboard ranks, reported reven
 
 ## Final methodological judgment
 Prioritize **high-quality art direction + actual Orsola interface when documented + precise editing/voice/captions** over unstructured long text-to-video generations. Sample work can proceed with site assets and conceptual animation; product-capability claims must wait for synthetic live test or clearly labelled simulation.
+
+## Creative scenario archive, expanded 2026-10-23
+The six-funnel production reference now also includes [human-first universal use-case story structures, 12 concept treatments and 12 hook tests](AD-SCENARIO-LAB-UNIVERSAL-USE-CASES-AND-COMPETITOR-INSIGHTS.md), informed by [documented Orsola voice/scheduled jobs and first-party competitor positioning](AD-LANE-SIMPLICITY-TIME-VALUE-COMPETITOR-RESEARCH.md).
+**Preserve benchmark distinction:** vendor creative case/brand-lift stories may demonstrate marketing method, *not* successful Orsola scripts. No specific rival ad copy/video has been scraped/copied into this repo, and no comparative ROI/time-savings result exists.
