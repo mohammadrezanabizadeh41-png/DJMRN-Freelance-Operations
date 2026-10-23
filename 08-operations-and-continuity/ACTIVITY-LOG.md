@@ -81,3 +81,7 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - New screenshot: prior Senior Technical Architect (duplicate, 1-time delivery not evident); Fullstack-Entwickler 6 months+; IPSWAYS Java/Jakarta EE Backend 3 months+; ForTech SAM/Lizenzmanagement ServiceNow Presales (duration not displayed but deliverable not evident).
 - **0 full-review selections**, 1 repeat among 4 cards; no false inference that last role is proven multi-month. [Evidence and decisions](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md), [root instructions](../PROJECT-RULES.md), and [journal](sessions/FMAP-SESSION-001.md).
 - No browser action, application, account modification, payment or Notion write.
+
+## 2026-10-23 — FMAP-012 — Screen 3 cards with mandatory one-off rule
+- User screenshot showed AKKODIS Robot Framework SW Tester (duration not shown); Amoria Bond Senior Security Manager (12 months+ and excluded); AMM ENTERPRISE COMOS Administrator L2/3 (duration not shown, no fixed deliverable evidenced).
+- 0 suitable one-off projects selected for PDF inspection; no applications. [Headline record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
