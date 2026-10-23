@@ -93,3 +93,6 @@ User confirmed no prior Immoware24 / German WEG account checking experience and 
 
 ## FMAP-021 — four jobs screened, 2026-10-23
 Latest 4 freelancermap screenshots/public listing descriptions: MS Fabric administrator 12+ months, commission-based recurring phone sales, SOLCOM ISMS manager 6+ months, IP Systems industrial network administrator 6–12 months. **All skipped under one-off-only constraint; 0 next PDF candidates.** [Evidence](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). Next: search fixed deliverable phrases and verify each result; no applications or external changes.
+
+## FMAP-022 — six screenshot listings (2026-10-23)
+Of 6 new remote/freelance cards, **0 suitable for one-off full PDF review**. ForTech SAP PSM = 3–6 months; MSIT GCP/dbt instructor = scheduled German live course sessions and periodic cohorts; joyIT SAP BW/IS-U requires 5 years each; mindsquare SAP FI euBP bespoke architecture in German requires proven SAP specialization; two techculture security-bank incident roles in Abu Dhabi have unknown term, no bounded deliverable or confirmed user skill fit. [Full record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). Next: search actual discrete deliverables instead of staffing job titles. No bids or expenditure.
