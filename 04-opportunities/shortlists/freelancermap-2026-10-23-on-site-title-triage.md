@@ -157,3 +157,15 @@ From user's **one-page PDF**, [canonical BBNI #3064264](../OPP-20261023-005.md) 
 
 ## FMAP-020 — BBNI closes after user confirms missing skills
 Although BBNI #3064264 matched the **one-off deliverable** rule, user says **no prior Immoware24 / WEG annual review experience** and directs skipping if AI collaboration cannot deliver responsibly. Official manual and optional 30-day trial cannot provide prior professional experience or take responsibility for `testiert` signoff. [Canonical OPP](../OPP-20261023-005.md) now **CLOSED / NOT_APPLIED**. No more PDF or application needed unless user explicitly reopens.
+
+
+## FMAP-021 — four screenshot listings reviewed (2026-10-23)
+
+Four cards were submitted by user and their public descriptions checked. The user's rule is one-time deliverable contracts only.
+
+1. teamative Germany GmbH — MS Fabric Administrator: advertised 12 months or more, 1–2 days/week and German-language communication. **SKIP**. https://www.freelancermap.de/projekt/ms-fabric-administrator-m-w-d-asap-12-monate-remote
+2. Digidash Design — Vertriebspartner on commission, Hamburg crafts: recurring telephone prospecting, 15% of paid customer contracts, no fixed pay. **SKIP**. https://www.freelancermap.de/projekt/vertriebspartner-m-w-d-nebenberuflich-auf-provision-termine-mit-dem-hamburger-handwerk
+3. SOLCOM GmbH — 1084675 IT Security Manager Aufbau ISMS: 6 months or longer and 80–100% workload, no one-time acceptance. **SKIP**. https://www.solcom.de/fuer-freiberufler/projektliste/1084675-it-security-managerin-fuer-den-aufbau-eines-isms-mwd
+4. IP Systems GmbH — Senior IT/OT Network and Security Administrator Ref. 1380: 6–12 months full-time. **SKIP**. https://www.freelancermap.com/project/wir-suchen-einen-senior-it-ot-network-und-security-administrator-m-w-d-ref-1380
+
+**Outcome:** 4 checked; 0 suitable for full PDF review or application; no outgoing proposals or account changes. Poster numbers are not automatically freelancermap listing IDs. Seek fixed-price one-off outputs, not long-term role titles.
