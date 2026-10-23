@@ -112,3 +112,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Full text sets `Projektlaufzeit: 01.01.2027 bis 30.06.2027` (**six months**), `Auslastung: 100%`, Expert seniority and `Tagessatz 600 Euro` (**day rate**, contrasted with platform header `600.00 € Budget`). True employer/client, contract/KYC/lawful payout and gross billable days unverified.
 - [Canonical deep review](../04-opportunities/OPP-20261023-004.md) status **REJECTED_BY_ONE_OFF_RULE / NOT_APPLIED** due embedded full-time six-month term. Independent official NovaSearch company site lists contact Xenia Sadzikowski; company verification is not payment guarantee.
 - [Reusable screening lesson](../07-lessons-and-playbooks/LESSON-2026-003.md). No application, CV sent, account changes, payment or Notion mutation.
+
+## 2026-10-23 — FMAP-018 — User declines NovaSearch; six-card search and public source follow-up
+- User declined NovaSearch #3064452 from preceding full PDF; status now USER_CONFIRMED_SKIP, not applied.
+- Six new results in screenshots; source opened for IAssist Cold Caller (#3064397: 70–100 calls/day, exclusively commission), SOLCOM 1084690 building-services risk assessment (6 months+, 50–80% remote weekend incident support) and BBNI WEG property accounts (2025, **27 units**, Immoware24, 700-euro budget label). Only BBNI provides a clearly single review-and-attestation deliverable in public text; client competency/qualification still unknown.
+- Open Link Cloud/Edge Architect and FERCHAU/ForTech SAP consulting remain screenshot-only and not shortlisted. [Evidence-based six-card record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No bid, income, fee payment, account/alert change or Notion write.
