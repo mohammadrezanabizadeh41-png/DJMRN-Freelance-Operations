@@ -37,6 +37,7 @@ User is developing professional **sample advertisements and video teasers** dire
 | DEC-012 | User chose 30-second storyboard **Model 07** as preferred visual direction; split into 3 × 10-second chapters with consistent character, atmosphere and design | USER_CONFIRMED model choice, NOT final production approval or certified UI/brand |
 | DEC-013 | Render three video chapters **without generated VO**; record English voice separately, align by unified 30s master timeline, mix VO in editor, then subtitle against measured voice | USER_CONFIRMED audio/subtitle workflow; exact other script lines and timing still draft |
 | DEC-014 | **30s video, English voice ends by 25.000s; 25–30 only visuals and optional licensed music/SFX, with no narrated speech or spoken subtitles** | **USER_CONFIRMED** latest timing requirement; exact new VO cue timings in ORSOLA-013 v02 are proposed until WAV measured |
+| DEC-015 | User will produce three 10s silent video clips, concatenate into one 30s ad, create and dub licensed English VO independently (last word by 25s), add music then subtitles timed from actual voice; preserve full integrated production plan in this project GitHub folder | USER_CONFIRMED current production/archive instruction (2026-10-23); video/TTS/subtitles not created yet |
 
 **Current synchronization protocol:** [ORSOLA-011 / Model07 30s VO, per-second images, word time estimates, master and three local SRT subtitle tracks](production/PA30-MODEL07-AV-SYNC-v01/README.md). This is a text-only timing plan, not final voice or video. The Hook A wording remains user-confirmed, but other narration and actual measured timings require separate approval.
 
@@ -137,6 +138,10 @@ After the user instructed continued staged work, assistant drafted [P-A storyboa
 The user explicitly selected **Option A — `One day. Too many tabs?`** for the **opening 0–3 seconds** of G1/P-A, instructed a revised EN script and storyboard, and forbade image/video generation now. [P-A **v3 user-hook-selected, textual storyboard**](AD-PILOT-PA-STORYBOARD-v3-HOOK-A-SELECTED.md) contains a 30-whitespace-token EN narration draft, 6 timed scenes totaling 20s, motion/text/keyframe instructions and precise claims/rights status. v1 and v2 remain as prior revisions.
 
 **Canonical current tasks:** [01 action backlog](01-ALL-FOLLOWUPS-ACTION-BACKLOG.md) = **15 DONE, 28 PENDING, 14 BLOCKED_EXTERNAL, 9 WAIT_APPROVAL** (66 total). Only `OR-ACT-025` newly DONE **for the user's hook selection/review decision**; `026` final VO, `027` actual/user-approved frames and `006` final end card are **PENDING**. Hook decision does not constitute approval of other v3 VO lines or production. No images, recordings, videos, applications, subscriptions, advertising or spending.
+
+## 8D. ORSOLA-014 — current single-entry 30-second production handoff
+
+**CURRENT:** [**ORSOLA-014 — راهنمای جامع و مرجع تولید نهاییِ ۳۰ ثانیه‌ای (سه کلیپ ۱۰ ثانیه‌ای، وویس تا ۲۵ و زیرنویس)**](04-MODEL07-30S-PRODUCTION-MASTER-HANDOFF-2026-10-23.md). Preserve [v02 voice/image subtitle timing](production/PA30-MODEL07-AV-SYNC-v02-VOICE-END-25s/README.md) with hard `VO_END<=25` and 30s visual master. 3 silent clips 0–10/10–20/20–30 will be produced by user, joined, then external licensed English WAV mixed, music/SFX placed and SRT aligned from measured audio. `28–30s`: city/mountain sunset alone. Picture refs and old/superseded comparison saved in Library `/Orsola-Project/Production-Handoff-2026-10-23/`. Model07 image choices and partial source assets are not an authenticated live Orsola GUI or paid video execution. No finished rendered videos, WAV, measured subtitles or brand submission; 66-task statuses unchanged.
 
 ## 8. Maintenance and version policy
 
