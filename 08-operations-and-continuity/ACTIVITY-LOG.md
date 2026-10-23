@@ -75,3 +75,9 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 ## 2026-10-23 — FMAP-010 — User requires one-off fixed-deliverable projects only
 - User explicitly rejected monthly/multi-month ongoing contracts regardless of Remote/Freelance designation. Reclassified all four previous screenshot jobs (Dynamics 365 Consultant, Dynamics Developer 12mo+, DEED Test Automation 14mo+, Senior Fullstack Publishing 6mo+) as **SKIP_BY_USER_DURATION_PREFERENCE**. Corporate website #3063328 remains user-declined by complexity.
 - Verified official site visible search controls do NOT establish a dedicated duration/fixed-price filter; `Freelance` is not one-off and `Online since 18 days` is publication age. [Reproducible one-off search policy](../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md) records keyword alternatives `Festpreis`, `einmalig`, `fixed price`, `one-off` and `Pauschalpreis`, limitations, and manual exclusion rule. No site setting edited or proposals sent.
+
+## 2026-10-23 — FMAP-011 — Persist hard one-off screen and reject four poor-fit results
+- User reiterated one-off output-based freelance work ONLY, instructing assistants to ignore monthly/multi-month contracts without surfacing them as candidate applications and store policy in GitHub.
+- New screenshot: prior Senior Technical Architect (duplicate, 1-time delivery not evident); Fullstack-Entwickler 6 months+; IPSWAYS Java/Jakarta EE Backend 3 months+; ForTech SAM/Lizenzmanagement ServiceNow Presales (duration not displayed but deliverable not evident).
+- **0 full-review selections**, 1 repeat among 4 cards; no false inference that last role is proven multi-month. [Evidence and decisions](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md), [root instructions](../PROJECT-RULES.md), and [journal](sessions/FMAP-SESSION-001.md).
+- No browser action, application, account modification, payment or Notion write.

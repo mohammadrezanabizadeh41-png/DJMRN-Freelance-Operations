@@ -24,3 +24,11 @@
 
 ## Assistant operating rule
 Read [handoff](08-operations-and-continuity/HANDOFF.md) and [index](08-operations-and-continuity/WORK-INDEX.md) before a nontrivial action. Research current terms from first-party sources only when materially needed. Human authority for consequential actions. On inaccessible sources or unknown costs, **UNVERIFIED / STOP**, not guessing.
+
+## Hard work-selection constraint (user directive, 2026-10-23)
+
+**ACTIVE for all freelance site sourcing unless the user explicitly changes it:** Only recommend/request **one-off, finite, deliverable-based assignments** with explicit completion/handover. Do **NOT** shortlist recurring/monthly retainers, full-time staff-augmentation, multi-month placements (e.g. 3/6/12/14/24 months+) or long-term support contracts, **even if marked Freelance and 100% remote**.
+
+For a listing with **no visible duration or deliverable**, status is UNKNOWN; never assume that `ASAP` or `Freelance` means one-off. At headline screening stage do not promote it as suitable unless it explicitly describes a specific bounded one-time result; defer/skip with reason. If the user requests full detail despite uncertain duration, check the full description; no application before confirmed scope and exact approval. Prefer finite website repairs, creative deliverables, scripts, one-time audits, finished assets, etc. This hard constraint overrides **older** ROI/category research and historical site screens. Archive rejected/unknown adverts with evidence, not duplicate false opportunities.
+
+Read [freelancermap one-off rule](03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md) for the current site. No site filter has been proven to guarantee one-off results; manually screen all listings.

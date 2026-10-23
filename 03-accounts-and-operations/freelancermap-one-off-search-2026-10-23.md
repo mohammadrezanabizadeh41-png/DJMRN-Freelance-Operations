@@ -30,3 +30,13 @@ Date: 2026-10-23; SOURCE: user direct instruction plus verified visible site sea
 Try `Festpreis` with existing Remote + Freelance + Worldwide, observe results; if none, `einmalig` / `fixed price` / deliverable skill terms one at a time. Optionally click **advanced search options** and send one screenshot so we can inspect whether any additional duration/negative keyword controls exist; no need to resend normal sidebar screenshots.
 
 References: https://www.freelancermap.com/projects ; https://www.freelancermap.com/help.html ; historical UI options in [this repo](freelancermap-search-ui-2026-10-21.md). No search/filter interaction executed inside user's browser; advice and research only.
+
+## Confirmed user instruction and 2026-10-23 screen correction (FMAP-011)
+
+User repeated the **hard ignore rule**: from now on, monthly/long-duration contracts must not appear in the recommended list for a full description review. The scan of the next four screenshot cards supports it:
+- Duplicate Senior Technical Architect – Secure AI Infrastructure: no duration displayed, but a senior architecture role with no explicitly finite deliverable; preliminarily exclude for skill fit / unproven one-off shape.
+- Fullstack-Entwickler (m/w/d), Düsseldorf: **6 months+** -> exclude.
+- IPSWAYS – IPS Projects GmbH, Backend-Entwickler Java / Jakarta EE (m/w/d), Karlsruhe: **3 months+** -> exclude.
+- ForTech Consulting GmbH, SAM / Lizenzmanagement Prozessexperte im ServiceNow-Umfeld – Unterstützung im Presales (m/w/d): screenshot **does not show duration**, so do NOT call it a multi-month role; nevertheless this is specialist process/Presales support and no bounded output is visible -> not recommended for detailed review on title alone.
+
+No new approved candidate in these four. Job title screen ≠ verified detailed scope. Filter controls cannot be claimed to automatically exclude all long commitments.

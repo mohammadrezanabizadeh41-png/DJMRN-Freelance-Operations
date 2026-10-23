@@ -84,3 +84,10 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 - Four most recent photographed roles each have 6/12/14 month+ duration and are now to be ignored regardless of earlier skill-fit discussions. Previous 80-page site role remains explicitly declined for complexity.
 - Site's currently visible controls have **no verified duration or fixed-price checkbox**; use standalone main-box search terms `Festpreis`, `einmalig`, `fixed price`, `one-off`, `Pauschalpreis`. Treat results as candidates, not automatic matches.
 - [Detailed new mandatory filter/selection rule](../../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md) created; exact current filters unchanged. No application, payment or account setting change.
+
+## FMAP-011 — user reaffirms one-off only and four-title review, 2026-10-23
+
+- User explicitly repeated: ignore contracts with months or monthly recurring work, exclude them from shortlist for full detailed review, and **make this permanent in repository**.
+- One new screenshot shows 4 listings: duplicate Senior Technical Architect (AI gateways/sandboxing; advanced specialist, no one-off output evident, duration not shown), Düsseldorf Fullstack Developer **6 months+** (skip), IPSWAYS Backend Java/Jakarta EE **3 months+** (skip), ForTech ServiceNow SAM licensing Presales expert (duration **not visible**, scope apparently specialist support, no one-off deliverable evident -> skip at headline stage).
+- 4 cards, one duplicate, three other titles, **no new first-choice candidate**. Title-only analysis; no details opened, listing IDs or prices made up, and no application submitted.
+- Strengthened durable operating rule in root `PROJECT-RULES.md` and `AGENTS.md`; [full dated four-card triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). Continue looking specifically for bounded single-deliverable job descriptions, not consulting placements.

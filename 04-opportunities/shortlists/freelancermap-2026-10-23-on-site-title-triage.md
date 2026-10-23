@@ -62,3 +62,16 @@ This is **screenshot-sourced** rather than independently web-verified live avail
 - **Closed as USER_DECLINED_COMPLEXITY:** corporate SEO website [OPP-20261023-001](../OPP-20261023-001.md), despite valid earlier research.
 - **Do NOT request PDFs for these duration-mismatched roles:** Amass Technology Dynamics 365 Consultant (12 months+), Dynamics Developer (12 months+), DEED Consulting Test Automation Engineer (14 months+), Dietrich Spohr Senior Fullstack Publishing Platform (6 months+). Previously floated DEED/Publishing as conditional, but user's new rule overrides those recommendations.
 - Search new listings **only when they promise a one-off clearly bounded deliverable**; no dedicated one-off checkbox verified. See [one-off search policy](../../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md).
+
+## FMAP-011 — Four more on-account result cards, 2026-10-23 — hard duration gate applied
+
+**Evidence:** 1 user screenshot, cards only, no original text of detail pages. **Four visible, ONE repeated from prior screenshots, THREE newly seen titles. ZERO accepted for detailed PDF review.** No project IDs, source permalinks, employer bids or actual costs verified.
+
+| Card | Employer and exact visible title | Screenshot-only facts | Outcome and grounded reason |
+|---|---|---|---|
+| 1 (repeat) | **Senior Technical Architect – Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing)** | Remote Germany; 100% remote; Freelance; ASAP; 14.10.2026; Featured Project | **SKIP**. Same previously reviewed title; no evidence of bounded one-off deliverable, highly senior security/infrastructure specialization; contract length UNKNOWN, do NOT invent months |
+| 2 | **Fullstack-Entwickler (m/w/d)** | Düsseldorf Germany; 100% remote; Freelance; **6 months+**; ASAP; time 15:13 | **SKIP — DURATION** 6 months+ directly conflicts with user's hard one-off-only requirement; employer not visible |
+| 3 | **IPSWAYS - IPS Projects GmbH — Backend-Entwickler Java / Jakarta EE (m/w/d)** | Karlsruhe Germany; 100% remote; Freelance; **3 months+**; 10/2026; time 15:02 | **SKIP — DURATION**, plus Java/Jakarta enterprise expertise not demonstrated |
+| 4 | **ForTech Consulting GmbH — SAM / Lizenzmanagement Prozessexperte im ServiceNow-Umfeld – Unterstützung im Presales (m/w/d)** | Remote Germany; 100% remote; Freelance; ASAP; time 14:59 | **SKIP — NOT ONE-OFF EVIDENT / SPECIALISM**. No duration visible; support for SAM/license-management process and Presales does not establish deliverable-only work. Do NOT label multi-month as confirmed |
+
+**Policy:** user reaffirmed ignore monthly/multi-month work entirely when selecting ads for review. Parent policy: [PROJECT-RULES.md](../../PROJECT-RULES.md). Details: [site one-off search rule](../../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md). Reuse exact title to detect duplicates; do not invent listing IDs or budgets. No full PDFs requested for any of these four.
