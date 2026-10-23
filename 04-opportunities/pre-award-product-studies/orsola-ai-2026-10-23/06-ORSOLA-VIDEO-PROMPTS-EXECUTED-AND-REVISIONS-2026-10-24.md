@@ -198,3 +198,5 @@ Wrong or duplicated letters, unrelated brands, generic logos, altered domain, ca
 3. An external URL inside an LLM video prompt is **not proof** the generation engine can open that URL, retrieve its SVG or render exact letters. SVG overlay and manually set `Orsola`/`orsola.ai` are the deterministic quality gate.
 4. “Checks completed” is visual metaphor, not evidence that actual emails, calendar events, or tasks were run. No false interface claims in final advertised version.
 5. Unreported model identifier, render mode, seed, frame count, credits consumed, output hashes and exact clip lengths = `UNKNOWN`. See [render receipts](08-ORSOLA-VIDEO-RUN-RECEIPTS-AND-LESSONS-2026-10-24.md).
+
+**Supplement (ORSOLA-020 — intermediate historical prompt variants):** [Earlier sunrise/connecting/coffee/outro prompt drafts and change rationale](10-ORSOLA-PROMPT-VARIANTS-AND-DECISION-DIFFS-2026-10-24.md). This preserves reusable variants without claiming that every exact provider-submitted prompt was exported.
