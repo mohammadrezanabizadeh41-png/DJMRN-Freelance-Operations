@@ -1,5 +1,7 @@
 # ORSOLA-016 — English video prompt archive: production iterations, four final scene specifications and reusable logic
 
+> **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
+
 **Recorded:** 2026-10-24 · **Goal:** G1/P-A Model07 · **Source:** text of assistant prompts/user-directed revisions in project-continuation chat plus older repository records. **Archival honesty:** These are the prompts *supplied* to the user, not byte-verified copies of the exact text actually pasted into every Dola render. The original Dola submission text/log and output MP4s have NOT been read back by this archivist.
 
 ## Prompt evolution / requirements (retain why each prompt changed)
