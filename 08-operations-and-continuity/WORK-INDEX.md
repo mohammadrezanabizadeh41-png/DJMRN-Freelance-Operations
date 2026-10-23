@@ -14,4 +14,6 @@
 | Won contracts | [process](../05-client-projects/WORKFLOW.md) | No verified JOB record yet | Create only after award evidence |
 | Reusable lessons | [index](../07-lessons-and-playbooks/LESSONS-INDEX.md) | 4 evidence-backed screening lessons | Check hidden duration AND unscoped talent pool listings |
 
+| **PRE-AWARD: Orsola AI video** | [primary study](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/README.md) · [map](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/SITE-INVENTORY.md) · [stage 2](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/PRODUCT-RESEARCH.md) · [stage 3](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/ADVERTISING-STRATEGY.md) · [session](sessions/ORSOLA-SESSION-001.md) | Public-site research and draft ad brief finished 2026-10-23; no award/product demo/video | Obtain rights, scoped one-off brief, safe demo, confirm script/claims |
+
 **Don't use index status as proof of current remote account access/price/payout.** No external action has been taken in this architecture review. Refresh `CURRENT-STATUS.md` upon actual workflow progress.
