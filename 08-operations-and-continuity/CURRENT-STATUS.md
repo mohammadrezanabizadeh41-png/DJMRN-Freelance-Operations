@@ -84,3 +84,9 @@ User confirmed no prior Immoware24 / German WEG account checking experience and 
 - Important gates: product's US/Canada beta target, native-app Coming Soon, unproven real workflow, inconsistent entitlement/permission descriptions, client brand/publication rights and finite deliverable scope.
 - GitHub observed PUBLIC; only non-confidential public-source evidence retained. Other DJMRN repos and Notion unchanged. Freelancermap active work unaffected.
 - **Next:** authorized client scope + brand assets + synthetic-data UI demonstration and owner-approved claims before real video production.
+
+## ORSOLA-002 — 2026-10-23 — Market validation desk study + 32 candidate ad opportunities
+- User requested re-evaluation of missing step before broad ad opportunity discovery. [Stage 4 market/competitor/audience/channel review](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-4-MARKET-AND-CAMPAIGN-VALIDATION.md) now completed as **public-source desk research**, not product-market-fit proof; first-party competitor sources and official distribution specs checked.
+- [Stage 5 catalog](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md) records **32 CONDITIONAL proposed one-off creative/delivery ideas**, prioritization based on claims/ease/risk, not measured ROI, sales or an actual job listing.
+- Primary gaps: brand/contract authority, campaign goal, eligible US/Canada persona, approved CTA/landing, brand kit, safe demo, customer data/analytics (signup, activation, retention, WTP), channel media budget. No customer analytics seen, no signups, ad launch, AI video render, spend or publication.
+- **Next:** owner-approved one goal + one audience + one eligible placement, finite output scope and sandbox demo; then script/test and propose lowest-risk first video.
