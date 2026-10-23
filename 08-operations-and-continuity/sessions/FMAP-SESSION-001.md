@@ -130,3 +130,6 @@ Screenshot of four projects: Senior SAP SD Pricing/Rebates (EU only in title, sp
 
 ## FMAP-020 — BBNI AI feasibility / conditional user SKIP (2026-10-23)
 User explicitly said they have never used Immoware24 or reviewed German WEG annual house charges. Asked if human + assistant could do job; if not, move on. Public manual/demo confirm learning possible but not enough for responsible **`testierte`** signoff or employer's essential prior experience. Decision: **SKIP / no bid** for [BBNI OPP](../../04-opportunities/OPP-20261023-005.md). AI can still support easier finite Excel and reconciliation jobs; no unapproved trial, data access, company contact or paid action.
+
+## FMAP-021 — four more cards checked, 2026-10-23
+User submitted four freelancermap screenshots. Compared headline cards and public descriptions with binding one-off-only rule. teamative MS Fabric Administrator has 12+ months; Digidash telephone sales is a recurring 15%-commission partnership, paid only after customer payment; SOLCOM ISMS role is 6+ months at 80–100% workload; IP Systems senior IT/OT network role is 6–12 months full-time. **All four skipped; zero PDF candidates; no applications or account changes.** [Detailed findings and public listing URLs](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
