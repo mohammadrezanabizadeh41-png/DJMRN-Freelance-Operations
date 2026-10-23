@@ -1,4 +1,10 @@
 # Orsola / DJMRN — Ready-to-Send Portfolio Intro Messages
+
+> ### NEW: گزارش جامع فارسی و نقشه آینده Orsola (2026-10-24)
+> **[18 — گزارش جامع فارسی برای ارائه شرکت، روش عملی تولید تبلیغ و راهبرد توسعه](18-ORSOLA-COMPLETE-PERSIAN-CLIENT-DOSSIER-AND-FUTURE-AD-ROADMAP-2026-10-24.md)** — پژوهش محصول، برنامه رقبا، ایده‌های پیام تبلیغاتی، Free/Pro/Agents، بردها، Dola، صوت و زیرنویس، شبکه‌های اجتماعی و توسعه سریالی.
+> **[19 — کاراکتر ثابت/ماسکات/ایجنت‌ها/قابلیت کشف و خرید مبتنی بر رضایت](19-ORSOLA-AGENTIC-DISCOVERY-COMMERCE-AND-MASCOT-ROADMAP-2026-10-24.md)** — **پیشنهاد توسعه محصول** نه قابلیت موجود یا پیاده‌سازی انجام‌شده.
+> **[20 — راهنمای خواندن تمام پرونده توسط یک دستیار هوش مصنوعی](20-ORSOLA-AI-REVIEWER-READ-ME-AND-QUESTION-ROUTER-2026-10-24.md)** — سؤال → منبع → سطح شواهد → پاسخ صادقانه؛ مسیر نمونه دستورِ قابل‌کپی برای همیار.
+> **وضعیت دارایی:** گزارش و ایندکس GitHub عمومی‌اند؛ تصاویر بردهای تصویری هنوز در کتابخانه فایل مالک و ویدیوهای MP4 هنوز در GitHub عمومی قرار ندارند. بردها و ویدیوی قابل‌پخش تنها پس از تأیید مالک اثر می‌توانند ضمیمه معرفی شرکت شوند.
 **2026-10-24** · Copyable templates for prospective company review. These do not state that the recipient commissioned, approved or paid for the work.
 
 ## English — email / LinkedIn / direct message
