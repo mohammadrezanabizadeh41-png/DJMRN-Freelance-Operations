@@ -1,5 +1,7 @@
 # ORSOLA-20261023 — پرونده پژوهش و آماده‌سازی تبلیغ ویدیویی
 
+> **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
+
 > ### ✦ 2026-10-24 · COMPANY-SHARE-READY CASE STUDY / LATEST PROJECT DOSSIER
 > This Orsola folder now includes a **public-readable client presentation and distribution proposal**, alongside the full operational archive. **The public repo holds documentation, prompt text, source references and image manifests—not publicly accessible original PNG/MP4 binaries.** The creator reports picture/video generation completed; actual merged final MP4, voice file, commercial audio/music and verified caption export are still not independently evidenced.
 >
