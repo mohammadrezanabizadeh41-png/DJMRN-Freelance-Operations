@@ -1,5 +1,7 @@
 # ORSOLA-20261023 — پرونده پژوهش و آماده‌سازی تبلیغ ویدیویی
 
+**Supplement (ORSOLA-020 — intermediate historical prompt variants):** [Earlier sunrise/connecting/coffee/outro prompt drafts and change rationale](10-ORSOLA-PROMPT-VARIANTS-AND-DECISION-DIFFS-2026-10-24.md). This preserves reusable variants without claiming that every exact provider-submitted prompt was exported.
+
 > **CURRENT 2026-10-24 — ORSOLA-015...019 / User-reported video-generation stage complete, voice/subtitles next.** The historical 30s 3×10 storyboard and provisional ≤25s voice schedule remain as plans; the user later developed four text-to-video scenes with nominal 6s prompts and reported video creation finished. Rendered media durations/joined export are **NOT independently inspected**; do not assert a verified 30.000s final video. The latest closing creative order is **sunset first, fully completed Orsola logo/domain LAST**. Read the new operating archive before voice work:
 > - [ORSOLA-015 — full production history and next-stage status](05-ORSOLA-015-OPERATIONAL-VIDEO-PRODUCTION-ARCHIVE-2026-10-24.md)
 > - [ORSOLA-016 — four detailed final video prompts + revision reasons](06-ORSOLA-VIDEO-PROMPTS-EXECUTED-AND-REVISIONS-2026-10-24.md)
