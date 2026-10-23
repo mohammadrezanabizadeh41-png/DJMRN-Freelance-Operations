@@ -29,3 +29,10 @@ Confirm independent brand/client authority, finite video scope, rights and safe 
 - **Stage 5:** compiled [32 hypothesis-level creative opportunities](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md), with claim gates, one-off asset form, eligibility and risk-based P1/P2/P3. No owner funnel analytics, paid ads or empirical ROI results were accessible.
 - **Decision:** hypothesis/opportunity discovery may proceed using public documents. Real product claim demos, client brand authorization, target persona + activation goal and final publishing rights remain hard gates for video production.
 - **What NOT done:** no new plugin/account/login, no paid action, no Orsola connected account, no actual video creation or advertiser ad launch, no other-repo edits, no private client data.
+
+## ORSOLA-003 — 2026-10-23 — Global full-funnel direct-brand scope
+- USER_REPORTED: user is working directly with Orsola and has broad authority to use brand identity for sample commercials to show brand for feedback. No actual video acceptance or payment recorded.
+- Corrected goals: international creative audience, G1 brand, G2 site, G3 registration, G4 first meaningful activation, G5 subscription purchase, G6 retention. Do not overweight Iran restriction as a creative segmentation factor.
+- Separate geographic creative reach from verified service eligibility: earlier published terms US/CA, re-fetch today shell only; no new eligibility proof. Native Download Coming soon.
+- [Stage4](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-4-MARKET-AND-CAMPAIGN-VALIDATION.md) CURRENT v2, [Stage5](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md) CURRENT v2 and [pilot scripts](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/INTERNATIONAL-PILOT-CREATIVE-KIT.md) created/linked.
+- Best low-cost first sample: P-A 20-second global illustrative branding. Product demo P-D needs safe real UI observation before factual claim. No sample media made, published, delivered or measured.
