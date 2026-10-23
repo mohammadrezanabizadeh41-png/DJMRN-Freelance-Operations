@@ -151,3 +151,7 @@ User shared 4 listing screenshots. Public descriptions confirm teamative MS Fabr
 ## 2026-10-23 — FMAP-022 — six new screenshot cards screened
 - 6 titles and public freelancermap sources checked: ForTech SAP PLM PSM 3–6mo; MSIT German live recurring GCP/dbt instruction; joyIT SAP BW/IS-U 5+ year specialized consulting; mindsquare SAP FI/euBP architecture; techculture SIEM/ISMS bank crisis roles in Abu Dhabi (exact duration and travel unverified).
 - **0 one-off executable opportunity candidates** and no application. [Evidence-based screening record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
+
+## 2026-10-23 — FMAP-023 — Seven title cards, six fresh, one repeat
+- Screened techculture SIEM Architect (repeat), techculture Incident Response (3–6 months full-time, actual Abu Dhabi/Germany travel), SOLCOM senior ISMS manager (12 months+), unverified-identity Senior IT Architect (term unknown), U&R setter (ongoing weekly calls/commission), MFP printer sales (ongoing 100% commission), SAP HCM trainer (Jan 2027–Dec 2028 rollout).
+- User's one-time-deliverable constraint rules out all 7 for further full-PDF review, but do **not** invent contract duration for SIEM Architect or unknown Senior IT Architect. [Complete evidence links and decisions](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). 0 bids, payments, account actions.
