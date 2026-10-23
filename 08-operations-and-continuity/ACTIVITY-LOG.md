@@ -147,3 +147,7 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 
 ## 2026-10-23 — FMAP-021 — four more unsuitable opportunities screened
 User shared 4 listing screenshots. Public descriptions confirm teamative MS Fabric 12+ months, Digidash ongoing commission-based telephone sales, SOLCOM ISMS 6+ months, IP Systems IT/OT networks 6–12 months. No one-off deliverable matches; no proposals. [Full shortlist log](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
+
+## 2026-10-23 — FMAP-022 — six new screenshot cards screened
+- 6 titles and public freelancermap sources checked: ForTech SAP PLM PSM 3–6mo; MSIT German live recurring GCP/dbt instruction; joyIT SAP BW/IS-U 5+ year specialized consulting; mindsquare SAP FI/euBP architecture; techculture SIEM/ISMS bank crisis roles in Abu Dhabi (exact duration and travel unverified).
+- **0 one-off executable opportunity candidates** and no application. [Evidence-based screening record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
