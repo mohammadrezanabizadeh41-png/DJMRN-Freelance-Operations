@@ -56,3 +56,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Confirmed directly from user's signed-in project-list screenshot: 1,028 results; filter chips Worldwide / Online since 18 days / Freelance / Remote and Newest sort. Unlike prior snapshot, user has toggled both work-type filters. Keyword query not visible.
 - Read only two listing **headlines and visible tags** as requested; specialized senior MSSQL DBA deemed preliminary poor fit, corporate SEO website deemed a candidate to open for full requirements.
 - [Dated source-grounded triage record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No IDs or project URLs invented; no application, candidate acceptance or costs incurred.
+
+## 2026-10-23 — FMAP-006 — Second logged-in screenshot title triage, deduplicated
+- User screenshot showed 3 cards; the previously shortlisted corporate SEO website repeated, not recorded as a new lead.
+- New: Senior Technical Architect — Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing), SAP FM/GM Consultant — both poor-fit based on headline only.
+- [Updated detailed shortlist](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md) and [session journal](sessions/FMAP-SESSION-001.md). No detail pages, applications, payment, account state change or new client engagement.

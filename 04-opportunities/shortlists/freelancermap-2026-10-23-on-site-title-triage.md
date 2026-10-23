@@ -33,3 +33,27 @@ User chooses either (a) open listing 2 and share its actual detail page for care
 
 ## Provenance notes
 This is **screenshot-sourced** rather than independently web-verified live availability. No screenshots or sensitive account details copied to repository. "Featured" indicates promoted placement, not confirmed reliability, eligibility or high return per hour.
+
+## FMAP-006 — second screenshot of project cards, 2026-10-23 (title-only review)
+
+**Provenance:** new user screenshot of the signed-in search-results page. Three *visible cards*, with the corporate website listing repeated from FMAP-005. This is **not three additional unique opportunities**. Card detail pages and exact listing URLs/IDs have not been opened. Preserve screenshot-derived text only (no image/private data upload).
+
+### Repeated card: corporate SEO website — STILL CANDIDATE
+- **Verlag J. Maiss GmbH** — **Erfahrener Entwicklungspartner für moderne, SEO-optimierte Unternehmenswebsite** (same title/client as prior screenshot).
+- Visible: `Featured Project`, `End client`, `Artificial Intelligence`, `Web Design`; `100% remote`, `Freelance`, `asap`, listing date `21.10.2026`.
+- **Disposition:** `PENDING_FULL_DESCRIPTION_REVIEW`. No new OPP ID or duplicate, no claims about WordPress technology, fixed pay, client language or legal eligibility.
+
+### New card: secure AI infrastructure architect — PRELIMINARY SKIP
+- Exact title: **Senior Technical Architect – Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing)**.
+- Employer name not readable/shown on cropped card; location tag `Remote, Germany`; `100% remote`, `Freelance`, `asap`; published `14.10.2026`; `Featured Project`.
+- **Disposition:** `SKIP_PRELIMINARY_BASED_ON_TITLE_ONLY`. Strong match with *research topics* does **not** establish senior hands-on AI security/infrastructure engineering experience. User may reopen if they have verified relevant production portfolio; no definitive eligibility assessment or application.
+
+### New card: SAP FM/GM consultant — PRELIMINARY SKIP
+- **MAM Gruppe** — **SAP FM/GM Consultant**.
+- Visible: `Barcelona, Spain`, `100% remote`, `Freelance`, `4 months+`, `asap`.
+- **Disposition:** `SKIP_PRELIMINARY_BASED_ON_TITLE_ONLY`. SAP Funds Management/Grants Management consulting requires specialist references not evident in current known skills. Formal country/payout/rate/access state unknown.
+
+### Net new review result
+- **3 visible cards; 1 repeated; 2 new**. Both newly seen cards are preliminary poor-fit; one previously identified website opportunity remains the **single open full-review candidate**.
+- No budget, application balance, employer messages or verified unique listing ID acquired. No proposal, client contact or saved-search change.
+- Continue with further headline screenshots **or** ask user to open the kept website opportunity for full requirements once they choose it. 

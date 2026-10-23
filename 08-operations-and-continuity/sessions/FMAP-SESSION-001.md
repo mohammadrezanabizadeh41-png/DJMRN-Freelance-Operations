@@ -59,3 +59,9 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 - First visible title `Senior Microsoft SQL Server Consultant / DBA (m/w/d) – langfristiges IT-Projekt`: **preliminary skip**, senior specialist DBA and >24 months. Second `Erfahrener Entwicklungspartner für moderne, SEO-optimierte Unternehmenswebsite` by Verlag J. Maiss GmbH: **candidate for full later inspection**, website/SEO skill relevance.
 - Stored visible metadata and decision reasoning in [signed-in 2-title triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). Neither listing was opened; exact IDs, links, budgets, terms and eligibility UNKNOWN; neither became a submitted OPP.
 - Next: user can show more result titles or open candidate #2 and share details. No application, saved-search change or spend.
+
+## FMAP-006 — title-only triage of next three visible result cards, 2026-10-23
+- The user sent a new screenshot with 3 cards. First was the **same** corporate SEO website job by Verlag J. Maiss GmbH from prior screenshot: **not a new opportunity**.
+- Newly seen: `Senior Technical Architect – Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing)` (remote/Germany, senior technical security role) and `SAP FM/GM Consultant` (MAM Gruppe, Barcelona, remote, 4+ months). Both marked **preliminary poor-fit**, not formal declines.
+- Reusable [screenshot-grounded title triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md) updated, retaining one potential corporate website candidate; no details read, IDs guessed, duplicate created or proposal sent.
+- Next user action: continue title screenshots or click the website listing to review scope. No unauthorized account change.
