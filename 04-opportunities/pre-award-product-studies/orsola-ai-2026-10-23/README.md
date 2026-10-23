@@ -131,3 +131,12 @@ U10: ۲۵ پاسخ Crawl ناموفق → retest انتخابی و browser مس�
 **تحویل این مرحله:** dossier پژوهشی و ماتریس ادعا/ریسک و آماده‌سازی تصمیم تولید، بدون ویدیوی ساخته‌شده یا شواهد قرارداد.  
 **آستانه شروع فاز ساخت:** شرح سفارشِ محدود و قابل تحویل + تأیید مالک برند + دمو امن + دامنه واقعی قابلیت‌ها + زمان/بودجه/فرمت‌های خروجی + approval روشن.
 **پرونده‌های تکمیلی:** [SITE-INVENTORY](SITE-INVENTORY.md) · [Stage 2 focused evidence](PRODUCT-RESEARCH.md) · [Creative detailed brief](ADVERTISING-STRATEGY.md) · [Journal](../../../08-operations-and-continuity/sessions/ORSOLA-SESSION-001.md) · [Reusable lesson](../../../07-lessons-and-playbooks/LESSON-2026-005.md).
+
+## ۷. مرحله چهارم و پنجم — ارزیابی تکمیلی پس از شناسایی نیاز (۲۰۲۶-۱۰-۲۳)
+پس از سه مرحله اولیه، کمبود «شناخت بازار، رقبا، سگمنت مخاطب، مسیر تبدیل و شواهد عملکرد واقعی» تشخیص داده شد. بر اساس خواسته کاربر، مرحلهٔ چهارم پژوهش کتابخانه‌ای اجرا شد و سپس مرحلهٔ پنجم برای دسته‌بندی فرصت‌های احتمالی آغاز و به یک فهرست ۳۲ ایدهٔ مشروط تبدیل شد. این مرحله ثبت قرارداد، انتخاب کانال برنده یا آزمون تبلیغات نیست.
+
+- [**STAGE-4-MARKET-AND-CAMPAIGN-VALIDATION.md**](STAGE-4-MARKET-AND-CAMPAIGN-VALIDATION.md): مقایسه دسته‌های رقابتی با منابع رسمی Lindy/Fyxer/Motion/Reclaim/Zapier؛ فرضیه‌های مخاطب؛ کانال‌ها؛ تعریف قیف Conversion/Activation/Retention/WTP؛ شواهد و اطلاعاتی که هنوز از صاحب محصول لازم است.
+- [**STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md**](STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md): **۳۲ نامزد برای پروژه‌های تبلیغاتی تک‌مرحله‌ای** در ۵ دسته، با اولویت آمادگی P1/P2/P3، پیشنهاد شکل خروجی، مجوزها و تست‌های لازم.
+- **یافته جدید:** شعار «AI که کار انجام می‌دهد» در بازار رقبا نیز دیده می‌شود؛ تمایز واقعی نیازمند نمایش سناریوی درست و اندازه‌گیری است. سند Orsola هدف‌های Activation، Retention و Willingness to Pay را بیان می‌کند، اما داده محصول/کمپین در دسترس ما نیست.
+- **وضعیت:** STAGE4_PUBLIC_DESK_RESEARCH_COMPLETE + STAGE5_CONDITIONAL_IDEA_CATALOG_COMPLETE؛ REAL_PRODUCT_DEMO, BRAND_APPROVAL, CUSTOMER_ANALYTICS, CAMPAIGN_TEST, CONTRACT, VIDEO_DELIVERY = NOT_DONE.
+- **گام بعدی:** کسب اجازه برند و شرح سفارش با هدف/مخاطب/رسانه/دارایی‌ها و تست دمو با داده مصنوعی. هنوز هیچ ادعای موفقیت واقعی کمپین یا درآمد مجاز نیست.
