@@ -144,3 +144,6 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - **Actual result:** Fourth stage market/competitor/persona/measurement readiness completed as desk review; [Stage 5](../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md) enumerates 32 candidate one-off deliverables grouped by workflow, persona, education, conversion and launch. Ranking is editorial readiness, NOT empirical ad performance.
 - **Security:** GitHub public source-only, no confidential client data, new connector, paid crawling, campaign activation, product account, ad spend, publication or writes outside freelance repository.
 - **Next:** choose brand-authorized audience/objective/CTA and test one narrow real product workflow with synthetic data; no basis yet to claim winning creative, customer acquisition or paid contract.
+
+## 2026-10-23 — FMAP-021 — four more unsuitable opportunities screened
+User shared 4 listing screenshots. Public descriptions confirm teamative MS Fabric 12+ months, Digidash ongoing commission-based telephone sales, SOLCOM ISMS 6+ months, IP Systems IT/OT networks 6–12 months. No one-off deliverable matches; no proposals. [Full shortlist log](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
