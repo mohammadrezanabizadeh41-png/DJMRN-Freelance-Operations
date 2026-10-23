@@ -25,7 +25,7 @@
 - Company label: **Verlag J. Maiss GmbH**.
 - Visible metadata: **100% remote**, **Freelance**, **ASAP**, end-client tag, AI and Web Design tags; Featured Project; visible date **21.10.2026**.
 - Why worth opening: website design/development + SEO and possible AI links match some user's declared skill areas.
-- **Unknown until opening:** project permalink/ID; technology (WordPress not established), full task and scope, language requirement (German title alone insufficient), schedule, budget, number of revisions, employer credibility, residency eligibility and lawful payout.
+- **Full PDF received 2026-10-23:** actual listing **#3063328**, [permalink](https://www.freelancermap.com/project/erfahrener-entwicklungspartner-fuer-moderne-seo-optimierte-unternehmenswebsite), **~80 subpages, bespoke/non-standard WordPress approach, price calculator, forms, SEO/GEO and AI-agent access**. Budget, timeline and cross-border eligibility unknown. [Complete screening](../OPP-20261023-001.md).
 - Status: **PENDING_FULL_DESCRIPTION_REVIEW**; no proposal, no user approval to send.
 
 ## Next action
@@ -41,7 +41,7 @@ This is **screenshot-sourced** rather than independently web-verified live avail
 ### Repeated card: corporate SEO website — STILL CANDIDATE
 - **Verlag J. Maiss GmbH** — **Erfahrener Entwicklungspartner für moderne, SEO-optimierte Unternehmenswebsite** (same title/client as prior screenshot).
 - Visible: `Featured Project`, `End client`, `Artificial Intelligence`, `Web Design`; `100% remote`, `Freelance`, `asap`, listing date `21.10.2026`.
-- **Disposition:** `PENDING_FULL_DESCRIPTION_REVIEW`. No new OPP ID or duplicate, no claims about WordPress technology, fixed pay, client language or legal eligibility.
+- **Disposition:** `FULL_REVIEWED_HOLD / NOT_SUBMITTED`. No duplicate candidate, no assumption of WordPress acceptance, price, contract or legal eligibility; compare against faster smaller projects first.
 
 ### New card: secure AI infrastructure architect — PRELIMINARY SKIP
 - Exact title: **Senior Technical Architect – Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing)**.

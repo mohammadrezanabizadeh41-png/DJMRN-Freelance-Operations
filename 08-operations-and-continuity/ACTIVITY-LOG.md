@@ -66,3 +66,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - User asked how to capture selected freelancermap project detail in Chrome for deep analysis.
 - Documented Chrome `Ctrl+P / Save as PDF`, completeness checks, posting permalink and chat attachment workflow: [FREELANCEMAP-SAVE-LISTING-PDF.md](../07-lessons-and-playbooks/FREELANCEMAP-SAVE-LISTING-PDF.md).
 - This is guidance only; no PDF received, full listing examined, employer contacted, application sent or paid action.
+
+## 2026-10-23 — FMAP-008 — Full PDF + public verification of freelancermap OPP #3063328
+- User attached 2-page print-to-PDF of Verlag J. Maiß GmbH corporate website listing; matched source URL/ID and original full scope, including 80 subpages, bespoke website rather than standard WP, price calculator, AI agents access and full-workload start ASAP.
+- Cross-checked public listing https://www.freelancermap.com/project/erfahrener-entwicklungspartner-fuer-moderne-seo-optimierte-unternehmenswebsite and official company imprint https://maiss.de/impressum ; identity signal positive but not client-payment assurance.
+- Created [OPP-20261023-001](../04-opportunities/OPP-20261023-001.md) as screened/conditional, with source-backed requirements, explicit unknowns and *hypothetical* effort table. No fee or statutory eligibility established and no message/application sent.
