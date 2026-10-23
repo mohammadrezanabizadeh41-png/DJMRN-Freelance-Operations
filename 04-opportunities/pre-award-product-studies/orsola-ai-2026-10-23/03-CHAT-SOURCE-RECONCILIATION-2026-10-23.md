@@ -147,7 +147,7 @@ The single canonical updatable checklist is **[01](01-ALL-FOLLOWUPS-ACTION-BACKL
 ## E. Exact handoff after reconciling the recovered chat
 
 **Current goal:** Preserve and later execute evidence-backed international Orsola sample ads, covering all six goals and a cross-cutting ordinary-person simplicity/value narrative.
-**Last completed before this chat:** five research stages, four production libraries, P-A v1 textual storyboard, 12 scripts/hooks, 66-item task backlog and ORSOLA-006 consolidation.
+**Last completed before this chat:** five research stages, four production libraries, P-A v1 textual storyboard, 12 scenarios and 12 hooks, 66-item task backlog and ORSOLA-006 consolidation.
 **This action:** user-provided historical chat material compared with existing GitHub files, original two historical Git commits independently verified, and a **new provenance crosswalk** added for previously hard-to-recall wording and visual-reference warnings. No live product/vendor benchmark conducted.
 **Pending next safe activity:** `OR-ACT-025` review P-A story/hook and `026` VO v2 then `027` keyframes, whenever the user instructs; do not call a renderer just for archival.
 **Hard blockers:** owner-approved real product demo/terms/eligibility/pricing, measurable value claims, approved publication/distribution, actual customer acceptance and media spend.
