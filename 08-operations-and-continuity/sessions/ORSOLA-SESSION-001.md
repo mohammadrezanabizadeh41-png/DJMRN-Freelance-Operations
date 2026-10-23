@@ -22,3 +22,10 @@ User instructed safe archival ONLY in DJMRN-Freelance-Operations. Live GitHub ve
 Confirm independent brand/client authority, finite video scope, rights and safe UI demo; do not advertise worldwide or native-app availability without revised proof. No customer communication, account signup, plugin activation, payment, Orsola usage or other-repo/Notion mutation made here.
 
 **Continuity:** read the case README first, stage evidence second, this dated journal and lesson third; records are historical evidence, not automatic memory of all future changes.
+
+## ORSOLA-002 — 2026-10-23 additional market-discovery workflow
+- User required a fourth/check stage before enumerating ad possibilities; examined existing canonical research without duplicating new product authority.
+- **Stage 4:** validated Orsola stated marketing goal (activation, retention, willingness to pay) from [official go-to-market blog](https://www.orsola.ai/en/blog/from-build-to-market-orsola-web-summit-vancouver); compared competitor self-described roles (Lindy, Fyxer, Motion, Reclaim, Zapier); audited US/Canada current target and native-app availability conflict; checked publisher video format guidance. [Full report](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-4-MARKET-AND-CAMPAIGN-VALIDATION.md).
+- **Stage 5:** compiled [32 hypothesis-level creative opportunities](../../04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23/STAGE-5-ADVERTISING-OPPORTUNITY-CATALOG.md), with claim gates, one-off asset form, eligibility and risk-based P1/P2/P3. No owner funnel analytics, paid ads or empirical ROI results were accessible.
+- **Decision:** hypothesis/opportunity discovery may proceed using public documents. Real product claim demos, client brand authorization, target persona + activation goal and final publishing rights remain hard gates for video production.
+- **What NOT done:** no new plugin/account/login, no paid action, no Orsola connected account, no actual video creation or advertiser ad launch, no other-repo edits, no private client data.
