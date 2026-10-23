@@ -95,3 +95,14 @@ Only card headings checked; no exact listing IDs, links or budgets visible. No P
 - Also mandatory German C1 and technical/scientific master's in PDF p2, initial Robot Framework and web-test tooling, desirable ISTQB/test management experience.
 - Badge says `100% remote`, text says `hauptsächlich remote`; guaranteed no on-site UNKNOWN. Payment/fees not stated.
 - Earlier AKKODIS card duration=UNKNOWN was factually correct **at screenshot stage only**; superseded by PDF evidence. No application or site interaction by assistant.
+
+## FMAP-014 — Four additional screenshot cards, 2026-10-23
+
+User supplied screenshot of cards only. No full descriptions, project IDs or budgets. Permanent filter: one-off deliverable required.
+
+1. Senior SAP SD Pricing and Rebates Consultant - Remote EU. EU/Spain; remote/freelance; ASAP. **Skip**: specialist SAP, no finite output on card. Duration unknown.
+2. SOLCOM GmbH: 1084713 Senior Lizenzmanager (m/w/d). Germany; remote/freelance; start 01.12.2026. **Skip**: senior licensing manager, no one-off output visible. Duration unknown. Number 1084713 is part of displayed title, not verified site project ID.
+3. mindsquare AG: Senior SAP Consultant FI/CO/MM/CATS – SAP Fiori. Germany; remote/freelance; **6 months+**; start 1/2027. **Skip by explicit duration**, also niche SAP.
+4. IT Sonix Custom Development GmbH: AI Solutions Engineer (m/w/d) – LLM, RAG und Agenten. Leipzig; remote/freelance; start 12/2026; tags AI Agents, RAG, LLM, LangChain, Python, TypeScript. **Related technology but not shortlisted**: duration unknown and one-time deliverable unproven. Date 12/2026 is not a 12-month term.
+
+Result: zero confirmed one-off opportunities among these four. No application, employer contact or account changes. Source is screenshot, not full job text.
