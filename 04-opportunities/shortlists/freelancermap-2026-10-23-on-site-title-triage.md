@@ -56,4 +56,9 @@ This is **screenshot-sourced** rather than independently web-verified live avail
 ### Net new review result
 - **3 visible cards; 1 repeated; 2 new**. Both newly seen cards are preliminary poor-fit; one previously identified website opportunity remains the **single open full-review candidate**.
 - No budget, application balance, employer messages or verified unique listing ID acquired. No proposal, client contact or saved-search change.
-- Continue with further headline screenshots **or** ask user to open the kept website opportunity for full requirements once they choose it. 
+- Continue with further headline screenshots **or** ask user to open the kept website opportunity for full requirements once they choose it.
+
+## FMAP-010 — 2026-10-23 explicit user hard preference supersedes provisional screening
+- **Closed as USER_DECLINED_COMPLEXITY:** corporate SEO website [OPP-20261023-001](../OPP-20261023-001.md), despite valid earlier research.
+- **Do NOT request PDFs for these duration-mismatched roles:** Amass Technology Dynamics 365 Consultant (12 months+), Dynamics Developer (12 months+), DEED Consulting Test Automation Engineer (14 months+), Dietrich Spohr Senior Fullstack Publishing Platform (6 months+). Previously floated DEED/Publishing as conditional, but user's new rule overrides those recommendations.
+- Search new listings **only when they promise a one-off clearly bounded deliverable**; no dedicated one-off checkbox verified. See [one-off search policy](../../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md).
