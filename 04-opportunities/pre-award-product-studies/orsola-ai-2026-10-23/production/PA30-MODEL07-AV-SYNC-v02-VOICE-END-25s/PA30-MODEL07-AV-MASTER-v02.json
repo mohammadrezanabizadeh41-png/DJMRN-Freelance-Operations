@@ -1,0 +1,567 @@
+{
+  "schema": "DJMRN_ORSOLA_P-A_MODEL07_AV_SYNC_V02",
+  "created_date": "2026-10-23",
+  "project": "PREAWARD-ORSOLA-20261023-001",
+  "status": "PROVISIONAL_EDIT_PLAN_NO_AUDIO_CREATED",
+  "change_from_v01": "VOICE_END_BY_25_SECONDS_WHILE_MASTER_VIDEO_STAYS_30_SECONDS",
+  "duration_s": 30,
+  "voice_must_end_by_s": 25,
+  "last_planned_voice_end_s": 24.76,
+  "final_silent_speech_segment": {
+    "start_s": 25,
+    "end_s": 30,
+    "voice": false,
+    "subtitles": false,
+    "music_and_sfx_allowed": true
+  },
+  "fps_provisional": 30,
+  "lip_sync_not_applicable": true,
+  "english_only": true,
+  "recorded_voice_exists": false,
+  "visual_assets_are_approved_final": false,
+  "script_status": "HOOK_A_USER_CONFIRMED_REMAINING_LINES_EDITORIAL_DRAFT",
+  "workflow": "video 3 x 10 seconds silent VO -> join at 10/20 -> separately make English narration -> fit/measure WAV by 25 -> regenerate subtitles from actual waveform -> mix music/sfx through 30 seconds",
+  "clips": [
+    {
+      "id": "C01",
+      "master_start_s": 0,
+      "master_end_s": 10,
+      "local_timecode_zero_s": 0,
+      "no_generated_speech": true
+    },
+    {
+      "id": "C02",
+      "master_start_s": 10,
+      "master_end_s": 20,
+      "local_timecode_zero_s": 0,
+      "no_generated_speech": true
+    },
+    {
+      "id": "C03",
+      "master_start_s": 20,
+      "master_end_s": 30,
+      "local_timecode_zero_s": 0,
+      "no_generated_speech": true
+    }
+  ],
+  "voice_cues": [
+    {
+      "id": "V01",
+      "start_s": 0.05,
+      "end_s": 0.86,
+      "english_text": "One day.",
+      "approval": "USER_CONFIRMED_WORDING",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V02",
+      "start_s": 0.98,
+      "end_s": 2.85,
+      "english_text": "Too many tabs?",
+      "approval": "USER_CONFIRMED_WORDING",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V03",
+      "start_s": 4.16,
+      "end_s": 5.75,
+      "english_text": "Meet Orsola.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V04",
+      "start_s": 6.25,
+      "end_s": 9.68,
+      "english_text": "An AI assistant for work and everyday life.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V05a",
+      "start_s": 10.07,
+      "end_s": 11.8,
+      "english_text": "Ask about email,",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V05b",
+      "start_s": 11.88,
+      "end_s": 14.16,
+      "english_text": "your calendar, or reminders—in",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V05c",
+      "start_s": 14.23,
+      "end_s": 15.92,
+      "english_text": "one conversation.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V06a",
+      "start_s": 17,
+      "end_s": 18.04,
+      "english_text": "Less switching.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V06b",
+      "start_s": 18.17,
+      "end_s": 19.39,
+      "english_text": "More living.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    },
+    {
+      "id": "V07",
+      "start_s": 23.22,
+      "end_s": 24.76,
+      "english_text": "Explore Orsola.",
+      "approval": "EDITORIAL_DRAFT",
+      "timing_evidence": "PROPOSED_NOT_MEASURED"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "global_start_s": 0,
+      "global_end_s": 1,
+      "clip_id": "C01",
+      "clip_local_start_s": 0,
+      "clip_local_end_s": 1,
+      "description": "City skyline, mountains, bright sunrise; no person.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V01",
+        "V02"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 2,
+      "global_start_s": 1,
+      "global_end_s": 2,
+      "clip_id": "C01",
+      "clip_local_start_s": 1,
+      "clip_local_end_s": 2,
+      "description": "Wide desk: stressed woman, floating notifications, growing workload.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V02"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 3,
+      "global_start_s": 2,
+      "global_end_s": 3,
+      "clip_id": "C01",
+      "clip_local_start_s": 2,
+      "clip_local_end_s": 3,
+      "description": "Closer shot of same overwhelmed woman, many floating app cards.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V02"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 4,
+      "global_start_s": 3,
+      "global_end_s": 4,
+      "clip_id": "C01",
+      "clip_local_start_s": 3,
+      "clip_local_end_s": 4,
+      "description": "Even closer shot; emotional stress reaches its highest point.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 5,
+      "global_start_s": 4,
+      "global_end_s": 5,
+      "clip_id": "C01",
+      "clip_local_start_s": 4,
+      "clip_local_end_s": 5,
+      "description": "Over-the-shoulder view of woman viewing a conceptual Orsola marketing website on screen.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V03"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 6,
+      "global_start_s": 5,
+      "global_end_s": 6,
+      "clip_id": "C01",
+      "clip_local_start_s": 5,
+      "clip_local_end_s": 6,
+      "description": "Over-the-shoulder same site view; cursor points toward sign-up/start; site mock must be replaced with exact official capture if used as real UI.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V03"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 7,
+      "global_start_s": 6,
+      "global_end_s": 7,
+      "clip_id": "C01",
+      "clip_local_start_s": 6,
+      "clip_local_end_s": 7,
+      "description": "Violet energy path from monitor connects bottom Calendar card; first green check.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V04"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 8,
+      "global_start_s": 7,
+      "global_end_s": 8,
+      "clip_id": "C01",
+      "clip_local_start_s": 7,
+      "clip_local_end_s": 8,
+      "description": "Second card Team Messages receives violet wave and cumulative second check.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V04"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 9,
+      "global_start_s": 8,
+      "global_end_s": 9,
+      "clip_id": "C01",
+      "clip_local_start_s": 8,
+      "clip_local_end_s": 9,
+      "description": "Email card gains third green check; original first two checks remain.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V04"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 10,
+      "global_start_s": 9,
+      "global_end_s": 10,
+      "clip_id": "C01",
+      "clip_local_start_s": 9,
+      "clip_local_end_s": 10,
+      "description": "Docs card gains fourth green check; original three checks remain.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V04"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 11,
+      "global_start_s": 10,
+      "global_end_s": 11,
+      "clip_id": "C02",
+      "clip_local_start_s": 0,
+      "clip_local_end_s": 1,
+      "description": "Cloud Files card gains fifth green check; previous four remain.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05a"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 12,
+      "global_start_s": 11,
+      "global_end_s": 12,
+      "clip_id": "C02",
+      "clip_local_start_s": 1,
+      "clip_local_end_s": 2,
+      "description": "Meetings sixth card gains check; all six illustrative cards green.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05a",
+        "V05b"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 13,
+      "global_start_s": 12,
+      "global_end_s": 13,
+      "clip_id": "C02",
+      "clip_local_start_s": 2,
+      "clip_local_end_s": 3,
+      "description": "Six scattered cards begin sliding inward toward single Orsola-styled organized list; same desk/woman.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05b"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 14,
+      "global_start_s": 13,
+      "global_end_s": 14,
+      "clip_id": "C02",
+      "clip_local_start_s": 3,
+      "clip_local_end_s": 4,
+      "description": "Cards increasingly consolidate into one tall list; woman curious and surprised.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05b"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 15,
+      "global_start_s": 14,
+      "global_end_s": 15,
+      "clip_id": "C02",
+      "clip_local_start_s": 4,
+      "clip_local_end_s": 5,
+      "description": "Remaining scattered cards dissolve/flow into the list, almost all consolidated; woman relieved.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05b",
+        "V05c"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 16,
+      "global_start_s": 15,
+      "global_end_s": 16,
+      "clip_id": "C02",
+      "clip_local_start_s": 5,
+      "clip_local_end_s": 6,
+      "description": "Exactly one unified six-row list, all illustrated green ticks; woman calm and pleased.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V05c"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 17,
+      "global_start_s": 16,
+      "global_end_s": 17,
+      "clip_id": "C02",
+      "clip_local_start_s": 6,
+      "clip_local_end_s": 7,
+      "description": "Same woman at desk, relaxed smile; organized list remains as contextual graphics.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 18,
+      "global_start_s": 17,
+      "global_end_s": 18,
+      "clip_id": "C02",
+      "clip_local_start_s": 7,
+      "clip_local_end_s": 8,
+      "description": "Sunlight blooms through window behind the same woman; closed eyes/relief.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V06a"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 19,
+      "global_start_s": 18,
+      "global_end_s": 19,
+      "clip_id": "C02",
+      "clip_local_start_s": 8,
+      "clip_local_end_s": 9,
+      "description": "Sunlit close-up, violet line loses intensity; gentle forward transition.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V06a",
+        "V06b"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 20,
+      "global_start_s": 19,
+      "global_end_s": 20,
+      "clip_id": "C02",
+      "clip_local_start_s": 9,
+      "clip_local_end_s": 10,
+      "description": "Warm family moment: same woman happily with child in golden sunlight.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V06b"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 21,
+      "global_start_s": 20,
+      "global_end_s": 21,
+      "clip_id": "C03",
+      "clip_local_start_s": 0,
+      "clip_local_end_s": 1,
+      "description": "Black-violet background, broad diffuse purple haze, no logo or text yet.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 22,
+      "global_start_s": 21,
+      "global_end_s": 22,
+      "clip_id": "C03",
+      "clip_local_start_s": 1,
+      "clip_local_end_s": 2,
+      "description": "More diffuse purple particles and ribbon-like energy gathering toward center.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 23,
+      "global_start_s": 22,
+      "global_end_s": 23,
+      "clip_id": "C03",
+      "clip_local_start_s": 2,
+      "clip_local_end_s": 3,
+      "description": "Faint purple elliptical arc is emerging out of haze.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 24,
+      "global_start_s": 23,
+      "global_end_s": 24,
+      "clip_id": "C03",
+      "clip_local_start_s": 3,
+      "clip_local_end_s": 4,
+      "description": "Violet light contracts and ring becomes more recognizable; partial wordmark glow could begin.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V07"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 25,
+      "global_start_s": 24,
+      "global_end_s": 25,
+      "clip_id": "C03",
+      "clip_local_start_s": 4,
+      "clip_local_end_s": 5,
+      "description": "Ring becomes almost complete; Orsola wordmark and domain start faintly appearing in same reveal.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [
+        "V07"
+      ],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 26,
+      "global_start_s": 25,
+      "global_end_s": 26,
+      "clip_id": "C03",
+      "clip_local_start_s": 5,
+      "clip_local_end_s": 6,
+      "description": "More coherent brand lockup: ring, exact Orsola wordmark, orsola.ai emerge together from particles.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 27,
+      "global_start_s": 26,
+      "global_end_s": 27,
+      "clip_id": "C03",
+      "clip_local_start_s": 6,
+      "clip_local_end_s": 7,
+      "description": "Official-style brand lockup becomes brighter, with ring, Orsola and orsola.ai together; no voice from this second onward.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 28,
+      "global_start_s": 27,
+      "global_end_s": 28,
+      "clip_id": "C03",
+      "clip_local_start_s": 7,
+      "clip_local_end_s": 8,
+      "description": "Stable readable Orsola wordmark and orsola.ai on dark background; music only.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS"
+    },
+    {
+      "frame": 29,
+      "global_start_s": 28,
+      "global_end_s": 29,
+      "clip_id": "C03",
+      "clip_local_start_s": 8,
+      "clip_local_end_s": 9,
+      "description": "City skyline, mountains and sunset; NO WOMAN, NO BRAND WORDMARK in scenery unless separately approved.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    },
+    {
+      "frame": 30,
+      "global_start_s": 29,
+      "global_end_s": 30,
+      "clip_id": "C03",
+      "clip_local_start_s": 9,
+      "clip_local_end_s": 10,
+      "description": "Same city/mountain sunset with subtle light progression and closing/fade; NO WOMAN.",
+      "source": "USER_STORYBOARD_DIRECTED_CONCEPT_REFERENCE",
+      "new_clip_speech": [],
+      "picture_status": "VISUAL_CONCEPT_NOT_FINAL_VIDEO",
+      "graphics_status": "CONCEPTUAL_GRAPHICS_NEED_REVIEW"
+    }
+  ],
+  "voice_source_prior_version": "production/PA30-MODEL07-AV-SYNC-v01/PA30-Model07-AV-MASTER-v01.json",
+  "note": "The user has approved the 25-second narration deadline, not the new cue placements, five other lines, speaker voice, original logo rendering, mock signup text, or actual recorded product operations. Check latest claims and capture official SVG/website screenshots prior to commercial rendering."
+}
