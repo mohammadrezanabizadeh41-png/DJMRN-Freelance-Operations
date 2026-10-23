@@ -110,3 +110,9 @@ One **global English picture-lock master** with reusable interface/text layers +
 [ ] No publication, costs, customer outreach, conversions or payment claimed without evidence.
 
 **Next smallest usable vertical:** make **P-A 20-second international brand mockup** with user-reported brand rights and no untested product outcome; then **P-D** only when an authorized real UI demo exists. This minimizes rework and avoids speculative tool purchases.
+
+## 2026-10-23 Creative direction selection + new universal-use lane
+- User explicitly selected **current Orsola website brand references**, **HYBRID cinematic+kinetic+UI direction**, **English narration**, and requested **NO video generation**.
+- [Current P-A 20s storyboard v1](AD-DIRECTION-DECISION-AND-PILOT-PA-STORYBOARD-v1.md) is authoritative first sample structure. Older P-A mini script in this kit is historical working draft, not approved final.
+- [Universal simplicity/time/voice/value ad lane](AD-LANE-SIMPLICITY-TIME-VALUE-COMPETITOR-RESEARCH.md) and [12 everyday story ideas](AD-SCENARIO-LAB-UNIVERSAL-USE-CASES-AND-COMPETITOR-INSIGHTS.md) broaden beyond business-only to nontechnical everyday users, families and multiple work-life roles.
+- Special care: "one request" does NOT prove zero setup, lower cost or measured time saving. Competitors share much functionality. Use annotated concept backgrounds until real app demo, and fair same-task measured comparison for quantitative claims.
