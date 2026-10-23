@@ -1,3 +1,82 @@
+# ORSOLA — Stage 4 CURRENT v2: International full-funnel campaign intelligence
+
+**Updated:** 2026-10-23 · **Owner:** DJMRN Freelance Operations / Orsola case · **Status:** GLOBAL-CREATIVE-RESEARCH_READY, MARKET_LAUNCH_ELIGIBILITY_NOT_VERIFIED · **Source of changed scope:** USER_REPORTED (direct brand collaboration and broad creative rights; international audience; six funnel objectives). This supersedes narrower audience/permission assumptions in v1 below; v1 remains historical evidence, not a second live plan.
+
+## A. Changed brief — fixed user directives
+- **Brand rights:** user states they are directly working with Orsola and have comprehensive permission to use the brand to produce and present sample advertising creatives. Treat as USER_REPORTED authorization for prototype/portfolio samples within stated scope; do not misstate as an independently reviewed license or an accepted delivery contract. No need to block non-published sample ideation on a duplicate permission request.
+- **Goals:** brand awareness; website discovery/visits; new account signups; first real activation; subscription purchases; plus retention/return as a supporting journey, not mandatory initial paid spend.
+- **Creative market:** international, not automatically narrowed to US/Canada and not organized around Iran. Content may use global language/usage concepts and multiple scripts; do not infer all locales offer service.
+- **Business work:** finite, deliverable-based sample video package; samples are not client-approved final ads, paid contracts or published campaigns.
+- **Preferred research style:** free-first, no unnecessary plugin, actual public source verification, no external communications, ad-account activation or media spend.
+
+## B. Territory conflict resolution — two distinct fields, never merge
+**creative_audience = GLOBAL_HYPOTHESIS (user decision).**
+**service/signup/paid_eligibility_by_country = UNVERIFIED_OUTSIDE_EARLIER_US_CA_TERMS.**
+
+Archived 2026-10-23 legal text described a US/Canada-only offer. When re-fetched on 2026-10-23, the public Terms route yielded an empty/JS-shell body via both web and Firecrawl, **not a revised policy authorizing worldwide sales**. [Legal URL](https://www.orsola.ai/en/terms). Current [Download](https://www.orsola.ai/en/download) still says Coming soon for iOS/Android/Windows. [Home](https://www.orsola.ai/en) and [Pricing](https://www.orsola.ai/en/pricing) continue public-beta/Free 1000 credits messaging.
+
+Practical non-blocking policy:
+1. Produce **globally understandable brand/use-case samples** using geographic-neutral visuals and no worldwide availability or regulated product promises.
+2. Candidate language packs: English master; French/Spanish/Arabic transcreation after a native or owner review; further languages only on need. UI language support vs output language vs commercial regional eligibility stay separate.
+3. Geographic paid/signup CTAs, merchant landing pages, availability, subscription purchase and local compliance are **gated per country** until current owner-controlled Terms/eligibility matrix or written campaign-specific guidance confirms. Never silently assume US/Canada Terms are null merely because user is exploring international markets.
+4. No Iranian nationality/region restriction is used to limit *creative research or hypothetical audience clusters*. This does **not** authorize bypassing service or ad-platform restrictions.
+
+## C. One full funnel; six distinct creative tasks and measurement definitions
+
+| Objective ID | Goal | Viewer action / CTA hypothesis | Primary metric | Product-side proof needed | Sample asset |
+|---|---|---|---|---|---|
+| G1 | Brand awareness | Remember "Orsola" and recognize the AI assistant purpose; soft "Discover Orsola" | qualified reach / view-through (plus recall study if available) | actual message/brand guide | 6–12s bumper, 20s brand film |
+| G2 | Website visits / exploration | "See how Orsola works" → relevant feature/overview URL | engaged landing visits per eligible exposure, not raw clicks alone | verified landing analytics/traffic source | 15–25s feature teaser |
+| G3 | New registrations | "Start free" only where service eligible | completed eligible signup rate and cost/signup if paid campaign | registration success and country/age rules; consent tracking | 15s friction→CTA, 30s onboarding |
+| G4 | Activation | successful *first meaningful task* after account access | first verified completed user-approved workflow / eligible signup | owner-defined activation event; real demo | 30–45s email→calendar→draft tutorial |
+| G5 | Subscription purchases | relevant premium feature → transparent plan comparison | lawful purchases / eligible activated users; cost per paid purchase if run | paid feature entitlement, refunds, checkout, real price and rights | 15–25s plan-use case video |
+| G6 | Retention and referral (secondary) | return for second useful workflow / share only with consent | 7- and 30-day engaged users, meaningful second workflow, authorized referral | retention cohort data and privacy-compliant attribution | repeat task/reminder microtutorial |
+
+**Baseline for ALL measured campaign/product metrics: UNKNOWN.** These are definitions and optional measurement instruments, not claims of user growth, actual subscription conversion, causal lift or performance.
+
+## D. International segmentation = language × need × platform × eligibility (no false homogenization)
+
+| Cohort | Visual/universal problem | Example language packs | Primary goal | Market activation state |
+|---|---|---|---|---|
+| F1 solo professional/freelancer | missed client follow-up + calendar switch | English, FR, ES, AR | G1/G2/G3/G4 | Global concept; CTA only eligible countries |
+| F2 small-business operator | inbox + schedule + documents | English first, localized on demand | G1/G2/G4/G5 | Demo and legal geo sign-off |
+| F3 knowledge worker/consultant | meeting notes not turned into actions | EN/FR/ES | G2/G4/G6 | No unconsented real meeting |
+| F4 everyday organizer | reminders, simple plans | EN/FR/ES/AR | G1/G2/G3 | No medical or financial guarantee |
+| F5 privacy-conscious software evaluator | "What does Orsola access? Who approves a send?" | EN plus requested locales | G2/G3/G4 | Current consent demo needed |
+| F6 power/paid-plan evaluator | custom agents and cross-provider tasks | EN/FR/ES | G4/G5 | Pro/Max feature and billing verification |
+
+**Rule:** choose one cohort + one goal for each brief. Use native-language proofing and RTL design for Arabic; don't merely swap audio over an English screenshot. Language of advertising is NOT proof of product UI support, country availability or billing acceptance.
+
+## E. Channel and format plan — creator assets are free-first; paid distribution separately approved
+
+| Channel | Creative source plan | Production format reference | Commercial state |
+|---|---|---|---|
+| Owned Orsola website / help pages | hero 16:9 workflow explainer, captions and onboarding | owner controls actual publication | organic owned placement requires owner approval |
+| YouTube organic / Shorts | 16:9 full demonstration + 9:16 short hook | https://support.google.com/google-ads/answer/16041697?hl=en / 9:16 Shorts | upload/channel admin approval |
+| LinkedIn organic | founder/professional problem and benefit; square/landscape/vertical depending placement | https://business.linkedin.com/advertise/ads/sponsored-content/video-ads/specs | owned publication approval; sponsored budget unknown |
+| Instagram/Facebook organic Reels | 9:16 visual hook, big captions and clear CTA | https://www.facebook.com/business/ads/facebook-instagram-reels-ads | owner access/policy approval; paid spend STOP |
+| TikTok organic | short portrait relatable use case | https://ads.tiktok.com/resources/help/article/tiktok-ads-policy-ad-format-and-functionality | eligibility and account/rights not verified |
+| YouTube / Google Ads, LinkedIn sponsored, Meta sponsored | only after funnel goal and measured geo rule | https://support.google.com/google-ads/answer/2453995?hl=en-en | paid media, reporting, pixels and distribution all require specific approval and local compliance |
+
+Google Ads itself distinguishes **presence** from **interest in a geography**: [official documentation](https://support.google.com/google-ads/answer/2453995?hl=en-en). Do not assume a country-filter automatically excludes viewers physically elsewhere; use tested exclusion/location settings before any location-restricted signup/sales campaign.
+
+## F. International asset production and messaging policy
+- Master content should feature universal desktop/workflow motifs, not flags/locations, a nationality-specific promise or a faux customer endorsement.
+- Produce *language-neutral picture lock* (no embedded English UI text that prevents localization); separate editable captions, VO, text overlays and CTA.
+- Choose 16:9 1920×1080 master and 9:16 1080×1920 derivative only if visual legibility survives; optional 1:1 as a distinct crop. YouTube Shorts prefers 9:16, safe zone top 10%, bottom 25%, right 10% by [official Google](https://business.google.com/us/ad-solutions/youtube-ads/shorts-ads/).
+- Brand logo/color/media can be used for samples per user's reported authorization; secure permission for any identifiable individuals, real user data, third-party marks or copyrighted sound. No fabricated testimonial/quote or unproved "worldwide available" claim.
+- For G3/G5, CTA regional behavior, feature availability and exact prices are more important than global reach. If no owner-approved geo/checkout, use non-transactional "Explore Orsola" **on the sample only** instead of a simulated valid purchase/signup promise.
+- Pricing page snapshot currently emphasizes beta Free 1,000 credits; a public refresh does not by itself verify every fee for all regions and currencies.
+
+## G. Priorities before video production (not prerequisites for proposing creative samples)
+**Resolved for sample design:** six goals, global creative audience, direct-brand relationship and permission as USER_REPORTED, 32 historical candidate ideas, public logo resources, owned web landing, no need for new plugin.
+**Still unknown for final publication:** owner-approved country eligibility, live locale checkout/signup, usage proof, precise media placement, prior campaign baselines, analytics definitions, cost/CPA targets, real user reviews, final legal copy, authorized UI capture, individual channel account admin and advertising budget.
+**Research-complete, not validation-complete:** The next step can be a small set of concrete storyboards/pilot scripts and mockups with explicit illustrative labeling. Real ads still require source-to-shot QA and separately approved publication/spend.
+
+---
+
+## HISTORICAL v1 — narrower US/Canada-focused desk research (superseded as creative strategy, preserved for provenance)
+
 # ORSOLA — Stage 4: market, audience, competition and ad-activation readiness
 
 **Date:** 2026-10-23 (Europe/Berlin). **Classification:** PUBLIC-DESK-RESEARCH_COMPLETE / MARKET_FIT_UNPROVEN / NO_CAMPAIGN_EXECUTED.
