@@ -51,3 +51,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - Reviewed dated public job postings for WordPress (including advertised $4,000 store), AI Trainer ($2,000 shown but hourly fee to quote), senior AI automation (paid discovery up to €1,500, later phase up to €10,000), Canva (€400), writing (€1,500), video/e-learning (unpriced), and lower-fit enterprise/high-hours tasks.
 - [Research, primary URLs, uncertainty, filters and exact keyword batches](../04-opportunities/market-research/freelancermap-value-per-hour-2026-10-23.md).
 - No statistical pay-rate claim, employer contact, application, upgrade, alert edits, site settings change or unapproved purchases.
+
+## 2026-10-23 — FMAP-005 — Screenshot-based first two freelancermap titles reviewed
+- Confirmed directly from user's signed-in project-list screenshot: 1,028 results; filter chips Worldwide / Online since 18 days / Freelance / Remote and Newest sort. Unlike prior snapshot, user has toggled both work-type filters. Keyword query not visible.
+- Read only two listing **headlines and visible tags** as requested; specialized senior MSSQL DBA deemed preliminary poor fit, corporate SEO website deemed a candidate to open for full requirements.
+- [Dated source-grounded triage record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No IDs or project URLs invented; no application, candidate acceptance or costs incurred.

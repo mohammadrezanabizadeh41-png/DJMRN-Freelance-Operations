@@ -52,3 +52,10 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 - Added an [evidence-linked example/keyword/ROI research sheet](../../04-opportunities/market-research/freelancermap-value-per-hour-2026-10-23.md) with exact findable listing links/known IDs, displayed prices, time/scope pitfalls, poor-fit exclusions and steps for reproducing a search.
 - Preliminary priority: 1 WordPress/WooCommerce, 2 LLM evaluation, 3 bounded AI video/editing/Canva, 4 Python/API/n8n only with demonstrated experience. The research is *not* a confirmed account-specific opportunity list nor a numeric expected hourly income study.
 - User's Remote/Freelance checkboxes still unconfirmed in live account after 2026-10-21 screenshot. Next: activate both then perform one keyword at a time (starting `WordPress`), report actual refreshed count/visible first results. Neither applications nor saved alert changed.
+
+## FMAP-005 — first authenticated result-card headline triage, 2026-10-23
+- User confirmed through a new logged-in screenshot that `Remote` and `Freelance` are checked, with `Worldwide` + `Online since 18 days` + `Newest`; **1,028 jobs/projects** displayed. Existing German-speaking-country exclusion is NOT shown in chips; main search keyword is cropped out/UNKNOWN.
+- User explicitly requested **titles only**, one by one, before any full description inspection or candidate selection.
+- First visible title `Senior Microsoft SQL Server Consultant / DBA (m/w/d) – langfristiges IT-Projekt`: **preliminary skip**, senior specialist DBA and >24 months. Second `Erfahrener Entwicklungspartner für moderne, SEO-optimierte Unternehmenswebsite` by Verlag J. Maiss GmbH: **candidate for full later inspection**, website/SEO skill relevance.
+- Stored visible metadata and decision reasoning in [signed-in 2-title triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). Neither listing was opened; exact IDs, links, budgets, terms and eligibility UNKNOWN; neither became a submitted OPP.
+- Next: user can show more result titles or open candidate #2 and share details. No application, saved-search change or spend.
