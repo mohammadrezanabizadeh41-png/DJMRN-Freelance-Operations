@@ -173,3 +173,10 @@ Scores P1–P3 are **editorial readiness judgments**, NOT measures of demand, CT
 - **No inference** that any of these 32 will be profitable or requested by client. Catalog covers practical classes, not every possible ad idea.
 
 **Next actionable step:** Owner approves one goal/persona/placement and supplies safe demo/brand materials. Then update the existing Orsola primary record; do not invent a won JOB or recurring engagement.
+
+## 2026-10-23 Additional independent creative research lane — cross-cuts existing 32 O01–O32
+**L-SIMPLE-001**: User explicitly requested broad consumer and everyday professional scenarios about natural language/voice, simple planning, recurring reminders, cross-tool action, reduced cognitive/context-switching and testable value versus a stack of specialized apps.
+- [Factual competitor research and fair time/cost benchmarking](AD-LANE-SIMPLICITY-TIME-VALUE-COMPETITOR-RESEARCH.md)
+- [12 original scenarios and 12 hook alternatives](AD-SCENARIO-LAB-UNIVERSAL-USE-CASES-AND-COMPETITOR-INSIGHTS.md)
+- [P-A pilot storyboard v1: current brand, hybrid, EN voice](AD-DIRECTION-DECISION-AND-PILOT-PA-STORYBOARD-v1.md)
+This lane is NOT a 33rd independently won/quoted project; it reuses the 32 opportunities across G1–G6 and is an additional creative theme. No established unique feature/ROI/cheapest claim; competitor overlap documented, all quantified comparisons held pending measured like-for-like test. No video produced.
