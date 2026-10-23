@@ -118,6 +118,10 @@ User is developing professional **sample advertisements and video teasers** dire
    - **Next smallest safe action:** refine one storyboard and named source/reference keyframes, **without rendering** unless newly instructed;
    - **Evidence:** all referenced files and verified `main` commit.
 
+## 8A. Recovered prior-chat messages — reconciled archive (2026-10-23)
+
+The user re-supplied the original detailed Orsola creative and production-method messages, including the “Assistant for everyone” simplicity/coordination/economic-value lane, comparison anecdotes, 4 explicitly featured scenarios, three hook directions, source-linked design examples, official/public brand assets, four reusable libraries and the full preproduction workflow. Their **cross-checked historical wording, evidence grades, links and exact existing OR-ACT mappings** are now permanently indexed in [03 — RECOVERED CHAT SOURCE RECONCILIATION](03-CHAT-SOURCE-RECONCILIATION-2026-10-23.md). That provenance annex is **not a second master backlog**; this file, [01](01-ALL-FOLLOWUPS-ACTION-BACKLOG.md) and [02](02-CAMPAIGN-SCENARIO-ASSET-AND-PROMPT-MATRIX.md) remain CURRENT. No actual visual/VO/video output, benchmark, legal verification or ad launch resulted from this archival reconciliation. Historical Git commits 37a89a41c48b and c569e3061113 independently fetched.
+
 ## 8. Maintenance and version policy
 
 - Stable IDs: `DEC-###` decisions; `G1…G6` goals; `P-A…P-F` pilot packs; `O01…O32` opportunities; `S01…S12` scenario concepts; `H01…H12` hooks; `M01…M16` methods; `B-/S-` assets; `OR-ACT-###` actionable backlog.
