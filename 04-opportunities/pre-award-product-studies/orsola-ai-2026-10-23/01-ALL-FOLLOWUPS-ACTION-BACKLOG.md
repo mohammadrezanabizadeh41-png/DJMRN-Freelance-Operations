@@ -1,5 +1,13 @@
 # ORSOLA — ALL-FOLLOWUPS | persistent actionable production/research backlog
 
+> **CURRENT 2026-10-24 — ORSOLA-015...019 / User-reported video-generation stage complete, voice/subtitles next.** The historical 30s 3×10 storyboard and provisional ≤25s voice schedule remain as plans; the user later developed four text-to-video scenes with nominal 6s prompts and reported video creation finished. Rendered media durations/joined export are **NOT independently inspected**; do not assert a verified 30.000s final video. The latest closing creative order is **sunset first, fully completed Orsola logo/domain LAST**. Read the new operating archive before voice work:
+> - [ORSOLA-015 — full production history and next-stage status](05-ORSOLA-015-OPERATIONAL-VIDEO-PRODUCTION-ARCHIVE-2026-10-24.md)
+> - [ORSOLA-016 — four detailed final video prompts + revision reasons](06-ORSOLA-VIDEO-PROMPTS-EXECUTED-AND-REVISIONS-2026-10-24.md)
+> - [ORSOLA-017 — storyboard design procedure, ten-model selection, frame decisions](07-ORSOLA-STORYBOARD-DESIGN-AND-SCENE-DECISIONS-2026-10-24.md)
+> - [ORSOLA-018 — Dola attempts, video receipts, unknowns and QA lessons](08-ORSOLA-VIDEO-RUN-RECEIPTS-AND-LESSONS-2026-10-24.md)
+> - [ORSOLA-019 — voice software criteria, 25s timing constraint, edit and SRT plan](09-ORSOLA-VOICE-MUSIC-CAPTIONS-NEXT-STAGE-2026-10-24.md)
+>
+
 **Canonical:** [START HERE](00-START-HERE-PROJECT-MEMORY-AND-ROADMAP.md) · [SIX CAMPAIGN CROSS-INDEX](02-CAMPAIGN-SCENARIO-ASSET-AND-PROMPT-MATRIX.md) | **Version:** 2026-10-23 01 / first consolidation | **Purpose:** Never lose a proposed task, decision, future experiment or blocker when chat window changes. This is **not** a background automation or scheduled reminder service; it is a searchable GitHub checklist updated only by actual work.
 **Current state:** research, documentary strategy and textual storyboard only. **No created video, no real ad campaign, no account payments, no Orsola login, no independent competitive timing/fee numbers.**
 **Status vocabulary:** `DONE` = research/text artifact genuinely recorded; `PENDING` = safe planning or user/editor choice left; `BLOCKED_EXTERNAL` = requires up-to-date brand/product access, evidence or external permission; `WAIT_APPROVAL` = media creation/publishing/spending not authorized by *this* archival request; `SKIPPED` = consciously not in scope, explain why. P0=foundational, P1=next practical, P2=conditional/deeper, P3=only if launch.
