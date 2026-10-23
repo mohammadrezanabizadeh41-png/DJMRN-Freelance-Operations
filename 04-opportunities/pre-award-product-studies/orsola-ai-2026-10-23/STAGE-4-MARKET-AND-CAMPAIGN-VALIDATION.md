@@ -68,6 +68,8 @@ Google Ads itself distinguishes **presence** from **interest in a geography**: [
 - For G3/G5, CTA regional behavior, feature availability and exact prices are more important than global reach. If no owner-approved geo/checkout, use non-transactional "Explore Orsola" **on the sample only** instead of a simulated valid purchase/signup promise.
 - Pricing page snapshot currently emphasizes beta Free 1,000 credits; a public refresh does not by itself verify every fee for all regions and currencies.
 
+**Practical sample storyboard and voice scripts:** [International Pilot Creative Kit](INTERNATIONAL-PILOT-CREATIVE-KIT.md) is the concrete handoff from this market-intelligence stage to the campaign opportunity portfolio.
+
 ## G. Priorities before video production (not prerequisites for proposing creative samples)
 **Resolved for sample design:** six goals, global creative audience, direct-brand relationship and permission as USER_REPORTED, 32 historical candidate ideas, public logo resources, owned web landing, no need for new plugin.
 **Still unknown for final publication:** owner-approved country eligibility, live locale checkout/signup, usage proof, precise media placement, prior campaign baselines, analytics definitions, cost/CPA targets, real user reviews, final legal copy, authorized UI capture, individual channel account admin and advertising budget.
