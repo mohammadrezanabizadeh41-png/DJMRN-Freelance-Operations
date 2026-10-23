@@ -20,3 +20,6 @@
 
 ## Latest freelancermap screening navigation — 2026-10-23
 [FMAP-032: seven-card evaluation of Odoo, Microsoft Dynamics, HubSpot, UX/CRO, digital healthcare test and IAM delivery](../04-opportunities/shortlists/FMAP-032-2026-10-23-seven-card-review.md). **0 one-off opportunities ready for application**, 0 submissions. Continue user-selected fixed-output work only; do not change saved searches or contact employers without approval. Prior dated screening reports are in [shortlists](../04-opportunities/shortlists/) and continuing [FMAP session](sessions/FMAP-SESSION-001.md).
+
+## Latest freelancermap card-review index — 2026-10-23
+[FMAP-033: six-card review — SecurePoint repeat, SOLCOM D365/UX 3mo+, Meerab BA, Allianz insurance caller, Perspicuum SaaS sales](../04-opportunities/shortlists/FMAP-033-2026-10-23-six-card-review.md). **0 qualified one-time deliverables; 0 bids.** Refer to [FMAP-032](../04-opportunities/shortlists/FMAP-032-2026-10-23-seven-card-review.md) for earlier SecurePoint source and avoid duplicate lead record. Source originals and classification caveats in FMAP-033.
