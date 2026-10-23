@@ -148,3 +148,9 @@ Decision: **5 cards / 3 repeats / 2 novel titles / 0 proven one-off deliverable 
 **One-off-only outcome:** The **only clearly finite delivered output among these six is BBNI**. It passes the **format of work**, not the **verified applicant eligibility/competency/payment** gates. Do not presume a general accounting diploma qualifies as a German WEG/Immoware24 auditor or permits formal attestation; exact license and responsibility must be checked. No signed-in application slot consumed.
 
 **Next safe action:** user opens BBNI card and sends original full page/PDF for detailed requirements, compensation units, deadline, qualifications for checking and `testierte`, legal contracting/payment availability. Do not require screenshots for other cards unless user asks. Existing older NovaSearch job marked USER_CONFIRMED_SKIP.
+
+## FMAP-019 — BBNI full PDF supersedes public-source preliminary assessment
+
+From user's **one-page PDF**, [canonical BBNI #3064264](../OPP-20261023-005.md) confirms **27 units**, year 2025, source entries already booked in **Immoware24**, deliver checked and `testierte` WEG annual statement; mandatory software knowledge and prior WEG checks. Displayed €700 **Budget** but total price/terms unknown, short notice with no deadline specified. `100% workload` badge **not proof of a monthly placement**; work has a single annual-review output.
+- Classification: **ONE_OFF_STRUCTURE_PASS**, but **NOT APPLICATION_READY** since key experience, signing/attestation and residency/payment terms unverified. Do not label user-declined; user has not decided.
+- BBNI legal-entity evidence and WEG/Immoware primary sources are listed in full [OPP #3064264](../OPP-20261023-005.md). No application, employer contact or client financial documents shared or committed.
