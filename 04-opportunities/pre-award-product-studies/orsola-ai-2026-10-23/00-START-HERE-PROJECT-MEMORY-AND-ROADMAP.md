@@ -33,6 +33,7 @@ User is developing professional **sample advertisements and video teasers** dire
 | DEC-008 | Add a **separate cross-cutting ad lane** for common people's work/life: voice/text requests, connected apps, time planning, scheduled follow-up, reminders, nontechnical simplicity, friction reduction and potential combined subscription value | USER_CONFIRMED as creative research intent; advantage claims still hypotheses |
 | DEC-009 | Preserve every study, credible rival source, success-case caveat, script, prompt, asset source, pending question, user feedback and experiment as recoverable working memory | USER_CONFIRMED. GitHub path restricted to this exact freelance project folder |
 | DEC-010 | Keep editing realistic and professional: brand SVG and exact website/real UI/text/VO assembled in editor; AI for cinematic/metaphor plates, not fake screenshots or brand logotypes | ANALYTICAL recommended method, not an irrevocable user's tool choice |
+| DEC-011 | **P-A first 3 seconds = Hook A**, exact spoken copy `One day. Too many tabs?` | **USER_CONFIRMED** in conversation 2026-10-23; applies only to opening, does not approve whole VO/endcard, media or publication. Script v3 link below |
 
 **What remains a creative proposal:** P-A 20-second first pilot, its script, selected hook, scene look, narrator performance, final duration, platform/format, sample approval and generated assets. User has *not* signed off a final storyboard/voice sample and has *not* instructed us to render a video.
 
@@ -125,6 +126,12 @@ The user re-supplied the original detailed Orsola creative and production-method
 ## 8B. ORSOLA-008 — current P-A first-pilot textual revision (2026-10-23)
 
 After the user instructed continued staged work, assistant drafted [P-A storyboard v2 REVIEW DRAFT](AD-PILOT-PA-STORYBOARD-v2-REVIEW-DRAFT.md): 20-second G1 concept, 28 whitespace-delimited English VO tokens, six timed scenes, six textual reference-keyframe descriptions, three hook variants, claim and rights gates. Current logo/color + HYBRID + English + worldwide understandable *creative* direction preserved. **Awaiting user review of preferred first 3-second hook and revised copy.** This v2 is NOT user-approved production lock; historical [v1](AD-DIRECTION-DECISION-AND-PILOT-PA-STORYBOARD-v1.md) remains unchanged. The [single action register](01-ALL-FOLLOWUPS-ACTION-BACKLOG.md) remains canonical for statuses; OR-ACT-025,026,027,006 are **PENDING**, and no image/video/audio/render/paid action occurred.
+
+## 8C. ORSOLA-009 — Hook A confirmed, English storyboard v3 written (2026-10-23)
+
+The user explicitly selected **Option A — `One day. Too many tabs?`** for the **opening 0–3 seconds** of G1/P-A, instructed a revised EN script and storyboard, and forbade image/video generation now. [P-A **v3 user-hook-selected, textual storyboard**](AD-PILOT-PA-STORYBOARD-v3-HOOK-A-SELECTED.md) contains a 30-whitespace-token EN narration draft, 6 timed scenes totaling 20s, motion/text/keyframe instructions and precise claims/rights status. v1 and v2 remain as prior revisions.
+
+**Canonical current tasks:** [01 action backlog](01-ALL-FOLLOWUPS-ACTION-BACKLOG.md) = **15 DONE, 28 PENDING, 14 BLOCKED_EXTERNAL, 9 WAIT_APPROVAL** (66 total). Only `OR-ACT-025` newly DONE **for the user's hook selection/review decision**; `026` final VO, `027` actual/user-approved frames and `006` final end card are **PENDING**. Hook decision does not constitute approval of other v3 VO lines or production. No images, recordings, videos, applications, subscriptions, advertising or spending.
 
 ## 8. Maintenance and version policy
 
