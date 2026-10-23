@@ -1,4 +1,6 @@
 # Orsola — A Research-Led AI Video Advertising Concept & Campaign Strategy
+
+> **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
 ### Creative case study • production methodology • distribution framework • reusable evidence
 
 **Prepared by:** DJMRN | **Date:** 24 October 2026 | **Concept:** Orsola (https://www.orsola.ai/en) | **Campaign:** G1 brand introduction / P-A creative pilot  
