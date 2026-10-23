@@ -65,3 +65,9 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 - Newly seen: `Senior Technical Architect – Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing)` (remote/Germany, senior technical security role) and `SAP FM/GM Consultant` (MAM Gruppe, Barcelona, remote, 4+ months). Both marked **preliminary poor-fit**, not formal declines.
 - Reusable [screenshot-grounded title triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md) updated, retaining one potential corporate website candidate; no details read, IDs guessed, duplicate created or proposal sent.
 - Next user action: continue title screenshots or click the website listing to review scope. No unauthorized account change.
+
+## FMAP-007 — Chrome project-detail PDF export guidance, 2026-10-23
+- User asked how to open any selected freelancermap listing in Chrome, save/download its full description and attach it for detailed evaluation.
+- Assistant advised: open the **title in a new tab**, expand text, **Ctrl+P → Destination Save as PDF → Pages All → Save**, review PDF completeness, upload via chat attachment and also share public permalink copied by Ctrl+L/C.
+- If dynamic content does not render in print preview, share screenshots/URL. Personal account/security data and private messages must be excluded; no account modification or application.
+- Reusable detailed instructions: [Chrome listing PDF procedure](../../07-lessons-and-playbooks/FREELANCEMAP-SAVE-LISTING-PDF.md). **No PDF has been received or saved by assistant; no listing detail reviewed yet.**

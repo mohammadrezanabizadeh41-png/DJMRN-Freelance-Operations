@@ -61,3 +61,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - User screenshot showed 3 cards; the previously shortlisted corporate SEO website repeated, not recorded as a new lead.
 - New: Senior Technical Architect — Secure AI Infrastructure (LLM/MCP Gateways & Agent Sandboxing), SAP FM/GM Consultant — both poor-fit based on headline only.
 - [Updated detailed shortlist](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md) and [session journal](sessions/FMAP-SESSION-001.md). No detail pages, applications, payment, account state change or new client engagement.
+
+## 2026-10-23 — FMAP-007 — Reusable instructions to export an ad as PDF
+- User asked how to capture selected freelancermap project detail in Chrome for deep analysis.
+- Documented Chrome `Ctrl+P / Save as PDF`, completeness checks, posting permalink and chat attachment workflow: [FREELANCEMAP-SAVE-LISTING-PDF.md](../07-lessons-and-playbooks/FREELANCEMAP-SAVE-LISTING-PDF.md).
+- This is guidance only; no PDF received, full listing examined, employer contacted, application sent or paid action.
