@@ -9,19 +9,20 @@
 ## Fast next-step lane (read before the full register)
 
 - **2026-10-23 editorial progress (ORSOLA-008):** [P-A storyboard v2 REVIEW DRAFT](AD-PILOT-PA-STORYBOARD-v2-REVIEW-DRAFT.md) now supplies a revised 20-second / 28-token English VO, six timestamped text shot treatments, six text-only keyframe briefs and three hook alternatives. It is **not user-approved**: keep OR-ACT-025/026/027/006 PENDING until their exact DONE criteria are actually met; summary status counts remain unchanged. No media, recording, real UI or paid tools invoked.
-- **Next safe, no-spend choices:** OR-ACT-025 (review existing P-A first storyboard and select narrative/hook), then OR-ACT-026 and 027 (rewrite a working script and still storyboard), OR-ACT-006 (final endcard wording), OR-ACT-005 (safe public page captures); brand master itself **already selected**.
+- **Current user-confirmed creative decision:** `OR-ACT-025 DONE` for Hook A selection only (2026-10-23), recorded in [v3](AD-PILOT-PA-STORYBOARD-v3-HOOK-A-SELECTED.md); remaining English lines, final end-card and production are **NOT** automatically approved.
+- **Next safe, no-spend choices:** OR-ACT-026 and 027 (rewrite a working script and still storyboard), OR-ACT-006 (final endcard wording), OR-ACT-005 (safe public page captures); brand master itself **already selected**.
 - **Parallel reusable research:** OR-ACT-016/017 specific rival ad examples with URLs; OR-ACT-018 independently classify performance evidence; OR-ACT-019 broaden everyday personas; OR-ACT-022 hook comparison plan. Research and scripts only.
 - **Later creative generation requires a separate request:** OR-ACT-049/050/051 through 058. Do not call media generation service and do not order anything while user only requests historical storage.
 - **Demonstration/cost/signup blockers:** OR-ACT-008/009/010 and 020/021/037…040; independent proof required for G3/G4/G5/G6 claims.
 
 ## Whole-project status dashboard (at this snapshot)
-`{"DONE":14,"PENDING":29,"BLOCKED_EXTERNAL":14,"WAIT_APPROVAL":9}`
+`{"DONE":15,"PENDING":28,"BLOCKED_EXTERNAL":14,"WAIT_APPROVAL":9}`
 
 | Status | Count |
 |---|---:|
 | `BLOCKED_EXTERNAL` | 14 |
-| `DONE` | 14 |
-| `PENDING` | 29 |
+| `DONE` | 15 |
+| `PENDING` | 28 |
 | `WAIT_APPROVAL` | 9 |
 
 ## Full action register (66 stable follow-ups, never silently delete)
@@ -64,7 +65,7 @@
 |---|---|---|---|---|---|
 | `OR-ACT-023` | P0 | `DONE` | ساخت بانک ۱۲ سناریوی S01…S12 و ۱۲ هوک H01…H12 برای زندگی، خانواده، دانشجو، کار و اشتراک | Scenario Lab | IDs و چارچوب روایت‌ها در مخزن ثبت شده‌اند |
 | `OR-ACT-024` | P0 | `DONE` | تهیه ۶ صحنه، ۲۰ ثانیه، سبک ترکیبی و گویندگی EN برای P-A v1 | StoryBoard v1 | متن/زمان و شناسه دارایی هر شات دارد؛ ویدیو ساخته نشده |
-| `OR-ACT-025` | P1 | `PENDING` | مرور کاربر/برند روی P-A v1 و انتخاب یا ترکیب S07/S01/H01/H05/H10 و جهت لحن | 024 | ثبت feedback، decision v2 و تغییرات مشخص |
+| `OR-ACT-025` | P1 | `DONE` | مرور کاربر/برند روی P-A v1 و انتخاب یا ترکیب S07/S01/H01/H05/H10 و جهت لحن | 024; [v3 user-selected hook A](AD-PILOT-PA-STORYBOARD-v3-HOOK-A-SELECTED.md) | 2026-10-23 user selected Hook A exact 0–3s; v3 script/story revised; other VO/endcard remain unapproved and separate tasks |
 | `OR-ACT-026` | P1 | `PENDING` | نوشتن Script/VO v2 نهایی نمونه G1/P-A با تعداد واژه/زمان قابل‌اجرا | 025 | متن انگلیسی/کپشن و اصلاح زمان دقیق شات |
 | `OR-ACT-027` | P1 | `PENDING` | تهیه نمای قاب‌به‌قاب P-A با طرح اشیاء، دوربین، حرکت، عناصر برند و فضای متن بدون ساخت ویدیو | 025 + 005 | storyboard still v1 یا توضیح دقیق keyframes، تأیید نسبت تصویر |
 | `OR-ACT-028` | P1 | `PENDING` | امتحان سه سبک برای فقط یک لحظه نمونه: سینمایی/تایپوگرافی/UI و انتخاب نسبت ترکیب | 027 | نقد فنی و direction lock، بدون هزینه نامشخص |
@@ -143,6 +144,8 @@
 6. Verify commit SHA, file content and branch readback. No fake completed actions.
 
 ## Change-log
+- `2026-10-23 / ORSOLA-009`: user explicitly chose **Hook A — “One day. Too many tabs?”** and asked to revise G1/P-A text and storyboard with no image/video. Recorded `PA-HOOK-A-001 = USER_CONFIRMED` in [v3](AD-PILOT-PA-STORYBOARD-v3-HOOK-A-SELECTED.md); `OR-ACT-025` DONE narrowly for hook/review decision. `OR-ACT-026/027/006` remain PENDING for final copy, actual approved keyframes and exact end-card approval; no media/audio/demo/spending. Dashboard 15 DONE / 28 PENDING / 14 BLOCKED_EXTERNAL / 9 WAIT_APPROVAL.
+
 - `2026-10-23 / ORSOLA-006`: created 66 stable IDs by consolidating prior five research stages, 32 opportunities, 16 creative methods, 12 story concepts, confirmed P-A defaults, six campaigns and all downstream research/prototype/QA concerns. Before this, to-dos were scattered across individual documents; no production state was changed.
 
 - `2026-10-23 / ORSOLA-008`: after user asked to continue and narrate progress step by step, created [P-A v2 REVIEW DRAFT](AD-PILOT-PA-STORYBOARD-v2-REVIEW-DRAFT.md) using existing S07/S01, official public home/features/reminders docs and original user-confirmed art defaults. Word-count as whitespace-delimited, timing editorial only. **User feedback still required for hook/script decision**; no original TODO changed to DONE. Old v1 unchanged. No image/video generated.
