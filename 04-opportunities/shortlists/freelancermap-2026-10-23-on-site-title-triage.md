@@ -106,3 +106,7 @@ User supplied screenshot of cards only. No full descriptions, project IDs or bud
 4. IT Sonix Custom Development GmbH: AI Solutions Engineer (m/w/d) – LLM, RAG und Agenten. Leipzig; remote/freelance; start 12/2026; tags AI Agents, RAG, LLM, LangChain, Python, TypeScript. **Related technology but not shortlisted**: duration unknown and one-time deliverable unproven. Date 12/2026 is not a 12-month term.
 
 Result: zero confirmed one-off opportunities among these four. No application, employer contact or account changes. Source is screenshot, not full job text.
+
+## FMAP-015 — IT Sonix AI engineer PDF changes prior UNKNOWN status
+
+[Canonical #3064457](../OPP-20261023-003.md): user supplied complete 2-page PDF. As opposed to a defined project, company seeks experienced AI contractors for **potential future assignments on demand**, no present scope/deliverable/price/term. Topic fit strongly overlaps DJMRN LLM/RAG/Python/MCP research, but commercial multiyear backend, cloud production/security evidence not fully established. **NOT SHORTLISTED under mandatory one-off-only requirement**, NOT APPLIED; **do not misclassify as confirmed long-term**. Verified public corporate imprint/recruiter association. [Lesson](../../07-lessons-and-playbooks/LESSON-2026-002.md).

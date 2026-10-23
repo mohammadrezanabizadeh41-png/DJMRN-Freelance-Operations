@@ -96,3 +96,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - mindsquare SAP FI/CO/MM/CATS Fiori: 6 months+; excluded by one-off-only user rule.
 - IT Sonix AI Solutions Engineer LLM/RAG/Agents: topic overlap with AI/Python, but no specific one-time deliverable or duration confirmed. Not an application candidate.
 - [Full card review](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No proposals or account changes.
+
+## 2026-10-23 — FMAP-015 — Deep IT Sonix AI project listing evaluation
+- User uploaded complete 2-page PDF of IT Sonix `AI Solutions Engineer – LLM, RAG und Agenten`, freelancermap **#3064457**.
+- Read source: client-driven future collaboration/first nonbinding conversation, not a currently specified deliverable; topics RAG, n8n, LangChain/Graph, MCP, cloud operations, API security, customer workshops. Employer asks candidate profile, availability and hourly rate **on portal**; no price, term or fixed output supplied.
+- Verified first-party IT Sonix company registration/contact recruiter identity as public corroboration, not payment guarantee. [Canonical OPP](../04-opportunities/OPP-20261023-003.md) status FULL_PDF_REVIEWED, NO_ONE_OFF_ASSIGNMENT, NOT_APPLIED. Added [lesson](../07-lessons-and-playbooks/LESSON-2026-002.md).

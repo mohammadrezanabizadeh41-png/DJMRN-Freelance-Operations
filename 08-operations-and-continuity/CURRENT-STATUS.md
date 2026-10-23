@@ -58,3 +58,7 @@ User now wants **only fixed-scope projects paid against a deliverable**, NOT rec
 
 ## FMAP-013 — AKKODIS tester full PDF, 2026-10-23
 [OPP #3064524](../04-opportunities/OPP-20261023-002.md) **REJECTED** after user-uploaded 2-page PDF established `Laufzeit: 6 Monate (mit Option auf Verlängerung)` and `Vollzeit`. Required German C1 and technical master's, plus testing tools. Card date `10/2026` is NOT duration. Saved [lesson](../07-lessons-and-playbooks/LESSON-2026-001.md). Next: only look for **finite one-time delivered tasks**, and check project PDF if duration omitted on card. No application sent.
+
+## FMAP-015 — PDF assessment for IT Sonix AI Solutions Engineer, 2026-10-23
+
+User supplied complete 2-page PDF for freelancermap [#3064457](../04-opportunities/OPP-20261023-003.md). **Result: NOT CURRENTLY SUITABLE FOR ONE-OFF WORK**; this is an invitation to network with freelance AI experts and future assignments `je nach Projekt und Bedarf`, not a funded defined deliverable. No duration stated (NOT presumed monthly), no guaranteed scope/budget, hiring expects multiyear backend and production cloud/security/LLM experience, and a quoted hourly rate. Official company Impressum and recruiter Victoria Oppermann match source. Strong topic relevance to DJMRN does NOT prove eligibility. No application sent. [Lesson 002](../07-lessons-and-playbooks/LESSON-2026-002.md).
