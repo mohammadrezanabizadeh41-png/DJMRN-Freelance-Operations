@@ -23,3 +23,6 @@
 
 ## Latest freelancermap card-review index — 2026-10-23
 [FMAP-033: six-card review — SecurePoint repeat, SOLCOM D365/UX 3mo+, Meerab BA, Allianz insurance caller, Perspicuum SaaS sales](../04-opportunities/shortlists/FMAP-033-2026-10-23-six-card-review.md). **0 qualified one-time deliverables; 0 bids.** Refer to [FMAP-032](../04-opportunities/shortlists/FMAP-032-2026-10-23-seven-card-review.md) for earlier SecurePoint source and avoid duplicate lead record. Source originals and classification caveats in FMAP-033.
+
+## Latest freelancermap screening — 2026-10-23 FMAP-034
+[FMAP-034: nine screenshots, seven repeated ads and two new excluded contracts (CyberArk PAM 6+mo; OSPlus testing 12mo)](../04-opportunities/shortlists/FMAP-034-2026-10-23-nine-card-review.md). No applications. Reuse [FMAP-032](../04-opportunities/shortlists/FMAP-032-2026-10-23-seven-card-review.md) and [FMAP-033](../04-opportunities/shortlists/FMAP-033-2026-10-23-six-card-review.md) for previously verified fields rather than reopening duplicates.
