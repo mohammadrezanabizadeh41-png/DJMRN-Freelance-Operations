@@ -110,3 +110,17 @@ Result: zero confirmed one-off opportunities among these four. No application, e
 ## FMAP-015 — IT Sonix AI engineer PDF changes prior UNKNOWN status
 
 [Canonical #3064457](../OPP-20261023-003.md): user supplied complete 2-page PDF. As opposed to a defined project, company seeks experienced AI contractors for **potential future assignments on demand**, no present scope/deliverable/price/term. Topic fit strongly overlaps DJMRN LLM/RAG/Python/MCP research, but commercial multiyear backend, cloud production/security evidence not fully established. **NOT SHORTLISTED under mandatory one-off-only requirement**, NOT APPLIED; **do not misclassify as confirmed long-term**. Verified public corporate imprint/recruiter association. [Lesson](../../07-lessons-and-playbooks/LESSON-2026-002.md).
+
+## FMAP-016 — Five screenshot cards, three known repeated, 2026-10-23
+
+Source: four user images containing **five visible job cards**; titles/metadata only. No full ads, exact site project IDs or budgets supplied. User expressly confirmed **skip IT Sonix #3064457** before this screening. None of the five cards demonstrates a **one-time bounded deliverable**; no shortlisted full-PDF option yet.
+
+| Visible listing | Evidence on screenshot | Previous occurrence / selection result |
+|---|---|---|
+| **AMM ENTERPRISE GmbH — Project opportunity for COMOS Administrator – Level 2/3** | Hamburg, Germany; 100% remote; Freelance; ASAP; 12:52 | **REPEAT** from FMAP-012; NOT SHORTLISTED, COMOS platform specialist and no finite deliverable evidenced; duration UNKNOWN |
+| **AP Staffing Limited — Senior SAP SD Pricing and Rebates Consultant - Remote EU** | European Union, Spain; 100% remote; Freelance; ASAP; 11:53 | **REPEAT** from FMAP-014; previously employer not visible, now AP Staffing Limited. NOT SHORTLISTED, senior SAP specialist; EU-only restrictions suggested by title but residency eligibility NOT verified; duration UNKNOWN |
+| **SOLCOM GmbH — 1084713 Senior Lizenzmanager (m/w/d)** | Remote Germany; 100% remote; Freelance; 01.12.2026; 11:41 | **REPEAT** from FMAP-014; NOT SHORTLISTED, specialist license management role with no finite deliverable on card. `1084713` is in title and is NOT verified freelancermap listing ID; duration UNKNOWN |
+| **NovaSearch GmbH — Data Analyst / Business Analyst (SQL, GCP, BI & Reporting) – 100 % Remote** | Deutschland, Germany; 100% remote; Freelance; 1/2027; 11:28 | **NEW**. TECHNICALLY RELATED to user data/research/Python/accounting skills, but cloud GCP, SQL/BI production capability and scope require verification. `1/2027` is a date, NOT one-month contract. **NOT SHORTLISTED**: ongoing-role style, no discrete one-off deliverable in card; duration UNKNOWN |
+| **mindheads GmbH — PEGA Entwickler (m/w/d) - REST API & Kafka Integration (6510)** | Nürnberg, Germany; 100% remote; Freelance; 11/2026; 11:08 | **NEW**. REST/API general overlap, **PEGA** specialist platform plus Kafka expertise not demonstrated. `6510` appears in heading, NOT confirmed platform listing ID. Duration UNKNOWN; no bounded deliverable evidenced. **NOT SHORTLISTED** |
+
+Decision: **5 cards / 3 repeats / 2 novel titles / 0 proven one-off deliverable jobs**. This is a headline-level decision only, not proof any missing-duration role actually runs for months. Continue searching task-output terms (fixed-price one-off scripts, web fixes, specific reports, video deliverables), rather than screening staff-augmentation titles. Do not apply or edit account settings.

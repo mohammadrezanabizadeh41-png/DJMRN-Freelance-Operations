@@ -101,3 +101,8 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - User uploaded complete 2-page PDF of IT Sonix `AI Solutions Engineer – LLM, RAG und Agenten`, freelancermap **#3064457**.
 - Read source: client-driven future collaboration/first nonbinding conversation, not a currently specified deliverable; topics RAG, n8n, LangChain/Graph, MCP, cloud operations, API security, customer workshops. Employer asks candidate profile, availability and hourly rate **on portal**; no price, term or fixed output supplied.
 - Verified first-party IT Sonix company registration/contact recruiter identity as public corroboration, not payment guarantee. [Canonical OPP](../04-opportunities/OPP-20261023-003.md) status FULL_PDF_REVIEWED, NO_ONE_OFF_ASSIGNMENT, NOT_APPLIED. Added [lesson](../07-lessons-and-playbooks/LESSON-2026-002.md).
+
+## 2026-10-23 — FMAP-016 — Confirm IT Sonix skip and review five result cards
+- User expressly agreed to set aside IT Sonix #3064457 (upgraded canonical OPP status to USER_CONFIRMED_SKIP). No application.
+- New images: 5 cards, 3 previously observed (AMM COMOS, AP Staffing SAP SD, SOLCOM licensing), 2 new (NovaSearch data analyst SQL/GCP/BI, mindheads PEGA REST/Kafka). No explicit one-off assignment among them; date labels not treated as duration. [Dated title review](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
+- No site account changes, applications or costs. User requirement one-off deliverable only remains controlling.

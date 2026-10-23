@@ -103,3 +103,9 @@ Screenshot of four projects: Senior SAP SD Pricing/Rebates (EU only in title, sp
 - Crucial phrase: future concrete assignments depend on project demand; invites non-binding initial contact. **Not a specific one-off defined client order**; no budget/duration/deliverable and applicant asked for hourly rate. **Do not falsely call this a known monthly contract.**
 - Official IT Sonix legal imprint and contact page corroborate company and listed recruiter, not job's compensation or authorization.
 - Stored [OPP-20261023-003](../../04-opportunities/OPP-20261023-003.md) and [LESSON-2026-002](../../07-lessons-and-playbooks/LESSON-2026-002.md). Current one-off-only search decision: **SKIP / NO APPLICATION** unless user separately chooses networking. No employer contact, credits, uploads to GitHub of PDF, payment or Notion write.
+
+## FMAP-016 — explicit skip IT Sonix and five new screenshot cards (2026-10-23)
+- User confirmed **do not pursue IT Sonix #3064457** after the two-page PDF; status changed to USER_CONFIRMED_SKIP in its original OPP file.
+- Four new screenshots show **five cards**: repeats COMOS Administrator (AMM), Senior SAP SD Pricing/Rebates (AP Staffing named this time), Senior Lizenzmanager (SOLCOM); **new** NovaSearch Data Analyst/Business Analyst SQL/GCP/BI and mindheads PEGA Developer REST API/Kafka.
+- None establishes a one-time clearly scoped deliverable. Data Analyst topically closer but no one-off output shown; PEGA highly specialized. All five NOT SHORTLISTED for full PDF at present, with duration UNKNOWN rather than falsely marked monthly.
+- [Exact screenshot-derived triage and dedupe](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No bids, profile changes or employer messages.
