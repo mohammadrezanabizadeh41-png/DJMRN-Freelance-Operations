@@ -34,6 +34,10 @@ User is developing professional **sample advertisements and video teasers** dire
 | DEC-009 | Preserve every study, credible rival source, success-case caveat, script, prompt, asset source, pending question, user feedback and experiment as recoverable working memory | USER_CONFIRMED. GitHub path restricted to this exact freelance project folder |
 | DEC-010 | Keep editing realistic and professional: brand SVG and exact website/real UI/text/VO assembled in editor; AI for cinematic/metaphor plates, not fake screenshots or brand logotypes | ANALYTICAL recommended method, not an irrevocable user's tool choice |
 | DEC-011 | **P-A first 3 seconds = Hook A**, exact spoken copy `One day. Too many tabs?` | **USER_CONFIRMED** in conversation 2026-10-23; applies only to opening, does not approve whole VO/endcard, media or publication. Script v3 link below |
+| DEC-012 | User chose 30-second storyboard **Model 07** as preferred visual direction; split into 3 × 10-second chapters with consistent character, atmosphere and design | USER_CONFIRMED model choice, NOT final production approval or certified UI/brand |
+| DEC-013 | Render three video chapters **without generated VO**; record English voice separately, align by unified 30s master timeline, mix VO in editor, then subtitle against measured voice | USER_CONFIRMED audio/subtitle workflow; exact other script lines and timing still draft |
+
+**Current synchronization protocol:** [ORSOLA-011 / Model07 30s VO, per-second images, word time estimates, master and three local SRT subtitle tracks](production/PA30-MODEL07-AV-SYNC-v01/README.md). This is a text-only timing plan, not final voice or video. The Hook A wording remains user-confirmed, but other narration and actual measured timings require separate approval.
 
 **What remains a creative proposal:** P-A 20-second first pilot, its script, selected hook, scene look, narrator performance, final duration, platform/format, sample approval and generated assets. User has *not* signed off a final storyboard/voice sample and has *not* instructed us to render a video.
 
