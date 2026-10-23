@@ -177,3 +177,7 @@ Latin product name/layout issues. Do not invent new regional offers.
 - No private reference images, brand master binaries, audio clips or paid generator API tokens in this public GitHub project.
 
 **NEXT:** acquire [Wave A official brand approval](AD-MASTER-DATA-AND-ASSET-REGISTRY.md), select M02+M03 for pilot P-A, create a manual still storyboard and test at most a small low-cost 5–7s background on a verified free tool before any full-video render.
+
+## 2026-10-23 New creative lane prompt guard
+New human-first ad theme `L-SIMPLE-001` uses [twelve human-use stories and hooks](AD-SCENARIO-LAB-UNIVERSAL-USE-CASES-AND-COMPETITOR-INSIGHTS.md), [current hybrid P-A storyboard with English VO](AD-DIRECTION-DECISION-AND-PILOT-PA-STORYBOARD-v1.md), [honest competitor comparison](AD-LANE-SIMPLICITY-TIME-VALUE-COMPETITOR-RESEARCH.md).
+For AI motion prompts: visually portray fewer task cards **as a metaphor**, NOT a measured claim of fewer minutes or money; do not generate a "competitor vs Orsola" time counter, purchased software logos, false billing data, already-activated reminders, synthetic real UI or perfect automated phone actions. Production status remains **NO_VIDEO_GENERATED**.
