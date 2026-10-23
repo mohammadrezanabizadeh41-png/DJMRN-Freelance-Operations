@@ -1,0 +1,552 @@
+{
+  "schema": "DJMRN.ORSOLA.G1PA.MODEL07.AV_SYNC.v01",
+  "date": "2026-10-23",
+  "fps_provisional": 30,
+  "duration_seconds": 30,
+  "workflow": "3x10 SILENT clips; separate VO and subtitle tracks post-production",
+  "status": {
+    "model07": "SELECTED_BY_USER",
+    "hookA": "USER_CONFIRMED",
+    "remainingVO": "EDITORIAL_DRAFT_UNAPPROVED",
+    "timing": "TARGET_NOT_MEASURED",
+    "images": "VISUAL_STORYBOARD_NOT_REAL_PRODUCT",
+    "github_image_binaries": "PENDING"
+  },
+  "clips": [
+    {
+      "id": "C01",
+      "absolute_start": 0,
+      "absolute_end": 10,
+      "frames": [
+        1,
+        10
+      ],
+      "speech_generated_in_video": false
+    },
+    {
+      "id": "C02",
+      "absolute_start": 10,
+      "absolute_end": 20,
+      "frames": [
+        11,
+        20
+      ],
+      "speech_generated_in_video": false
+    },
+    {
+      "id": "C03",
+      "absolute_start": 20,
+      "absolute_end": 30,
+      "frames": [
+        21,
+        30
+      ],
+      "speech_generated_in_video": false
+    }
+  ],
+  "vo_cues": [
+    {
+      "id": "V01",
+      "start": 0.05,
+      "end": 0.85,
+      "text": "One day.",
+      "approval": "USER_CONFIRMED"
+    },
+    {
+      "id": "V02",
+      "start": 0.95,
+      "end": 2.8,
+      "text": "Too many tabs?",
+      "approval": "USER_CONFIRMED"
+    },
+    {
+      "id": "V03",
+      "start": 7,
+      "end": 8.55,
+      "text": "Meet Orsola.",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V04",
+      "start": 10.05,
+      "end": 12.95,
+      "text": "An AI assistant for work and everyday life.",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V05a",
+      "start": 13.08,
+      "end": 14.58,
+      "text": "Ask about email,",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V05b",
+      "start": 14.65,
+      "end": 17,
+      "text": "your calendar, or reminders—in",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V05c",
+      "start": 17.08,
+      "end": 18.64,
+      "text": "one conversation.",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V06a",
+      "start": 20.05,
+      "end": 21.04,
+      "text": "Less switching.",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V06b",
+      "start": 21.1,
+      "end": 22.18,
+      "text": "More living.",
+      "approval": "DRAFT"
+    },
+    {
+      "id": "V07",
+      "start": 28.05,
+      "end": 29.22,
+      "text": "Explore Orsola.",
+      "approval": "DRAFT"
+    }
+  ],
+  "frames": [
+    {
+      "frame": 1,
+      "clip": 1,
+      "master_start": 0,
+      "master_end": 1,
+      "clip_start": 0,
+      "clip_end": 1,
+      "visual": "Morning desk with household and work notes",
+      "generated_text": "Work; School; Groceries; Call mom; Plan trip?",
+      "review": "Approved spoken hook needs same-time onscreen emphasis",
+      "spoken_cue_ids": [
+        "V01",
+        "V02"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 2,
+      "clip": 1,
+      "master_start": 1,
+      "master_end": 2,
+      "clip_start": 1,
+      "clip_end": 2,
+      "visual": "Notification overload",
+      "generated_text": "Tabs; Notifications; Everywhere",
+      "review": "Alternative graphics unapproved; use Hook A",
+      "spoken_cue_ids": [
+        "V02"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 3,
+      "clip": 1,
+      "master_start": 2,
+      "master_end": 3,
+      "clip_start": 2,
+      "clip_end": 3,
+      "visual": "Overwhelmed character",
+      "generated_text": "TOO MUCH; CAN'T FOCUS; WHERE DO I START",
+      "review": "Extra slogans unapproved",
+      "spoken_cue_ids": [
+        "V02"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 4,
+      "clip": 1,
+      "master_start": 3,
+      "master_end": 4,
+      "clip_start": 3,
+      "clip_end": 4,
+      "visual": "Sunrise skyline",
+      "generated_text": "One day",
+      "review": "TIMING CONFLICT: graphic must move to first second",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 5,
+      "clip": 1,
+      "master_start": 4,
+      "master_end": 5,
+      "clip_start": 4,
+      "clip_end": 5,
+      "visual": "Dispersed tabs",
+      "generated_text": "Too many tabs?",
+      "review": "TIMING CONFLICT: must appear within first 3 seconds",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 6,
+      "clip": 1,
+      "master_start": 5,
+      "master_end": 6,
+      "clip_start": 5,
+      "clip_end": 6,
+      "visual": "Violet line joining cards",
+      "generated_text": "A violet line connects",
+      "review": "Graphic phrase unapproved; visual motif okay",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 7,
+      "clip": 1,
+      "master_start": 6,
+      "master_end": 7,
+      "clip_start": 6,
+      "clip_end": 7,
+      "visual": "Purple orbit brand motif",
+      "generated_text": "Ideas align",
+      "review": "Unapproved tagline",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 8,
+      "clip": 1,
+      "master_start": 7,
+      "master_end": 8,
+      "clip_start": 7,
+      "clip_end": 8,
+      "visual": "Orsola logo reveal",
+      "generated_text": "Orsola; YOUR LIFE IN FOCUS",
+      "review": "Official SVG must replace generated logo; remove unapproved slogan",
+      "spoken_cue_ids": [
+        "V03"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 9,
+      "clip": 1,
+      "master_start": 8,
+      "master_end": 9,
+      "clip_start": 8,
+      "clip_end": 9,
+      "visual": "Relieved human",
+      "generated_text": "Things calm down",
+      "review": "Unapproved text",
+      "spoken_cue_ids": [
+        "V03"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 10,
+      "clip": 1,
+      "master_start": 9,
+      "master_end": 10,
+      "clip_start": 9,
+      "clip_end": 10,
+      "visual": "Conceptual Work tasks",
+      "generated_text": "Summarize emails; Draft proposal; Prepare slides; Follow up",
+      "review": "Do not imply executed real actions",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 11,
+      "clip": 2,
+      "master_start": 10,
+      "master_end": 11,
+      "clip_start": 0,
+      "clip_end": 1,
+      "visual": "Woman with child",
+      "generated_text": "none",
+      "review": "Character scene; not real software",
+      "spoken_cue_ids": [
+        "V04"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 12,
+      "clip": 2,
+      "master_start": 11,
+      "master_end": 12,
+      "clip_start": 1,
+      "clip_end": 2,
+      "visual": "Family/work visual icons",
+      "generated_text": "Home; Work; Family",
+      "review": "Illustrative icons",
+      "spoken_cue_ids": [
+        "V04"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 13,
+      "clip": 2,
+      "master_start": 12,
+      "master_end": 13,
+      "clip_start": 2,
+      "clip_end": 3,
+      "visual": "Prompt input graphic",
+      "generated_text": "Help me plan my week",
+      "review": "Synthetic prompt not real product screenshot",
+      "spoken_cue_ids": [
+        "V04"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 14,
+      "clip": 2,
+      "master_start": 13,
+      "master_end": 14,
+      "clip_start": 3,
+      "clip_end": 4,
+      "visual": "Email card",
+      "generated_text": "Inbox summary; Draft responses; Priority list",
+      "review": "Conceptual only; completion checkboxes unverified",
+      "spoken_cue_ids": [
+        "V05a"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 15,
+      "clip": 2,
+      "master_start": 14,
+      "master_end": 15,
+      "clip_start": 4,
+      "clip_end": 5,
+      "visual": "Calendar card",
+      "generated_text": "Focus time; Team sync; Family time",
+      "review": "Conceptual only",
+      "spoken_cue_ids": [
+        "V05a",
+        "V05b"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 16,
+      "clip": 2,
+      "master_start": 15,
+      "master_end": 16,
+      "clip_start": 5,
+      "clip_end": 6,
+      "visual": "Reminder card",
+      "generated_text": "Pick up groceries; Call mom; Plan trip",
+      "review": "Conceptual only; success check not validated",
+      "spoken_cue_ids": [
+        "V05b"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 17,
+      "clip": 2,
+      "master_start": 16,
+      "master_end": 17,
+      "clip_start": 6,
+      "clip_end": 7,
+      "visual": "Cards connected",
+      "generated_text": "Email; Calendar; Reminders",
+      "review": "Illustrative model",
+      "spoken_cue_ids": [
+        "V05b"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 18,
+      "clip": 2,
+      "master_start": 17,
+      "master_end": 18,
+      "clip_start": 7,
+      "clip_end": 8,
+      "visual": "Central chat graphic",
+      "generated_text": "Everything in one place; Prioritized for you; Ready when you are",
+      "review": "Unverified slogans, not proof of result",
+      "spoken_cue_ids": [
+        "V05c"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 19,
+      "clip": 2,
+      "master_start": 18,
+      "master_end": 19,
+      "clip_start": 8,
+      "clip_end": 9,
+      "visual": "Woman content",
+      "generated_text": "Clearer minds",
+      "review": "Slogan unapproved",
+      "spoken_cue_ids": [
+        "V05c"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 20,
+      "clip": 2,
+      "master_start": 19,
+      "master_end": 20,
+      "clip_start": 9,
+      "clip_end": 10,
+      "visual": "Devices mockup",
+      "generated_text": "Across all your devices",
+      "review": "Broad device claim unverified",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 21,
+      "clip": 3,
+      "master_start": 20,
+      "master_end": 21,
+      "clip_start": 0,
+      "clip_end": 1,
+      "visual": "Glowing road",
+      "generated_text": "Less switching",
+      "review": "Match spoken tagline at 20.05s",
+      "spoken_cue_ids": [
+        "V06a"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 22,
+      "clip": 3,
+      "master_start": 21,
+      "master_end": 22,
+      "clip_start": 1,
+      "clip_end": 2,
+      "visual": "Woman breathing outdoors",
+      "generated_text": "More living",
+      "review": "Match spoken tagline at 21.10s",
+      "spoken_cue_ids": [
+        "V06a",
+        "V06b"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 23,
+      "clip": 3,
+      "master_start": 22,
+      "master_end": 23,
+      "clip_start": 2,
+      "clip_end": 3,
+      "visual": "Person calmly working",
+      "generated_text": "Calm focus",
+      "review": "Unapproved headline; no VO",
+      "spoken_cue_ids": [
+        "V06b"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 24,
+      "clip": 3,
+      "master_start": 23,
+      "master_end": 24,
+      "clip_start": 3,
+      "clip_end": 4,
+      "visual": "Family walk outdoors",
+      "generated_text": "Real life moments",
+      "review": "Unapproved headline; no VO",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 25,
+      "clip": 3,
+      "master_start": 24,
+      "master_end": 25,
+      "clip_start": 4,
+      "clip_end": 5,
+      "visual": "Portrait",
+      "generated_text": "Quiet confidence",
+      "review": "Unapproved headline; no VO",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 26,
+      "clip": 3,
+      "master_start": 25,
+      "master_end": 26,
+      "clip_start": 5,
+      "clip_end": 6,
+      "visual": "Landscape purple brand transition",
+      "generated_text": "From chaos to clarity",
+      "review": "Unapproved slogan; no VO",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 27,
+      "clip": 3,
+      "master_start": 26,
+      "master_end": 27,
+      "clip_start": 6,
+      "clip_end": 7,
+      "visual": "Large Orsola graphic",
+      "generated_text": "Orsola; A MORE CONNECTED YOU",
+      "review": "Replace with exact official SVG, remove tagline",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 28,
+      "clip": 3,
+      "master_start": 27,
+      "master_end": 28,
+      "clip_start": 7,
+      "clip_end": 8,
+      "visual": "Website text",
+      "generated_text": "orsola.ai",
+      "review": "Informational URL; keep for endcard",
+      "spoken_cue_ids": [],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 29,
+      "clip": 3,
+      "master_start": 28,
+      "master_end": 29,
+      "clip_start": 8,
+      "clip_end": 9,
+      "visual": "Purple CTA graphic",
+      "generated_text": "Explore Orsola",
+      "review": "Align voiced CTA at 28.05s",
+      "spoken_cue_ids": [
+        "V07"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    },
+    {
+      "frame": 30,
+      "clip": 3,
+      "master_start": 29,
+      "master_end": 30,
+      "clip_start": 9,
+      "clip_end": 10,
+      "visual": "Final generated logo",
+      "generated_text": "Orsola; A MORE CONNECTED YOU",
+      "review": "Exact official SVG; remove unapproved tagline",
+      "spoken_cue_ids": [
+        "V07"
+      ],
+      "picture_status": "UNAPPROVED_VISUAL_STORYBOARD"
+    }
+  ]
+}
