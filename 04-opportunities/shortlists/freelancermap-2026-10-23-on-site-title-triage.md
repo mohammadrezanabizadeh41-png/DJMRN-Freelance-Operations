@@ -75,3 +75,15 @@ This is **screenshot-sourced** rather than independently web-verified live avail
 | 4 | **ForTech Consulting GmbH — SAM / Lizenzmanagement Prozessexperte im ServiceNow-Umfeld – Unterstützung im Presales (m/w/d)** | Remote Germany; 100% remote; Freelance; ASAP; time 14:59 | **SKIP — NOT ONE-OFF EVIDENT / SPECIALISM**. No duration visible; support for SAM/license-management process and Presales does not establish deliverable-only work. Do NOT label multi-month as confirmed |
 
 **Policy:** user reaffirmed ignore monthly/multi-month work entirely when selecting ads for review. Parent policy: [PROJECT-RULES.md](../../PROJECT-RULES.md). Details: [site one-off search rule](../../03-accounts-and-operations/freelancermap-one-off-search-2026-10-23.md). Reuse exact title to detect duplicates; do not invent listing IDs or budgets. No full PDFs requested for any of these four.
+
+## FMAP-012 — three additional listings (screenshot, 2026-10-23)
+
+Only card headings checked; no exact listing IDs, links or budgets visible. No PDF candidate approved.
+
+| Employer | Title | Screenshot facts | Decision under one-off-only rule |
+|---|---|---|---|
+| AKKODIS | SW Tester (m/w/d) Robot Framework | Freiburg, Germany; 100% remote; Freelance; 10/2026 date; 13:16 time | NOT SHORTLISTED: contract duration UNKNOWN and no single finite deliverable shown. Testing skills possibly related but insufficient. |
+| Amoria Bond GmbH | Senior Security Manager - Teil- oder Vollzeit - ab Dezember - REMOTE - 12 Monate | Stuttgart, Germany; 100% remote; Freelance; 12 months+; 12/2026; 13:04 | EXCLUDE: explicitly 12-month engagement. |
+| AMM ENTERPRISE GmbH | Project opportunity for COMOS Administrator - Level 2/3 | Hamburg, Germany; 100% remote; Freelance; asap; 12:52 | NOT SHORTLISTED: duration UNKNOWN; specific COMOS administration role without defined one-time deliverable. |
+
+**Outcome:** zero confirmed one-off deliverables; no proposal or account action. Do not treat 10/2026 on tester card as ten-month contract. Source: user screenshot; not opened or web-verified.
