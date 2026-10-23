@@ -87,3 +87,11 @@ Only card headings checked; no exact listing IDs, links or budgets visible. No P
 | AMM ENTERPRISE GmbH | Project opportunity for COMOS Administrator - Level 2/3 | Hamburg, Germany; 100% remote; Freelance; asap; 12:52 | NOT SHORTLISTED: duration UNKNOWN; specific COMOS administration role without defined one-time deliverable. |
 
 **Outcome:** zero confirmed one-off deliverables; no proposal or account action. Do not treat 10/2026 on tester card as ten-month contract. Source: user screenshot; not opened or web-verified.
+
+## FMAP-013 — user-provided actual 2-page PDF supersedes AKKODIS card UNKNOWN
+
+- **Verified job ID:** `3064524`; [source permalink](https://www.freelancermap.com/project/sw-tester-m-w-d-robot-framework); [canonical analysis](../OPP-20261023-002.md).
+- The card merely showed `10/2026` (start). Actual German description on PDF p1: `Laufzeit: 6 Monate (mit Option auf Verlängerung)`, `Vollzeit`; thus **REJECTED_FIXED_ONE_OFF_RULE**.
+- Also mandatory German C1 and technical/scientific master's in PDF p2, initial Robot Framework and web-test tooling, desirable ISTQB/test management experience.
+- Badge says `100% remote`, text says `hauptsächlich remote`; guaranteed no on-site UNKNOWN. Payment/fees not stated.
+- Earlier AKKODIS card duration=UNKNOWN was factually correct **at screenshot stage only**; superseded by PDF evidence. No application or site interaction by assistant.

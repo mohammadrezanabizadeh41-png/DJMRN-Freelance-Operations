@@ -85,3 +85,7 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 ## 2026-10-23 — FMAP-012 — Screen 3 cards with mandatory one-off rule
 - User screenshot showed AKKODIS Robot Framework SW Tester (duration not shown); Amoria Bond Senior Security Manager (12 months+ and excluded); AMM ENTERPRISE COMOS Administrator L2/3 (duration not shown, no fixed deliverable evidenced).
 - 0 suitable one-off projects selected for PDF inspection; no applications. [Headline record](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
+
+## 2026-10-23 — FMAP-013 — Full PDF confirms hidden six-month assignment for AKKODIS
+- User provided two-page freelancermap Robot Framework ad, ID `3064524`; direct PDF shows six months extendable, full-time, mainly remote, mandatory German C1 and completed master's, pay unknown.
+- Converted prior `duration unknown from screenshot` to **PDF-CONFIRMED SKIP by hard one-off rule**, documented [OPP](../04-opportunities/OPP-20261023-002.md) and [experience](../07-lessons-and-playbooks/LESSON-2026-001.md). No applicant message or application.
