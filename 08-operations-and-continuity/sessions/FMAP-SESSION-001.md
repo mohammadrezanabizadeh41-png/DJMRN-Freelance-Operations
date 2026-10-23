@@ -109,3 +109,9 @@ Screenshot of four projects: Senior SAP SD Pricing/Rebates (EU only in title, sp
 - Four new screenshots show **five cards**: repeats COMOS Administrator (AMM), Senior SAP SD Pricing/Rebates (AP Staffing named this time), Senior Lizenzmanager (SOLCOM); **new** NovaSearch Data Analyst/Business Analyst SQL/GCP/BI and mindheads PEGA Developer REST API/Kafka.
 - None establishes a one-time clearly scoped deliverable. Data Analyst topically closer but no one-off output shown; PEGA highly specialized. All five NOT SHORTLISTED for full PDF at present, with duration UNKNOWN rather than falsely marked monthly.
 - [Exact screenshot-derived triage and dedupe](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No bids, profile changes or employer messages.
+
+## FMAP-017 — full 4-page PDF for NovaSearch #3064452 (2026-10-23)
+- User provided signed-in listing PDF, direct source ID **3064452**. Earlier NovaSearch screenshot only displayed start date `1/2027` and no full term, but p4 proves **01.01.2027–30.06.2027**, 100% workload, Expert.
+- The platform card `Budget €600` is actually **`Tagessatz 600 Euro`** (daily rate), not total fixed contract pay. Role is ongoing expert SQL/GCP/CDP/UDP BI analyst and dashboard support, not a one-off delivered report or fixed asset.
+- Company/recruiter identity cross-checked against official https://www.nova-search.com/about ; user location eligibility, language and actual payment unverified.
+- [Detailed OPP-20261023-004](../../04-opportunities/OPP-20261023-004.md) classified REJECT_BY_ONE_OFF_RULE, NOT_APPLIED; [lesson 003](../../07-lessons-and-playbooks/LESSON-2026-003.md). No new app sent or quota used.

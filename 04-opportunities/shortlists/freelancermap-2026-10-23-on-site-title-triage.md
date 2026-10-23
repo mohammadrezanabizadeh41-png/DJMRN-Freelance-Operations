@@ -124,3 +124,8 @@ Source: four user images containing **five visible job cards**; titles/metadata 
 | **mindheads GmbH — PEGA Entwickler (m/w/d) - REST API & Kafka Integration (6510)** | Nürnberg, Germany; 100% remote; Freelance; 11/2026; 11:08 | **NEW**. REST/API general overlap, **PEGA** specialist platform plus Kafka expertise not demonstrated. `6510` appears in heading, NOT confirmed platform listing ID. Duration UNKNOWN; no bounded deliverable evidenced. **NOT SHORTLISTED** |
 
 Decision: **5 cards / 3 repeats / 2 novel titles / 0 proven one-off deliverable jobs**. This is a headline-level decision only, not proof any missing-duration role actually runs for months. Continue searching task-output terms (fixed-price one-off scripts, web fixes, specific reports, video deliverables), rather than screening staff-augmentation titles. Do not apply or edit account settings.
+
+## FMAP-017 — NovaSearch Data Analyst PDF supersedes screenshot's UNKNOWN duration
+- Earlier screenshot showed NovaSearch `Data Analyst / Business Analyst (SQL, GCP, BI & Reporting) – 100% Remote` with start `1/2027`, duration unreported and no proven one-off deliverable. User now uploaded **four-page PDF**, listing ID **#3064452**; [canonical review](../OPP-20261023-004.md).
+- Final p4 unambiguously says **`Projektlaufzeit: 01.01.2027 bis 30.06.2027`**, 100% capacity, `Tagessatz 600 Euro` (daily rate despite `Budget €600` on p1), Expert level. **EXCLUDE: 6-month continuing contract violates user requirement.**
+- Explicitly preserve other metadata: language proficiency not formally specified; Germany label and Remote do not establish international residence eligibility. No proposal, CV or chat action.

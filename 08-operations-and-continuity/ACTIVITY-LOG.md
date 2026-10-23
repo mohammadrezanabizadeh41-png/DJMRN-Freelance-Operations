@@ -106,3 +106,9 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - User expressly agreed to set aside IT Sonix #3064457 (upgraded canonical OPP status to USER_CONFIRMED_SKIP). No application.
 - New images: 5 cards, 3 previously observed (AMM COMOS, AP Staffing SAP SD, SOLCOM licensing), 2 new (NovaSearch data analyst SQL/GCP/BI, mindheads PEGA REST/Kafka). No explicit one-off assignment among them; date labels not treated as duration. [Dated title review](../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md).
 - No site account changes, applications or costs. User requirement one-off deliverable only remains controlling.
+
+## 2026-10-23 — FMAP-017 — NovaSearch expert data analyst PDF read and screened
+- User sent **four-page PDF** of NovaSearch Data Analyst / Business Analyst GCP/SQL/BI, freelancermap **#3064452**; full text, not just result-card header, read and visually checked p4.
+- Full text sets `Projektlaufzeit: 01.01.2027 bis 30.06.2027` (**six months**), `Auslastung: 100%`, Expert seniority and `Tagessatz 600 Euro` (**day rate**, contrasted with platform header `600.00 € Budget`). True employer/client, contract/KYC/lawful payout and gross billable days unverified.
+- [Canonical deep review](../04-opportunities/OPP-20261023-004.md) status **REJECTED_BY_ONE_OFF_RULE / NOT_APPLIED** due embedded full-time six-month term. Independent official NovaSearch company site lists contact Xenia Sadzikowski; company verification is not payment guarantee.
+- [Reusable screening lesson](../07-lessons-and-playbooks/LESSON-2026-003.md). No application, CV sent, account changes, payment or Notion mutation.
