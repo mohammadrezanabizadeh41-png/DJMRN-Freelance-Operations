@@ -8,6 +8,7 @@
 
 ## Fast next-step lane (read before the full register)
 
+- **2026-10-23 editorial progress (ORSOLA-008):** [P-A storyboard v2 REVIEW DRAFT](AD-PILOT-PA-STORYBOARD-v2-REVIEW-DRAFT.md) now supplies a revised 20-second / 28-token English VO, six timestamped text shot treatments, six text-only keyframe briefs and three hook alternatives. It is **not user-approved**: keep OR-ACT-025/026/027/006 PENDING until their exact DONE criteria are actually met; summary status counts remain unchanged. No media, recording, real UI or paid tools invoked.
 - **Next safe, no-spend choices:** OR-ACT-025 (review existing P-A first storyboard and select narrative/hook), then OR-ACT-026 and 027 (rewrite a working script and still storyboard), OR-ACT-006 (final endcard wording), OR-ACT-005 (safe public page captures); brand master itself **already selected**.
 - **Parallel reusable research:** OR-ACT-016/017 specific rival ad examples with URLs; OR-ACT-018 independently classify performance evidence; OR-ACT-019 broaden everyday personas; OR-ACT-022 hook comparison plan. Research and scripts only.
 - **Later creative generation requires a separate request:** OR-ACT-049/050/051 through 058. Do not call media generation service and do not order anything while user only requests historical storage.
@@ -143,3 +144,5 @@
 
 ## Change-log
 - `2026-10-23 / ORSOLA-006`: created 66 stable IDs by consolidating prior five research stages, 32 opportunities, 16 creative methods, 12 story concepts, confirmed P-A defaults, six campaigns and all downstream research/prototype/QA concerns. Before this, to-dos were scattered across individual documents; no production state was changed.
+
+- `2026-10-23 / ORSOLA-008`: after user asked to continue and narrate progress step by step, created [P-A v2 REVIEW DRAFT](AD-PILOT-PA-STORYBOARD-v2-REVIEW-DRAFT.md) using existing S07/S01, official public home/features/reminders docs and original user-confirmed art defaults. Word-count as whitespace-delimited, timing editorial only. **User feedback still required for hook/script decision**; no original TODO changed to DONE. Old v1 unchanged. No image/video generated.
