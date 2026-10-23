@@ -1,0 +1,31 @@
+frame,clip,master_start_s,master_end_s,local_start_s,local_end_s,image_action,generated_screen_text,revision_issue,voice_cues,status
+1,C01,0,1,0,1,Morning desk with household and work notes,Work; School; Groceries; Call mom; Plan trip?,Approved spoken hook needs same-time onscreen emphasis,V01;V02,UNAPPROVED_VISUAL_STORYBOARD
+2,C01,1,2,1,2,Notification overload,Tabs; Notifications; Everywhere,Alternative graphics unapproved; use Hook A,V02,UNAPPROVED_VISUAL_STORYBOARD
+3,C01,2,3,2,3,Overwhelmed character,TOO MUCH; CAN'T FOCUS; WHERE DO I START,Extra slogans unapproved,V02,UNAPPROVED_VISUAL_STORYBOARD
+4,C01,3,4,3,4,Sunrise skyline,One day,TIMING CONFLICT: graphic must move to first second,,UNAPPROVED_VISUAL_STORYBOARD
+5,C01,4,5,4,5,Dispersed tabs,Too many tabs?,TIMING CONFLICT: must appear within first 3 seconds,,UNAPPROVED_VISUAL_STORYBOARD
+6,C01,5,6,5,6,Violet line joining cards,A violet line connects,Graphic phrase unapproved; visual motif okay,,UNAPPROVED_VISUAL_STORYBOARD
+7,C01,6,7,6,7,Purple orbit brand motif,Ideas align,Unapproved tagline,,UNAPPROVED_VISUAL_STORYBOARD
+8,C01,7,8,7,8,Orsola logo reveal,Orsola; YOUR LIFE IN FOCUS,Official SVG must replace generated logo; remove unapproved slogan,V03,UNAPPROVED_VISUAL_STORYBOARD
+9,C01,8,9,8,9,Relieved human,Things calm down,Unapproved text,V03,UNAPPROVED_VISUAL_STORYBOARD
+10,C01,9,10,9,10,Conceptual Work tasks,Summarize emails; Draft proposal; Prepare slides; Follow up,Do not imply executed real actions,,UNAPPROVED_VISUAL_STORYBOARD
+11,C02,10,11,0,1,Woman with child,none,Character scene; not real software,V04,UNAPPROVED_VISUAL_STORYBOARD
+12,C02,11,12,1,2,Family/work visual icons,Home; Work; Family,Illustrative icons,V04,UNAPPROVED_VISUAL_STORYBOARD
+13,C02,12,13,2,3,Prompt input graphic,Help me plan my week,Synthetic prompt not real product screenshot,V04,UNAPPROVED_VISUAL_STORYBOARD
+14,C02,13,14,3,4,Email card,Inbox summary; Draft responses; Priority list,Conceptual only; completion checkboxes unverified,V05a,UNAPPROVED_VISUAL_STORYBOARD
+15,C02,14,15,4,5,Calendar card,Focus time; Team sync; Family time,Conceptual only,V05a;V05b,UNAPPROVED_VISUAL_STORYBOARD
+16,C02,15,16,5,6,Reminder card,Pick up groceries; Call mom; Plan trip,Conceptual only; success check not validated,V05b,UNAPPROVED_VISUAL_STORYBOARD
+17,C02,16,17,6,7,Cards connected,Email; Calendar; Reminders,Illustrative model,V05b,UNAPPROVED_VISUAL_STORYBOARD
+18,C02,17,18,7,8,Central chat graphic,Everything in one place; Prioritized for you; Ready when you are,"Unverified slogans, not proof of result",V05c,UNAPPROVED_VISUAL_STORYBOARD
+19,C02,18,19,8,9,Woman content,Clearer minds,Slogan unapproved,V05c,UNAPPROVED_VISUAL_STORYBOARD
+20,C02,19,20,9,10,Devices mockup,Across all your devices,Broad device claim unverified,,UNAPPROVED_VISUAL_STORYBOARD
+21,C03,20,21,0,1,Glowing road,Less switching,Match spoken tagline at 20.05s,V06a,UNAPPROVED_VISUAL_STORYBOARD
+22,C03,21,22,1,2,Woman breathing outdoors,More living,Match spoken tagline at 21.10s,V06a;V06b,UNAPPROVED_VISUAL_STORYBOARD
+23,C03,22,23,2,3,Person calmly working,Calm focus,Unapproved headline; no VO,V06b,UNAPPROVED_VISUAL_STORYBOARD
+24,C03,23,24,3,4,Family walk outdoors,Real life moments,Unapproved headline; no VO,,UNAPPROVED_VISUAL_STORYBOARD
+25,C03,24,25,4,5,Portrait,Quiet confidence,Unapproved headline; no VO,,UNAPPROVED_VISUAL_STORYBOARD
+26,C03,25,26,5,6,Landscape purple brand transition,From chaos to clarity,Unapproved slogan; no VO,,UNAPPROVED_VISUAL_STORYBOARD
+27,C03,26,27,6,7,Large Orsola graphic,Orsola; A MORE CONNECTED YOU,"Replace with exact official SVG, remove tagline",,UNAPPROVED_VISUAL_STORYBOARD
+28,C03,27,28,7,8,Website text,orsola.ai,Informational URL; keep for endcard,,UNAPPROVED_VISUAL_STORYBOARD
+29,C03,28,29,8,9,Purple CTA graphic,Explore Orsola,Align voiced CTA at 28.05s,V07,UNAPPROVED_VISUAL_STORYBOARD
+30,C03,29,30,9,10,Final generated logo,Orsola; A MORE CONNECTED YOU,Exact official SVG; remove unapproved tagline,V07,UNAPPROVED_VISUAL_STORYBOARD
