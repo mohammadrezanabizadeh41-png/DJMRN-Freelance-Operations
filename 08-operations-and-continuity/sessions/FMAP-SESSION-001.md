@@ -45,3 +45,10 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 - Noted that many first results are repeated Salesforce Marketing Cloud **On-site** placements across several European locations, not suitable on title alone; two other cards read **100% remote** but no specific verified listing ID/payment/eligibility. Do not confuse visible facet counts with combined result totals.
 - **Next:** user ticks **Workplace → Remote** and **Contract type → Freelance** while keeping Worldwide/Newest/current exclude rule. Observe new live result count, then configure skill keywords; nothing submitted or account alert overwritten.
 - Screenshot files not uploaded to GitHub. Only necessary non-private UI facts/transcript logged. All counts are dated observations, not promised current numbers.
+
+## FMAP-004 — evidence-led public market/value-per-time scan, 2026-10-23
+- User requested public freelancermap search for **best earnings relative to work hours** to decide which live account filters and keywords to use.
+- Public listings inspected across WordPress/WooCommerce, LLM evaluation, AI automation, AI video editing, graphic/Canva templates, English research writing, e-learning tutorials, low-budget web development, ads management and enterprise n8n/finance.
+- Added an [evidence-linked example/keyword/ROI research sheet](../../04-opportunities/market-research/freelancermap-value-per-hour-2026-10-23.md) with exact findable listing links/known IDs, displayed prices, time/scope pitfalls, poor-fit exclusions and steps for reproducing a search.
+- Preliminary priority: 1 WordPress/WooCommerce, 2 LLM evaluation, 3 bounded AI video/editing/Canva, 4 Python/API/n8n only with demonstrated experience. The research is *not* a confirmed account-specific opportunity list nor a numeric expected hourly income study.
+- User's Remote/Freelance checkboxes still unconfirmed in live account after 2026-10-21 screenshot. Next: activate both then perform one keyword at a time (starting `WordPress`), report actual refreshed count/visible first results. Neither applications nor saved alert changed.

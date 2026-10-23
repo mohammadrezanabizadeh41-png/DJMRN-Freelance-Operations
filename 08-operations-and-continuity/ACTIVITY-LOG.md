@@ -45,3 +45,9 @@ Every genuine action: `EVT-ID`, date/time zone, actor, linked PLATFORM/OPP/JOB, 
 - User supplied 5 sequential screenshots of signed-in search results; documented all visible search option names, available facet counts, current selected filters, sort and saved-search affordances.
 - [Canonical reusable screen/filter reference](../03-accounts-and-operations/freelancermap-search-ui-2026-10-21.md) and [session journal](sessions/FMAP-SESSION-001.md) updated. Repository's historic Basic/alert evidence cross-checked; no need to resend same UI images in later sessions.
 - In 903 initial results, both Remote (302) and Freelance (659) remain unchecked; recommended activating both and reading new result count, without changing alert or upgrade. No application sent.
+
+## 2026-10-23 — FMAP-004 — Public revenue-per-hour and fit-oriented category research
+- Responded to user request to analyze **what kinds of freelancermap projects likely pay better relative to time** without creating fictional billable time estimates.
+- Reviewed dated public job postings for WordPress (including advertised $4,000 store), AI Trainer ($2,000 shown but hourly fee to quote), senior AI automation (paid discovery up to €1,500, later phase up to €10,000), Canva (€400), writing (€1,500), video/e-learning (unpriced), and lower-fit enterprise/high-hours tasks.
+- [Research, primary URLs, uncertainty, filters and exact keyword batches](../04-opportunities/market-research/freelancermap-value-per-hour-2026-10-23.md).
+- No statistical pay-rate claim, employer contact, application, upgrade, alert edits, site settings change or unapproved purchases.
