@@ -1,4 +1,6 @@
 # ORSOLA-024 — Shareable Evidence, Asset, Source & Repository Navigation Catalog
+
+> **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
 ### A transparent directory for reviewers: what is in GitHub, what is backed up elsewhere and what is not yet available
 
 **Date:** 2026-10-24. **Public repository:** [DJMRN-Freelance-Operations](https://github.com/mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations), `main`. **This folder:** [Orsola case root](https://github.com/mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/tree/main/04-opportunities/pre-award-product-studies/orsola-ai-2026-10-23).
