@@ -1,4 +1,6 @@
 # پرونده حرفه‌ای پروژه Orsola — پژوهش، تبلیغات، سناریوسازی و تولید ویدیوی برند
+
+> **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
 ### گزارش قابل ارائه به شرکت | تهیه و مستندسازی: DJMRN | ۲۴ اکتبر ۲۰۲۶
 
 **موضوع:** معرفی توانمندی‌های پژوهش و تولید تبلیغات ویدیویی مبتنی بر هوش مصنوعی، برنامه‌ریزی کمپین، بازآفرینی محتوای چندسکویی و شیوه اجرای نمونه تبلیغاتی برای Orsola.  
