@@ -1,0 +1,15 @@
+1
+00:00:00,050 --> 00:00:02,950
+An AI assistant for work and everyday life.
+
+2
+00:00:03,080 --> 00:00:04,580
+Ask about email,
+
+3
+00:00:04,650 --> 00:00:07,000
+your calendar, or reminders—in
+
+4
+00:00:07,080 --> 00:00:08,640
+one conversation.
