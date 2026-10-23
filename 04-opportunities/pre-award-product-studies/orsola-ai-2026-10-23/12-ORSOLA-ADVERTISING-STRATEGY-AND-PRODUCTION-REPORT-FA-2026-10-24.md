@@ -1,5 +1,11 @@
 # پرونده حرفه‌ای پروژه Orsola — پژوهش، تبلیغات، سناریوسازی و تولید ویدیوی برند
 
+> ### NEW: گزارش جامع فارسی و نقشه آینده Orsola (2026-10-24)
+> **[18 — گزارش جامع فارسی برای ارائه شرکت، روش عملی تولید تبلیغ و راهبرد توسعه](18-ORSOLA-COMPLETE-PERSIAN-CLIENT-DOSSIER-AND-FUTURE-AD-ROADMAP-2026-10-24.md)** — پژوهش محصول، برنامه رقبا، ایده‌های پیام تبلیغاتی، Free/Pro/Agents، بردها، Dola، صوت و زیرنویس، شبکه‌های اجتماعی و توسعه سریالی.
+> **[19 — کاراکتر ثابت/ماسکات/ایجنت‌ها/قابلیت کشف و خرید مبتنی بر رضایت](19-ORSOLA-AGENTIC-DISCOVERY-COMMERCE-AND-MASCOT-ROADMAP-2026-10-24.md)** — **پیشنهاد توسعه محصول** نه قابلیت موجود یا پیاده‌سازی انجام‌شده.
+> **[20 — راهنمای خواندن تمام پرونده توسط یک دستیار هوش مصنوعی](20-ORSOLA-AI-REVIEWER-READ-ME-AND-QUESTION-ROUTER-2026-10-24.md)** — سؤال → منبع → سطح شواهد → پاسخ صادقانه؛ مسیر نمونه دستورِ قابل‌کپی برای همیار.
+> **وضعیت دارایی:** گزارش و ایندکس GitHub عمومی‌اند؛ تصاویر بردهای تصویری هنوز در کتابخانه فایل مالک و ویدیوهای MP4 هنوز در GitHub عمومی قرار ندارند. بردها و ویدیوی قابل‌پخش تنها پس از تأیید مالک اثر می‌توانند ضمیمه معرفی شرکت شوند.
+
 > **Latest SC02 realism correction (2026-10-24):** The user requested a more photorealistic woman's face for the connecting-cards scene. A very long realism revision was rejected by Dola with generic `I can't generate the requested content`; the precise cause is not known. A balanced **6-second** rewrite preserving six purple connections, six green checks with synchronized checkout chimes and the single organized list was supplied, but **not independently confirmed rendered**. [ORSOLA-027 — full latest prompt and error record](17-ORSOLA-SC02-REALISM-PROMPT-AND-DOLA-ERROR-2026-10-24.md).
 ### گزارش قابل ارائه به شرکت | تهیه و مستندسازی: DJMRN | ۲۴ اکتبر ۲۰۲۶
 
