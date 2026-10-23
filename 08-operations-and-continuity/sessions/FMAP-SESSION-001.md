@@ -94,3 +94,6 @@ Keep a single dated `FMAP-SESSION-001.md` journal for this session; append **mat
 
 ## FMAP-013 — actual full PDF for AKKODIS SW Tester #3064524, 2026-10-23
 User uploaded 2-page PDF; verified `6 Monate (mit Option auf Verlängerung)`, `Vollzeit`, C1 German and master's requirement, and contradictory remote-badge vs mainly-remote text. This supersedes preliminary UNKNOWN-duration screenshot only for AKKODIS. **HARD REJECT** based on multi-month scope; [canonical OPP](../../04-opportunities/OPP-20261023-002.md) and [reusable lesson](../../07-lessons-and-playbooks/LESSON-2026-001.md). No application or paid action.
+
+## FMAP-014 — Four more cards checked, 2026-10-23
+Screenshot of four projects: Senior SAP SD Pricing/Rebates (EU only in title, specialized, duration unknown), SOLCOM Senior Lizenzmanager (duration unknown), mindsquare SAP Fiori (6 months+, excluded), and IT Sonix AI Solutions Engineer (LLM/RAG/Agents, Python, TypeScript, duration unknown). All remote/freelance but none explicitly one-off. IT Sonix may be technically interesting; do not shortlist before verifying a single bounded deliverable. Detailed source-based record: [title triage](../../04-opportunities/shortlists/freelancermap-2026-10-23-on-site-title-triage.md). No applications or messages sent.
