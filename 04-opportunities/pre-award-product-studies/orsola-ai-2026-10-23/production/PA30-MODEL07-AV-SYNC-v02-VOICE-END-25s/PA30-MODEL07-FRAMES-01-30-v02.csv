@@ -1,0 +1,31 @@
+frame,global_start_s,global_end_s,clip,local_start_s,visual,vo_cues,brand_graphics_status
+1,0,1,C01,0,"City skyline, mountains, bright sunrise; no person.",V01|V02,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+2,1,2,C01,1,"Wide desk: stressed woman, floating notifications, growing workload.",V02,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+3,2,3,C01,2,"Closer shot of same overwhelmed woman, many floating app cards.",V02,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+4,3,4,C01,3,Even closer shot; emotional stress reaches its highest point.,,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+5,4,5,C01,4,Over-the-shoulder view of woman viewing a conceptual Orsola marketing website on screen.,V03,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+6,5,6,C01,5,Over-the-shoulder same site view; cursor points toward sign-up/start; site mock must be replaced with exact official capture if used as real UI.,V03,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+7,6,7,C01,6,Violet energy path from monitor connects bottom Calendar card; first green check.,V04,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+8,7,8,C01,7,Second card Team Messages receives violet wave and cumulative second check.,V04,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+9,8,9,C01,8,Email card gains third green check; original first two checks remain.,V04,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+10,9,10,C01,9,Docs card gains fourth green check; original three checks remain.,V04,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+11,10,11,C02,0,Cloud Files card gains fifth green check; previous four remain.,V05a,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+12,11,12,C02,1,Meetings sixth card gains check; all six illustrative cards green.,V05a|V05b,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+13,12,13,C02,2,Six scattered cards begin sliding inward toward single Orsola-styled organized list; same desk/woman.,V05b,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+14,13,14,C02,3,Cards increasingly consolidate into one tall list; woman curious and surprised.,V05b,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+15,14,15,C02,4,"Remaining scattered cards dissolve/flow into the list, almost all consolidated; woman relieved.",V05b|V05c,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+16,15,16,C02,5,"Exactly one unified six-row list, all illustrated green ticks; woman calm and pleased.",V05c,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+17,16,17,C02,6,"Same woman at desk, relaxed smile; organized list remains as contextual graphics.",,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+18,17,18,C02,7,Sunlight blooms through window behind the same woman; closed eyes/relief.,V06a,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+19,18,19,C02,8,"Sunlit close-up, violet line loses intensity; gentle forward transition.",V06a|V06b,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+20,19,20,C02,9,Warm family moment: same woman happily with child in golden sunlight.,V06b,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+21,20,21,C03,0,"Black-violet background, broad diffuse purple haze, no logo or text yet.",,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+22,21,22,C03,1,More diffuse purple particles and ribbon-like energy gathering toward center.,,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+23,22,23,C03,2,Faint purple elliptical arc is emerging out of haze.,,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+24,23,24,C03,3,Violet light contracts and ring becomes more recognizable; partial wordmark glow could begin.,V07,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+25,24,25,C03,4,Ring becomes almost complete; Orsola wordmark and domain start faintly appearing in same reveal.,V07,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+26,25,26,C03,5,"More coherent brand lockup: ring, exact Orsola wordmark, orsola.ai emerge together from particles.",,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+27,26,27,C03,6,"Official-style brand lockup becomes brighter, with ring, Orsola and orsola.ai together; no voice from this second onward.",,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+28,27,28,C03,7,Stable readable Orsola wordmark and orsola.ai on dark background; music only.,,DISPLAY_TEXT_AND_LOGO_REQUIRE_EXACT_OFFICIAL_ASSETS
+29,28,29,C03,8,"City skyline, mountains and sunset; NO WOMAN, NO BRAND WORDMARK in scenery unless separately approved.",,CONCEPTUAL_GRAPHICS_NEED_REVIEW
+30,29,30,C03,9,Same city/mountain sunset with subtle light progression and closing/fade; NO WOMAN.,,CONCEPTUAL_GRAPHICS_NEED_REVIEW
