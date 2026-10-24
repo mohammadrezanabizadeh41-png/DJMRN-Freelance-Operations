@@ -26,3 +26,9 @@
 
 ## Latest freelancermap screening — 2026-10-23 FMAP-034
 [FMAP-034: nine screenshots, seven repeated ads and two new excluded contracts (CyberArk PAM 6+mo; OSPlus testing 12mo)](../04-opportunities/shortlists/FMAP-034-2026-10-23-nine-card-review.md). No applications. Reuse [FMAP-032](../04-opportunities/shortlists/FMAP-032-2026-10-23-seven-card-review.md) and [FMAP-033](../04-opportunities/shortlists/FMAP-033-2026-10-23-six-card-review.md) for previously verified fields rather than reopening duplicates.
+
+## Invest Qatar Gateway — account onboarding / partnership prospecting (2026-10-24)
+
+| Track | Primary record | Last observed state | Next safe action |
+|---|---|---|---|
+| **IQGW-001: Invest Qatar Gateway** | [Account, registration and profile status](../03-accounts-and-operations/invest-qatar-gateway-2026-10-24.md) · [session walkthrough](sessions/IQGW-SESSION-001.md) | **Registered + logged-in screenshot**; profile completion `USER_REPORTED`; Companies Network open; **no follow or pitch verified** | Confirm saved profile/location; filter Technology companies, inspect potential partners; later evaluate VC rules. Legal eligibility/costs unknown. |

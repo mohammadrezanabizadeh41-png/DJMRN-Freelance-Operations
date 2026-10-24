@@ -269,3 +269,11 @@ Five screenshots with seven cards; public listing verification reveals sifamo Ag
 - Compared 4 user images / 9 cards to existing FMAP-032/033. Repeats: Dynamics Developer, Senior HubSpot, UX/CRO Designer, SecurePoint IAM manager, SOLCOM D365, SOLCOM insurance UX engineer, Meerab BA — **not duplicated into separate new leads**.
 - Newly verified Tenth Revolution CyberArk PAM BA/Architect **6+ months** with European onshore/nearshore restriction, substantial past CyberArk experience, and Amoria Bond OSPlus neo Tester **12 months 100% workload** with manual/automated testing, SQL and Quality Center. Both excluded under binding user rule for fixed finite deliverables.
 - [Canonical 9-ad evidence/links](../04-opportunities/shortlists/FMAP-034-2026-10-23-nine-card-review.md). **0 qualified jobs, 0 application, no direct employer actions or Notion updates.**
+
+## 2026-10-24 — IQGW-001 — Invest Qatar Gateway signup/profile milestone
+- **Actor/approval:** user explicitly asked to persist completed platform registration and profile in `DJMRN-Freelance-Operations`; no external platform action delegated.
+- **Before:** no previously verified canonical account record for Gateway in this repository.
+- **Observed/user action:** entrepreneur onboarding done, email-verification step addressed, professional profile reported complete, personalized dashboard and `Companies Network` visible in screenshots.
+- **Result/after:** separate [platform account record](../03-accounts-and-operations/invest-qatar-gateway-2026-10-24.md) and [dated session](sessions/IQGW-SESSION-001.md); platform is a business/investment networking lead source, not an independently verified freelance job or funding acceptance.
+- **Evidence/provenance:** screenshots `DIRECTLY_OBSERVED` for signed-in dashboard and company list; `USER_REPORTED` for complete profile and final form selections; payout, investor application permissions and legal country eligibility `UNVERIFIED`. No secrets/raw email/image files stored.
+- **Next:** verify saved location/profile, filter company list, review specific prospects and VC portal; **0 verified follows, contact requests, pitches, contracts, payments or investments**.

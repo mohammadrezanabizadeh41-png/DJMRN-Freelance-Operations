@@ -1,5 +1,13 @@
 # CURRENT-STATUS — DJMRN Freelance Operations
 
+## 2026-10-24 — IQGW-001 — Invest Qatar Gateway account and profile recorded
+
+- **DIRECTLY_OBSERVED** from user screenshots: registered, signed-in personal dashboard; Companies Network browsable, 1,948 listings at snapshot; investment opportunity/service/tender counts are generic portal counts, not verified eligible leads.
+- **USER_REPORTED:** onboarding and profile completed; screenshot after the verification stage no longer showed the earlier email verification warning. Exact persisted profile fields and country still need direct inspection before asserting them.
+- **NOT DONE / UNKNOWN:** no partner followed/contacted from the Gateway, no VC pitch or grant applied, no commercial deal, investment, payment or residency eligibility confirmed. Portal access does not establish eligibility as a resident/national of Iran.
+- **Primary account file:** [IQGW-001](../03-accounts-and-operations/invest-qatar-gateway-2026-10-24.md); [session walkthrough](sessions/IQGW-SESSION-001.md). **Next:** check saved Iran/Tehran and profile, filter Tech companies, inspect contact mechanisms and VC funding rules before outreach; each external action requires approval.
+
+
 **Observed repository:** 2026-10-21 · **Owner:** user · **Canonical home:** this private GitHub repo · **Mode:** operational-memory architecture + historical source migration · **Live site/account audit performed this revision?** NO.
 
 ## Verified baseline
