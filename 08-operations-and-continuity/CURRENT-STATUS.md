@@ -1,4 +1,28 @@
 # CURRENT-STATUS — DJMRN Freelance Operations
+## 2026-11-09 — INT-FIVE-QUEUE-20261109 — Five international profiles / Jobbers read-only audit
+
+**CURRENT international track:** Active profile-review queue; separate from the previously paused Iranian-platform track. **USER_REPORTED explicit five-site order:** (1) Jobbers.io, (2) Creativepool, (3) 404Works, (4) LaborX, (5) CryptoTask. **Out of scope for this queue:** Freelance.hr, Voice123, Freelancer.com. freelancermap has already been reviewed separately. No inference that Jobbers.io and Joberz are the same account/platform without verification.
+
+**Portfolio instruction — USER_REPORTED:** For these five profiles, do **not** use or upload the 75KB Khaneh-Javaneh HTML demo as sample work. Consider only the **link** to the previously discussed advertisement video; user pronounced the name like 'Solana', while previous completed artifact is labeled **Orsola AI**. Exact identity of this intended video/link is **UNVERIFIED** until user confirms; do not invent another project or upload media. Review each platform's permitted field before any link publication.
+
+### Jobbers.io — read-only account evidence (DIRECTLY_OBSERVED on authenticated Chrome UI, 2026-11-09)
+- Account authenticated and accessible at https://www.jobbers.io/my-account/ as a freelancer/person. Profile photo present. Specialization heading: Web Development / Bug Fixes / AI-Assisted Coding & Automation. English About section exists (935 / 2000 chars), scoped to web/landing pages, frontend, API integration, Python, QA and AI-assisted workflows. **No edits made.**
+- **9 services published and 9 active; all marked Remote**, and none boosted. Earlier historical count 8 is superseded by live count 9. Visible categories/services: website creation ($90); AI-assisted workflow/Python/API automation ($65); UI redesign ($60); website QA ($45); spreadsheet/Excel cleanup ($35); digital graphics/thumbnails ($30); market/competitor research ($45); SQL databases ($65); SEO audit ($30). No dedicated advertising-video/video-editing service observed. These are **listed asking prices**, not validated income or completed gigs.
+- Portfolio/gallery: existing profile images and **two uploaded portfolio pictures** (site limit max 3). Current My Account portfolio upload UI accepts JPG/PNG/GIF (8MB max) and is **image-based**; a direct standalone external Drive-video field was **not verified**. Website field and social profile fields currently empty in viewed account form. **No media or sample link uploaded.**
+- Contact privacy: checkboxes to display both **phone and email publicly are ON**. Do not record values or change visibility without user approval. Delivery mode is **At your place** (not client site). Weekly availability shown as **5 days / 50 hours**, needs user confirmation of accuracy before changing.
+- Qualifications: **0 diplomas**; experiences: no entries shown; certificates: no entries shown. Do not fabricate education/employers/credentials. Formal identity/KYC verification status **UNVERIFIED** (no conclusive verification status established from account UI).
+- **CRITICAL FREE-FIRST BLOCKER:** My connects shows **0 available, 0 used this month** and message 'no connects available to apply'; My proposals shows **0 proposals sent**. Site explicitly says each project application costs **1 Connect**. Visible purchase packs start at **US$9 for 10 Connects**, then $19/25, $29/50, $49/100. Platform claims 0% commission and directly paid client relationships, **which does NOT mean free applications**. **Do not purchase/connect/submit** without specific separate approval. Existing published services may still generate inbound clients without applying, not validated.
+- Jobbers result: **profile substantially configured, but not fully complete**. Recommended read-only/user decision before changes: decide public email/phone visibility, check true 50h/week availability, whether to add a verified video-editing offering, optionally add real qualifications/experience/certificates if evidence exists, decide on permitted public portfolio link. For active proposal applications, **STOP (0 Connects, paid top-up)**; prefer free-first alternatives.
+
+### Next smallest safe actions
+1. Confirm which video user means by 'Solana' versus documented Orsola AI; do not use HTML website demo in any of these five profiles.
+2. Present Jobbers gaps and free-Connect blocker; user chooses if any non-sensitive, truthful profile changes are authorized; no KYC/public-contact/security change without per-action approval.
+3. Next on user's instruction: read-only check Creativepool, then 404Works, LaborX, CryptoTask, preserving this same queue.
+
+**Execution and safety:** Only Chrome navigation and account reading were performed during this Jobbers audit; **no profile changes, uploads, proposals, payments, upgrades, contact messages, identity submissions or security changes**. Provenance is authenticated Jobbers UI accessed via Remote Desktop Commander on 2026-11-09 and user's queue instruction. This event is a snapshot; reverify credits, status and fees on next use.
+
+---
+
 
 ## 2026-11-09 — IR-FREELANCE-20261109-PAUSE — Iranian platform screening/profile work PAUSED BY USER
 
