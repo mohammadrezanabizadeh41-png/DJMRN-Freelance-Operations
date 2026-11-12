@@ -1,6 +1,6 @@
 ## 2026-11-12 — CORRECTION: research-window-only intermediary shortlist (supersedes erroneous 90-row merge)
 
-The user explicitly corrected scope: **only sites/companies identified in this conversation's Nov 12 intermediary research**, not historical 1313-site catalog, earlier 42-site Plan A/B, or old account queues. The mistaken 90-row table is superseded and removed from CURRENT; historical artifacts were not modified. A separate [26-item window-only list](../01-platforms/iran-international-intermediaries-window-only-2026-11-12.md) is the sole scoped shortlist. Neither registration nor contact nor payment was authorized/performed. Eligibility and fees remain subject to confirmation.
+The user explicitly corrected scope: **only sites/companies identified in this conversation's Nov 12 intermediary research**, not historical 1313-site catalog, earlier 42-site Plan A/B, or old account queues. The mistaken 90-row table is superseded and removed from CURRENT; historical artifacts were not modified. A separate [22-item window-only list](../01-platforms/iran-international-intermediaries-window-only-2026-11-12.md) is the sole scoped shortlist. Neither registration nor contact nor payment was authorized/performed. Eligibility and fees remain subject to confirmation.
 
 ---
 
