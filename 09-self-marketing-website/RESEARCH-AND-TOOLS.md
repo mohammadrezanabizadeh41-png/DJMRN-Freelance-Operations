@@ -1,6 +1,6 @@
 # DJMRN-FREELANCE-WEBSITE-001 — Research, standards, tools, and evidence register
 
-**Status:** CURRENT research reference (not a daily progress log)  
+**Status:** CURRENT research reference / evidence seed (not the ongoing project log); stage-level live web search MANDATORY per MASTER-ROADMAP §5A  
 **Consolidation date:** 2026-11-14  
 **Scope:** Service-first DJMRN freelance/Vibe Coding promotional portfolio with **per-service galleries of distinct sample applications** (including one planned Perfume Store demo under E-commerce Website Development). Provider/licensing observations are historical research inputs, not current activation decisions.  
 **Authority:** [Project brief](README.md) for accepted scope, [execution plan](EXECUTION-PLAN.md) for gates, [project log](PROJECT-LOG.md) for observed stage progress, Git commit/diff for source evidence.  
@@ -122,3 +122,15 @@ Provider offer != an approved accessible account. **FREE-FIRST; UNKNOWN costs/ov
 - See [Execution plan](EXECUTION-PLAN.md) and [Project log](PROJECT-LOG.md) for approved scope and next tasks.
 
 **Provenance:** current user instructions; verified live Notion DJMRN policies; above official reference links; official Codex/gptme/Yep/README web pages (2026-11-14); GitHub tool directory and user-owned canonical records; Windows Remote Desktop Commander observed CLI, login, network and installed software. Unknown or feature claims not tested remain labeled.
+
+## I. Stage-specific creative research & verified source roles — snapshot 2026-11-14
+
+**This is only the current seed of source categories, not a one-time completed research substitution.** For EVERY substantive B##/RQ## step, follow [MASTER-ROADMAP §5A](MASTER-ROADMAP.md) and re-search **at that actual task's start**, considering current best examples/trends/research, primary tech/price/license guidance, alternatives, real tests and legal/region/free constraints. Avoid merely ranking flashy winners; technical quality and original appropriateness must be observed.
+
+- **Curated current portfolio / award inspiration (NOT proof of usability or reuse rights):** Awwwards https://www.awwwards.com/ ; FWA https://thefwa.com/ ; CSS Design Awards https://www.cssdesignawards.com/ . Specific published 2026 case material to *review for principles and critique*, not copy: Webdrift https://www.cssdesignawards.com/sites/webdrift/50418/ (1-bit alternative mode and expressive 3D); Maxim Kich https://www.cssdesignawards.com/sites/maxim-kich/48682/ (playful CLI/narrative); Hello, Designers https://www.cssdesignawards.com/sites/hello-designers/50398/ (interactive story/travel motif). Check mobile/focus/performance on actual live sites before calling a pattern 'successful'.
+- **Evidence-based UX:** NN/g aesthetic–usability effect (2024; reviewed 2026-09-01) https://www.nngroup.com/articles/aesthetic-usability-effect/ (appealing visual design can mask defects); NN/g design pattern study guide https://www.nngroup.com/articles/design-pattern-guidelines/ .
+- **Official standards:** W3C WCAG 2.2 https://www.w3.org/TR/wcag/ ; W3C reduced motion https://www.w3.org/WAI/WCAG22/Techniques/css/C39 ; Google crawlable links https://developers.google.com/search/docs/crawling-indexing/links-crawlable ; Core Web Vitals https://web.dev/articles/vitals ; MDN View Transition API https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using .
+- **Time-sensitive trend review, NOT technical mandate:** https://www.ionos.co.uk/digitalguide/websites/web-design/webdesign-trends/ (published July 2026, expressive typography, selective 3D, accessibility/performance, micro-interactions). Real cross-browser feasibility and originality take precedence over trends.
+
+**Original directions are PROPOSALS:** Premium Creative Engineering Atelier (A), Curated Interactive Gallery (B), and Selective Service-Window/Workspace Metaphor (C). Proposed hybrid **A + limited B**, with C only for useful service grouping. The "Living Digital Workshop" Explore→Experience→Inspect idea and optional "Behind the Build" should be critiqued and trialed, not silently treated as selected branding. **Art-direction bakeoff precedes mass implementation**, with new test gates **T34–T40** and clear owner review at P3. The subject of the sample commerce storefront (perfume/clothing/etc.) is likewise not chosen.
+
