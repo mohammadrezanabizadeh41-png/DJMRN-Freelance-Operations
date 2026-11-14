@@ -29,3 +29,13 @@ JUDGMENT: Prefer the first-party Codex app/CLI as development executor (user per
 - Ask owner to decide site brand/language/visual design and initial contact path; a project design mockup may precede coding.
 - After stage sign-off, instruct a single Codex task with narrow scope, test and Git diff; record real success/failure here.
 - No live deploy, account creation, billing, security-permission changes or paid APIs authorized by this checkpoint.
+
+## 2026-11-14 — P0 COMPLETE: project research and coding governance committed and independently read back
+DIRECTLY_OBSERVED: Wrote four canonical project-folder artifacts and re-fetched all four from GitHub; updated project README to adopt the new in-folder single project log instead of parallel root status.
+- `RESEARCH-AND-TOOLS.md`: commit `ca54265aa9e19ff850db4759f21cd949c67b79b5`, blob `b443b1fb32b1cbe22ab993ca57109f642af51431`.
+- `EXECUTION-PLAN.md`: creation commit `ffe9f0a1f467253a52883a2cb507f67330eea32d`, blob `02edddd4a69397169b9c26b42db559057d37dfb9` at first readback; P0 status changed to DONE in commit `d2064590a054021d128f326f10d1870cca688481`.
+- `AGENTS.md`: commit `329697c2802566117e1800feb5b76232f7414db7`, blob `0304943206de8bfe1006661889a449b0a4f10604`.
+- `PROJECT-LOG.md`: creation commit `78fa18a208e12daec086725836eff648f8916292`, initial blob `bf7b1ce1d9858965455991e771366cc6807811c2`.
+- `README.md` updated for in-folder links and authority override: commit `2af72b5e7e2049c37d3abc0a927af8a0418626a0`; readback PASS.
+LIVE_WINDOWS additional non-mutating network check: WinINET proxy ENABLED (configuration was **not changed**); DNS A for github.com resolved, but earlier Git CLI HTTPS:443 connect still failed. This indicates DNS resolution is available, not that GitHub HTTPS is reachable, nor a proven VPN root cause. No firewall, proxy, execution policy, account or browser permission changed. No Codex model code execution was initiated.
+RESULT: **P0 DONE** (documentation and continuity only). **P1 PARTIAL/BLOCKED** (Windows-to-GitHub network). **P2 design not approved**. No running/hosted website and no local checkout.
