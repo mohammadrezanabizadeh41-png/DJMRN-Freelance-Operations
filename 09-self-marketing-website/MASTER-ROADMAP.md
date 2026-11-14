@@ -2,7 +2,7 @@
 
 **Document type:** CANONICAL design/build ROADMAP and research backlog (not the project activity log).  
 **Version:** 1.1 — 2026-11-14 — reconciled requirements and architecture, **READY FOR OWNER FINAL REVIEW**; NOT a blanket approval to build, activate providers or deploy.  
-**Owner's request (latest clarified hierarchy 2026-11-14):** a creative **SERVICE-FIRST freelancer/Vibe Coding website** with many explained service categories, each able to display one or more separately branded, nested and inspectable sample applications. The **Perfume Store** with fictional cart, fake payment and accounting is **a linked sample under the E-commerce Website Development service**, NOT DJMRN's main site checkout, and involves no real money or financial obligations. Display technical capability with genuinely working synthetic-data workflows or accurately labeled simulations of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
+**Owner's request (latest clarified hierarchy 2026-11-14):** a creative **SERVICE-FIRST freelancer/Vibe Coding website** with many explained service categories, each able to display one or more separately branded, nested and inspectable sample applications. The **Perfume Store (illustrative candidate)** with fictional cart, fake payment and accounting is **a linked sample under the E-commerce Website Development service**, NOT DJMRN's main site checkout, and involves no real money or financial obligations. Display technical capability with genuinely working synthetic-data workflows or accurately labeled simulations of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
 **Source authority:** `mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/09-self-marketing-website/`.  
 **Execution authority:** site source / Git commits; [AGENTS.md](AGENTS.md) governs Codex; [EXECUTION-PLAN.md](EXECUTION-PLAN.md) holds P0–P10 macro gates; [PROJECT-LOG.md](PROJECT-LOG.md) is the **ONE** changing stage/approval/test history. This ROADMAP specifies structure, dependencies and criteria, not duplicate daily progress.  
 **Design authority (upon owner adoption):** Figma approved master frames + tokens. Other builders (MagicPath etc.) are noncanonical experiments/prototypes.  
@@ -75,7 +75,7 @@ DJMRN main marketing/portfolio site (global shell)
 │   │   └── Subservice: E-commerce website creation
 │   │       ├── What we can build, UI/architecture/performance/security explanation
 │   │       └── Relevant sample gallery (0 live until built; may later show 1, 2, 3...)
-│   │           ├── Sample A (PLANNED, NOT BUILT): Perfume Store → working storefront DEMO when tested
+│   │           ├── Sample A (ILLUSTRATIVE CANDIDATE, NOT CHOSEN/BUILT): Perfume Store → working storefront DEMO when tested
 │   │           │   ├── Own sample-store front, products, search, cart, fake checkout
 │   │           │   ├── Fake payment outcomes, demo orders/invoices
 │   │           │   └── Optional sample accounting/back-office panels (B23)
@@ -93,6 +93,8 @@ DJMRN main marketing/portfolio site (global shell)
 ```
 
 **Visitor journey example (perfume):** `DJMRN home → Services → Website Building → E-commerce Websites → Perfume Shop sample card → Open demo → Interact with *fictional* storefront/cart/gateway → View sample invoice/report → Back to e-commerce service → Compare more samples → Contact creator if desired.` At no step does DJMRN global navigation become real perfume-store inventory, real payment or real customer finance. The visitor knows this is a **showcase within the freelancer's website**.
+
+**Brand/niche status (important):** the owner used a perfume store only as an EXAMPLE to illustrate service→sample linking. The **required feature target** is at least one believable, fully bounded ecommerce/finance demonstration associated with the ecommerce service; the actual niche (perfume, apparel, etc.), fictional shop name, visual direction and exact scope remain OPEN for P2/P3 review. Do not silently treat perfume as chosen, built or published. This preserves creative exploration and makes B23 a reusable exemplar rather than a fixed product brand.
 
 ### Deep-link and window UX rule
 
@@ -142,7 +144,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 | A service may lead to **zero, one or several real sample cards** and later gain more | B02 evidence; B14 service; B15 sample registry; B07 contracts; T32/T33 | COVERED |
 | Clicking a service sample opens **an independently styled, contained real demonstration inside DJMRN**, with its own shareable URL, back/forward and return-to-service | §1A, B03/B05/B07/B15, T32/T33 | COVERED |
 | A sample has separate optional case-study explanation and executable demo pages, not duplicated sites | B15/sample ID, B18 metadata, T32 | COVERED |
-| Under **E-commerce Website Development**, a **Perfume Store** sample provides fictional products, cart, simulated gateway, invoice, ledger and reports, but DJMRN home does NOT | B14/B15/**B23**, RQ24, T27–T33 | COVERED, NOT BUILT |
+| Under **E-commerce Website Development**, a **Perfume Store (illustrative example, brand not selected yet)** could provide fictional products, cart, simulated gateway, invoice, ledger and reports, but DJMRN home does NOT | B14/B15/**B23**, RQ24, T27–T33 | COVERED, NOT BUILT |
 | Fake success/decline/refund, exact money arithmetic, sample-data labels, safe reset; no real bank/payment info | B17/B23, T27–T31 | COVERED, NOT BUILT |
 | New store samples and later automation/AI/creative/video/game demos fit under appropriate services without cloning DJMRN | B07/B14/B15/B22, §§10A–10B, T33 | COVERED, FUTURE GATES |
 | Distinct visual identities per sample; consistent DJMRN navigation/accessible return | B05/B06/B15/B23, T14/T32/T33 | COVERED |
@@ -159,7 +161,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 
 **Approval phases stay separate:** (a) owner may approve the overall roadmap and kickoff **P2/B01**; (b) later accept the actual service taxonomy, concept content, visual designs and stack at P2–P4; (c) authorize specific implementation increments; (d) approve any cost, sensitive provider and production deployment separately.
 
-**P2 must produce before P3:** capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
+**P2 must produce before P3:** confirm which fictional e-commerce sample niche/brand (Perfume Store is ONE POSSIBLE IDEA, not a mandatory choice); capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
 
 ---
 
@@ -284,11 +286,11 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 ---
 
 
-### B23 — DEMO Commerce, checkout, financial/accounting application showcase (OWNER REQUIRED; staged, no real money)
+### B23 — DEMO Commerce, checkout, financial/accounting application showcase (REQUIRED CAPABILITY DEMO, SAMPLE THEME OPEN; staged, no real money)
 
 **Classification / owner scope:** a visible, substantial **interactive EXAMPLE APPLICATION ACCESSED THROUGH THE 'E-COMMERCE WEBSITE CREATION' SERVICE PAGE AND ITS SAMPLE GALLERY**, owned by the same DJMRN website/portfolio project. B23 is a **specialized sample implementation subordinate to B14 service descriptions and B15 sample gallery**, **NOT** the DJMRN homepage, global service brand or a general sales checkout for DJMRN. Not a live merchant, payment operator, invoice issuer or customer finance system. The owner's latest explicit instruction **supersedes earlier exclusions that had removed checkout/payment/finance entirely**. This module is a project target, not a claim it has already been implemented. Build only in phase-appropriate, tested increments, with its actual code within the existing repo. A separate project/repository may be considered only after a demonstrated independent operational need and owner approval.
 
-**Candidate public experience:** DJMRN Home → Services → Website Building → E-commerce Websites → **Sample gallery** → click **Perfume Shop example** (one of potentially several independent e-commerce samples) → enter its contained branded demo route and optional financial/back-office views. The case study explains the work, and the demo is where the visitor interacts. Route spelling (e.g. `/[locale]/demos/perfume-store/` vs `/[locale]/lab/perfume-store/`) is a B03/B04/B07 decision; choose one canonical route, keep it inside the site, and provide a 'Return to e-commerce service' control. A visitor can follow a **real working demo** flow in a contained fictional shop, choose examples of **simulated gateway results**, inspect a **sample invoice/order**, and switch to a **sample financial dashboard** showing the results. Cross-links explain architecture, edge cases, QA and implemented code. Put persistent **"DEMO / TEST DATA / NO REAL PAYMENT OR ORDER"** wording in the shopping, fake gateway, receipt and accounting interfaces. A visitor must not mistake demo products or financial statements for real items, charges, balance or legal receipts.
+**Illustrative public experience (sample theme NOT APPROVED YET):** DJMRN Home → Services → Website Building → E-commerce Websites → **Sample gallery** → click **Perfume Shop example** (one of potentially several independent e-commerce samples) → enter its contained branded demo route and optional financial/back-office views. The case study explains the work, and the demo is where the visitor interacts. Route spelling (e.g. `/[locale]/demos/perfume-store/` vs `/[locale]/lab/perfume-store/`) is a B03/B04/B07 decision; choose one canonical route, keep it inside the site, and provide a 'Return to e-commerce service' control. A visitor can follow a **real working demo** flow in a contained fictional shop, choose examples of **simulated gateway results**, inspect a **sample invoice/order**, and switch to a **sample financial dashboard** showing the results. Cross-links explain architecture, edge cases, QA and implemented code. Put persistent **"DEMO / TEST DATA / NO REAL PAYMENT OR ORDER"** wording in the shopping, fake gateway, receipt and accounting interfaces. A visitor must not mistake demo products or financial statements for real items, charges, balance or legal receipts.
 
 **Subbranches and acceptance contracts (each researched at its own implementation phase, not now):**
 - **B23.1 Scenario/UX + feature inventory:** decide one coherent fictional brand/store and realistic user journeys; product categories, sample catalog, search/filter/sort, carts, addresses **synthetic only**, currencies and responsive layouts; separate visitor showcase from admin/finance preview. Research **RQ24a**: credible ecommerce interaction patterns and accessibility before design. Gate: clickable agreed journey and truthful demo labeling.
@@ -350,7 +352,7 @@ S4 B12 Responsive + B13 A11y + B14 Services
                                        v
 S5 B15 Service-linked Case/Example Galleries + B16 Contact + B18 SEO
                    |
-                   +------> S6 B23 Perfume-Store SAMPLE application (B14/B15 child)
+                   +------> S6 B23 SELECTED E-commerce/Finance SAMPLE application (B14/B15 child)
                    |            fake checkout / sample invoice + ledger, T27–T33
                    |
                    +------> S6 B10 Motion / B11 optional 3D / B04 locale expansion
