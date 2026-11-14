@@ -193,7 +193,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 - **Gate:** at least one fully reviewed RTL and one LTR route in pilot, then smoke a full route×locale matrix before publishing each additional locale; no orphan locale selectors or phantom `hreflang`.
 
 ### B05 — Brand identity, art direction & design tokens
-- **Subtasks:** owner name/brand voice, visual directions (premium agency × tech lab; optional minimal/editorial, expressive/3D variants); wordmark and favicon; color and dark/light behavior if worth it; type scales including CJK/Arabic and fallback fonts, spacing, grid, radii, responsive token scales, surfaces, shadows, icon and motion tokens.
+- **Subtasks:** owner name/brand voice, global DJMRN art direction (premium agency × tech lab; optional minimal/editorial, expressive/3D); **sample-specific design systems can intentionally differ** in palette, layout and interaction without sharing private state or overriding the global shell; wordmark/favicon, dark/light behavior if valuable, CJK/Arabic type/font fallbacks, grid/responsive scales, icon and motion tokens.
 - **Dependencies:** B01–B04 language/font/space needs. **Research RQ05:** moodboards and high-quality *real* portfolios; Figma Starter limits, typography families/license/performance (Fontsource/self hosting); verify visual originality and international readability.
 - **Gate:** owner approves a cohesive Figma frame/token system for mobile+desktop and RTL/LTR; contrast/focus reviewed; creative direction documented without copying third-party designs.
 
@@ -204,7 +204,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 
 ### B07 — Framework/architecture decision and component/content boundaries
 - **Alternatives:** (a) semantic HTML/CSS/light JS for very few static pages; (b) **Astro static pages + content collections + selectively hydrated islands** as a strong candidate for ~8 locales, many service/case pages and isolated interactive demos; (c) Next.js/server architecture only if authenticated portal/real dynamic apps justify it. Do not pick "latest" for prestige.
-- **Subtasks:** score stack vs content volume, locale route generation, build/static hosting, SEO HTML availability, interactive island complexity, skill maintenance, dependency/version risks, 8GB dev RAM, rollback; choose Node package manager and lockfile, stable TS config, format/lint, import boundaries, one repository, no microservices.
+- **Subtasks:** score stack vs content volume, locale route generation, build/static hosting, SEO HTML availability, interactive island complexity, skill maintenance, dependency/version risks, 8GB dev RAM, rollback; **prove a real service→sample→demo deep link and per-demo lazy code/style loading** without adopting a site-wide SPA or requiring server/database; choose package manager/lockfile, TS config, format/lint, explicit import/state boundaries, one repository, no microservices.
 - **Dependencies:** B01–B06 first. **Research RQ07:** official Astro 6 (fonts/CSP/content collections/islands), Next.js auth, browser support. **Gate:** short ADR recorded in PROJECT-LOG with measured local build+prerender smoke and reason rejected alternatives; no architecture selection before content/locale needs.
 
 ### B08 — Developer experience, Codex role, Git workflow & CI gates
@@ -248,7 +248,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 - **Gate:** 1 case study with real rights and provenance + at least one demonstrable functional sample; all demo errors fail gracefully, do not touch production auth, no exposure of sensitive source/client data.
 
 ### B16 — Optional real creator contact and promotional UX (distinct from B23 simulated shop checkout)
-- **Subtasks:** optional verified public email/social/contact links and explanatory service CTAs; a safe `mailto:` link is enough for V1 if owner approves address. No **real** customer checkout/order queue, financial obligations or real account creation from creator-contact pages; **B23 separately owns genuine interactive synthetic checkout/order demo**. Optional contact form comes only after delivery/retention/abuse/storage/privacy and test are approved; show any nonfunctional sample form as **DEMO / NO SUBMISSION**. Never promise a form works when it is frontend-only.
+- **Subtasks:** optional verified public email/social/contact links, explanatory service CTAs and a clear visitor **inquiry/feedback** route. If the owner later wants public comments on demos or a response widget, distinguish **nonfunctional visual prototype** from a genuine submitted/received message; require consent, moderation/spam/privacy/retention and destination tests for any actual posting. A safe `mailto:` link is enough for V1 if owner approves address. No **real** customer checkout/order queue, financial obligations or real account creation from creator-contact pages; **B23 separately owns genuine interactive synthetic checkout/order demo**. Optional contact form comes only after delivery/retention/abuse/storage/privacy and test are approved; show any nonfunctional sample form as **DEMO / NO SUBMISSION**. Never promise a form works when it is frontend-only.
 - **Dependencies:** B01 trust, B04 locale, B07 backend choice, B13 accessibility, B17 privacy. **Research RQ16:** Formspree Free $0 50 submissions/month explicitly positioned for **testing/development** (commercial production eligibility must be verified), Cloudflare Turnstile Free business use with verification requiring a **server-side endpoint**, independent form alternative, spam/overage.
 - **Gate:** real end-to-end inquiry test to authorized controlled inbox, failure handling/dedupe/abuse guard/retention and privacy checks, no secret client bundle. If no eligible free service, use safe email/contact links before building backend.
 
@@ -645,6 +645,8 @@ Before any consequential expansion, record one succinct feature proposal:
 ---
 
 ## 10B. Visitor-facing AI and automation showroom: staged future integration — assessed 2026-11-14
+
+**Service-link placement for AI:** If the owner elects to build D0/D1/D2 later, AI/automation service pages can each show one or more separate sample cards leading to their own dedicated demo URLs, exactly as for the ecommerce sample. An optional small guidance widget on the DJMRN home page must NOT replace or require the service-linked demos; keep provider/cost/security boundaries isolated.
 
 **Owner's real use case:** Prospective international clients should be able to try the owner's web/AI/automation capabilities, ask about real services, explore project options and find approved contact channels, with potentially helpful ready-made answers and a limited free cloud model. **Decision classification:** architectural **POSSIBLE**, service/model deployment **DEFERRED**. This is an optional site feature, not a reason to create a separate repository, agent swarm, full-time paid backend, user login or AI infrastructure before the marketing website proves useful.
 
