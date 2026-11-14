@@ -18,7 +18,7 @@
 
 | Stage | Purpose | Evidence required to pass | Status |
 |---|---|---|---|
-| P0 | Consolidate prior official standards, tool/plugin research, governance and options in project folder | `RESEARCH-AND-TOOLS.md`, `EXECUTION-PLAN.md`, `AGENTS.md`, `PROJECT-LOG.md` stored and read back | IN PROGRESS 2026-11-14 |
+| P0 | Consolidate prior official standards, tool/plugin research, governance and options in project folder | `RESEARCH-AND-TOOLS.md`, `EXECUTION-PLAN.md`, `AGENTS.md`, `PROJECT-LOG.md` stored and read back | **VERIFIED_REAL / DONE 2026-11-14** |
 | P1 | Local dev readiness (not paid work) | `codex.cmd --version`, `codex.cmd login status`, `git ls-remote`, available workspace, security and resource review | PARTIAL: Codex login PASS; GitHub desktop network FAIL |
 | P2 | Agree real first-slice requirements and visual choices | Approved audience/service priority, language plan, pages, truthful sample assets, contact method, motion quality, accepted design reference | OPEN |
 | P3 | Figma/optional MagicPath layouts | Approved desktop + mobile wireframes, accessible font/colors/focus, component system, interactions, reduced-motion variant | NOT STARTED |
@@ -30,7 +30,7 @@
 | P9 | Separately authorized production deploy | Reviewed commit and operator approval; deploy, verify live HTTP/SEO/TLS/mobile, keep rollback and monitoring evidence | NOT AUTHORIZED |
 | P10 | Measure and refine | Search indexing/performance from actual user data, inbound contact process, conversion evidence, iterative fixes | NOT STARTED |
 
-**Current next safe action:** complete P0; P1 diagnose nonsecret Git-to-GitHub connectivity without changing firewall/VPN permissions. P2 owner-facing design discussion follows, then P3 and P4. Do not label project `OPERATIONAL` merely because a local Codex process can run.
+**Current next safe action:** P0 verified; P1 diagnose nonsecret Git-to-GitHub connectivity without changing firewall/VPN permissions. P2 owner-facing design discussion follows, then P3 and P4. Do not label project `OPERATIONAL` merely because a local Codex process can run.
 
 ## Specific Codex task packet template
 
