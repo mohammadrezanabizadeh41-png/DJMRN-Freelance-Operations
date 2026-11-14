@@ -155,13 +155,16 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 | Future login/portal, untrusted games, uploads, PWA and *real* payment integrations can be reviewed later | §10A, B07/B22, T16–T21 | COVERED, NO PREMATURE BACKEND |
 | Show only truthful capabilities and permitted original assets, never invent paid clients or technical test passes | B02/B09/B15/B17, T09 | COVERED, ACTUAL EVIDENCE OPEN |
 | Responsive, accessible, secure, fast, measurable source code and independently tested samples | B08/B12/B13/B17–B20, T01–T33 | COVERED, NOT TESTED |
+| Unmistakably authored creative thesis, distinctive typography, original narrative and purposeful signature (not a generic prompt-created template) | §1C, B01/B05/B06/B10, P3, T34/T37/T40 | COVERED; ART DIRECTION A/B/C NOT CHOSEN |
+| **Mandatory live research** before every substantive design/build task: real successful sites, current trends, peer-reviewed/credible UX, official docs, options/failures, licensing/security/free tier and test | §5A, all B01–B23/RQ stages, EXECUTION-PLAN, T34–T40 | COVERED; EACH FUTURE STAGE RESEARCH NOT YET DONE |
+| Fast path and creative discovery path, optional Inspect behind actual build evidence, independent art-direction bakeoff BEFORE mass pages | §1C, B03/B05/B15/B19, P2/P3/P5/P7, T35–T40 | COVERED, NOT BUILT/APPROVED |
 | Free-first, research each stage when it starts, one GitHub code authority, Codex + independent desktop QA | B07/B08/B20, EXECUTION-PLAN, PROJECT-LOG | COVERED, PROVIDERS OPEN |
 
-**Audit verdict:** no known critical omission in *requirements and planned module boundaries* after the reconciliation below. This is **READY FOR OWNER REVIEW**, not permission to start coding without the user's next approval and not a guarantee of deployment feasibility. Real design, stack, providers, working software, asset rights, test results, locale publication and hosting approval are still **OPEN**.
+**Audit verdict (amended creative critique 2026-11-14):** no known critical omission in *requirements and planned module boundaries* after §1C's distinctiveness and §5A's mandatory research-first governance are incorporated. Artistic direction and research outcomes for future stages are explicitly still OPEN. This is **READY FOR OWNER REVIEW**, not permission to start coding without the user's next approval and not a guarantee of deployment feasibility. Real design, stack, providers, working software, asset rights, test results, locale publication and hosting approval are still **OPEN**.
 
 **Approval phases stay separate:** (a) owner may approve the overall roadmap and kickoff **P2/B01**; (b) later accept the actual service taxonomy, concept content, visual designs and stack at P2–P4; (c) authorize specific implementation increments; (d) approve any cost, sensitive provider and production deployment separately.
 
-**P2 must produce before P3:** confirm which fictional e-commerce sample niche/brand (Perfume Store is ONE POSSIBLE IDEA, not a mandatory choice); capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
+**P2 must produce before P3:** a researched original **creative thesis / experience promise**, fast vs exploratory discovery paths and coherent 'service → demo → optional Inspect' concept; P3 must then compare 2–3 genuinely distinct art directions; confirm which fictional e-commerce sample niche/brand (Perfume Store is ONE POSSIBLE IDEA, not a mandatory choice); capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
 
 ---
 
@@ -629,7 +632,7 @@ For each assigned **P#/S#/B##/RQ##**, record:
 | T39 | **Purposeful motion/resilience:** signature transition/progressive demo reveals improve context; reduced-motion/no-WebGL/slow link/low-end fallback and screen-reader/focus tests | No scroll hijack/blocked content, no heavy 3D requirement; sample/site loads independently |
 | T40 | **Independent creative quality gate:** senior-critic checklist assesses brand distinctiveness, typographic craft, layout coherence, usefulness, demo depth and failures beyond automated scores | Logged critique, corrections and owner review; no self-certified 'award quality' or UX score claim |
 
-No test is claimed PASS in this roadmap just because its criterion is defined. Save test scripts and reports with code under site directory; update only PROJECT-LOG.md for rolling status.
+No test (including **creative criticism/5-second internal exercises T34–T40**) is claimed PASS merely because its criterion is written here. Save test scripts and reports with code under site directory; update only PROJECT-LOG.md for rolling status.
 
 ---
 
