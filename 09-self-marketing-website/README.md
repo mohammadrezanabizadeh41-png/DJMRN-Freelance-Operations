@@ -11,9 +11,13 @@
 - [Research and tools](RESEARCH-AND-TOOLS.md) — standards, source URLs, free offerings, plugin/MCP capability, Codex and alternatives, observed network blockers.
 - **[MASTER ROADMAP — Full professional site architecture](MASTER-ROADMAP.md)** — the controlling B01–B23 main/subbranch map, ~8–10 language architecture, modular service and showcase pages, motion/3D, research questions, dependency graph, tool/free-tier decisions, test matrix and staged approvals.
 - [Execution plan — START HERE](EXECUTION-PLAN.md) — operational per-stage procedure, P0–P10 gates, scoped Codex tasks and approvals.
+- [ChatGPT Project operating skill and setup](CHATGPT-PROJECT-OPERATING-SKILL.md) — copy-ready Project Instructions, live GitHub/Notion source hierarchy, multi-role research/design/QA policy, one-log stage handoff and new-chat recovery; **separate from Codex instructions**.
 - [Agent instructions](AGENTS.md) — project-scoped software-development guardrails for Codex, Work and other hosts.
 - [Current site log](PROJECT-LOG.md) — the **single ongoing** site work/state/handoff record by explicit owner request.
 - Canonical source repo: `DJMRN-Freelance-Operations`; source code, tests, assets and site records all stay under `09-self-marketing-website/`.
+
+
+**Two coordinated workspaces:** the ChatGPT **Project** (to be created by the owner) is the multidisciplinary planning/research/creative critique/review interface; Codex Desktop remains the separately configured coding executor. Only the GitHub site folder and current PROJECT-LOG are durable project authorities. The project instruction file does not create a ChatGPT Project automatically or guarantee automatic background sync. See [the setup and copy-ready instructions](CHATGPT-PROJECT-OPERATING-SKILL.md).
 
 ## Operational start checkpoint
 **Governing sequence:** [MASTER-ROADMAP §1A–§1B](MASTER-ROADMAP.md) for clarified service-first hierarchy and requirement coverage → [EXECUTION-PLAN START HERE](EXECUTION-PLAN.md) → one approved B##/RQ## Codex task → real tests T## → **single** [PROJECT-LOG](PROJECT-LOG.md) checkpoint → user review → next stage. Do not create a second task/progress database. Current first stage is **P2/S1/B01/RQ01**; no paid/public action authorized.
