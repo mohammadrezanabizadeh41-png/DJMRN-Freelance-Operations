@@ -5,6 +5,26 @@
 **Primary manager:** owner + ChatGPT conversation; execution by official Codex Desktop/CLI on local Windows where appropriate; testing/independent readback by ChatGPT/Commander; GitHub canonical.  
 **Single current project record:** [PROJECT-LOG.md](PROJECT-LOG.md). All project-specific research, decisions, test observations, milestones and handoffs must be stored **inside this project directory**, per 2026-11-14 owner's explicit new instruction. The older global freelance CURRENT-STATUS entries remain historical; do not maintain parallel routine site logs.
 
+## START HERE — operating sequence for every website stage (owner-directed 2026-11-14)
+
+**The primary plan is [MASTER-ROADMAP.md](MASTER-ROADMAP.md)**. Its B01–B22 branch map, RQ research tickets, technical dependencies and T01–T26 test gates govern this project. P0–P10 in THIS document are macro gates, not a competing roadmap. **Only [PROJECT-LOG.md](PROJECT-LOG.md) records the current step, results and next handoff.** Source code and verification artifacts stay in the same site directory, in the existing GitHub repository.
+
+**Current active gate:** **P2 / S1 / B01–B03**, starting with **B01 + RQ01** (client audiences, business positioning, genuinely offered services, practical success criteria). **Status: READY_TO_START, NOT YET APPROVED/Built.** B02 evidence inventory and B03 page architecture follow; B04 locale priorities and contracts are considered before framework scaffolding. Later effects, 3D, AI visitor widget, game and login are planned capabilities, not dependencies to activate now. Owner decisions are taken only when needed, after presenting grounded alternatives.
+
+**Per-stage procedure — sequential, one bounded task at a time:**
+1. **Recover:** read this roadmap, latest PROJECT-LOG, root/site AGENTS.md and previous Git commit. Confirm working branch and no unexpected local changes; avoid duplicate repo/state.
+2. **Scope:** identify exactly one P# / S# / B## / RQ## task, inputs/owner decisions, directly affected modules, readiness dependencies and success checks T##. Mark UNKNOWN honestly.
+3. **Research at execution time:** search current official standards/tool/provider documentation for THIS task, not every future feature; compare the built-in/simplest approach with at most two justified candidates; verify commercial rights, actual Free quota/account eligibility, provider data handling, security/lock-in and cost/overage **before** any activation. No installation or billed calls on a mere recommendation.
+4. **Propose and approve:** show the user alternatives, relevant dependencies, expected output and tests. User sign-off for consequential decisions, new sensitive connection, schema/security changes, paid usage, production deployment or publication.
+5. **Execute:** one small real use case via existing Codex Desktop **GPT-6 Luna/Medium** and existing tools; escalate a single difficult reasoning task to GPT-6.1 Sol/Medium when justified. Protect site folder boundaries and don't create unneeded infrastructure.
+6. **Inspect independently:** actual local source/HTML/browser on desktop; run appropriate build, E2E, screenshot responsive/RTL, keyboard/axe, performance, SEO and security tests. Repair defects and rerun failing tests. Clearly distinguish mock, prototype, locally tested, GitHub-synced and deployed.
+7. **Record one checkpoint:** record date/branch, approved B#/RQ#/T# scope, chosen design/provider, changes and reason, observed test PASS/FAIL, known limitations, commit/diff, recovery and exact next stage **only in PROJECT-LOG.md**. Keep technical evidence/tests as code artifacts, not duplicate progress trackers.
+8. **Advance only when gate passes:** verify GitHub commit/readback and owner decisions where needed; do not automatically start next unrelated branch or publish. If blocker persists, log BLOCKED and smallest corrective step.
+
+**Initial readiness verified:** root repo sparse checkout on Windows at `C:\Users\Mrn7206\Documents\Codex\DJMRN-Freelance-Operations`, local branch `codex/freelance-website-foundation`, official Codex Desktop app/CLI authenticated, `gpt-6-luna` with medium effort, Node and Git installed, remote desktop online, clean local working tree at inspected commit `3bb055f7bc491e74174671f71fbc095de7fc0f7d`. Git HTTPS works with existing WinINET proxy passed only to the Git command and verified TLS; don't disable SSL/security checks. Recheck HEAD/cleanliness at each stage.
+
+**Not yet verified or decided:** final service list/proof and positioning, target locales and actual translations, brand/visual approvals, exact stack, site builds and test results, live contact path, hosting eligibility and public rollout. None of those are required to BEGIN B01 research, but they gate later implementation and release.
+
 ## Working principles
 - Source always has ONE GitHub canonical repo: `mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations`, directory `09-self-marketing-website/`. Don't create a fresh mirror/new repository unless specifically approved.
 - Locally use one isolated, repo-backed clone/worktree when GitHub network succeeds. Temporary local directory with no Git synchronization must be clearly marked STAGING_ONLY and is not version authority.
@@ -30,7 +50,7 @@
 | P9 | Separately authorized production deploy | Reviewed commit and operator approval; deploy, verify live HTTP/SEO/TLS/mobile, keep rollback and monitoring evidence | NOT AUTHORIZED |
 | P10 | Measure and refine | Search indexing/performance from actual user data, inbound contact process, conversion evidence, iterative fixes | NOT STARTED |
 
-**Current next safe action:** P0 and P1 verified. Codex desktop project created for exact existing checkout, model chosen. Run one bounded read-only Codex requirements/toolchain review; P2 owner-facing scope/design sign-off follows, then P3 and P4. Do not label website `OPERATIONAL` merely because local Codex project can run.
+**Current next safe action:** after the completed read-only Codex kickoff and the validated master roadmap, start **P2 / S1 / B01 / RQ01**, research and submit owner-review brief, then B02/B03. The procedure is in START HERE above. No publication or uncontrolled infrastructure change.
 
 ## Model routing, quota and desktop operating policy — VERIFIED 2026-11-14
 
@@ -70,7 +90,7 @@ Use a bounded professional brief per stage, not a single endless "build website"
 ```text
 Project: DJMRN-FREELANCE-WEBSITE-001
 Authority: existing DJMRN-Freelance-Operations GitHub repo / 09-self-marketing-website only.
-Read: README.md, RESEARCH-AND-TOOLS.md, EXECUTION-PLAN.md, PROJECT-LOG.md, AGENTS.md.
+Read: README.md, MASTER-ROADMAP.md, RESEARCH-AND-TOOLS.md, EXECUTION-PLAN.md, PROJECT-LOG.md, AGENTS.md.
 Milestone: [single approved P# gate]
 Goal and truthful inputs: [exact scope, allowed assets, intended pages]
 Acceptance: [testable screenshot/functional/performance/accessibility behaviors]
@@ -83,4 +103,4 @@ Don't mark DONE without actual observed pass and GitHub synchronization.
 ```
 
 ## GitHub/network contingency — 2026-11-14
-PowerShell `codex` may invoke a blocked `.ps1`; use `codex.cmd` (verified). Windows `git ls-remote https://github.com/... HEAD` failed with TCP 443 connectivity timeout (~21s). **Never** weaken Windows Defender/Firewall/PowerShell policy, copy tokens, or use a second unrelated local git history as a workaround. It is safe to keep canonical project documentation through the authenticated GitHub connector while diagnosing local network. Creating an isolated STAGING_ONLY folder for read-only instructions is permissible if needed but **not** an accepted synced codebase. Request specific approval before substantial unsynced coding or network/security changes.
+**Historical issue / resolved:** PowerShell `codex` may invoke a blocked `.ps1`; use `codex.cmd` (verified). Direct Git HTTPS previously failed, but authenticated source fetch/clone/fast-forward now succeed with existing Windows WinINET proxy as a **command-scoped Git setting**, HTTPS TLS verification on, optionally OpenSSL + HTTP/1.1; a clean local checkout and Codex Desktop project were verified. **Never** weaken Windows Defender/Firewall/PowerShell policy, copy tokens, force-push, or use a second unrelated Git history as a workaround. It is safe to keep canonical project documentation through the authenticated GitHub connector while diagnosing local network. Creating an isolated STAGING_ONLY folder for read-only instructions is permissible if needed but **not** an accepted synced codebase. Request specific approval before substantial unsynced coding or network/security changes.
