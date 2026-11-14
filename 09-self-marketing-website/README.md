@@ -5,10 +5,11 @@
 **Status:** SCOPING / OFFICIAL-STANDARDS RESEARCH COMPLETE FOR FIRST REVIEW / IMPLEMENTATION NOT STARTED  
 **Type:** DJMRN's own business/portfolio website, **not an awarded client contract**.  
 **Repository authority:** this existing DJMRN-Freelance-Operations repository. Source code, if later authorized, should live here until a separate repository is explicitly justified and approved.  
-**Canonical project-specific progress and approvals (owner update 2026-11-14):** [PROJECT-LOG.md](PROJECT-LOG.md) in this same website directory, plus Git history. Previous entries in the parent [CURRENT-STATUS](../08-operations-and-continuity/CURRENT-STATUS.md) remain historical; future routine site stage logging occurs only here, not in competing parent logs. This README defines scope and standards; the execution plan is proposed until owner sign-off.
+**Canonical project-specific progress and approvals (owner update 2026-11-14):** [PROJECT-LOG.md](PROJECT-LOG.md) in this same website directory, plus Git history. Previous entries in the parent [CURRENT-STATUS](../08-operations-and-continuity/CURRENT-STATUS.md) remain historical; future routine site stage logging occurs only here, not in competing parent logs. This README defines scope and standards; [MASTER-ROADMAP.md](MASTER-ROADMAP.md) is the detailed research-backed architecture and phased branch map; the execution plan remains a proposal until relevant owner sign-off.
 
 ## Site project navigation
 - [Research and tools](RESEARCH-AND-TOOLS.md) — standards, source URLs, free offerings, plugin/MCP capability, Codex and alternatives, observed network blockers.
+- **[MASTER ROADMAP — Full professional site architecture](MASTER-ROADMAP.md)** — the controlling B01–B22 main/subbranch map, ~8–10 language architecture, modular service and showcase pages, motion/3D, research questions, dependency graph, tool/free-tier decisions, test matrix and staged approvals.
 - [Execution plan](EXECUTION-PLAN.md) — proposed P0–P10 gates, acceptance, bounded coding task templates and approvals.
 - [Agent instructions](AGENTS.md) — project-scoped software-development guardrails for Codex, Work and other hosts.
 - [Current site log](PROJECT-LOG.md) — the **single ongoing** site work/state/handoff record by explicit owner request.
