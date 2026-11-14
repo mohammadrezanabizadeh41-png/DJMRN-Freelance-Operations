@@ -1,8 +1,8 @@
 # DJMRN-FREELANCE-WEBSITE-001 — MASTER ROADMAP: International Multilingual Creative Engineering Portfolio
 
 **Document type:** CANONICAL design/build ROADMAP and research backlog (not the project activity log).  
-**Version:** 1.0 — 2026-11-14 — research-backed planning baseline; **NOT a blanket approval of every feature/provider/production deployment**.  
-**Owner's request (latest explicit clarification 2026-11-14):** a distinctive, multi-dimensional **demonstration-first promotional portfolio that INCLUDES a functional DEMO of commerce, simulated checkout/payment, invoices and financial/accounting capabilities**, with no real money or financial obligations. Display technical capability with genuinely working synthetic-data workflows or accurately labeled simulations of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
+**Version:** 1.1 — 2026-11-14 — reconciled requirements and architecture, **READY FOR OWNER FINAL REVIEW**; NOT a blanket approval to build, activate providers or deploy.  
+**Owner's request (latest clarified hierarchy 2026-11-14):** a creative **SERVICE-FIRST freelancer/Vibe Coding website** with many explained service categories, each able to display one or more separately branded, nested and inspectable sample applications. The **Perfume Store** with fictional cart, fake payment and accounting is **a linked sample under the E-commerce Website Development service**, NOT DJMRN's main site checkout, and involves no real money or financial obligations. Display technical capability with genuinely working synthetic-data workflows or accurately labeled simulations of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
 **Source authority:** `mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/09-self-marketing-website/`.  
 **Execution authority:** site source / Git commits; [AGENTS.md](AGENTS.md) governs Codex; [EXECUTION-PLAN.md](EXECUTION-PLAN.md) holds P0–P10 macro gates; [PROJECT-LOG.md](PROJECT-LOG.md) is the **ONE** changing stage/approval/test history. This ROADMAP specifies structure, dependencies and criteria, not duplicate daily progress.  
 **Design authority (upon owner adoption):** Figma approved master frames + tokens. Other builders (MagicPath etc.) are noncanonical experiments/prototypes.  
@@ -12,9 +12,9 @@
 
 ## 0. Product promise, hard constraints, definition of professional
 
-**North star (OWNER CLARIFIED):** a technically impressive **demonstration and promotional portfolio**, proving what the owner can design/build rather than operating a shop or live commercial service. It combines (1) truthful professional identity, (2) browsable capabilities and service descriptions, (3) real/clearly labeled concept case studies, (4) optional interactive demonstrations including automation/motion/3D, (5) optional accurate human contact links, and (6) multilingual, accessible, search-friendly presentation. Visual sophistication demonstrates craft **without blocking usability, performance or accurate claims**. Its core success is *inspectable quality and credible evidence of capabilities*, including **end-to-end demonstrable sample purchase/order/payment and accounting workflows**, not *actual* charges, sales, paid traffic or lead conversion at all costs.
+**North star (OWNER CLARIFIED):** a technically impressive **service-first freelancer/Vibe Coding showcase**: meaningful service explanations → associated evidence-backed sample galleries → individually branded and testable demo app routes within the main website → a clear return to the parent service. Not a shop or live commercial service. It combines (1) truthful professional identity, (2) browsable capabilities and service descriptions, (3) real/clearly labeled concept case studies, (4) optional interactive demonstrations including automation/motion/3D, (5) optional accurate human contact links, and (6) multilingual, accessible, search-friendly presentation. Visual sophistication demonstrates craft **without blocking usability, performance or accurate claims**. Its core success is *inspectable quality and credible evidence of capabilities*, including **end-to-end demonstrable sample purchase/order/payment and accounting workflows**, not *actual* charges, sales, paid traffic or lead conversion at all costs.
 
-**Scope interpretation and legal caveat (latest owner instruction overrides earlier exclusions):** V1 project scope includes a **realistic but entirely sandboxed commerce-and-finance showcase** (B23), with browsable products, cart, simulated checkout/gateway outcomes, sample orders, invoices, journal/accounting and reports as an **advanced demonstrable sample**, built in staged slices. The site is NOT a *real operating merchant*, licensed payment processor, live customer business or custodian of money; never send a charge, create a real payment intent, take a card number, issue a legally operative invoice, or store real financial/client records. A workflow may perform actual *local demo calculations/state transitions* on **synthetic data** and must display obvious permanent 'DEMO — NO REAL PAYMENTS/ORDERS' messaging. No real payment-provider account, credentials, external payment API, production transaction backend, real customer auth or live fulfillment without separately scoped owner approval. Promotional sites may still count as **commercial-use** under hosting/tool terms; check B20.
+**Scope interpretation and legal caveat:** the complete showcase includes a **realistic but sandboxed commerce-and-finance example under the e-commerce service page** (B23), with browsable products, cart, simulated checkout/gateway outcomes, sample orders, invoices, journal/accounting and reports as an **advanced demonstrable sample**, built in staged slices. The site is NOT a *real operating merchant*, licensed payment processor, live customer business or custodian of money; never send a charge, create a real payment intent, take a card number, issue a legally operative invoice, or store real financial/client records. A workflow may perform actual *local demo calculations/state transitions* on **synthetic data** and must display obvious permanent 'DEMO — NO REAL PAYMENTS/ORDERS' messaging. No real payment-provider account, credentials, external payment API, production transaction backend, real customer auth or live fulfillment without separately scoped owner approval. Promotional sites may still count as **commercial-use** under hosting/tool terms; check B20.
 
 Nonnegotiable constraints: zero new paid usage until separately and explicitly approved; no production publication/domain/payments or sensitive account/security changes without impact + approval; content and portfolio claims verifiable; no fake testimonials or fake agency identity; no reliance on browser scraping or gated tools to render public pages; mobile/desktop must work without mandatory WebGL; no visitor auth, database or CRM until real I/O justifies them; only one canonical GitHub source. The Windows laptop has 8 GB RAM: only one active heavy agent/graphics editor at a time. GPT-6 Luna / Medium in official Codex is current economical implementation default; GPT-6.1 Sol / Medium is task-level escalation for genuinely complex reasoning; no default Ultra/paid credits. **Tool policy:** existing tool → verified free alternative → scoped trial; no app accumulation.
 
@@ -74,8 +74,8 @@ DJMRN main marketing/portfolio site (global shell)
 │   ├── Service: Website building
 │   │   └── Subservice: E-commerce website creation
 │   │       ├── What we can build, UI/architecture/performance/security explanation
-│   │       └── Relevant sample gallery (1 now / 2, 3 ... later only when built)
-│   │           ├── Sample A: Perfume Store → open contained working storefront DEMO
+│   │       └── Relevant sample gallery (0 live until built; may later show 1, 2, 3...)
+│   │           ├── Sample A (PLANNED, NOT BUILT): Perfume Store → working storefront DEMO when tested
 │   │           │   ├── Own sample-store front, products, search, cart, fake checkout
 │   │           │   ├── Fake payment outcomes, demo orders/invoices
 │   │           │   └── Optional sample accounting/back-office panels (B23)
@@ -126,7 +126,40 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 - **T32 — service→sample discovery & navigation:** main site → service details → relevant sample gallery → demo opens at its own deep link → sample interaction → return to the correct service → another sample, including refresh/back/forward, locale availability, 404 and keyboard/mobile.
 - **T33 — demo boundary and extensibility:** a demo's app CSS/state/payment simulation cannot affect DJMRN global navigation, another visitor/demo's data or other samples; adding another sample only updates a canonical registry record + new actual demo with no duplicated service UI; tested graceful fallback/error, on-demand JS and media budgets.
 
-**Current plan action:** revise B03/B14/B15/B23 descriptions to follow this nested portal model. Do NOT build perfume store, finance engine, contact form or other features now. At each implementation stage, evaluate design patterns and provider/free services then—not ahead of time.
+**Current plan action:** existing B03/B14/B15/B23 align with this nested portal. Audit now reconciles cross-stage contracts and tests. This planning review is not approval to build the perfume store, finance engine, form or other feature; research each tool/provider only when its actual stage starts.
+
+---
+
+
+## 1B. Owner-requirement coverage and final-stage review matrix (2026-11-14)
+
+**Meaning of COVERED:** a requirement is explicitly mapped to an owner/workstream, research-at-execution gate and planned validation; it is **NOT evidence that UI, demos, translations, security, hosting or test cases are built or passed**. Product concept is owner-confirmed; **the full implementation roadmap remains PENDING FINAL OWNER REVIEW**. When historical sections conflict, §0 + §1A + this matrix represent the latest clarified intent.
+
+| User intent / example | Workstream ownership and validation | Planning status |
+|---|---|---|
+| DJMRN home is an imaginative **multi-service freelancer and Vibe Coding portal**, not a shop | B01/B03/B05/B14; P2/P3, T02/T32 | COVERED |
+| Category windows and substantial explanation pages for different services | B03/B06/B14, B04 locale routes, T02/T04/T05 | COVERED |
+| A service may lead to **zero, one or several real sample cards** and later gain more | B02 evidence; B14 service; B15 sample registry; B07 contracts; T32/T33 | COVERED |
+| Clicking a service sample opens **an independently styled, contained real demonstration inside DJMRN**, with its own shareable URL, back/forward and return-to-service | §1A, B03/B05/B07/B15, T32/T33 | COVERED |
+| A sample has separate optional case-study explanation and executable demo pages, not duplicated sites | B15/sample ID, B18 metadata, T32 | COVERED |
+| Under **E-commerce Website Development**, a **Perfume Store** sample provides fictional products, cart, simulated gateway, invoice, ledger and reports, but DJMRN home does NOT | B14/B15/**B23**, RQ24, T27–T33 | COVERED, NOT BUILT |
+| Fake success/decline/refund, exact money arithmetic, sample-data labels, safe reset; no real bank/payment info | B17/B23, T27–T31 | COVERED, NOT BUILT |
+| New store samples and later automation/AI/creative/video/game demos fit under appropriate services without cloning DJMRN | B07/B14/B15/B22, §§10A–10B, T33 | COVERED, FUTURE GATES |
+| Distinct visual identities per sample; consistent DJMRN navigation/accessible return | B05/B06/B15/B23, T14/T32/T33 | COVERED |
+| Creative effects, video, 2D/3D, optional games; mobile fallback and reduced motion | B09–B13/B18, T04–T07/T13, §10A | COVERED, SPECIFIC FEATURES STAGED |
+| International site prepared for ~8–10 languages, approved translations, correct RTL/LTR and SEO | B04/B18, T03/T05/T32 | COVERED, LOCALES NOT YET APPROVED |
+| Real verified creator social links; optional contact/feedback distinct from fictional storefront checkout | B09/B16/B17, T09/T11; permission/privacy gates | COVERED, CONTACTS OPEN |
+| Optional predefined Q&A, AI assistant and automation demos, with no unrestricted access to private agents/desktop | §10B, RQ23, T22–T26, security/cost approval | COVERED, OPTIONAL/DEFERRED |
+| Future login/portal, untrusted games, uploads, PWA and *real* payment integrations can be reviewed later | §10A, B07/B22, T16–T21 | COVERED, NO PREMATURE BACKEND |
+| Show only truthful capabilities and permitted original assets, never invent paid clients or technical test passes | B02/B09/B15/B17, T09 | COVERED, ACTUAL EVIDENCE OPEN |
+| Responsive, accessible, secure, fast, measurable source code and independently tested samples | B08/B12/B13/B17–B20, T01–T33 | COVERED, NOT TESTED |
+| Free-first, research each stage when it starts, one GitHub code authority, Codex + independent desktop QA | B07/B08/B20, EXECUTION-PLAN, PROJECT-LOG | COVERED, PROVIDERS OPEN |
+
+**Audit verdict:** no known critical omission in *requirements and planned module boundaries* after the reconciliation below. This is **READY FOR OWNER REVIEW**, not permission to start coding without the user's next approval and not a guarantee of deployment feasibility. Real design, stack, providers, working software, asset rights, test results, locale publication and hosting approval are still **OPEN**.
+
+**Approval phases stay separate:** (a) owner may approve the overall roadmap and kickoff **P2/B01**; (b) later accept the actual service taxonomy, concept content, visual designs and stack at P2–P4; (c) authorize specific implementation increments; (d) approve any cost, sensitive provider and production deployment separately.
+
+**P2 must produce before P3:** capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
 
 ---
 
