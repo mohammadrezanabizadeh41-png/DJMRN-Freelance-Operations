@@ -63,6 +63,73 @@ Challenge → intended users → constraints → owned contribution → method/a
 
 ---
 
+## 1A. OWNER-CONFIRMED INFORMATION ARCHITECTURE — service-first portal with nested demo applications (2026-11-14)
+
+**This section is the latest CANONICAL scope and navigation clarification, superseding any sentence that might suggest turning the DJMRN home page or global layout into a perfume shop, store dashboard or financial gateway.** The primary site is a broad independent freelancer / Vibe Coding **capabilities and services showcase**. Service explanations come first; *samples are subordinate, explorable proofs of individual services*. The showroom's primary value is letting a prospective client inspect and try examples, not operating a single demonstration business as the DJMRN main site.
+
+```text
+DJMRN main marketing/portfolio site (global shell)
+├── Home: capability overview, service category windows, selected example previews
+├── Services index: web / automation / AI / graphics / video / etc.
+│   ├── Service: Website building
+│   │   └── Subservice: E-commerce website creation
+│   │       ├── What we can build, UI/architecture/performance/security explanation
+│   │       └── Relevant sample gallery (1 now / 2, 3 ... later only when built)
+│   │           ├── Sample A: Perfume Store → open contained working storefront DEMO
+│   │           │   ├── Own sample-store front, products, search, cart, fake checkout
+│   │           │   ├── Fake payment outcomes, demo orders/invoices
+│   │           │   └── Optional sample accounting/back-office panels (B23)
+│   │           └── Sample B: Different industry/visual system (NOT YET CREATED)
+│   ├── Service: Automation
+│   │   └── Gallery → example workflows and truthful live/simulated demo pages
+│   ├── Service: AI-assisted apps / chat interfaces
+│   │   └── Gallery → safe guided/AI samples (D0–D3 gates; future)
+│   ├── Service: Creative graphic/motion/3D
+│   │   └── Gallery → rich interactive illustrations, case studies or demos
+│   └── Service: Other real freelance skills → own evidence-backed galleries
+├── Work: all approved samples and case studies, filterable by service/category
+├── About / Process / Contact / Social links (only verified owner channels)
+└── Lab/Demos: execution shells reached from relevant Service + Work links
+```
+
+**Visitor journey example (perfume):** `DJMRN home → Services → Website Building → E-commerce Websites → Perfume Shop sample card → Open demo → Interact with *fictional* storefront/cart/gateway → View sample invoice/report → Back to e-commerce service → Compare more samples → Contact creator if desired.` At no step does DJMRN global navigation become real perfume-store inventory, real payment or real customer finance. The visitor knows this is a **showcase within the freelancer's website**.
+
+### Deep-link and window UX rule
+
+A visually distinctive service **window/card/tab** is a presentation layer for site navigation; **every public service, case study and important working demo must also have its own stable, directly shareable URL** (locale-prefixed where real translations exist). Proposed *illustrative* URL structure:
+```text
+/[locale]/                            DJMRN site home
+/[locale]/services/                   All service categories
+/[locale]/services/web-development/   Website development overview
+/[locale]/services/ecommerce/         E-commerce website service: explanation + sample gallery
+/[locale]/work/perfume-store/          Perfume-store case study/provenance/preview
+/[locale]/demos/perfume-store/         Actual contained perfume shop demo application
+/[locale]/work/[case-id]/              Other published case studies
+/[locale]/demos/[demo-id]/             Other published demo apps
+```
+This is **a route proposal**, not final approved slug implementation; B03/B04/B07 decide locale/slug hierarchy from tested information architecture. Existing `/[locale]/lab/[demo]/` routes are also a valid option: choose **ONE canonical execution URL** at B03/B07 and use links/redirects from both service cards and `Work` index, never duplicate a full shop or content at two competing live URLs. Open demo as an integrated page / full-screen contained surface **inside the same main site/domain** by default; don't force a new domain, external link, repo, browser tab or iframe for trusted first-party demo. Use a persistent unobtrusive **'DJMRN — Demo / Return to service'** control and recognizable fictional sample-brand UI; route refresh/back/forward and direct links must work. Optional embedded preview dialog/iframe is an enhancement only; never trap keyboard or prevent navigation/SEO. A game/untrusted HTML sample might need a **separate origin** for security while retaining an in-site navigation surface—only after an explicit trust review.
+
+### Reusable service→sample relationship, no independent clone sites by default
+
+- **Canonical service IDs:** one service/capability hierarchy `serviceId`, `parentServiceId?`, title/description per approved locale, categories and evidence, with a stable ID independent of translated slugs.
+- **Canonical sample registry:** each real sample has `sampleId`, `relatedServiceIds[]`, `previewAssetId`, `caseStudyId?`, `demoRoute?`, `status` (`planned|prototype|tested|published`), `type` (`interactive|video|gallery|code`), `mode` (`working-demo|clearly-simulated`), rights provenance and locale coverage. A service may reference **zero, one or many** approved samples; a demo may demonstrate multiple services via references without duplicate physical pages.
+- **Main site service + gallery** queries approved sample metadata; **individual demo runtime owns its own UI/state**. E.g. `features/demos/perfume-store/` can have isolated cart/order/fake payment/finance modules; future `features/demos/automation-workflow/` has different logic and own test harness. Reuse global accessibility/route/media/design-token mechanisms when valuable but allow sample-specific branding, layouts and technology stacks within tested boundaries. No globally imported heavy Three.js/payment/UI/state libraries just because one demo uses them.
+- The **case-study page** explains what was built and evidence/tests; the **demo application route** is where users perform the simulated actions. A dedicated service explanation may link both. Store and accounting UI appear ONLY in the relevant demo or perhaps a screenshot/preview; don't promote them into global site navigation as primary offerings.
+- **Future growth:** adding sample #2 to e-commerce should be a sample record, targeted app module, tests and gallery listing—not a second DJMRN homepage, duplicate service page, new repository or whole-site i18n refactor. A new demo can have its own design, but common navigation, registry IDs, public metadata, accessibility and security are shared consistently.
+- **Never auto-display a placeholder sample as working.** A 'future sample' idea is internal planning only until real preview/demo and rights exist. Demos contain explicit synthetic-data/zero-real-payment notices, safe reset and no public personal/financial data, while the main site's contact remains entirely separate.
+
+### Ownership, sequencing and test gates
+
+**B01/B02:** what services are actually offered, which samples can be truthfully shown, and sample rights. **B03/B04:** the required navigation, service hierarchy, sample gallery links and locale-aware deep links. **B05/B06:** two related but distinct visual systems: coherent DJMRN presentation plus a legitimately different fictional sample-brand experience, with an accessible return path. **B07:** choose framework/content contracts and progressive loading; no unneeded multi-app build service. **B14** owns service explanations and sample associations; **B15** owns case studies, gallery and sample discovery; **B23** owns the *implementation of one e-commerce/finance demo application*, not the top-level site. For other sample types, the corresponding domain (automation, interactive AI, creative/media) owns runtime and B15 links it. **B17–B19** verify isolation, security, performance and functionality in both the site shell and demo. **B20** later verifies hosting terms/quotas and optional routing constraints, separately approved.
+
+**New integrative checks (planned, not passed):**
+- **T32 — service→sample discovery & navigation:** main site → service details → relevant sample gallery → demo opens at its own deep link → sample interaction → return to the correct service → another sample, including refresh/back/forward, locale availability, 404 and keyboard/mobile.
+- **T33 — demo boundary and extensibility:** a demo's app CSS/state/payment simulation cannot affect DJMRN global navigation, another visitor/demo's data or other samples; adding another sample only updates a canonical registry record + new actual demo with no duplicated service UI; tested graceful fallback/error, on-demand JS and media budgets.
+
+**Current plan action:** revise B03/B14/B15/B23 descriptions to follow this nested portal model. Do NOT build perfume store, finance engine, contact form or other features now. At each implementation stage, evaluate design patterns and provider/free services then—not ahead of time.
+
+---
+
 ## 2. Workstreams: 23 branches, each independently researchable and testable
 
 **Each branch carries ID, subwork, dependencies, proof of value, research questions and exit test.** Dates/completion are tracked ONLY in PROJECT-LOG.md.
@@ -78,7 +145,7 @@ Challenge → intended users → constraints → owned contribution → method/a
 - **Gate:** no claimed paid job, result statistic, testimonial, company identity or credential lacking direct evidence. No private client files in public repo.
 
 ### B03 — Information architecture, navigation & discovery
-- **Subtasks:** full sitemap and depth; home gateway and service panes; service category/tag filters; searchable case-study list only if needed; contextual CTAs; breadcrumbs; accessible expandable content and keyboard-friendly dialogs; mobile IA; empty/filter states and 404.
+- **Subtasks (owner-confirmed):** main DJMRN home/service windows → specific service explanation → **matching sample gallery** → independent nested sample-demo page → accessible return link to originating service; full sitemap/deep links, service category/tag filters; case-study index; breadcrumbs; keyboard-friendly dialogs, mobile IA, empty/filter and 404. A demo sample is not the main website, and one service can reference multiple independently developed samples.
 - **Dependencies:** B01–B02. **Output:** route matrix, journey maps, wireframes, navigation contracts. **Research RQ03:** compare tabs/mega menus/dialogs with native HTML disclosure/links and actual UX; use MDN dialog guidance, WAI-ARIA APG.
 - **Gate:** J1–J6 journeys clickable from static prototypes; all important pages reachable without JS-only event navigation; no dead links.
 
@@ -136,12 +203,12 @@ Challenge → intended users → constraints → owned contribution → method/a
 - **Dependencies:** every UI/media/locale branch. **Research RQ13:** WCAG 2.2 AA, APG for custom widgets, axe-core/manual tests. **Gate:** no critical automated axe findings; manual keyboard and screen reader representative journey; human review of color contrast, focus order, motion and content semantics. Automation cannot certify WCAG by itself.
 
 ### B14 — Service directory and deep service pages
-- **Subtasks:** category IDs and filters; service evidence status, summary/detail, deliverables/scope/non-scope, skills proof and matching cases; contextual CTA, pricing only when owner authorizes verified pricing. Search by tags if content volume warrants; responsive cards/filters and view modes.
+- **Subtasks:** category IDs and filters; hierarchy of services and subservices; evidence-backed descriptions of what DJMRN can build; **gallery of real related demos/case studies** on each service page; one-to-many stable service→sample links, 'view live sample' and 'read case study' actions, return paths; contextual contact CTA as optional. Pricing only when owner authorizes real pricing. Search by tags if content volume warrants; responsive cards/filters and view modes.
 - **Dependencies:** B02–B04, B07, B12/13. **Research RQ14:** best service-page UX and B2B inquiry conversion; real portfolio patterns.
 - **Gate:** update one service record once → all appropriate locale/index links update; no phantom service, blank filter result without an empty state, SEO duplicate content or broken CTA.
 
 ### B15 — Portfolio, case studies, demonstrations and media gallery
-- **Subtasks:** image/video/website gallery with performance-aware previews; independently inspectable case pages; actual public code/demo links if permitted, before/after where evidence exists; project status labeling, proof/test excerpts; optional contained interactive sandboxes (do not execute visitor code); video subtitles/transcripts, privacy/consent for third-party embeds.
+- **Subtasks:** a **single discoverable sample registry** maps approved service categories to zero/many examples; preview cards/gallery within service pages, independent sample case-study pages with provenance, and dedicated **open working demo** routes with sample-specific UI while remaining part of the DJMRN site; image/video previews, code/demo links if allowed, test evidence, optional safe sandboxes; captions/transcripts and privacy/consent for third-party media. Samples can have their own fictional brand, but keep a clear 'Back to DJMRN / Service' path and avoid duplicating the global site.
 - **Dependencies:** B02, B07, B09–B13. **Research RQ15:** OSS CodeMirror/Monaco licensing *only if real editable showcase requires it*; iframe sandbox/CSP; safe live demo vs recorded video; video hosting free limits.
 - **Gate:** 1 case study with real rights and provenance + at least one demonstrable functional sample; all demo errors fail gracefully, do not touch production auth, no exposure of sensitive source/client data.
 
@@ -186,9 +253,9 @@ Challenge → intended users → constraints → owned contribution → method/a
 
 ### B23 — DEMO Commerce, checkout, financial/accounting application showcase (OWNER REQUIRED; staged, no real money)
 
-**Classification:** a visible, substantial **interactive example application**, owned by the same website/portfolio project; not a live merchant, payment operator, invoice issuer or customer finance system. The owner's latest explicit instruction **supersedes earlier exclusions that had removed checkout/payment/finance entirely**. This module is a project target, not a claim it has already been implemented. Build only in phase-appropriate, tested increments, with its actual code within the existing repo. A separate project/repository may be considered only after a demonstrated independent operational need and owner approval.
+**Classification / owner scope:** a visible, substantial **interactive EXAMPLE APPLICATION ACCESSED THROUGH THE 'E-COMMERCE WEBSITE CREATION' SERVICE PAGE AND ITS SAMPLE GALLERY**, owned by the same DJMRN website/portfolio project. B23 is a **specialized sample implementation subordinate to B14 service descriptions and B15 sample gallery**, **NOT** the DJMRN homepage, global service brand or a general sales checkout for DJMRN. Not a live merchant, payment operator, invoice issuer or customer finance system. The owner's latest explicit instruction **supersedes earlier exclusions that had removed checkout/payment/finance entirely**. This module is a project target, not a claim it has already been implemented. Build only in phase-appropriate, tested increments, with its actual code within the existing repo. A separate project/repository may be considered only after a demonstrated independent operational need and owner approval.
 
-**Candidate public experience:** Home/Services/Work cards link into `/[locale]/lab/commerce/` and `/[locale]/lab/finance/` (exact page split/routing is a future B03/B04/B07 decision). A visitor can follow a **real working demo** flow in a contained fictional shop, choose examples of **simulated gateway results**, inspect a **sample invoice/order**, and switch to a **sample financial dashboard** showing the results. Cross-links explain architecture, edge cases, QA and implemented code. Put persistent **"DEMO / TEST DATA / NO REAL PAYMENT OR ORDER"** wording in the shopping, fake gateway, receipt and accounting interfaces. A visitor must not mistake demo products or financial statements for real items, charges, balance or legal receipts.
+**Candidate public experience:** DJMRN Home → Services → Website Building → E-commerce Websites → **Sample gallery** → click **Perfume Shop example** (one of potentially several independent e-commerce samples) → enter its contained branded demo route and optional financial/back-office views. The case study explains the work, and the demo is where the visitor interacts. Route spelling (e.g. `/[locale]/demos/perfume-store/` vs `/[locale]/lab/perfume-store/`) is a B03/B04/B07 decision; choose one canonical route, keep it inside the site, and provide a 'Return to e-commerce service' control. A visitor can follow a **real working demo** flow in a contained fictional shop, choose examples of **simulated gateway results**, inspect a **sample invoice/order**, and switch to a **sample financial dashboard** showing the results. Cross-links explain architecture, edge cases, QA and implemented code. Put persistent **"DEMO / TEST DATA / NO REAL PAYMENT OR ORDER"** wording in the shopping, fake gateway, receipt and accounting interfaces. A visitor must not mistake demo products or financial statements for real items, charges, balance or legal receipts.
 
 **Subbranches and acceptance contracts (each researched at its own implementation phase, not now):**
 - **B23.1 Scenario/UX + feature inventory:** decide one coherent fictional brand/store and realistic user journeys; product categories, sample catalog, search/filter/sort, carts, addresses **synthetic only**, currencies and responsive layouts; separate visitor showcase from admin/finance preview. Research **RQ24a**: credible ecommerce interaction patterns and accessibility before design. Gate: clickable agreed journey and truthful demo labeling.
@@ -358,7 +425,7 @@ All quotas/pricing below are source-backed *snapshots* as of Nov 2026; actual ac
 
 ---
 
-**B23 scope note:** T27–T31 are the additional planned demonstration QA checks; no real payment, financial obligation, bank credentials or customer records are authorized. RQ24 research runs at the actual B23 milestone, not now.
+**B23 scope note:** B23 is a nested E-commerce service/sample implementation, not top-level website commerce. T27–T31 are the additional planned demonstration QA checks; no real payment, financial obligation, bank credentials or customer records are authorized. RQ24 research runs at the actual B23 milestone, not now.
 
 ## 6. Detailed evidence and acceptance test matrix
 
