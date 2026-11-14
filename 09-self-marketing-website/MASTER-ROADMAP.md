@@ -2,7 +2,7 @@
 
 **Document type:** CANONICAL design/build ROADMAP and research backlog (not the project activity log).  
 **Version:** 1.0 — 2026-11-14 — research-backed planning baseline; **NOT a blanket approval of every feature/provider/production deployment**.  
-**Owner's request:** a distinctive, multi-dimensional, commercially useful and technically professional personal freelance / AI-assisted coding showcase with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
+**Owner's request (reaffirmed 2026-11-14):** a distinctive, multi-dimensional, NONTRANSACTIONAL **demonstration-first promotional portfolio**, displaying technical capability with genuinely functional or accurately labeled simulated examples of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
 **Source authority:** `mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/09-self-marketing-website/`.  
 **Execution authority:** site source / Git commits; [AGENTS.md](AGENTS.md) governs Codex; [EXECUTION-PLAN.md](EXECUTION-PLAN.md) holds P0–P10 macro gates; [PROJECT-LOG.md](PROJECT-LOG.md) is the **ONE** changing stage/approval/test history. This ROADMAP specifies structure, dependencies and criteria, not duplicate daily progress.  
 **Design authority (upon owner adoption):** Figma approved master frames + tokens. Other builders (MagicPath etc.) are noncanonical experiments/prototypes.  
@@ -12,11 +12,13 @@
 
 ## 0. Product promise, hard constraints, definition of professional
 
-**North star:** a website that acts simultaneously as (1) trustworthy freelancer identity, (2) service directory, (3) verified portfolio/case-study library, (4) optional interactive technology showcase, (5) frictionless client inquiry path, and (6) maintainable international search entry point. Visual spectacle **supports** clarity, accessibility and conversion, not replaces them.
+**North star (OWNER CLARIFIED):** a technically impressive **demonstration and promotional portfolio**, proving what the owner can design/build rather than operating a shop or live commercial service. It combines (1) truthful professional identity, (2) browsable capabilities and service descriptions, (3) real/clearly labeled concept case studies, (4) optional interactive demonstrations including automation/motion/3D, (5) optional accurate human contact links, and (6) multilingual, accessible, search-friendly presentation. Visual sophistication demonstrates craft **without blocking usability, performance or accurate claims**. Its core success is *inspectable quality and credible evidence of capabilities*, not checkouts, orders, paid traffic or lead conversion at all costs.
+
+**Scope interpretation and legal caveat:** V1 is NOT a storefront, booking/order business, payments portal, live client-management SaaS or client service fulfillment system. Calls-to-action mean *view the demo*, *learn the process*, *inspect the sample* or *contact the creator*, not *buy now*. Simulated data/workflows must be explicitly marked as simulations; actual functions shown as working must be tested. An advertising portfolio may nonetheless be **commercial use under third-party hosting/plugin licenses**; do not assume hobby/noncommercial rights, verify at B20. Avoid implementation of payment/auth/CRM or real AI backend merely to appear impressive. Owner may later approve those as separate features.
 
 Nonnegotiable constraints: zero new paid usage until separately and explicitly approved; no production publication/domain/payments or sensitive account/security changes without impact + approval; content and portfolio claims verifiable; no fake testimonials or fake agency identity; no reliance on browser scraping or gated tools to render public pages; mobile/desktop must work without mandatory WebGL; no visitor auth, database or CRM until real I/O justifies them; only one canonical GitHub source. The Windows laptop has 8 GB RAM: only one active heavy agent/graphics editor at a time. GPT-6 Luna / Medium in official Codex is current economical implementation default; GPT-6.1 Sol / Medium is task-level escalation for genuinely complex reasoning; no default Ultra/paid credits. **Tool policy:** existing tool → verified free alternative → scoped trial; no app accumulation.
 
-**Quality is multidimensional**: user trust + information findability + original design + useful demonstrations + reliable conversions + accessible international content + tested code + measurable performance + operational reversibility. A screenshot/mockup or a 100 Lighthouse score alone is not DONE.
+**Quality is multidimensional**: user trust + information findability + original design + **working and honestly described interactive demonstrations** + discoverable capabilities + accessible international content + tested code + measurable performance + operational reversibility. Contacts are optional evidence of interest, not the only success metric. A screenshot/mockup or a 100 Lighthouse score alone is not DONE.
 
 ### Core user journeys (each tested end to end)
 - **J1 new client:** Search/social URL → localized landing → discover relevant service → evidence/case → understanding deliverable/process → contact without account.
@@ -27,6 +29,8 @@ Nonnegotiable constraints: zero new paid usage until separately and explicitly a
 - **J6 site maintainer:** update a service/project/locale asset without duplicating page implementations; automated checks catch broken routes, missing translations and expired links.
 
 ---
+
+**Owner product-scope priority (2026-11-14):** All references to 'client acquisition', 'conversion', 'commercial', 'contact' or a 'business website' elsewhere in this historical planning document must be read under the **demonstration-first, nontransactional** definition above. They are optional promotional UX, not a requirement to build business processing. Do not mistake *nontransactional design* for permission to host on a commercial-use-restricted free plan. The exact chosen hosting/provider's Terms are checked at the deployment stage, not inferred.
 
 ## 1. Proposed public site map — all subdomains clearly owned
 
@@ -64,8 +68,8 @@ Challenge → intended users → constraints → owned contribution → method/a
 **Each branch carries ID, subwork, dependencies, proof of value, research questions and exit test.** Dates/completion are tracked ONLY in PROJECT-LOG.md.
 
 ### B01 — Market, positioning, audience & measurable goals
-- **Subtasks:** prioritize real buyer types (international SME/startup/agency/individual); value proposition, differentiation, project scopes, user journeys, service demand/honest eligibility; definition of lead vs vanity traffic; clear geographic/legal constraints on service provision and payments.
-- **Dependencies:** none. **Output:** approved creative brief, service priorities, target audiences, success criteria; **Research RQ01:** competitor portfolios, credible user expectations, search intent by language, locally relevant competitors, free analytic methods. Use public official portfolios / community inspiration, no invented ranking.
+- **Subtasks (showcase-first):** prioritize portfolio viewers and potential employers/clients (international SME/startup/agency/individual); define which technical skills are demonstrated, the visitor's path to inspect/try working samples, design uniqueness, truthful scope and real evidence; optional human contact is secondary. No checkout funnels, paid conversion campaign, actual transactions or client portal in V1.
+- **Dependencies:** none. **Output:** approved showcase brief, demonstrated capability priorities, visitor personas, measurable demonstration quality/credibility/UX goals; **Research RQ01:** outstanding interactive portfolio examples, credible employer expectations, discovery and accessibility patterns, free design references. Don't optimize for monetary leads before quality.
 - **Gate:** owner confirms positioning; marketing copy distinguishes proven abilities from aspirations.
 
 ### B02 — Content inventory, evidence, rights & truthful copy
@@ -141,8 +145,8 @@ Challenge → intended users → constraints → owned contribution → method/a
 - **Dependencies:** B02, B07, B09–B13. **Research RQ15:** OSS CodeMirror/Monaco licensing *only if real editable showcase requires it*; iframe sandbox/CSP; safe live demo vs recorded video; video hosting free limits.
 - **Gate:** 1 case study with real rights and provenance + at least one demonstrable functional sample; all demo errors fail gracefully, do not touch production auth, no exposure of sensitive source/client data.
 
-### B16 — Contact, inbound lead and conversion UX
-- **Subtasks:** link-based `mailto:` fallback or verified public email, then optional form only after receiving/retention/abuse/storage/notification channel tested; minimal fields with consent/privacy messaging, basic anti-spam, success/failure/double-submit states, no guest account; mobile social/contact support; translations of responses. Never promise a form works when it's a frontend-only mock.
+### B16 — Optional contact and nontransactional promotional UX
+- **Subtasks:** optional verified public email/social/contact links and explanatory service CTAs; a safe `mailto:` link is enough for V1 if owner approves address. No working quote generator, checkout, order queue or account. Optional contact form comes only after delivery/retention/abuse/storage/privacy and test are approved; show any nonfunctional sample form as **DEMO / NO SUBMISSION**. Never promise a form works when it is frontend-only.
 - **Dependencies:** B01 trust, B04 locale, B07 backend choice, B13 accessibility, B17 privacy. **Research RQ16:** Formspree Free $0 50 submissions/month explicitly positioned for **testing/development** (commercial production eligibility must be verified), Cloudflare Turnstile Free business use with verification requiring a **server-side endpoint**, independent form alternative, spam/overage.
 - **Gate:** real end-to-end inquiry test to authorized controlled inbox, failure handling/dedupe/abuse guard/retention and privacy checks, no secret client bundle. If no eligible free service, use safe email/contact links before building backend.
 
@@ -167,8 +171,8 @@ Challenge → intended users → constraints → owned contribution → method/a
 - **Dependencies:** B07, B17–B19. **Research RQ20:** Cloudflare Pages Free 500 builds/month, static file caps and Functions quota; Netlify current pricing; commercial restrictions on Vercel Hobby and GitHub Pages; deployment from owner's actual residency/legal access is **UNVERIFIED**.
 - **Gate:** documented release proposal including cost/rights/security/privacy/rollback + explicit user approval; real post-deploy smoke, TLS, crawlability and locale checks. No silent production deploy or permission change.
 
-### B21 — Analytics, search visibility, lead measurement and iteration
-- **Subtasks:** privacy-preserving baseline; Search Console after publication, optional Microsoft Clarity only after consent/legal assessment, measure qualified inbound inquiries, social referrals, popular language routes, scroll/CTA friction and CWV if actual field data exists; no speculative traffic promises.
+### B21 — Showcase quality, search visibility and optional interest measurement
+- **Subtasks:** privacy-preserving baseline; measure performance/accessibility, working demo reachability, language comprehension, social discovery and honest portfolio clarity; optional Search Console after publication and inquiry/referral signals only if real and privacy/consent acceptable. No paid-traffic, checkout, sales-funnel or revenue KPI is required for V1.
 - **Dependencies:** B16–B20; real public launch. **Research RQ21:** free privacy-aware analytics, official search console features, third-party script performance and consent.
 - **Gate:** useful measurements without unnecessary surveillance, reversible tracking, real iteration linked to user value.
 
