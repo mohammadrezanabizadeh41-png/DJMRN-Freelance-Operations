@@ -5,7 +5,14 @@
 **Status:** SCOPING / OFFICIAL-STANDARDS RESEARCH COMPLETE FOR FIRST REVIEW / IMPLEMENTATION NOT STARTED  
 **Type:** DJMRN's own business/portfolio website, **not an awarded client contract**.  
 **Repository authority:** this existing DJMRN-Freelance-Operations repository. Source code, if later authorized, should live here until a separate repository is explicitly justified and approved.  
-**Canonical progress and approvals:** [existing CURRENT-STATUS](../08-operations-and-continuity/CURRENT-STATUS.md), plus Git history. This document defines scope, verifiable standards and open decisions; it is **not** a second progress log or an approved implementation roadmap.
+**Canonical project-specific progress and approvals (owner update 2026-11-14):** [PROJECT-LOG.md](PROJECT-LOG.md) in this same website directory, plus Git history. Previous entries in the parent [CURRENT-STATUS](../08-operations-and-continuity/CURRENT-STATUS.md) remain historical; future routine site stage logging occurs only here, not in competing parent logs. This README defines scope and standards; the execution plan is proposed until owner sign-off.
+
+## Site project navigation
+- [Research and tools](RESEARCH-AND-TOOLS.md) — standards, source URLs, free offerings, plugin/MCP capability, Codex and alternatives, observed network blockers.
+- [Execution plan](EXECUTION-PLAN.md) — proposed P0–P10 gates, acceptance, bounded coding task templates and approvals.
+- [Agent instructions](AGENTS.md) — project-scoped software-development guardrails for Codex, Work and other hosts.
+- [Current site log](PROJECT-LOG.md) — the **single ongoing** site work/state/handoff record by explicit owner request.
+- Canonical source repo: `DJMRN-Freelance-Operations`; source code, tests, assets and site records all stay under `09-self-marketing-website/`.
 
 ## 1. Business objective and truth requirements
 Create a professional public-facing website that presents DJMRN as an independent remote freelancer, shows *genuinely supported* skills and selected portfolio demonstrations, and converts appropriate visitors into client inquiries for bounded deliverable-based work.
@@ -76,9 +83,9 @@ Future project acceptance gate: reproducible local build, lint/type checks as ap
 ## 6. Proposed gates (NOT a finalized roadmap)
 R0 owner reviews standards/vision -> R1 requirements and actual portfolio evidence -> R2 wireframes & visual system/mobile/desktop design review -> R3 select smallest adequate frontend approach and local bootstrap -> R4 build public site and visual interactions in small vertical slices -> R5 local cross-device/performance/accessibility/security/SEO acceptance -> R6 reviewed hosting proposal with cost/legal/security -> R7 separately approved deployment and live smoke/monitoring -> R8 measure inquiry conversion and improve.
 
-**Execution logging:** On every authorized work stage, put one concise dated stage checkpoint (before-state, approved scope, exact files/commands, observed result, test evidence, failures/recovery, next action) into the existing [CURRENT-STATUS.md](../08-operations-and-continuity/CURRENT-STATUS.md), with source commits/test artifacts linked when real code exists. Do not maintain a competing daily log, duplicate tracker or automatically create new service/agent infrastructure. Source files and tests will be placed under this project folder once implementation is approved. Every GitHub write needs commit/readback verification.
+**Execution logging (owner-specific override, 2026-11-14):** On each authorized work stage, append one concise evidence-backed checkpoint (before-state, approved scope, exact files/commands, real results, tests, failures/recovery, Git commit/diff, next action) to [PROJECT-LOG.md](PROJECT-LOG.md) **inside this website folder only**. No competing daily log, duplicate registry, unapproved service/agent infrastructure, or simultaneous updates to the parent project status for routine site work. Source code, assets and tests must remain under this project folder. Every GitHub write needs commit/readback verification.
 
 ## 7. Current boundary and next decision
 **Completed this turn:** research of standards and hosting terms; scope/acceptance proposal; repository project registration.  
 **Not completed/not authorized:** final standards sign-off, site design, code scaffolding, local deployment, real login, contact form, production deploy or publishing.  
-**Next:** discuss the design/functional choices with owner, then save the approved detailed execution roadmap in THIS project and start a first small real desktop build. 
+**Next (2026-11-14):** detailed PROPOSED execution gates and sources are filed in this folder, official Codex CLI 0.166.0 logged in, while local GitHub:443 TCP connectivity is presently blocked. Confirm first design/functional choices and restore safe Git synchronization before declaring a Codex-backed site build. See [PROJECT-LOG](PROJECT-LOG.md). 
