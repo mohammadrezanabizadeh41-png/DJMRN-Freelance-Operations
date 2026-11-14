@@ -2,7 +2,7 @@
 
 **Status:** CURRENT research reference (not a daily progress log)  
 **Consolidation date:** 2026-11-14  
-**Scope:** Independent remote freelancing / AI-assisted software-development promotional website.  
+**Scope:** Service-first DJMRN freelance/Vibe Coding promotional portfolio with **per-service galleries of distinct sample applications** (including one planned Perfume Store demo under E-commerce Website Development). Provider/licensing observations are historical research inputs, not current activation decisions.  
 **Authority:** [Project brief](README.md) for accepted scope, [execution plan](EXECUTION-PLAN.md) for gates, [project log](PROJECT-LOG.md) for observed stage progress, Git commit/diff for source evidence.  
 **Evidence tags:** OFFICIAL (provider/standard documentation); LIVE_ACCOUNT (connector directory); LIVE_WINDOWS (device command); PRIOR_PROJECT_EVIDENCE (dated, linked GitHub record); PROPOSAL (not owner-approved); UNVERIFIED (no successful test). Distinguish installation from authenticated provider access, and tool presence from successful execution.
 
@@ -10,7 +10,7 @@
 
 The site must itself demonstrate engineering competence while attracting legitimate, bounded, deliverable-based freelance projects. Potential categories: modern websites and landing pages; frontend/UI/UX; JavaScript/Python/API automation; QA and browser testing; data workflow; AI-assisted development with human QA; selected creative/video and promotional design. Confirm exact services and their evidence with owner before public copy. **Never invent clients, credentials, testimonials, awards, technical capacity or past paid work**.
 
-Suggested page architecture: Home, Services, Work / case studies, Process / engineering quality, About, Contact, Privacy (Terms only if actual legal need). Proposed audience is international remote clients; bilingual EN/FA and RTL/LTR remains OPEN. Work-case studies must differentiate owner-made concept/demonstration from paid commissioned work. The prior Orsola conceptual video may only be used if rights, attribution and user-selected official link are confirmed.
+Latest OWNER-confirmed nested IA, documented in [MASTER-ROADMAP §1A–§1B](MASTER-ROADMAP.md): DJMRN Home → multi-category Services → specific service detail → **related sample gallery** → separately styled **contained demo route** + accessible return to that service; Work/case-study explanations share sample IDs and can link to the runnable demo. One service may have multiple real samples, all only listed as working when actually built. **Perfume Store B23** belongs under the E-commerce Website Development service, not DJMRN global navigation; simulated cart/payment/invoice/finance steps are planned, no real transactions. Earlier top-level page outline (Home, Services, Work, Process, About, Contact, Privacy) is retained as the outer website shell; exact routes are approved at B03/B04. Proposed audience is international remote clients; bilingual EN/FA and RTL/LTR remains OPEN. Work-case studies must differentiate owner-made concept/demonstration from paid commissioned work. The prior Orsola conceptual video may only be used if rights, attribution and user-selected official link are confirmed.
 
 ## B. Current engineering standards — OFFICIAL reference baseline
 
@@ -117,8 +117,8 @@ Provider offer != an approved accessible account. **FREE-FIRST; UNKNOWN costs/ov
 - True contact route and whether an authenticated private editor is ever required.
 - Confirm actual Figma account/plugin project capacity and any nonrenewing MagicPath/OpenSEO credits before consuming.
 - Check selected hosting legal country access, no bill/overage and commercial use before deployment.
-- Local Git network recovery with no security weakening; then clone existing repo and **sparse-work** `09-self-marketing-website`, instead of creating a second authority.
-- Actual Codex small-task verification in that Git-backed workspace; real tests, output, costs/quotas, and review.
+- **Historical network blocker is RESOLVED as of 2026-11-14:** canonical repo was successfully sparse-cloned and repeated fast-forward syncs succeeded using the existing Windows proxy **scoped to Git commands** and intact TLS verification; retest remote access at actual execution time, never weaken host security or create another authority.
+- Read-only official Codex task and local Git branch were previously verified; actual site implementation/tests are **not started**. After owner final roadmap approval, run one scoped P2/RQ01 requirements stage, then app/code work only after its design/stack gate and independent QA.
 - See [Execution plan](EXECUTION-PLAN.md) and [Project log](PROJECT-LOG.md) for approved scope and next tasks.
 
 **Provenance:** current user instructions; verified live Notion DJMRN policies; above official reference links; official Codex/gptme/Yep/README web pages (2026-11-14); GitHub tool directory and user-owned canonical records; Windows Remote Desktop Commander observed CLI, login, network and installed software. Unknown or feature claims not tested remain labeled.
