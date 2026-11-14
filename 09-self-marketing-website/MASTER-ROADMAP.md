@@ -60,7 +60,7 @@ Websites & landing pages; app/UI prototypes; JavaScript/Python/API automation; A
 
 ### Candidate buyer-facing service taxonomy — P2/B01–B03 research snapshot (2026-11-14)
 
-**OWNER-DIRECTED AUDIT / STATUS:** 8 visual *portals* → 24 optional *corridors* (2–3 per portal) → **52 distinct buyer-facing service families** (each may have 0–many truthful samples, with further subtypes added only for real needs). This is the CANDIDATE SERVICE COVERAGE MAP, **NOT 52 verified current offerings, 52 built sample apps, nor 52 new roadmap B## workstreams**. The existing **B01–B23 workstreams** still own planning/implementation. These `P##/C##/S##` IDs are descriptive **proposed taxonomy labels for discussion**, not an implemented database/schema/provider registry; final identity/route names are accepted only at B02/B03 approval. 
+**OWNER-DIRECTED AUDIT / STATUS:** 8 visual *portals* → 24 optional *corridors* (2–3 per portal) → **52 distinct buyer-facing service families** (each may have 0–many truthful samples, with further subtypes added only for real needs). This is the CANDIDATE SERVICE COVERAGE MAP, **NOT 52 verified current offerings, 52 built sample apps, nor 52 new roadmap B## workstreams**. The existing **B01–B23 workstreams** still own planning/implementation. These `VVP##/SSC##/SV##` IDs are descriptive **proposed taxonomy labels for discussion**, not an implemented database/schema/provider registry; final identity/route names are accepted only at B02/B03 approval. 
 
 **Interaction structure:** one artistically unified, multi-layer, optionally spatial DJMRN main hub displays **8 recognizably distinct graphical portals**, not a wall of 52 cards. Each portal expands into 3 labeled corridors, each corridor into 2–3 **separate services**, each service into one truthful explanation + **0–many** relevant gallery items; each actually built sample can be a video, playable website, audio, graphic gallery, code or working app, with its own media/visual branding, clear status and direct-link/back route. Show direct search/filter and a clear list-mode in parallel for users who want speed; no mandatory 3D/hover or obscure nomenclature. The active first fold should show brief visitor outcomes, not frameworks. Do not create unnecessary routes/depth for one-service scenarios. Grouping is a PRESENTATION strategy; semantic stable service URLs remain. 
 
@@ -69,150 +69,150 @@ Websites & landing pages; app/UI prototypes; JavaScript/Python/API automation; A
 - **FACT [Upwork, published 2026-10-14]:** https://www.upwork.com/research/upwork-monthly-hiring-insights-september-2026 . September 2026 searches particularly show AI SaaS, agent, workflow automation and AI video demand signals, plus WordPress/web customization; searches alone differ from signed contracts.
 - **FACT [Fiverr, published 2026-06-09, search window 2025-11 to 2026-04]:** https://www.fiverr.com/news/business-trends-index-ai-2026 , https://www.fiverr.com/resources/guides/reports/business-trends-index-june-2026/ . Rising searches for AI video, editing, website creation, vibe coding, n8n automation, data-cleaning, social creative and translation; growth percentages are SEARCH trends, not measured available jobs or verified client eligibility. Source publication date differs from a guide page's later update date.
 - **FACT [Upwork 2026-08 monthly / freelance jobs, source-limited]:** https://www.upwork.com/research/upwork-monthly-hiring-insights-july-2026 documents prompt-engineering persistence and AI-oriented services; https://www.upwork.com/freelance-jobs/voice-over/ indicates a distinct voice-over job category, but dynamic displayed counts are not a stable rank. Other categories below are practical, plausible client-facing catalog candidates, NOT proven equally high demand or active offerings.
-- **JUDGMENT:** first research and example priority candidates include S01/S02/S07/S09/S13/S15/S18/S20/S24/S31/S42/S45; **priority is provisional**, must be adjusted by user's actual demonstrable skills, owned samples, language/legal geography, time/cost and provider access rather than market-growth rankings alone. Marketing, prompt-only or basic input work may have lower earnings or heavy competition. Never claim every listed category is similarly profitable.
-- **B02 PROOF GATE:** label each S## as `AVAILABLE_VERIFIED | CONCEPT_ONLY | RESEARCHING | NOT_OFFERED` after checking real output, skills, sample ownership, localization/voice ability, tool/free-quota, permission/security, and delivery. Pending verification, each S## is **RESEARCHING / UNVERIFIED FOR PUBLIC OFFERING**, irrespective of marketplace demand. Only approved verified services appear as actively orderable; planned samples must never show as live or real customer commissions. No regulated finance/legal/tax, fraudulent marketing, scraping without rights, impersonation/voice cloning without consent, or paid ad spend without approval.
+- **JUDGMENT:** first research and example priority candidates include SV01/SV02/SV07/SV09/SV13/SV15/SV18/SV20/SV24/SV31/SV42/SV45; **priority is provisional**, must be adjusted by user's actual demonstrable skills, owned samples, language/legal geography, time/cost and provider access rather than market-growth rankings alone. Marketing, prompt-only or basic input work may have lower earnings or heavy competition. Never claim every listed category is similarly profitable.
+- **B02 PROOF GATE:** label each SV## as `AVAILABLE_VERIFIED | CONCEPT_ONLY | RESEARCHING | NOT_OFFERED` after checking real output, skills, sample ownership, localization/voice ability, tool/free-quota, permission/security, and delivery. Pending verification, each SV## is **RESEARCHING / UNVERIFIED FOR PUBLIC OFFERING**, irrespective of marketplace demand. Only approved verified services appear as actively orderable; planned samples must never show as live or real customer commissions. No regulated finance/legal/tax, fraudulent marketing, scraping without rights, impersonation/voice cloning without consent, or paid ad spend without approval.
 
-#### P01 — وب‌سایت و تجارت آنلاین / Websites & Commerce (6 services)
+#### VP01 — وب‌سایت و تجارت آنلاین / Websites & Commerce (6 services)
 
-**C01 — سایت و مدیریت محتوا**
+**SC01 — سایت و مدیریت محتوا**
 
-- **S01 · طراحی و ساخت وب‌سایت:** شرکتی، شخصی، لندینگ، چندزبانه
-- **S03 · توسعهٔ WordPress و CMS:** قالب، افزونه، سفارشی‌سازی و سیستم مدیریت محتوا
+- **SV01 · طراحی و ساخت وب‌سایت:** شرکتی، شخصی، لندینگ، چندزبانه
+- **SV03 · توسعهٔ WordPress و CMS:** قالب، افزونه، سفارشی‌سازی و سیستم مدیریت محتوا
 
-**C02 — فروشگاه و وب خلاق**
+**SC02 — فروشگاه و وب خلاق**
 
-- **S02 · ساخت فروشگاه اینترنتی:** کاتالوگ، سبد، سفارش؛ B23 پرداخت کاملاً ساختگی
-- **S05 · وب‌سایت تعاملی و سه‌بعدی:** گرافیک پویا، نمایش تعاملی، صحنهٔ سه‌بعدی اختیاری
+- **SV02 · ساخت فروشگاه اینترنتی:** کاتالوگ، سبد، سفارش؛ B23 پرداخت کاملاً ساختگی
+- **SV05 · وب‌سایت تعاملی و سه‌بعدی:** گرافیک پویا، نمایش تعاملی، صحنهٔ سه‌بعدی اختیاری
 
-**C03 — تجربه و بهینه‌سازی وب**
+**SC03 — تجربه و بهینه‌سازی وب**
 
-- **S04 · طراحی UI/UX وب و محصول:** وایرفریم، پروتوتایپ، سیستم طراحی
-- **S06 · نگهداری و بهبود فنی وب‌سایت:** رفع خطا، سرعت، واکنش‌گرایی و دسترس‌پذیری
+- **SV04 · طراحی UI/UX وب و محصول:** وایرفریم، پروتوتایپ، سیستم طراحی
+- **SV06 · نگهداری و بهبود فنی وب‌سایت:** رفع خطا، سرعت، واکنش‌گرایی و دسترس‌پذیری
 
-#### P02 — اپلیکیشن و برنامه‌نویسی / Apps & Software (6 services)
+#### VP02 — اپلیکیشن و برنامه‌نویسی / Apps & Software (6 services)
 
-**C04 — اپلیکیشن‌های کاربری**
+**SC04 — اپلیکیشن‌های کاربری**
 
-- **S07 · ساخت اپلیکیشن موبایل:** Android و iOS یا کراس‌پلتفرم مشروط به توان عملی
-- **S08 · ساخت نرم‌افزار دسکتاپ:** ابزارهای اختصاصی Windows و برنامه‌های کاربردی
+- **SV07 · ساخت اپلیکیشن موبایل:** Android و iOS یا کراس‌پلتفرم مشروط به توان عملی
+- **SV08 · ساخت نرم‌افزار دسکتاپ:** ابزارهای اختصاصی Windows و برنامه‌های کاربردی
 
-**C05 — محصول و زیرساخت نرم‌افزاری**
+**SC05 — محصول و زیرساخت نرم‌افزاری**
 
-- **S09 · ساخت وب‌اپلیکیشن و SaaS:** داشبورد، پنل و سامانهٔ تحت وب؛ متفاوت از سایت معرفی
-- **S10 · توسعهٔ بک‌اند و API:** منطق سرور، API و یکپارچه‌سازی فنی
+- **SV09 · ساخت وب‌اپلیکیشن و SaaS:** داشبورد، پنل و سامانهٔ تحت وب؛ متفاوت از سایت معرفی
+- **SV10 · توسعهٔ بک‌اند و API:** منطق سرور، API و یکپارچه‌سازی فنی
 
-**C06 — ابزار، اصلاح و آزمون**
+**SC06 — ابزار، اصلاح و آزمون**
 
-- **S11 · اسکریپت‌نویسی و ابزار Python/JavaScript:** پردازش فایل، خط فرمان، ابزار کمکی؛ نه سناریوی رسانه‌ای
-- **S12 · آزمون، رفع باگ و QA نرم‌افزار:** آزمون مرورگر، عملکرد، رگرسیون و گزارش خطا
+- **SV11 · اسکریپت‌نویسی و ابزار Python/JavaScript:** پردازش فایل، خط فرمان، ابزار کمکی؛ نه سناریوی رسانه‌ای
+- **SV12 · آزمون، رفع باگ و QA نرم‌افزار:** آزمون مرورگر، عملکرد، رگرسیون و گزارش خطا
 
-#### P03 — هوش مصنوعی و خودکارسازی / AI & Automation (6 services)
+#### VP03 — هوش مصنوعی و خودکارسازی / AI & Automation (6 services)
 
-**C07 — گفتگو و عامل‌های هوشمند**
+**SC07 — گفتگو و عامل‌های هوشمند**
 
-- **S13 · ساخت چت‌بات و دستیار AI:** پرسش‌وپاسخ و رابط گفتگویی با کنترل دسترسی
-- **S14 · ساخت ایجنت هوشمند:** عامل وظیفه‌محور با ابزار مجاز و نظارت انسان
+- **SV13 · ساخت چت‌بات و دستیار AI:** پرسش‌وپاسخ و رابط گفتگویی با کنترل دسترسی
+- **SV14 · ساخت ایجنت هوشمند:** عامل وظیفه‌محور با ابزار مجاز و نظارت انسان
 
-**C08 — ادغام و پرامپت**
+**SC08 — ادغام و پرامپت**
 
-- **S15 · یکپارچه‌سازی AI با محصولات:** افزودن قابلیت AI به اپ و گردش‌کار با هزینهٔ کنترل‌شده
-- **S16 · مهندسی پرامپت و طراحی دستورها:** پرامپت ساختاریافته، ارزیابی کیفیت و الگوی اجرا
+- **SV15 · یکپارچه‌سازی AI با محصولات:** افزودن قابلیت AI به اپ و گردش‌کار با هزینهٔ کنترل‌شده
+- **SV16 · مهندسی پرامپت و طراحی دستورها:** پرامپت ساختاریافته، ارزیابی کیفیت و الگوی اجرا
 
-**C09 — توسعهٔ AI-assisted و فرایند**
+**SC09 — توسعهٔ AI-assisted و فرایند**
 
-- **S17 · Vibe Coding و نمونه‌سازی با AI:** ساخت نمونهٔ کاربردی با بازبینی و آزمون مهندسی
-- **S18 · اتوماسیون گردش‌کار و RPA:** فرایندهای فایل، وب و اتصال سرویس‌های مجاز
+- **SV17 · Vibe Coding و نمونه‌سازی با AI:** ساخت نمونهٔ کاربردی با بازبینی و آزمون مهندسی
+- **SV18 · اتوماسیون گردش‌کار و RPA:** فرایندهای فایل، وب و اتصال سرویس‌های مجاز
 
-#### P04 — ویدیو و تصویر متحرک / Video & Motion (6 services)
+#### VP04 — ویدیو و تصویر متحرک / Video & Motion (6 services)
 
-**C10 — تولید و تدوین**
+**SC10 — تولید و تدوین**
 
-- **S19 · ساخت و تولید ویدیو:** تیزر، آموزش، معرفی برند و محصول
-- **S20 · تدوین و ادیت ویدیو:** مونتاژ، اصلاح رنگ، میکس و خروجی نهایی
+- **SV19 · ساخت و تولید ویدیو:** تیزر، آموزش، معرفی برند و محصول
+- **SV20 · تدوین و ادیت ویدیو:** مونتاژ، اصلاح رنگ، میکس و خروجی نهایی
 
-**C11 — کوتاه‌فرم و موشن**
+**SC11 — کوتاه‌فرم و موشن**
 
-- **S21 · ویدیوی کوتاه و شبکه‌های اجتماعی:** Reels، Shorts، تیزر عمودی و UGC مفهومی
-- **S22 · موشن‌گرافیک:** تایپوگرافی متحرک، موشن لوگو و اکسپلینر
+- **SV21 · ویدیوی کوتاه و شبکه‌های اجتماعی:** Reels، Shorts، تیزر عمودی و UGC مفهومی
+- **SV22 · موشن‌گرافیک:** تایپوگرافی متحرک، موشن لوگو و اکسپلینر
 
-**C12 — انیمیشن و ویدیوی هوشمند**
+**SC12 — انیمیشن و ویدیوی هوشمند**
 
-- **S23 · ساخت انیمیشن دوبعدی و سه‌بعدی:** حرکت شخصیت، محصول و روایت انیمیشنی
-- **S24 · تولید ویدیوی AI و پس‌تولید:** نماهای تولیدی، انتخاب، اصلاح و تدوین انسانی
+- **SV23 · ساخت انیمیشن دوبعدی و سه‌بعدی:** حرکت شخصیت، محصول و روایت انیمیشنی
+- **SV24 · تولید ویدیوی AI و پس‌تولید:** نماهای تولیدی، انتخاب، اصلاح و تدوین انسانی
 
-#### P05 — صدا، گویندگی و موسیقی / Audio & Voice (6 services)
+#### VP05 — صدا، گویندگی و موسیقی / Audio & Voice (6 services)
 
-**C13 — گویندگی طبیعی و مصنوعی**
+**SC13 — گویندگی طبیعی و مصنوعی**
 
-- **S25 · گویندگی و ساخت وویس:** نریشن، دوبله و وویس‌اور فقط در زبان‌های واقعاً قابل ارائه
-- **S26 · ساخت صدای AI و متن‌به‌گفتار:** TTS و صدای مصنوعی با رضایت صاحب صدا، بدون جعل هویت
+- **SV25 · گویندگی و ساخت وویس:** نریشن، دوبله و وویس‌اور فقط در زبان‌های واقعاً قابل ارائه
+- **SV26 · ساخت صدای AI و متن‌به‌گفتار:** TTS و صدای مصنوعی با رضایت صاحب صدا، بدون جعل هویت
 
-**C14 — ویرایش و پادکست**
+**SC14 — ویرایش و پادکست**
 
-- **S27 · ادیت و ترمیم صدا:** نویزگیری، میکس، مستر و اصلاح فایل صوتی
-- **S28 · تولید و تدوین پادکست:** ساختار اپیزود، ویرایش، بسته‌بندی و خروجی
+- **SV27 · ادیت و ترمیم صدا:** نویزگیری، میکس، مستر و اصلاح فایل صوتی
+- **SV28 · تولید و تدوین پادکست:** ساختار اپیزود، ویرایش، بسته‌بندی و خروجی
 
-**C15 — موسیقی و متن صوتی**
+**SC15 — موسیقی و متن صوتی**
 
-- **S29 · ساخت موسیقی و طراحی صدا:** جینگل، موسیقی اختصاصی مجاز و افکت صوتی
-- **S30 · پیاده‌سازی صوت و زیرنویس:** رونوشت، زمان‌بندی کپشن، زیرنویس و تبدیل صوت به متن
+- **SV29 · ساخت موسیقی و طراحی صدا:** جینگل، موسیقی اختصاصی مجاز و افکت صوتی
+- **SV30 · پیاده‌سازی صوت و زیرنویس:** رونوشت، زمان‌بندی کپشن، زیرنویس و تبدیل صوت به متن
 
-#### P06 — گرافیک، هنر دیجیتال و سه‌بعدی / Graphic, Visual & 3D (6 services)
+#### VP06 — گرافیک، هنر دیجیتال و سه‌بعدی / Graphic, Visual & 3D (6 services)
 
-**C16 — هویت و تبلیغات**
+**SC16 — هویت و تبلیغات**
 
-- **S31 · طراحی لوگو و هویت بصری:** نشان، سیستم رنگ و عناصر برند
-- **S32 · طراحی گرافیک تبلیغاتی و شبکهٔ اجتماعی:** پوستر، بنر، کاور، پست و کمپین
+- **SV31 · طراحی لوگو و هویت بصری:** نشان، سیستم رنگ و عناصر برند
+- **SV32 · طراحی گرافیک تبلیغاتی و شبکهٔ اجتماعی:** پوستر، بنر، کاور، پست و کمپین
 
-**C17 — تصویرسازی و تصویر**
+**SC17 — تصویرسازی و تصویر**
 
-- **S33 · تصویرسازی و تولید تصویر با AI:** تصویر هنری و تبلیغاتی با حقوق و اصالت روشن
-- **S34 · ادیت و روتوش عکس:** اصلاح عکس، حذف پس‌زمینه و ترکیب تصویر
+- **SV33 · تصویرسازی و تولید تصویر با AI:** تصویر هنری و تبلیغاتی با حقوق و اصالت روشن
+- **SV34 · ادیت و روتوش عکس:** اصلاح عکس، حذف پس‌زمینه و ترکیب تصویر
 
-**C18 — سه‌بعدی و ارائه**
+**SC18 — سه‌بعدی و ارائه**
 
-- **S35 · مدل‌سازی و رندر سه‌بعدی:** مدل محصول، صحنه، متریال و رندر
-- **S36 · طراحی ارائه و اسلاید:** PowerPoint، Pitch Deck و ارائهٔ آموزشی/تجاری
+- **SV35 · مدل‌سازی و رندر سه‌بعدی:** مدل محصول، صحنه، متریال و رندر
+- **SV36 · طراحی ارائه و اسلاید:** PowerPoint، Pitch Deck و ارائهٔ آموزشی/تجاری
 
-#### P07 — نویسندگی، محتوا و بازاریابی / Writing, Content & Marketing (8 services)
+#### VP07 — نویسندگی، محتوا و بازاریابی / Writing, Content & Marketing (8 services)
 
-**C19 — متن و سناریو**
+**SC19 — متن و سناریو**
 
-- **S37 · کپی‌رایتینگ و متن تبلیغاتی:** متن لندینگ، محصول و پیام کمپین
-- **S38 · سناریونویسی و اسکریپت رسانه‌ای حرفه‌ای:** سناریوی ویدیو، پادکست، تبلیغ و یوتیوب؛ جدا از اسکریپت برنامه‌نویسی
-- **S39 · مقاله‌نویسی و محتوای متنی:** وبلاگ، راهنما، شرح خدمات و محتوای تخصصی
+- **SV37 · کپی‌رایتینگ و متن تبلیغاتی:** متن لندینگ، محصول و پیام کمپین
+- **SV38 · سناریونویسی و اسکریپت رسانه‌ای حرفه‌ای:** سناریوی ویدیو، پادکست، تبلیغ و یوتیوب؛ جدا از اسکریپت برنامه‌نویسی
+- **SV39 · مقاله‌نویسی و محتوای متنی:** وبلاگ، راهنما، شرح خدمات و محتوای تخصصی
 
-**C20 — ویرایش و زبان**
+**SC20 — ویرایش و زبان**
 
-- **S40 · ویراستاری، بازنویسی و اصلاح متن:** Proofreading، ساختاربندی و کنترل کیفیت متن
-- **S41 · ترجمه و بومی‌سازی:** محتوای چندزبانه، UI copy و زیرنویس با بازبینی انسانی
+- **SV40 · ویراستاری، بازنویسی و اصلاح متن:** Proofreading، ساختاربندی و کنترل کیفیت متن
+- **SV41 · ترجمه و بومی‌سازی:** محتوای چندزبانه، UI copy و زیرنویس با بازبینی انسانی
 
-**C21 — رشد و ارتباطات**
+**SC21 — رشد و ارتباطات**
 
-- **S42 · خدمات SEO و جست‌وجوپذیری:** SEO فنی، تحقیق کلمه و بهینه‌سازی محتوای وب
-- **S43 · مدیریت محتوا و شبکه‌های اجتماعی:** تقویم محتوا، مدیریت انتشار با مجوز و گزارش
-- **S44 · ایمیل‌مارکتینگ و کمپین دیجیتال:** کمپین ایمیل، پیام‌ها و تحلیل؛ بدون ارسال ناخواسته یا هزینهٔ تبلیغ بدون مجوز
+- **SV42 · خدمات SEO و جست‌وجوپذیری:** SEO فنی، تحقیق کلمه و بهینه‌سازی محتوای وب
+- **SV43 · مدیریت محتوا و شبکه‌های اجتماعی:** تقویم محتوا، مدیریت انتشار با مجوز و گزارش
+- **SV44 · ایمیل‌مارکتینگ و کمپین دیجیتال:** کمپین ایمیل، پیام‌ها و تحلیل؛ بدون ارسال ناخواسته یا هزینهٔ تبلیغ بدون مجوز
 
-#### P08 — داده، تحقیق و خدمات اداری / Data, Research & Operations (8 services)
+#### VP08 — داده، تحقیق و خدمات اداری / Data, Research & Operations (8 services)
 
-**C22 — اکسل و امور اجرایی**
+**SC22 — اکسل و امور اجرایی**
 
-- **S45 · Excel و Google Sheets:** فرمول، فایل کاری، پاک‌سازی و اتوماسیون صفحه‌گسترده
-- **S48 · تایپ، ورود داده و تبدیل اسناد:** تایپ، تبدیل PDF به جدول/متن، قالب‌بندی اسناد
-- **S50 · دستیار مجازی و امور اداری آنلاین:** ساماندهی فایل، تقویم، هماهنگی و پشتیبانی مجاز
+- **SV45 · Excel و Google Sheets:** فرمول، فایل کاری، پاک‌سازی و اتوماسیون صفحه‌گسترده
+- **SV48 · تایپ، ورود داده و تبدیل اسناد:** تایپ، تبدیل PDF به جدول/متن، قالب‌بندی اسناد
+- **SV50 · دستیار مجازی و امور اداری آنلاین:** ساماندهی فایل، تقویم، هماهنگی و پشتیبانی مجاز
 
-**C23 — تحلیل و تحقیق**
+**SC23 — تحلیل و تحقیق**
 
-- **S46 · تحلیل داده و داشبورد:** گزارش KPI، مصورسازی و آمار کاربردی
-- **S47 · استخراج و پردازش داده:** ETL سبک، پاک‌سازی، جمع‌آوری از منابع مجاز
-- **S49 · تحقیق اینترنتی و بازار:** رقبا، گردآوری شواهد، گزارش ارجاع‌دار و تحلیل
+- **SV46 · تحلیل داده و داشبورد:** گزارش KPI، مصورسازی و آمار کاربردی
+- **SV47 · استخراج و پردازش داده:** ETL سبک، پاک‌سازی، جمع‌آوری از منابع مجاز
+- **SV49 · تحقیق اینترنتی و بازار:** رقبا، گردآوری شواهد، گزارش ارجاع‌دار و تحلیل
 
-**C24 — مدیریت عملیاتی و AI data**
+**SC24 — مدیریت عملیاتی و AI data**
 
-- **S51 · مدیریت محتوایی و عملیاتی فروشگاه:** ورود کالا، کاتالوگ و عملیات مجاز؛ نه توسعهٔ فروشگاه
-- **S52 · برچسب‌گذاری داده و ارزیابی AI:** Annotation، طبقه‌بندی و کنترل کیفیت دادهٔ مجاز
+- **SV51 · مدیریت محتوایی و عملیاتی فروشگاه:** ورود کالا، کاتالوگ و عملیات مجاز؛ نه توسعهٔ فروشگاه
+- **SV52 · برچسب‌گذاری داده و ارزیابی AI:** Annotation، طبقه‌بندی و کنترل کیفیت دادهٔ مجاز
 
-**Boundary and expansion rules:** (a) S01 brochure website ≠ S02 real/synthetic storefront ≠ S09 working web app; (b) S07 mobile app ≠ S08 desktop program; (c) S11 executable Python/JS scripting ≠ S38 copy/scriptwriting for video; (d) S19 end-to-end video production ≠ S20 edit-only ≠ S24 AI video production; (e) S25 recorded natural voice ≠ S26 authorized synthetic voice ≠ S27 sound cleanup; (f) S16 prompt engineering is an explicit deliverable, while S17 AI-assisted development must still produce tested code; (g) S02 website development ≠ S51 ecommerce catalog/admin operations; (h) S23 animation ≠ S35 3D still model/render. Cross-domain services can tag shared relatedServiceIds and share *existing* samples without duplicate identities or cloned app shells. Future games, cybersecurity, high-risk financial/legal consulting, account login and production provider integrations stay stage-gated, not advertised simply to inflate the catalog.
+**Boundary and expansion rules:** (a) SV01 brochure website ≠ SV02 real/synthetic storefront ≠ SV09 working web app; (b) SV07 mobile app ≠ SV08 desktop program; (c) SV11 executable Python/JS scripting ≠ SV38 copy/scriptwriting for video; (d) SV19 end-to-end video production ≠ SV20 edit-only ≠ SV24 AI video production; (e) SV25 recorded natural voice ≠ SV26 authorized synthetic voice ≠ SV27 sound cleanup; (f) SV16 prompt engineering is an explicit deliverable, while SV17 AI-assisted development must still produce tested code; (g) SV02 website development ≠ SV51 ecommerce catalog/admin operations; (h) SV23 animation ≠ SV35 3D still model/render. Cross-domain services can tag shared relatedServiceIds and share *existing* samples without duplicate identities or cloned app shells. Future games, cybersecurity, high-risk financial/legal consulting, account login and production provider integrations stay stage-gated, not advertised simply to inflate the catalog.
 
 **B03/P3 handoff:** owner first approves distinct buyer-service wording and proof readiness, then P3 explores 2–3 different original visual arrangements of the SAME 8 portal / 24 corridor / 52 service taxonomy (not 52 home-page icons), with 1 fully designed portal→corridor→service→sample-gallery→contained demo/return slice, mobile/fa-RTL/en-LTR/list fallback and direct searchable service entry; compare T34–T40. No local coding, service publication, skill claims, third-party billing or design-library lock authorized by this taxonomy decision.
 
