@@ -248,8 +248,8 @@ Visitor paths must be deliberately dual-mode:
 
 ### B01 — Market, positioning, audience & measurable goals
 - **Subtasks (showcase-first):** prioritize portfolio viewers and potential employers/clients (international SME/startup/agency/individual); define which technical skills are demonstrated, the visitor's path to inspect/try working samples, design uniqueness, truthful scope and real evidence; optional human contact is secondary. No checkout funnels, paid conversion campaign, actual transactions or client portal in V1.
-- **Dependencies:** none. **Output:** approved showcase brief, actual **service taxonomy plus intended service→sample map**, visitor personas, sample provenance/status and demonstration-quality goals; **Research RQ01:** strong service-first portfolios with multiple embedded examples, accessible experience patterns and free design references. Don't optimize for monetary leads before quality.
-- **Gate:** owner confirms positioning; marketing copy distinguishes proven abilities from aspirations.
+- **Dependencies:** none. **Output:** approved showcase brief with **distinctiveness promise / creative thesis**, actual service taxonomy plus service→sample map, viewer personas, sample evidence/status, and proposed **Explore→Experience→Inspect** journey. **Research RQ01:** apply mandatory §5A live search across several real strong service-first portfolios, evidence-based UX and competing creative approaches; compare what looks template-generated and what demonstrates uniquely authored craft. No default sales-funnel priority.
+- **Gate:** owner confirms truthful capability positioning AND a proposed **creative differentiator with one original signature idea**; professional visual promises cannot outrun actual sample evidence. Test planned T34/T35, do not assert originality purely because AI proposed it.
 
 ### B02 — Content inventory, evidence, rights & truthful copy
 - **Subtasks:** list actual software demos, screenshots, source links, video examples, drafts and legal ownership; label sample vs paid work; verify brand/name/contact details; create service detail/case-study content templates; create controlled copy approval and change workflow.
@@ -257,7 +257,7 @@ Visitor paths must be deliberately dual-mode:
 - **Gate:** no claimed paid job, result statistic, testimonial, company identity or credential lacking direct evidence. No private client files in public repo.
 
 ### B03 — Information architecture, navigation & discovery
-- **Subtasks (owner-confirmed):** main DJMRN home/service windows → specific service explanation → **matching sample gallery** → independent nested sample-demo page → accessible return link to originating service; full sitemap/deep links, service category/tag filters; case-study index; breadcrumbs; keyboard-friendly dialogs, mobile IA, empty/filter and 404. A demo sample is not the main website, and one service can reference multiple independently developed samples.
+- **Subtasks (owner-confirmed):** main DJMRN home/service windows → specific service explanation → **matching sample gallery** → independent nested sample-demo page → accessible return link to originating service; ALSO **dual pathways**: quick visitor route for immediate comprehension and deeper discovery/expert proof route for willing evaluators. Define first-view service promise, sample-first CTA, optional Inspect/Behind the Build link, return/history/breadcrumbs, content hierarchy, semantic direct URL, keyboard/mobile/RTL, empty/404 states. One service may reference many samples; no entire-site desktop/OS imitation.
 - **Dependencies:** B01–B02. **Output:** route matrix, journey maps, wireframes, navigation contracts. **Research RQ03:** compare tabs/mega menus/dialogs with native HTML disclosure/links and actual UX; use MDN dialog guidance, WAI-ARIA APG.
 - **Gate:** J1–J6 and the owner-confirmed **service→sample gallery→demo→back** journey sketched/reviewed for P2/P3 (T32); all eventual published pages shareable without JS-only route navigation, with no dead links or active cards for unbuilt samples.
 
@@ -270,12 +270,12 @@ Visitor paths must be deliberately dual-mode:
 - **Gate:** at least one fully reviewed RTL and one LTR route in pilot, then smoke a full route×locale matrix before publishing each additional locale; no orphan locale selectors or phantom `hreflang`.
 
 ### B05 — Brand identity, art direction & design tokens
-- **Subtasks:** owner name/brand voice, global DJMRN art direction (premium agency × tech lab; optional minimal/editorial, expressive/3D); **sample-specific design systems can intentionally differ** in palette, layout and interaction without sharing private state or overriding the global shell; wordmark/favicon, dark/light behavior if valuable, CJK/Arabic type/font fallbacks, grid/responsive scales, icon and motion tokens.
+- **Subtasks:** creative thesis, **custom authored typographic/graphic signatures** and coherence before ordinary palette/token selection; owner brand voice, original logo/motif/visual system, compare **2–3 genuinely different A/B/C art directions** (premium atelier, curated interactive gallery, restrained workspace metaphor), original rather than stock/SaaS-looking hero, precise composition/responsive rhythm; **mini-scenes must cover first-fold home + service detail + sample entry**, mobile and RTL/LTR. Sample-specific unique fictional brands may deliberately differ while DJMRN primary identity stays consistent. Fonts/licenses, dark/light, CJK/Arabic, spacing/color/type/motion tokens only after concept selected.
 - **Dependencies:** B01–B04 language/font/space needs. **Research RQ05:** moodboards and high-quality *real* portfolios; Figma Starter limits, typography families/license/performance (Fontsource/self hosting); verify visual originality and international readability.
-- **Gate:** owner approves a cohesive Figma frame/token system for mobile+desktop and RTL/LTR; contrast/focus reviewed; creative direction documented without copying third-party designs.
+- **Gate:** owner sees and critiques **2–3 original concepts, not recolors**, and chooses/combines/rejects directions. Require source-based inspiration-vs-copy check, custom-asset rights, two-device + RTL/LTR accessibility/performance feasibility, and the T34/T37 design decision record **BEFORE mass coding**. A cohesive approved Figma/token system is the output, not the starting assumption.
 
 ### B06 — Interaction design & reusable component contracts
-- **Subtasks:** primary CTA, service cards and subpages, project previews, tabs/accordions, accessible dialogs, hover/touch/focus/active, filters, carousels only where useful, progressive disclosure, page transitions, responsive menus, screen-reader names, loading/empty/error states.
+- **Subtasks:** create a **purposeful interaction grammar**: first-view clarity, service-window discovery, explain-before-click, compelling preview→demo entry handoff, optional **Explore / Experience / Inspect** patterns, return-to-service and Behind the Build proof; compare simple native tabs/links with an intentional hybrid rather than a fake OS. Define service cards/pages, real sample previews, keyboard/touch/focus, reversible motion, accessible dialogs, loading/empty/error, screen-reader labels, reduced-motion and no-JS fallback.
 - **Dependencies:** B03, B05, B12, B13. **Research RQ06:** MDN native dialog/popover, WAI keyboard patterns, alternatives to heavy UI kits. MagicPath may generate quick prototypes; only approved Figma components become design authority.
 - **Gate:** interaction matrix describes keyboard/mouse/touch, no trapped focus, Escape closes modals, deep links are real links, no loss when JS unavailable for primary content.
 
@@ -296,12 +296,12 @@ Visitor paths must be deliberately dual-mode:
 - **Gate:** every published media file has allowed use and alt/fallback; no missing 404 assets, huge uncompressed image, unauthorized third-party logo or private metadata.
 
 ### B10 — Motion language, transitions and microinteractions
-- **Subtasks:** hierarchy of motion: CSS transition → Web Animations API → Motion MIT JS where needed → specialized custom animation only after need; reduced-motion policy; scroll/touch/hover state; focus-safe transitions; animation duration/easing tokens; subtle nav and page transitions; loading/exit states.
+- **Subtasks:** **motion must explain hierarchy, state or sample-entry context**, not be decorative by default; test a single signature handoff/preview before multiplication. Research native CSS and MDN View Transitions compatibility/fallback → Web Animations API → Motion library → custom effects ONLY if actual benefit. Avoid scroll hijack, looping high-motion backgrounds, opaque preloaders and unnecessary cursor effects. Define timing, focus-safe navigation, touch/scroll/hover feedback, reduced motion and static equivalent before production.
 - **Dependencies:** B05, B06, B12/13, performance budget B18. **Research RQ10:** Motion docs & free MIT license; GSAP license current only if needed; native CSS vs JS; dotLottie web player and *per-asset* export/license; Rive production export pricing.
 - **Gate:** animations do not hide required content, hijack scrolling, cause vestibular risk, delay LCP or block inputs; motion disabled/reduced mode shows static equivalent; screen-reader/keyboard pass.
 
 ### B11 — 3D/WebGL/interactive hero and showcase lab (OPTIONAL, independently discardable)
-- **Subtasks:** decide **one** visual differentiator with owner, e.g. generative geometric hero or portfolio 3D object; scene/storyboard; prototype at real laptop/mobile CPU/GPU; scene lazy load and asset LOD, pause offscreen/background; static poster for no WebGL/reduced motion/slow network, accessibility textual equivalents; only activate when measured ROI justifies.
+- **Subtasks:** decide **at most one meaningful first-stage signature** only after compare against simpler typography, CSS/SVG and 2D storytelling; optional original 3D object/scene may distinguish a particular service/sample but not become mandatory for discovering services. Storyboard, low-end device proof, lazy on-demand renderer, LOD/memory limits, pauses offscreen, fallback poster/no-WebGL/reduced-motion, own artwork/license/alt description. If visual novelty is achievable without WebGL, omit WebGL.
 - **Tool candidates:** free commercial-permitted Blender production of own models; Three.js/WebGL as one contained module; React Three Fiber **only if this isolated demo genuinely requires React**; Spline Free for exploration but watermarked web output (no watermark-free free production claim); Rive Free editor does **not** include runtime export for commercial shipping according to current pricing; do not rely on paid render exports.
 - **Dependencies:** B05, B07, B09, B10, B12/13, B18. **Research RQ11:** shader alternatives, Three renderer fallback/context loss, glTF compression/tools, memory/network budgets, GPU accessibility, current provider commercial license and credits.
 - **Gate:** optional 3D module can be removed with no broken navigation/conversion; tested at mobile low power, WebGL disabled, offline/reduced-motion, GPU lost; separate performance results, not primary LCP.
@@ -322,7 +322,7 @@ Visitor paths must be deliberately dual-mode:
 ### B15 — Portfolio, case studies, demonstrations and media gallery
 - **Subtasks:** a **single discoverable sample registry** maps approved service categories to zero/many examples; preview cards/gallery within service pages, independent sample case-study pages with provenance, and dedicated **open working demo** routes with sample-specific UI while remaining part of the DJMRN site; image/video previews, code/demo links if allowed, test evidence, optional safe sandboxes; captions/transcripts and privacy/consent for third-party media. Samples can have their own fictional brand, but keep a clear 'Back to DJMRN / Service' path and avoid duplicating the global site.
 - **Dependencies:** B02, B07, B09–B13. **Research RQ15:** OSS CodeMirror/Monaco licensing *only if real editable showcase requires it*; iframe sandbox/CSP; safe live demo vs recorded video; video hosting free limits.
-- **Gate:** 1 case study with real rights and provenance + at least one demonstrable functional sample; all demo errors fail gracefully, do not touch production auth, no exposure of sensitive source/client data.
+- **Gate:** 1 honest case explanation and **at least one genuinely functional, deep proof-of-work example** with actual owned contribution/tests and an optional small **Result→Try It→Behind the Build** explanation: problem, design rationale, architecture sketch or meaningful state transition, real PASS/FAIL evidence, known limitations, source licensing. Visitor can ignore expert detail and still navigate; sample errors fail gracefully and no sensitive data/code leaks (T38/T39).
 
 ### B16 — Optional real creator contact and promotional UX (distinct from B23 simulated shop checkout)
 - **Subtasks:** optional verified public email/social/contact links, explanatory service CTAs and a clear visitor **inquiry/feedback** route. If the owner later wants public comments on demos or a response widget, distinguish **nonfunctional visual prototype** from a genuine submitted/received message; require consent, moderation/spam/privacy/retention and destination tests for any actual posting. A safe `mailto:` link is enough for V1 if owner approves address. No **real** customer checkout/order queue, financial obligations or real account creation from creator-contact pages; **B23 separately owns genuine interactive synthetic checkout/order demo**. Optional contact form comes only after delivery/retention/abuse/storage/privacy and test are approved; show any nonfunctional sample form as **DEMO / NO SUBMISSION**. Never promise a form works when it is frontend-only.
@@ -343,7 +343,7 @@ Visitor paths must be deliberately dual-mode:
 ### B19 — Automated QA, manual review and regression matrix
 - **Subtasks:** type/lint/build, unit tests of locale route and content schemas, smoke of all primary journeys, Playwright viewport/accessibility-tree/screenshots, Lighthouse/axe/manual keyboard, fake missing images/locale fallback/404, slow network/offline, broken JSON/data, optional WebGL context loss, forms server failures, link checking, external integration and SEO metadata. GitHub Actions optional pending free quota verification.
 - **Dependencies:** every functional branch. **Research RQ19:** Playwright visual snapshots (same host baseline), axe-core, Lighthouse, device emulation, Safari/iOS physical QA if available.
-- **Gate:** build reproducible, no unhandled exceptions or broken primary journeys, no critical a11y/security issues, screenshots reviewed, failure cases measured, regression tracked before next milestone.
+- **Gate:** reproducible build and real functional journeys; **independent critic pass** for distinctive art direction, generic-template indicators, 5-second clarity, discovery vs fast paths, sample Inspect proof, mobile/RTL and no-effects experience (T34–T40). No unhandled exceptions, critical a11y/security faults or unreviewed regressions. Record failures and remedies before next milestone; pretty screenshots alone never PASS.
 
 ### B20 — Hosting, DNS, deployment, rollback and observability
 - **Subtasks:** compare verified legal/commercial/region eligibility and hard $0 limits for Cloudflare Pages/other candidates, card requirement/no overage, custom domain costs, CDN/TLS/CSP/headers, environment and preview deploy isolation, GitHub integration, redirects/404, sitemap, rollback tested, uptime/alerting. Domain purchase and public release **separately approved**.
@@ -351,7 +351,7 @@ Visitor paths must be deliberately dual-mode:
 - **Gate:** documented release proposal including cost/rights/security/privacy/rollback + explicit user approval; real post-deploy smoke, TLS, crawlability and locale checks. No silent production deploy or permission change.
 
 ### B21 — Showcase quality, search visibility and optional interest measurement
-- **Subtasks:** privacy-preserving baseline; measure performance/accessibility, working demo reachability, language comprehension, social discovery and honest portfolio clarity; optional Search Console after publication and inquiry/referral signals only if real and privacy/consent acceptable. No paid-traffic, checkout, sales-funnel or revenue KPI is required for V1.
+- **Subtasks:** privacy-preserving measured technical quality plus **ability to recognize DJMRN services quickly, discover/use at least one genuine demo and understand craft/limitations**, mobile/RTL clarity, original brand recognition and voluntary deeper exploration. Optional Search Console after release and approved inquiry/referral signals where privacy/consent appropriate; avoid paid-traffic/revenue KPI as the core site score.
 - **Dependencies:** B16–B20; real public launch. **Research RQ21:** free privacy-aware analytics, official search console features, third-party script performance and consent.
 - **Gate:** useful measurements without unnecessary surveillance, reversible tracking, real iteration linked to user value.
 
@@ -451,12 +451,12 @@ S9 live smoke + B21 analytics ---> B22 prioritized expansion
 |---|---|---|
 | P0 RESEARCH | B01–B23 initial planning inventory and baseline documentation | Scope mapped; detailed implementation research / final owner decisions not yet completed |
 | P1 TOOL READINESS | B08 preliminary | Already verified Codex/Git; per-task service checks still needed |
-| P2 BRIEF APPROVAL | S1; B01/B02/B03 + locale priorities | Confirm service categories, service→sample map, perfume demo placement, evidence, direct routes/return wireframe and first slice |
-| P3 DESIGN | S2; B04/B05/B06/B09 | Approved Figma mobile/desktop/RTL layouts and component design |
-| P4 ARCH + WORKSPACE | S3; B07/B08 | ADR, build scripts, locale/content contracts and branch |
-| P5 FIRST VERTICAL | S4 first working **service-first portal** slice | Real home → service detail → published case/sample preview or transparently non-live state → route back, mobile/locale and QA; no fake live-demo link |
-| P6 EXPAND | S4–S6; B10–B16/B18 plus **B23 as an e-commerce service-linked sample** | Sample gallery → contained branded perfume store → synthetic checkout/invoice/finance flow; T27–T33, verified locale and motion |
-| P7 QA | S7; B12/B13/B17/B18/B19 | All mandated test matrices and remediation, no critical blockers |
+| P2 BRIEF APPROVAL | S1; B01/B02/B03 + locale priorities + §1C/§5A | Confirm **unique creative thesis, fast vs discovery flows, service→sample map/evidence, original experience promise**, relevant example competitor/UX research and first small slice (no locked sample brand) |
+| P3 DESIGN | S2; B04/B05/B06/B09/B10 concept | **2–3 original art-direction bakeoff** on home-first-fold/service/sample-entry mini-scenes, then owner selection/hybrid + approved desktop/mobile/RTL tokens, interactions, reduced-motion and rights (T34–T37) |
+| P4 ARCH + WORKSPACE | S3; B07/B08; §5A technical research | ADR, direct service/demo route plus lazy sample feasibility spike, build/locale/content scripts and clean branch; technology comparison not chosen for prestige |
+| P5 FIRST VERTICAL | S4 **proof-of-experience** before mass pages | **Distinct, truthful home first fold → real service → approved preview/case (or explicitly not-live) → contextual return**, real links, original composition and focused transition; T35–T39 + keyboard/mobile/locale fallback before multiplication |
+| P6 EXPAND | S4–S6; B10–B16/B18 + selected e-commerce example B23 | Publish tested service galleries and **one deep functional sample** with unique sample brand and optional behind-build explanation; B23 synthetic checkout/invoice/finance, T27–T40, actual chosen locale + optional motion; more shallow demos do not substitute for working proof |
+| P7 QA | S7; B12/B13/B17/B18/B19 + independent creative review | T01–T40 appropriate gates, critic/design originality, fast/deep UX, real demo proof + mobile/RTL/reduced motion, performance/security/SEO; measured remediation not visual-only approval |
 | P8 HOST REVIEW | S8; B20 | Verified account/region/free costs/rollback proposal |
 | P9 RELEASE | S9, explicitly approved B20 deployment | Public TLS/links/locale/SEO and recovery smoke |
 | P10 ITERATE | B21/B22 | Evidence-based value improvements, optional features only as needed |
@@ -621,6 +621,13 @@ For each assigned **P#/S#/B##/RQ##**, record:
 | T15 | Post-release: actual index presence, optional real contact receipt where enabled, uptime/errors and minimal analytics | Monitor after owner-approved release |
 | T32 | Service→relevant sample gallery→case/demo deep link→working sample interactions→return to same service; browser history/refresh, mobile and locale | PASS only when relevant sample is actually published |
 | T33 | Independent per-sample style/JS/state, sample-route isolation, loading budgets, graceful failure, no effects on main shell; adding a second real sample requires no duplicate site | PASS before publishing each demo; second example test when it truly exists |
+| T34 | **Originality/composition critique:** compare site screens to multiple distinct real references and common AI/template tropes; source/rights/provenance + articulate 3–5 original signatures | Owner-reviewed, reasoned original concept; no claim that originality is mathematically proven |
+| T35 | **First-view clarity (internal five-second exercise):** ask a small fresh viewer cohort or independent reviewers to describe services and available next action before extensive explanation | Recorded qualitative confusion and iteration; five seconds is an internal design probe, not universal UX standard |
+| T36 | **Dual-path navigation:** fast visitor finds service and valid sample/contact; deeper evaluator follows Explore→Experience→optional Inspect→return using real routes | Usable on keyboard/touch, mobile/RTL, back/forward and no mandatory tour |
+| T37 | **Art-direction bakeoff:** 2–3 meaningfully distinct original home/service/demo-entry mini-scenes reviewed with owner; mobile/RTL, accessible/feasible budget, license check | No 'three recolors'; explicit owner selects/combines/rejects after documented criticism, no silent design lock |
+| T38 | **Behind the Build credibility:** an actual sample/case discloses owned work, design decisions, useful state/engineering evidence, real test results, honest limitations | No fabricated badges, external sensitive code, invented clients/results or decorative only Inspect mode |
+| T39 | **Purposeful motion/resilience:** signature transition/progressive demo reveals improve context; reduced-motion/no-WebGL/slow link/low-end fallback and screen-reader/focus tests | No scroll hijack/blocked content, no heavy 3D requirement; sample/site loads independently |
+| T40 | **Independent creative quality gate:** senior-critic checklist assesses brand distinctiveness, typographic craft, layout coherence, usefulness, demo depth and failures beyond automated scores | Logged critique, corrections and owner review; no self-certified 'award quality' or UX score claim |
 
 No test is claimed PASS in this roadmap just because its criterion is defined. Save test scripts and reports with code under site directory; update only PROJECT-LOG.md for rolling status.
 
@@ -636,6 +643,9 @@ No test is claimed PASS in this roadmap just because its criterion is defined. S
 | Hero 3D kills mobile LCP or crashes GPU | feature flag, static first-paint, lazy isolated renderer, terminate WebGL on failure |
 | Vendor locks export behind payment | no essential vendor-only runtime, inspect free commercial shipping license before design dependence |
 | Fancy panes hide SEO content or trap keyboard | semantic route is canonical; modals/tabs are progressive UX, links still navigate |
+| Attractive site looks like a generic prompt-built template | §1C authored visual thesis, original typography/assets, 2–3 art-direction comparison, T34/T37/T40, revise before mass pages |
+| Awarded immersive inspiration copied uncritically; design loses usefulness | §5A sources as inspiration not approval/copy permission; fast path T35/T36, keyboard/RTL/no-motion and actual device trials |
+| A visually convincing but nonworking sample displaces proven capability | One deep working scenario, optional Behind the Build with real tests/limitations, T38 and existing T27–T33 |
 | DJMRN global site accidentally styled/routed as the perfume shop | Service B14 + sample discovery B15 control entry; B23 owns demo only; T32 |
 | Planned demo card misrepresented as live, or sample state leaks to another demo | Explicit sample status publishing gate, isolated demo JS/style/state, reset and T33 |
 | Icons/logos imply affiliations or violate trademarks | official external profile URL + individual license/brand guide check, accessible text |
@@ -660,8 +670,11 @@ SOURCE OF TRUTH: README.md + MASTER-ROADMAP.md + approved EXECUTION-PLAN.md
  + latest PROJECT-LOG.md + project AGENTS.md + root PROJECT-RULES.md.
 STAGE: P# / S# / B## / T## and RQ## (only those listed as approved).
 BEFORE WORK: verify branch/upstream, scope, approved owner choices and real asset provenance.
-RESEARCH: check current official docs and free quota for the specific feature. Distinguish fact,
- assumption and recommendation. Compare built-in functionality vs 1-2 alternatives. STOP on UNKNOWN COST.
+RESEARCH (MANDATORY §5A): FOR EVERY substantive B## stage, live-search credible official/academic
+ guidance, strong real sites, current trends, real failures and source licensing. Compare native/simpler
+ vs 1–2 justified alternatives; inspect multiple relevant examples. Original synthesis, no copying.
+ Record source URLs/date, applicability, actual experiments; FACT vs ASSUMPTION vs JUDGMENT.
+ STOP on UNKNOWN COST/rights/security/eligibility or missing mandatory evidence.
 IMPLEMENT: smallest complete vertical, semantic HTML/typed content; browser-safe, locale-safe,
  reduced-motion, mobile-first, predictable dependencies. Never make fake testimonials.
 ACCEPTANCE: run reproducible build plus tests T##, report exact PASS/FAIL and screenshot/log path.
@@ -683,7 +696,7 @@ Use Luna/Medium for contained tasks; ask permission/record why stronger model is
 | RQ01 + RQ02 | Which complete service categories and service-linked samples credibly show our capabilities, and what evidence can we truthfully publish? | owner service brief, rights inventory, portfolio and UX examples, Google Search Essentials |
 | RQ03 | What home/services/work/lab routing and window metaphors best preserve accessibility+SEO? | clickable Figma sitemap, WAI/MDN patterns |
 | RQ04 | Which 8 locales first, true copy creation cost/quality, content schema and SEO? | Google/W3C/Astro docs, 2 locale prototype, translation review |
-| RQ05 + RQ06 | Which of 3 coherent creative directions works for RTL/LTR and touch/keyboard? | Figma+MagicPath free quotas, tested desktop/mobile prototype |
+| RQ05 + RQ06 | Which 2–3 **original full art directions** create the most unmistakably DJMRN visual thesis while preserving fast service discovery and mobile/RTL? | §1C A/B/C visual research, award/UX/official source comparisons per §5A, T34–T37, owner critique before Figma approval |
 | RQ07 | HTML vs Astro vs Next.js with approved page count, 8 locales and optional demos? | two tiny local build spikes only if required, CI feasibility |
 | RQ09 | Which exact icons/fonts/images/video/3D assets are genuinely freely usable commercially? | licenses/trademark rights, asset source and screenshot tests |
 | RQ10 + RQ11 | CSS/Motion vs Three.js vs Spline/Rive, where can effects ship truly $0 and pass mobile GPU fallback? | local performance proof, official provider pricing/licensing |
