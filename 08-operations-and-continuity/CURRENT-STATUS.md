@@ -1,3 +1,15 @@
+## 2026-11-14 — DJMRN-FREELANCE-WEBSITE-001 — Owner-authorized project registered, research-first (CURRENT: SCOPING)
+
+**Intent (USER-APPROVED documentation only):** Establish a professional promotional portfolio for independent remote freelance / AI-assisted coding ("vibe coding") services. First independently research modern standards, create a GitHub project definition, and record future desktop development stages after owner approval of standards and roadmap.
+
+**Completed / DIRECTLY OBSERVED:** Official-source research covering responsive/mobile-first design, WCAG 2.2 AA, 2025 OWASP Top 10 / ASVS 5.0, Core Web Vitals, SEO, multilingual RTL/LTR, purposeful animation, cross-browser QA, future authentication separation and free/commercial hosting terms. Created and re-fetched [project definition and proposed acceptance gates](../09-self-marketing-website/README.md) on GitHub main (creation commit `77a3a9555b8d4317dedeaa99dfee6199137c48ee`, blob `298bba1221800f4b12af340f0271a0c0969db316`). It is a scoped document, not a second current-status register or a finalized design/roadmap.
+
+**Architecture JUDGMENT, NOT APPROVED:** public marketing site may not need visitor login at all; static/mobile-first first, Astro among options, dynamic backend/managed authentication only for a demonstrated requirement. Hosting eligibility and costs for use from Iran remain UNKNOWN; GitHub Pages and Vercel Hobby have commercial-use constraints, so neither is assumed approved. User must decide languages, visual direction, portfolio evidence, contact flow, needed authenticated editing and page scope before roadmap.
+
+**Boundary:** No site code, Windows install, local web server, GitHub Pages/hosting deployment, account/login, security setting, API cost, domain purchase, publication or customer-data transfer performed. Next: discuss and agree on standards and architecture; then owner-authorized detailed roadmap and smallest working website slice. For each subsequent approved stage, append concise evidence/commit/test/failure/next-step to this existing CURRENT file; code/tests stay inside the linked project folder.
+
+---
+
 ## 2026-11-12 — CORRECTION: research-window-only intermediary shortlist (supersedes erroneous 90-row merge)
 
 The user explicitly corrected scope: **only sites/companies identified in this conversation's Nov 12 intermediary research**, not historical 1313-site catalog, earlier 42-site Plan A/B, or old account queues. The mistaken 90-row table is superseded and removed from CURRENT; historical artifacts were not modified. A separate [22-item window-only list](../01-platforms/iran-international-intermediaries-window-only-2026-11-12.md) is the sole scoped shortlist. Neither registration nor contact nor payment was authorized/performed. Eligibility and fees remain subject to confirmation.
