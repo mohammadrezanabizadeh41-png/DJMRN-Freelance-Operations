@@ -39,3 +39,22 @@ DIRECTLY_OBSERVED: Wrote four canonical project-folder artifacts and re-fetched 
 - `README.md` updated for in-folder links and authority override: commit `2af72b5e7e2049c37d3abc0a927af8a0418626a0`; readback PASS.
 LIVE_WINDOWS additional non-mutating network check: WinINET proxy ENABLED (configuration was **not changed**); DNS A for github.com resolved, but earlier Git CLI HTTPS:443 connect still failed. This indicates DNS resolution is available, not that GitHub HTTPS is reachable, nor a proven VPN root cause. No firewall, proxy, execution policy, account or browser permission changed. No Codex model code execution was initiated.
 RESULT: **P0 DONE** (documentation and continuity only). **P1 PARTIAL/BLOCKED** (Windows-to-GitHub network). **P2 design not approved**. No running/hosted website and no local checkout.
+
+
+## 2026-11-14 — P1 VERIFIED / Official Codex Desktop initialized, Luna Medium selected
+
+**OWNER AUTHORIZATION:** choose a suitable included Codex model, open the desktop app, define a professional site project anchored to this canonical repo, prepare an evidence-backed roadmap and work stage-by-stage. The owner's approval is for subscription-covered development and project setup, NOT paid API/billing/extra credits, global system security changes, unreviewed production publication or merge.
+
+**DIRECT WINDOWS EVIDENCE:**
+- ChatGPT Desktop Codex window opened, model picker read using UI Automation. Available in picker: GPT-6.1 Sol, GPT-6 Astra, GPT-6.1 Terra, GPT-6 Sol, GPT-6 Luna plus GPT-5.6 family.
+- Existing global config was `model="gpt-6.1-terra"`, `model_reasoning_effort="ultra"`. Selected **GPT-6 Luna / Medium**, read back desktop UI **GPT-6 Luna Medium** and `%USERPROFILE%\.codex\config.toml` `model="gpt-6-luna"` + `model_reasoning_effort="medium"`; no high-reasoning model left as default.
+- Desktop account Usage menu displayed **Plus, five-hour 100% left, weekly 100% left, 0 purchased credits** at snapshot. These are percentages, not guaranteed message counts; usage after this observation can change. Fast mode not activated.
+- Git failed previously on direct `github.com:443`; a read-only `ls-remote` test with the existing WinINET proxy applied **only to that Git command** succeeded and identified remote HEAD `72a027a5362fa0c78437b96d3695374a120035e7`. No security policy, VPN setting, proxy global setting, firewall, password or key altered.
+- Same command-scoped route used to shallow sparse-clone the EXISTING GitHub repository to `C:\Users\Mrn7206\Documents\Codex\DJMRN-Freelance-Operations`. Folder `09-self-marketing-website/` and five project docs plus root repo governance files present; `git status` clean. Created **local** branch `codex/freelance-website-foundation`. No push, merge or public deployment.
+- Using actual ChatGPT Desktop Codex GUI, created project **DJMRN Freelance Website** and assigned source folder to the checked-out existing repository; then independently observed project name in sidebar/active composer with model **GPT-6 Luna Medium**.
+- Local `.git/hooks` had standard `.sample` files only; no `.vscode`, `.codex` or `.agents` autorun directory in the sparse checkout at read-only inspection.
+- Updated [EXECUTION-PLAN.md](EXECUTION-PLAN.md) with per-task model policy and P1 verified status; GitHub update commit `4f2b71dc5aeb1e326d225745c5a90913390aa089`, readback PASS.
+
+**MODEL GOVERNANCE JUDGMENT:** Luna / Medium primary for small scoped implementation+tests. Switch a specific complex design/architecture/security task to GPT-6.1 Sol / Medium after need is demonstrated; no Ultra/Fast/credits. OpenAI docs reviewed: https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex ; https://developers.openai.com/api/docs/guides/model-selection . Historical API prices are not subscription quota units.
+
+**CURRENT ACCEPTANCE:** P0 DONE; P1 DONE for model/UI/command-scope Git connectivity/local checkout; P2 brand/content/design decisions still OPEN, P3 design and P5 website code NOT STARTED. Next: sync this GitHub log & plan into local branch safely; send one bounded read-only requirements/technical feasibility check to Codex in its actual project, inspect and record return evidence. No production actions.
