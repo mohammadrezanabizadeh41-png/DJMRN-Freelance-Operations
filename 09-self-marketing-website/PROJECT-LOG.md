@@ -2,7 +2,7 @@
 
 **Authority:** this is the ONE running site-specific progress and handoff record, per user instruction 2026-11-14. Do not create parallel website progress trackers outside `09-self-marketing-website`. Git commits are the evidence for actual code.  
 **Canonical source:** [Project brief](README.md), [MASTER-ROADMAP](MASTER-ROADMAP.md) (architecture/branches), [research and tools](RESEARCH-AND-TOOLS.md), [execution plan](EXECUTION-PLAN.md), [agent instructions](AGENTS.md).  
-**Current milestone (2026-11-14):** P0 and P1 VERIFIED; read-only Codex kickoff VERIFIED; comprehensive B01–B22 MASTER ROADMAP created and verified; P2 owner prioritization/brief OPEN; no website implementation or deployment.  
+**Current milestone (2026-11-14):** P0/P1 VERIFIED; complete roadmap and read-only Codex kickoff VERIFIED; **P2 / S1 / B01 / RQ01 READY_TO_START**, awaiting user's next instruction; B02/B03 and other content/design choices pending; no website implementation or deployment.  
 **Default future update:** append a dated evidence-based checkpoint with stage, approved scope, actor, commands/files, test evidence/result, Git commit/diff and next. Status labels: PROPOSED, APPROVED, IN_PROGRESS, TESTED, VERIFIED_REAL, BLOCKED, DONE.
 
 ## 2026-11-14 — OWNER-DIRECTED CONTINUITY RULE
@@ -99,3 +99,19 @@ RESULT: **P0 DONE** (documentation and continuity only). **P1 PARTIAL/BLOCKED** 
 **Canonical reference:** Added [MASTER-ROADMAP.md](MASTER-ROADMAP.md) section `10B Visitor-facing AI and automation showroom`, D0–D3, contracts, fallback, no visitor access to owner's Gmail/GitHub/Windows/Codex/MCP, scoped research `RQ23`, acceptance `T22–T26`, staged approvals. Commit `557d19291bae25b3adfc391cd2b96247f2e3c9f1`, fetched readback verified.
 **Safety/Free-first:** no unapproved paid fallback, no exposure of desktop tools/secrets, no real customer PII to free model without clear provider data policy and consent, hard quotas per user/site, deterministic human handoff when model unavailable, no action/quote/order claims without real I/O. No login, payment, server, new plugin, production service, model key or cloud billing changed.
 **Status:** Architecture future-readiness **PLANNED / DEFERRED**; site code **NOT BUILT**. Next owner-led P2 roadmap stage remains unchanged; at the actual AI/demo implementation phase research and choose exact services/models from official current pricing and eligibility.
+
+
+## 2026-11-14 — Owner confirms the roadmap as continuing project operating plan; kickoff readiness check
+
+**USER DIRECTIVE:** From now on the website effort follows the existing [MASTER-ROADMAP.md](MASTER-ROADMAP.md) as primary B01–B22 plan. Scope, research, implementation, independently observed browser/source/test evaluations and fixes proceed one bounded milestone at a time, with a single stage checkpoint in this log. User asks to verify launch readiness, **not yet to run the first substantive B01 stage or publish/build pages**.
+
+**DIRECTLY_VERIFIED (Desktop Commander on DJMRN-LAPTOP):**
+- Device online; actual local repo `C:\Users\Mrn7206\Documents\Codex\DJMRN-Freelance-Operations`; working branch `codex/freelance-website-foundation`; HEAD at initial check `3bb055f7bc491e74174671f71fbc095de7fc0f7d`; `git status --short` empty; site `MASTER-ROADMAP.md` and `PROJECT-LOG.md` present.
+- `codex.cmd --version` → `codex-cli 0.166.0`; `codex.cmd login status` → `Logged in using ChatGPT`; model `gpt-6-luna`, reasoning effort `medium`; Node `v24.22.1`, Git `2.55.0.windows.5`; ChatGPT/Codex Desktop window present.
+- GitHub connector re-fetched all canonical project docs and both live Notion operating/tool-governance references. One complete 22-branch master plan with extension gates 10A/10B and RQ23/T22–T26; one execution-plan P0–P10 macro gate file; one site PROJECT-LOG for changing status. No competing routine tracker made.
+- Corrected stale README historical Git connectivity/next-stage notes. Added executable **START HERE** stage protocol to [EXECUTION-PLAN.md](EXECUTION-PLAN.md): recover→scope→time-of-need official research→owner approval→small Codex vertical→independent actual tests→one Git checkpoint→advance only if gate passed. EXECUTION-PLAN update commit `fd16b517d75c5ac74a2dad1bcf3ae044f162bb0c`; README update commit `4397dad42f811443f5d883b045d9eba619acb845`, both re-fetched and verified.
+- No site pages, build/lint/browser acceptance, public hosting, provider activation, production merge or actual B01 research yet. Previous live Usage percentage is a historical snapshot; **today's exact allowance not rechecked**, and no paid credit requested.
+
+**OPERATIONAL DECISION:** **READY_TO_START P2 / S1 / B01 / RQ01**: identify real target clients, service priorities, positioning, truthful proof, measurable success criteria, and owner decision points. After B01 approval, B02 asset/evidence review and B03 sitemap/route UX; B04 locale strategy before code framework; B05 visual design before effects. Later subbranch discovery/MCP comparisons happen at time of need, not pre-authorized globally. Owners' unpublished contacts, brand and actual demos remain an unresolved scoped input, not a tool readiness blocker.
+
+**NEXT:** Await user's explicit go-ahead to run the first stage research and brief; then delegate narrowly with Git source authority and actual acceptance evidence. No customer-facing site or infrastructure exists yet.
