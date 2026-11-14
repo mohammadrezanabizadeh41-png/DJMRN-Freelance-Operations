@@ -1,7 +1,7 @@
 # DJMRN-FREELANCE-WEBSITE-001 — MASTER ROADMAP: International Multilingual Creative Engineering Portfolio
 
 **Document type:** CANONICAL design/build ROADMAP and research backlog (not the project activity log).  
-**Version:** 1.1 — 2026-11-14 — reconciled requirements and architecture, **READY FOR OWNER FINAL REVIEW**; NOT a blanket approval to build, activate providers or deploy.  
+**Version:** 1.2 — 2026-11-14 — **creative critique + mandatory stage-specific research integrated**, pending owner choice of final art direction and P2 kickoff. No blanket authorization to implement, install, activate providers, merge or deploy.  
 **Owner's request (latest clarified hierarchy 2026-11-14):** a creative **SERVICE-FIRST freelancer/Vibe Coding website** with many explained service categories, each able to display one or more separately branded, nested and inspectable sample applications. The **Perfume Store (illustrative candidate)** with fictional cart, fake payment and accounting is **a linked sample under the E-commerce Website Development service**, NOT DJMRN's main site checkout, and involves no real money or financial obligations. Display technical capability with genuinely working synthetic-data workflows or accurately labeled simulations of freelance / AI-assisted coding work with modular services, convincing actual demonstrations, advanced visual motion/3D where useful, ~8+ languages, social-network integration, excellent responsive UX, SEO, security, performance and future expansion; research each branch before selecting its implementation.  
 **Source authority:** `mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/09-self-marketing-website/`.  
 **Execution authority:** site source / Git commits; [AGENTS.md](AGENTS.md) governs Codex; [EXECUTION-PLAN.md](EXECUTION-PLAN.md) holds P0–P10 macro gates; [PROJECT-LOG.md](PROJECT-LOG.md) is the **ONE** changing stage/approval/test history. This ROADMAP specifies structure, dependencies and criteria, not duplicate daily progress.  
@@ -18,7 +18,7 @@
 
 Nonnegotiable constraints: zero new paid usage until separately and explicitly approved; no production publication/domain/payments or sensitive account/security changes without impact + approval; content and portfolio claims verifiable; no fake testimonials or fake agency identity; no reliance on browser scraping or gated tools to render public pages; mobile/desktop must work without mandatory WebGL; no visitor auth, database or CRM until real I/O justifies them; only one canonical GitHub source. The Windows laptop has 8 GB RAM: only one active heavy agent/graphics editor at a time. GPT-6 Luna / Medium in official Codex is current economical implementation default; GPT-6.1 Sol / Medium is task-level escalation for genuinely complex reasoning; no default Ultra/paid credits. **Tool policy:** existing tool → verified free alternative → scoped trial; no app accumulation.
 
-**Quality is multidimensional**: user trust + information findability + original design + **working and honestly described interactive demonstrations** + discoverable capabilities + accessible international content + tested code + measurable performance + operational reversibility. Contacts are optional evidence of interest, not the only success metric. A screenshot/mockup or a 100 Lighthouse score alone is not DONE.
+**Quality is multidimensional**: one coherent creative thesis + unmistakably original art direction + meaningful navigation + user trust + information findability + original design + **working and honestly described interactive demonstrations** + discoverable capabilities + accessible international content + tested code + measurable performance + operational reversibility. Contacts are optional evidence of interest, not the only success metric. A screenshot/mockup or a 100 Lighthouse score alone is not DONE.
 
 ### Core user journeys (each tested end to end)
 - **J1 new client:** Search/social URL → localized landing → discover relevant service → evidence/case → understanding deliverable/process → contact without account.
@@ -162,6 +162,83 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 **Approval phases stay separate:** (a) owner may approve the overall roadmap and kickoff **P2/B01**; (b) later accept the actual service taxonomy, concept content, visual designs and stack at P2–P4; (c) authorize specific implementation increments; (d) approve any cost, sensitive provider and production deployment separately.
 
 **P2 must produce before P3:** confirm which fictional e-commerce sample niche/brand (Perfume Store is ONE POSSIBLE IDEA, not a mandatory choice); capability/service taxonomy with real evidence status, service → sample map, sample status **planned vs prototype vs tested vs published**, example perfume-store navigation + a second different service/sample concept, service and demo direct-link/return wireframes, main versus example visual style direction, launch locale priorities, initial working vertical and independent acceptance scope. *An unbuilt sample must never be advertised as live.*
+
+---
+
+
+## 1C. OWNER-REQUESTED CREATIVE CRITIQUE INTEGRATION — crafted, unmistakably original service-and-demo experience (2026-11-14)
+
+**Status:** APPROVED to **incorporate all recommendations into the ROADMAP for comparison and staged research**; **specific visual style, final creative concept, tools, layout and code remain PROPOSAL until the owner's design-stage choice**. These recommendations refine B01/B03/B05/B06/B10/B11/B14/B15/B18/B19 and P2/P3/P5/P6, not a new site/repository/agent architecture or an extra mandatory microservice. The owner requests a portfolio whose thoughtful composition, craft, real engineering and original execution stand apart from quickly generated generic prompt-to-website templates.
+
+### A. Critique of the current plan: strengths and creative gaps
+
+| Dimension | Current strength | Actual failure risk / necessary corrective gate |
+|---|---|---|
+| Architecture | 23 branches, service-first shell, per-service sample galleries and nested demo apps | Too much structure without a unified **creative thesis**, uneven integration, scattered visual identity |
+| Capability coverage | Broad freelancer/Web/Vibe Coding services, 3D, creative, AI, automation, finance examples | Too many superficial demos; prioritize **one deep working proof** before adding many shallow examples |
+| Art direction | B05 tokens, fonts, dark/light, variants and B10/B11 motion/3D | A palette + gradient + glow + stock-looking hero + repetitive bento cards is not a distinctive brand; requires **custom art direction and visual grammar** |
+| Visitor experience | Semantic routes, service/gallery/demo navigation, accessible return | Route can be correct yet feel ordinary; need **distinct exploration, signature moment and useful discovery**, without making users decode an OS-themed site |
+| Engineering credibility | Real demo QA, synthetic financial state/tests, B19 checks | Impressive screenshots can hide broken interactions; need **inspectable proof of craft**, actual failure handling, clear source/QA provenance |
+| Accessibility/performance | WCAG 2.2 AA target, language + fallback, Core Web Vitals | Excess WebGL/scroll hijack and loader theatrics may alienate visitors, especially mobile/RTL or reduced motion |
+| Creative production | Design iterations possible in P3 | Code 20 pages before validating distinctiveness → expensive rework; **art-direction bakeoff and one proof-of-experience vertical** before template multiplication |
+
+**Anti-template diagnostic / RED FLAGS:** indistinct "We create digital experiences" prose; unearned huge claims/testimonials; identical rectangle/card grids everywhere; generic gradients/glassmorphism/neon, arbitrary animated particles, obligatory 3D planet/cube, unlicensed stock artwork, stock SaaS dashboard appearance, a single massive scroll-only presentation, and novelty UI that hides simple service navigation. These motifs are **not categorically banned**—they fail when unmotivated, copied, or indistinguishable from defaults. Every decoration or interactive choice needs an identifiable brand/visitor/story purpose.
+
+**Authenticity caveat:** no one can scientifically prove a site "cannot be produced with four prompts." The defensible difference is a coherent creative concept, original assets/copy, purposeful interaction, measured execution, resilient UX and honest functional evidence.
+
+### B. Proposed overarching experience concept: "DJMRN / Living Digital Workshop"
+
+**Creative PROPOSAL, not selected branding:** A **living digital workshop / creative engineering atelier** where the visitor can (1) **Explore** the real service catalog, (2) **Experience** purpose-built sample applications, (3) optionally **Inspect** the actual design/engineering choices and QA evidence. This is a semantic/visual metaphor for ownership, craftsmanship and multiple skills, **not** a requirement to mimic an operating system, window manager, IDE or 3D game.
+
+Visitor paths must be deliberately dual-mode:
+- **Fast path / 5-second clarity:** from any landing, promptly understand *who DJMRN is, which services are offered, one convincing example, and where to continue*; visible native service links, meaningful copy and restrained first paint. The "five-second" exercise is an **internal qualitative usability heuristic**, not a published universal standard or guaranteed numerical UX score.
+- **Discovery path / deeper exploration:** intentionally composed service portals, adaptive preview motion, controlled navigation transitions, sample gallery/interactive demo and optional "behind the build" view; never mandatory before basic information.
+- **Expert proof path:** "Result → Try it → Behind the Build": project constraints, what the creator actually authored, architecture sketch, intentional visual/interaction decisions, actual behavior/invariants, errors and tests with dated evidence, limitations and permission-aware code link (when appropriate); avoid false badges, fake benchmark figures or exposing secrets.
+- **Return/context:** transitions preserve context and accessible "Back to [real originating service]" affordance. No forced new tab, dead-end immersive exhibit, compulsory tutorial, audio autoplay, cursor hijacking or loss of keyboard focus.
+
+**Proposed distinctive details to research, prototype and choose only if they improve value:** a custom typographic logotype or monogram, precise editorial grid and asymmetry with responsive logic; one original visual motif appearing across selected service cards and case-study graphics; one remarkable transition that explains entering a sample rather than just decorates it; dynamic but performance-bounded previews using **real demo media**; credible engineering/art-direction annotations; a "compare how two implementations solve a problem" view; a bounded one-click sample walkthrough; and subtle bespoke hover/focus states. More effects are not automatically better.
+
+**"Inspect / Behind the Build" is optional per sample and NOT a separate app or obligatory code dump.** Its minimum is a readable section on the sample/case page with e.g. a single before/after, state-machine/interaction explanation, actual screen/mobile testing and known limitations. A more interactive visualization is justified only if it materially improves understanding.
+
+### C. THREE researchable visual directions (A/B/C, do not pick yet)
+
+| Direction | Character and opportunity | Failure risks | Default proposal to compare |
+|---|---|---|---|
+| **A. Premium Creative Engineering Atelier** | Bespoke editorial typography, white/negative space or balanced dark palette, precise hierarchy, original graphics, distinctive responsive rhythm; clarity and credibility | Can become generic minimal agency website if under-designed; needs unique storytelling, typographic detail and original assets | **Leading candidate** |
+| **B. Curated Interactive Gallery** | Purposeful exploration of project artifacts, controlled spatial transitions, compelling samples with differentiated sample branding, high visual surprise | Navigation/SEO/motion performance and mobile cost; often tempts mandatory WebGL | **Borrow selectively for sample transitions/gallery** |
+| **C. Service-window / Creative Workspace Metaphor** | User's conceptual "windows" can provide expressive service grouping, interactive inspect/expand/compare pattern | OS/desktop imitation, complex state, poor touch/keyboard, repetitive modal dialogs | **Use only as useful interaction metaphor, not a forced whole-site OS** |
+
+**Working hypothesis (DESIGN PROPOSAL):** blend **A + restrained B** with **C only where it helps service windows**, retaining one strong global DJMRN identity and allowing independently branded demos. The decision belongs to **P3 owner visual approval**, after inspecting deliberately different original prototypes. No external award entry, screenshot, visual asset or template may be replicated, traced or misrepresented as DJMRN's authored invention. Inspiration is a research input, not a design authority.
+
+### D. Bespoke professional visual & motion rules
+
+1. **Creative thesis before tokens:** define audience impression, unique conceptual metaphor, 3–5 recognizable design signatures, service-page information priority, originality justification and what to deliberately NOT do; only then choose fonts/colors/shapes.
+2. **One custom visual signature:** a coherent high-impact feature (e.g. typographic/graphic service-to-demo handoff); not several competing heavy WebGL pieces. Prototype as static/CSS first and escalate to Motion/WebGL only after measuring value.
+3. **Different but connected worlds:** DJMRN global site retains primary navigation/branding; each sample demo may create its own fictional brand, photography/3D style, cart/workflow interaction and layout. The return control survives every sample and breakpoints. Share only stable access/a11y mechanisms, not a global sample-only design system.
+4. **Motion has semantics:** entrance reveals hierarchy, feedback communicates state, transition preserves context, interactive affordance supports discovery. Avoid lengthy blocking loaders, scroll-jacking, looping motion without purpose and effects that conceal text. Honor reduced motion; keyboard/touch and no-JS core content always work.
+5. **Visual originality review:** explicitly compare proposed screens with several distinct public precedents and common AI-generated template tropes; name what is borrowed at *principle* level and what is newly authored. No unlicensed reuse/copy. Treat any external gallery badges/awards as **curated examples**, not user-tested proof or license grants.
+6. **Portfolio should be credible before sprawling:** sample breadth demonstrates categories, but one **deep, real end-to-end demo**, preferably with graceful failure paths and public process evidence, makes stronger proof than ten attractive nonworking cards.
+7. **Mobile/RTL are first-class art direction:** editorial typography, motion timing, navigation/overscroll and any sample-specific controls must work on lower-power devices and actual supported scripts, not be an English desktop-only mock.
+
+### E. Early design methodology — do NOT mass-build from the first mockup
+
+- **P2 / B01–B03:** Create concise audience + service-proof + unique experience promise; invent 2–3 original narrative directions, map fast and discovery journeys, define sample statuses and which first demo gives maximum proof.
+- **P3 / B05–B06 (ART-DIRECTION BAKEOFF):** produce **2–3 genuinely distinct** concept studies, not three recolors of one template. Each should contain coordinated mini-scenes: **a first-screen homepage / one service explanation / one sample preview + its entry transition**. Compare static/desktop/mobile and initial RTL/LTR, respecting production licenses and Free-first. Candidate A/B/C above are seed hypotheses; owner may combine or reject all.
+- **Evaluate before expanding:** critique layout/typography/composition/brand recognizability, 5-second comprehensibility, demo discoverability, contrast/focus, mobile, RTL, reduced motion and engineering feasibility. Use a small internal heuristic matrix, including **novelty/consistency, clarity/usability, credible proof, implementability/performance, asset/license risk and maintainability**; weights owner-approved at P3. Do **not** claim scored prototype tests are a representative population survey.
+- **Proof-of-experience slice (P3 prototype → P5 real implementation):** one beautiful but real interaction covering **home → selected service → sample/case preview → distinct sample entry (or honestly marked not-yet-built) → safe return**; preserve direct links and semantic headings. **No mass production of 20+ pages until this slice demonstrates both originality and functioning navigation.**
+- **P5/P6:** reuse audited design grammar to scale service windows; then implement one real sample's unique brand, functional scenario and optional Behind the Build case, with tests rather than mock-only claims. Expand only after meaningful evidence.
+- **P7 critique pass:** an **independent design/art-direction reviewer perspective** and end-user usability critique complement automated type/lint/a11y/perf; compare across international/mobile/RTL, no artificial "perfect Lighthouse" claim.
+
+### F. Stage-specific creative research references — observed 2026-11-14, refresh during each actual stage
+
+**Actual research must be conducted in the stage where the design/implementation decision is needed** (§5A protocol); following are **starting reference roles, NOT permanent rankings or approved copyable designs**:
+
+- **Awards and proven published examples (INSPIRATION, NOT UX proof):** Awwwards curated site/case portfolios (https://www.awwwards.com/), FWA (https://thefwa.com/), CSS Design Awards (https://www.cssdesignawards.com/). Relevant published 2026 examples: **Webdrift** (3D hero + alternative 1-bit mode; CSSDA 2026-10-27, https://www.cssdesignawards.com/sites/webdrift/50418/); **Maxim Kich** (CLI-like playful experimental personal site; 2026-01-07, https://www.cssdesignawards.com/sites/maxim-kich/48682/); **Hello, Designers** (scroll narrative + playable journey; 2026-10-21, https://www.cssdesignawards.com/sites/hello-designers/50398/). Analyze *interaction purpose and tradeoffs*; never reproduce assets/composition/code or assume winners perform well on slow phones.
+- **Evidence-based UX (GUIDANCE):** NN/g aesthetic-usability effect, reviewed 2026-09-01 https://www.nngroup.com/articles/aesthetic-usability-effect/ — attractive design can mask poor usability; NN/g pattern guidance https://www.nngroup.com/articles/design-pattern-guidelines/.
+- **Standards and browser behavior (NORMATIVE/ENGINEERING):** W3C WCAG 2.2 https://www.w3.org/TR/wcag/ and reduced-motion technique https://www.w3.org/WAI/WCAG22/Techniques/css/C39 ; Google crawlable links https://developers.google.com/search/docs/crawling-indexing/links-crawlable ; official Core Web Vitals https://web.dev/articles/vitals ; MDN view transitions and fallback https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API/Using .
+- **Trend overviews (TIME-SENSITIVE OPINION, not evidence of performance):** IONOS 2026 web design trends (https://www.ionos.co.uk/digitalguide/websites/web-design/webdesign-trends/) mention expressive typography, immersive interactivity, accessibility and performance. Verify actual date and relevance, treat as candidates to accept or reject, not automatic style mandates.
+
+**No screenshots, score, brand logos or third-party creative assets are copied into the repo by this research; page URL and summarized evaluation are the proper evidence artifacts.**
 
 ---
 
