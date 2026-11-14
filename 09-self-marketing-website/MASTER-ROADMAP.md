@@ -551,6 +551,55 @@ All quotas/pricing below are source-backed *snapshots* as of Nov 2026; actual ac
 
 **B23 scope note:** B23 is a nested E-commerce service/sample implementation, not top-level website commerce. T27–T31 are the additional planned demonstration QA checks; no real payment, financial obligation, bank credentials or customer records are authorized. RQ24 research runs at the actual B23 milestone, not now.
 
+
+## 5A. MANDATORY research-before-design/build protocol for EVERY substantive B##/RQ## stage (OWNER RULE, 2026-11-14)
+
+**Binding sequence for all modules (including site copy/positioning, visual design, typography, layout, navigation, sample apps, animation, 3D, backend, AI, SEO, hosting, tests and future features):**
+**Define the real problem → Search the web for current credible evidence and strong comparable real websites/products → inspect successful and failed patterns → distinguish trends vs standards → compare practical alternatives → define an original fit-for-DJMRN hybrid → check constraints/rights/cost/security → prototype the smallest candidate → independently test with actual I/O → owner gate → build/reuse → measure and document.**
+
+**Mandatory research at time of implementation**, not a single up-front discovery backlog or automatic recurring crawl. Each *substantive* branch task must check live sources and save concise findings in the one PROJECT-LOG checkpoint. For minor within-stage fixes, reuse a **recent, task-relevant** research packet when it remains applicable and note reuse; do not run pointless redundant searches for every CSS character change. No blind tool/provider/model choice; no implementation claim based only on generated AI output. If required authoritative source/eligibility cannot be verified, mark **UNVERIFIED**, do not invent a result, and block that dependent consequential decision (pursue a simpler safe local alternative instead).
+
+### Required evidence lenses, proportional to each task
+
+1. **Official/canonical guidance (mandatory for applicable technology/security/cost):** W3C/WHATWG, MDN, Google/web.dev, framework package/vendor official docs, license + terms + pricing/quota, browser support and regional permissions. Record version/date/URL and whether information governs actual functionality.
+2. **Best-in-class functioning real examples (mandatory for product/UX/art decisions):** browse several credible live public portfolios, award showcases, established studios and service/product sites; inspect mobile & desktop layouts, interaction details, speed, keyboard/navigation, language use, source claims and provenance where inspectable. **Award status is discovery evidence, NOT proof of UX, conversion, license, speed or relevance**.
+3. **Design/UX research (mandatory for meaningful user-flow choice):** use credible usability literature and tested interaction patterns e.g. NN/g, W3C/WAI, Baymard for relevant ecommerce patterns and peer-reviewed work if materially relevant. Note study scope, date and limits; no universal claims without evidence.
+4. **Contemporary trends (review, not mandate):** search current editorial reports, curated sites, communities and released implementations for possible typography, editorial composition, spatial/3D, motion, microinteraction or content presentation. Identify both novelty and saturation/fatigue. Reject trends that make DJMRN generic, inaccessible, slow, expensive or irrelevant.
+5. **Implementation and failure evidence:** official API/docs + real source/case writeups, maintained OSS repo/release/issue/CI evidence, security advisories and failure modes; community/Reddit may surface pain points but is not authoritative for price, legality or safety.
+6. **Owner-specific facts and actual tests:** real screenshots/assets/rights and on-device behavior, observed Codex/Git, user tasks, mobile/RTL constraints and tracked QA. A simulated or award-winning screenshot is not a usable production implementation test.
+
+### Minimal per-stage research packet (in existing PROJECT-LOG, not new database)
+
+For each assigned **P#/S#/B##/RQ##**, record:
+- **User problem + constraints:** deliverable, related service/sample, owner/audience intent, genuine input/data, required language/device, rights/privacy, hard $0 boundary.
+- **Source review:** typically **≥3 independently selected concrete relevant public examples or design precedents** for creative/UX work **when available**, plus **≥1 applicable primary official reference** for standards/technology; research/professional guidance where applicable. These are **planning heuristics**, not a requirement to fabricate a list or browse unrelated sources. Record title/URL/date/what works/what fails, and why applicable. An unavailable category is documented as GAP/UNVERIFIED.
+- **Alternatives:** simplest native/deterministic implementation first; usually compare **2–3 materially different design approaches** or a small technical shortlist (including no-new-tool option). State functionality, accessibility, mobile/RTL, performance, security, maintenance, reversibility, license, $0 eligibility and risks.
+- **Original synthesis / non-copy rule:** explain which *principles* are learnt, how an original DJMRN visual language or purposeful hybrid differs from precedents, and what template tropes were deliberately avoided. **No unauthorized copying of layouts, code, artwork, text, trademarks, photos, interactions or branded identity.** Inspirations may be cited by URL without reuse.
+- **Decision evidence:** small real prototype/test with annotated observed output, edge cases, low-end/mobile/keyboard/RTL where applicable, failure/rollback, and budget. Identify FACT vs ASSUMPTION vs DESIGN JUDGMENT and owner sign-off required. If premium/cloud option has unknown costs or overages, **UNKNOWN/DENY**.
+- **Compact artifact:** retain actual approved code/tests/frames in their designated authority (GitHub; Figma if user-approved); store only URLs/source evidence, comparison, decisions, test results and handoff in the **ONE PROJECT-LOG**. Do not create a parallel research registry, duplicate status tracker or speculative service catalog.
+
+### Research-by-stage matrix and practical accept/reject questions
+
+| Gate / owner | Live research focus (before that stage's implementation) | Evidence needed before approval |
+|---|---|---|
+| **B01/B02; P2** | Best proven freelancer/service portfolios, truthful cases, differentiated positioning, service discovery, user personas, reliable samples and attribution | Genuine services + 2–3 contrasting information/storytelling approaches; proposed uniqueness promise + rights inventory |
+| **B03/B14/B15; P2/P5** | Native accessible navigation, award-winning discovery ideas, UX evidence for category/service/sample galleries, direct URL vs modal and return journeys | Working clickable home→service→gallery→demo/return prototype, route/SEO/keyboards, no phantom sample |
+| **B04; P2/P3/P7** | Internationalization, linguistic typography, RTL/LTR, hreflang, locale routing/content coverage, real exemplar sites | Two approved locale prototypes first; tested navigation/overflow and reviewed translations before publishing more |
+| **B05/B09; P3** | Current editorial/typography/branding trends, visual precedents including awards/studios, fonts/assets licenses, originality risks | A/B/C original art-direction concepts with thesis/moodboard provenance, first fold/service/demo mini-scenes, feasible fonts/assets |
+| **B06/B10; P3/P5** | Research-backed interaction patterns, hover/touch/keyboard, purposeful motion, native View Transitions/CSS vs JS, reduced motion | Interaction/motion rationale, prototype on real devices, fallback, no scroll hijack |
+| **B07/B08; P4** | Official current framework docs/release, static content + isolated demo app feasibility, maintainability, versions/licenses/CI/free resources | Small stack ADR with measured build/deep links and no speculative full SPA/microservices |
+| **B11/B12/B13/B18; P3–P7** | Three/WebGL and motion alternatives, image compression, responsible immersive patterns, WCAG, SEO, CWV | Before/after measurable fallback/keyboard/mobile/RTL/CWV; one high-impact effect if justified |
+| **B16/B17; P5–P7** | Verified contact patterns, optional feedback input, privacy/anti-spam/moderation, security advisories, rights | Only truthful receiving path; no mock claim or exposed private messages; no unapproved secrets/provider |
+| **B19; every gate/P7** | Test patterns, Playwright/axe/Lighthouse docs, testability of original design, visually differentiated QA, sample isolation | Reproducible PASS/FAIL, actual screenshots/diff and fixes, independent critic pass; real I/O |
+| **B20/B21; P8–P10** | Current official $0 tiers, commercial and regional eligibility, TLS/DNS/SEO, deployment rollback, privacy analytics | Verified eligible real account/legal terms, no overage and explicit release approval |
+| **B23/RQ24; assigned P6** | Proven ecommerce user journeys, cart/payment failure UX, exact currency maths, double-entry ledger examples, safe sample brands | Real **synthetic** order→invoice→ledger demo, T27–T33, no payment connection or tax-compliance claim |
+| **§10B/RQ23; future** | Deterministic vs AI assistant, free inference quotas, actual service regions/training/privacy, threat models, abuse controls | Side-by-side model-free and verified eligible $0 candidate; hard quota/fallback, no sensitive owner tools |
+| **§10A/B22; future** | Real client need for games/uploads/portal, browser sandbox and auth, standards, rights, simpler alternatives | Proposal and user approval at actual need; not a speculative infrastructure build |
+
+**Stop conditions:** research shows no original/artistic point-of-view; sample cannot be honestly demonstrated; demo requires sensitive/private data or paid service not approved; design blocks core navigation/keyboard/mobile/locale; performance or source license unknown; unable to verify critical terms. Report smallest compliant fallback and re-evaluate, rather than silently selecting a fashionable tool.
+
+---
+
 ## 6. Detailed evidence and acceptance test matrix
 
 | Test ID | Automated/manual evidence required | Release requirement |
