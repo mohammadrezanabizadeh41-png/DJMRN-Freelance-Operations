@@ -169,7 +169,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 
 ### B01 — Market, positioning, audience & measurable goals
 - **Subtasks (showcase-first):** prioritize portfolio viewers and potential employers/clients (international SME/startup/agency/individual); define which technical skills are demonstrated, the visitor's path to inspect/try working samples, design uniqueness, truthful scope and real evidence; optional human contact is secondary. No checkout funnels, paid conversion campaign, actual transactions or client portal in V1.
-- **Dependencies:** none. **Output:** approved showcase brief, demonstrated capability priorities, visitor personas, measurable demonstration quality/credibility/UX goals; **Research RQ01:** outstanding interactive portfolio examples, credible employer expectations, discovery and accessibility patterns, free design references. Don't optimize for monetary leads before quality.
+- **Dependencies:** none. **Output:** approved showcase brief, actual **service taxonomy plus intended service→sample map**, visitor personas, sample provenance/status and demonstration-quality goals; **Research RQ01:** strong service-first portfolios with multiple embedded examples, accessible experience patterns and free design references. Don't optimize for monetary leads before quality.
 - **Gate:** owner confirms positioning; marketing copy distinguishes proven abilities from aspirations.
 
 ### B02 — Content inventory, evidence, rights & truthful copy
@@ -180,7 +180,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 ### B03 — Information architecture, navigation & discovery
 - **Subtasks (owner-confirmed):** main DJMRN home/service windows → specific service explanation → **matching sample gallery** → independent nested sample-demo page → accessible return link to originating service; full sitemap/deep links, service category/tag filters; case-study index; breadcrumbs; keyboard-friendly dialogs, mobile IA, empty/filter and 404. A demo sample is not the main website, and one service can reference multiple independently developed samples.
 - **Dependencies:** B01–B02. **Output:** route matrix, journey maps, wireframes, navigation contracts. **Research RQ03:** compare tabs/mega menus/dialogs with native HTML disclosure/links and actual UX; use MDN dialog guidance, WAI-ARIA APG.
-- **Gate:** J1–J6 journeys clickable from static prototypes; all important pages reachable without JS-only event navigation; no dead links.
+- **Gate:** J1–J6 and the owner-confirmed **service→sample gallery→demo→back** journey sketched/reviewed for P2/P3 (T32); all eventual published pages shareable without JS-only route navigation, with no dead links or active cards for unbuilt samples.
 
 ### B04 — Internationalization architecture (plan for 8–10, translate progressively)
 - **Proposed core locales:** `en` English, `fa` Persian, `de` German, `fr` French, `es` Spanish, `pt-BR` Brazilian Portuguese (regional target to validate), `ja` Japanese, `ar` Arabic. **Candidates only:** `tr`, `it`, `zh-Hans`, `ko` after actual demand and translation quality review. Owner must confirm shortlist/priority; no public "supports 8 languages" until translations exist.
@@ -236,7 +236,7 @@ This is **a route proposal**, not final approved slug implementation; B03/B04/B0
 - **Dependencies:** every UI/media/locale branch. **Research RQ13:** WCAG 2.2 AA, APG for custom widgets, axe-core/manual tests. **Gate:** no critical automated axe findings; manual keyboard and screen reader representative journey; human review of color contrast, focus order, motion and content semantics. Automation cannot certify WCAG by itself.
 
 ### B14 — Service directory and deep service pages
-- **Subtasks:** category IDs and filters; hierarchy of services and subservices; evidence-backed descriptions of what DJMRN can build; **gallery of real related demos/case studies** on each service page; one-to-many stable service→sample links, 'view live sample' and 'read case study' actions, return paths; contextual contact CTA as optional. Pricing only when owner authorizes real pricing. Search by tags if content volume warrants; responsive cards/filters and view modes.
+- **Subtasks:** category IDs and filters; hierarchy of services and subservices; evidence-backed descriptions of what DJMRN can build; **gallery of real related demos/case studies** on each service page; one-to-many service→sample links derived from one canonical SampleRecord mapping, 'view live sample' and 'read case study' actions, return paths; contextual contact CTA as optional. Pricing only when owner authorizes real pricing. Search by tags if content volume warrants; responsive cards/filters and view modes.
 - **Dependencies:** B02–B04, B07, B12/13. **Research RQ14:** best service-page UX and B2B inquiry conversion; real portfolio patterns.
 - **Gate:** update one service record once → all appropriate locale/index links update; no phantom service, blank filter result without an empty state, SEO duplicate content or broken CTA.
 
@@ -348,11 +348,12 @@ S3 B07 Stack ADR + B08 Git/Codex + B09 asset contracts ---> LOCAL real build
 S4 B12 Responsive + B13 A11y + B14 Services
                                        |
                                        v
-S5 B15 Cases/Lab + B16 Contact + B18 SEO metadata
-                                       |
-                          +------------+-------------+
-                          v                          v
-S6 B10 Motion            B11 optional 3D        B04 locale expansion
+S5 B15 Service-linked Case/Example Galleries + B16 Contact + B18 SEO
+                   |
+                   +------> S6 B23 Perfume-Store SAMPLE application (B14/B15 child)
+                   |            fake checkout / sample invoice + ledger, T27–T33
+                   |
+                   +------> S6 B10 Motion / B11 optional 3D / B04 locale expansion
                           +------------+-------------+
                                        v
 S7 B17 Security/privacy + B19 QA/Visual Regression/CWV
@@ -369,19 +370,19 @@ S9 live smoke + B21 analytics ---> B22 prioritized expansion
 ### Existing P0–P10 macro-stage mapping (do not invent a second status authority)
 | Existing stage | Expanded sessions / branches | Completion criterion |
 |---|---|---|
-| P0 RESEARCH | B01–B22 source survey + baseline documents | Current **research documentation** recorded; detailed B01–B22 owner choices not all made |
+| P0 RESEARCH | B01–B23 initial planning inventory and baseline documentation | Scope mapped; detailed implementation research / final owner decisions not yet completed |
 | P1 TOOL READINESS | B08 preliminary | Already verified Codex/Git; per-task service checks still needed |
-| P2 BRIEF APPROVAL | S1; B01/B02/B03 + locale priorities | Owner confirms positioning, content rights, sitemap & first slice |
+| P2 BRIEF APPROVAL | S1; B01/B02/B03 + locale priorities | Confirm service categories, service→sample map, perfume demo placement, evidence, direct routes/return wireframe and first slice |
 | P3 DESIGN | S2; B04/B05/B06/B09 | Approved Figma mobile/desktop/RTL layouts and component design |
 | P4 ARCH + WORKSPACE | S3; B07/B08 | ADR, build scripts, locale/content contracts and branch |
-| P5 FIRST VERTICAL | S4 small end-to-end route | Real home/CTA/locale proof with manual+automated tests |
-| P6 EXPAND | S4–S6; B10–B16/B18 and **B23 commerce/finance demo** | Services, cases, lab, synthetic end-to-end demo, selected locale and motion passes |
+| P5 FIRST VERTICAL | S4 first working **service-first portal** slice | Real home → service detail → published case/sample preview or transparently non-live state → route back, mobile/locale and QA; no fake live-demo link |
+| P6 EXPAND | S4–S6; B10–B16/B18 plus **B23 as an e-commerce service-linked sample** | Sample gallery → contained branded perfume store → synthetic checkout/invoice/finance flow; T27–T33, verified locale and motion |
 | P7 QA | S7; B12/B13/B17/B18/B19 | All mandated test matrices and remediation, no critical blockers |
 | P8 HOST REVIEW | S8; B20 | Verified account/region/free costs/rollback proposal |
 | P9 RELEASE | S9, explicitly approved B20 deployment | Public TLS/links/locale/SEO and recovery smoke |
 | P10 ITERATE | B21/B22 | Evidence-based value improvements, optional features only as needed |
 
-**Do not mark an entire branch complete when one subtask or prototype passes.** Codex must not implement all B01–B22 in one unsupervised mega-prompt. Every S stage has at least one independent result and sign-off.
+**Do not mark an entire branch complete when one subtask or prototype passes.** Codex must not implement all B01–B23 in one unsupervised mega-prompt. Every S stage has at least one independent result and sign-off.
 
 ---
 
@@ -393,13 +394,15 @@ S9 live smoke + B21 analytics ---> B22 prioritized expansion
 | Ownership / module | Input → output contract | Dependency and security boundary |
 |---|---|---|
 | `site-config` | approved brand, locale, navigation, links → validated immutable config | No API keys; single source for public metadata |
-| `content` | real service/case evidence + translations → typed records | No runtime arbitrary Markdown scripts; versioned source |
+| `content` | canonical service/sample/case evidence + translations → typed records | No scripts in public Markdown; **SampleRecord** owns relationships; versioned source |
 | `i18n` | `canonicalContentId + locale` → translated slug/title/text/status | No unreviewed locale published; SEO route parity |
 | `design-system` | approved Figma tokens → CSS variables + reusable accessible components | RTL via logical properties; no duplicated styles per locale |
 | `routing` | route type + content ID + locale → URL/HTML/sitemap/canonical | Prerender main pages; deep links work sans JS |
 | `media` | approved asset ID → srcset/alt/captions/license record | Optimization + fallback; no private files |
 | `motion` | approved motion tokens + reduced-motion preference → safe state | Does not own content/navigation |
 | `3d-lab` | optional scene input + capability flags → enhancement or static poster | Own rendering context; never block initial content/contact |
+| `demo-routes` | published sample ID + locale → one canonical demo/case link, preview and return-to-parent-service path | Lazy demo asset loading; do not mount app logic on DJMRN global pages |
+| `demo-app` | test/synthetic scenario → isolated interactive state, fake payment/finance or other demo response | Each sample owns its state/styles, never owner secrets or real customer data; reusable mechanisms only when proven |
 | `lead-channel` | validated minimal inquiry fields → controlled destination + outcome | Separate backend only if necessary, no secrets front end |
 | `seo` | canonical published locale+record → meta/sitemap/hreflang/schema | Only verified public facts; reciprocal alt tags |
 | `tests` | routes/components/docs → reproducible PASS/FAIL artifacts | Never self-certify; browser evidence |
@@ -414,8 +417,17 @@ ServiceRecord {
             seoTitle, description, translationStatus,
             reviewedAt, approvedBy } };
 }
+SampleRecord {
+  id: stable string; relatedServiceIds: string[]; caseStudyId?: string;
+  type: interactive|video|gallery|code;
+  stage: planned|prototype|tested|published;
+  execution: working-demo|clearly-simulated;
+  publishedDemoRoute?: string; previewAssetId?; rightsEvidenceIds: string[];
+  locales: {...}; // only reviewed and actually published pages get routes
+}
 CaseRecord {
-  id: stable string; provenance: paid-client|self-initiated|internal-demo;
+  id: stable string; sampleId?: stable string;
+  provenance: paid-client|self-initiated|internal-demo;
   evidenceIds: string[]; rightsApproved: boolean; sourceUrl?: string;
   demoUrl?: string; mediaIds: string[]; locales: {...};
 }
@@ -424,7 +436,7 @@ AssetRecord { id, source, license, allowedUse, credits, altByLocale, sizeVariant
 LocaleRecord { tag, nativeName, dir, fontFamily, enabled, defaultRoutePolicy }
 ```
 
-**Why these fields matter:** one update flows to the cards, details, locale routes, SEO and social previews. Stable IDs prevent breaking links when translated slugs change; require redirect mapping in later migrations. This is a proposed *logical* contract, not approval to create database tables, registries everywhere or new abstraction layers. Begin with simple local files and one schema where volume justifies; review existing before inventing types.
+**Why these fields matter:** **SampleRecord.relatedServiceIds** is the **only authority** for service→sample membership. A service's gallery is derived from approved/published sample records, not duplicate arrays; an unbuilt demo cannot acquire a 'live' URL or CTA. Stable sample IDs link case-study explanation and actual interactive route. One update flows to the cards, details, locale routes, SEO and social previews. Stable IDs prevent breaking links when translated slugs change; require redirect mapping in later migrations. This is a proposed *logical* contract, not approval to create database tables, registries everywhere or new abstraction layers. Begin with simple local files and one schema where volume justifies; review existing before inventing types.
 
 **User-facing "windows/panes" are presentation only**. They must not become OS-like isolated separate web apps or hidden inaccessible dialogs. Any preview modal is optional; canonical URLs and readable semantic page contents remain public even with animations/JavaScript disabled.
 
@@ -465,7 +477,7 @@ All quotas/pricing below are source-backed *snapshots* as of Nov 2026; actual ac
 | Test ID | Automated/manual evidence required | Release requirement |
 |---|---|---|
 | T01 | Successful local `install/build/typecheck/lint` and deterministic URL output | PASS; no unexplained warnings |
-| T02 | Playwright J1–J5 navigation, service→case→contact, real deep-link and 404 | PASS on approved routes |
+| T02 | Playwright J1–J6 route navigation, home→service→gallery→published case/demo→back→optional contact, direct deep-link/browser history and 404 | PASS for implemented routes; use T32 for actual demo path |
 | T03 | Language switch `en/fa/de/fr/es/pt-BR/ja/ar` **for each actually published route**; correct self/reciprocal `hreflang`/canonicals, correct `lang/dir`, localized metadata, translated slugs and missing-page behavior | PASS per published locale only; no false translation claim |
 | T04 | 320/360/390/768/1024/1440/1920, landscape, 400% zoom/reflow | No unintended overflow/clipping or lost CTA |
 | T05 | Keyboard, focus, contrast, form validation, headings, dialog focus/Escape, reduced motion, captions/alt | Target WCAG 2.2 AA, zero critical axe issues + human checks |
@@ -478,7 +490,9 @@ All quotas/pricing below are source-backed *snapshots* as of Nov 2026; actual ac
 | T12 | Rollback rehearsal, chosen host limits, no surprise billing/regional block, TLS headers/live sitemap | Approval + PASS before public DONE |
 | T13 | Performance/UX audit of 3D/animation on reduced motion, mobile GPU weak, screen readers | Enhancement safely removable |
 | T14 | User review of desktop/mobile visuals in each requested brand variant and available RTL/LTR | Explicit owner approval; do not invent acceptance |
-| T15 | Post-release: actual index presence, contact receipt, uptime/errors and limited analytics | Monitor after user-approved release |
+| T15 | Post-release: actual index presence, optional real contact receipt where enabled, uptime/errors and minimal analytics | Monitor after owner-approved release |
+| T32 | Service→relevant sample gallery→case/demo deep link→working sample interactions→return to same service; browser history/refresh, mobile and locale | PASS only when relevant sample is actually published |
+| T33 | Independent per-sample style/JS/state, sample-route isolation, loading budgets, graceful failure, no effects on main shell; adding a second real sample requires no duplicate site | PASS before publishing each demo; second example test when it truly exists |
 
 No test is claimed PASS in this roadmap just because its criterion is defined. Save test scripts and reports with code under site directory; update only PROJECT-LOG.md for rolling status.
 
@@ -494,6 +508,8 @@ No test is claimed PASS in this roadmap just because its criterion is defined. S
 | Hero 3D kills mobile LCP or crashes GPU | feature flag, static first-paint, lazy isolated renderer, terminate WebGL on failure |
 | Vendor locks export behind payment | no essential vendor-only runtime, inspect free commercial shipping license before design dependence |
 | Fancy panes hide SEO content or trap keyboard | semantic route is canonical; modals/tabs are progressive UX, links still navigate |
+| DJMRN global site accidentally styled/routed as the perfume shop | Service B14 + sample discovery B15 control entry; B23 owns demo only; T32 |
+| Planned demo card misrepresented as live, or sample state leaks to another demo | Explicit sample status publishing gate, isolated demo JS/style/state, reset and T33 |
 | Icons/logos imply affiliations or violate trademarks | official external profile URL + individual license/brand guide check, accessible text |
 | Fake sample work or unapproved client data | evidence IDs, rights approval, transparent concept/demo labeling |
 | Contact form fails silently / spam data leak | staged fake data → real opt-in inbox test, rate limiting, privacy, fallback mailto |
@@ -536,19 +552,21 @@ Use Luna/Medium for contained tasks; ask permission/record why stronger model is
 
 | Research ticket | Question we will actually answer then | Sources / experiments |
 |---|---|---|
-| RQ01 + RQ02 | Which top 3 services attract legitimate targeted clients and what evidence can we publicly show? | owner-approved evidence, public portfolio examples, Google Search Essentials |
+| RQ01 + RQ02 | Which complete service categories and service-linked samples credibly show our capabilities, and what evidence can we truthfully publish? | owner service brief, rights inventory, portfolio and UX examples, Google Search Essentials |
 | RQ03 | What home/services/work/lab routing and window metaphors best preserve accessibility+SEO? | clickable Figma sitemap, WAI/MDN patterns |
 | RQ04 | Which 8 locales first, true copy creation cost/quality, content schema and SEO? | Google/W3C/Astro docs, 2 locale prototype, translation review |
 | RQ05 + RQ06 | Which of 3 coherent creative directions works for RTL/LTR and touch/keyboard? | Figma+MagicPath free quotas, tested desktop/mobile prototype |
 | RQ07 | HTML vs Astro vs Next.js with approved page count, 8 locales and optional demos? | two tiny local build spikes only if required, CI feasibility |
 | RQ09 | Which exact icons/fonts/images/video/3D assets are genuinely freely usable commercially? | licenses/trademark rights, asset source and screenshot tests |
 | RQ10 + RQ11 | CSS/Motion vs Three.js vs Spline/Rive, where can effects ship truly $0 and pass mobile GPU fallback? | local performance proof, official provider pricing/licensing |
-| RQ14 + RQ15 | Which actual case studies/labs demonstrate capability and how do we safely show them? | real portfolio rights, iframe/video/demo trials |
+| RQ14 + RQ15 | How do service detail pages show multiple sample cards, with separate case-study versus working-demo deep links and safe app shells? | service→sample link tests T32–T33, rights inventory, iframe/video/demo experiments |
 | RQ16 | Can a commercial contact form actually receive and retain leads at hard $0 without hidden overage? | official form provider terms and real controlled inbox test |
 | RQ18 + RQ19 | Do pages score and function well for SEO, CWV, keyboard, locales, mobile, browser differences? | Playwright + axe + Lighthouse + human QA |
 | RQ20 + RQ21 | Which host/analytics truly meet commercial/legal/account/free limits? | provider terms/account tests, release proposal and explicit approval |
+| RQ23 — later optional visitor AI | Is a deterministic guide enough or would a limited AI model be justified? | §§10B, official provider and data handling terms researched **only when implemented**, T22–T26 |
+| RQ24 — P6/B23 perfume sample | How do we build a responsive, isolated and functional sample shop → simulated checkout → sample ledger at no required financial-provider cost? | targeted provider/license/money-math/accounting research **at B23 execution**; T27–T33 |
 
-**Later optional research** RQ08/RQ12/RQ13/RQ17/RQ22 runs continuously as each component crosses its integration boundary. Research evidence and outcomes are appended to PROJECT-LOG, but this document's plan remains a controlled reference, revised only when scope/architecture changes.
+**Other deferred research** RQ08/RQ12/RQ13/RQ17/RQ22 is performed **on demand** when its actual feature/stage needs it; it is not automatic recurring monitoring and does not approve any tool or cloud spend. Research evidence and outcomes are appended to PROJECT-LOG, but this document's plan remains a controlled reference, revised only when scope/architecture changes.
 
 ---
 
