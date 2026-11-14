@@ -2,7 +2,7 @@
 **Project ID:** DJMRN-FREELANCE-WEBSITE-001  
 **Persian title:** سایت تبلیغاتی حرفه‌ای فریلنسری و وایب‌کدینگ  
 **Created:** 2026-11-14  
-**Status:** SCOPING / OFFICIAL-STANDARDS RESEARCH COMPLETE FOR FIRST REVIEW / IMPLEMENTATION NOT STARTED  
+**Status:** READY FOR P2 / S1 / B01+RQ01 research and owner-led requirements kickoff; source implementation NOT STARTED  
 **Type:** DJMRN's own business/portfolio website, **not an awarded client contract**.  
 **Repository authority:** this existing DJMRN-Freelance-Operations repository. Source code, if later authorized, should live here until a separate repository is explicitly justified and approved.  
 **Canonical project-specific progress and approvals (owner update 2026-11-14):** [PROJECT-LOG.md](PROJECT-LOG.md) in this same website directory, plus Git history. Previous entries in the parent [CURRENT-STATUS](../08-operations-and-continuity/CURRENT-STATUS.md) remain historical; future routine site stage logging occurs only here, not in competing parent logs. This README defines scope and standards; [MASTER-ROADMAP.md](MASTER-ROADMAP.md) is the detailed research-backed architecture and phased branch map; the execution plan remains a proposal until relevant owner sign-off.
@@ -10,10 +10,13 @@
 ## Site project navigation
 - [Research and tools](RESEARCH-AND-TOOLS.md) — standards, source URLs, free offerings, plugin/MCP capability, Codex and alternatives, observed network blockers.
 - **[MASTER ROADMAP — Full professional site architecture](MASTER-ROADMAP.md)** — the controlling B01–B22 main/subbranch map, ~8–10 language architecture, modular service and showcase pages, motion/3D, research questions, dependency graph, tool/free-tier decisions, test matrix and staged approvals.
-- [Execution plan](EXECUTION-PLAN.md) — proposed P0–P10 gates, acceptance, bounded coding task templates and approvals.
+- [Execution plan — START HERE](EXECUTION-PLAN.md) — operational per-stage procedure, P0–P10 gates, scoped Codex tasks and approvals.
 - [Agent instructions](AGENTS.md) — project-scoped software-development guardrails for Codex, Work and other hosts.
 - [Current site log](PROJECT-LOG.md) — the **single ongoing** site work/state/handoff record by explicit owner request.
 - Canonical source repo: `DJMRN-Freelance-Operations`; source code, tests, assets and site records all stay under `09-self-marketing-website/`.
+
+## Operational start checkpoint
+**Governing sequence:** [MASTER-ROADMAP](MASTER-ROADMAP.md) → [EXECUTION-PLAN START HERE](EXECUTION-PLAN.md) → one approved B##/RQ## Codex task → real tests T## → **single** [PROJECT-LOG](PROJECT-LOG.md) checkpoint → user review → next stage. Do not create a second task/progress database. Current first stage is **P2/S1/B01/RQ01**; no paid/public action authorized.
 
 ## 1. Business objective and truth requirements
 Create a professional public-facing website that presents DJMRN as an independent remote freelancer, shows *genuinely supported* skills and selected portfolio demonstrations, and converts appropriate visitors into client inquiries for bounded deliverable-based work.
@@ -81,7 +84,7 @@ Future project acceptance gate: reproducible local build, lint/type checks as ap
 6. Page list and content model; owner editing requirements; whether a private admin/editor is necessary.
 7. Hosting/domain decision only after eligibility, limits, commercial use and zero-overage checks.
 
-## 6. Proposed gates (NOT a finalized roadmap)
+## 6. Historical high-level gates (details superseded by MASTER-ROADMAP)
 R0 owner reviews standards/vision -> R1 requirements and actual portfolio evidence -> R2 wireframes & visual system/mobile/desktop design review -> R3 select smallest adequate frontend approach and local bootstrap -> R4 build public site and visual interactions in small vertical slices -> R5 local cross-device/performance/accessibility/security/SEO acceptance -> R6 reviewed hosting proposal with cost/legal/security -> R7 separately approved deployment and live smoke/monitoring -> R8 measure inquiry conversion and improve.
 
 **Execution logging (owner-specific override, 2026-11-14):** On each authorized work stage, append one concise evidence-backed checkpoint (before-state, approved scope, exact files/commands, real results, tests, failures/recovery, Git commit/diff, next action) to [PROJECT-LOG.md](PROJECT-LOG.md) **inside this website folder only**. No competing daily log, duplicate registry, unapproved service/agent infrastructure, or simultaneous updates to the parent project status for routine site work. Source code, assets and tests must remain under this project folder. Every GitHub write needs commit/readback verification.
@@ -89,4 +92,4 @@ R0 owner reviews standards/vision -> R1 requirements and actual portfolio eviden
 ## 7. Current boundary and next decision
 **Completed this turn:** research of standards and hosting terms; scope/acceptance proposal; repository project registration.  
 **Not completed/not authorized:** final standards sign-off, site design, code scaffolding, local deployment, real login, contact form, production deploy or publishing.  
-**Next (2026-11-14):** detailed PROPOSED execution gates and sources are filed in this folder, official Codex CLI 0.166.0 logged in, while local GitHub:443 TCP connectivity is presently blocked. Confirm first design/functional choices and restore safe Git synchronization before declaring a Codex-backed site build. See [PROJECT-LOG](PROJECT-LOG.md). 
+**Next (2026-11-14):** P0/P1 and read-only Codex kickoff passed; the authenticated local Git checkout and sync work with the existing WinINET proxy passed per Git command, without global security changes. Begin B01/RQ01 under P2/S1 using [EXECUTION-PLAN START HERE](EXECUTION-PLAN.md). The site code and hosting remain NOT STARTED / NOT APPROVED. See [PROJECT-LOG](PROJECT-LOG.md). 
