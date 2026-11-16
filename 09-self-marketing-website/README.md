@@ -14,6 +14,7 @@
 - [ChatGPT Project operating skill and setup](CHATGPT-PROJECT-OPERATING-SKILL.md) — copy-ready Project Instructions, live GitHub/Notion source hierarchy, multi-role research/design/QA policy, one-log stage handoff and new-chat recovery; **separate from Codex instructions**.
 - [Agent instructions](AGENTS.md) — project-scoped software-development guardrails for Codex, Work and other hosts.
 - [Current site log](PROJECT-LOG.md) — the **single ongoing** site work/state/handoff record by explicit owner request.
+- [Creative source map](design/README.md) — versioned, branch-on-demand HOME/service/sample design/prompt source records with input provenance, reuse rights and actual output paths; **not** a second progress log or a folder of completed demos.
 - Canonical source repo: `DJMRN-Freelance-Operations`; source code, tests, assets and site records all stay under `09-self-marketing-website/`.
 
 
