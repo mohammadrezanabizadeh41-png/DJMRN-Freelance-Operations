@@ -15,6 +15,10 @@ Preserve enough inputs and provenance to continue after a chat/context change wi
 - **PROMPTS ALONE ARE A VALID FIRST DESIGN INPUT:** The owner has collected the three selected hierarchical interaction prompts and a live background design prompt and will supply them. We can begin H.1–H.4 analysis from prompt text alone, distinguish described animation from *observed* animation, and specify original graphics to be created later. Images/video/models and live prototype URLs are **optional additional evidence**, not prerequisites for receiving prompts. If a prompt leaves essential visual motion/click response/rendering details unresolved, ask for that particular source demo link or a short recording at the relevant validation gate; never fabricate how the original looked.
 - Do not copy/render third-party protected text/media into this **public repository** without actual redistribution rights; record an original derived design description and URL when raw prompt/media may not be published. Never state that text prompts guarantee identical output or actual working 3D.
 
+## Owner-confirmed responsive design boundary (2026-11-17; B12)
+
+The owner requires working presentation across **phone, tablet, compact notebook/laptop, desktop and large-screen/monitor layouts**. Maintain **one** design system/site with fluid adaptation and content-first breakpoints, not separate device-themed sites. When analyzing the three owner-selected interaction prompts and reactive animated background, record the target layout and trigger differences at small/touch, medium/tablet, notebook and large/mouse/keyboard viewports; ensure all VP→SC→SV choices remain operable and visible. Hover-only effects need tap/focus alternatives, motion/3D should degrade cleanly on slower phones, and every view needs accessible reduced-motion and background-off paths. See canonical [B12](../MASTER-ROADMAP.md) for the actual width/zoom/RTL/LTR test matrix. No chosen original design or responsive test has passed yet.
+
 ## Source branches — create ONLY on first real input
 
 ```text
