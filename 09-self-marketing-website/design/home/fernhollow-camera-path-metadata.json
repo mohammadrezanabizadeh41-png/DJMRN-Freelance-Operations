@@ -1,0 +1,59 @@
+{
+  "source": "https://www.gladeye.com/valley/camera-path07.glb",
+  "size": 10132,
+  "scene": 0,
+  "camera": [
+    {
+      "type": "perspective",
+      "params": {
+        "aspectRatio": 1.7777777777777777,
+        "yfov": 0.39959648408210363,
+        "zfar": 1000,
+        "znear": 0.10000000149011612
+      }
+    }
+  ],
+  "animation": [
+    {
+      "target": "translation",
+      "timeCount": 200,
+      "timeMin": [
+        0
+      ],
+      "timeMax": [
+        8.291666666666666
+      ],
+      "valueCount": 200,
+      "valueType": "VEC3",
+      "interpolation": "LINEAR"
+    },
+    {
+      "target": "rotation",
+      "timeCount": 200,
+      "timeMin": [
+        0
+      ],
+      "timeMax": [
+        8.291666666666666
+      ],
+      "valueCount": 200,
+      "valueType": "VEC4",
+      "interpolation": "LINEAR"
+    },
+    {
+      "target": "scale",
+      "timeCount": 200,
+      "timeMin": [
+        0
+      ],
+      "timeMax": [
+        8.291666666666666
+      ],
+      "valueCount": 200,
+      "valueType": "VEC3",
+      "interpolation": "LINEAR"
+    }
+  ],
+  "bufferViews": 4,
+  "extensions": []
+}
