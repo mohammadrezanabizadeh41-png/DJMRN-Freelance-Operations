@@ -1,0 +1,259 @@
+# DJMRN Website — پژوهش مستقل ابزارهای استخراج فنی مرجع و ساخت پس‌زمینهٔ ترکیبی
+
+**Scope:** DJMRN-FREELANCE-WEBSITE-001 / P3 §1C-H / B05–B06 / B09–B11 / RQ11, 2026-11-17.  
+**Record class:** `REFERENCE-RESEARCH / SOURCE-AND-TOOL-EVIDENCE`; **نه** tracker، دیتابیس، رجیستری عمومی ابزارها، ADR انتخاب فناوری، یا گزارش DONE.  
+**Origin:** دو گزارش کامل فارسی ارسال‌شده توسط مالک در همین گفتگو: **A — پژوهش ابزارهای حرفه‌ای ساخت و تحلیل سه‌بعدی** و **B — پژوهش گستردهٔ ابزارهای استخراج و تحلیل صحنهٔ سه‌بعدی**. هر دو در همین پرونده، جداگانه و با استنتاج مشترک مستند شده‌اند.  
+**Authority:** مسیر همین پروژه در مخزن موجود؛ [MASTER-ROADMAP](../../MASTER-ROADMAP.md) سیاست و گیت‌ها، [PROJECT-LOG](../../PROJECT-LOG.md) **تنها** وضعیت جاری، [پروندهٔ Gladeye](fernhollow-gladeye-reactive-valley.md) حقیقت آزمون مرجع، Git commit و اجرای واقعی evidence هستند.  
+**Isolation hard boundary:** این پژوهش صرفاً برای **استخراج اطلاعاتِ قابل مشاهده/قابل تحلیل از وب‌سایت‌های مرجع برای الهام‌گیری و بازسازی مستقل در سایت DJMRN** است. هیچ اتصال، ادغام، بازنویسی، دسته‌بندی مشترک یا ارجاع پیش‌نیازی به پژوهش‌های عمومی DJMRN (مدل‌ها، APIها، Agent Services، سرویس‌های رایگان یا پروژه‌های دیگر) ندارد. هر نام تکرارشونده در این فایل، فقط با نقش سایت ارزیابی می‌شود.
+
+> **Provenance legend:** `OWNER A/B` = آنچه دو متن کاربر گزارش داده‌اند، نه الزاماً آزمون زنده؛ `OFFICIAL` = لینک رسمی سازنده/مخزن؛ `WINDOWS_OBSERVED` = اجرای واقعی پیشین در لپ‌تاپ و پروندهٔ مرتبط؛ `PROPOSED` = انتخاب پیشنهادی؛ `UNVERIFIED` = نیازمند آزمایش، بازبینی منبع، قیمت/مجوز یا تأیید. زمان، تعداد ستاره و قیمت‌ها مشاهدات تاریخی‌اند و تضمین وضعیت آینده نیستند. تصاویر CDN پاسخ قبلی فقط illustration بودند و دارایی مهندسی/مجوز نیستند؛ تصاویر یا خروجی‌های اصلی سایت مرجع در این مخزن منتشر نمی‌شوند.
+
+## I. دامنهٔ واقعی سؤال: چه چیزی باید به‌دست بیاید؟
+
+1. **Capture / Browser I/O:** URL/route، Network waterfall، HTTP resource types/size/requests، JS lifecycle (فقط عمومی)، CSS/canvas layout، screenshot، viewport، touch/mouse/keyboard، استثناها و timings.
+2. **GPU / WebGL pipeline:** WebGL1/2، `drawElements/drawArrays` mode/count، vertex attributes، active uniform metadata، program/pass count، texture dimensions/formats/bindings، framebuffer ordering، depth/blend/stencil، GPU/CPU frame timing. مشاهدهٔ Shader text یا Texture bytes از حیث فنی ممکن است، اما **در خروجی عمومی ما source/content اختصاصی ذخیره نشود**.
+3. **Interaction and camera:** حرکت خودکار، حرکت اشاره‌گر، hold/click/drag، wheel/touch، خروجی hover/focus، easing، motion/optical flow، مسیر دوربین و فرقِ حرکت صحنهٔ خودکار با رویداد.
+4. **Geometry/assets:** GLB/glTF metadata, node/camera/animation and parse of allowed files; GPU point-buffers are not a restorable original authored Blender scene.
+5. **Own build:** scene depth, particle generators, original flower assets/shaders and camera, independent performance and fallback; original sound optional and not required now.
+6. **QA and lifecycle:** visually inspect + repeatable tests; responsive/RTL later, reduced-motion, lost-context, CPU/GPU memory, stable input owner, no double loop.
+7. **Rights/cost/security:** publicly delivered binary != rights to redistribute; unknown cost/credits/overage = STOP; external service/private evidence requires explicit scope approval; never export secrets/session or bypass access controls. We can record self-produced technical observations; do not publish raw reference JS, GLB, PNG, GLSL or audio absent verified separate permission.
+
+## II. Report A — پژوهش ابزارهای حرفه‌ای ساخت و تحلیل سه‌بعدی (کلیهٔ موضوعات و نام‌ها)
+
+### A1. کشف MCPها و ابزارهای اصلی GPU
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Spector.js + MCP](https://github.com/BabylonJS/Spector.js) | WebGL capture: per-frame draw calls, programs, shaders, textures, state; MCP can load public URLs through Playwright; primary inspection candidate (OBSERVE) | E2 | **NEW-CANDIDATE** | MIT on repo; isolated browser; persist only authorized/sanitized research |
+| [Three.js DevTools MCP](https://github.com/DmitriyGolub/threejs-devtools-mcp) | 69 tools advertised for own live Three.js scene tree/material/shader/camera/performance/memory/video/preview; requires bridge (OWN-SCENE QA) | E7 | **LATER** | MIT; does not automatically reveal inaccessible third-party scene objects |
+| [Spline official MCP](https://docs.spline.design/generate/spline-mcp-server) | Hosted OAuth or Windows desktop localhost scene editor bridge, 3D scene/camera/material (CLOUD/DESIGN) | OPTIONAL | **DEFER** | Free editor != free production code export; watermarks and AI quota/permissions; do not activate default |
+| [RenderDoc MCP](https://github.com/JiaboLi-GitHub/renderdoc-mcp) | 59 GPU inspection tools advertised: capture, pipeline, resources, pixel history, framebuffer comparison (DEEP QA) | OPTIONAL | **DEFER** | GPU/ANGLE capture compatibility unknown; high setup effort on 8 GB |
+
+**Source-A specifics preserved:**
+- Spector.js is a **WebGL frame inspector + optional MCP** with public URL load, capture, draw calls, programs/shaders/textures/state; no ChatGPT MCP auto-connection. Official [MCP instructions](https://github.com/BabylonJS/Spector.js/blob/master/mcp/README.md), [browser extension documentation](https://github.com/BabylonJS/Spector.js/blob/master/documentation/extension.md). The MCP may inject in headless browser. Browser extension is a separate UX.
+- Three.js DevTools MCP advertises **69 tools** for live scene/material/light/camera/animation/performance/memory editing and captures; works best when **our own** Three.js scene is bridge-connected. External sites with no bridge do not promise scene-tree access.
+- RenderDoc MCP advertises **59 tools**, lower-level GPU frames/pipeline/bindings/pixel diffs. Prefer only if a measured capture gap remains after Spector; low-memory device and Windows ANGLE make it a risky premature default.
+- Spline desktop/hosted MCP is available, but the cloud/editor/account/AI/export rights and Free watermarks/code-export limitations mean **no dependency for the initial independent background**. `https://mcp.spline.design/mcp` is a reported optional endpoint, NOT a permission to connect.
+
+### A2. موجودی ابزارهای ازقبل‌موجود و نقش آن‌ها
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Remote Desktop Commander](https://mcp.desktopcommander.app/) | Existing connected bridge to authorized Windows filesystem, terminal and scripts; actual session read/run tested (LOCAL EXECUTOR) | E0-E7 | **EXISTING/PROVEN** | Exists; no claim that other MCP tools become native ChatGPT connections automatically |
+| [Playwright / Playwright MCP](https://github.com/microsoft/playwright) | Isolated Edge clicks, wheel, pointer-hold/drag, screenshots, JS assertions and repeatable scenarios (INPUT/CAPTURE) | E1-E5 | **EXISTING/PROVEN** | Prior on-device test successful; not GPU-frame interpreter |
+| [Chrome DevTools MCP / CLI](https://github.com/ChromeDevTools/chrome-devtools-mcp) | Network/console/performance/heap/CPU trace/CDP with standalone CLI; Windows installed 1.13.0 and help verified (BROWSER ANALYZER) | E1 | **EXISTING/CLI ONLY** | Operational page trace not yet confirmed; isolate and disable optional telemetry/CrUX |
+| [Windows-MCP / Windows Commander MCP / OpenDesk](https://github.com/modelcontextprotocol/servers) | Existing Windows GUI automation controllers; exact repos vary: record as inventory only, not claiming this generic link is their exact origin (LOCAL UI) | OPTIONAL | **EXISTING/UNVERIFIED CURRENT** | Installed historical evidence; each operation requires verification; avoid duplicate GUI automators |
+| [Node.js, npm, Git, VS Code](https://nodejs.org/) | Local scripts, test harness, build tools and source/reproducibility; available on Windows PATH (LOCAL EXECUTOR) | E0-E8 | **EXISTING/PROVEN** | No added provider account; read installed versions before running installs |
+| [GitHub connected](https://github.com/) | Canonical website code, audit scripts, study records, commits and real test evidence (AUTHORITY) | ALL | **EXISTING** | Website directory only; avoid external source registry |
+| [Figma](https://www.figma.com/) | Design proposals for later VP/SC/SV layers, not GPU frame capture (DESIGN) | E8 | **EXISTING/ON-DEMAND** | Already connected; owner design approval still required |
+| [Canva](https://www.canva.com/) | Original creative/media production when needed; no GPU extraction (DESIGN) | OPTIONAL | **EXISTING/ON-DEMAND** | Free feature/asset export terms vary; not mandatory |
+| [MagicPath](https://www.magicpath.ai/) | Optional rapid design concept explorations, not source-truth nor 3D capture (DESIGN) | E8 | **EXISTING/ON-DEMAND** | Already connected; free quota must be checked for a specific use |
+
+**Proven state from prior Windows run:** laptop `DJMRN-LAPTOP` is reachable via Commander; Playwright/Edge inspected Gladeye successfully; installed Chrome DevTools MCP **1.13.0** and CLI Help passed but a production-quality Chrome trace was **NOT YET RUN**; Node/npm/Git/VS Code available. Windows-MCP/OpenDesk/Windows Commander have prior tests but a native tool being on Windows does NOT mean ChatGPT can directly call it via this conversation without supported client wiring. Figma/Canva/MagicPath are connected but not substitutes for WebGL instrumentation.
+
+### A3. ابزارهای ساخت صحنه و بهینه‌سازی
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Three.js](https://github.com/mrdoob/three.js) | Independent original WebGL2 flower particles, sprite atlases, depth/fog, glow, camera spline (BUILD CANDIDATE) | E6 | **RESEARCH** | MIT, not yet chosen by owner as site-wide framework |
+| [Babylon.js](https://github.com/BabylonJS/Babylon.js) | Alternative complete WebGL/WebGPU engine and integrated Inspector (BUILD ALTERNATIVE) | E6 | **RESEARCH** | Apache-2.0; compare complexity vs Three.js and native WebGL |
+| [React Three Fiber](https://github.com/pmndrs/react-three-fiber) | React renderer binding for Three.js, if UI stack actually chooses React (INTEGRATION) | LATER | **DEFER** | Not first-stage prerequisite |
+| [Drei](https://github.com/pmndrs/drei) | Ready-made helpers for R3F camera, scene and material workflows (INTEGRATION) | LATER | **DEFER** | Only if R3F chosen |
+| [Postprocessing](https://github.com/pmndrs/postprocessing) | Optional bloom/glow and GPU passes after proof of need (BUILD OPTIONAL) | E6 | **CONDITIONAL** | Measure GPU costs on Vega 8; not essential day one |
+| [stats-gl](https://github.com/RenaudRohlinger/stats-gl) | On-screen FPS, CPU and optional GPU timings for own demo (PERF OBSERVER) | E6-E7 | **CONDITIONAL** | GPU timing dependent on extension support; no guarantee |
+| [Tweakpane](https://github.com/cocopon/tweakpane) | Live controls for particle count, wind, camera speed, dispersal and bloom (PARAMETER UI) | E6 | **RECOMMEND** | Development-only; do not ship unneeded debug controls |
+| [glTF-Transform](https://github.com/donmccurdy/glTF-Transform) | Inspect/transform/optimize OWN or licensed GLB/glTF models (ASSET) | E5-E7 | **CONDITIONAL** | Only if original prototype actually uses GLB |
+| [glTF Validator](https://github.com/KhronosGroup/glTF-Validator) | Validate GLB/glTF and animation correctness (ASSET QA) | E5-E7 | **CONDITIONAL** | No need to install before GLB assets exist |
+| [KTX-Software](https://github.com/KhronosGroup/KTX-Software) | Texture compression/validation for GPU payload reduction (ASSET OPTIMIZATION) | E7 | **DEFER** | Specialist tool after measured texture bottleneck |
+| [Digital Peony](https://github.com/LewisOrton/digital-peony) | Original procedural peony concept demonstrating animated petals with Three.js/WebGPU; Apache-2.0 (OSS STUDY) | E6 | **OPTIONAL** | Technical inspiration, no direct design or asset copy; WebGPU compatibility uncertain |
+| [EZ-Tree](https://github.com/dgreenheck/ez-tree) | Seeded procedural trees, LOD, web exports and Three.js geometry, MIT (ASSET GENERATION) | LATER | **DEFER** | Not needed for first flower-valley slice |
+| [msdfgen](https://github.com/Chlumsky/msdfgen) | Distance-field shape texture generation (ASSET) | LATER | **DEFER** | Useful only for validated graphic requirement |
+
+**Source-A comparisons:** Three.js MIT is candidate; Babylon.js Apache-2.0 alternative; R3F/Drei only with genuine React; optional postprocessing bloom requires measurement; stats-gl CPU/GPU reports subject to device/browser extension; Tweakpane development-only tuning. digital-peony is a WebGPU/XPBD **study** (Apache-2.0), EZ-Tree MIT procedural trees/LOD, msdfgen distance field shapes; glTF-Transform, Khronos Validator and KTX-SW only when own/authorized GLB and texture need materializes.
+
+### A4. منابع تصویر و دارایی‌های قابل‌استفاده با رعایت مجوز
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Poly Haven](https://polyhaven.com/license) | CC0 HDRI, natural textures/models for own rendering if useful (CC0 ASSET) | E6 | **ON-DEMAND** | Verify particular asset and payload; not substitute for bespoke flowers |
+| [ambientCG](https://ambientcg.com) | CC0 natural ground/foliage/material textures (CC0 ASSET) | E6 | **ON-DEMAND** | Per-asset provenance and sizes |
+| [Kenney assets](https://kenney.nl/assets) | CC0 asset packs under provider's terms (CC0 ASSET) | LATER | **ON-DEMAND** | Check every asset licence and stylistic fit |
+
+Poly Haven, ambientCG, Kenney were described as CC0 asset sources; check per-file provenance and allowed use, download size and aesthetic fit, and prefer originally authored flower/leaf sprites over indiscriminate third-party asset bundles.
+
+### A5. MCP تکمیلی، مرورگر ابری، افزونه و سرویس حساب‌دار
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Blender MCP](https://github.com/ahujasid/mcp-for-blender) | Control Blender model/material/animation tasks via MCP; headless/GUI workflows depend on server (3D GENERATOR) | LATER | **DEFER** | Potential arbitrary code operations; Blender + 8GB RAM heavy |
+| [MCP Inspector](https://github.com/modelcontextprotocol/inspector) | Test MCP tools/permissions/call schema before connecting to AI client (MCP QA) | E2 | **CONDITIONAL** | Use isolated test, not authority or second registry |
+| [RenderDoc GUI](https://github.com/baldurk/renderdoc) | Low-level GPU capture and shader/pixel debugger (ADVANCED GPU) | LATER | **DEFER** | Defer pending Spector gaps; Windows WebGL ANGLE uncertain |
+| [Lighthouse](https://github.com/GoogleChrome/lighthouse) | Website performance and best-practices lab audit for own demo (WEB QA) | E7 | **CONDITIONAL** | No substitute for user-device GPU timing |
+| [axe-core](https://github.com/dequelabs/axe-core) | Accessibility programmatic checks after UI integration (A11Y QA) | E7-E8 | **LATER** | Manual screen reader/keyboard still required |
+| [Axe MCP](https://www.deque.com/axe/) | AI-assisted accessibility inspection, subscription/cloud semantics uncertain (A11Y QA) | LATER | **DEFER** | Unknown quota/cost => deny until checked |
+| [Browserbase](https://www.browserbase.com/) | Hosted automated browsing (REMOTE BROWSER) | LATER | **DEFER** | Unknown effective free/overage; not better at GPU inspection than local pipeline |
+| [Browserless](https://www.browserless.io/) | Hosted browser automation and scraping (REMOTE BROWSER) | LATER | **DEFER** | Cloud transfer/quotas and account costs not verified |
+| [TinyFish](https://www.tinyfish.ai/) | Cloud browser agent; already connected provider candidate (REMOTE BROWSER) | LATER | **DEFER** | Do not send proprietary or private scene evidence; GPU gap not solved |
+| [Firecrawl](https://www.firecrawl.dev/) | Structured site text/crawl, not WebGL GPU introspection (WEB STRUCTURE) | OPTIONAL | **DEFER** | Provider costs/quotas need current verification if invoked |
+| [Product Design ChatGPT plugin](https://chatgpt.com/plugins) | Static/prototype UI explorations; not GPU capture (DESIGN) | E8 | **DEFER** | Not installed in previous search; no need this stage |
+| [fal plugin](https://fal.ai/) | Image/video/3D generation service through ChatGPT if separately eligible (MEDIA) | LATER | **DEFER** | Generation pricing, credits, account eligibility not verified; UNKNOWN/DENY |
+| [Spline official ChatGPT MCP URL](https://mcp.spline.design/mcp) | Optional integration endpoint requiring user account/OAuth and separate consent (CLOUD MCP) | LATER | **DEFER** | No free code export assumed; external transfer; no activation |
+| [PlayCanvas Editor](https://playcanvas.com/editor) | Public online 3D editor and hosting, potential visual prototyping (CLOUD DESIGN) | OPTIONAL | **DEFER** | Free public-project visibility/size restrictions; no private asset upload |
+| [WebPageTest](https://www.webpagetest.org/) | External waterfall/perf comparison (PERFORMANCE) | E7 | **CONDITIONAL** | Starter free reported, quota/account region unverified; not GPU inspector |
+| [PageSpeed Insights](https://pagespeed.web.dev/) | Page-level CWV/Lighthouse diagnostics (PERFORMANCE) | E7 | **CONDITIONAL** | Public URL only; cannot reveal WebGL internals |
+| [urlscan.io](https://urlscan.io/) | Public site screenshots/network capture (REMOTE NETWORK) | E1 | **DEFER** | Public scan disclosure risk; no need with local CDP; avoid private URLs |
+
+**Source-A recorded pricing/access:** Spline Free reported usable visual editing but watermarked web output and restricted code export; official current [pricing](https://spline.design/pricing) needed at account activation. AI credits, quotas, payment, region and private/project visibility **NOT VERIFIED**. PlayCanvas may provide free public projects; do not upload reference binaries/confidential inputs. WebPageTest free Starter and the exact PlayCanvas free storage/public quotas from the original text are HISTORICAL claims needing a fresh official check. Browserbase/Browserless/TinyFish/Firecrawl and external media model plugins have no proved advantage over local live GPU capture; pay/overage UNKNOWN = DENY. Product Design/fal were listed as potential ChatGPT plugins, NOT required or installed as part of this project.
+
+### A6. نتیجه و ترتیب پیشنهادی گزارش نخست (retained as proposal, not authorization)
+1. Existing isolated Chrome DevTools CLI + Playwright first (privacy flags, one clean baseline).
+2. Spector.js + optional MCP with user-approved local install/config; store sanitized GPU summary and no unlicensed source/texture export.
+3. Start small independently authored local Three.js flower valley only after owner-approved Codex implementation scope.
+4. Add Three.js DevTools MCP and development-only stats-gl/Tweakpane when an actual own Three.js scene exists.
+5. RenderDoc/Blender/Spline only when specific need survives a simpler alternative.
+6. No automatic model service account, payment, cloud credits, public deployment, unbounded browser extension permission or new monitoring/registry.
+
+## III. Report B — پژوهش گستردهٔ همهٔ نرم‌افزارها، حتی بدون MCP (تمام محورهای گزارش)
+
+### B1. ابزارهای GPU، Frame Capture، هندسه و Shader
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Ispettore](https://github.com/velvetfrustum/ispettore) | WebGL/WebGPU frame capture, pipeline, shader metadata/state and saved-capture comparison (GPU INSPECT) | E2-ALT | **EXPERIMENTAL** | Apache-2.0; Oct 2026 GitHub repo, low adoption; manual browser-extension risk |
+| [webgd](https://github.com/Snowapril/webgd) | MV3 Chrome WebGL2/WebGPU frame debugger, Rust/WASM UI (GPU INSPECT) | E2-ALT | **EXPERIMENTAL** | MIT; created Nov 2026; experimental; audit extension privileges |
+| [WebGL Developer Tool](https://github.com/srinivas-86/webgl-developer-tool) | In-browser WebGL1/2 inspector and frame profiler, shaders/uniforms/framebuffers (GPU INSPECT) | E2-ALT | **UNVERIFIED** | Licence metadata NOASSERTION in Nov snapshot; do not assume permissive |
+| [WebGLRipper](https://github.com/int3re/WebGLRipper) | Extension for some rendered 3D geometry/texture export to glTF/OBJ; can inspect buffers (GEOMETRY) | E5-ALT | **DEFER** | MIT; can fail/return point buffers on this GPU-particle scene; third-party extraction rights |
+| [WebGL Model Extractor](https://github.com/binbuf/webgl-model-extractor) | Experimental WebGL model/transform/buffer extraction (GEOMETRY) | E5-ALT | **EXPERIMENTAL** | MIT; very new, scarce independent validation |
+| [meshgrab](https://github.com/kmatzen/meshgrab) | Intercept/upload WebGL vertex buffers and textures; produce glTF (GEOMETRY) | E5-ALT | **EXPERIMENTAL** | MIT; new; extensive extension permissions; do not ingest proprietary assets |
+| [GLSL Shader Editor Extension](https://github.com/spite/ShaderEditorExtension) | Chrome DevTools extension to inspect/test live GLSL changes (SHADER OBSERVER) | E2-ALT | **CONDITIONAL** | MIT, long-standing; compatibility with recent Edge unverified |
+| [WebGL Insight](https://github.com/XanderLuciano/webgl-devtools) | Legacy WebGL DevTools extension, draw-call/overdraw diagnostic (GPU OBSERVER) | E2-ALT | **DEFER** | MIT but last substantive project activity old; prefer Spector |
+
+**Original report comparative GitHub snapshot 2026-11-17, NOT long-lived trust metrics:** Spector.js ≈1,635 stars/MIT; Ispettore ≈1/Apache-2.0; webgd 0/MIT; WebGL Developer Tool 0/`NOASSERTION` or unverified licence; WebGLRipper ≈10/MIT; WebGL Model Extractor 0/MIT; meshgrab 0/MIT; ShaderEditorExtension ≈636/MIT. No endorsement based on stars alone. New extensions can request sensitive URL/page/JS/downloads permissions; review manifest, tests, updates, publisher, telemetry and rollback; install in a separate test profile only. `WebGL Insight` historical project has substantially older activity. Low stars are security/maintenance uncertainty, NOT mathematical proof of poor quality.
+
+**Core capability distinctions:** Spector/Ispettore/webgd inspect GPU pipeline; WebGLRipper/meshgrab/Model Extractor can reconstruct some **renderable** geometry and export GLB/OBJ but cannot guarantee original assets/program structure; ShaderEditorExtension can alter running Shader preview but must NOT be used as a means to export unlicensed source code into DJMRN. Site's 960,000 point elements per frame can represent GPU points, not 960,000 individually modeled flowers.
+
+### B2. Client JS, network, HAR, source maps and archiving
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [Chrome DevTools Network](https://developer.chrome.com/docs/devtools/network/reference/) | HTTP waterfall, URL/type/content length, timing, headers, sanitized HAR (NETWORK) | E1 | **CORE** | Already in browser; HAR may carry cookies/credentials; sanitize |
+| [Chrome DevTools Sources](https://developer.chrome.com/docs/devtools/javascript/) | Read publicly delivered browser JS/Source Maps, inspect event listeners and breakpoints (RUNTIME OBSERVER) | E1 | **CORE** | Source Map not always served; no promise of original authoring project |
+| [jsdj](https://github.com/ejfkdev/jsdj) | Analyze dynamically loaded JS and any accessible source maps (JS ANALYSIS) | E1-ALT | **CONDITIONAL** | MPL-2.0; non-invasive metadata preferred; unknown maps remain unknown |
+| [Source Map Explorer](https://github.com/danvk/source-map-explorer) | Treemap/bundle exploration when source maps are available (JS ANALYSIS) | E1-ALT | **CONDITIONAL** | Apache-2.0; absence of maps means limited value |
+| [SingleFile](https://github.com/gildas-lormeau/SingleFile) | Browser extension to archive static page DOM/CSS in one HTML (ARCHIVE) | E1-ALT | **DEFER** | AGPL-3.0 repo; canvas/video not reliably captured; not 3D engine export |
+| [WebScrapBook](https://github.com/danny0838/webscrapbook) | Page archival/annotation backend or local file (ARCHIVE) | E1-ALT | **DEFER** | MPL-2.0; unnecessary for known browser instrumentation |
+| [Wappalyzer open-source fork](https://github.com/HTTPArchive/wappalyzer) | Client-side technology fingerprinting (IDENTIFY) | E1-ALT | **DEFER** | Fork/project maintenance/licensing unverified; heuristics not proof |
+| [HAR Viewer](https://github.com/janodvarko/harviewer) | View sanitized HTTP Archive files locally (NETWORK) | E1-ALT | **CONDITIONAL** | Only after safe HAR export; page may include private URLs |
+
+**Source-B limitations:** DevTools `Sources` and third-party source-map tooling only reveal materials the client actually receives; no source map => no recovered authored source. A HAR may contain auth/cookies/private URLs, so sanitize locally and do not publish raw HAR. SingleFile saves useful page content but **does not reconstruct working WebGL canvas state or engine**; its own known issues note canvas/video snapshot limitations. Wappalyzer fingerprint heuristics aren't proof of scene architecture. jsdj / SingleFile / WebScrapBook are *alternatives*, not mandatory parallel collection paths.
+
+### B3. Controlled screen recording / video / camera motion analysis
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | Windows region video/GIF/frame sequence capture with visual control (VIDEO) | E3-E4 | **CONDITIONAL** | Free open source; user-assisted alternate to Playwright screenshots |
+| [ShareX](https://github.com/ShareX/ShareX) | Windows screenshot/screen-record macros (VIDEO) | E3-ALT | **DEFER** | Free; overlapping ScreenToGif/Playwright |
+| [LosslessCut](https://github.com/mifi/lossless-cut) | Video cutting/frame extraction without full nonlinear editor (VIDEO) | E4 | **CONDITIONAL** | GUI optional, FFmpeg enough for batch |
+| [FFmpeg](https://github.com/FFmpeg/FFmpeg) | Extract timestamped frames, crop and encode trace videos (VIDEO PIPELINE) | E4 | **CONDITIONAL** | CLI free; install only if needed |
+| [OpenCV](https://github.com/opencv/opencv) | Optical flow/keypoint tracking to quantify apparent movement with and without input (IMAGE ANALYZER) | E4 | **CONDITIONAL** | Not 3D camera coordinate recovery; timing/control confounds |
+| [Perfetto](https://github.com/google/perfetto) | Trace viewer for CPU/render/browser scheduling (PERF ANALYZER) | E7 | **CONDITIONAL** | Free; only if a relevant trace exists |
+
+**Study protocol:** replay comparable cold-load sequences: idle control; pointer L/R; hold 1s then release; drag across 2 points; click only; CTA hover enter/exit; wheel; mobile tap; with multiple replicates and comparable viewport/browser/device. Record timestamp, pointer x/y, viewport, URL, page state, screenshot/video and frame delta. Compare `optical flow` after aligning frames with auto-animation; apparent movement is NOT a calibrated 3D camera displacement. Use OpenCV/FFmpeg only if Playwright frame evidence cannot answer a specific behavior question. ScreenToGif and ShareX overlap; choose one if human captures necessary.
+
+### B4. Asset viewers, authoring, materials, Shader tools and 3D editing
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [glTF Tools for VS Code](https://github.com/AnalyticalGraphicsInc/gltf-vscode) | Inspect/validate glTF nodes/cameras/animation and render assets in VS Code (ASSET VIEWER) | E5 | **CONDITIONAL** | For owned/permitted files; version compatibility check |
+| [three-gltf-viewer](https://github.com/donmccurdy/three-gltf-viewer) | Local/browser rendered glTF visualization (ASSET VIEWER) | E5 | **CONDITIONAL** | Does not disclose original 3D source mesh if reference GLB is camera path only |
+| [Khronos glTF Sample Viewer](https://github.com/KhronosGroup/glTF-Sample-Viewer) | Reference glTF rendering, materials and animations (ASSET QA) | E5 | **CONDITIONAL** | For owned/permitted models; no new account needed |
+| [Blender](https://www.blender.org/) | Native 3D modeling/animation, mesh/curve exploration, export GLB (3D BUILD) | E6-ALT | **DEFER** | Open-source GPL; min RAM 8GB, more is recommended; heavy for initial slice |
+| [Material Maker](https://github.com/RodZill4/material-maker) | Procedural material/noise authoring for own textures (ASSET BUILD) | E6-ALT | **CONDITIONAL** | MIT reported in previous study; optional specialized GUI |
+| [Shader Park](https://github.com/shader-park/shader-park-core) | Procedural GPU/GLSL creative graphics tool (ORIGINAL SHADERS) | E6-ALT | **CONDITIONAL** | Study library licence and own shader needs before install |
+| [Shader Studio](https://github.com/void032/shader-studio) | Live GLSL authoring and preview in browser (ORIGINAL SHADERS) | E6-ALT | **CONDITIONAL** | Demo/version/current maintenance need smoke test |
+| [Theatre.js](https://github.com/theatre-js/theatre) | Timeline/curve authoring for camera and choreographed animation (CAMERA) | E6-ALT | **DEFER** | Try original spline/easing first; added library overhead |
+| [Three.js Editor](https://github.com/mrdoob/three.js/tree/dev/editor) | Free browser-based Three.js scene editor (OWN SCENE) | E6-ALT | **OPTIONAL** | Not automatically the shipped website runtime |
+| [Three.js DevTools](https://github.com/threejs/three-devtools) | Inspect own Three.js scene graph/objects in browser (OWN SCENE QA) | E7 | **CONDITIONAL** | Different from third-party full WebGL engine introspection |
+
+**Original report observations:** glTF Tools, three-gltf-viewer and Khronos Viewer are useful for valid OWN/authorized files and reference metadata, not evidence the reference's camera-only `camera-path07.glb` includes actual flower meshes. Blender graphical work is locally resource-sensitive on 8 GB laptop; Material Maker and Shader Studio are optional texture/shader production tools. Theatre.js is overkill if a simple custom camera spline and easing suffice. Three.js Editor/DevTools serve OUR authored scene and do not reverse proprietary scene internals by magic.
+
+### B5. Public web apps and performance diagnostics
+| نام و منبع رسمی / GitHub | نقش و دادهٔ مورد نظر | گام | وضعیت پیشنهادی | محدودیت / مجوز / امنیت |
+|---|---|---|---|---|
+| [PlayCanvas Editor](https://playcanvas.com/editor) | Cloud 3D scene authoring, possible public free samples (CLOUD 3D) | E6-ALT | **DEFER** | Account/public-project risk; exact free limits to re-verify |
+| [Spline cloud editor](https://spline.design) | Cloud/desktop 3D visual editor with official MCP (CLOUD 3D) | E6-ALT | **DEFER** | Watermarked Free export; no paid code export assumed |
+| [WebPageTest](https://www.webpagetest.org/) | Hosted load waterfall and metrics for our own site (WEB QA) | E7 | **LATER** | Not internal shader inspect; quotas unknown until account verified |
+| [PageSpeed Insights](https://pagespeed.web.dev/) | Public page performance diagnostics (WEB QA) | E7 | **LATER** | Can inspect public test route later, not isolated local scene |
+| [urlscan.io](https://urlscan.io/) | Public/remote URL screenshot and request list (PUBLIC OBSERVER) | E1-ALT | **DEFER** | Sensitive URL leakage; browser local workflow preferred |
+
+**Original report:** PlayCanvas public/free accounts and Spline Free editor are possible no-code experimentation paths but not guaranteed unrestricted free source export; WebPageTest, PageSpeed Insights and urlscan.io measure public URLs, not private GPU internals. Public scans/assets may expose target URL, data, cookies or files. No account sign-up is demanded at this P3 phase. Any cost, credit, overage, public status or region unknown => `UNKNOWN/DENY`.
+
+## IV. Exact technical source reference and baseline on owner's Gladeye demo
+
+- Research target: [Gladeye official website](https://www.gladeye.com/); owner-supplied Fernhollow text describes an interactive night-flower valley. Site reference itself is commercial and its proprietary images/GLB/JS/GLSL/audio remain **rights unknown**. [Original live findings and independently written inspector scripts](fernhollow-gladeye-reactive-valley.md).
+- Observed Windows Edge WebGL2 on AMD Radeon Vega 8 via ANGLE/D3D11; desktop canvas **1280×800** and emulated mobile **390×844**.
+- **11 linked programs**, **22 shader submissions**, main flower/leaf program **36 uniform entries and 12 attributes**; Bloom/blur/vignette/noise-related runtime program metadata; **23 texture allocation calls** and **20 buffer upload calls** in prior sampled run (not necessarily unique GPU objects).
+- Independent capture shows per sampled frame: `drawElements(GL_POINTS, count=960000)` **1 draw**, `drawElements(GL_TRIANGLES, count=6)` **1 draw**, and `drawArrays(GL_TRIANGLES,count=3)` **14 draws**, **16 draws** in total. 960k submitted point elements != 960k discrete flower models and is not target budget for DJMRN.
+- Previous 80 rAF delta intervals: median **16.7 ms**, p95 **33.4 ms**, maximum **49.9 ms**, only that run and not certified GPU timing/FPS. No prior JS errors or failed page requests in the successful audit.
+- Real pointerdown/up, click, drag, wheel and emulated touch events were observed; hovering reference CTA visibly dispersed flowers into glow points; exact **click-only camera-boost** NOT verified, because scene's autonomous camera motion confounds visual evidence.
+- Public `camera-path07.glb` in prior sanitized metadata: glTF2 / approximately **10,132 bytes**, 1 perspective camera, **zero mesh nodes** and three animation channels (translation/rotation/scale), ~200 samples over **8.2917s**. It is NOT the authored flower model.
+- Prior licensed-unknown original site assets include 8 PNG families (flower atlases, terrain, vignette, rays, dust) plus GLB and MP3; metadata inspection is distinct from an ownership/right-to-import claim. Local reference screenshots and owner prompt are privately in existing laptop ZIP (previously 40 files, 3,442,977 bytes, SHA-256 noted in reference file; not revalidated by this documentation-only step).
+- **Background-only first, then later hybrid composition** with three owner-selected VP/SC/SV interaction prompts. Keeping future overlays out of this prototype prevents multiple fullscreen render loops, event ownership conflicts and expensive redesign.
+
+## V. Re-analysis: capability-to-tool selection, not tool accumulation
+
+| Real gap today | Existing tool/first adequate route | New tool only if evidence requires | Exact deliverable | Stop criterion |
+|---|---|---|---|---|
+| Network/JS/canvas baseline | Playwright + installed Chrome DevTools CLI | None | sanitized URL/type/size/count/DOM & console summary | request/console traces reproducible |
+| GPU-pass ordering and texture binding | existing read-only counters + **Spector.js** | Ispettore/webgd only if capture gap | per-frame GL command table, FBO/texture dimensions, shader *metadata* | captures no raw third-party program/texture bytes |
+| Causal input/velocity/camera behavior | Playwright scripted trials with repeated time alignment | FFmpeg/OpenCV only if still ambiguous | A/B storyboard + event/timing matrix | observed vs assumed clearly distinguished |
+| GLB/camera metadata | existing inspector + browser permitted glTF viewers | glTF-Transform/Validator for original files | camera path/animation channel facts | no claim of flower meshes in camera-only GLB |
+| Recovering mesh from point-rendered engine | **not mandatory**; reason from GPU attributes/draw modes | experimental rippers only with explicit lawful scope | feasibility/noise findings, not original asset bundle | stop if only points/unusable geometry or rights unknown |
+| Original scene engineering | deterministic Three.js + seeded sprites/camera | procedural asset authoring optional | self-owned background with interaction controls | beautiful enough AND responsive/low GPU |
+| Live tuning and QoS | initial numeric controls + browser trace | Tweakpane/stats-gl, Three DevTools when scene exists | tuned parameter table and measured budget | stable comparable trials |
+| Cloud/no-code designer | no account needed | Spline/PlayCanvas only proven additional value | original editable exploratory asset if lawful | STOP for free restrictions/credit/lock-in |
+
+**Decision (JUDGMENT / proposed):** For this P3 site background the highest incremental value is **one isolated Spector.js frame audit** after fully using installed Playwright + CDP. On a source rendering 960k GPU points, prioritize GPU state and texture passes **over** installing 3-4 uncertain mesh-ripper extensions. No Google/webcloud signup is required. Stage steps in §VI and owner's roadmap are operational prerequisites, not license to code/build or implicitly select final visual style.
+
+## VI. Website-only staged execution proposal — P3-H/B11 substeps E0–E8
+
+These are **small substeps of the existing P3 §1C-H / B11**, not new P#, B#, standalone site/app/agent infrastructure, service-wide rollout, or status authority. **At each E#: owner approves any install/permission/paid use and the separate Codex build handoff.** Not all candidates are installed. Tool rows above indicate possibilities, not a shopping cart.
+
+| Substep | User-facing goal / task | Tools, exact configuration and evidence | PASS / failure / rollback / owner gate |
+|---|---|---|---|
+| **E0 — Ground truth and preflight** | Verify both GitHub and laptop state, old 40-entry private reference ZIP and branch separation; source rights/URL/targets; inventory installed editors/extensions | GitHub read; Commander read-only; Playwright from existing installed directory; optional inspect browser extension inventory via isolated profile | PASS only with actual file path/size/hash/branch/tool versions; no overwriting desktop settings; no INSTALL |
+| **E1 — Existing browser controls** | Complete running Chrome DevTools CLI and Edge/Playwright trace setup without installing duplicates | Isolated Edge profile + new DevTools tool commands; Chrome config `--isolated --no-usage-statistics --no-performance-crux` (verify flags via `--help`); disable update checks if supported; save only sanitized Network/console/perf summaries | PASS only if live target navigation, network request list and trace command work; if not, preserve old CLI config and use Playwright; no authenticated daily Chrome profile |
+| **E2 — Spector.js controlled browser extension/MCP** | Get one valid capture of normal frame then focus/hover frame | **Explicit approval** before extension/MCP install; inspect official package/release/manifest permissions/build; one isolated test browser profile and public URL; try official Spector browser UI first, separate MCP only if it offers incremental useful automation | PASS if GPU command count/order, texture bindings/dimensions and sanitized state match existing 16-draw observation; on failure disable extension/stop process and delete only new test profile; no third-party shader/PNG/export publication |
+| **E3 — Detailed input and scene tests** | Determine movement/hover/click/hold/drag/wheel/touch causal patterns | Existing scripted Playwright tests, timestamped screenshots/trace; compare idle controls and 3 repetitions, same viewport/render/DPR; Spector captures conditional frames where possible | Distinguish VERIFIED vs inconclusive; if autonomous camera prevents proof, log UNKNOWN; no scene or browser hacks/privileged changes |
+| **E4 — Only if ambiguity remains: motion study** | Estimate camera/particle apparent motion over time | Prefer Playwright frames; optionally one screen capture tool (ScreenToGif) OR ffmpeg/OpenCV as needed; isolate process in low-memory 8 GB laptop | Evidence is apparent 2D flow, not recovered 3D camera coordinates; avoid installing all video tools; stop if extra tooling adds no information |
+| **E5 — Reference extraction closeout** | Produce complete safe source→capability dataset: resource taxonomy, GPU phase diagram, camera/input state table, rights matrix, unknowns | Existing site reference record and sanitized JSON; permitted glTF/camera metadata; only if necessary additional tool validation | Deliver one detailed background **reverse-observation spec**, not proprietary app/assets; owner reviews whether enough information exists to start original scene |
+| **E6 — Original background build gate** | Owner compares lightweight Canvas/2.5D baseline vs contained Three.js/WebGL2; choose minimum viable original vertical | New original seeded flower/leaf sprites, dark central corridor, depth fog, camera spline; pointer repulsion, optional **new desired** press-to-advance, hover dispersal and return; adjustable particle/render budgets; owner-authored art | **Separate explicit owner authorization/brief to Codex Desktop** needed. No design choice or build initiated just from this document. T04/T05/T06/T13/T14/T34/T39 as applicable |
+| **E7 — Independent QA and tuning** | Performance, resilience, visual and security comparison on real output | Browser traces + Playwright, optional stats-gl/Tweakpane/Three DevTools if justified, device sizes 320/390/768/1280/1920, reduced-motion/no-WebGL/context-lost/background cleanup; screenshot comparisons | Real PASS/FAIL, no fabricated benchmark or UX claims; iterate via approved bounded Codex correction brief; page remains usable without effect |
+| **E8 — Later hybrid integration** | Combine owner-selected VP/SC/SV design prompts with the proven living background and service-shell UX | Master Creative Brief + compatibility matrix, event/scroll ownership, z-index, focus/reduced motion/RTL contracts, deep links/sample route and return; no duplicate render loop | Owner artistic approval, then bounded build/deploy gates; this is **later** than background-only proof, not automatic activation |
+
+### E0–E2 practical installation/configuration checklist (one by one, not all at once)
+
+**E0:** list installed Edge/Chrome profiles and browser extensions without accessing credentials; read-only `node --version`, existing Playwright/Chrome-devtools CLI `--help`; verify source file/folder and cold vs warm loading; capture current process/memory baseline and diff/branch. Do not change Defender, certificate verification, VPN/proxy or account security. Record what is **already installed, installed-but-not-working, and absent**.
+
+**E1:** start isolated clean Chrome/Edge via the **already installed** launcher/CLI; do not attach personal logged-in profile or grant debugging port to LAN. Check official [Chrome DevTools MCP options](https://developer.chrome.com/docs/devtools/agents/get-started/configuration) for isolated launch, telemetry and field-CrUX. Confirm a real live navigation, network list, console and lightweight performance trace. Ensure completion with closed processes and no confidential header export. Use original Playwright fallback if Chrome CLI fails.
+
+**E2:** official [Spector extension guide](https://github.com/BabylonJS/Spector.js/blob/master/documentation/extension.md) or [repo-local MCP guide](https://github.com/BabylonJS/Spector.js/blob/master/mcp/README.md). Installation requires specific owner consent for exact release/browser permissions; check package lock and manifest/extension host scope; don't blindly run curl | sh or unreviewed update script. Profile is temporary; only target public site. Open DevTools → Spector capture-frame UI, inspect one capture and redact raw shaders/textures. MCP might need Node build and local stdio configuration in a supported client; **Commander can run local CLI/process, but does not magically register MCP as a ChatGPT tool**. If MCP bridge is harder than UI, prefer the UI. Test extension disable/uninstall rollback.
+
+**E3/E4:** build a scripted A/B observation schedule, not a new agent: multiple replicates of idle, pointer, press/release, drag, empty click, scroll, CTA hover/exit at fixed viewport. Use isolated recordings and sanitized metrics. Involve user manually only if GUI behavior requires it.
+
+**External accounts:** None mandatory at E0–E5. Spline/PlayCanvas/free cloud subscriptions are optional only after evidence shows specific utility impossible locally. Before an owner registers: current official Free quota, file privacy/publicity, watermark, code export, region, card requirement, retention and overage controls must be verified. If missing -> **UNKNOWN/DENY**, do not register or transfer private data.
+
+### Handoff and test boundary
+
+- Research/management project owns study/choice/proposal and independently reviews resulting Git diff, screenshots and tests; **Codex Desktop is a completely separate project**, has no shared project memory/automatic dispatch.
+- Prototype implementation or Codex settings modifications require a separately approved written task brief; do not run coding from the management project just because Commander can execute commands.
+- Existing T04/T05/T06/T13/T14/T34/T39 and other required original site tests remain **NOT_RUN for DJMRN**. The successful *reference* audits are not tests of a built DJMRN scene.
+- The private owner ZIP remains local/private; do not attach third-party licensed-unknown imagery to public GitHub. Site reference text/assets carry links and sanitized metadata only.
+- Documentation stage DONE means link/sha readback and clear next stage; build scene, connect cloud tools, publish, migrate, merge or install are separate gates.
+
+## VII. Official/primary technical references for follow-up (site-specific research only)
+
+- Spector.js [repo](https://github.com/BabylonJS/Spector.js), [MCP](https://github.com/BabylonJS/Spector.js/blob/master/mcp/README.md), [extension](https://github.com/BabylonJS/Spector.js/blob/master/documentation/extension.md), [license](https://github.com/BabylonJS/Spector.js/blob/master/LICENSE.txt)
+- Chrome DevTools MCP [official source](https://github.com/ChromeDevTools/chrome-devtools-mcp), [configuration / privacy flags](https://developer.chrome.com/docs/devtools/agents/get-started/configuration), Chrome [Network](https://developer.chrome.com/docs/devtools/network/reference/) and [Sources](https://developer.chrome.com/docs/devtools/javascript/)
+- Playwright [tracing](https://playwright.dev/docs/api/class-tracing), [clock and rAF](https://playwright.dev/docs/clock), [test snapshots](https://playwright.dev/docs/test-snapshots)
+- Alternative WebGL inspector [Ispettore](https://github.com/velvetfrustum/ispettore), [webgd](https://github.com/Snowapril/webgd), optional [GLSL Shader Editor](https://github.com/spite/ShaderEditorExtension)
+- Geometry export research [WebGLRipper](https://github.com/int3re/WebGLRipper), [How it works](https://int3re.github.io/WebGLRipper/how-it-works.html), [meshgrab](https://github.com/kmatzen/meshgrab), [WebGL Model Extractor](https://github.com/binbuf/webgl-model-extractor)
+- [SingleFile limitations](https://github.com/gildas-lormeau/SingleFile/blob/master/known-issues.md)
+- [Three.js MIT](https://github.com/mrdoob/three.js), [buffer geometry](https://threejs.org/docs/#api/en/core/BufferGeometry), [dispose](https://threejs.org/manual/pages/how-to-dispose-of-objects.html)
+- [MDN WebGL best practices](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices), [WebGL context loss](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/webglcontextlost_event)
+- [Blender current requirements](https://www.blender.org/download/requirements/), [Spline plans](https://spline.design/pricing), [Spline MCP](https://docs.spline.design/generate/spline-mcp-server)
+- [Poly Haven rights](https://polyhaven.com/license), [ambientCG license](https://ambientcg.com/view?id=README), [Kenney rights](https://kenney.nl/support), [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/)
+- Background evidence: [owner-selected Gladeye case](fernhollow-gladeye-reactive-valley.md), original local sanitized [Playwright WebGL audit](djmrn-valley-input-render-audit-20261117.cjs) and [GPU point drawmode capture script](djmrn-valley-draw-mode-audit-20261117.cjs).
+
+**Research outcome:** All cited topics/links/classes in reports A+B retained in one SITE-only document, deduplicated on identity and reclassified for this **one** working-background mission. `RESEARCH/PROPOSAL`; no new tools installed, accounts opened, Copilot/Codex dispatched, external credentials transferred, source asset copied or production website code written by this document.
