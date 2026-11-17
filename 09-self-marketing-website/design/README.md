@@ -19,6 +19,10 @@ Preserve enough inputs and provenance to continue after a chat/context change wi
 
 The owner requires working presentation across **phone, tablet, compact notebook/laptop, desktop and large-screen/monitor layouts**. Maintain **one** design system/site with fluid adaptation and content-first breakpoints, not separate device-themed sites. When analyzing the three owner-selected interaction prompts and reactive animated background, record the target layout and trigger differences at small/touch, medium/tablet, notebook and large/mouse/keyboard viewports; ensure all VP→SC→SV choices remain operable and visible. Hover-only effects need tap/focus alternatives, motion/3D should degrade cleanly on slower phones, and every view needs accessible reduced-motion and background-off paths. See canonical [B12](../MASTER-ROADMAP.md) for the actual width/zoom/RTL/LTR test matrix. No chosen original design or responsive test has passed yet.
 
+## Website-only source examination / tools research (owner-confirmed 2026-11-17)
+
+The two owner-supplied studies about **site-reference GPU/WebGL/geometry/video/JS data extraction and independently rebuilding a hybrid living background**, including software, browser extensions, local CLI, MCP and optional web services with/without AI access, are preserved together as a **single website design-research artifact**: [WebGL/website reference extraction tools — Reports A+B and E0–E8 sequence](home/website-reference-extraction-tool-study-2026-11-17.md). This record is scoped solely to **this website's source-inspection and original-design workflow**, with no canonical catalogue, authority, synchronization, index or data link to other DJMRN research programs. It is NOT a separate project status log, service registry, preapproved software purchase/install plan or codebase. All live progress stays in site `PROJECT-LOG.md`; the existing P3/B11 lifecycle is in `MASTER-ROADMAP §1C-H.8` and indexed in `EXECUTION-PLAN.md`.
+
 ## Source branches — create ONLY on first real input
 
 ```text
