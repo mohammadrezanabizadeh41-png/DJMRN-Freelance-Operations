@@ -9,6 +9,12 @@ Preserve enough inputs and provenance to continue after a chat/context change wi
 
 **Website IA is FIXED:** single DJMRN home with 8 `VP01–VP08` service portals → 24 `SC01–SC24` corridors revealed **inside the same main homepage** → individual `SV01–SV52` service window with description and 0–many gallery items → separately branded demo route/immersive sample when appropriate → visible return to originating service. A video service may have a distinctive fullscreen cinematic showcase with replay/close/back, controls and a reduced-motion fallback; specialized exhibitions are not eight independent site-navigation systems.
 
+## Owner clarification 2026-11-17 — multilingual + prompt-first, no mandatory media upload
+
+- **GLOBAL/LANGUAGE-AGNOSTIC BY DESIGN:** This is one international DJMRN site, not a Persian-only website. B04 [MASTER-ROADMAP](../MASTER-ROADMAP.md) now explicitly retains owner-targeted future `en/fa/ar/fr/de/nl` (including Dutch), plus other languages to prioritize later. Make graphical hierarchy/components/interaction states naturally adaptable to `dir=rtl` and `dir=ltr`, long and short labels, Unicode typography, language switch and locale-aware demo return. The initial launch set and translated coverage remain unapproved; only working reviewed locale routes count as supported.
+- **PROMPTS ALONE ARE A VALID FIRST DESIGN INPUT:** The owner has collected the three selected hierarchical interaction prompts and a live background design prompt and will supply them. We can begin H.1–H.4 analysis from prompt text alone, distinguish described animation from *observed* animation, and specify original graphics to be created later. Images/video/models and live prototype URLs are **optional additional evidence**, not prerequisites for receiving prompts. If a prompt leaves essential visual motion/click response/rendering details unresolved, ask for that particular source demo link or a short recording at the relevant validation gate; never fabricate how the original looked.
+- Do not copy/render third-party protected text/media into this **public repository** without actual redistribution rights; record an original derived design description and URL when raw prompt/media may not be published. Never state that text prompts guarantee identical output or actual working 3D.
+
 ## Source branches — create ONLY on first real input
 
 ```text
