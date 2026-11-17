@@ -23,10 +23,12 @@
 
 **Local research archive (owner's PC; supporting OBSERVATIONS, not alternative authority):** `~/Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261117/`
 - `browser-audit.json` (first observed desktop/mobile state, requests, interaction snapshots, short frame interval sample)
-- `browser-audit-recheck.json` (rerunnable script's secondary output; existence/complete test should be checked against current device)
+- `browser-audit-recheck.json` (SECOND INDEPENDENT LIVE RUN **PASS**: committed script copied to Windows, `node --check` EXIT 0, test exit 0, six new screenshots, 51 network response records, 0 page JS errors, 0 failed requests, WebGL2 detected on both desktop and mobile emulation)
 - `desktop-00-loaded.jpg`, `desktop-01-pointer-left.jpg`, `desktop-02-pointer-right.jpg`, `desktop-03-wheel-forward.jpg`, `desktop-04-wheel-backward.jpg`, `desktop-05-cta-hover.jpg`, `desktop-06-background-click.jpg`
 - `mobile-00-loaded.jpg`, `mobile-01-tap.jpg`, `comparison-contact-sheet.jpg`, `screenshot-checksums.json`
 - `fernhollow-valley-audit.cjs` (local copy of the linked read-only research script; **not** site application source)
+
+**Verifiably packaged private local evidence:** `~/Desktop/DJMRN-Website-Reference-Evidence/DJMRN-fernhollow-valley-study-20261117-PRIVATE.zip` — **2,036,056 bytes, 21 entries**, SHA-256 `A13AC484BB726F652E258E9713557D7B0A51673313FB596727BB7EAE314600B9`; includes raw owner-pasted prompt, source-free research script, JSON and JPEG observations, but **not** Gladeye engine JS, audio, model, binary textures, browser session or cookies. Not mirrored to GitHub/cloud; safeguard as private study, not public distributable media.
 
 These screenshots and public site's proprietary assets are **not committed to the public repo**. The filenames and screenshot SHA-256 values can be checked in the local JSON. The contact sheet's mobile thumbnails were resized into landscape cells, **so their distorted aspect ratio is an artifact of that contact sheet**; inspect original portrait files before judging mobile design.
 
