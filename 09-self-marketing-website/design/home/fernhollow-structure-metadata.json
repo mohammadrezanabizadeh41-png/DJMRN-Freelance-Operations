@@ -1,0 +1,543 @@
+{
+  "source": "https://www.gladeye.com",
+  "date": "2026-11-17T17:21:15.343Z",
+  "type": "SOURCE-FREE STRUCTURAL METADATA ONLY",
+  "policy": "Inspected in memory; proprietary binaries, JS, shaders NOT stored",
+  "binary": [
+    {
+      "path": "/valley/camera-path07.glb",
+      "bytes": 10132,
+      "sha256_20": "dab4459358d8d22ec633",
+      "glb": {
+        "recognized": true,
+        "version": 2,
+        "declaredLength": 10132,
+        "chunks": [
+          {
+            "type": "JSON",
+            "bytes": 1304
+          },
+          {
+            "type": "BIN",
+            "bytes": 8800
+          }
+        ],
+        "generator": "Khronos glTF Blender I/O v3.2.43",
+        "glTFVersion": "2.0",
+        "scenes": 1,
+        "sceneNodes": [
+          1
+        ],
+        "cameras": [
+          {
+            "name": "Camera.001",
+            "type": "perspective"
+          }
+        ],
+        "nodes": [
+          {
+            "index": 0,
+            "name": "Camera",
+            "cam": 0,
+            "children": 0
+          }
+        ],
+        "nodeCount": 1,
+        "meshes": 0,
+        "meshSummaries": [],
+        "accessors": 4,
+        "positionsAccessors": 2,
+        "animationSummaries": [
+          {
+            "name": "Action.001",
+            "channels": 3,
+            "samplers": 3,
+            "paths": [
+              "translation",
+              "rotation",
+              "scale"
+            ]
+          }
+        ],
+        "textures": 0,
+        "materials": 0,
+        "buffers": 1,
+        "extensionsUsed": []
+      }
+    },
+    {
+      "path": "/valley/flowers/pool_summer.png",
+      "bytes": 249287,
+      "sha256_20": "6f16b2d004f5260df4bb",
+      "png": {
+        "width": 1500,
+        "height": 1312,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlace": 0
+      }
+    },
+    {
+      "path": "/valley/terrain.png",
+      "bytes": 8562,
+      "sha256_20": "13e59c971bcf087298c5",
+      "png": {
+        "width": 100,
+        "height": 129,
+        "bitDepth": 8,
+        "colorType": 2,
+        "interlace": 0
+      }
+    },
+    {
+      "path": "/valley/vignette.png",
+      "bytes": 7436,
+      "sha256_20": "cb96021890661683b94b",
+      "png": {
+        "width": 125,
+        "height": 88,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlace": 0
+      }
+    },
+    {
+      "path": "/valley/rays/ray2.png",
+      "bytes": 225311,
+      "sha256_20": "f6d0c3128ba89b03fa2c",
+      "png": {
+        "width": 1565,
+        "height": 1765,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlace": 0
+      }
+    },
+    {
+      "path": "/valley/dust-particle.png",
+      "bytes": 2102,
+      "sha256_20": "6a1dde1724aac0069dea",
+      "png": {
+        "width": 48,
+        "height": 52,
+        "bitDepth": 8,
+        "colorType": 3,
+        "interlace": 0
+      }
+    }
+  ],
+  "jsModules": [
+    {
+      "path": "/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "bytes": 111113,
+      "sha256_20": "f808e878ce520da53ffb",
+      "mentions": {
+        "fragmentShader": 10,
+        "vertexShader": 10,
+        "Points": 5,
+        "PointsMaterial": 1,
+        "BufferGeometry": 4,
+        "EffectComposer": 2,
+        "UnrealBloomPass": 3,
+        "gl_Position": 4,
+        "gl_FragColor": 4,
+        "uniform": 53,
+        "bloom": 30,
+        "touchmove": 6,
+        "mousemove": 4
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "bytes": 549571,
+      "sha256_20": "80bf95efc815127d7646",
+      "mentions": {
+        "ShaderMaterial": 18,
+        "RawShaderMaterial": 7,
+        "fragmentShader": 42,
+        "vertexShader": 42,
+        "Points": 36,
+        "PointsMaterial": 4,
+        "BufferGeometry": 18,
+        "WebGLRenderTarget": 4,
+        "AudioListener": 1,
+        "gl_PointCoord": 2,
+        "gl_Position": 16,
+        "gl_FragColor": 32,
+        "uniform": 353
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "bytes": 82741,
+      "sha256_20": "5f164d7403807a040949",
+      "mentions": {
+        "fragmentShader": 3,
+        "vertexShader": 3,
+        "startHoverTransition": 2,
+        "stopHoverTransition": 2,
+        "camera-path07.glb": 1,
+        "gl_PointCoord": 2,
+        "gl_Position": 7,
+        "gl_FragColor": 10,
+        "uniform": 131,
+        "vignette": 11,
+        "bloom": 17,
+        "pointermove": 2
+      },
+      "uniqueValleyPaths": [
+        "valley/audio/ge-ambient.mp3",
+        "valley/camera-path07.glb",
+        "valley/flowers/pool_summer.png",
+        "valley/flowers/pool_winter.png",
+        "valley/vignette.png",
+        "valley/dust-particle.png",
+        "valley/rays/ray1.png",
+        "valley/rays/ray2.png",
+        "valley/rays/ray3.png",
+        "valley/terrain.png"
+      ]
+    },
+    {
+      "path": "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256_20": "ecf5645d5ec8f5acdc5c",
+      "mentions": {
+        "touchmove": 3,
+        "pointermove": 2,
+        "mousemove": 3
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "bytes": 80490,
+      "sha256_20": "c837957c63f427ac0a09",
+      "mentions": {
+        "Points": 3,
+        "touchmove": 1,
+        "mousemove": 9
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/785-3ec288b614fa287f.js",
+      "bytes": 11256,
+      "sha256_20": "3a0249cfa4f13c02eaf3",
+      "mentions": {
+        "touchmove": 2,
+        "mousemove": 4
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/780-35f43a00462f78e8.js",
+      "bytes": 16685,
+      "sha256_20": "bef8c0267c6ab0297821",
+      "mentions": {
+        "touchmove": 1
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "bytes": 141609,
+      "sha256_20": "07f6da685fd76e30a9c1",
+      "mentions": {
+        "pointermove": 1
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/672-92aa0f16298fa475.js",
+      "bytes": 19277,
+      "sha256_20": "3e4f45f0033f6de9857a",
+      "mentions": {
+        "Points": 4
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "bytes": 38686,
+      "sha256_20": "ec97c32c5f29dac3417d",
+      "mentions": {
+        "Points": 2
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "bytes": 13682,
+      "sha256_20": "31dcdbdc2ddb6d7f4475",
+      "mentions": {
+        "pointermove": 2
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "bytes": 11135,
+      "sha256_20": "05978586c907f0d9b9fc",
+      "mentions": {
+        "mousemove": 2
+      },
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256_20": "e9ee6b17ba7c4f30a892",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256_20": "6c1dfdda7bd7193f9785",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256_20": "e83b0df5cc1f98de8e7b",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "bytes": 6751,
+      "sha256_20": "5e520073975eefe55444",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "bytes": 6157,
+      "sha256_20": "d6e8133aa3ab4e2fadc5",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/567-6466d5cc81546a43.js",
+      "bytes": 19252,
+      "sha256_20": "d760ffed0990e4d67451",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "bytes": 81048,
+      "sha256_20": "e4de34bf8a456614d34f",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/131-8efcfd03f067c029.js",
+      "bytes": 17110,
+      "sha256_20": "4455fa6cf7b4ff2efaa1",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "bytes": 30550,
+      "sha256_20": "133b733f5eab7e315ef0",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "bytes": 596,
+      "sha256_20": "5d68a0a8dff6bdfdaac3",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/8-5234b317a5794281.js",
+      "bytes": 5066,
+      "sha256_20": "31a365665836e8f3829c",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/230-777961633b59f201.js",
+      "bytes": 14536,
+      "sha256_20": "edd0768e163285b3642e",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    },
+    {
+      "path": "/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "bytes": 40996,
+      "sha256_20": "2886458cda6506b5a9aa",
+      "mentions": {},
+      "uniqueValleyPaths": []
+    }
+  ],
+  "events": {
+    "window": [
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": true,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": true,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "resize",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "error",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "pointermove",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "scroll",
+        "useCapture": false,
+        "passive": true,
+        "script": "/"
+      },
+      {
+        "event": "pageshow",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "pageshow",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "popstate",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "pagehide",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "pagehide",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "pagehide",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "focus",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "blur",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "message",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "message",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "message",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      }
+    ],
+    "document.querySelector('canvas')": [
+      {
+        "event": "webglcontextlost",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "webglcontextrestored",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      },
+      {
+        "event": "webglcontextcreationerror",
+        "useCapture": false,
+        "passive": false,
+        "script": "/"
+      }
+    ],
+    "document.body": []
+  },
+  "errors": [
+    "BINARY /valley/flowers/pool_winter.png apiRequestContext.get: Timeout 22000ms exceeded.",
+    "BINARY /valley/rays/ray1.png apiRequestContext.get: Timeout 22000ms exceeded.",
+    "BINARY /valley/rays/ray3.png apiRequestContext.get: Timeout 22000ms exceeded."
+  ],
+  "summary": {
+    "canvas": 1,
+    "testedJSModules": 25,
+    "assetsInspected": 6,
+    "matchingShaders": 3
+  }
+}
