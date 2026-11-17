@@ -538,6 +538,100 @@
     "canvas": 1,
     "testedJSModules": 25,
     "assetsInspected": 6,
-    "matchingShaders": 3
+    "matchingShaders": 3,
+    "liveGpuInputAudit20261117": {
+      "evidenceLevel": "DIRECTLY_OBSERVED isolated Windows Edge; not source-code or commercial rights",
+      "scripts": [
+        "design/home/djmrn-valley-input-render-audit-20261117.cjs",
+        "design/home/djmrn-valley-draw-mode-audit-20261117.cjs"
+      ],
+      "sourceURL": "https://www.gladeye.com/",
+      "browser": "Edge 157 / ANGLE AMD Radeon Vega 8 D3D11 / WebGL2",
+      "desktopCanvas": [
+        1280,
+        800
+      ],
+      "emulatedMobileCanvas": [
+        390,
+        844
+      ],
+      "primaryLinkedGraphicsPrograms": 11,
+      "shaderSourceSubmissions": 22,
+      "primaryFlowerProgram": {
+        "activeUniformEntries": 36,
+        "activeVertexAttributes": 12,
+        "selectedUniformNames": [
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uDispersalProgress",
+          "uDispersalAmountMultiplier",
+          "uMousePosition",
+          "uBrightnessOnTouch",
+          "uSpriteSheetMix",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uNegativeSpaceDeepness",
+          "uCamFov",
+          "uTime"
+        ],
+        "selectedAttributes": [
+          "position",
+          "aSpriteScale",
+          "aRandomSeed",
+          "aPoolId",
+          "aValleySide",
+          "aSpriteIndex",
+          "aFlowerGrowNoise"
+        ]
+      },
+      "drawCallsPerCapturedFrame": [
+        {
+          "call": "drawElements",
+          "mode": "GL_POINTS",
+          "elementCount": 960000,
+          "calls": 1
+        },
+        {
+          "call": "drawElements",
+          "mode": "GL_TRIANGLES",
+          "elementCount": 6,
+          "calls": 1
+        },
+        {
+          "call": "drawArrays",
+          "mode": "GL_TRIANGLES",
+          "vertexCount": 3,
+          "calls": 14
+        }
+      ],
+      "reportedPointElementsNotDistinctFlowers": true,
+      "frameIntervalSample": {
+        "n": 80,
+        "p50ms": 16.7,
+        "p95ms": 33.4,
+        "maxMs": 49.9,
+        "isRepresentativePerformanceBenchmark": false
+      },
+      "observedInputs": [
+        "pointermove",
+        "pointerdown",
+        "pointerup",
+        "click",
+        "drag",
+        "wheel",
+        "CTA hover",
+        "touch tap (emulated)"
+      ],
+      "verifiedCTAFlowerDispersal": true,
+      "verifiedClickSpecificCameraAcceleration": false,
+      "reducedMotionEmulationStillWebGL": true,
+      "screenshotStatesDesktop": 10,
+      "screenshotStatesMobile": 2,
+      "newOriginalAuditDataPersistedOnlyOnOwnerPC": true,
+      "sourceAssetsOrShaderCopied": false,
+      "ownerPrivateZipEntryCount": 40,
+      "ownerPrivateZipSizeBytes": 3442977,
+      "ownerPrivateZipSHA256": "693F16497A2C2621D351F4F3325D6B5F5E64949BDD5942BE6B7A583E5151E063"
+    }
   }
 }
