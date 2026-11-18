@@ -49,7 +49,7 @@
 | webcrack | CLI JS ANALYZER | بازکردن ساختار بسته‌های Webpack/Browserify و خواناتر کردن JS مجاز | CLI/source v2.16.0; not original source restoration | [upstream](https://github.com/j4k0xb/webcrack) |
 | jsdj | JS ANALYZER | تحلیل JS و source mapهای قابل‌دسترسی | source candidate / not yet fetched | [upstream](https://github.com/ejfkdev/jsdj) |
 | Source Map Explorer | JS BUNDLE OBSERVER | نمای treemap از فایل‌هایی که source map دارند | npm/CLI candidate | [upstream](https://github.com/danvk/source-map-explorer) |
-| WebScrapBook | ARCHIVE | ثبت/حاشیه‌نویسی صفحه برای evidence | browser extension candidate | [upstream](https://github.com/danny0838/webscrapbook) |
+| WebScrapBook 2.27.3 MV3 | ARCHIVE / OBSERVER (X08) | ساخت و نصب مستقل از سورس در LocalAppData/DJMRN-Website-Toolkit/01-Analysis/WebScrapBook؛ Chrome 157 ایزوله با CDP؛ HTML/JS/CSS/font + timestamp/HTZ و هش، نه motion/GPU اصلی | **X08 ACTIVE/TESTED PASS (2026-11-18):** official source SHA checked; npm dependencies + Chromium MV3 build 623,019 B; owned-fixture + live gladeye HTZ 1,488,697 B / 19 entries; 11 exact X01 duplicates, 8 not byte-identical; no new GLB/PNG/audio; reusable CMD/PS/desktop shortcut; private ZIP recovery verified; browser default-profile untouched. [X08 evidence](../../graphics/flower-valley/evidence/X08-webscrapbook-operational-live-content-comparison.json) | [upstream](https://github.com/danny0838/webscrapbook) |
 | HAR Viewer | NETWORK | دیدن HAR پس از حذف cookie/token/headers حساس | web/source candidate | [upstream](https://github.com/janodvarko/harviewer) |
 | Wappalyzer community fork | TECH FINGERPRINT | شناخت تقریبی فناوری‌های صفحه؛ صرفاً heuristic | read-only alternative | [upstream](https://github.com/HTTPArchive/wappalyzer) |
 
