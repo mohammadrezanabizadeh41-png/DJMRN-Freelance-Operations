@@ -158,6 +158,27 @@
 
 
 
+## Core toolkit — exact Windows archive locations and serial-only recovery
+
+**Verified by read-only live Windows inspection on 2026-11-18:** All paths below are relative to `C:\\Users\\Mrn7206\\Downloads\\DJMRN-Website-Tools\\`. Downloaded does **NOT** mean installed/activated. These are the main tools the owner requested us not to overlook.
+
+| Main tool | Exact downloaded artifact | Proven state | Future role |
+|---|---|---|---|
+| Spector.js | `BINARY/spectorjs-extension-v0.9.33.zip` (714,810 bytes) | DOWNLOADED; browser permission/installation NOT DONE | GPU-frame Shader/texture/draw inspection |
+| REA | `SOURCE_ARCHIVE/morluto-rea-rea-agents-6.9.0.zip` (30,397,989 bytes) **and** `SOURCE_ARCHIVE/rea-agents-6.9.0.tgz` | DOWNLOADED; tool and MCP route NOT ACTIVATED | browser/CDP runtime & JS structural analysis |
+| Three.js | `SOURCE_ARCHIVE/three-0.187.0.tgz` (4,795,351 bytes) | DOWNLOADED as official **npm package**; NOT a Windows GUI .exe | original 3D rendering engine for reusable background |
+| Vite | `SOURCE_ARCHIVE/vite-8.3.8.tgz` (592,262 bytes) | DOWNLOADED as official npm package | local server/build for Three.js |
+| Babylon.js Editor | `VENDOR_BUNDLE/BabylonJS-Editor-5.5.3-Windows-setup.exe` (300,576,672 bytes; SHA-256 `6429CFDD137B86D6CD1AF7BB4988611F62B144A359283F7623D06440880CA139`) | DOWNLOADED; NO INSTALL | graphical 3D scene/editor; MCP connection untested |
+| Three.js DevTools MCP | `SOURCE_ARCHIVE/DmitriyGolub-threejs-devtools-mcp-v0.5.0.zip` (1,931,213 bytes) | SOURCE DOWNLOADED; no MCP activation | direct inspection of our own Three.js scene |
+| RenderDoc MCP | `SOURCE_ARCHIVE/JiaboLi-GitHub-renderdoc-mcp-v0.3.1.zip` (8,768,575 bytes) | SOURCE DOWNLOADED; no MCP activation | GPU debug bridge |
+| RenderDoc GUI 1.47 | `VENDOR_BUNDLE/RenderDoc-1.47-Windows-x64.msi` | **IN SINGLE-FILE DOWNLOAD QUEUE** at start, not yet confirmed completed in this record | frame capture and GPU inspector |
+| Spector and geometry alternatives | Ispettore, webgd, WebGLRipper, ShaderEditorExtension | source packages/extension captured in two manifests | independent GPU/Shader study; permission review before enabling |
+
+**User correction / download transfer policy:** Prior work erroneously started *three parallel downloads per script* and obscured the core items. The old `download-selected-tools.mjs` Node downloader was deliberately stopped after confirming its executable command line. The new authorized, **strictly sequential** download-only runner is `serial-download-only.mjs` in the same Downloads folder, and it processes remaining/failed items from both existing JSON queues **one file at a time**, with RenderDoc GUI first, followed by other remaining primary installers, then failure retries and remaining archives. It uses `curl.exe` resume support and stores per-file status/length/SHA-256. Status files are updated as files complete; `SERIAL-DOWNLOAD-LOG.txt` logs START/SUCCESS/FAIL transitions and `serial-download-queue.json` is the consolidated point-in-time queue. **Do not launch a second downloader while the serial runner is active.** Files ending in `.part` are incomplete and must not be counted as downloaded.
+
+**Core availability is a fact from current disk evidence, not an endorsement to install everything.** Extra copies (e.g. the separate tagged Three.js GitHub ZIP) may have failed while the canonical npm tarball exists. Never report a ZIP as complete just because an equivalent package was downloaded. Vendor installer versions (Babylon and Krita) already present should not be downloaded twice. User has expressly requested downloads only; no installer, source code, browser extension, MCP permission, paid API, or environment setting is to be activated during this stage.
+
+
 ## Download execution checkpoint — 2026-11-18 (partial; transfers still active)
 
 **WINDOWS READ-BACK / NOT DONE:** Local `DJMRN-LAPTOP` online; downloads in `C:\\Users\\Mrn7206\\Downloads\\DJMRN-Website-Tools\\`. Installation/extension activation/MCP registration/public deploy = **NONE** in this task. The snapshot below is **NOT** a final inventory. Always query both local status JSON files and actual files before resuming; they are updated during download. Do not relabel QUEUED/DOWNLOADING/FAILED as completed.
