@@ -9,6 +9,7 @@
 
 ## Site project navigation
 - [Research and tools](RESEARCH-AND-TOOLS.md) — standards, source URLs, free offerings, plugin/MCP capability, Codex and alternatives, observed network blockers.
+- [Comprehensive tool acquisition / download register](design/home/TOOLING-DOWNLOAD-INSTALL-CATALOG.md) — 87 extraction/3D/GUI/MCP/graphics entries with exact purpose, source, Windows GUI/CLI acquisition, safe download-only queue, and installation-status boundary; **read this when a new chat resumes desktop tool downloads**.
 - **[MASTER ROADMAP — Full professional site architecture](MASTER-ROADMAP.md)** — the controlling B01–B23 main/subbranch map, ~8–10 language architecture, modular service and showcase pages, motion/3D, research questions, dependency graph, tool/free-tier decisions, test matrix and staged approvals.
 - [Execution plan — START HERE](EXECUTION-PLAN.md) — operational per-stage procedure, P0–P10 gates, scoped Codex tasks and approvals.
 - [ChatGPT Project operating skill and setup](CHATGPT-PROJECT-OPERATING-SKILL.md) — copy-ready Project Instructions, live GitHub/Notion source hierarchy, multi-role research/design/QA policy, one-log stage handoff and new-chat recovery; **separate from Codex instructions**.
