@@ -1,0 +1,444 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "phase": "X01",
+  "reopening": "R2 actual first-party response bodies + R3 exhaustive offline static/format parsing",
+  "source_run": "X01-R2-2026-11-18T18-01-09-463Z",
+  "validation": "X01_DEEP_CAPTURE_AND_STATIC_STRUCTURE_PASS; RUNTIME_BEHAVIOR_AND_FULL_ROUTE_COVERAGE_DEFERRED_TO_LATER_STEPS",
+  "target": "https://www.gladeye.com/",
+  "private_storage_root": "Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261118-NEW-EXTRACTION",
+  "source_content": {
+    "browser_observed_requests": 51,
+    "first_party_body_files_captured": 47,
+    "first_party_bytes": 7746318,
+    "category_counts": {
+      "document": {
+        "count": 4,
+        "bytes": 703128
+      },
+      "css": {
+        "count": 3,
+        "bytes": 70586
+      },
+      "javascript": {
+        "count": 25,
+        "bytes": 1565461
+      },
+      "binary": {
+        "count": 4,
+        "bytes": 152500
+      },
+      "image": {
+        "count": 9,
+        "bytes": 1928737
+      },
+      "audio": {
+        "count": 1,
+        "bytes": 3315774
+      },
+      "model": {
+        "count": 1,
+        "bytes": 10132
+      }
+    },
+    "third_party_analytics_bodies_saved": false,
+    "inline_javascript_body_count": 23,
+    "source_raw_publicly_released": false,
+    "sha256_verification": {
+      "checked_files": 70,
+      "mismatches": 0
+    }
+  },
+  "extraction_depth": {
+    "external_script_ast_parsed": 25,
+    "external_ast_parse_failed": 0,
+    "inline_script_ast_parsed": 22,
+    "inline_jsonld_parsed": 1,
+    "webpack_chunk_registration_nodes": 24,
+    "numeric_module_definitions": 410,
+    "unique_numeric_module_ids": 382,
+    "static_dependency_edges": 1010,
+    "unresolved_edges_in_this_capture": 29,
+    "embedded_shader_string_candidates": 48,
+    "images_alpha_processed": 8,
+    "svg_parsed": 1,
+    "css_parsed": 3,
+    "woff2_header_checked": 4,
+    "glb_camera_path_parsed": true,
+    "mp3_first_frame_parsed": true
+  },
+  "candidate_modules_for_reconstruction": [
+    {
+      "module_id": "6375",
+      "source_file_id": "X01R2-A022",
+      "code_bytes": 549486,
+      "static_require_count": 0,
+      "role_tokens": {
+        "camera": 58,
+        "flower": 2,
+        "particles": 6,
+        "media": 2,
+        "shader": 268,
+        "main_render": 50
+      },
+      "heuristic_score": 234
+    },
+    {
+      "module_id": "889",
+      "source_file_id": "X01R2-A024",
+      "code_bytes": 39077,
+      "static_require_count": 41,
+      "role_tokens": {
+        "camera": 5,
+        "flower": 17,
+        "particles": 1,
+        "interaction": 2,
+        "media": 1,
+        "main_render": 5,
+        "gltf": 1
+      },
+      "heuristic_score": 97
+    },
+    {
+      "module_id": "9169",
+      "source_file_id": "X01R2-A024",
+      "code_bytes": 18622,
+      "static_require_count": 0,
+      "role_tokens": {
+        "flower": 15,
+        "particles": 2,
+        "shader": 3
+      },
+      "heuristic_score": 66
+    },
+    {
+      "module_id": "4059",
+      "source_file_id": "X01R2-A023",
+      "code_bytes": 9096,
+      "static_require_count": 3,
+      "role_tokens": {
+        "post": 28,
+        "shader": 30
+      },
+      "heuristic_score": 56
+    },
+    {
+      "module_id": "4863",
+      "source_file_id": "X01R2-A023",
+      "code_bytes": 43477,
+      "static_require_count": 1,
+      "role_tokens": {
+        "particles": 1,
+        "gltf": 25
+      },
+      "heuristic_score": 53
+    },
+    {
+      "module_id": "4417",
+      "source_file_id": "X01R2-A007",
+      "code_bytes": 160627,
+      "static_require_count": 2,
+      "role_tokens": {
+        "interaction": 18
+      },
+      "heuristic_score": 36
+    },
+    {
+      "module_id": "1944",
+      "source_file_id": "X01R2-A024",
+      "code_bytes": 434,
+      "static_require_count": 0,
+      "role_tokens": {
+        "flower": 8
+      },
+      "heuristic_score": 32
+    },
+    {
+      "module_id": "2321",
+      "source_file_id": "X01R2-A023",
+      "code_bytes": 29296,
+      "static_require_count": 0,
+      "role_tokens": {
+        "interaction": 9,
+        "main_render": 3
+      },
+      "heuristic_score": 27
+    },
+    {
+      "module_id": "5828",
+      "source_file_id": "X01R2-A021",
+      "code_bytes": 80419,
+      "static_require_count": 30,
+      "role_tokens": {
+        "interaction": 10,
+        "main_render": 2
+      },
+      "heuristic_score": 26
+    },
+    {
+      "module_id": "1879",
+      "source_file_id": "X01R2-A024",
+      "code_bytes": 252,
+      "static_require_count": 0,
+      "role_tokens": {
+        "flower": 5
+      },
+      "heuristic_score": 20
+    },
+    {
+      "module_id": "1385",
+      "source_file_id": "X01R2-A016",
+      "code_bytes": 4949,
+      "static_require_count": 6,
+      "role_tokens": {
+        "camera": 1,
+        "interaction": 6
+      },
+      "heuristic_score": 13
+    },
+    {
+      "module_id": "5879",
+      "source_file_id": "X01R2-A013",
+      "code_bytes": 54926,
+      "static_require_count": 51,
+      "role_tokens": {
+        "interaction": 6
+      },
+      "heuristic_score": 12
+    },
+    {
+      "module_id": "4590",
+      "source_file_id": "X01R2-A023",
+      "code_bytes": 5107,
+      "static_require_count": 0,
+      "role_tokens": {
+        "interaction": 5
+      },
+      "heuristic_score": 10
+    },
+    {
+      "module_id": "5633",
+      "source_file_id": "X01R2-A025",
+      "code_bytes": 90,
+      "static_require_count": 0,
+      "role_tokens": {
+        "flower": 2
+      },
+      "heuristic_score": 8
+    },
+    {
+      "module_id": "3041",
+      "source_file_id": "X01R2-A013",
+      "code_bytes": 1234,
+      "static_require_count": 1,
+      "role_tokens": {
+        "main_render": 2
+      },
+      "heuristic_score": 6
+    }
+  ],
+  "scene_asset_metrics": {
+    "camera_glb": {
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "camera_yfov_degrees": 22.89519204617112,
+      "animation_duration_s": 8.291666984558105,
+      "keyframes": 200,
+      "mesh_count": 0,
+      "approximate_local_camera_path_units": 506.27730271183685,
+      "aspect_ratio": 1.7777777777777777
+    },
+    "imagery": [
+      {
+        "id": "X01R2-A031",
+        "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+        "width": 1500,
+        "height": 1312,
+        "alpha_density_fraction": 0.169775,
+        "connected_regions_at_sample_resolution": 114,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A032",
+        "url": "https://www.gladeye.com/valley/dust-particle.png",
+        "width": 48,
+        "height": 52,
+        "alpha_density_fraction": 0.19671474358974358,
+        "connected_regions_at_sample_resolution": 1,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A033",
+        "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+        "width": 1500,
+        "height": 1312,
+        "alpha_density_fraction": 0.169175,
+        "connected_regions_at_sample_resolution": 258,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A034",
+        "url": "https://www.gladeye.com/valley/vignette.png",
+        "width": 125,
+        "height": 88,
+        "alpha_density_fraction": 1,
+        "connected_regions_at_sample_resolution": 1,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A035",
+        "url": "https://www.gladeye.com/valley/rays/ray1.png",
+        "width": 1701,
+        "height": 2416,
+        "alpha_density_fraction": 0.1047,
+        "connected_regions_at_sample_resolution": 1,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A036",
+        "url": "https://www.gladeye.com/valley/rays/ray2.png",
+        "width": 1565,
+        "height": 1765,
+        "alpha_density_fraction": 0.102325,
+        "connected_regions_at_sample_resolution": 1,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A037",
+        "url": "https://www.gladeye.com/valley/rays/ray3.png",
+        "width": 1535,
+        "height": 1970,
+        "alpha_density_fraction": 0.05423125,
+        "connected_regions_at_sample_resolution": 2,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      },
+      {
+        "id": "X01R2-A038",
+        "url": "https://www.gladeye.com/valley/terrain.png",
+        "width": 100,
+        "height": 129,
+        "alpha_density_fraction": 1,
+        "connected_regions_at_sample_resolution": 1,
+        "caveat": "Sampled alpha connected regions are not the number of flowers/sprites"
+      }
+    ],
+    "css_keyframe_structure": [
+      {
+        "id": "X01R2-A002",
+        "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "keyframes": [
+          "RandomFlower_rotate__XOc7J"
+        ],
+        "media_queries": 27
+      },
+      {
+        "id": "X01R2-A005",
+        "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+        "keyframes": [
+          "FlowerValleyText_animate-in__CIGec",
+          "FlowerValleyText_animate-out__JgJtR",
+          "Loader_rotate__X4lFd",
+          "Loader_circle-animation__kG_YY"
+        ],
+        "media_queries": 3
+      },
+      {
+        "id": "X01R2-A041",
+        "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+        "keyframes": [],
+        "media_queries": 25
+      }
+    ],
+    "fonts": [
+      {
+        "id": "X01R2-A008",
+        "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+        "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+        "bytes": 31866,
+        "tables": 17
+      },
+      {
+        "id": "X01R2-A009",
+        "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+        "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+        "bytes": 32760,
+        "tables": 17
+      },
+      {
+        "id": "X01R2-A010",
+        "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+        "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+        "bytes": 41902,
+        "tables": 18
+      },
+      {
+        "id": "X01R2-A039",
+        "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+        "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+        "bytes": 45972,
+        "tables": 18
+      }
+    ],
+    "audio": {
+      "id": "X01R2-A027",
+      "sha256": "e56ff90d828a14701832e4ece56f13791dfa25dfcddb0a64f40370ec763514d3",
+      "first_frame": {
+        "byte_offset": 32,
+        "version": "MPEG-1",
+        "layer": "III",
+        "bitrate_first_frame_kbps": 128,
+        "sample_rate_hz": 44100,
+        "channels": 2,
+        "samples_per_frame": 1152,
+        "estimated_duration_if_constant_bitrate_s": 207.2
+      },
+      "vbr_marker": "Xing/Info",
+      "vbr_frame_analysis": {
+        "tag": "Xing",
+        "flags": 15,
+        "frames": 11042,
+        "derived_play_duration_seconds": 288.4440816326531
+      },
+      "limitation": "Xing frame count if present estimates MP3 playable duration; padding/delay/loop behavior not verified"
+    }
+  },
+  "scripts_and_assets_not_accounted_by_initial_page": {
+    "candidate_referenced_but_not_initially_fetched": [
+      "/matter/skull.png",
+      "/matter/wave.png"
+    ],
+    "caution": "Additional static asset references may be constructed at runtime; do not declare this list exhaustive"
+  },
+  "pending_validation": [
+    {
+      "stage": "X02-R2",
+      "what": "Actual loaded module & script execution, event listener owners, canvas and source-to-render/runtime linkage"
+    },
+    {
+      "stage": "X03–X15",
+      "what": "Lazy/public resources and alternate viewport/state crawler coverage"
+    },
+    {
+      "stage": "X16–X21",
+      "what": "Function-level logic, likely framework and original engine version/module causality; source maps if publicly available"
+    },
+    {
+      "stage": "X22–X33",
+      "what": "Actual GPU program, GLSL runtime pipeline, draw calls, geometry, uniform binding, texture composition"
+    },
+    {
+      "stage": "X34–X41",
+      "what": "Camera timeline in runtime, input-controlled force fields, ray/bloom progression, optical flow and motion causality"
+    }
+  ],
+  "source_artifact_hashes_sha256": {
+    "capture": "5518926600f1827d3f4cc4dd5016fb4aefcda2b8daae54fef5daa4b7f9498ce3",
+    "private_inventory": "6fe542de6ac6d17f11bce39edd527a22b68cb4f09be9898dee0a6238faa0c335",
+    "glb_shader_images": "b08a350e8202d63a471e0c11555fd6d7808270dd64ce27dee50bb642b47565e3",
+    "ast_alpha": "e3c2a03747f6da81fcee068807c0c970f1a7d83cfead2f1644bdca8a7bb9c7c1",
+    "webpack_graph": "51a979e0afd38526fbc0b1a11fe1fa8966a9f99cc89ebc46076556132baabfd6",
+    "inline_coverage": "029180dce3ae9d252d9f4be7db8fc214e8c30fc1fdcf2fb34904dfffbf426a57",
+    "media_font_svg": "9e690cd5e7fca0b56f30021777af73acee97c7dbea9488f207221cd6b46a1e28",
+    "audio": "c60464d10cde8daac17862b3d29c7315d9ff2246473d32a1e97729a6425f582f"
+  },
+  "legal_and_security": "ONLY new derived metadata is public. Third-party source/media/texture bytes are PRIVATE lawful technical study; project implementation must be original or explicitly licensed.",
+  "next": "X02-R2 after current source metadata acceptance, no simultaneous tools."
+}
