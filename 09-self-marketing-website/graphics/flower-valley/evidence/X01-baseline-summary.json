@@ -1,0 +1,84 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X01",
+  "status": "PASS_REFERENCE_BROWSER_BASELINE",
+  "run_id": "X01-2026-11-18T17-40-54-801Z",
+  "provenance": "Fresh unauthenticated Playwright browser visit on DJMRN-LAPTOP; owner-approved target; no historical evidence substituted",
+  "observed_at_utc": "2026-11-18T17:40:54.807Z",
+  "tool": "Playwright via local Node + Chrome",
+  "browser_version": "157.0.8103.79",
+  "viewport": {
+    "width": 1280,
+    "height": 800,
+    "dpr": 1
+  },
+  "reference_url": "https://www.gladeye.com/",
+  "http_status": 200,
+  "final_url": "https://www.gladeye.com/",
+  "request_count": 51,
+  "response_count": 51,
+  "failed_request_count": 0,
+  "resource_type_counts": {
+    "image": 8,
+    "document": 1,
+    "stylesheet": 3,
+    "fetch": 6,
+    "ping": 1,
+    "script": 27,
+    "other": 1,
+    "font": 4
+  },
+  "http_status_counts": {
+    "200": 49,
+    "204": 2
+  },
+  "observed_canvas_count": 1,
+  "canvas_details": [
+    {
+      "context": "webgl2",
+      "pixel_width": 1280,
+      "pixel_height": 800,
+      "css_display": "block",
+      "renderer": "WebKit WebGL",
+      "unmasked_renderer": "ANGLE (AMD, AMD Radeon(TM) Vega 8 Graphics (0x000015D8) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  ],
+  "dom_summary": {
+    "ready_state": "complete",
+    "script_count": 36,
+    "stylesheets": 3,
+    "images": 0,
+    "divs": 117,
+    "buttons": 2,
+    "resource_timing_entries": 42
+  },
+  "navigation_timing": {
+    "type": "navigate",
+    "dom_content_loaded_end": 1327.1000000238419,
+    "load_event_end": 2307.3000000715256,
+    "duration": 2307.3000000715256,
+    "transfer_size": 8378
+  },
+  "page_error_count": 0,
+  "console_error_count": 0,
+  "screenshot": {
+    "private_only": true,
+    "file": "01-private-captures/X01/X01-2026-11-18T17-40-54-801Z/idle-1280x800.png",
+    "bytes": 1987159,
+    "sha256": "3aca7e6390570d900db3c3c324f02f4c0690e9b7020afd67e3a5c8be1cc72df9",
+    "width": 1280,
+    "height": 800
+  },
+  "raw_capture": {
+    "private_only": true,
+    "file": "01-private-captures/X01/X01-2026-11-18T17-40-54-801Z/browser-baseline.json",
+    "sha256": "45ffce9166e8bb73a7e235ea6e49d6c483a222f3d6987be9198f6bf9ada61477"
+  },
+  "findings_classification": "OBSERVED browser metadata; GPU/engine/JS/geometry/motion internals NOT assessed in X01",
+  "limitations": [
+    "No raw target JS, assets, GLSL or authentication information included",
+    "Single desktop run only; X02 DevTools and later specialists not yet executed",
+    "Network observed first page visit, not a complete crawl, bundle or engine identification"
+  ],
+  "next_stage": "X02 (Chrome DevTools/CDP: waterfall, initiator, sanitized HAR, runtime)"
+}
