@@ -1,0 +1,62 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X10",
+  "tool": "Browsertrix Crawler",
+  "source_version": "1.15.4",
+  "status": "BLOCKED_WITH_REQUIREMENTS",
+  "assessment_date": "2026-11-19",
+  "purpose": "Browser WARC/WACZ record-and-replay capture, not a static snapshot",
+  "verified_gate": {
+    "x09_local_files": 77,
+    "x09_missing": 0,
+    "x09_backup_sha_match": true,
+    "x09_network_rows": 71,
+    "x09_status": "PASS_BOUNDED_CRAWL"
+  },
+  "source": {
+    "relative_path": "Downloads/DJMRN-Website-Tools/SOURCE_ARCHIVE/webrecorder-browsertrix-crawler-v1.15.4.zip",
+    "bytes": 2457080,
+    "sha256": "2f9d8bca625ff3e6bc04cfa0380d6942b13f90bd1bf38ebcc23daaf85881dda1",
+    "zip_entries": 213,
+    "native_win_exe_count": 0,
+    "Dockerfile": true
+  },
+  "runtime": {
+    "docker_cli": "NOT_INSTALLED",
+    "docker_desktop": "NOT_FOUND",
+    "wsl": "NOT_INSTALLED_OR_USABLE",
+    "os_visible_ram_gib": 5.88,
+    "free_ram_gib_last_check": 1.28,
+    "physical_ram_gb": 8,
+    "cpu_virtualization": true,
+    "hypervisor_present": false,
+    "real_crawl": "NOT_RUN",
+    "WACZ": "NOT_GENERATED"
+  },
+  "blocker": "Official Browsertrix Crawler requires Docker. Local Docker/WSL missing and memory headroom constrained. Do not activate system virtualization or install Docker without an approved capacity and risk plan.",
+  "alternative": {
+    "name": "ArchiveWeb.page",
+    "official": "https://webrecorder.net/archivewebpage/",
+    "role": "WARC/WACZ browser extension and local replay",
+    "runtime": "Docker-free Chromium",
+    "status": "PROPOSED_NOT_INSTALLED",
+    "approval": "tool substitution from Browsertrix Crawler to ArchiveWeb.page required"
+  },
+  "official_sources": [
+    "https://crawler.docs.browsertrix.com/user-guide/",
+    "https://docs.docker.com/desktop/setup/install/windows-install/",
+    "https://webrecorder.net/archivewebpage/"
+  ],
+  "financial": {
+    "paid_services": "NONE",
+    "cloud_cost": "UNKNOWN_DENY",
+    "accounts_or_subscription": "NOT_STARTED"
+  },
+  "distinct_from_previous": {
+    "X07": "SingleFile",
+    "X08": "WebScrapBook",
+    "X09": "HTTrack",
+    "X10_unique": "Browser response-level WARC/WACZ replay and quality audit"
+  },
+  "next": "X10 remains BLOCKED_WITH_REQUIREMENTS. Do not declare PASS or advance to X11. An owner-approved Docker-capable runtime or separately approved ArchiveWeb.page alternative is needed."
+}
