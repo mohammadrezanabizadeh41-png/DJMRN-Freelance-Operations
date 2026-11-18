@@ -1,0 +1,392 @@
+{
+  "case": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X05",
+  "run_id": "X05-RENDER-R2-20261118T184938Z",
+  "tool": "decant 1.0.1 --render chrome, runtime-capture auto, --depth=0 --same-origin",
+  "quality_gate": "PASS_FOR_HTML_CSS_TOKENS_AND_ARCHIVE; FAIL_FOR_FULL_3D_VISUAL_FIDELITY",
+  "source_manifest_sha256": "827562ce956d1ee6c1b9e3e21df4d99a9820d60fcc689e9b1aa8c1b013727927",
+  "source_token_sha256": "6df216ad3517735115de3c5145aa1cf3af2f5b2fa9a2ffdc6941a550bc936970",
+  "source_context_sha256": "5ef1188f9225788fa461ba3caac219848cbb7aa39b142de93f13deb5e7553b0c",
+  "local_raw_folder": "01-private-captures/X05/X05-RENDER-R2-20261118T184938Z/capture",
+  "source_page_count": 1,
+  "source_assets_reported": 34,
+  "saved_file_count": 38,
+  "saved_file_bytes": 2774341,
+  "files_hash_only": [
+    {
+      "path": "context.md",
+      "bytes": 1692,
+      "sha256": "5ef1188f9225788fa461ba3caac219848cbb7aa39b142de93f13deb5e7553b0c"
+    },
+    {
+      "path": "design-tokens.json",
+      "bytes": 709,
+      "sha256": "6df216ad3517735115de3c5145aa1cf3af2f5b2fa9a2ffdc6941a550bc936970"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+    },
+    {
+      "path": "gtag/js/index.q-6cef70f9923374bd.html",
+      "bytes": 553705,
+      "sha256": "cce0d9e2887f826fcf8d3f7e5e6b06bbecc8fee313e3ba65c08ed6a92786d36e"
+    },
+    {
+      "path": "gtm.q-c92099c696a43b1f.js",
+      "bytes": 349377,
+      "sha256": "e44dc0bc4a0c35f2a3dafe0fa2a04829e2eb4ead53d3311a6f74d283a7e87695"
+    },
+    {
+      "path": "index.html",
+      "bytes": 50097,
+      "sha256": "535219aefe69b2a14ca50f21296b91ac53e5910b885ee5c50b7237d390d2c1c7"
+    },
+    {
+      "path": "manifest.json",
+      "bytes": 8434,
+      "sha256": "827562ce956d1ee6c1b9e3e21df4d99a9820d60fcc689e9b1aa8c1b013727927"
+    },
+    {
+      "path": "repair-hints.json",
+      "bytes": 698,
+      "sha256": "d70a1d0ed1bac2a87e376b738fec35c75c144c70b145aead15b6d8ab08f58462"
+    },
+    {
+      "path": "screenshots/index/desktop.png",
+      "bytes": 19608,
+      "sha256": "d447c70297eef17df394d4af2ac0a4c44ed1ff500e6988df7424b6af95580dd1"
+    },
+    {
+      "path": "screenshots/index/mobile.png",
+      "bytes": 11821,
+      "sha256": "0a2c1835451f920f0696fdd77d5a7ea076e64c546d0e20eb3740d7e6de3ba8dc"
+    },
+    {
+      "path": "screenshots/index/tablet.png",
+      "bytes": 17817,
+      "sha256": "3586570a8017fc1716fc898f3964a6a3eb87b22ba001256557ee0c24ac33c1e2"
+    },
+    {
+      "path": "_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+    },
+    {
+      "path": "_next/static/chunks/131-8efcfd03f067c029.js",
+      "bytes": 17110,
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c"
+    },
+    {
+      "path": "_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "bytes": 6157,
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022"
+    },
+    {
+      "path": "_next/static/chunks/340-4c85e05b44fc7370.js",
+      "bytes": 6751,
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9"
+    },
+    {
+      "path": "_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "bytes": 81048,
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d"
+    },
+    {
+      "path": "_next/static/chunks/450-96e2a31dde902aa5.js",
+      "bytes": 141609,
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e"
+    },
+    {
+      "path": "_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "bytes": 80490,
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de"
+    },
+    {
+      "path": "_next/static/chunks/567-6466d5cc81546a43.js",
+      "bytes": 19252,
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f"
+    },
+    {
+      "path": "_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "bytes": 111113,
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198"
+    },
+    {
+      "path": "_next/static/chunks/780-35f43a00462f78e8.js",
+      "bytes": 16685,
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683"
+    },
+    {
+      "path": "_next/static/chunks/785-3ec288b614fa287f.js",
+      "bytes": 11256,
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115"
+    },
+    {
+      "path": "_next/static/chunks/8-5234b317a5794281.js",
+      "bytes": 5066,
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804"
+    },
+    {
+      "path": "_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "bytes": 30550,
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1"
+    },
+    {
+      "path": "_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "bytes": 596,
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa"
+    },
+    {
+      "path": "_next/static/chunks/app/page-4c279de0997d388f.js",
+      "bytes": 82741,
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b"
+    },
+    {
+      "path": "_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "bytes": 549571,
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400"
+    },
+    {
+      "path": "_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+    },
+    {
+      "path": "_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+    },
+    {
+      "path": "_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "bytes": 91381,
+      "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200"
+    },
+    {
+      "path": "_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+    },
+    {
+      "path": "_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+    },
+    {
+      "path": "_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46131,
+      "sha256": "df965f509bcdaac801c57c2dcae9419b71b4e176d53dec1c50101ca414aded14"
+    },
+    {
+      "path": "_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "bytes": 45972,
+      "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+    },
+    {
+      "path": "_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "bytes": 41902,
+      "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+    },
+    {
+      "path": "_next/static/media/soehne-buch.5a88e093.woff2",
+      "bytes": 33159,
+      "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5"
+    },
+    {
+      "path": "_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "bytes": 31866,
+      "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+    },
+    {
+      "path": "_next/static/media/soehne-leicht.31cd3571.woff2",
+      "bytes": 32760,
+      "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+    }
+  ],
+  "sanitized_tokens": {
+    "colors": {
+      "swatches": [
+        "#323232",
+        "#fff",
+        "#000",
+        "#9ca3af",
+        "#0000",
+        "#e18e25"
+      ],
+      "byUsage": {}
+    },
+    "typography": {
+      "fontFamilies": [],
+      "scale": [],
+      "lineHeights": [],
+      "fontWeights": []
+    },
+    "spacing": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      16,
+      20,
+      32,
+      36,
+      40,
+      44,
+      100,
+      120,
+      200
+    ],
+    "breakpoints": [
+      600,
+      640,
+      768,
+      1024,
+      1180,
+      1280,
+      1400,
+      1536,
+      1728,
+      1828
+    ],
+    "radii": [],
+    "shadows": [],
+    "zIndices": [],
+    "scope_warning": "Decant tokens are extracted from HTML/CSS; they are NOT complete WebGL shader, bloom, atmospheric or particle styling."
+  },
+  "screenshot_metrics": [
+    {
+      "label": "mobile",
+      "sha256": "0a2c1835451f920f0696fdd77d5a7ea076e64c546d0e20eb3740d7e6de3ba8dc",
+      "bytes": 11821,
+      "width": 390,
+      "height": 844,
+      "quantized_dominant_color_fraction": 0.96576,
+      "quantized_color_bins": 8,
+      "mean_rgb": [
+        18,
+        18,
+        18
+      ],
+      "stddev_rgb": [
+        14.3,
+        14.3,
+        14.3
+      ]
+    },
+    {
+      "label": "tablet",
+      "sha256": "3586570a8017fc1716fc898f3964a6a3eb87b22ba001256557ee0c24ac33c1e2",
+      "bytes": 17817,
+      "width": 768,
+      "height": 1024,
+      "quantized_dominant_color_fraction": 0.980704,
+      "quantized_color_bins": 8,
+      "mean_rgb": [
+        17,
+        17,
+        17
+      ],
+      "stddev_rgb": [
+        13.6,
+        13.6,
+        13.6
+      ]
+    },
+    {
+      "label": "desktop",
+      "sha256": "d447c70297eef17df394d4af2ac0a4c44ed1ff500e6988df7424b6af95580dd1",
+      "bytes": 19608,
+      "width": 1440,
+      "height": 900,
+      "quantized_dominant_color_fraction": 0.991104,
+      "quantized_color_bins": 8,
+      "mean_rgb": [
+        17,
+        17,
+        17
+      ],
+      "stddev_rgb": [
+        9.8,
+        9.8,
+        9.8
+      ]
+    },
+    {
+      "label": "X01_animated_render_reference",
+      "sha256": "0094ffb9af3c2fa047c38218664b959607bacb78164e828ca8e84cfe90fa46d0",
+      "bytes": 2036552,
+      "width": 1280,
+      "height": 800,
+      "quantized_dominant_color_fraction": 0.46384,
+      "quantized_color_bins": 191,
+      "mean_rgb": [
+        46,
+        42,
+        31
+      ],
+      "stddev_rgb": [
+        48.9,
+        41.1,
+        39.8
+      ]
+    }
+  ],
+  "visual_fidelity_assessment": "Decant desktop screenshot 99.11% one coarse grayscale bin; X01 full WebGL reference 46.38% dominant bin with 191 color bins. Decant image is insufficient for 3D scene fidelity. Do not use its visual output as the target rendering.",
+  "new_resource_categories": {
+    "tracked_assets": 2,
+    "new_sources_consist_of": [
+      {
+        "path": "_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "tracker": false,
+        "bytes": 91381
+      },
+      {
+        "path": "gtag/js\\index.q-6cef70f9923374bd.html",
+        "tracker": true,
+        "bytes": 553705
+      },
+      {
+        "path": "gtm.q-c92099c696a43b1f.js",
+        "tracker": true,
+        "bytes": 349377
+      },
+      {
+        "path": "screenshots/index/mobile.png",
+        "tracker": false,
+        "bytes": 11821
+      },
+      {
+        "path": "screenshots/index/tablet.png",
+        "tracker": false,
+        "bytes": 17817
+      },
+      {
+        "path": "screenshots/index/desktop.png",
+        "tracker": false,
+        "bytes": 19608
+      },
+      {
+        "path": "index.html",
+        "tracker": false,
+        "bytes": 50097
+      },
+      {
+        "path": "_next/static/media/soehne-buch.5a88e093.woff2",
+        "tracker": false,
+        "bytes": 33159
+      }
+    ],
+    "likely_new_original_hero_assets": 0,
+    "note": "Polyfills and additional font already independently recovered in X03; new tracking resources are not scene assets. Three screenshots are newly generated evidence, not vendor source."
+  },
+  "limitations": [
+    "Decant browser renderer may not reproduce the live WebGL scene; compare screenshot complexity to X01 screenshot, not just output count.",
+    "Some third-party analytics resources were captured despite --same-origin; do not merge tracking scripts as scene assets or publish raw content.",
+    "DOM/CSS color and breakpoints represent web layout design tokens, not GPU uniforms.",
+    "Screenshot viewports and X01 baseline differ, so color metrics are a coarse presence test, not a strict pixel-diff benchmark.",
+    "No recovered original server source, no GPU draw calls, no original shader program data from this stage."
+  ],
+  "next": "X06 WebScoop GUI; original X01 screenshot and runtime source are canonical scene evidence, decant tokens are supplementary."
+}
