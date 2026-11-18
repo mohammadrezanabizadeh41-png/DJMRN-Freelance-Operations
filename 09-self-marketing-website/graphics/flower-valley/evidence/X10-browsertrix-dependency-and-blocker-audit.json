@@ -3,7 +3,7 @@
   "stage": "X10",
   "tool": "Browsertrix Crawler",
   "source_version": "1.15.4",
-  "status": "PREREQUISITES_INSTALLED_PENDING_REBOOT",
+  "status": "BLOCKED_LOCAL_MEMORY_DURING_OFFICIAL_IMAGE_PULL",
   "assessment_date": "2026-11-19",
   "purpose": "Browser WARC/WACZ record-and-replay capture, not a static snapshot",
   "verified_gate": {
@@ -22,18 +22,18 @@
     "Dockerfile": true
   },
   "runtime": {
-    "docker_cli": "INSTALLED_29.9.3_CLIENT_ENGINE_NOT_AVAILABLE",
-    "docker_desktop": "INSTALLED_PER_USER_4.99.0",
-    "wsl": "INSTALLED_3.0.5.0_KERNEL_6.18.58.1-1",
+    "docker_cli": "INSTALLED_29.9.3_ENGINE_POST_REBOOT_HEALTH_VERIFIED",
+    "docker_desktop": "INSTALLED_PER_USER_4.99.0_ENGINE_VERIFIED_THEN_STOPPED_SAFELY",
+    "wsl": "WSL_3.0.5.0_HYPERVISOR_ACTIVE_WSL2_OK",
     "os_visible_ram_gib": 5.88,
     "free_ram_gib_last_check": 1.28,
     "physical_ram_gb": 8,
     "cpu_virtualization": true,
     "hypervisor_present": false,
-    "real_crawl": "NOT_RUN",
+    "real_crawl": "NOT_RUN_RESOURCE_GUARD",
     "WACZ": "NOT_GENERATED"
   },
-  "blocker": "Windows reboot required after DISM feature enablement (both return 3010). Docker Engine is unavailable (Docker pipe missing); WSL2 reports virtualization not active until reboot. Remote connector automatic reconnect is unverified; no unattended reboot.",
+  "blocker": "Post-reboot Docker Engine and WSL2 are functional, but two attempts to fetch official webrecorder/browsertrix-crawler:1.15.4 failed to complete because Windows-visible RAM of 5.88GiB left <300MiB free while the 2.5GiB-cap WSL VM was pulling/decompressing layers. Both pulls were actively memory-guarded and cancelled. Image was never fully imported; no WACZ or replay exists. Idle Docker Desktop stopped afterward, restoring ~3087MiB free Windows RAM.",
   "alternative": {
     "name": "ArchiveWeb.page",
     "official": "https://webrecorder.net/archivewebpage/",
@@ -58,7 +58,7 @@
     "X09": "HTTrack",
     "X10_unique": "Browser response-level WARC/WACZ replay and quality audit"
   },
-  "next": "Owner must arrange a safe Windows restart, then accept Docker Desktop terms if shown, start Docker Desktop, verify docker info/WSL2, and only then run the prepared bounded Browsertrix 1.15.4 capture and WACZ QA. Not marked operational.",
+  "next": "Do not report X10 PASS or advance X11. Keep official image cache and installed Docker/WSL. Local Browsertrix on this hardware needs verified additional memory headroom or another owner-approved Docker-capable runtime after free/cost and security review; no paid service authorized.",
   "installation": {
     "docker_desktop_version": "4.99.0",
     "docker_cli_version": "29.9.3",
@@ -82,5 +82,72 @@
     "test_wacz_created": false,
     "payment_or_subscription_activated": false
   },
-  "former_status": "BLOCKED_WITH_REQUIREMENTS_DOCKER_WSL_NOT_INSTALLED"
+  "former_status": "BLOCKED_WITH_REQUIREMENTS_DOCKER_WSL_NOT_INSTALLED",
+  "previous_status": "PREREQUISITES_INSTALLED_PENDING_REBOOT",
+  "post_reboot_execution_assessment": {
+    "date": "2026-11-19",
+    "remote_commander": {
+      "status": "ONLINE",
+      "version": "0.3.4",
+      "actual_shell_io": "PASS",
+      "three_node_remote_agent_processes": true
+    },
+    "browser_connection": {
+      "browser_connector": "NOT_AVAILABLE_FROM_CURRENT_MOBILE_APP_BROWSER_ORIGIN",
+      "browser_use": "0.0.31_INSTALLED_NOT_RUNNING",
+      "chrome": "157_INSTALLED",
+      "playwright": "LOCALLY_PRESENT",
+      "webscrapbook": "PRESENT_X08_PRIOR_PASS",
+      "httrack": "PRESENT_X09_PRIOR_PASS",
+      "omniroute": "3.8.52_INSTALLED_NOT_RUNNING",
+      "codex_cli": "ON_PATH",
+      "openclaw": "NOT_ON_PATH_UNVERIFIED_ELSEWHERE"
+    },
+    "docker": {
+      "desktop": "4.99.0",
+      "client_and_server": "29.9.3",
+      "engine_read_only_health": "PASS_AFTER_REBOOT",
+      "wsl": "3.0.5.0",
+      "hypervisor": true,
+      "official_image": "webrecorder/browsertrix-crawler:1.15.4",
+      "official_image_fully_imported": false,
+      "original_source_unchanged": true,
+      "container_count_at_stop": 0,
+      "docker_stop": "SUCCESSFUL",
+      "wsl_shutdown": "SUCCESSFUL",
+      "post_stop_free_ram_mib": 3087
+    },
+    "resource_limits": {
+      "physical_ram_gb": 8,
+      "os_visible_gib": 5.88,
+      "wsl_cap_mib": 2560,
+      "wsl_processors": 2,
+      "wsl_swap_gb": 2,
+      "docker_pull_max_concurrent": 1,
+      "container_limit_mib": 1750,
+      "container_total_with_swap_mib": 2300,
+      "shm_mib": 384
+    },
+    "attempts": [
+      {
+        "kind": "official_tag_pull",
+        "result": "ABORTED_BELOW_300_MIB_FREE_RAM",
+        "checksum_verified_some_layers": true,
+        "completed_image": false
+      },
+      {
+        "kind": "single_concurrent_layer_guarded_pull",
+        "result": "ABORTED_BELOW_310_MIB_FREE_RAM",
+        "last_free_ram_mib": 254,
+        "checksum_verified_some_layers": true,
+        "completed_image": false
+      }
+    ],
+    "x10_real_capture": "NOT_STARTED",
+    "wacz_created": false,
+    "qa_replay": "NOT_STARTED",
+    "x11": "NOT_STARTED",
+    "local_canonical_report_sha256": "03c6caed53037c448e4a3247cd1734fe849ad9e85f84c11d40ec8bb00508115f",
+    "local_recovery": "Existing X01-X09 evidence unchanged; X10 source, installer, scripts, attempts logs retained locally; no new X10 WACZ"
+  }
 }
