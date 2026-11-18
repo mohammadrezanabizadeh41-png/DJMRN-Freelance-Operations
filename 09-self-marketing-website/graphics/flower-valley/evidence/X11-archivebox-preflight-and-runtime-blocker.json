@@ -2,7 +2,7 @@
   "mission": "DJMRN-FREELANCE-WEBSITE-001",
   "stage": "X11",
   "date": "2026-11-19",
-  "status": "PARTIAL_PREFLIGHT_DONE__NATIVE_PACKAGE_INSTALLED_CLI_UNUSABLE__DOCKER_NOT_IMPORTED_LOW_RAM",
+  "status": "X11_OFFICIAL_DOCKER_RETRIED_WITH_100_MIB_GUARD__LOW_RAM_BEFORE_IMAGE_PULL__CAPTURE_NOT_RUN",
   "scope": "ArchiveBox archival lifecycle, snapshot metadata, and repeatability; no new Gladeye crawl yet",
   "source": {
     "official_release": "v0.9.77",
@@ -61,5 +61,77 @@
     "no_provider_subscription_or_paid_usage": true,
     "no_exposure_of_browser_profiles": true
   },
-  "next_action": "Resume with official GHCR container only after host RAM headroom increases without interrupting unsaved user work; run one scoped actual ArchiveBox capture then compare new archived content/hash/metadata vs X01–X10. Do not spoof the POSIX pwd API on Windows, alter system security, or label X11 PASS."
+  "next_action": "Resume with official GHCR container only after host RAM headroom increases without interrupting unsaved user work; run one scoped actual ArchiveBox capture then compare new archived content/hash/metadata vs X01–X10. Do not spoof the POSIX pwd API on Windows, alter system security, or label X11 PASS.",
+  "assessment_date": "2026-11-19",
+  "second_official_attempt": {
+    "method": "Original pinned official GHCR Docker image; no new paid runtime; one bounded preflight; no image pull after insufficient headroom",
+    "started_from_windows_free_ram_mib": 1948,
+    "emergency_threshold_mib": 100,
+    "monitor_interval_ms": 200,
+    "original_wsl_config_unchanged": "[wsl2] memory=2048MB processors=2 swap=4GB [experimental] autoMemoryReclaim=dropCache",
+    "daemon_config_unchanged": {
+      "max-concurrent-downloads": 1
+    },
+    "docker_start_exit_code": 0,
+    "docker_server_version": "29.9.3",
+    "docker_engine_available": true,
+    "free_ram_after_docker_start_mib": 538,
+    "free_ram_after_docker_engine_query_mib": 137,
+    "free_ram_before_pull_mib": 148,
+    "pre_pull_headroom_gate_mib": 240,
+    "did_not_start_image_pull": true,
+    "lowest_free_windows_ram_mib": 99,
+    "emergency_threshold_not_guaranteed": true,
+    "docker_desktop_stop_exit_code": 0,
+    "wsl_shutdown_exit_code": 0,
+    "free_ram_after_shutdown_mib": 2249,
+    "private_record": "01-private-captures/X11/X11-DOCKER-100MiB-2026-11-18T23-37-17-283Z/X11-guarded-docker-result.json",
+    "reusable_guard_script": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/04-Runtimes/ArchiveBox-X11/DJMRN-X11-Docker-100MiB-Guard.cjs",
+    "image_imported": false,
+    "archivebox_container_launched": false,
+    "gladeye_snapshot_count": 0,
+    "x12": "NOT_STARTED"
+  },
+  "ram_optimization_review": {
+    "assessment_type": "PROPOSALS_ONLY__NOT_APPLIED_AFTER_RESOURCE_EXHAUSTION",
+    "evidence": "Docker startup and Engine accounted for large observed host headroom drop; host free memory changed 1948 to 137 MiB. This is a before/after observation, not an exact process-attributable RAM footprint.",
+    "official_minimum": "ArchiveBox official wiki says 500 MiB bare minimum for lighter use, 2 GiB recommended, with Chrome-based extractors disabled to reduce capture load; these figures exclude Docker Desktop/WSL/Windows overhead.",
+    "candidate_options": [
+      {
+        "name": "Host headroom first",
+        "proposal": "Before any retry, end or suspend only user-approved idle RAM-intensive desktop apps, preserving VPN/remote connector and any unsaved work; aim for at least ~2.5-3 GiB Windows available RAM before starting Docker (planning target, not guaranteed minimum).",
+        "applied": false
+      },
+      {
+        "name": "Bound WSL VM",
+        "proposal": "Evaluate reversible 2048MB -> 1536MB WSL memory cap with 4GB swap preserved; may free up to ~512 MiB host headroom but reduces Linux memory under ArchiveBox suggested 2 GiB and may prevent container launch; do not apply without review.",
+        "applied": false
+      },
+      {
+        "name": "Keep serial pulls",
+        "proposal": "Docker daemon max-concurrent-downloads=1 already verified. No gain from setting it to 1 again. Avoid concurrent containers/pulls.",
+        "applied": true
+      },
+      {
+        "name": "Metadata-only first",
+        "proposal": "Once container runs, disable CHROME_ENABLED, SCREENSHOT_ENABLED, PDF_ENABLED, MEDIA_ENABLED, SINGLEFILE_ENABLED and ARCHIVEDOTORG_ENABLED during first scoped ArchiveBox proof. Avoid multi-process server/worker stack if CLI suffices.",
+        "applied": false
+      },
+      {
+        "name": "Per-container budget",
+        "proposal": "For a future one-off CLI, consider memory=1024m, memory-swap=1536m, cpus=1.5, small /dev/shm with Chrome disabled; Docker container caps do not reduce Docker Desktop startup cost.",
+        "applied": false
+      },
+      {
+        "name": "Alternative runtime",
+        "proposal": "Do not install another host agent or move private archives to external cloud without a separate assessment and owner approval. Native Windows ArchiveBox remains blocked on POSIX pwd.",
+        "applied": false
+      }
+    ],
+    "sources": [
+      "https://github.com/ArchiveBox/ArchiveBox/wiki/Install",
+      "https://docs.docker.com/desktop/features/wsl/best-practices/",
+      "https://docs.docker.com/engine/containers/resource_constraints/"
+    ]
+  }
 }
