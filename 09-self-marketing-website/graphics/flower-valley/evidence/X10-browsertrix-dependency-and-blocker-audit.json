@@ -3,7 +3,7 @@
   "stage": "X10",
   "tool": "Browsertrix Crawler",
   "source_version": "1.15.4",
-  "status": "BLOCKED_LOCAL_MEMORY_DURING_OFFICIAL_IMAGE_PULL",
+  "status": "OPERATIONAL_WACZ_CAPTURE_PASS_QA_ARTIFACT_PASS_REPLAY_FIDELITY_UNVERIFIED",
   "assessment_date": "2026-11-19",
   "purpose": "Browser WARC/WACZ record-and-replay capture, not a static snapshot",
   "verified_gate": {
@@ -22,18 +22,18 @@
     "Dockerfile": true
   },
   "runtime": {
-    "docker_cli": "INSTALLED_29.9.3_ENGINE_POST_REBOOT_HEALTH_VERIFIED",
-    "docker_desktop": "INSTALLED_PER_USER_4.99.0_ENGINE_VERIFIED_THEN_STOPPED_SAFELY",
-    "wsl": "WSL_3.0.5.0_HYPERVISOR_ACTIVE_WSL2_OK",
+    "docker_cli": "DOCKER_CLIENT_ENGINE_29.9.3_VERIFIED",
+    "docker_desktop": "DESKTOP_4.99.0_VERIFIED_STOPPED_AFTER_QA",
+    "wsl": "WSL_3.0.5.0_2GB_RAM_CAP_4GB_SWAP",
     "os_visible_ram_gib": 5.88,
     "free_ram_gib_last_check": 1.28,
     "physical_ram_gb": 8,
     "cpu_virtualization": true,
     "hypervisor_present": false,
-    "real_crawl": "NOT_RUN_RESOURCE_GUARD",
-    "WACZ": "NOT_GENERATED"
+    "real_crawl": "PASS_GLADYE_MAIN_HTTP_200_WARC_WACZ",
+    "WACZ": "PRIMARY_AND_QA_WACZ_SHA_VERIFIED"
   },
-  "blocker": "Post-reboot Docker Engine and WSL2 are functional, but two attempts to fetch official webrecorder/browsertrix-crawler:1.15.4 failed to complete because Windows-visible RAM of 5.88GiB left <300MiB free while the 2.5GiB-cap WSL VM was pulling/decompressing layers. Both pulls were actively memory-guarded and cancelled. Image was never fully imported; no WACZ or replay exists. Idle Docker Desktop stopped afterward, restoring ~3087MiB free Windows RAM.",
+  "blocker": "Docker and official Browsertrix image operational. Main page load timed out 60s and Cloudflare check timed out; QA replay timed out after 90s. Full interactive WebGL fidelity not verified.",
   "alternative": {
     "name": "ArchiveWeb.page",
     "official": "https://webrecorder.net/archivewebpage/",
@@ -58,7 +58,7 @@
     "X09": "HTTrack",
     "X10_unique": "Browser response-level WARC/WACZ replay and quality audit"
   },
-  "next": "Do not report X10 PASS or advance X11. Keep official image cache and installed Docker/WSL. Local Browsertrix on this hardware needs verified additional memory headroom or another owner-approved Docker-capable runtime after free/cost and security review; no paid service authorized.",
+  "next": "X10 real archive and QA artifacts produced; replay fidelity timeout and full WebGL not validated. X11 not started.",
   "installation": {
     "docker_desktop_version": "4.99.0",
     "docker_cli_version": "29.9.3",
@@ -83,71 +83,60 @@
     "payment_or_subscription_activated": false
   },
   "former_status": "BLOCKED_WITH_REQUIREMENTS_DOCKER_WSL_NOT_INSTALLED",
-  "previous_status": "PREREQUISITES_INSTALLED_PENDING_REBOOT",
   "post_reboot_execution_assessment": {
-    "date": "2026-11-19",
-    "remote_commander": {
-      "status": "ONLINE",
-      "version": "0.3.4",
-      "actual_shell_io": "PASS",
-      "three_node_remote_agent_processes": true
-    },
-    "browser_connection": {
-      "browser_connector": "NOT_AVAILABLE_FROM_CURRENT_MOBILE_APP_BROWSER_ORIGIN",
-      "browser_use": "0.0.31_INSTALLED_NOT_RUNNING",
-      "chrome": "157_INSTALLED",
-      "playwright": "LOCALLY_PRESENT",
-      "webscrapbook": "PRESENT_X08_PRIOR_PASS",
-      "httrack": "PRESENT_X09_PRIOR_PASS",
-      "omniroute": "3.8.52_INSTALLED_NOT_RUNNING",
-      "codex_cli": "ON_PATH",
-      "openclaw": "NOT_ON_PATH_UNVERIFIED_ELSEWHERE"
-    },
-    "docker": {
-      "desktop": "4.99.0",
-      "client_and_server": "29.9.3",
-      "engine_read_only_health": "PASS_AFTER_REBOOT",
-      "wsl": "3.0.5.0",
-      "hypervisor": true,
-      "official_image": "webrecorder/browsertrix-crawler:1.15.4",
-      "official_image_fully_imported": false,
-      "original_source_unchanged": true,
-      "container_count_at_stop": 0,
-      "docker_stop": "SUCCESSFUL",
-      "wsl_shutdown": "SUCCESSFUL",
-      "post_stop_free_ram_mib": 3087
-    },
-    "resource_limits": {
-      "physical_ram_gb": 8,
-      "os_visible_gib": 5.88,
-      "wsl_cap_mib": 2560,
-      "wsl_processors": 2,
-      "wsl_swap_gb": 2,
-      "docker_pull_max_concurrent": 1,
-      "container_limit_mib": 1750,
-      "container_total_with_swap_mib": 2300,
-      "shm_mib": 384
-    },
-    "attempts": [
-      {
-        "kind": "official_tag_pull",
-        "result": "ABORTED_BELOW_300_MIB_FREE_RAM",
-        "checksum_verified_some_layers": true,
-        "completed_image": false
-      },
-      {
-        "kind": "single_concurrent_layer_guarded_pull",
-        "result": "ABORTED_BELOW_310_MIB_FREE_RAM",
-        "last_free_ram_mib": 254,
-        "checksum_verified_some_layers": true,
-        "completed_image": false
-      }
-    ],
-    "x10_real_capture": "NOT_STARTED",
-    "wacz_created": false,
-    "qa_replay": "NOT_STARTED",
-    "x11": "NOT_STARTED",
-    "local_canonical_report_sha256": "03c6caed53037c448e4a3247cd1734fe849ad9e85f84c11d40ec8bb00508115f",
-    "local_recovery": "Existing X01-X09 evidence unchanged; X10 source, installer, scripts, attempts logs retained locally; no new X10 WACZ"
+    "assessment_date": "2026-11-19",
+    "connection": "DJMRN-LAPTOP online via Remote Desktop Commander 0.3.4; Windows remote commands and file operations PASS; 3 related Node processes confirmed",
+    "browser_tool": "Browser connector unavailable from current mobile chat origin; requires connected browser context",
+    "browser_use": "Browser Use 0.0.31 installed in AppData Local browser_use_desktop; process not active during audit",
+    "playwright": "Present in DJMRN WebGL toolchain; Chrome 157 present; execution not reopened to avoid RAM pressure",
+    "chrome_extensions": "Two directories in Default Chrome profile; exact extension support not inferred from presence",
+    "omniroute": "3.8.52 installed; not running during audit",
+    "classic_crawlers": "WebScrapBook MV3 and HTTrack installations exist; prior X08/X09 passed; not executed again",
+    "docker_after_reboot": "Docker Desktop 4.99.0 / Engine 29.9.3 healthy via docker info; WSL v3.0.5.0, CPU virtualization enabled",
+    "docker_image": "webrecorder/browsertrix-crawler:1.15.4 NOT_FULLY_IMPORTED",
+    "image_attempt_1": "Official pull started, some layers checksum-verified, stopped for Windows RAM under 300MiB, no complete image",
+    "image_attempt_2": "Single concurrent layer pull, checksum-verified some layers, stopped after repeated low RAM under 310MiB, last observed Windows free 254MiB, no complete image",
+    "image_pull_2_log": "AppData/Local/DJMRN-Website-Toolkit/04-Runtimes/Docker-WSL-X10/X10-Serial-Pull-20261119T011437.stdout.log",
+    "wsl_memory_config": "UserProfile/.wslconfig sets memory=2560MB, processors=2, swap=2GB, autoMemoryReclaim=dropCache, reversible",
+    "docker_daemon_config": "UserProfile/.docker/daemon.json max-concurrent-downloads=1, original backup preserved",
+    "launcher_guard": "X10 script prevents unguarded auto pull, one worker, 1750MiB container cap, 2300MiB with swap, 384MiB shm, useRobots, text to-warc, time/page caps; syntax PASS but no real crawl",
+    "windows_ram_total_physical_gb": 8,
+    "windows_ram_visible_gib": 5.88,
+    "min_observed_ram_free_mib": 254,
+    "active_containers_at_final": 0,
+    "x10_private_wacz_count": 0,
+    "x11": "NOT_STARTED"
+  },
+  "previous_post_reboot_status": "PREREQUISITES_INSTALLED_PENDING_REBOOT",
+  "historical_previous_status": "BLOCKED_LOCAL_MEMORY_DURING_OFFICIAL_IMAGE_PULL",
+  "operational_completion": {
+    "date_utc": "2026-11-18T22:25:56.5976108Z",
+    "image": "webrecorder/browsertrix-crawler:1.15.4",
+    "image_id": "sha256:36dce8a756d92f0c2908adc57e7a8b60a9dc87174bc5ce43ea1cc83917d1249e",
+    "repo_digest": "sha256:261da066ea1a581558ca99b77e7a70a7183e73865f77b832c1823d816a6c75f0",
+    "emergency_ram_mib": 50,
+    "min_ram_pull_mib": 332,
+    "min_ram_capture_mib": 271,
+    "min_ram_qa_mib": 338,
+    "primary_bytes": 10761586,
+    "primary_sha256": "df5b9e55e4e18419784a9f4479d9f4b0a65d99589ed1ab682e2b0f1ae0498bf2",
+    "index_records": 53,
+    "main_http_200": true,
+    "qa_bytes": 4366770,
+    "qa_sha256": "0361c42443999f1ff7f8e9dd878f9e04986d78d642b48a48059d7096a60e70e0",
+    "qa_exit_code": 0,
+    "qa_replay_timeout": true,
+    "webgl_motion_fidelity_verified": false,
+    "x01_content_matches": 44,
+    "glb_matches_x01": true,
+    "backup_relative": "Documents/DJMRN-Website-Evidence-Backups/DJMRN-flower-valley-X10-private-operational-20261119.zip",
+    "backup_bytes": 30231897,
+    "backup_sha256": "d73ca6c6ec0d0359bb8c9f3f0f57cab932c51280270bad8699bb46f5c07da875",
+    "backup_entries": 29,
+    "backup_same_device_only": true,
+    "backup_inner_hashes_pass": true,
+    "report_relative": "02-reviewed-derived/X10-browsertrix-operational-wacz-and-qa-reconciliation.json",
+    "x11_not_started": true,
+    "docker_stopped": true
   }
 }
