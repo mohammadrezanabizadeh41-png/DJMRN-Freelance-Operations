@@ -1,0 +1,2710 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X09",
+  "tool": "HTTrack",
+  "release": "3.51-0",
+  "date_utc": "2026-11-18T20:41:05.372Z",
+  "result": "PASS_BOUNDED_CRAWL",
+  "target": "https://www.gladeye.com/",
+  "rationale": "Independent classic public link-graph mirroring compared with X01 browser, X07 SingleFile and X08 WebScrapBook",
+  "execution": {
+    "local_executable": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/HTTrack/3.51.0-portable/httrack/httrack.exe",
+    "site_private_dir": "01-private-captures/X09/X09-HTTRACK-GLADEYE-2026-11-18T20-39-05-150Z",
+    "time_limit": 125,
+    "requested_depth": 3,
+    "byte_cap": 75000000,
+    "robots": "default obey",
+    "exit_code": {
+      "code": 0,
+      "signal": null
+    },
+    "timed_out": false
+  },
+  "comparison_baseline": {
+    "x01_indexed": 47,
+    "x07_modes": 2,
+    "x08_entries": 19
+  },
+  "counts": {
+    "network_rows": 71,
+    "unique_network_urls": 71,
+    "captured": 70,
+    "not_stored": 1,
+    "exact_prior": 10,
+    "same_url_changed": 5,
+    "new_url_candidate": 55,
+    "http": {
+      "200": 69,
+      "308": 2
+    },
+    "byStatus": {
+      "PUBLIC_METADATA_ONLY": 1,
+      "PRIVATE_CAPTURED_AND_ANALYZED": 70
+    },
+    "byMime": {
+      "text/plain": 1,
+      "text/html": 4,
+      "text/css": 3,
+      "application/javascript": 5,
+      "image/svg+xml": 1,
+      "font/woff2": 5,
+      "image/jpeg": 52
+    },
+    "bySource": {
+      "root_request": 2,
+      "same_origin_link": 15,
+      "linked_about": 54
+    }
+  },
+  "http_failures": [],
+  "network_resource_rows": [
+    {
+      "row": 2,
+      "url": "https://www.gladeye.com/robots.txt",
+      "path": "/robots.txt",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/plain",
+      "received": "69/69",
+      "from_url": "(from )",
+      "from_class": "root_request",
+      "local_relative_path": null,
+      "bytes": null,
+      "sha256": null,
+      "evidence_status": "PUBLIC_METADATA_ONLY",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "NO_SAVED_BYTES_OR_ERROR"
+    },
+    {
+      "row": 3,
+      "url": "https://www.gladeye.com/",
+      "path": "/",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/html",
+      "received": "35758/35758",
+      "from_url": "(from )",
+      "from_class": "root_request",
+      "local_relative_path": "www.gladeye.com/index.html",
+      "bytes": 36095,
+      "sha256": "00342a8a5523ac6a2f4532a3c3ff0620096806a4c01a856fd879b2171eef6bd4",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A001",
+          "sha256": "924a93bc789997719e6d4d825f526a30d5796ca15f877e842d92fb55ff0833a2"
+        },
+        {
+          "source": "X01",
+          "id": "X01R2-A029",
+          "sha256": "c17a479c734a9afcdcdb3ab7cf6b44b3c1ebac7b43e558021d91a3f6dab2a1b8"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-001",
+          "sha256": "e1c98c1c6c1d228e5d89e5c2d6bd569f2c454a4c9f85407708c66d04e728f23c"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-033",
+          "sha256": "a26a7a0a39cdf66eeae05b350d4cc8fecde3b66e8d26f49fd6175a44e93c9bb5"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-001",
+          "sha256": "e1c98c1c6c1d228e5d89e5c2d6bd569f2c454a4c9f85407708c66d04e728f23c"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-033",
+          "sha256": "a26a7a0a39cdf66eeae05b350d4cc8fecde3b66e8d26f49fd6175a44e93c9bb5"
+        }
+      ],
+      "fresh_relative_to_previous": "SAME_URL_DIFFERENT_BYTES"
+    },
+    {
+      "row": 4,
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "path": "/_next/static/css/70ccb8e7fa150b80.css",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/css",
+      "received": "46176/46176",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46121,
+      "sha256": "ee3d98b9ab838385577288d0696e2b49de501d08785852aea3ff0b3a4ec45aaf",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A002",
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-002",
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-053",
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-002",
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-052",
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+        }
+      ],
+      "fresh_relative_to_previous": "SAME_URL_DIFFERENT_BYTES"
+    },
+    {
+      "row": 5,
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "path": "/_next/static/css/2347d98ee8e65578.css",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/css",
+      "received": "8004/8004",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A005"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-003"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-052"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-003"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-053"
+        },
+        {
+          "source": "X08",
+          "id": "2347d98ee8e65578.css"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A005",
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-003",
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-052",
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-003",
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-053",
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 6,
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "path": "/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "application/javascript",
+      "received": "3962/3962",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3971,
+      "sha256": "f01b74766e3db0090f422c205816806ac7ea215b68955434d25699fb729649c0",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A006",
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-004",
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-004",
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-065",
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+        }
+      ],
+      "fresh_relative_to_previous": "SAME_URL_DIFFERENT_BYTES"
+    },
+    {
+      "row": 7,
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "path": "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "application/javascript",
+      "received": "160712/160712",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A007"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-005"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-005"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-060"
+        },
+        {
+          "source": "X08",
+          "id": "fd9d1056-76aadce26f555392.js"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A007",
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-005",
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-005",
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-060",
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 8,
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "path": "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "application/javascript",
+      "received": "102017/102017",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A004"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-006"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-006"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-062"
+        },
+        {
+          "source": "X08",
+          "id": "123-3b7f3df3cc5866d7.js"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A004",
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-006",
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-006",
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-062",
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 9,
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "path": "/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "application/javascript",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A003"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-007"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-007"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-063"
+        },
+        {
+          "source": "X08",
+          "id": "main-app-26c70f106191f37c.js"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A003",
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-007",
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-007",
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-063",
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 10,
+      "url": "https://www.gladeye.com/favicon.svg",
+      "path": "/favicon.svg",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/svg+xml",
+      "received": "2059/2059",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A026"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-027"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-058"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-030"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-058"
+        },
+        {
+          "source": "X08",
+          "id": "favicon.svg"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A026",
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-027",
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-058",
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-030",
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-058",
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 11,
+      "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "path": "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "application/javascript",
+      "received": "91381/91381",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "bytes": 91388,
+      "sha256": "3757a24d92e82352ab3d7326cc128a86743452192aefbdfae11618b2f03dedbe",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-064",
+          "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200"
+        }
+      ],
+      "fresh_relative_to_previous": "SAME_URL_DIFFERENT_BYTES"
+    },
+    {
+      "row": 12,
+      "url": "https://www.gladeye.com/about",
+      "path": "/about",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/html",
+      "received": "114411/114411",
+      "from_url": "(from https://www.gladeye.com/)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/about.html",
+      "bytes": 115639,
+      "sha256": "7f9055917e19395951e246154856d613215cf58875bbd7a82f8f2e017191e5cc",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A030",
+          "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-034",
+          "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-034",
+          "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6"
+        }
+      ],
+      "fresh_relative_to_previous": "SAME_URL_DIFFERENT_BYTES"
+    },
+    {
+      "row": 13,
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "path": "/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "font/woff2",
+      "received": "41902/41902",
+      "from_url": "(from https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "bytes": 41902,
+      "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A010"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-010"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-054"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-010"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-054"
+        },
+        {
+          "source": "X08",
+          "id": "epicene-text-light.0650b0f0.woff2"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A010",
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-010",
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-054",
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-010",
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-054",
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 14,
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "path": "/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "font/woff2",
+      "received": "45972/45972",
+      "from_url": "(from https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "bytes": 45972,
+      "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A039"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-043"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-055"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-043"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-055"
+        },
+        {
+          "source": "X08",
+          "id": "epicene-text-light-italic.bab9dcbf.woff2"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A039",
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-043",
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-055",
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-043",
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-055",
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 15,
+      "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "path": "/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "font/woff2",
+      "received": "31866/31866",
+      "from_url": "(from https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "bytes": 31866,
+      "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A008"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-009"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-056"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-009"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-056"
+        },
+        {
+          "source": "X08",
+          "id": "soehne-kraftig.9c83d0e0.woff2"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A008",
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-009",
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-056",
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-009",
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-056",
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 16,
+      "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "path": "/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "font/woff2",
+      "received": "32760/32760",
+      "from_url": "(from https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "bytes": 32760,
+      "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A009"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-011"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-057"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-011"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-057"
+        },
+        {
+          "source": "X08",
+          "id": "soehne-leicht.31cd3571.woff2"
+        }
+      ],
+      "prior_same_url_matches": [
+        {
+          "source": "X01",
+          "id": "X01R2-A009",
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-011",
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-static-057",
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-011",
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+        },
+        {
+          "source": "X07",
+          "id": "X07-html-runtime-057",
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+        }
+      ],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 17,
+      "url": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "path": "/_next/static/media/soehne-buch.5a88e093.woff2",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "font/woff2",
+      "received": "33159/33159",
+      "from_url": "(from https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "bytes": 33159,
+      "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [
+        {
+          "source": "X08",
+          "id": "soehne-buch.5a88e093.woff2"
+        }
+      ],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "DUPLICATE_EXACT"
+    },
+    {
+      "row": 18,
+      "url": "https://www.gladeye.com/_next/",
+      "path": "/_next/",
+      "host": "www.gladeye.com",
+      "http_status": 308,
+      "reason": "error ('Permanent%20Redirect')",
+      "mime": "text/html",
+      "received": "120/120",
+      "from_url": "(from https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js)",
+      "from_class": "same_origin_link",
+      "local_relative_path": "www.gladeye.com/_next/index.html",
+      "bytes": 660,
+      "sha256": "952eb1a542933158d9677a87d1cdae0add3d2e9fc9a71b7ca02099635f4ece15",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 19,
+      "url": "https://www.gladeye.com/_next/static/css/9a7eb02b3db9aeb7.css",
+      "path": "/_next/static/css/9a7eb02b3db9aeb7.css",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "text/css",
+      "received": "7336/7336",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/static/css/9a7eb02b3db9aeb7.css",
+      "bytes": 7336,
+      "sha256": "82badc4764761cd94b45990502203c3ffd82032e5208d8bf5397abc045fd9784",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 20,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=640&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x05c00.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 21,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=750&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x00c91.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 22,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=828&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0686f.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 23,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=1080&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x06538.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 24,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=1200&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x00308.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 25,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=1920&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "381/381",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x09380.jpg",
+      "bytes": 381,
+      "sha256": "ff8153a7ab9012288ac39330256d9e29a3225bb0028f822c7a0dff796fd855f4",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 26,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=2048&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x07cd1.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 27,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg%2Fm%2F20x0&w=3840&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "414/414",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x07920.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 28,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=640&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "47581/47581",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_0720bcb0.jpg",
+      "bytes": 47581,
+      "sha256": "9a4b86082c1c1ce9e61a16153e9259987063fc4d61c2d361e1f1c13cc8befafa",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 29,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=750&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "60231/60231",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_0720a3c7.jpg",
+      "bytes": 60231,
+      "sha256": "d69c856810faae7bbb8d73fc1846a1ebabb7b48836601354f374a07ff9ad8d84",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 30,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=828&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "70490/70490",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_0720075e.jpg",
+      "bytes": 70490,
+      "sha256": "3701cd8182b9dcd9e34412612207cb71821b04e934c591a29439baa5bca84878",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 31,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=1080&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "103926/103926",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_072037df.jpg",
+      "bytes": 103926,
+      "sha256": "078700a9fee7808dd5c82dacb435a8a8656793a80e16c6d25154b20e4ad580d0",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 32,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=1200&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "121535/121535",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_07205f1c.jpg",
+      "bytes": 121535,
+      "sha256": "d8771d1d4d42bf453a2758a7fa46b6ab619030d42637b908757b17708435eaa0",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 33,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=1920&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "314265/314265",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_07200e66.jpg",
+      "bytes": 314265,
+      "sha256": "f2d416722a3c648a7edcb486eb8d77b5a1975f52d4ff637df5f50f6deba336ef",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 34,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=2048&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "276214/276214",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_072087ab.jpg",
+      "bytes": 276214,
+      "sha256": "d59dd5ac1728bd12eb445f7e57cf081b673f6a987427bcd3472f2171bbcd141e",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 35,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F4032x3024%2F5077b19f33%2Fimg_0720.jpg&w=3840&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "773783/773783",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/img_0720e51d.jpg",
+      "bytes": 773783,
+      "sha256": "da3f23e8bd01fc5cb06fa346ee6c8eb62f1965c08b2ea92744f8cee5d3d2de6a",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 36,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=384&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0592f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 37,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=640&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x088e2.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 38,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=750&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x072de.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 39,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=828&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x03a6f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 40,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=1080&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0a57a.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 41,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=1200&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0d22c.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 42,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=1920&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x05124.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 43,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=2048&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "463/463",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0599f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 44,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg%2Fm%2F20x0&w=3840&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "434/434",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x03874.jpg",
+      "bytes": 434,
+      "sha256": "dfbafd4a43fa1784dcdbcabb96a5b69d70e9f6a40e455fbfe7af0478633d52af",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 45,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=384&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "41404/41404",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warme8f8.jpg",
+      "bytes": 41404,
+      "sha256": "9156b6756c27b2555a230718b32a5ac033d835e0c9b3815d488b396e28ab6164",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 46,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=640&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "145526/145526",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warm41f9.jpg",
+      "bytes": 145526,
+      "sha256": "11967a1e08d096c478e470b97d5a60d58e06c759679cc6405860cee41e28b466",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 47,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=750&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "165162/165162",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warma34a.jpg",
+      "bytes": 165162,
+      "sha256": "7a6ffecd03c7427a5773df4146094b66708b1b6cca7e13be496738c5ce9b5a2f",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 48,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=828&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "200487/200487",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warm8775.jpg",
+      "bytes": 200487,
+      "sha256": "7c85b4bda33139eced2c74b6a4a26e972abc2d9092792522be924addec99f43b",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 49,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=1080&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "333276/333276",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warm4d5f.jpg",
+      "bytes": 333276,
+      "sha256": "d700c908d8a9049c08508de5f61b737a0ac5559faef16bb6eebc978f6281fc89",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 50,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=1200&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "404939/404939",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warmdaa1.jpg",
+      "bytes": 404939,
+      "sha256": "1943d8f8549c92be8d131dc9ad8ec7e2d788379ec8be068927107f13838285e0",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 51,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=1920&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "930844/930844",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warm95c2.jpg",
+      "bytes": 930844,
+      "sha256": "4ee957ca4c546dbff806e5d654ff071cbc44e110ca5119c78533cde4079b3205",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 52,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=2048&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "1032534/1032534",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warm5dcf.jpg",
+      "bytes": 1032534,
+      "sha256": "7a95e4343932d9ee0fb3362e0eac4d58bf1cd129fdfcf732418b23a44dd83fb9",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 53,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=384&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0dc01.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 54,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=640&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0f8e8.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 55,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=750&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x09846.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 56,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=828&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x00a9c.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 57,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=1080&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x007e5.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 58,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3693x2769%2F6803ca3ce1%2Fhamurana-pohutakawa-warm.jpg&w=3840&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "2536594/2536594",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-pohutakawa-warme510.jpg",
+      "bytes": 2536594,
+      "sha256": "5398f74ed452890df9ede13ab11daf548243ff5c7a00e91f52a6b11638df9772",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 59,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=1200&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x00024.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 60,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=1920&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x04b3e.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 61,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=2048&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x03807.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 62,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg%2Fm%2F20x0&w=3840&q=75",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "458/458",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/20x0ceb2.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 63,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=384&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "36290/36290",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warm6d4c.jpg",
+      "bytes": 36290,
+      "sha256": "9d4e3d87df9ccb353e816f54b4544ce4537816baecf9c5a750282c35c318b289",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 64,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=640&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "121772/121772",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warm4052.jpg",
+      "bytes": 121772,
+      "sha256": "3a71ef6ec84a7fad6aa15d0491dcbf509bed40f2949f1f44b1a8c1598f5008ee",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 65,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=750&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "139617/139617",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warmc9d2.jpg",
+      "bytes": 139617,
+      "sha256": "7f6c6c502a2cc15dfb54731ba03d185d6a8d97a2dfb040775a38d6c72cf22288",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 66,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=828&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "168872/168872",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warm374c.jpg",
+      "bytes": 168872,
+      "sha256": "86514d94026378ef809bf28bf5fd7970a4f3d529bf5d52e76244f2cb3771c4c0",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 67,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=1080&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "277105/277105",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warmd25e.jpg",
+      "bytes": 277105,
+      "sha256": "7fd389d789370f677085bfea5f6e4c1d95816d52f279df02a8939066d06cd605",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 68,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=1200&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "334730/334730",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warmce74.jpg",
+      "bytes": 334730,
+      "sha256": "8716a2e46df6e66c9c5eac1de80939b386c5b46dd35b16cbd59eb5bbbb216cfe",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 69,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=1920&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "768362/768362",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warmb688.jpg",
+      "bytes": 768362,
+      "sha256": "80f716c34f4a7587b0fb4cc9787aef2b87cce727e2bd0524e0d25b86992a8efe",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 70,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=2048&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "850162/850162",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warm0df6.jpg",
+      "bytes": 850162,
+      "sha256": "e54caddb950819fad240aeccbe124fad376226fc0a2dba957167cc49b97c3f5f",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 71,
+      "url": "https://www.gladeye.com/work/",
+      "path": "/work/",
+      "host": "www.gladeye.com",
+      "http_status": 308,
+      "reason": "error ('Permanent%20Redirect')",
+      "mime": "text/html",
+      "received": "119/119",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/work/index.html",
+      "bytes": 656,
+      "sha256": "b6a415c58ed1cfb2d9552d2b2619c1a7af14eeb1c6ea9a8b04516851ef58cc31",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    },
+    {
+      "row": 72,
+      "url": "https://www.gladeye.com/_next/image?url=https%3A%2F%2Fa-us.storyblok.com%2Ff%2F1014779%2F3654x2740%2F3c019933a8%2Fhamurana-side-warm.jpg&w=3840&q=80",
+      "path": "/_next/image",
+      "host": "www.gladeye.com",
+      "http_status": 200,
+      "reason": "added ('OK')",
+      "mime": "image/jpeg",
+      "received": "2058748/2058748",
+      "from_url": "(from https://www.gladeye.com/about)",
+      "from_class": "linked_about",
+      "local_relative_path": "www.gladeye.com/_next/hamurana-side-warmdfe4.jpg",
+      "bytes": 2058748,
+      "sha256": "0db25b03c735d8a168f5c94ed160154328300986fbe99035b89cc919902d6699",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED",
+      "prior_exact_matches": [],
+      "prior_same_url_matches": [],
+      "fresh_relative_to_previous": "CANDIDATE_NEW_URL_AND_BYTES"
+    }
+  ],
+  "local_mirror_file_index": [
+    {
+      "relative": "backblue.gif",
+      "bytes": 4243,
+      "sha256": "5ecd3c65a71650f10ddc799403b682af2d866e50fc1ea30e972fd8c7df3f77e7",
+      "role": "generated",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "fade.gif",
+      "bytes": 828,
+      "sha256": "90d1006a9e216e01d7c5abc9fd812ee537b8caedc55a1ad885dded4e6520a5a1",
+      "role": "generated",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "hts-cache/doit.log",
+      "bytes": 594,
+      "sha256": "a3419d898438096105d82b37e9381ced7c4a3536b68d63e9d54afb8851e5f670",
+      "role": "cache_log_private",
+      "resource_class": "private_tool_metadata",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "hts-cache/new.lst",
+      "bytes": 3375,
+      "sha256": "259cd460e4048949da577e0acbb1f246fd197ba3c68f73888b2c85b2ba305014",
+      "role": "cache_log_private",
+      "resource_class": "private_tool_metadata",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "hts-cache/new.txt",
+      "bytes": 34717,
+      "sha256": "e1ad20771870ae1a1914fe032531b85cff58932021f0e023ac1ea23c18a7a9f0",
+      "role": "cache_log_private",
+      "resource_class": "private_tool_metadata",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "hts-cache/new.zip",
+      "bytes": 201594,
+      "sha256": "5a84d42b36f2d96b046da88f1b935aa3aed844b37c36f36d568bcd3889171d4c",
+      "role": "cache_log_private",
+      "resource_class": "private_tool_metadata",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "index.html",
+      "bytes": 4983,
+      "sha256": "114f21c196e90ec486bd659fc98ac316a8c8585943c35cf81a80be6881a5277d",
+      "role": "tool_index",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/about.html",
+      "bytes": 115639,
+      "sha256": "7f9055917e19395951e246154856d613215cf58875bbd7a82f8f2e017191e5cc",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/index.html",
+      "bytes": 36095,
+      "sha256": "00342a8a5523ac6a2f4532a3c3ff0620096806a4c01a856fd879b2171eef6bd4",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/work/index.html",
+      "bytes": 656,
+      "sha256": "b6a415c58ed1cfb2d9552d2b2619c1a7af14eeb1c6ea9a8b04516851ef58cc31",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x00024.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x00308.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x007e5.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x00a9c.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x00c91.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x03807.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x03874.jpg",
+      "bytes": 434,
+      "sha256": "dfbafd4a43fa1784dcdbcabb96a5b69d70e9f6a40e455fbfe7af0478633d52af",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x03a6f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x04b3e.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x05124.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0592f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0599f.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x05c00.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x06538.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0686f.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x072de.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x07920.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x07cd1.jpg",
+      "bytes": 414,
+      "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x088e2.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x09380.jpg",
+      "bytes": 381,
+      "sha256": "ff8153a7ab9012288ac39330256d9e29a3225bb0028f822c7a0dff796fd855f4",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x09846.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0a57a.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0ceb2.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0d22c.jpg",
+      "bytes": 463,
+      "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0dc01.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/20x0f8e8.jpg",
+      "bytes": 458,
+      "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warm41f9.jpg",
+      "bytes": 145526,
+      "sha256": "11967a1e08d096c478e470b97d5a60d58e06c759679cc6405860cee41e28b466",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warm4d5f.jpg",
+      "bytes": 333276,
+      "sha256": "d700c908d8a9049c08508de5f61b737a0ac5559faef16bb6eebc978f6281fc89",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warm5dcf.jpg",
+      "bytes": 1032534,
+      "sha256": "7a95e4343932d9ee0fb3362e0eac4d58bf1cd129fdfcf732418b23a44dd83fb9",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warm8775.jpg",
+      "bytes": 200487,
+      "sha256": "7c85b4bda33139eced2c74b6a4a26e972abc2d9092792522be924addec99f43b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warm95c2.jpg",
+      "bytes": 930844,
+      "sha256": "4ee957ca4c546dbff806e5d654ff071cbc44e110ca5119c78533cde4079b3205",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warma34a.jpg",
+      "bytes": 165162,
+      "sha256": "7a6ffecd03c7427a5773df4146094b66708b1b6cca7e13be496738c5ce9b5a2f",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warmdaa1.jpg",
+      "bytes": 404939,
+      "sha256": "1943d8f8549c92be8d131dc9ad8ec7e2d788379ec8be068927107f13838285e0",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warme510.jpg",
+      "bytes": 2536594,
+      "sha256": "5398f74ed452890df9ede13ab11daf548243ff5c7a00e91f52a6b11638df9772",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-pohutakawa-warme8f8.jpg",
+      "bytes": 41404,
+      "sha256": "9156b6756c27b2555a230718b32a5ac033d835e0c9b3815d488b396e28ab6164",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warm0df6.jpg",
+      "bytes": 850162,
+      "sha256": "e54caddb950819fad240aeccbe124fad376226fc0a2dba957167cc49b97c3f5f",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warm374c.jpg",
+      "bytes": 168872,
+      "sha256": "86514d94026378ef809bf28bf5fd7970a4f3d529bf5d52e76244f2cb3771c4c0",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warm4052.jpg",
+      "bytes": 121772,
+      "sha256": "3a71ef6ec84a7fad6aa15d0491dcbf509bed40f2949f1f44b1a8c1598f5008ee",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warm6d4c.jpg",
+      "bytes": 36290,
+      "sha256": "9d4e3d87df9ccb353e816f54b4544ce4537816baecf9c5a750282c35c318b289",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warmb688.jpg",
+      "bytes": 768362,
+      "sha256": "80f716c34f4a7587b0fb4cc9787aef2b87cce727e2bd0524e0d25b86992a8efe",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warmc9d2.jpg",
+      "bytes": 139617,
+      "sha256": "7f6c6c502a2cc15dfb54731ba03d185d6a8d97a2dfb040775a38d6c72cf22288",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warmce74.jpg",
+      "bytes": 334730,
+      "sha256": "8716a2e46df6e66c9c5eac1de80939b386c5b46dd35b16cbd59eb5bbbb216cfe",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warmd25e.jpg",
+      "bytes": 277105,
+      "sha256": "7fd389d789370f677085bfea5f6e4c1d95816d52f279df02a8939066d06cd605",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/hamurana-side-warmdfe4.jpg",
+      "bytes": 2058748,
+      "sha256": "0db25b03c735d8a168f5c94ed160154328300986fbe99035b89cc919902d6699",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_0720075e.jpg",
+      "bytes": 70490,
+      "sha256": "3701cd8182b9dcd9e34412612207cb71821b04e934c591a29439baa5bca84878",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_07200e66.jpg",
+      "bytes": 314265,
+      "sha256": "f2d416722a3c648a7edcb486eb8d77b5a1975f52d4ff637df5f50f6deba336ef",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_072037df.jpg",
+      "bytes": 103926,
+      "sha256": "078700a9fee7808dd5c82dacb435a8a8656793a80e16c6d25154b20e4ad580d0",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_07205f1c.jpg",
+      "bytes": 121535,
+      "sha256": "d8771d1d4d42bf453a2758a7fa46b6ab619030d42637b908757b17708435eaa0",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_072087ab.jpg",
+      "bytes": 276214,
+      "sha256": "d59dd5ac1728bd12eb445f7e57cf081b673f6a987427bcd3472f2171bbcd141e",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_0720a3c7.jpg",
+      "bytes": 60231,
+      "sha256": "d69c856810faae7bbb8d73fc1846a1ebabb7b48836601354f374a07ff9ad8d84",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_0720bcb0.jpg",
+      "bytes": 47581,
+      "sha256": "9a4b86082c1c1ce9e61a16153e9259987063fc4d61c2d361e1f1c13cc8befafa",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/img_0720e51d.jpg",
+      "bytes": 773783,
+      "sha256": "da3f23e8bd01fc5cb06fa346ee6c8eb62f1965c08b2ea92744f8cee5d3d2de6a",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/index.html",
+      "bytes": 660,
+      "sha256": "952eb1a542933158d9677a87d1cdae0add3d2e9fc9a71b7ca02099635f4ece15",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "bytes": 91388,
+      "sha256": "3757a24d92e82352ab3d7326cc128a86743452192aefbdfae11618b2f03dedbe",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3971,
+      "sha256": "f01b74766e3db0090f422c205816806ac7ea215b68955434d25699fb729649c0",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46121,
+      "sha256": "ee3d98b9ab838385577288d0696e2b49de501d08785852aea3ff0b3a4ec45aaf",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/css/9a7eb02b3db9aeb7.css",
+      "bytes": 7336,
+      "sha256": "82badc4764761cd94b45990502203c3ffd82032e5208d8bf5397abc045fd9784",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "bytes": 45972,
+      "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "bytes": 41902,
+      "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "bytes": 33159,
+      "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "bytes": 31866,
+      "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    },
+    {
+      "relative": "www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "bytes": 32760,
+      "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+      "role": "site_content",
+      "resource_class": "site_or_tool_file",
+      "evidence_status": "PRIVATE_CAPTURED_AND_ANALYZED"
+    }
+  ],
+  "limitations": [
+    "HTTrack traverses hyperlink/HTML/CSS/limited JS links; cannot snapshot WebGL GPU state nor 3D live motion",
+    "More linked About pages or Next image variants are not automatically new flower-valley hero assets",
+    "Hashes may differ when HTTrack rewrites relative references in HTML and CSS; same URL comparisons are independent of byte hashing",
+    "A bounded crawl gives completeness only within declared limits; external domains not mirrored",
+    "HTTrack tool cache and logs may contain potentially sensitive request metadata; raw content stays private"
+  ],
+  "next_stage": "X10 (pending user direction after reporting)",
+  "image_variant_dedup": {
+    "source_image_group_count": 6,
+    "requested_jpeg_variant_count": 52,
+    "unique_saved_jpeg_sha256_count": 31,
+    "tiny_jpeg_at_most_1kb": 26,
+    "source_groups": [
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg/m/20x0",
+        "variant_count": 8,
+        "variant_widths": [
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 2,
+        "bytes_total": 3279
+      },
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/4032x3024/5077b19f33/img_0720.jpg",
+        "variant_count": 8,
+        "variant_widths": [
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 8,
+        "bytes_total": 1768025
+      },
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/3693x2769/6803ca3ce1/hamurana-pohutakawa-warm.jpg/m/20x0",
+        "variant_count": 9,
+        "variant_widths": [
+          "384",
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 2,
+        "bytes_total": 4138
+      },
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/3693x2769/6803ca3ce1/hamurana-pohutakawa-warm.jpg",
+        "variant_count": 9,
+        "variant_widths": [
+          "384",
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 9,
+        "bytes_total": 5790766
+      },
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/3654x2740/3c019933a8/hamurana-side-warm.jpg/m/20x0",
+        "variant_count": 9,
+        "variant_widths": [
+          "384",
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 1,
+        "bytes_total": 4122
+      },
+      {
+        "source_url": "https://a-us.storyblok.com/f/1014779/3654x2740/3c019933a8/hamurana-side-warm.jpg",
+        "variant_count": 9,
+        "variant_widths": [
+          "384",
+          "640",
+          "750",
+          "828",
+          "1080",
+          "1200",
+          "1920",
+          "2048",
+          "3840"
+        ],
+        "unique_saved_body_hashes": 9,
+        "bytes_total": 4755658
+      }
+    ]
+  },
+  "offline_qc": {
+    "status": "OFFLINE_RENDER_TESTED",
+    "page": {
+      "url": "file:///PRIVATE_LOCAL_CAPTURE_PATH_REDACTED",
+      "title": "",
+      "canvas_count": 0,
+      "scripts_count": 25,
+      "image_count": 0,
+      "body_text_snippet": "Application error: a client-side exception has occurred (see the browser console for more information).",
+      "http_external_blocked": true
+    },
+    "js_page_error_count": 2,
+    "console_error_count": 19,
+    "failed_request_count": 18,
+    "screenshot_private_relative": "01-private-captures/X09/X09-HTTRACK-GLADEYE-2026-11-18T20-39-05-150Z/X09-offline-mirror-screenshot.png",
+    "screenshot_sha256": "ce532e9e113b99394dce2d7504e38fb1a11a224f06b0b55e792c11b57b0742e3",
+    "verdict": "FAIL_TO_REPRODUCE_LIVE_WEBGL_FLOW_AS_EXPECTED"
+  },
+  "net_resource_caution": "HTTrack bytes can differ after mirror rewriting; 55 unfamiliar URLs are chiefly 52 JPEG optimizer variants linked from About, not 55 distinct new 3D hero assets",
+  "recovery": {
+    "path": "Documents/DJMRN-Website-Evidence-Backups/DJMRN-flower-valley-X09-private-operational-20261119.zip",
+    "bytes": 24089877,
+    "sha256": "e26d796b1ba607902c8406aaafd982e3f5e8eef95732d078142036098ab25007",
+    "zip_entries": 123,
+    "zip_test": "PASS",
+    "contains": "raw private mirror + X09 fixture runs + comparison + offline QA + portable official 3.51 installer + reproducible scripts",
+    "same_device_warning": "This is a second local copy on the same laptop; NOT an independent-device backup"
+  }
+}
