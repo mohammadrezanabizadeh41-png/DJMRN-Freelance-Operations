@@ -1,0 +1,65 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X11",
+  "date": "2026-11-19",
+  "status": "PARTIAL_PREFLIGHT_DONE__NATIVE_PACKAGE_INSTALLED_CLI_UNUSABLE__DOCKER_NOT_IMPORTED_LOW_RAM",
+  "scope": "ArchiveBox archival lifecycle, snapshot metadata, and repeatability; no new Gladeye crawl yet",
+  "source": {
+    "official_release": "v0.9.77",
+    "released_utc": "2026-10-27T22:10:48Z",
+    "url": "https://github.com/ArchiveBox/ArchiveBox/releases/tag/v0.9.77",
+    "downloaded_source_zip": "Downloads/DJMRN-Website-Tools/SOURCE_ARCHIVE/ArchiveBox-ArchiveBox-v0.9.77.zip",
+    "bytes": 13485637,
+    "sha256": "8205522df32f14fef4d4b16e99ec668d9375e62ee9e2a6fdb7487a7e472211a4",
+    "zip_entries": 1175,
+    "verified_pyproject_version": "0.9.77",
+    "requires_python": ">=3.13"
+  },
+  "official_runtime": {
+    "supported_method": "Docker/WSL2 for Windows, not native Windows",
+    "docker_desktop": "4.99.0 installed",
+    "wsl": "3.0.5.0 installed",
+    "docker_compose": "v5.7.0",
+    "docker_hub_manifest": "RBAC access denied",
+    "ghcr_official_image": "ghcr.io/archivebox/archivebox:0.9.77",
+    "ghcr_linux_amd64_manifest_digest": "sha256:5e6cf4b10b8bf8ef5ee1a99cb10be2ca1849174cdad5dfd7c3c5101b347dc667",
+    "ghcr_manifest_verified": true,
+    "ghcr_image_imported": false,
+    "actual_container_version_test": false,
+    "ram_guard_mib": 250,
+    "lowest_windows_free_ram_mib": 194,
+    "attempt": "Docker Desktop started, but engine info command stopped when free RAM reached 248 MiB. Desktop stop and WSL shutdown exited 0.",
+    "result": "BLOCKED_RAM"
+  },
+  "isolated_native_trial": {
+    "uv": "0.13.5",
+    "python": "3.14.7",
+    "venv": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/04-Runtimes/ArchiveBox-X11/venv",
+    "uv_venv_exit": 0,
+    "uv_pip_install_0_9_77_exit": 0,
+    "archivebox_version_exit": 1,
+    "exception": "ModuleNotFoundError: No module named 'pwd'",
+    "reason": "POSIX-only module import unsupported by native Windows",
+    "result": "PACKAGE_INSTALLED_BUT_CLI_UNUSABLE"
+  },
+  "private_reproducible_results": [
+    "01-private-captures/X11/X11-ARCHIVEBOX-2026-11-18T23-22-59-247Z/X11-image-install-result.json",
+    "01-private-captures/X11/X11-NATIVE-PYTHON-2026-11-18T23-25-00-126Z/X11-native-test-result.json",
+    "02-reviewed-derived/X11-archivebox-prerequisites-and-runtime-blocker.json"
+  ],
+  "production_research_results": {
+    "new_gladeye_snapshots": 0,
+    "new_model_files": 0,
+    "new_shader_data": 0,
+    "new_camera_data": 0,
+    "archivebox_capture_qa": "NOT_RUN",
+    "x12": "NOT_STARTED"
+  },
+  "privacy_cost": {
+    "existing_x01_x10_artifacts_preserved": true,
+    "no_raw_external_assets_published": true,
+    "no_provider_subscription_or_paid_usage": true,
+    "no_exposure_of_browser_profiles": true
+  },
+  "next_action": "Resume with official GHCR container only after host RAM headroom increases without interrupting unsaved user work; run one scoped actual ArchiveBox capture then compare new archived content/hash/metadata vs X01–X10. Do not spoof the POSIX pwd API on Windows, alter system security, or label X11 PASS."
+}
