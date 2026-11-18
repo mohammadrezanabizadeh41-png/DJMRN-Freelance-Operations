@@ -1,0 +1,235 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X06",
+  "run_id": "X06-GUI-2026-11-18T18-53-38-352Z",
+  "tool": "WebScoop 0.51.0 Electron GUI; single-page preset, JS rendering ON, same-host default, robots respected",
+  "status": "PASS_BOUNDED_GUI_ARCHIVE; NO_NEW_HERO_3D_ASSETS",
+  "original_gui_project_directory": "Downloads/djmrn-valley-x06-study",
+  "private_case_archive": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture",
+  "copied_bytes_verified": true,
+  "selected_configuration": {
+    "url": "https://www.gladeye.com/",
+    "name": "djmrn-valley-x06-study",
+    "save_to": "C:\\Users\\Mrn7206\\Downloads",
+    "max_depth": "1",
+    "max_pages": "1",
+    "robots": true,
+    "parallel": "4",
+    "delay_ms": "100",
+    "js_enabled": true,
+    "button_enabled": true
+  },
+  "outcome": {
+    "files": 14,
+    "total_bytes": 636187,
+    "file_categories": {
+      "javascript": {
+        "count": 5,
+        "bytes": 358535
+      },
+      "css": {
+        "count": 2,
+        "bytes": 54125
+      },
+      "font": {
+        "count": 5,
+        "bytes": 185659
+      },
+      "svg": {
+        "count": 1,
+        "bytes": 2059
+      },
+      "document": {
+        "count": 1,
+        "bytes": 35809
+      }
+    },
+    "reported_in_gui": "14 of 14 downloaded, zero failed; no media/GLB",
+    "actual_file_hashes": [
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "kind": "javascript",
+        "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+        "bytes": 102017,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "kind": "javascript",
+        "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+        "bytes": 160712,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+        "kind": "javascript",
+        "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+        "bytes": 463,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "kind": "javascript",
+        "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+        "bytes": 91381,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "x01_same_url": false,
+        "x01_sha_equal": null,
+        "x01_previous_sha": null
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+        "kind": "javascript",
+        "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+        "bytes": 3962,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+        "kind": "css",
+        "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+        "bytes": 8004,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "kind": "css",
+        "sha256": "ee3d98b9ab838385577288d0696e2b49de501d08785852aea3ff0b3a4ec45aaf",
+        "bytes": 46121,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "x01_same_url": true,
+        "x01_sha_equal": false,
+        "x01_previous_sha": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+        "kind": "font",
+        "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+        "bytes": 45972,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+        "kind": "font",
+        "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+        "bytes": 41902,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+        "kind": "font",
+        "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+        "bytes": 33159,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+        "x01_same_url": false,
+        "x01_sha_equal": null,
+        "x01_previous_sha": null
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+        "kind": "font",
+        "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+        "bytes": 31866,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+        "kind": "font",
+        "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+        "bytes": 32760,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5"
+      },
+      {
+        "url": "https://www.gladeye.com/favicon.svg",
+        "kind": "svg",
+        "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+        "bytes": 2059,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/favicon.svg",
+        "x01_same_url": true,
+        "x01_sha_equal": true,
+        "x01_previous_sha": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850"
+      },
+      {
+        "url": "https://www.gladeye.com/index.html",
+        "kind": "document",
+        "sha256": "15f2950f5167958824fd4638ffb602d8019ab999bbdda56e03b3dddc19162b41",
+        "bytes": 35809,
+        "local_relative_path": "01-private-captures/X06/X06-GUI-2026-11-18T18-53-38-352Z/capture/www.gladeye.com/index.html",
+        "x01_same_url": false,
+        "x01_sha_equal": null,
+        "x01_previous_sha": null
+      }
+    ]
+  },
+  "cross_reference": {
+    "identical_path_to_x01": 11,
+    "identical_sha_to_x01": 10,
+    "same_url_changed_file_content": [
+      {
+        "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "prev_sha": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+        "new_sha": "ee3d98b9ab838385577288d0696e2b49de501d08785852aea3ff0b3a4ec45aaf"
+      }
+    ],
+    "not_found_in_x01": [
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+        "kind": "javascript"
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+        "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+        "kind": "font"
+      },
+      {
+        "url": "https://www.gladeye.com/index.html",
+        "sha256": "15f2950f5167958824fd4638ffb602d8019ab999bbdda56e03b3dddc19162b41",
+        "kind": "document"
+      }
+    ],
+    "source_x01_capture": "X01-R2-2026-11-18T18-01-09-463Z",
+    "source_x03_cli": "X03-R2-20261118T182211Z"
+  },
+  "coverage": {
+    "actual_3d_camera_glb": false,
+    "actual_summer_winter_flower_atlases": false,
+    "actual_ray_textures": false,
+    "actual_audio": false,
+    "reason": "WebScoop GUI Single Page JS-render capture produced static HTML/JS/CSS/font subset only; cannot infer no resource exists on site.",
+    "next_reconstruction_steps": "X07 SingleFile snapshot, X16+ script AST semantics, X22+ runtime GPU capture"
+  },
+  "limitations": [
+    "A local Downloads source project folder remains a redundant source copy; private project case is checksum-verified copy",
+    "No complete independent WebGL engine capture from this GUI",
+    "No original vendor source, artwork, HTML or media uploaded to PUBLIC GitHub"
+  ],
+  "privacy": "Only hashes, format, URL path and comparative metadata may be public. Local archived vendor bytes remain private."
+}
