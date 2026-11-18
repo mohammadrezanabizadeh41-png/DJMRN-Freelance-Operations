@@ -1,0 +1,75 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X10",
+  "tool": "Browsertrix Crawler 1.15.4",
+  "date_utc": "2026-11-18T22:24:06.9923985Z",
+  "status": "PASS_REAL_WACZ_AND_QA_ARTIFACTS__REPLAY_TIMEOUT_WEBGL_FIDELITY_NOT_VERIFIED",
+  "primary": {
+    "bytes": 10761586,
+    "sha256": "df5b9e55e4e18419784a9f4479d9f4b0a65d99589ed1ab682e2b0f1ae0498bf2",
+    "zip_entries": 10,
+    "cdx_records": 53,
+    "mimes": {
+      "text/plain": 2,
+      "image/svg+xml": 1,
+      "font/woff2": 4,
+      "image/png": 9,
+      "audio/mpeg": 1,
+      "text/html": 1,
+      "application/json": 1,
+      "text/x-component": 3,
+      "application/javascript": 27,
+      "text/css": 3,
+      "model/gltf-binary": 1
+    },
+    "http_statuses": {
+      "200": 49,
+      "204": 1,
+      "unknown": 3
+    },
+    "hosts": {
+      "analytics.google.com": 1,
+      "www.googletagmanager.com": 2,
+      "www.gladeye.com": 47
+    },
+    "homepage_http200": true
+  },
+  "qa": {
+    "bytes": 4366770,
+    "sha256": "0361c42443999f1ff7f8e9dd878f9e04986d78d642b48a48059d7096a60e70e0",
+    "exit_code": 0,
+    "original_unchanged": true,
+    "replay_90s_timeout": true,
+    "successful_webgl_visual_comparison": false
+  },
+  "crosswalk": {
+    "Records": 53,
+    "UniqueUrls": 53,
+    "X01ExactHash": 44,
+    "X07ExactHash": 45,
+    "X08ExactHash": 11,
+    "X09ExactHash": 9,
+    "X01UrlOverlap": 43,
+    "X09UrlOverlap": 12,
+    "GlbRecords": 1,
+    "GlbExactX01": 1
+  },
+  "ram": {
+    "emergency_floor_mib": 50,
+    "minimum_free_image_pull_mib": 332,
+    "minimum_free_capture_mib": 271,
+    "minimum_free_qa_mib": 338,
+    "wsl_cap_mib": 2048,
+    "wsl_swap_gb": 4,
+    "single_layer_download": true
+  },
+  "private_case_relative": "01-private-captures/X10/X10-BROWSERTRIX-2026-11-18T22-10-33-350Z",
+  "limitations": [
+    "Main site returned HTTP 200; browser page-load timeout 60s and Cloudflare check timeout 5s",
+    "Replay timed out after 90s and scrolling was not responsive: no full 3D replay fidelity claim",
+    "GLB content digest matches X01, MP3 and 8 original PNG match X01; generated screenshot is not site source",
+    "No raw WARC, cookies, screenshot or browser profile published",
+    "Docker/WSL intentionally stopped after preserving the two WACZ files"
+  ],
+  "x11": "NOT_STARTED"
+}
