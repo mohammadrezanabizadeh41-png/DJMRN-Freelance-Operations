@@ -1,0 +1,318 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X02",
+  "run_id": "X02-R3-2026-11-18T18-19-07-151Z",
+  "quality_gate": "PASS: 25/25 captured JS source SHA matched in Runtime and three critical input/renderer listener owners independently observed",
+  "observed_at_utc": "2026:11:18T18:19:07:151",
+  "browser": "157.0.8103.79",
+  "viewport": {
+    "width": 1280,
+    "height": 800,
+    "dpr": 1
+  },
+  "reference": "https://www.gladeye.com/",
+  "http_status": 200,
+  "network_requests": 51,
+  "script_parsed_events": 66,
+  "captured_first_party_scripts_runtime_verified": 25,
+  "verified_script_ids": [
+    "X01R2-A006",
+    "X01R2-A007",
+    "X01R2-A003",
+    "X01R2-A004",
+    "X01R2-A020",
+    "X01R2-A018",
+    "X01R2-A011",
+    "X01R2-A014",
+    "X01R2-A012",
+    "X01R2-A015",
+    "X01R2-A013",
+    "X01R2-A019",
+    "X01R2-A023",
+    "X01R2-A021",
+    "X01R2-A025",
+    "X01R2-A016",
+    "X01R2-A024",
+    "X01R2-A017",
+    "X01R2-A022",
+    "X01R2-A043",
+    "X01R2-A044",
+    "X01R2-A042",
+    "X01R2-A045",
+    "X01R2-A046",
+    "X01R2-A047"
+  ],
+  "owner_check": {
+    "scene_pointermove": true,
+    "scene_wheel": true,
+    "canvas_webgl_recovery": true
+  },
+  "listener_map": [
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "first_party_file_id": "X01R2-A015",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "first_party_file_id": "X01R2-A013",
+      "line": 12,
+      "passive": true,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "first_party_file_id": "X01R2-A024",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "first_party_file_id": "X01R2-A024",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "first_party_file_id": "X01R2-A012",
+      "line": 0,
+      "passive": true,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "first_party_file_id": "X01R2-A025",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "first_party_file_id": "X01R2-A024",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "pointermove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "first_party_file_id": "X01R2-A024",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "window",
+      "event": "scroll",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "first_party_file_id": "X01R2-A012",
+      "line": 0,
+      "passive": true,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "mousemove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "pointerdown",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "pointermove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "pointerup",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "resize",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "scroll",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "touchmove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": true,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "wheel",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": true,
+      "phase": "capture"
+    },
+    {
+      "element": "document",
+      "event": "mousemove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "pointerdown",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "pointermove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "pointerup",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "touchmove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": true,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "touchmove",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "first_party_file_id": "X01R2-A015",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "document",
+      "event": "wheel",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "first_party_file_id": "X01R2-A007",
+      "line": 8,
+      "passive": true,
+      "phase": "bubble"
+    },
+    {
+      "element": "canvas",
+      "event": "webglcontextlost",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "first_party_file_id": "X01R2-A022",
+      "line": 185,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "canvas",
+      "event": "webglcontextrestored",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "first_party_file_id": "X01R2-A022",
+      "line": 185,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "canvas",
+      "event": "webglcontextcreationerror",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "first_party_file_id": "X01R2-A022",
+      "line": 185,
+      "passive": false,
+      "phase": "bubble"
+    },
+    {
+      "element": "canvas-grandparent",
+      "event": "wheel",
+      "script_url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "first_party_file_id": "X01R2-A023",
+      "line": 0,
+      "passive": false,
+      "phase": "bubble"
+    }
+  ],
+  "screenshot_private": {
+    "path": "01-private-captures/X02-R3/X02-R3-2026-11-18T18-19-07-151Z/actual-runtime-scene.png",
+    "sha256": "754ed84f3a16d6dda75e945fb8c1f9190233c45c5c1ede66d34224e9bab0705c",
+    "bytes": 1962820
+  },
+  "private_raw_sha256": "d184605f7d460ac7fe16ebf7cdecb3ffd279e21448f3de670b82c035ec089b15",
+  "first_runtime_capture_context": "X02-R2 previous 19/25 seen and 159 listeners sampled (partial due short wait); X02-R3 longer-stabilized capture saw 25/25 with matching hashes; both records retained privately",
+  "limitations": [
+    "Two independent X02 runs with identical viewport and fresh browser contexts; if routes differ, assets may be prefetched later",
+    "Expected script owners must hash-match X01 private body; only first-party owner identity + event type disclosed publicly",
+    "Never infer per-frame actual shader call or causal flower motion solely from registered listeners",
+    "Route-prefetch bundles absent from this home scene do not imply missing source; X03 and route/state coverage later"
+  ],
+  "next": "X03 bounded SiteOne CLI after X02 acceptance; later GPU/geometry/camera/motion analysis still pending"
+}
