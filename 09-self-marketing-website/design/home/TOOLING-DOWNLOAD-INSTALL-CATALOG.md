@@ -202,32 +202,32 @@
 
 ## 2026-11-18 — FINAL VERIFIED DOWNLOAD ACQUISITION (68/68)
 
-**Status:** ACQUISITION COMPLETE / DOWNLOAD-ONLY. This supersedes the partial/in-progress acquisition checkpoints above for these **68 selected local queue rows**. Not an instruction or permission to install, connect MCP, run browser extensions, or deploy any site. All 68 rows of \`download-status.json\` + \`additional-download-status.json\` and the merged \`serial-download-queue.json\` now read \`DOWNLOADED\`; verified on \`DJMRN-LAPTOP\`, via Desktop Commander, from local disk, NOT inferred from filenames alone.
+**Status:** ACQUISITION COMPLETE / DOWNLOAD-ONLY. This supersedes the partial/in-progress acquisition checkpoints above for these **68 selected local queue rows**. Not an instruction or permission to install, connect MCP, run browser extensions, or deploy any site. All 68 rows of `download-status.json` + `additional-download-status.json` and the merged `serial-download-queue.json` now read `DOWNLOADED`; verified on `DJMRN-LAPTOP`, via Desktop Commander, from local disk, NOT inferred from filenames alone.
 
-**Evidence and reproducibility:** \`C:\Users\Mrn7206\Downloads\DJMRN-Website-Tools\` on the Windows laptop. \`VERIFIED-LOCAL-INVENTORY.json\` was refreshed. \`verify-downloaded-hashes.mjs\` re-read and SHA-256-hashed each of the 68 target artifacts and checked their file-type signatures. Verification result: **68 present, 68 pass, 0 missing, 0 mismatch, 0 without prior SHA**; aggregate size for the 68 targets **3,951,393,089 bytes**. The project directory contains **no remaining .part files**. \`SERIAL-DOWNLOAD-LOG.txt\` and two original manifests retain provenance; scripts \`retry-ffmpeg-after-serial.mjs\`, \`resume-krita-604.mjs\`, and \`finalize-resumed-downloads.mjs\` preserve the bounded sequential recovery procedure.
+**Evidence and reproducibility:** `C:\Users\Mrn7206\Downloads\DJMRN-Website-Tools` on the Windows laptop. `VERIFIED-LOCAL-INVENTORY.json` was refreshed. `verify-downloaded-hashes.mjs` re-read and SHA-256-hashed each of the 68 target artifacts and checked their file-type signatures. Verification result: **68 present, 68 pass, 0 missing, 0 mismatch, 0 without prior SHA**; aggregate size for the 68 targets **3,951,393,089 bytes**. The project directory contains **no remaining .part files**. `SERIAL-DOWNLOAD-LOG.txt` and two original manifests retain provenance; scripts `retry-ffmpeg-after-serial.mjs`, `resume-krita-604.mjs`, and `finalize-resumed-downloads.mjs` preserve the bounded sequential recovery procedure.
 
 **Types among the 68 selected queue targets:**
 
 | Windows/download file format | Verified count | Meaning |
 |---|---:|---|
-| \`.exe\` | 10 | Portable programs, setup installers, or Windows binaries; **none run** |
-| \`.zip\` | 55 | Source archives, tools, browser-extension packages, or portable ZIPs; **not necessarily installed programs** |
-| \`.msi\` | 2 | Windows MSI installers; **none installed** |
-| \`.7z\` | 1 | Windows compressed archive |
+| `.exe` | 10 | Portable programs, setup installers, or Windows binaries; **none run** |
+| `.zip` | 55 | Source archives, tools, browser-extension packages, or portable ZIPs; **not necessarily installed programs** |
+| `.msi` | 2 | Windows MSI installers; **none installed** |
+| `.7z` | 1 | Windows compressed archive |
 | **TOTAL** | **68** | **ALL files present, hash-verified** |
 
-**Separate extra downloadable artifacts (not additional queue rows):** Inkscape 1.4.4 vendor \`.msi\`; Krita 5.3.4.1 vendor \`.exe\`; four \`.tgz\` npm packages (REA 6.9.0, webcrack 2.16.0, Three.js 0.187.0, Vite 8.3.8). Therefore **74 unique downloadable software artifacts** exist across the three artifact subfolders; in particular, \`.tgz\` means npm package tarball, **not a Windows EXE**. The 68-row audit counts alone must not be mistaken for an inventory of researched web-only, unverified-source or not-selected candidates.
+**Separate extra downloadable artifacts (not additional queue rows):** Inkscape 1.4.4 vendor `.msi`; Krita 5.3.4.1 vendor `.exe`; four `.tgz` npm packages (REA 6.9.0, webcrack 2.16.0, Three.js 0.187.0, Vite 8.3.8). Therefore **74 unique downloadable software artifacts** exist across the three artifact subfolders; in particular, `.tgz` means npm package tarball, **not a Windows EXE**. The 68-row audit counts alone must not be mistaken for an inventory of researched web-only, unverified-source or not-selected candidates.
 
 **Recovered failed downloads, one network transfer at a time:**
-- \`VENDOR_BUNDLE/FFmpeg-Windows-essentials-latest.zip\` — **114,768,076 bytes**, SHA-256 \`60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba\`, **matches** Gyan's official published SHA-256 for FFmpeg release-essentials 9.0.2 ZIP at https://www.gyan.dev/ffmpeg/builds/ . Resumed existing partial using Node HTTPS with certificate-chain validation and HTTP range/size checks; no Windows TLS/revocation security setting disabled.
-- \`VENDOR_BUNDLE/Krita-6.0.4-Windows-x64-setup.exe\` — **175,706,528 bytes**, locally measured SHA-256 \`23eac8928d9de04c0dcd73c9f975240f7148b9cc879b20c1f7442d3816aba8b4\`. Resumed an already-partial official KDE release via a verified KDE mirror after checking the file prefix and HTTP range. Windows Authenticode: **Valid**, signer **K Desktop Environment e.V.** The existing **Krita 5.3.4.1** remains available and is the vendor-recommended production series; 6.0.4 is more experimental and should **not** be installed by default.
+- `VENDOR_BUNDLE/FFmpeg-Windows-essentials-latest.zip` — **114,768,076 bytes**, SHA-256 `60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba`, **matches** Gyan's official published SHA-256 for FFmpeg release-essentials 9.0.2 ZIP at https://www.gyan.dev/ffmpeg/builds/ . Resumed existing partial using Node HTTPS with certificate-chain validation and HTTP range/size checks; no Windows TLS/revocation security setting disabled.
+- `VENDOR_BUNDLE/Krita-6.0.4-Windows-x64-setup.exe` — **175,706,528 bytes**, locally measured SHA-256 `23eac8928d9de04c0dcd73c9f975240f7148b9cc879b20c1f7442d3816aba8b4`. Resumed an already-partial official KDE release via a verified KDE mirror after checking the file prefix and HTTP range. Windows Authenticode: **Valid**, signer **K Desktop Environment e.V.** The existing **Krita 5.3.4.1** remains available and is the vendor-recommended production series; 6.0.4 is more experimental and should **not** be installed by default.
 
 **Notable verified selected packages and usage:**
-- \`spectorjs-extension-v0.9.33.zip\` — browser WebGL frame inspector, **ZIP**.
-- REA \`morluto-rea-rea-agents-6.9.0.zip\` and \`rea-agents-6.9.0.tgz\` — legitimate JS-analysis source and npm package, **ZIP/TGZ**, not activated.
-- \`three-0.187.0.tgz\` and \`vite-8.3.8.tgz\` — Three.js rendering and Vite build packages, **TGZ**, not Windows installers.
-- \`BabylonJS-Editor-5.5.3-Windows-setup.exe\` — visual 3D editor, **EXE**; \`BabylonJS-Editor-v5.5.3.zip\` — distinct full source **ZIP**.
-- \`RenderDoc-1.47-Windows-x64.msi\` — GPU capture GUI **MSI**; RenderDoc MCP and Three.js DevTools MCP were downloaded as **source ZIPs**, with connections untested.
-- \`Blender-5.3.0-Windows-x64.msi\` — 3D model editor, **MSI**; \`GIMP-3.2.8-Windows-setup.exe\`, \`Onlook-setup.exe\`, \`dyad-1.23.0.Setup.exe\` — GUI installers **EXE**; \`ShareX-22.4.0-portable-x64.zip\` — capture utility **ZIP**; \`LosslessCut-win-x64.7z\` — video utility **7Z**.
+- `spectorjs-extension-v0.9.33.zip` — browser WebGL frame inspector, **ZIP**.
+- REA `morluto-rea-rea-agents-6.9.0.zip` and `rea-agents-6.9.0.tgz` — legitimate JS-analysis source and npm package, **ZIP/TGZ**, not activated.
+- `three-0.187.0.tgz` and `vite-8.3.8.tgz` — Three.js rendering and Vite build packages, **TGZ**, not Windows installers.
+- `BabylonJS-Editor-5.5.3-Windows-setup.exe` — visual 3D editor, **EXE**; `BabylonJS-Editor-v5.5.3.zip` — distinct full source **ZIP**.
+- `RenderDoc-1.47-Windows-x64.msi` — GPU capture GUI **MSI**; RenderDoc MCP and Three.js DevTools MCP were downloaded as **source ZIPs**, with connections untested.
+- `Blender-5.3.0-Windows-x64.msi` — 3D model editor, **MSI**; `GIMP-3.2.8-Windows-setup.exe`, `Onlook-setup.exe`, `dyad-1.23.0.Setup.exe` — GUI installers **EXE**; `ShareX-22.4.0-portable-x64.zip` — capture utility **ZIP**; `LosslessCut-win-x64.7z` — video utility **7Z**.
 
 **Boundary:** no installation, Windows configuration/security changes, browser extension activation, new provider account/permissions, or paid credit usage. A later *selection and installation review* should independently choose the smallest adequate set. This checkpoint asserts acquisition/file integrity, **not operational fitness or tool/MCP integration**.
