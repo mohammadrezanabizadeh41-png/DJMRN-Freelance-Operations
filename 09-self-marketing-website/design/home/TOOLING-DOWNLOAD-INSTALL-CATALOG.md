@@ -231,3 +231,69 @@
 - `Blender-5.3.0-Windows-x64.msi` — 3D model editor, **MSI**; `GIMP-3.2.8-Windows-setup.exe`, `Onlook-setup.exe`, `dyad-1.23.0.Setup.exe` — GUI installers **EXE**; `ShareX-22.4.0-portable-x64.zip` — capture utility **ZIP**; `LosslessCut-win-x64.7z` — video utility **7Z**.
 
 **Boundary:** no installation, Windows configuration/security changes, browser extension activation, new provider account/permissions, or paid credit usage. A later *selection and installation review* should independently choose the smallest adequate set. This checkpoint asserts acquisition/file integrity, **not operational fitness or tool/MCP integration**.
+
+
+## 2026-11-18 — PROPOSED PROFESSIONAL INSTALLATION PLAN (OWNER REVIEW REQUIRED)
+
+**State:** REVIEWED PROPOSAL, **NOT installation approval, execution result, or adopted architecture**. Owner explicitly requested this recommendation to be recorded, followed by an independent inventory/uninstall discussion, with **no software installation/uninstallation yet**. This section is the single tool-acquisition/installation proposal; project implementation and approvals remain in the existing `PROJECT-LOG.md`. Date 2026-11-18; source inputs: preceding 68-item verified local download manifests, full project `README.md`, `MASTER-ROADMAP.md`, `EXECUTION-PLAN.md`, [the existing creative/tool research](fernhollow-gladeye-reactive-valley.md), and the current DJMRN Notion operating/tool governance rules.
+
+### Scope and mission
+
+The website is **a service-first, original, multilingual freelance/AI-coding portfolio**. First flagship is **an independently authored, performant, interactive night flower-valley background**, not a whole cloned website. Need research of how the reference scenes work, observation of browser interaction (pointer/scroll/spline/dispersal/restore), WebGL/frame/shader analysis, modeling and sprite/texture/atlas generation, original scene code, mobile/reduced-motion performance QA, and ultimately service pages + separate honest working demo apps (a synthetic-data shopping/finance demo later). Do not represent prototype/mockup as finished or use unlicensed third-party reference assets.
+
+**Acquisition taxonomy:** 68 selected queue downloads were verified present; **68 artifact files ≠ 68 installable applications**. Prior first-pass classification: approximately **66 distinct repositories/packages, 65 tool families** in those 68 files; two repeated source+installer identities are Babylon.js Editor and RenderDoc, and SiteOne GUI+CLI is one wider family. Additionally 6 distinct downloads (Inkscape installer, Krita 5.x installer, 4 npm tarballs), yielding **74 downloadable artifacts / about 67 tool families** across all archives. These are classification counts, not an assertion that 67 GUI apps should be installed; npm source, browser extensions, CLI/MCP source and portable ZIPs differ materially from GUI installers.
+
+### Professional selection — preparation & usage sequence
+
+1. **Observed research / reproducible reference study** (high priority, complement—not duplicative default runtime):
+   - **Spector.js browser extension**: WebGL capture, shader, draw call, uniforms, textures and FBO exploration; **essential** first-line GPU WebGL study; inspect extension permissions and isolate from sensitive browser profiles before activation.
+   - **SiteOne Crawler GUI + CLI**: repeatable URL/resource coverage and network/asset inventory; use GUI for interactive review and CLI for evidence comparisons; **essential**.
+   - **REA 6.9 + webcrack**: legally permitted JavaScript bundling/module/behavior analysis, source-maps when available; **important**. REA source/CLI package **is not proof that MCP was activated**. Test locally with safe public resources and least privilege; do not assume source recovery.
+   - **decant + WebScoop**: complementary snapshots/context extraction; **important** where they add coverage to existing Playwright/CDP; inspect provenance and no credential-bearing capture.
+   - **FFmpeg + ScreenToGif**: frame sequence, pointer/scroll timing, captured video reproducibility; **essential**. Existing Edge/Playwright/DevTools should be reused rather than reinstalled.
+2. **Original 3D/art production** (high priority, heavy GUI apps used one at a time):
+   - **Blender 5.3**: flower/leaf/terrain meshes, geometry, animation, UV/glTF/LOD; **essential production capability** but accept 8-GB-class machine constraint and use bounded small scenes/offline operations.
+   - **Babylon.js Editor 5.5.3 Windows GUI**: visual scene, light, material, camera/particle experimentation; **important complement**. Do **not** automatically include Babylon runtime beside Three.js in the final product; compare engine suitability using a small scene. Its MCP connection is separately unverified.
+   - **Krita 5.3.x stable, GIMP 3.2.x, Inkscape 1.4.x**: original transparent flower sprites/alpha, texture editing and SVG shapes; **important** with distinct jobs. Downloaded Krita 6.0.4 is a separate experimental version, **not** the default requested install.
+   - **Material Maker**: procedural texture/noise/terrain/leaf material generation; **important**. **FastPack** (atlas packing) and **KTX Software** (GPU texture packaging/compression) are high priority for many flower sprites and web/mobile draw-call performance. **Free Texture Packer** can be compared with FastPack and need not be installed concurrently.
+3. **Original renderer, integration and QA** (project-local packages rather than globally-installed Windows apps):
+   - **Three.js r187 + Vite 8.x**: initial engine/dev-build **recommendation, still subject to small working prototype and acceptance**. Direct scene graph, camera path, instanced sprites/particles, shaders and performance instrumentation. Use reproducible project-local dependency installation (existing npm tarballs are not complete offline dependency trees).
+   - **postprocessing, Tweakpane, stats-gl**: controlled bloom/glow; live tuning of scene parameters; render/FPS metrics. Treat these as conditional packages when there is actual integration code, not standalone EXEs.
+   - **glTF Transform + glTF Validator**: optimize and validate exports; **essential at asset export/import boundary**, not continuously running services.
+   - **Lighthouse + axe-core + Playwright/CDP**: Lighthouse performance, accessibility, LCP/INP/CLS and keyboard/reduced-motion/responsive/mobile testing; retain real test evidence. No visual-quality claim without actual browser/GPU observation.
+4. **Specialist diagnostics / second-line tools** (keep downloaded, targeted activation after a primary failure or specific need):
+   - **RenderDoc GUI** for native API/GPU frame diagnostics; it is deeper in some workflows but **not guaranteed to capture a browser WebGL page directly**. RenderDoc MCP source separate, untested.
+   - **WebGLRipper** for permissioned geometry extraction experiments; **ShaderEditorExtension / Ispettore / webgd / WebGL Model Extractor / meshgrab** as specific WebGL/shader alternatives; audit privileges and licenses/maintenance; no automatic browser extension installation.
+   - **Three.js DevTools + Three.js DevTools MCP**: inspect **our own** scene objects/camera/material state after first running scene; MCP interface permissions/security and actual access must be smoke-tested.
+   - **Blender MCP**: optional batch/structured workflow after manual Blender acceptability check; do not grant filesystem/broad process access by default.
+   - **ShareX and LosslessCut**: reference/documentation and portfolio video production if existing FFmpeg/ScreenToGif workflow proves insufficient.
+5. **Service hub and working sample apps** (later stage, after first flagship):
+   - **Onlook** for React visual/source editing where the selected UI framework needs it, and **Dyad** for rapid app prototypes; their native GUI installers are available, but actual AI model API/pricing/quota/terms are separate and **not assumed free**. Compare their outcomes and choose one as appropriate; no automatic account/provider registration or paid routing.
+   - Do not move the synthetic checkout/invoices into the main DJMRN site: sample shopping/finance state should be clearly labeled **DEMO / NO REAL PAYMENT** and kept scoped to the example app.
+
+### Installation review shortlist — role, activation and validation
+
+| Phase | Candidate | Delivery type | Specific acceptance before KEEP | Priority |
+|---|---|---|---|---|
+| 1 | Spector.js | Browser extension ZIP | isolated profile captures one authorized WebGL frame, permissions reviewed | P0 essential |
+| 1 | SiteOne GUI + CLI | Portable EXE + CLI ZIP | resource inventory/reproducible comparison, no private content | P0 essential |
+| 1 | REA + webcrack | Source/npm/CLI; no standalone GUI | usable local analysis of authorized sample; MCP remains off unless separately approved | P0 high |
+| 1 | decant + WebScoop | Portable ZIP + GUI EXE | material coverage improvement vs existing Playwright/DevTools | P0 high |
+| 1 | FFmpeg + ScreenToGif | Archive/portable ZIP | frame extraction and repeatable motion captures | P0 essential |
+| 2 | Blender | Windows MSI | original low-polygon flower exports valid glTF; memory/latency observed | P0 essential |
+| 2 | Babylon Editor | Windows EXE | visual authoring test, export compatibility; compare with Three workflow | P0 high |
+| 2 | Krita stable + GIMP + Inkscape | Windows installers | authored alpha sprites, corrected texture, SVG asset respectively | P0 high |
+| 2 | Material Maker + FastPack + KTX | ZIP/EXE | procedural material + atlas + GPU-usable texture pipeline | P0 high |
+| 3 | Three.js + Vite | Project-local npm packages | working independent responsive WebGL scene, build and smoke tests | P0 essential |
+| 3 | postprocessing + Tweakpane + stats-gl | Source/npm packages | working effects and live performance controls without unnecessary dependencies | P1 integration |
+| 3 | glTF Transform/Validator + Lighthouse/axe | Project-local CLI/libs | file validation, measurable web performance/accessibility | P1 QA |
+| 4 | RenderDoc, extensions, MCP bridges | MSI + source/extensions | one bounded troubleshooting need, permission review, rollback | P2 specialist |
+| 5 | Onlook / Dyad | Windows installers | React app/sample development use case and free/no-overage verification | P2 later |
+
+**Quality strategy:** choose a capable full **toolbox at-rest**, not a deliberately weak subset; however keep only one instance of heavyweight GUI/GPU processes running at a time. Installed ≠ running. Do not assume multiple 3D engine frameworks must ship to production merely because available. Existing Windows audit showed physically 8 GB-class RAM with ~5.88 GiB OS-visible due to UMA reservation, ~1.52 GiB then free, Radeon Vega 8, and >100 GiB free C:, therefore assess **concurrent RAM/GPU and startup load**, not raw installer disk size alone. No automatic installation, uninstallation or upgrade.
+
+### Next operating gate — desktop cleanup first
+
+Before installing above candidates, inventory **actual installed software** (HKLM/HKCU uninstall entries, AppX where useful, program directories/portable executables, startup entries and running resource usage). Separate factual evidence of installation from folders/archived installers. Compare agent programs and overlapped AI shells to real use and prior mission; classify **KEEP, REVIEW_FOR_UNINSTALL, OPTIONAL, CORE_SYSTEM_DO_NOT_TOUCH**. Windows security, VPN, remote Desktop Commander, Git/Node/Python/VS Code, development repos, user project files and installed runtimes should **not** be removed merely for lower count or uncertain usage. Size estimates need disk validation, and app data/config projects should be backed up before an approved uninstall. **USER DECIDES which applications to remove; NO uninstallation, destructive cleanup, extension activation, installer execution or provider activation is authorized by this document.**
+
+**Approval before execution:** list proposed uninstall targets one by one with dependency/agent data, startup/resource evidence, estimated reclaimed disk (UNKNOWN unless measured), rollback and backup. Then install approved batches and test each small working capability; only measure actual usability before expanding. 
