@@ -1,0 +1,993 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X01-R2",
+  "run_id": "X01-R2-2026-11-18T18-01-09-463Z",
+  "status": "PASS_FIRST_PARTY_BODY_CAPTURE",
+  "reference_url": "https://www.gladeye.com/",
+  "evidence_method": "One anonymous Chrome/Playwright session: actual publicly delivered first-party response bodies captured byte-for-byte privately, independently hash-validated. Static analysis uses JavaScript text indices, GLB JSON/BIN parsing, Sharp texture metrics and two idle screenshots.",
+  "first_party_responses_saved": 47,
+  "captured_bytes": 7746318,
+  "other_responses_total": 51,
+  "captured_by_category": {
+    "document": {
+      "count": 4,
+      "bytes": 703128
+    },
+    "css": {
+      "count": 3,
+      "bytes": 70586
+    },
+    "javascript": {
+      "count": 25,
+      "bytes": 1565461
+    },
+    "binary": {
+      "count": 4,
+      "bytes": 152500
+    },
+    "image": {
+      "count": 9,
+      "bytes": 1928737
+    },
+    "audio": {
+      "count": 1,
+      "bytes": 3315774
+    },
+    "model": {
+      "count": 1,
+      "bytes": 10132
+    }
+  },
+  "inline_scripts_saved": 23,
+  "private_raw_root": "Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261118-NEW-EXTRACTION/01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z",
+  "private_manifest_sha256": "1da43d1249771286e2e7e5e61ea4627d175bbd5ddf1e70314306d774ee563b65",
+  "qa": {
+    "full_file_hashes_rechecked": 70,
+    "hash_failures": 0,
+    "public_raw_source_or_media_committed": false
+  },
+  "metadata_asset_inventory": [
+    {
+      "id": "X01R2-A022",
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "bytes": 549571,
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "signals": {
+        "webgl": 217,
+        "threejs": 276,
+        "camera": 249,
+        "animation": 27,
+        "particles": 62,
+        "glsl": 396,
+        "postprocessing": 276,
+        "lighting": 337,
+        "loader": 7,
+        "audio": 3
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/80bf95efc815127d7646df.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A024",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "bytes": 82741,
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "signals": {
+        "threejs": 1,
+        "camera": 121,
+        "pointer": 58,
+        "animation": 35,
+        "particles": 75,
+        "glsl": 175,
+        "postprocessing": 82,
+        "loader": 22,
+        "audio": 6
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/5f164d7403807a0409497d.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A023",
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "bytes": 111113,
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "signals": {
+        "threejs": 40,
+        "camera": 32,
+        "pointer": 83,
+        "animation": 14,
+        "particles": 3,
+        "glsl": 35,
+        "postprocessing": 84,
+        "lighting": 12,
+        "loader": 50
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/f808e878ce520da53ffbb9.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A021",
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "bytes": 80490,
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "signals": {
+        "camera": 1,
+        "pointer": 49,
+        "animation": 16,
+        "particles": 6
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/c837957c63f427ac0a093e.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A013",
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "bytes": 141609,
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "signals": {
+        "react_next": 2,
+        "camera": 5,
+        "pointer": 145,
+        "animation": 151,
+        "postprocessing": 7
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/07f6da685fd76e30a9c1f1.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A045",
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "bytes": 38686,
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "signals": {
+        "camera": 4
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/ec97c32c5f29dac3417d87.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A016",
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "bytes": 11256,
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "signals": {
+        "camera": 1,
+        "pointer": 19,
+        "animation": 3,
+        "particles": 1
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/3a0249cfa4f13c02eaf34e.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A003",
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "signals": {},
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/6c1dfdda7bd7193f9785fe.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A004",
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "signals": {
+        "react_next": 12,
+        "pointer": 36,
+        "animation": 1
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/e83b0df5cc1f98de8e7b14.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A006",
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "signals": {
+        "react_next": 1
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/e9ee6b17ba7c4f30a892a7.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A007",
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "signals": {
+        "react_next": 2,
+        "pointer": 98,
+        "animation": 27,
+        "postprocessing": 7
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/ecf5645d5ec8f5acdc5c96.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A011",
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "bytes": 6157,
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "signals": {
+        "react_next": 5
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/d6e8133aa3ab4e2fadc541.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A012",
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "bytes": 6751,
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "signals": {
+        "pointer": 21
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/5e520073975eefe554444e.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A014",
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "bytes": 17110,
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "signals": {
+        "pointer": 5
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/4455fa6cf7b4ff2efaa191.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A015",
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "bytes": 16685,
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "signals": {
+        "pointer": 111
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/bef8c0267c6ab029782194.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A017",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "bytes": 596,
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "signals": {},
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/5d68a0a8dff6bdfdaac33d.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A018",
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "bytes": 5066,
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "signals": {
+        "pointer": 1,
+        "animation": 16
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/31a365665836e8f3829c1a.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A019",
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "bytes": 19252,
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "signals": {
+        "pointer": 1,
+        "postprocessing": 5
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/d760ffed0990e4d67451e4.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A020",
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "bytes": 81048,
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "signals": {
+        "pointer": 8,
+        "animation": 1,
+        "postprocessing": 12
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/e4de34bf8a456614d34fd3.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A025",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "bytes": 30550,
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "signals": {
+        "pointer": 16,
+        "animation": 3
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/133b733f5eab7e315ef06e.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A042",
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "bytes": 19277,
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "signals": {
+        "pointer": 5
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/3e4f45f0033f6de9857aba.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A043",
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "bytes": 14536,
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "signals": {
+        "react_next": 5,
+        "postprocessing": 19
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/edd0768e163285b3642e66.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A044",
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "bytes": 11135,
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "signals": {
+        "pointer": 6,
+        "animation": 4,
+        "postprocessing": 4
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/05978586c907f0d9b9fc4f.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A046",
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "bytes": 40996,
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "signals": {},
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/2886458cda6506b5a9aa2a.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A047",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "bytes": 13682,
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "signals": {
+        "pointer": 5
+      },
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/31dcdbdc2ddb6d7f447551.js",
+      "status": "PRIVATE_BODY_CAPTURED; role heuristic; deep module runtime verification pending"
+    },
+    {
+      "id": "X01R2-A001",
+      "url": "https://www.gladeye.com/",
+      "bytes": 35758,
+      "sha256": "924a93bc789997719e6d4d825f526a30d5796ca15f877e842d92fb55ff0833a2",
+      "mime": "text/html",
+      "category": "document",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/924a93bc789997719e6d4d.html",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A002",
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46176,
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "mime": "text/css",
+      "category": "css",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/80f5df5138d954160607cf.css",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A005",
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "mime": "text/css",
+      "category": "css",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/8785b189a6e716c56e1d4b.css",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A008",
+      "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "bytes": 31866,
+      "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+      "mime": "font/woff2",
+      "category": "font",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/3d66ac42be0f6be9e8b3c9.woff2",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A009",
+      "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "bytes": 32760,
+      "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+      "mime": "font/woff2",
+      "category": "font",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/7469876683c48411b4b8a1.woff2",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A010",
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "bytes": 41902,
+      "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+      "mime": "font/woff2",
+      "category": "font",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/68ec1d2a28ff27777e395f.woff2",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A026",
+      "url": "https://www.gladeye.com/favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "mime": "image/svg+xml",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/789b2e74fa9c3fcc91c9fd.svg",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A027",
+      "url": "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+      "bytes": 3315774,
+      "sha256": "e56ff90d828a14701832e4ece56f13791dfa25dfcddb0a64f40370ec763514d3",
+      "mime": "audio/mpeg",
+      "category": "audio",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/e56ff90d828a14701832e4.mp3",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A029",
+      "url": "https://www.gladeye.com/",
+      "bytes": 19020,
+      "sha256": "c17a479c734a9afcdcdb3ab7cf6b44b3c1ebac7b43e558021d91a3f6dab2a1b8",
+      "mime": "text/x-component",
+      "category": "document",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/c17a479c734a9afcdcdb3a.rsc",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A030",
+      "url": "https://www.gladeye.com/about",
+      "bytes": 126,
+      "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6",
+      "mime": "text/x-component",
+      "category": "document",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/3295646f28d6d9180bcdeb.rsc",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A031",
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "bytes": 249287,
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/6f16b2d004f5260df4bbd1.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A032",
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "bytes": 2102,
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/6a1dde1724aac0069dea0f.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A033",
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "bytes": 915892,
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/bea3c0bd21f77a65d09650.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A034",
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "bytes": 7436,
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/cb96021890661683b94bae.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A035",
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "bytes": 295868,
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/705002f9736633069b868d.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A036",
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "bytes": 225311,
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/f6d0c3128ba89b03fa2cf9.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A037",
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "bytes": 222220,
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/f45d34a16445db56980005.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A038",
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "bytes": 8562,
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "mime": "image/png",
+      "category": "image",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/13e59c971bcf087298c520.png",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A039",
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "bytes": 45972,
+      "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+      "mime": "font/woff2",
+      "category": "font",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/34c304b6452f22e022be88.woff2",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A040",
+      "url": "https://www.gladeye.com/work",
+      "bytes": 648224,
+      "sha256": "180191997ba64a9dab94e70bea2f550d6a59141e2779fd2c6cca746e976d5f5a",
+      "mime": "text/x-component",
+      "category": "document",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/180191997ba64a9dab94e7.rsc",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A041",
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "bytes": 16406,
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "mime": "text/css",
+      "category": "css",
+      "private_relative_path": "01-private-captures/X01-REDO/X01-R2-2026-11-18T18-01-09-463Z/first-party-response-bodies/710fb20bd1661b718c8197.css",
+      "status": "PRIVATE_BODY_CAPTURED; relevant format parsed where supported"
+    },
+    {
+      "id": "X01R2-A028",
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bytes": 10132,
+      "category": "model",
+      "status": "PRIVATE_BODY_CAPTURED; glTF camera metadata extracted; no meshes"
+    }
+  ],
+  "selected_script_entries": [
+    {
+      "id": "X01R2-A022",
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "classification": "HEURISTIC_RENDER_OR_SCENE_CANDIDATE",
+      "render_heuristic_score": 2643,
+      "input_heuristic_score": 27,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A024",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "classification": "HEURISTIC_RENDER_OR_SCENE_CANDIDATE",
+      "render_heuristic_score": 548,
+      "input_heuristic_score": 93,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A023",
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "classification": "HEURISTIC_RENDER_OR_SCENE_CANDIDATE",
+      "render_heuristic_score": 197,
+      "input_heuristic_score": 97,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A021",
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "classification": "HEURISTIC_INPUT_ANIMATION_OR_UI_CANDIDATE",
+      "render_heuristic_score": 7,
+      "input_heuristic_score": 65,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A013",
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "classification": "HEURISTIC_INPUT_ANIMATION_OR_UI_CANDIDATE",
+      "render_heuristic_score": 5,
+      "input_heuristic_score": 296,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A045",
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "classification": "HEURISTIC_UNCLEAR",
+      "render_heuristic_score": 4,
+      "input_heuristic_score": 0,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A016",
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "classification": "HEURISTIC_INPUT_ANIMATION_OR_UI_CANDIDATE",
+      "render_heuristic_score": 2,
+      "input_heuristic_score": 22,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    },
+    {
+      "id": "X01R2-A003",
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "classification": "HEURISTIC_UNCLEAR",
+      "render_heuristic_score": 0,
+      "input_heuristic_score": 0,
+      "note": "Source body preserved privately; role is unverified until module analysis X16-X21 and runtime validation."
+    }
+  ],
+  "camera_from_private_gltf_binary": {
+    "glb_sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+    "format": {
+      "generator": "Khronos glTF Blender I/O v3.2.43",
+      "version": "2.0"
+    },
+    "version": 2,
+    "camera_type": "perspective",
+    "y_fov_degrees": 22.89519204617112,
+    "aspect_ratio": 1.7777777777777777,
+    "znear": 0.10000000149011612,
+    "zfar": 1000,
+    "animation_name": "Action.001",
+    "keyframes": 200,
+    "duration_s": 8.291666984558105,
+    "interpolation": {
+      "translation": "LINEAR",
+      "rotation": "LINEAR",
+      "scale": "LINEAR"
+    },
+    "mesh_count": 0,
+    "animation_local_bounds": [
+      {
+        "min": -11.997039794921875,
+        "max": 5.997096061706543,
+        "first": 2.1019425844315265e-7,
+        "last": 0
+      },
+      {
+        "min": 0,
+        "max": 0,
+        "first": 0,
+        "last": 0
+      },
+      {
+        "min": -500,
+        "max": -4.6963695155000096e-9,
+        "first": -4.6963695155000096e-9,
+        "last": -500
+      }
+    ],
+    "local_path_length_approx": 506.27730271183685,
+    "local_mean_speed_approx": 61.05856633535428,
+    "caution": "Coordinate scale and derived local path metrics are data about received camera animation, not an approved source to reuse the exact route in a published build."
+  },
+  "images": [
+    {
+      "id": "X01R2-A026",
+      "url": "https://www.gladeye.com/favicon.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1080,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.59375,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bytes": 2059
+    },
+    {
+      "id": "X01R2-A031",
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "format": "png",
+      "width": 1500,
+      "height": 1312,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.7048611111111112,
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bytes": 249287
+    },
+    {
+      "id": "X01R2-A032",
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "format": "png",
+      "width": 48,
+      "height": 52,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.7206439393939394,
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bytes": 2102
+    },
+    {
+      "id": "X01R2-A033",
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "format": "png",
+      "width": 1500,
+      "height": 1312,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.6185515873015873,
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bytes": 915892
+    },
+    {
+      "id": "X01R2-A034",
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "format": "png",
+      "width": 125,
+      "height": 88,
+      "has_alpha": false,
+      "transparent_fraction_preview": 0,
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bytes": 7436
+    },
+    {
+      "id": "X01R2-A035",
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "format": "png",
+      "width": 1701,
+      "height": 2416,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.8063725490196079,
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bytes": 295868
+    },
+    {
+      "id": "X01R2-A036",
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "format": "png",
+      "width": 1565,
+      "height": 1765,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.7950581395348837,
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bytes": 225311
+    },
+    {
+      "id": "X01R2-A037",
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "format": "png",
+      "width": 1535,
+      "height": 1970,
+      "has_alpha": true,
+      "transparent_fraction_preview": 0.8547297297297297,
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bytes": 222220
+    },
+    {
+      "id": "X01R2-A038",
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "format": "png",
+      "width": 100,
+      "height": 129,
+      "has_alpha": false,
+      "transparent_fraction_preview": 0,
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bytes": 8562
+    }
+  ],
+  "scene_js_interface_hints": [
+    {
+      "id": "X01R2-A022",
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "symbol_occurrences": {
+        "WebGLRenderer": 42,
+        "ShaderMaterial": 18,
+        "RawShaderMaterial": 7,
+        "PointsMaterial": 4,
+        "Points": 36,
+        "InstancedMesh": 11,
+        "BufferGeometry": 18,
+        "PerspectiveCamera": 3,
+        "OrthographicCamera": 3,
+        "CatmullRomCurve3": 3,
+        "WebGLRenderTarget": 4,
+        "requestAnimationFrame": 2,
+        "addEventListener": 25,
+        "gl_PointSize": 2,
+        "gl_PointCoord": 2,
+        "gl_FragColor": 32,
+        "gl_Position": 16,
+        "texture2D": 104,
+        "sampler2D": 54,
+        "blending": 15,
+        "depthWrite": 12
+      },
+      "uniform_interface_identifiers": [
+        "sampler2D tEquirect",
+        "sampler2D alphaMap",
+        "float alphaTest",
+        "sampler2D aoMap",
+        "float aoMapIntensity",
+        "sampler2D bumpMap",
+        "float bumpScale",
+        "vec4 clippingPlanes",
+        "sampler2D displacementMap",
+        "float displacementScale",
+        "float displacementBias",
+        "sampler2D emissiveMap",
+        "float envMapIntensity",
+        "float flipEnvMap",
+        "samplerCube envMap",
+        "sampler2D envMap",
+        "float reflectivity",
+        "float refractionRatio",
+        "vec3 fogColor",
+        "float fogDensity",
+        "float fogNear",
+        "float fogFar",
+        "sampler2D gradientMap",
+        "sampler2D lightMap",
+        "float lightMapIntensity"
+      ],
+      "asset_references": []
+    },
+    {
+      "id": "X01R2-A024",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "symbol_occurrences": {
+        "requestAnimationFrame": 5,
+        "addEventListener": 4,
+        "pointermove": 2,
+        "gl_PointSize": 3,
+        "gl_PointCoord": 2,
+        "gl_FragColor": 10,
+        "gl_Position": 7,
+        "texture2D": 23,
+        "sampler2D": 11,
+        "depthWrite": 1
+      },
+      "uniform_interface_identifiers": [
+        "float uFade",
+        "float uFlowerBloomDistance"
+      ],
+      "asset_references": [
+        "/audio/ge-ambient.mp3",
+        "/camera-path07.glb",
+        "/dust-particle.png",
+        "/flowers/pool_summer.png",
+        "/flowers/pool_winter.png",
+        "/rays/ray1.png",
+        "/rays/ray2.png",
+        "/rays/ray3.png",
+        "/terrain.png",
+        "/vignette.png"
+      ]
+    },
+    {
+      "id": "X01R2-A023",
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "symbol_occurrences": {
+        "PointsMaterial": 1,
+        "Points": 5,
+        "BufferGeometry": 4,
+        "GLTFLoader": 25,
+        "EffectComposer": 2,
+        "UnrealBloomPass": 3,
+        "requestAnimationFrame": 3,
+        "addEventListener": 42,
+        "wheel": 17,
+        "mousemove": 4,
+        "gl_FragColor": 4,
+        "gl_Position": 4,
+        "texture2D": 10,
+        "sampler2D": 8,
+        "blending": 2,
+        "depthWrite": 2
+      },
+      "uniform_interface_identifiers": [
+        "sampler2D tDiffuse",
+        "vec3 defaultColor",
+        "float defaultOpacity",
+        "float luminosityThreshold",
+        "float smoothWidth",
+        "sampler2D colorTexture",
+        "vec2 texSize",
+        "vec2 direction",
+        "sampler2D blurTexture1",
+        "sampler2D blurTexture2",
+        "sampler2D blurTexture3",
+        "sampler2D blurTexture4",
+        "sampler2D blurTexture5",
+        "float bloomStrength",
+        "float bloomRadius",
+        "float bloomFactors",
+        "vec3 bloomTintColors",
+        "float opacity"
+      ],
+      "asset_references": []
+    }
+  ],
+  "visual_idle_change": {
+    "width": 1280,
+    "height": 800,
+    "pixel_threshold": 12,
+    "changed_pixel_fraction": 0.63548046875,
+    "mean_absolute_rgb_difference": 29.732412109373744
+  },
+  "key_observations": [
+    {
+      "category": "SCENE_API",
+      "state": "OBSERVED",
+      "evidence": "Browser live DOM WebGL 2 canvas; original rendered code bodies in private folder",
+      "implication": "New scene needs WebGL2/compatible fallback; not proof original engine framework"
+    },
+    {
+      "category": "CAMERA_PATH",
+      "state": "OBSERVED",
+      "evidence": "A real downloaded GLB binary with glTF2 camera animation, no meshes",
+      "implication": "Camera path properties may be studied; no flower geometry contained in this GLB"
+    },
+    {
+      "category": "SHADER_SOURCE",
+      "state": "POTENTIAL",
+      "evidence": "Relevant shader tokens inside selected captured JS bundles; full minified bodies retained locally",
+      "implication": "Runtime GPU shader metadata capture and source analysis required before claiming exact shader implementation"
+    },
+    {
+      "category": "INPUT",
+      "state": "POTENTIAL",
+      "evidence": "Pointer/animation symbol signatures in multiple delivered JS assets",
+      "implication": "Causal event-to-render behavior still needs controlled tests"
+    },
+    {
+      "category": "VISUAL_MOTION",
+      "state": "MEASURED_2D",
+      "evidence": "Two image frames from same session and viewport differ",
+      "implication": "Pixel difference indicates visual change, not guaranteed authored camera positions"
+    }
+  ],
+  "current_unknowns": [
+    "One anonymous visit, some assets may be lazy-loaded on future interactions or routes",
+    "Feature-token frequency is heuristic, not a proven call graph or shader execution record",
+    "Source chunk contents may be minified; X16–X21 needed for exact module/engine attribution",
+    "Shader/GPU/geometry/camera-motion causal analysis still requires later specialist steps",
+    "Script and media bodies stored PRIVATE only; publication restricted",
+    "Third-party analytics and external domains intentionally excluded",
+    "Text file probes may be incomplete where responses are compressed or access restricted",
+    "Keep raw 3rd-party JS/GLSL/GLB/PNG/audio private; no source publication or verbatim asset reuse without rights",
+    "Uniform names/symbols are derived identifiers, not original full shader source",
+    "Samples are local frame evidence, not guaranteed vendor-engine implementation"
+  ],
+  "next_required_stage": "X02-R2 content-linked CDP/runtime analysis, then X03 SiteOne CLI only after PASS",
+  "protection": "No raw copied third-party HTML, JS, GLSL, GLB, PNG, audio, screenshots, or licensed media in this GitHub artifact. Only public resource URLs and derived factual metadata."
+}
