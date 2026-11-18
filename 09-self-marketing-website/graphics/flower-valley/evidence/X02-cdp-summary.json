@@ -1,0 +1,315 @@
+{
+  "project": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X02",
+  "run_id": "X02-2026-11-18T17-49-35-108Z",
+  "observed_at_utc": "2026-11-18T17:49:35.108Z",
+  "finished_at_utc": "2026-11-18T17:49:47.153Z",
+  "reference_url": "https://www.gladeye.com/",
+  "tool": "CDP Network/Page/Debugger/DOM/CSS/Runtime/Performance via existing Playwright/Chrome",
+  "status": "PASS_NEW_CDP_BASELINE",
+  "http_status": 200,
+  "visit_error": null,
+  "browser_version": "157.0.8103.79",
+  "viewport": {
+    "width": 1280,
+    "height": 800,
+    "dpr": 1
+  },
+  "event_counts": {
+    "request": 51,
+    "response": 51,
+    "finished": 51,
+    "failed": 0,
+    "scriptParsed": 61,
+    "redirects": 0
+  },
+  "recorded_request_count": 51,
+  "response_status_counts": {
+    "200": 49,
+    "204": 2
+  },
+  "resource_type_counts": {
+    "Document": 1,
+    "Stylesheet": 3,
+    "Script": 27,
+    "Font": 4,
+    "Other": 1,
+    "Fetch": 6,
+    "Ping": 1,
+    "Image": 8
+  },
+  "initiator_counts": {
+    "other": 10,
+    "parser": 11,
+    "script": 30
+  },
+  "mime_type_counts": {
+    "text/html": 1,
+    "text/css": 3,
+    "application/javascript": 27,
+    "font/woff2": 4,
+    "image/svg+xml": 1,
+    "audio/mpeg": 1,
+    "model/gltf-binary": 1,
+    "text/plain": 2,
+    "text/x-component": 3,
+    "image/png": 8
+  },
+  "resource_origin_counts": {
+    "www.gladeye.com": 47,
+    "www.googletagmanager.com": 2,
+    "analytics.google.com": 1,
+    "stats.g.doubleclick.net": 1
+  },
+  "total_encoded_network_bytes": 6363267,
+  "total_decoded_network_bytes": 8648309,
+  "script_entries": 61,
+  "script_entries_with_source_map_hint": 0,
+  "source_map_hints": [],
+  "dom": {
+    "readyState": "complete",
+    "total_elements": 267,
+    "tag_counts": {
+      "html": 1,
+      "head": 1,
+      "meta": 11,
+      "style": 1,
+      "link": 7,
+      "script": 31,
+      "title": 1,
+      "body": 1,
+      "noscript": 1,
+      "div": 117,
+      "a": 3,
+      "svg": 3,
+      "path": 6,
+      "button": 2,
+      "span": 49,
+      "g": 1,
+      "defs": 1,
+      "clipPath": 1,
+      "main": 1,
+      "section": 1,
+      "canvas": 1,
+      "line": 5,
+      "h2": 1,
+      "br": 1,
+      "input": 18,
+      "next-route-announcer": 1
+    },
+    "canvas_count": 1,
+    "canvas_details": [
+      {
+        "i": 0,
+        "width": 1280,
+        "height": 800,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 800
+        },
+        "style": {
+          "position": "static",
+          "z_index": "auto",
+          "display": "block",
+          "pointer_events": "none",
+          "transform": "none"
+        },
+        "ancestors": [
+          {
+            "tag": "div",
+            "position": "fixed",
+            "z_index": "auto",
+            "pointer_events": "none"
+          },
+          {
+            "tag": "div",
+            "position": "static",
+            "z_index": "auto",
+            "pointer_events": "auto"
+          },
+          {
+            "tag": "section",
+            "position": "static",
+            "z_index": "auto",
+            "pointer_events": "auto"
+          },
+          {
+            "tag": "div",
+            "position": "relative",
+            "z_index": "100",
+            "pointer_events": "auto"
+          },
+          {
+            "tag": "div",
+            "position": "static",
+            "z_index": "auto",
+            "pointer_events": "auto"
+          }
+        ],
+        "gpu": {
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "unmasked_renderer": "ANGLE (AMD, AMD Radeon(TM) Vega 8 Graphics (0x000015D8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "extension_count": 32,
+          "gpu_timer_supported": true,
+          "float_rt_supported": true
+        }
+      }
+    ],
+    "script_element_count": 31,
+    "stylesheet_count": 3,
+    "computed_css_variable_count": 49,
+    "window_library_hints": {
+      "THREE": false,
+      "BABYLON": false,
+      "gsap": false,
+      "ScrollTrigger": false,
+      "PIXI": false,
+      "React": false,
+      "ReactDOM": false,
+      "__NEXT_DATA__": false,
+      "__NUXT__": false,
+      "Webflow": false,
+      "barba": false,
+      "Lenis": false,
+      "Spline": false
+    }
+  },
+  "cdp_css": {
+    "html": {
+      "position": "static",
+      "background-color": "rgb(16, 16, 16)",
+      "display": "block",
+      "height": "0px",
+      "mix-blend-mode": "normal",
+      "opacity": "1",
+      "pointer-events": "auto",
+      "transform": "none",
+      "width": "1280px",
+      "z-index": "auto"
+    },
+    "body": {
+      "position": "fixed",
+      "background-color": "rgb(16, 16, 16)",
+      "display": "block",
+      "height": "800px",
+      "mix-blend-mode": "normal",
+      "opacity": "1",
+      "pointer-events": "auto",
+      "transform": "none",
+      "width": "1280px",
+      "z-index": "auto"
+    },
+    "canvas": {
+      "position": "static",
+      "background-color": "rgba(0, 0, 0, 0)",
+      "display": "block",
+      "height": "800px",
+      "mix-blend-mode": "normal",
+      "opacity": "1",
+      "pointer-events": "none",
+      "transform": "none",
+      "width": "1280px",
+      "z-index": "auto"
+    },
+    "main": {
+      "position": "static",
+      "background-color": "rgb(16, 16, 16)",
+      "display": "block",
+      "height": "800px",
+      "mix-blend-mode": "normal",
+      "opacity": "1",
+      "pointer-events": "auto",
+      "transform": "none",
+      "width": "1280px",
+      "z-index": "auto"
+    },
+    "header": null
+  },
+  "navigation_timing": {
+    "domContentLoadedEnd": 842.2999999523163,
+    "loadEventEnd": 1324.2999999523163,
+    "transferSize": 8373,
+    "responseStart": 387.89999997615814
+  },
+  "performance_metrics": {
+    "Documents": 1,
+    "Frames": 1,
+    "JSEventListeners": 507,
+    "Nodes": 602,
+    "LayoutCount": 53,
+    "RecalcStyleCount": 330,
+    "LayoutDuration": 0.094982,
+    "RecalcStyleDuration": 0.148836,
+    "ScriptDuration": 3.18286,
+    "TaskDuration": 4.363342,
+    "JSHeapUsedSize": 17495276,
+    "JSHeapTotalSize": 82313216
+  },
+  "resource_timing_entries": 50,
+  "errors": {
+    "page": 0,
+    "console": 0,
+    "exceptions": []
+  },
+  "private_capture_files": {
+    "network-waterfall.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/network-waterfall.json",
+      "sha256": "d8f21d6f541ea7963db7636305f19e8f74519dccd6c21e471d1518dc10834d4a",
+      "bytes": 51597
+    },
+    "parsed-scripts.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/parsed-scripts.json",
+      "sha256": "1325a75992029eaf5429df2c4ec382948cd40b07000c528a1e50fb179b445702",
+      "bytes": 10187
+    },
+    "dom-runtime.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/dom-runtime.json",
+      "sha256": "a179509f0cdca00e0c0935ef2c825727c293e30e225af92e7831c75ecd1fb62c",
+      "bytes": 9141
+    },
+    "cdp-css.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/cdp-css.json",
+      "sha256": "ba082a20b44ecb730f690ba9d1a31420003e5485ae16fb25e7401f8924f4e6d6",
+      "bytes": 1161
+    },
+    "performance-metrics.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/performance-metrics.json",
+      "sha256": "5d213cb7f463a2ae4bbb5609bf3721422ec82a7cd9d9ab523b9af029e045cdce",
+      "bytes": 310
+    },
+    "resource-timings.json": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/resource-timings.json",
+      "sha256": "f43cd7057aa2f6cc76a57504fc4d4866d1ed21a157ee2c902d8b456aa5ef1e2b",
+      "bytes": 11606
+    },
+    "sanitized-metadata-only.har": {
+      "private": true,
+      "relative": "01-private-captures/X02/X02-2026-11-18T17-49-35-108Z/sanitized-metadata-only.har",
+      "sha256": "8e17fb86feec6fbbe08f9d6713e6b6227acb2beed8de3a41010566bc7ce1fcb2",
+      "bytes": 44699
+    }
+  },
+  "private_screenshot": {
+    "private": true,
+    "file": "idle-1280x800.png",
+    "sha256": "245528b3c6b0f05d8e0cba5796203c14ad09704989ab42fcc8350df6bdc48b2d",
+    "bytes": 1993811
+  },
+  "limitations": [
+    "Single public page load on desktop, not a whole site crawl",
+    "No JS source/shader content/media bodies/credentials stored",
+    "Query/hash and suspicious URL path segments removed",
+    "Global JS checks may be false negatives for bundled non-global libraries",
+    "CDP CPU/DOM metrics are not GPU frame timing, render-pass or shader pipeline",
+    "X03 SiteOne CLI is next; no later X stage executed"
+  ],
+  "next_stage": "X03"
+}
