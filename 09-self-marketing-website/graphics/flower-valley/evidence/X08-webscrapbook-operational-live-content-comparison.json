@@ -1,0 +1,302 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X08",
+  "tool": "WebScrapBook",
+  "tool_version": "2.27.3",
+  "status": "PASS_REAL_ARCHIVE_CONTENT__OFFLINE_WEBGL_NOT_VERIFIED",
+  "date_utc": "2026-11-18T20:11:36.846Z",
+  "reference": "https://www.gladeye.com/",
+  "packaging": "Chromium Manifest V3 built from verified official source and operated in isolated Chrome",
+  "installation": {
+    "runtime_root": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/WebScrapBook/chromium-mv3-extension",
+    "source_root": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/WebScrapBook/webscrapbook-main",
+    "archive_package_sha256": "e0ba3f6986006ac66f8ded2a13b337754e243023072ecb942a17d0ef52def71b",
+    "zip_package_bytes": 623019
+  },
+  "capture": {
+    "private_relative_dir": "01-private-captures/X08/X08-ARCHIVE-REFERENCE-2026-11-18T20-09-02-603Z",
+    "filename": "20261118200912959.htz",
+    "bytes": 1488697,
+    "sha256": "49ac45afa4cda9ea3dbc2b639ae2250c31b82fa8137b42279ff26e0ad9a01f22",
+    "zip_integrity": "PASS",
+    "entry_count": 19,
+    "uncompressed_bytes": 1579906,
+    "file_types": {
+      ".html": 2,
+      "[none]": 1,
+      ".svg": 1,
+      ".js": 8,
+      ".css": 2,
+      ".woff2": 5
+    },
+    "html_markers": {
+      "scrapbook_source": "https://www.gladeye.com/",
+      "scrapbook_create": "20261118200912959",
+      "canvas_elements": 1,
+      "script_tags": 33
+    },
+    "capture_log_done": true,
+    "settings": {
+      "capture.saveAs": "zip",
+      "capture.saveTo": "file",
+      "capture.script": "save"
+    },
+    "other_incomplete_browser_files": [
+      {
+        "name": "downloads.htm.crdownload",
+        "bytes": 19154336,
+        "status": "INCOMPLETE_TEMP_NOT_COUNTED_AS_CAPTURE"
+      }
+    ]
+  },
+  "reconciliation": {
+    "x01_indexed_resource_count": 47,
+    "entry_exact_hash_existing_x01": 11,
+    "entry_not_exactly_existing_x01": 8,
+    "x01_covered_distinct_ids": [
+      "X01R2-A026",
+      "X01R2-A004",
+      "X01R2-A047",
+      "X01R2-A006",
+      "X01R2-A007",
+      "X01R2-A003",
+      "X01R2-A005",
+      "X01R2-A010",
+      "X01R2-A008",
+      "X01R2-A039",
+      "X01R2-A009"
+    ],
+    "new_scene_geometry_model_files": 0,
+    "new_standalone_raster_files": 0,
+    "new_video_or_audio_files": 0,
+    "added_value": [
+      "Independent WebScrapBook page archival ZIP/HTZ with source URL/timestamp and restructured saved DOM",
+      "Source-level comparison of archived static resources against previously captured first-party response hashes"
+    ],
+    "limits": [
+      "HTZ is a snapshot; not a continuous 3D animation or 180-second input trace",
+      "Archive lacks independently saved GLB/PNG/audio and GPU state; prior X01 has additional data",
+      "Hash-unmatched files may be rewritten content or third-party scripts, not necessarily new original first-party assets",
+      "Incomplete browser .crdownload is not counted as successfully extracted data"
+    ]
+  },
+  "entries": [
+    {
+      "name": "index.html",
+      "bytes": 61449,
+      "sha256": "d656a9d45831c742cfe4f4036b5d11164a618ae4047539d4bd0b55f402345783",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 12425
+    },
+    {
+      "name": "cf28f9b8ea2f40e8e1402d0cb6a6b84da04a4896",
+      "bytes": 1324,
+      "sha256": "ec0cedae2cab5895eaa483945c50b3865660e69f0decc55c9e66a40716311516",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 1324
+    },
+    {
+      "name": "index_1.html",
+      "bytes": 346,
+      "sha256": "e009c4aca4fd637934f520ab6c179a78acb88731b9ee77dae11107104915d4a2",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 172
+    },
+    {
+      "name": "favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "matching_x01_ids": [
+        "X01R2-A026"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A026"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 1041
+    },
+    {
+      "name": "123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "matching_x01_ids": [
+        "X01R2-A004"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A004"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 102017
+    },
+    {
+      "name": "page-8e3968f3d61178f4.js",
+      "bytes": 13682,
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "matching_x01_ids": [
+        "X01R2-A047"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A047"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 13682
+    },
+    {
+      "name": "webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "matching_x01_ids": [
+        "X01R2-A006"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A006"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 3962
+    },
+    {
+      "name": "70ccb8e7fa150b80.css",
+      "bytes": 46086,
+      "sha256": "8a00221a6278bec1c5b664d5db4111d2108e3fb8188bdd95d6b7b1eb4f11ce2c",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [
+        "X01R2-A002"
+      ],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 8098
+    },
+    {
+      "name": "fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "matching_x01_ids": [
+        "X01R2-A007"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A007"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 160712
+    },
+    {
+      "name": "gtm.js",
+      "bytes": 349174,
+      "sha256": "8f1c220928b01f7c23d89ae1889d7fc259362aa7861d356ede6e51b7aa957460",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 349174
+    },
+    {
+      "name": "polyfills-78c92fac7aa8fdd8.js",
+      "bytes": 91381,
+      "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 91381
+    },
+    {
+      "name": "main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "matching_x01_ids": [
+        "X01R2-A003"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A003"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 463
+    },
+    {
+      "name": "2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "matching_x01_ids": [
+        "X01R2-A005"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A005"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 2009
+    },
+    {
+      "name": "js.js",
+      "bytes": 553588,
+      "sha256": "62ba42f09b63990045fc7f1e642350710db06dec0d1cc388e9da99b9ae725477",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 553588
+    },
+    {
+      "name": "epicene-text-light.0650b0f0.woff2",
+      "bytes": 41902,
+      "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+      "matching_x01_ids": [
+        "X01R2-A010"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A010"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 41902
+    },
+    {
+      "name": "soehne-kraftig.9c83d0e0.woff2",
+      "bytes": 31866,
+      "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+      "matching_x01_ids": [
+        "X01R2-A008"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A008"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 31866
+    },
+    {
+      "name": "soehne-buch.5a88e093.woff2",
+      "bytes": 33159,
+      "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+      "matching_x01_ids": [],
+      "same_named_original_x01_ids": [],
+      "delta": "NOT_BYTE_IDENTICAL_TO_X01",
+      "compressed_bytes": 33159
+    },
+    {
+      "name": "epicene-text-light-italic.bab9dcbf.woff2",
+      "bytes": 45972,
+      "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+      "matching_x01_ids": [
+        "X01R2-A039"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A039"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 45972
+    },
+    {
+      "name": "soehne-leicht.31cd3571.woff2",
+      "bytes": 32760,
+      "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+      "matching_x01_ids": [
+        "X01R2-A009"
+      ],
+      "same_named_original_x01_ids": [
+        "X01R2-A009"
+      ],
+      "delta": "ALREADY_CAPTURED_EXACT_BYTES",
+      "compressed_bytes": 32760
+    }
+  ]
+}
