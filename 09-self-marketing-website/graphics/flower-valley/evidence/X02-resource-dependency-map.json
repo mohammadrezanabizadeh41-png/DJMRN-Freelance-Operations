@@ -1,0 +1,1911 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "step_id": "X02",
+  "run_id": "X02-2026-11-18T17-49-35-108Z",
+  "source": "CDP Network.requestWillBeSent / responseReceived / loadingFinished + Debugger.scriptParsed metadata; one fresh browser load",
+  "conditions": {
+    "reference_url": "https://www.gladeye.com/",
+    "browser_version": "157.0.8103.79",
+    "viewport": {
+      "width": 1280,
+      "height": 800,
+      "dpr": 1
+    }
+  },
+  "request_total": 51,
+  "script_parse_entries": 61,
+  "resources": [
+    {
+      "id": "X02-R001",
+      "url": "https://www.gladeye.com/",
+      "method": "GET",
+      "kind": "Document",
+      "mime": "text/html",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 8412,
+      "decoded_bytes": 35801,
+      "response_ms": 405,
+      "duration_ms": 404,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R002",
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "method": "GET",
+      "kind": "Stylesheet",
+      "mime": "text/css",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 9109,
+      "decoded_bytes": 46176,
+      "response_ms": 123,
+      "duration_ms": 139,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R003",
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "method": "GET",
+      "kind": "Stylesheet",
+      "mime": "text/css",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 2353,
+      "decoded_bytes": 8004,
+      "response_ms": 348,
+      "duration_ms": 345,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R004",
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 2156,
+      "decoded_bytes": 3962,
+      "response_ms": 404,
+      "duration_ms": 346,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R005",
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 52007,
+      "decoded_bytes": 160712,
+      "response_ms": 286,
+      "duration_ms": 282,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R006",
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 27350,
+      "decoded_bytes": 102017,
+      "response_ms": 404,
+      "duration_ms": 346,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R007",
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 673,
+      "decoded_bytes": 463,
+      "response_ms": 403,
+      "duration_ms": 345,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R008",
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/",
+      "initiator_stack": [],
+      "encoded_bytes": 184991,
+      "decoded_bytes": 553754,
+      "response_ms": 864,
+      "duration_ms": 842,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R009",
+      "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "method": "GET",
+      "kind": "Font",
+      "mime": "font/woff2",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "initiator_stack": [],
+      "encoded_bytes": 32105,
+      "decoded_bytes": 31866,
+      "response_ms": 210,
+      "duration_ms": 201,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R010",
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "method": "GET",
+      "kind": "Font",
+      "mime": "font/woff2",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "initiator_stack": [],
+      "encoded_bytes": 42125,
+      "decoded_bytes": 41902,
+      "response_ms": 231,
+      "duration_ms": 217,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R011",
+      "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "method": "GET",
+      "kind": "Font",
+      "mime": "font/woff2",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "initiator_stack": [],
+      "encoded_bytes": 32954,
+      "decoded_bytes": 32760,
+      "response_ms": 243,
+      "duration_ms": 239,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R012",
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 47899,
+      "decoded_bytes": 141609,
+      "response_ms": 246,
+      "duration_ms": 239,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R013",
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 7471,
+      "decoded_bytes": 19252,
+      "response_ms": 170,
+      "duration_ms": 164,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R014",
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 3180,
+      "decoded_bytes": 6751,
+      "response_ms": 239,
+      "duration_ms": 236,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R015",
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 2659,
+      "decoded_bytes": 6157,
+      "response_ms": 167,
+      "duration_ms": 163,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R016",
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 5329,
+      "decoded_bytes": 16685,
+      "response_ms": 190,
+      "duration_ms": 188,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R017",
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 27407,
+      "decoded_bytes": 81048,
+      "response_ms": 262,
+      "duration_ms": 257,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R018",
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 5064,
+      "decoded_bytes": 17110,
+      "response_ms": 265,
+      "duration_ms": 263,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R019",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 11411,
+      "decoded_bytes": 30550,
+      "response_ms": 272,
+      "duration_ms": 270,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R020",
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 141240,
+      "decoded_bytes": 549571,
+      "response_ms": 406,
+      "duration_ms": 397,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R021",
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 34181,
+      "decoded_bytes": 111113,
+      "response_ms": 385,
+      "duration_ms": 382,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R022",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 25544,
+      "decoded_bytes": 82741,
+      "response_ms": 433,
+      "duration_ms": 427,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R023",
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 26283,
+      "decoded_bytes": 80490,
+      "response_ms": 417,
+      "duration_ms": 407,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R024",
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 2682,
+      "decoded_bytes": 5066,
+      "response_ms": 428,
+      "duration_ms": 422,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R025",
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 4761,
+      "decoded_bytes": 11256,
+      "response_ms": 416,
+      "duration_ms": 409,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R026",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 811,
+      "decoded_bytes": 596,
+      "response_ms": 426,
+      "duration_ms": 424,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R027",
+      "url": "https://www.gladeye.com/favicon.svg",
+      "method": "GET",
+      "kind": "Other",
+      "mime": "image/svg+xml",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 1206,
+      "decoded_bytes": 2059,
+      "response_ms": 652,
+      "duration_ms": 110,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R028",
+      "url": "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+      "method": "GET",
+      "kind": "Fetch",
+      "mime": "audio/mpeg",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+          "line": 185,
+          "function": "load"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+          "line": 185,
+          "function": "load"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 3317825,
+      "decoded_bytes": 3315774,
+      "response_ms": 266,
+      "duration_ms": 1964,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R029",
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "method": "GET",
+      "kind": "Fetch",
+      "mime": "model/gltf-binary",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+          "line": 185,
+          "function": "load"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+          "line": 6,
+          "function": "load"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 6486,
+      "decoded_bytes": 10132,
+      "response_ms": 1851,
+      "duration_ms": 1838,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R030",
+      "url": "https://www.googletagmanager.com/gtm.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [
+        {
+          "src": "[unavailable]",
+          "line": 3,
+          "function": ""
+        },
+        {
+          "src": "[unavailable]",
+          "line": 4,
+          "function": ""
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+          "line": 0,
+          "function": "y"
+        }
+      ],
+      "encoded_bytes": 122303,
+      "decoded_bytes": 349340,
+      "response_ms": 386,
+      "duration_ms": 374,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R031",
+      "url": "https://analytics.google.com/g/collect",
+      "method": "POST",
+      "kind": "Fetch",
+      "mime": "text/plain",
+      "status": 204,
+      "initiator_type": "script",
+      "initiator_url": "https://www.googletagmanager.com/gtag/js",
+      "initiator_stack": [
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 340,
+          "function": "rd"
+        },
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 497,
+          "function": "Rl"
+        },
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 1073,
+          "function": "aT"
+        }
+      ],
+      "encoded_bytes": 549,
+      "decoded_bytes": 0,
+      "response_ms": 1728,
+      "duration_ms": 1727,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R032",
+      "url": "https://stats.g.doubleclick.net/g/collect",
+      "method": "POST",
+      "kind": "Ping",
+      "mime": "text/plain",
+      "status": 204,
+      "initiator_type": "script",
+      "initiator_url": "https://www.googletagmanager.com/gtag/js",
+      "initiator_stack": [
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 338,
+          "function": "nd"
+        },
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 497,
+          "function": "Ol"
+        },
+        {
+          "src": "https://www.googletagmanager.com/gtag/js",
+          "line": 1073,
+          "function": "$S"
+        }
+      ],
+      "encoded_bytes": 550,
+      "decoded_bytes": 0,
+      "response_ms": 1116,
+      "duration_ms": 1114,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R033",
+      "url": "https://www.gladeye.com/",
+      "method": "GET",
+      "kind": "Fetch",
+      "mime": "text/x-component",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "s"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": ""
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "o"
+        }
+      ],
+      "encoded_bytes": 4558,
+      "decoded_bytes": 18998,
+      "response_ms": 1563,
+      "duration_ms": 1551,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R034",
+      "url": "https://www.gladeye.com/about",
+      "method": "GET",
+      "kind": "Fetch",
+      "mime": "text/x-component",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "s"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": ""
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "o"
+        }
+      ],
+      "encoded_bytes": 298,
+      "decoded_bytes": 126,
+      "response_ms": 1562,
+      "duration_ms": 1551,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R035",
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 249651,
+      "decoded_bytes": 249287,
+      "response_ms": 751,
+      "duration_ms": 930,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R036",
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 916553,
+      "decoded_bytes": 915892,
+      "response_ms": 162,
+      "duration_ms": 748,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R037",
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 7595,
+      "decoded_bytes": 7436,
+      "response_ms": 162,
+      "duration_ms": 189,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R038",
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 2320,
+      "decoded_bytes": 2102,
+      "response_ms": 160,
+      "duration_ms": 156,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R039",
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 296254,
+      "decoded_bytes": 295868,
+      "response_ms": 776,
+      "duration_ms": 1044,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R040",
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 225600,
+      "decoded_bytes": 225311,
+      "response_ms": 190,
+      "duration_ms": 631,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R041",
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 222549,
+      "decoded_bytes": 222220,
+      "response_ms": 1046,
+      "duration_ms": 1237,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R042",
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "method": "GET",
+      "kind": "Image",
+      "mime": "image/png",
+      "status": 200,
+      "initiator_type": "other",
+      "initiator_url": "[unavailable]",
+      "initiator_stack": [],
+      "encoded_bytes": 8765,
+      "decoded_bytes": 8562,
+      "response_ms": 116,
+      "duration_ms": 115,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R043",
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "method": "GET",
+      "kind": "Font",
+      "mime": "font/woff2",
+      "status": 200,
+      "initiator_type": "parser",
+      "initiator_url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "initiator_stack": [],
+      "encoded_bytes": 46277,
+      "decoded_bytes": 45972,
+      "response_ms": 189,
+      "duration_ms": 184,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R044",
+      "url": "https://www.gladeye.com/work",
+      "method": "GET",
+      "kind": "Fetch",
+      "mime": "text/x-component",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "s"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": ""
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 0,
+          "function": "o"
+        }
+      ],
+      "encoded_bytes": 140881,
+      "decoded_bytes": 647100,
+      "response_ms": 500,
+      "duration_ms": 511,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R045",
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "method": "GET",
+      "kind": "Stylesheet",
+      "mime": "text/css",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "line": 8,
+          "function": "preload"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "line": 8,
+          "function": "t"
+        }
+      ],
+      "encoded_bytes": 3584,
+      "decoded_bytes": 16406,
+      "response_ms": 138,
+      "duration_ms": 134,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R046",
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 5882,
+      "decoded_bytes": 14536,
+      "response_ms": 116,
+      "duration_ms": 113,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R047",
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 9072,
+      "decoded_bytes": 19277,
+      "response_ms": 139,
+      "duration_ms": 134,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R048",
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 12431,
+      "decoded_bytes": 38686,
+      "response_ms": 142,
+      "duration_ms": 134,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R049",
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 11930,
+      "decoded_bytes": 40996,
+      "response_ms": 148,
+      "duration_ms": 142,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R050",
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 4615,
+      "decoded_bytes": 11135,
+      "response_ms": 140,
+      "duration_ms": 134,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    },
+    {
+      "id": "X02-R051",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "method": "GET",
+      "kind": "Script",
+      "mime": "application/javascript",
+      "status": 200,
+      "initiator_type": "script",
+      "initiator_url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "initiator_stack": [
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.l"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": "l.f.j"
+        },
+        {
+          "src": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "line": 0,
+          "function": ""
+        }
+      ],
+      "encoded_bytes": 5376,
+      "decoded_bytes": 13682,
+      "response_ms": 144,
+      "duration_ms": 142,
+      "from_cache": false,
+      "from_service_worker": false,
+      "failed": false
+    }
+  ],
+  "scripts": [
+    {
+      "id": "X02-J001",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J002",
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 8,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J003",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J004",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J005",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J006",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J007",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J008",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J009",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J010",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J011",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J012",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J013",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J014",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J015",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J016",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J017",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J018",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J019",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J020",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J021",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J022",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J023",
+      "url": "https://www.gladeye.com/",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J024",
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J025",
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J026",
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 24,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J027",
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J028",
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 25,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J029",
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 8,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J030",
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J031",
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 12,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J032",
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 7,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J033",
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J034",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J035",
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 117,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J036",
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 185,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J037",
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J038",
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J039",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J040",
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J041",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J042",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 3,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J043",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 4,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J044",
+      "url": "https://www.googletagmanager.com/gtag/js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 1194,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J045",
+      "url": "https://www.googletagmanager.com/gtm.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 784,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J046",
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J047",
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J048",
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 5,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J049",
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J050",
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J051",
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J052",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 404,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J053",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J054",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 21,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J055",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 404,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J056",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J057",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 97,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J058",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J059",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J060",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    },
+    {
+      "id": "X02-J061",
+      "url": "[unavailable]",
+      "parsed_source_map_hint": null,
+      "approx_source_lines": 0,
+      "language": "JavaScript",
+      "is_module": false
+    }
+  ],
+  "notes": [
+    "Source-map hint absent in this CDP capture does NOT prove source maps unavailable on server",
+    "Public network URLs include origin and path only; query/fragment and response/request bodies not collected",
+    "CDP 61 script parse events are NOT necessarily 61 distinct external JS files",
+    "This graph is observational metadata, not rights to reproduce proprietary source or asset files",
+    "Dependencies inferred from initiator stacks may be incomplete for service workers/cache/indirection."
+  ],
+  "rights": "Publicly visible metadata only; original third-party content not redistributed",
+  "next_stage": "X03"
+}
