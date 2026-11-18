@@ -1,0 +1,127 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X03",
+  "status": "PASS_BOUNDED_SITEONE_CLI_STATIC_AND_BROWSER",
+  "source": "SiteOne CLI 2.5.1.20260627 first-party one-page modes",
+  "url": "https://www.gladeye.com/",
+  "modes": [
+    {
+      "run_id": "X03-R2-20261118T182211Z",
+      "kind": "http_static",
+      "full_json_sha256": "094684bf33c1bfef6ded4b767b014eae7749e69a2f7a11814d19c916aa76a561",
+      "result_total": 29,
+      "response_200": 29,
+      "total_reported_bytes": 1796229,
+      "duration_sec": 18.813,
+      "offline_files": 29,
+      "offline_bytes": 1781410
+    },
+    {
+      "run_id": "X03-BROWSER-20261118T182549Z",
+      "kind": "chromium_browser_single_page",
+      "full_json_sha256": "981613a166486c4c4ef700beee31c440142967c6fd3fd4265881fb602faf5d95",
+      "result_total": 29,
+      "response_200": 29,
+      "total_reported_bytes": 1820267,
+      "duration_sec": 25.621,
+      "offline_files": 29,
+      "offline_bytes": 1804596
+    }
+  ],
+  "baseline_capture_x01": {
+    "first_party_assets": 47
+  },
+  "per_mode_coverage": {
+    "static_urls": 29,
+    "browser_urls": 29,
+    "shared": 29,
+    "only_static": [],
+    "only_browser": [],
+    "compared_to_x01": {
+      "static_intersection": 27,
+      "browser_intersection": 27,
+      "new_from_siteone": [
+        "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2"
+      ],
+      "missing_from_both_siteone_modes": [
+        "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+        "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+        "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+        "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+        "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+        "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+        "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+        "https://www.gladeye.com/about",
+        "https://www.gladeye.com/valley/flowers/pool_summer.png",
+        "https://www.gladeye.com/valley/dust-particle.png",
+        "https://www.gladeye.com/valley/flowers/pool_winter.png",
+        "https://www.gladeye.com/valley/vignette.png",
+        "https://www.gladeye.com/valley/rays/ray1.png",
+        "https://www.gladeye.com/valley/rays/ray2.png",
+        "https://www.gladeye.com/valley/rays/ray3.png",
+        "https://www.gladeye.com/valley/terrain.png",
+        "https://www.gladeye.com/work",
+        "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css"
+      ]
+    }
+  },
+  "new_first_party_actual_downloads": [
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+      "size_bytes": 91381,
+      "type": "JAVASCRIPT_POLYFILL",
+      "ast_parse": "PASS",
+      "top_level_statements": 1,
+      "source_bytes": 91381,
+      "custom_scene_token_mentions": {
+        "WebGLRenderer": 0,
+        "glPointSize": 0
+      }
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+      "size_bytes": 33159,
+      "type": "FONT_WOFF2",
+      "table_count": 17,
+      "declared_length": 33159
+    }
+  ],
+  "archive_validated": {
+    "static": 29,
+    "browser": 29,
+    "body_sha256_indexes_private_only": true,
+    "check_offline_rewrite_vs_x01": "See private X03-siteone-static-comparison.json; offline source may be rewritten, do not treat as authoritative original source byte-for-byte"
+  },
+  "observations": [
+    {
+      "type": "OBSERVED",
+      "fact": "Both bounded SiteOne runs produced independent HTML/JSON/TXT and private offline archives with fetched asset bodies",
+      "confidence": "HIGH"
+    },
+    {
+      "type": "OBSERVED",
+      "fact": "Browser-only JS/WebGL asset requests were present in Playwright X01 but not discovered in static crawler; browser-render-mode coverage is separately measured",
+      "confidence": "HIGH"
+    },
+    {
+      "type": "OBSERVED",
+      "fact": "New font + standard JS polyfill were downloaded and parsed structurally in private archive",
+      "confidence": "HIGH"
+    },
+    {
+      "type": "UNKNOWN",
+      "fact": "Full scene render-pass, GPU texture bindings and lazy work-route behavior cannot be reconstructed from SiteOne reports",
+      "confidence": "NOT_MEASURED"
+    }
+  ],
+  "limits": [
+    "Only first page and its crawlable assets; no unbounded site traversal or access-control bypass",
+    "SiteOne offline export may rewrite JS/HTML even when bytes exist; original X01 response body is stronger evidence for authored client code",
+    "No source media, JS, shader or screenshots publicly redistributed",
+    "X04 SiteOne GUI must be run later, sequentially only if tool UX provides unique evidence"
+  ],
+  "next": "X04 SiteOne GUI separate specialist study after X03 acceptance"
+}
