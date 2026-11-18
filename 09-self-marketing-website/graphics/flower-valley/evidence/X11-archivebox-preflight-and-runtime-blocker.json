@@ -2,7 +2,7 @@
   "mission": "DJMRN-FREELANCE-WEBSITE-001",
   "stage": "X11",
   "date": "2026-11-19",
-  "status": "X11_OFFICIAL_DOCKER_RETRIED_WITH_100_MIB_GUARD__LOW_RAM_BEFORE_IMAGE_PULL__CAPTURE_NOT_RUN",
+  "status": "X11_BLOCKED__WSL_1536MB_REAL_TEST_HIT_100MIB_RAM_GUARD__RESTORED_2048MB",
   "scope": "ArchiveBox archival lifecycle, snapshot metadata, and repeatability; no new Gladeye crawl yet",
   "source": {
     "official_release": "v0.9.77",
@@ -105,7 +105,9 @@
       {
         "name": "Bound WSL VM",
         "proposal": "Evaluate reversible 2048MB -> 1536MB WSL memory cap with 4GB swap preserved; may free up to ~512 MiB host headroom but reduces Linux memory under ArchiveBox suggested 2 GiB and may prevent container launch; do not apply without review.",
-        "applied": false
+        "applied": false,
+        "tested_and_rolled_back": true,
+        "result": "Actual 1536MB test hit 96MiB emergency guard; 70MiB minimum during cleanup; restored 2048MB with SHA256 verification"
       },
       {
         "name": "Keep serial pulls",
@@ -133,5 +135,46 @@
       "https://docs.docker.com/desktop/features/wsl/best-practices/",
       "https://docs.docker.com/engine/containers/resource_constraints/"
     ]
+  },
+  "wsl_1536_mib_owner_approved_test": {
+    "test_date": "2026-11-19",
+    "goal": "One reversible official ArchiveBox Docker/WSL 1536MB experiment with 100MiB Windows-free-RAM guard",
+    "first_party_config_reference": "https://learn.microsoft.com/en-us/windows/wsl/wsl-config",
+    "current_config_backed_up_before_change": true,
+    "backup_sha256": "5deaa2aa63e1f3bc4ac19664b235792bfe71a619c7d7b4163b5046ba657c170a",
+    "backup_path": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/04-Runtimes/ArchiveBox-X11/backups/X11-WSL1536-Guard100-2026-11-18T23-57-32-423Z.wslconfig.original.bak",
+    "old_wsl_memory": "2048MB",
+    "tested_wsl_memory": "1536MB",
+    "swap": "4GB",
+    "processors": 2,
+    "auto_memory_reclaim": "dropCache",
+    "guard_windows_free_ram_mib": 100,
+    "polling_interval_ms": 150,
+    "host_free_at_test_start_mib": 1901,
+    "docker_desktop_start_exit": 0,
+    "docker_free_at_start_finish_mib": 563,
+    "docker_engine_info_exit": -1,
+    "docker_engine_info_failed_reason": "RAM guard activated before engine query completed",
+    "first_emergency_trigger_mib": 96,
+    "lowest_ram_seen_during_stop_mib": 70,
+    "docker_desktop_stop_exit": 0,
+    "wsl_shutdown_exit": 0,
+    "config_restored_sha256_verified": true,
+    "config_after_restoration": "memory=2048MB; processors=2; swap=4GB; autoMemoryReclaim=dropCache",
+    "observed_free_after_script_mib": 2260,
+    "separate_post_run_validation": {
+      "verified_config_sha256": "5deaa2aa63e1f3bc4ac19664b235792bfe71a619c7d7b4163b5046ba657c170a",
+      "observed_free_ram_mib": 2360,
+      "running_wsl_distributions": "none"
+    },
+    "image_downloaded": false,
+    "archivebox_container_launched": false,
+    "cli_smoke_test_run": false,
+    "archivebox_capture_run": false,
+    "result": "NO_GAIN_SUFFICIENT_TO_RUN_X11_ARCHIVEBOX; full rollback passed",
+    "private_result": "01-private-captures/X11/X11-WSL1536-Guard100-2026-11-18T23-57-32-423Z/X11-1536-guarded-result.json",
+    "runnable_guard_script": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/04-Runtimes/ArchiveBox-X11/DJMRN-X11-Test-WSL1536-Guard100.cjs",
+    "risk_note": "100 MiB emergency free-RAM is best-effort and was violated due to asynchronous OS/WSL shutdown. Do not claim a hard protected floor.",
+    "next": "Do not auto-retry WSL reduction or launch further Docker steps. Re-evaluate reducing host application footprint with explicit user coordination, choose lower-overhead supported Linux runtime only after cost/security assessment, or record X11 as blocked with evidence and proceed only under authorized runbook gate."
   }
 }
