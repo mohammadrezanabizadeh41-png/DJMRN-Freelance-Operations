@@ -1,0 +1,191 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X07",
+  "status": "PASS_FUNCTIONAL_SINGLEFILE_CLI_AND_MANIFESTS__MV3_LOADED_TRIGGERED_NO_DOWNLOAD__WEBGL_OFFLINE_NOT_REPRODUCED",
+  "evaluated_at_utc": "2026-11-18T19:25:16.514Z",
+  "reference": "https://www.gladeye.com/",
+  "installed_capabilities": {
+    "node26": {
+      "version": "v26.13.1",
+      "official_release": "https://nodejs.org/dist/v26.13.1/",
+      "official_release_zip_sha256": "e2edda75bfb089654705cf65a13b58933bfd5f57148e8ebda916f58a2474f1f7",
+      "bytes": 41166246,
+      "installed_relative": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/SingleFile/node-v26.13.1-win-x64",
+      "global_node24_changed": false
+    },
+    "cli": {
+      "package": "single-file-cli",
+      "version": "2.27.3",
+      "source": "https://www.npmjs.com/package/single-file-cli",
+      "license": "AGPL-3.0-or-later",
+      "installed_relative": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/SingleFile/single-file-cli-2.27.3",
+      "installed_local_with_npm_and_verified": true
+    },
+    "mv3": {
+      "version": "1.38.0",
+      "manifest_version": 3,
+      "source": "https://github.com/gildas-lormeau/SingleFile-MV3",
+      "source_zip_sha256": "b15b73426eaffa3d1e0301083fc842a4d09125c9617afdb20f80f0895738179c",
+      "source_zip_bytes": 1737653,
+      "host_permission_scope": [
+        "<all_urls>"
+      ],
+      "permission_classes": [
+        "contextMenus",
+        "downloads",
+        "storage",
+        "tabs",
+        "activeTab",
+        "scripting",
+        "offscreen",
+        "sidePanel",
+        "declarativeNetRequest"
+      ],
+      "test_result": {
+        "loaded_and_enabled_in_temporary_chrome": true,
+        "registered_id": "liggdjjbjemgnfapneaenbpfdkmlcdkf",
+        "action_trigger_api_succeeded": true,
+        "extension_generated_download_count": 0,
+        "permanent_normal_chrome_profile_changed": false,
+        "exact_browser_test_scope": "new isolated Playwright Chrome 157 process with DevTools extension debugging enabled only on temporary browser"
+      }
+    }
+  },
+  "captures": [
+    {
+      "mode": "html-static",
+      "html_bytes": 269535,
+      "private_html_path": "01-private-captures/X07/X07-RESUME-20261118T191216Z/singlefile-cli-capture/gladeye-singlefile-hero.html",
+      "html_sha256": "b40f1376b641f0feffee5547290cce7c2d822cd3e5deebb129f1f648b2c838c9",
+      "manifest_sha256": "537bd9afa0c2be08ad7c9eb1f85b2dff185a80d252508f33900735d52ca1caad",
+      "manifest_bytes": 101609,
+      "recorded_network_requests": 58,
+      "first_party_unique_paths": 46,
+      "same_path_and_sha_as_prior_x01": 50,
+      "capture_objective": "Document and CSS archival without executable scripts",
+      "status": "PRIVATE_CAPTURED_SHA256_VERIFIED"
+    },
+    {
+      "mode": "html-runtime",
+      "html_bytes": 1977042,
+      "private_html_path": "01-private-captures/X07/X07-RESUME-20261118T191216Z/singlefile-cli-capture-live/gladeye-live-script-preserving.html",
+      "html_sha256": "241def289f289859c63cbc77cfa6d6025e8460a0a184d43b7624907411f40bdb",
+      "manifest_sha256": "abe9469b86c8e0d9196f23d86992ae40365ceb2c2d8aaee35d104f455d75b66f",
+      "manifest_bytes": 116788,
+      "recorded_network_requests": 65,
+      "first_party_unique_paths": 47,
+      "same_path_and_sha_as_prior_x01": 54,
+      "capture_objective": "Archival HTML with scripts retained for technical study; not self-contained working WebGL",
+      "status": "PRIVATE_CAPTURED_SHA256_VERIFIED"
+    }
+  ],
+  "network_crosswalk": {
+    "first_party_paths_in_any_capture": 47,
+    "previous_reference_x01_paths": 45,
+    "new_path_candidates": [
+      "https://www.gladeye.com/valley/camera-path07.glb",
+      "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+    ],
+    "actual_new_scene_asset_bodies": 0,
+    "camera_path_findings": {
+      "manifest_url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "response_bytes": 10132,
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "identical_to_x01_camera_glb": true
+    },
+    "polyfill_findings": {
+      "manifest_url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "response_bytes": 91381,
+      "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+      "previously_fetched_and_archived_by_x03": true
+    },
+    "candidate_static_assets_missing_initial_x01": [
+      "/matter/skull.png",
+      "/matter/wave.png"
+    ],
+    "user_benefit": "Verified per-response network body SHA, timing, encoded transfer and request ordering in two independent fresh browser sessions, linked to original X01 bytes."
+  },
+  "offline_fidelity": {
+    "browser": "157.0.8103.79",
+    "viewports": "1280×800",
+    "reference_metrics": {
+      "sha256": "0094ffb9af3c2fa047c38218664b959607bacb78164e828ca8e84cfe90fa46d0",
+      "bytes": 2036552,
+      "dominant_bin_fraction": 0.4633726647000983,
+      "unique_bins": 137,
+      "rgb_mean": [
+        45,
+        41,
+        30
+      ],
+      "rgb_stddev": [
+        46.5,
+        38.8,
+        37.2
+      ]
+    },
+    "replay_metrics": [
+      {
+        "mode": "scripts-blocked",
+        "canvas_count": 1,
+        "script_tag_count": 26,
+        "page_errors_count": 0,
+        "screenshot_sha256": "1b474f6a134dcb5b6b88c37cebe9ef3419e7c7066e3a630ed12c4c3a1254aff2",
+        "dominant_color_fraction": 0.9489183874139626,
+        "coarse_color_bins": 8,
+        "mean_rgb": [
+          21,
+          21,
+          21
+        ],
+        "screenshot_private_file": "01-private-captures/X07/X07-RESUME-20261118T191216Z/offline-replay-qa/scripts-blocked-offline.png"
+      },
+      {
+        "mode": "scripts-kept",
+        "canvas_count": 0,
+        "script_tag_count": 31,
+        "page_errors_count": 2,
+        "screenshot_sha256": "139f71e1e78138c98727ea5d1f3ad83a93cf692b50236592824e37590232c1d5",
+        "dominant_color_fraction": 1,
+        "coarse_color_bins": 1,
+        "mean_rgb": [
+          16,
+          16,
+          16
+        ],
+        "screenshot_private_file": "01-private-captures/X07/X07-RESUME-20261118T191216Z/offline-replay-qa/scripts-kept-offline.png"
+      }
+    ],
+    "status": "FAIL_FULL_INTERACTIVE_GPU_SCENE_RECONSTRUCTION",
+    "limitations": [
+      "Offline replay screenshots do not reproduce original WebGL draw buffer/shaders/3D animations, even when HTML/JS source is saved.",
+      "Pixel/color-bin comparison is only a coarse fidelity gate and is not exact original scene correlation.",
+      "Some JS/CSS may be serialized or removed in snapshots; full vendor browser JS bodies remain canonical in X01 private capture."
+    ]
+  },
+  "reusable_operator": {
+    "native_windows_cmd_relative": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/SingleFile/DJMRN-Run-SingleFile.cmd",
+    "powershell_relative": "%LOCALAPPDATA%/DJMRN-Website-Toolkit/01-Analysis/SingleFile/DJMRN-Capture-SingleFile.ps1",
+    "cmd_sha256": "c753ab6b6de442dd3153539ab4a0a3cfd2e0a8b881027a4de2c86adf55caacf7",
+    "ps1_sha256": "1c6fcc1ccd97bcc9f10d40670491cee8e1acb96ff088d375f26e165d461f6af5",
+    "explicitly_per_process_powershell_policy_bypass": true,
+    "registry_or_system_policy_modified": false,
+    "functional_smoke": "PASS",
+    "smoke_capture": {
+      "size_bytes": 269825,
+      "html_sha256": "528d86b0f7b38a77bce30de66f6e50898106776c794bf7231fada6e89b456b9f",
+      "manifest_sha256": "38aecc7e3d397d51b4ff6c41ba81e6509efc0480f98b3880b497c89fe88cef70"
+    },
+    "semantics": "Creates a fresh timestamped private X07-MANUAL directory with .html, .manifest.json, SHA-checkpoint, stdout/stderr and no GitHub raw upload; optional -KeepJavaScript."
+  },
+  "known_limits": [
+    "An MV3 extension can be installed in the test browser, but this tool session did not observe a saved HTML from extension action; CLI is the proven operational path.",
+    "CLI SingleFile snapshot does not serialize live GPU framebuffer/state/shader/geometry in a way that replays offline as the original 3D scene.",
+    "Actual third-party source scripts, HTML snapshots, GLB, textures, manifest HTTP headers and screenshots must remain PRIVATE; PUBLIC GitHub only derived sanitized metadata.",
+    "For reconstructing hero motion/geometry use later X22-X41 GPU/interaction tests and existing X01 assets, not a SingleFile offline animation claim."
+  ],
+  "stage_gate": {
+    "X07": "PASS actual CLI singlefile capture, source install and validated manifest crosswalk; extension action capture unverified",
+    "next": "X08 WebScrapBook extension/source per runbook, strictly sequential, not started in this turn"
+  }
+}
