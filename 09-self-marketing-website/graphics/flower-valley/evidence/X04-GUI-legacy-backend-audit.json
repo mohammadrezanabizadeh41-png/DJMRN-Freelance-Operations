@@ -1,0 +1,426 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X04",
+  "assessment": "GUI launched and controlled; GUI crawl did not start (0%/no report). Bundled v1.0.8 crawler independently executed PASS after option compatibility correction.",
+  "source_name": "SiteOne Crawler GUI Electron v1.0.8 + bundled SiteOne Crawler Core 1.0.8.20240824",
+  "comparison_to_x03_cli": "X03 CLI installed version 2.5.1.20260627; this old GUI is not the same engine and has fewer flags.",
+  "gui_run": {
+    "private_root": "01-private-captures/X04/X04-GUI-2026-11-18T18-38-01-872Z",
+    "tested": true,
+    "found_gui_controls": 103,
+    "run_clicked": true,
+    "history_entries_after_click": 1,
+    "ui_progress_last_percent": 0,
+    "progress_observation_seconds": 98,
+    "gui_generated_files": [],
+    "original_report_upload_switched_off": true,
+    "external_asset_domains_switched_off": true,
+    "output_folder_configured_privately": true,
+    "gui_crawl_status": "GUI_NO_CRAWLER_SUBPROCESS_OR_OUTPUT_OBSERVED",
+    "blocker": "GUI IPC/spawn or option handling not diagnosed to a single root cause; no GUI-generated report after 90 seconds"
+  },
+  "bundled_backend": {
+    "private_run": "01-private-captures/X04/X04-BACKEND-VALID-20261118T184358Z",
+    "exit_code": 0,
+    "core_version": "1.0.8.20240824",
+    "report_sha256": "e02fcd147a0cdf058797c6270c466a1444ebb21c1c3a8d36cb1e9ca7827975ed",
+    "resources_count": 35,
+    "status_counts": {
+      "200": 34,
+      "308": 1
+    },
+    "offline_export_files": 36,
+    "archived_bytes": 7060141,
+    "archived_file_index": [
+      {
+        "relative": "about.html",
+        "sha256": "17e1da8a1215eda59129274b7612bfe8b277515a1130e8493bc43c2361e3daa9",
+        "bytes": 92360
+      },
+      {
+        "relative": "favicon.svg",
+        "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+        "bytes": 2059
+      },
+      {
+        "relative": "index.html",
+        "sha256": "245061676f305dc7a45ca7ecd835abb324c96d81555fc05d1123669746039280",
+        "bytes": 20902
+      },
+      {
+        "relative": "work/index.html",
+        "sha256": "799fa5f6f1caa7bd17776a897d4504315c602bed85a970e400bd5b9f0d2e9c83",
+        "bytes": 82
+      },
+      {
+        "relative": "work.html",
+        "sha256": "f0de786e35ee7ba9bcbf3be93120390f4beac7b76a7f39e6a9751315c8f7420c",
+        "bytes": 74
+      },
+      {
+        "relative": "_next/image.2ba68dee80.jpg",
+        "sha256": "da3f23e8bd01fc5cb06fa346ee6c8eb62f1965c08b2ea92744f8cee5d3d2de6a",
+        "bytes": 773783
+      },
+      {
+        "relative": "_next/image.3729ac615c.jpg",
+        "sha256": "dfbafd4a43fa1784dcdbcabb96a5b69d70e9f6a40e455fbfe7af0478633d52af",
+        "bytes": 434
+      },
+      {
+        "relative": "_next/image.6814fb4986.jpg",
+        "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+        "bytes": 414
+      },
+      {
+        "relative": "_next/image.7334df2543.jpg",
+        "sha256": "5398f74ed452890df9ede13ab11daf548243ff5c7a00e91f52a6b11638df9772",
+        "bytes": 2536594
+      },
+      {
+        "relative": "_next/image.88062a8512.jpg",
+        "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+        "bytes": 414
+      },
+      {
+        "relative": "_next/image.95b3bdbd08.jpg",
+        "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+        "bytes": 458
+      },
+      {
+        "relative": "_next/image.a104e35228.jpg",
+        "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+        "bytes": 414
+      },
+      {
+        "relative": "_next/image.d1fd76bebe.jpg",
+        "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+        "bytes": 414
+      },
+      {
+        "relative": "_next/image.fc9de449de.jpg",
+        "sha256": "0db25b03c735d8a168f5c94ed160154328300986fbe99035b89cc919902d6699",
+        "bytes": 2058748
+      },
+      {
+        "relative": "_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "sha256": "3e7769adb300b07540540a441ee768d720cda8d31d38fe1f897f9b4a51e47154",
+        "bytes": 102026
+      },
+      {
+        "relative": "_next/static/chunks/131-8efcfd03f067c029.js",
+        "sha256": "369384fe40390e3453ffb3c0e08ff528346d7b617bc9195715c8a5e38c882e8b",
+        "bytes": 17172
+      },
+      {
+        "relative": "_next/static/chunks/15-91b52fecfdd8e21a.js",
+        "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+        "bytes": 6157
+      },
+      {
+        "relative": "_next/static/chunks/340-4c85e05b44fc7370.js",
+        "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+        "bytes": 6751
+      },
+      {
+        "relative": "_next/static/chunks/419-c9aec889e32d9e7b.js",
+        "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+        "bytes": 81048
+      },
+      {
+        "relative": "_next/static/chunks/450-96e2a31dde902aa5.js",
+        "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+        "bytes": 141609
+      },
+      {
+        "relative": "_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+        "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+        "bytes": 80490
+      },
+      {
+        "relative": "_next/static/chunks/567-6466d5cc81546a43.js",
+        "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+        "bytes": 19252
+      },
+      {
+        "relative": "_next/static/chunks/596-40a806be0d0d2bb3.js",
+        "sha256": "ae2e3d716255d05c27d1784cfbaeb52c1d7ce264314cf29e0e4b2c18c66fa3a7",
+        "bytes": 111118
+      },
+      {
+        "relative": "_next/static/chunks/780-35f43a00462f78e8.js",
+        "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+        "bytes": 16685
+      },
+      {
+        "relative": "_next/static/chunks/785-3ec288b614fa287f.js",
+        "sha256": "285f3d2c524ff2953aa51867725163ed08d13aa0f2e923d60255b94189c392a7",
+        "bytes": 11318
+      },
+      {
+        "relative": "_next/static/chunks/8-5234b317a5794281.js",
+        "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+        "bytes": 5066
+      },
+      {
+        "relative": "_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+        "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+        "bytes": 30550
+      },
+      {
+        "relative": "_next/static/chunks/app/not-found-9264994d34f7485d.js",
+        "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+        "bytes": 596
+      },
+      {
+        "relative": "_next/static/chunks/app/page-4c279de0997d388f.js",
+        "sha256": "90a44e1948b6b44ce64ae15342f69e71d2ccd3dfbb22919a17e02d649174ce52",
+        "bytes": 82742
+      },
+      {
+        "relative": "_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+        "sha256": "6cb3547ef492a1005a14e1c974dc12e5f4111a350e263ddbca3ded751019a419",
+        "bytes": 549580
+      },
+      {
+        "relative": "_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "sha256": "1ddb9d41f476ede4d9323e44750c2cc1a0979422c8ab2a2926cc621192e4b414",
+        "bytes": 160741
+      },
+      {
+        "relative": "_next/static/chunks/main-app-26c70f106191f37c.js",
+        "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+        "bytes": 463
+      },
+      {
+        "relative": "_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+        "bytes": 91381
+      },
+      {
+        "relative": "_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+        "sha256": "13f586eb25d4e6f57051065209d08451be11457460cf434215df3382d047ffcf",
+        "bytes": 4026
+      },
+      {
+        "relative": "_next/static/css/2347d98ee8e65578.css",
+        "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+        "bytes": 8004
+      },
+      {
+        "relative": "_next/static/css/70ccb8e7fa150b80.css",
+        "sha256": "4527ba883d5fc84d5f8ce9e1f5c5763b9dbfa51d45a044e997310faaf8835288",
+        "bytes": 46216
+      }
+    ],
+    "new_vs_x01": [
+      {
+        "id": "X04-003",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-006",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 773783,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-009",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 458,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-012",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 434,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-014",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 2058748,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-016",
+        "url": "https://www.gladeye.com/work/",
+        "type": 9,
+        "status": 308,
+        "size": 75,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-017",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-021",
+        "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "type": 2,
+        "status": 200,
+        "size": 91381,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-024",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-029",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-031",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 2536594,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      }
+    ],
+    "new_vs_x03": [
+      {
+        "id": "X04-002",
+        "url": "https://www.gladeye.com/about",
+        "type": 1,
+        "status": 200,
+        "size": 114411,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-003",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-006",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 773783,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-009",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 458,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-012",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 434,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-014",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 2058748,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-016",
+        "url": "https://www.gladeye.com/work/",
+        "type": 9,
+        "status": 308,
+        "size": 75,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-017",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-024",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-029",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 414,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      },
+      {
+        "id": "X04-031",
+        "url": "https://www.gladeye.com/_next/image",
+        "type": 4,
+        "status": 200,
+        "size": 2536594,
+        "source": "GUI-bundled v1.0.8 backend, private source report"
+      }
+    ],
+    "initial_x01_urls_not_in_backend": 22,
+    "caveat": "Old crawler expanded beyond one hero URL to linked pages under bounded max-visited cap; not independent WebGL engine extraction",
+    "reliability_note": "Bundled Swoole runtime emitted a Cygwin fork/stackdump warning despite exit 0; verify any future use against reports.",
+    "new_distinct_path_count_vs_x01": 3,
+    "new_distinct_paths_vs_x01": [
+      "https://www.gladeye.com/_next/image",
+      "https://www.gladeye.com/work/",
+      "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+    ],
+    "new_distinct_path_count_vs_x03": 3,
+    "new_distinct_paths_vs_x03": [
+      "https://www.gladeye.com/about",
+      "https://www.gladeye.com/_next/image",
+      "https://www.gladeye.com/work/"
+    ]
+  },
+  "interpretation": {
+    "accepted": "X04 GUI capability inspected and technical fault reproduced; bundled older crawler core actually performed bounded public-page extraction, with all outputs and SHA private",
+    "unverified": "The GUI button did not produce a crawl, so no GUI-specific resource detection claim",
+    "source_reconciliation": "New routes/Next image proxy may belong site navigation and not the flower-valley environment",
+    "follow_up": "GUI front-end can be repaired or replaced only if unique evidence beyond X03 CLI is demonstrated; currently newer standalone CLI is the better operational tool"
+  },
+  "files_privacy": "Original vendor HTML/JS/images and full reports stay local; GitHub only derived metadata and hashes.",
+  "next_stage": "X05 decant; do not treat old GUI as a working replacement for the modern CLI",
+  "notes": [
+    "Repeated /_next/image paths are distinct query-bearing proxy fetches; queries were intentionally stripped from the public evidence for privacy. Do NOT interpret 11 result entries as 11 unique origin+pathname paths.",
+    "Bundled backend did finish with exit 0 but emitted Cygwin fork/stackdump warning. GUI button itself stayed 0% with no report for ~98 seconds.",
+    "X04 GUI frontend is NOT a successfully operational crawler. It remains an isolated tool defect; standalone X03 CLI is usable and newer.",
+    "No raw third-party content publicly committed; archived file checksums allow private replay while original files stay local."
+  ]
+}
