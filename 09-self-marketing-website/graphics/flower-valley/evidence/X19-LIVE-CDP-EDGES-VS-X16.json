@@ -1,0 +1,15 @@
+{
+  "stage": "X19",
+  "description": "CDP initiator relation pairs; not site response-byte assets",
+  "x16Edges": 130,
+  "x19LiveEdges": 61,
+  "repeatedRelationPairs": 61,
+  "newlyObservedPairsInX19": 0,
+  "x16OnlyPairsNotReobserved": 69,
+  "x19NewObservedPairs": [],
+  "caveats": [
+    "Newly observed does not prove new site functionality, just not recorded in the earlier X16 sample",
+    "DOM and script initiator event graphs are incomplete and session-dependent",
+    "X19 did not observe any new first-party URL outside canonical X01-X18 paths"
+  ]
+}
