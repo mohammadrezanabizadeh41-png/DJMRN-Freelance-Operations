@@ -1,0 +1,172 @@
+{
+  "dateUtc": "2026-11-19T20:07:42.061Z",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "tool": "Source Map Explorer 2.5.3",
+  "checks": {
+    "verifiedOriginalSHA": true,
+    "allFiveCliModes": true,
+    "X16NetworkGraph": true,
+    "X16AdvertisedMapsAbsent": true,
+    "ramStopNotTriggered": true
+  },
+  "referenceJS": {
+    "known": 32,
+    "verified": 31,
+    "missing": [
+      "https://www.gladeye.com/gtm.q-c92099c696a43b1f.js"
+    ],
+    "totals": {
+      "raw": 1714982,
+      "gzip": 507038,
+      "brotli": 482422
+    },
+    "roles": {
+      "NEXT_CHUNK": {
+        "count": 23,
+        "raw": 1537319,
+        "gzip": 448784,
+        "brotli": 426516
+      },
+      "NEXT_APP_ROUTE_CHUNK": {
+        "count": 8,
+        "raw": 177663,
+        "gzip": 58254,
+        "brotli": 55906
+      }
+    },
+    "top": [
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+        "bytes": 549571,
+        "gzipBytes": 137109,
+        "brotliBytes": 127073
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "bytes": 160712,
+        "gzipBytes": 50566,
+        "brotliBytes": 47882
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+        "bytes": 141609,
+        "gzipBytes": 45627,
+        "brotliBytes": 43855
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+        "bytes": 111113,
+        "gzipBytes": 32098,
+        "brotliBytes": 30965
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "bytes": 102017,
+        "gzipBytes": 26068,
+        "brotliBytes": 24956
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+        "bytes": 91381,
+        "gzipBytes": 31084,
+        "brotliBytes": 30413
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+        "bytes": 82741,
+        "gzipBytes": 23957,
+        "brotliBytes": 23238
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+        "bytes": 81048,
+        "gzipBytes": 26209,
+        "brotliBytes": 25221
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+        "bytes": 80490,
+        "gzipBytes": 25030,
+        "brotliBytes": 24057
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+        "bytes": 40996,
+        "gzipBytes": 11271,
+        "brotliBytes": 10826
+      }
+    ]
+  },
+  "sourceMaps": {
+    "X16Advertised": 0,
+    "originalAuthorSourceMapRecovered": false,
+    "originalComponentTreemapAvailable": false
+  },
+  "graph": {
+    "initiatorEdges": 130,
+    "visitedRoutes": 10
+  },
+  "ownedFixture": [
+    {
+      "name": "json",
+      "exitCode": 0,
+      "outputFile": "X17-own-component-map.json",
+      "outputBytes": 728,
+      "stderr": "  Unable to map 1/89 bytes (1.12%)\n",
+      "pass": true,
+      "jsonKeys": [
+        "results"
+      ],
+      "sha256": "cd6274332349e9f1089aed9ead961c797b6a122bf5cff12b7baca020248f7500"
+    },
+    {
+      "name": "html",
+      "exitCode": 0,
+      "outputFile": "X17-own-component-treemap.html",
+      "outputBytes": 15590,
+      "stderr": "  Unable to map 1/89 bytes (1.12%)\n",
+      "pass": true,
+      "sha256": "c0b231a554d107b3903f796b648d9b6e5c75e4b77d8000618d8cbe1935ff90e3"
+    },
+    {
+      "name": "tsv",
+      "exitCode": 0,
+      "outputFile": "X17-own-component-map.tsv",
+      "outputBytes": 108,
+      "stderr": "  Unable to map 1/89 bytes (1.12%)\n",
+      "pass": true,
+      "sha256": "85af5e77dd5025e3e5008a99b6df1b8bbbfc9adbdfb26ceb371c6098955e4070"
+    },
+    {
+      "name": "gzip",
+      "exitCode": 0,
+      "outputFile": "X17-own-component-gzip.json",
+      "outputBytes": 650,
+      "stderr": "",
+      "pass": true,
+      "jsonKeys": [
+        "results"
+      ],
+      "sha256": "bf5b47f1b23ac32f1711ad294f6d76395b5ceba8b2799f846b0a98c6fa9813eb"
+    },
+    {
+      "name": "onlyMapped",
+      "exitCode": 0,
+      "outputFile": "X17-own-component-only-mapped.json",
+      "outputBytes": 647,
+      "stderr": "",
+      "pass": true,
+      "jsonKeys": [
+        "results"
+      ],
+      "sha256": "29d7fe9c1f6fc28dc2afcd68d61acc7e5f830dc6d1db74b531ffb08c88597c07"
+    }
+  ],
+  "limitations": [
+    "Owner fixture mapped analysis only; no target map",
+    "No guessed .map URLs",
+    "--no-border-checks explicit compatibility mode, not strict map validation",
+    "Local gzip/Brotli not actual network transfer size",
+    "Client network edges are not exact original imports"
+  ]
+}
