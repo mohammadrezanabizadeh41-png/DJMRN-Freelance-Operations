@@ -1,0 +1,26 @@
+{
+  "status": "LIVE_OBSERVATION_SCOPE_QUALIFIED",
+  "elapsedSeconds": 159,
+  "samples": 7,
+  "summary": {
+    "firstPartyRequests": 169,
+    "firstPartyUniquePaths": 52,
+    "uniqueJSPaths": 25,
+    "newPathCandidates": 0,
+    "capturedNewBodies": 0,
+    "bytesCaptured": 0,
+    "firstPartyJSNewToX18": 0,
+    "networkEdges": 61,
+    "failures": 0,
+    "minFreeMemoryMiB": 989,
+    "statusCounts": {
+      "200": 169
+    }
+  },
+  "issues": [],
+  "stoppedForRam": false,
+  "caveats": [
+    "Exact URL+SHA comparison with X01-X18 still required before claiming novel original assets",
+    "No screenshots/raw vendor bytes published to GitHub"
+  ]
+}
