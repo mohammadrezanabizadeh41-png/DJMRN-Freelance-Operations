@@ -1,0 +1,268 @@
+{
+  "stage": "X18",
+  "status": "COMPLETE_SCOPE_QUALIFIED_WITH_KNOWN_WORK_TIMEOUT",
+  "utc": "2026-11-19T21:33:12.904Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": "PASS",
+      "requests": 109,
+      "js": 8,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": 15,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/work",
+      "status": "PARTIAL",
+      "requests": 47,
+      "js": 0,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": 90,
+      "htmlFallbackScripts": 5
+    },
+    {
+      "route": "/about",
+      "status": "PASS",
+      "requests": 43,
+      "js": 1,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/careers",
+      "status": "PASS",
+      "requests": 71,
+      "js": 10,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/contact",
+      "status": "PASS",
+      "requests": 3,
+      "js": 10,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/ventures",
+      "status": "PASS",
+      "requests": 1,
+      "js": 10,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/work/hypercinema",
+      "status": "PASS",
+      "requests": 40,
+      "js": 1,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/work/into-the-amazon",
+      "status": "PASS",
+      "requests": 1,
+      "js": 1,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/work/the-dj-and-the-war-crimes",
+      "status": "PASS",
+      "requests": 1,
+      "js": 1,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    },
+    {
+      "route": "/work/where-opportunity-takes-root",
+      "status": "PASS",
+      "requests": 1,
+      "js": 1,
+      "map": 0,
+      "sources": 0,
+      "focusedRetrySeconds": null,
+      "htmlFallbackScripts": null
+    }
+  ],
+  "jsDetails": [
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "HTMLScriptPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "HTMLScriptPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "HTMLScriptPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "NextJSPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "HTMLScriptPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "HTMLScriptPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "NextJSPlugin"
+      ]
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+      "observedRoutes": [
+        "/",
+        "/careers",
+        "/contact",
+        "/ventures"
+      ],
+      "plugins": [
+        "NextJSPlugin"
+      ]
+    }
+  ],
+  "verifiedNewJs": [
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+      "bytes": 247,
+      "sha256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+      "bytes": 224,
+      "sha256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+      "bytes": 80,
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    }
+  ],
+  "sourceMapCount": 0,
+  "sourceFilesRecovered": 0,
+  "offline": {
+    "verifiedJsBytes": 34,
+    "pluginCount": 26,
+    "staticPotentialEdges": 4,
+    "staticCandidates": [
+      {
+        "fromJs": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+        "candidate": "https://www.gladeye.com/_next/static/chunks/draco_decoder.js",
+        "plugin": "UniversalURLPlugin",
+        "verifiedOnNetwork": false
+      },
+      {
+        "fromJs": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+        "candidate": "https://www.gladeye.com/_next/static/chunks/draco_wasm_wrapper.js",
+        "plugin": "UniversalURLPlugin",
+        "verifiedOnNetwork": false
+      },
+      {
+        "fromJs": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+        "candidate": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+        "plugin": "NextJSPlugin",
+        "verifiedOnNetwork": false
+      },
+      {
+        "fromJs": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+        "candidate": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+        "plugin": "UniversalURLPlugin",
+        "verifiedOnNetwork": false
+      }
+    ],
+    "numberPotentialUniqueTargets": 3
+  },
+  "provenanceNotes": [
+    "JS and HTML route references are separated",
+    "Client runtime observed network initiators in X16 are independent evidence",
+    "Static jsdj candidates are hypotheses; do not equate them to served files",
+    "Vendor response bodies and restored code never published to GitHub"
+  ]
+}
