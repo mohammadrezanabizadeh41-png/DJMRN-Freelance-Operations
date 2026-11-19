@@ -1,0 +1,31 @@
+{
+  "stage": "X19",
+  "type": "OWN_SYNTHETIC_ADVANCED_DECODER_TEST",
+  "utc": "2026-11-19T23:01:07.474Z",
+  "addonAlias": "isolated-vm-6",
+  "addonVersion": "6.1.2",
+  "nodeVersion": "v24.22.1",
+  "nodeAbi": "137",
+  "nativeBinaryLoadPASS": true,
+  "isolatedVmExpressionTestPASS": true,
+  "sandboxIsolationMemoryMiB": 24,
+  "sandboxTimeoutMs": 1200,
+  "webcrackAdvancedOptionEnabled": true,
+  "webcrackReturnOk": true,
+  "actualWebcrackSandboxInvocations": 1,
+  "ownerDecoderTextFound": true,
+  "inputSha256": "2e4578c0ba78cb001d721bb995293d7bad1956af36a6c7ed96b7fd80e7e0de52",
+  "transformedSha256": "bf66ace6dd87ccf4404ec68e042a0f98309888ff0c17d269507245112fd1a2c1",
+  "inputBytes": 342,
+  "transformedBytes": 69,
+  "error": null,
+  "sandboxFailures": [],
+  "freeRamMiB": 1482,
+  "status": "ADVANCED_NATIVE_DECODER_ACTIVE",
+  "limitations": [
+    "Only owner fixture was evaluated by isolated-vm",
+    "Native binary sandbox is NOT a general security boundary for untrusted JavaScript",
+    "This test does not authorize running downloaded vendor code in a Node VM",
+    "No vendor original TS/GLSL source or private runtime source recovered"
+  ]
+}
