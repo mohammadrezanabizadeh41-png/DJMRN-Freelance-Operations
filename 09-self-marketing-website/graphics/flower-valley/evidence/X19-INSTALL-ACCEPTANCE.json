@@ -1,0 +1,16 @@
+{
+    "stage":  "X19",
+    "scope":  "ISOLATED_INSTALL_AND_STATIC_RUNTIME",
+    "status":  "WEBCRACK_2_16_STATIC_READY",
+    "package":  "webcrack",
+    "version":  "2.16.0",
+    "license":  "MIT",
+    "archiveSri":  "sha512-sQx0otp+7W8MgOWjdpc+5dqGna1GRK4tx55SyRohtq4g4A1aXbqu0TLfqvIsY/PllBZgSfvV5h0nDE0iwC8gbA==",
+    "lockSha256":  "32EE386E514FC79A52653778483481D65E78F2A46F7203B2E846D489F477AE40",
+    "nodeVersion":  "v24.22.1",
+    "nativeIsolatedVMInstalled":  false,
+    "nativeRequirement":  "optional for advanced dynamic string decoder; disabled for bounded static analysis",
+    "mode":  "Verify",
+    "ramFreeMiBAtCheck":  2260,
+    "utc":  "2026-11-19T22:12:47.7924780Z"
+}
