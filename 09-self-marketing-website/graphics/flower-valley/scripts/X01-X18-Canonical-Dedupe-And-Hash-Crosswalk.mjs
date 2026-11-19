@@ -111,12 +111,12 @@ const newAudits=[];
 for(const [stage,items] of [['X16',x16New.items],['X18',x18.items]]){
  for(const item of items){
   const r=ensure(item.url);if(!r)throw Error('NEW_NON_FIRST_PARTY');
-  const wasKnown=!!r.firstSeenStage;
+  const wasKnown=!!r.firstSeenStage&&rank(r.firstSeenStage)<rank(stage);
   const rel=item.localRelPath||item.privateRelativePath;
   const result=fileHash(physical(rel));
   if(result.sha256!==item.sha256.toLowerCase()||result.bytes!==item.bytes)throw Error('NEW_BODY_CHANGED:'+r.url);
   const oldMatches=(oldHashStages.get(result.sha256)||new Set()).size;
-  const wasHashKnown=r.originalBodyVariants.some(x=>x.sha256===result.sha256)||oldMatches>0;
+  const wasHashKnown=oldMatches>0||r.originalBodyVariants.some(x=>x.sha256===result.sha256&&rank(x.stage)<rank(stage));
   if(!r.firstSeenStage)r.firstSeenStage=stage;
   body(r,result.sha256,result.bytes,stage,'FIRST_CAPTURED_RESPONSE_BODY_STAGE');
   r.confirmedNetworkPath=true;
