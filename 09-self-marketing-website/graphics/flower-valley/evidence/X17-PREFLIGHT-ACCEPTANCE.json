@@ -1,0 +1,39 @@
+{
+    "stage":  "X17",
+    "activity":  "PREPARE_INSTALL_AND_TEST_ONLY",
+    "status":  "TOOL_READY_COMPAT_MODE_SCOPE_QUALIFIED",
+    "dateUtc":  "2026-11-19T19:41:23.6640931Z",
+    "tool":  "source-map-explorer",
+    "version":  "2.5.3",
+    "license":  "Apache-2.0",
+    "installMode":  "isolated npm --omit=dev --ignore-scripts --no-audit --no-fund --save-exact",
+    "installedDependencyPackages":  52,
+    "npmAudit":  {
+                     "critical":  0,
+                     "high":  0,
+                     "moderate":  0,
+                     "low":  0,
+                     "total":  0,
+                     "checked":  true
+                 },
+    "checks":  {
+                   "officialArchiveShaKnown":  true,
+                   "pinnedVersion":  true,
+                   "licenseApache2":  true,
+                   "lockfilePresent":  true,
+                   "realCliPresent":  true,
+                   "officialFixtureJsonValid":  true,
+                   "officialFixtureHtmlReal":  true,
+                   "originalTargetMapAdvertisedZero":  true,
+                   "strictBoundaryCheckPass":  false,
+                   "compatibilityCliPass":  true
+               },
+    "strictFailure":  "generated column Infinity validation on OWN experimental map and official upstream fixture",
+    "compatibilityFallback":  "--no-border-checks documented by upstream; must record limitation for future runs",
+    "officialFixtureReportJsonSha256":  "F9AB29825007324597144B2D37D7ED7454660DB346BD3C355DDF440338A3D105",
+    "officialFixtureReportHtmlSha256":  "E6D522BD22E02B4CCF7844B5EC78ED9F67D8F33FC65BEBCC9529C76D46CCBAB2",
+    "sourceArchiveSha256":  "AA65D78A51EB6E19DCC3ACA2E8F0DB196483458370F39F46D90B460C7219DDAF",
+    "lockfileSha256":  "5E42BF649A164CDC1EA799CAB4144DF386054C369780F86F3A3AA0DF644EDDC3",
+    "targetMapStatus":  "NONE_ADVERTISED_IN_X16",
+    "next":  "X17 use legitimate OWN/authorized map only; no target original source reconstruction claimed"
+}
