@@ -57,7 +57,7 @@ const states=new Map(),baseKinds=new Map(x15.resourcePathClassification.map(r=>[
 function ensure(u){
  const url=norm(u);if(!/^https:\/\/(www\.)?gladeye\.com\//.test(url))return null;
  if(!states.has(url))states.set(url,{url,role:role(url),firstSeenStage:null,
-  x15Classification:null,reportedStages:[],observations:[],originalBodyVariants:[],
+  x15Classification:null,reportedStages:[],observations:[],originalBodyVariants:[],secondaryHashReferences:[],
   confirmedNetworkPath:false,notes:[]});
  return states.get(url);
 }
@@ -80,7 +80,10 @@ for(const entry of x15.resources){
  if(entry.verifiedOriginalBody)originalPaths++;
  for(const stage of r.reportedStages)observe(r,stage,'PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA');
  for(const item of entry.bodyCandidates||[]){
-  if(item.kind!=='ORIGINAL_HTTP_RESPONSE_BODY')continue;
+  if(item.kind!=='ORIGINAL_HTTP_RESPONSE_BODY'){
+   if(typeof item.sha256==='string'&&/^[0-9a-f]{64}$/i.test(item.sha256))r.secondaryHashReferences.push({sha256:item.sha256.toLowerCase(),stage:item.stage,kind:item.kind,physicalHashPreviouslyVerified:oldHashStages.has(item.sha256.toLowerCase()),identity:'NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE'});
+   continue;
+  }
   if(item.integrity!=='PASS_SHA256'||!item.localRelPath){originalErrors.push({url:r.url,issue:'UNVERIFIED_ORIGINAL_BODY'});continue}
   try{
    const result=fileHash(physical(item.localRelPath));
@@ -104,7 +107,6 @@ for(const item of x16.resources){
 }
 for(const item of x17.rows){
  const r=ensure(item.url);if(!r)continue;
- if(!r.firstSeenStage)r.firstSeenStage='X17';
  observe(r,'X17','BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA');
 }
 const newAudits=[];
@@ -154,6 +156,7 @@ const checks={
  x16NewOriginalPathOne:newAudits.filter(x=>x.stage==='X16').length===1&&newAudits.find(x=>x.stage==='X16').relation==='NEW_URL_AND_NEW_BYTES',
  x18NewOriginalPathsThree:novelty.length===3&&novelty.every(x=>x.relation==='NEW_URL_AND_NEW_BYTES'),
  x17ReusedExactX01SourceBodies25:x17X01matches===25,
+ stageChronologyX16BeforeX17:records.filter(r=>r.firstSeenStage==='X16').length===1&&records.filter(r=>r.firstSeenStage==='X17').length===0,
  x18All34VerifiedBodiesInspected:x18Offline.verifiedJsInputCount===34&&x18Offline.pluginExceptions===0,
  union76PathIdentifiers:records.length===76,
  noOverstatementOfSiteCompleteness:records.filter(x=>x.confirmedNetworkPath).length===70
@@ -171,7 +174,7 @@ const summary={stage:'X01-X18',utc:new Date().toISOString(),status,
  checks,failed,limits:[
  'X15 originally normalized to path: query-specific image variants are NOT proved identical',
  'X15 2247 physical files include tool sources, fixtures and duplicate archives; not 2247 unique website resources',
- 'X05 GTM is a real offline mirrored artifact but lacks independent original HTTP response-body proof',
+ 'X05 GTM is a real offline mirrored artifact with separately indexed mirrored SHA but lacks independent original HTTP response-body proof',
  'X10 WACZ archive SHA is not a hash of its individual embedded responses',
  'X18 plugin static candidate paths are NOT counted as verified served assets',
  'X18 /work jsdj traversal timed out; independent HTML and X16 CDP coverage are complementary only',
