@@ -1,0 +1,49 @@
+{
+  "stage": "X19",
+  "utc": "2026-11-19T23:34:24.291Z",
+  "status": "FULL_STRUCTURE_AND_MODULE_GRAPH_SCOPE_QUALIFIED_PASS",
+  "checks": {
+    "allOriginalSourceBodiesPreviouslySHAValidated": true,
+    "allDerivedOutputFilesRehashed": true,
+    "all457DerivedModulesRehashed": true,
+    "allTopLevelTransformedFilesPresent": true,
+    "allModuleFilePathsResolved": true,
+    "X16AndX19LiveGraphCompared": true,
+    "assetHintsNotPromotedToServedFiles": true,
+    "noVendorJSExecutedOrPublished": true
+  },
+  "stats": {
+    "sourceJSAnalyzed": 34,
+    "sourceBytes": 1715533,
+    "modulesVerified": 457,
+    "moduleBodyBytesVerified": 2435529,
+    "generatedFilesSHA256Verified": 521,
+    "topLevelJSVerified": 34,
+    "uniqueDerivedModuleHashes": 453,
+    "duplicateDerivedModuleSHAInstances": 4,
+    "repeatedModuleIDs": 34,
+    "sameIDWithDifferingSHA": 32,
+    "importReferenceCandidates": 670,
+    "intraBundleImportCandidates": 670,
+    "unresolvedImportCandidates": 0,
+    "signalClassification": {
+      "SCENE_RELEVANT_HIGH_SIGNAL": 5,
+      "GENERAL_OR_WEAK_SIGNAL": 440,
+      "SCENE_RELEVANT_POSSIBLE": 12
+    },
+    "assetPathHints": 12,
+    "assetHintsPreviouslyKnown": 0,
+    "assetHintsUnverified": 12,
+    "newSiteAssetsOrBytes": 0,
+    "x19LiveEdgesPreviouslyObservedX16": 61,
+    "x19LiveEdgesNotSeenX16": 0,
+    "x19LiveDistinctFirstPartyPaths": 52
+  },
+  "errors": [],
+  "knownLimits": [
+    "No static analysis can prove total website module completeness",
+    "Advanced native VM decoder had only an owner-code test; no untrusted downloaded program executed",
+    "Static asset path candidates are hypotheses until original byte/URL evidence verified",
+    "X19 supplemental observations must not inflate X01-X18 76-path network inventory"
+  ]
+}
