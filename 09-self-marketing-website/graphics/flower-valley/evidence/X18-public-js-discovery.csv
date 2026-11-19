@@ -1,0 +1,9 @@
+url,observedRoutes,plugins,isVerifiedNewBody,bytes,sha256
+"https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js","/;/careers;/contact;/ventures","HTMLScriptPlugin","false","",""
+"https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js","/;/careers;/contact;/ventures","HTMLScriptPlugin","false","",""
+"https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js","/;/careers;/contact;/ventures","HTMLScriptPlugin","false","",""
+"https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js","/;/careers;/contact;/ventures","NextJSPlugin","true","247","f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2"
+"https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js","/;/careers;/contact;/ventures","HTMLScriptPlugin","false","",""
+"https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js","/;/careers;/contact;/ventures","HTMLScriptPlugin","false","",""
+"https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js","/;/careers;/contact;/ventures","NextJSPlugin","true","224","ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba"
+"https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js","/;/careers;/contact;/ventures","NextJSPlugin","true","80","678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00"
