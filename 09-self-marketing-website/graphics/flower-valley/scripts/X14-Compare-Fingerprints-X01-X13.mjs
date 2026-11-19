@@ -46,12 +46,15 @@ const rows=names.map(name=>{
 });
 const current=[...new Set((evidence.firstPartyResourcePaths||[]).filter(firstParty).map(normal))].sort();
 const novel=current.filter(x=>!paths.has(x));
+const x12Menu=read(path.join(dir,'X12-GLADEYE-menu-expanded-interactive-DOM-state-2026-11-19.json'));
+const menuPaths=new Set((x12Menu.after?.visibleLinks||[]).filter(x=>typeof x.path==='string'&&x.path.startsWith('/')).map(x=>'https://www.gladeye.com'+x.path));
+const noveltyClarification=novel.map(url=>({url,previouslyObservedAsX12MenuHref:menuPaths.has(url),sourceBodyNotPreviouslyIndexed:true,classification:menuPaths.has(url)?'KNOWN_X12_NAV_LINK_NEW_X14_HTTP_RESPONSE_BODY':'NEW_X14_STATIC_RESOURCE_PATH_AND_BODY'}));
 const oldHashes=new Set((old1.responses||[]).map(x=>x.sha256).filter(Boolean));
 const scriptHashes=(evidence.firstPartyScriptHashOnly||[]).map(x=>({...x,exactPriorX01SHA256:oldHashes.has(x.sha256)}));
 const result={mission:'DJMRN-FREELANCE-WEBSITE-001',stage:'X14',run,status:'X14_FINGERPRINT_X01_X13_CROSSWALK_COMPLETE',source:'HTTPArchive/wappalyzer',sourceCommit:timeline.sourceRuntimeVerified?.sourceGitHead,
  historic:{parsedDerivedX01toX13Reports:priorTexts.length,parseErrors,oldX01RawResponses:old1.responses.length,oldX02HAREntries:old2.log.entries.length,oldX11WARCResponseRows:old11.rows.length,oldX12Ticks:old12.ticks.length,oldX13UniqueFirstPartyPaths:old13.measured?.uniqueFirstPartyPaths,indexedUniqueFirstPartyPaths:paths.size,priorOriginalJSHTMLCSSFilesScanned:oldSource.length},
  observed:{durationSeconds:timeline.observedSeconds,timeSamples:timeline.observations.length,officialTechnologyNames:official.technologies.map(x=>x.name),liveTechnologyNames:timeline.detections.map(x=>x.name),mergedTechnologyCount:rows.length,currentFirstPartyURLPaths:current.length,priorKnownFirstPartyURLPaths:current.length-novel.length,novelFirstPartyPathCount:novel.length,scriptSourceSHACompared:scriptHashes.length,scriptSHAMatchedX01:scriptHashes.filter(x=>x.exactPriorX01SHA256).length},
- technologyEvidenceRows:rows,urlComparison:current.map(url=>({url,priorStages:[...(paths.get(url)||[])],previouslyIndexed:paths.has(url)})),novelFirstPartyURLPaths:novel,scriptSHAComparison:scriptHashes,
+ technologyEvidenceRows:rows,urlComparison:current.map(url=>({url,priorStages:[...(paths.get(url)||[])],previouslyIndexed:paths.has(url)})),novelFirstPartyURLPaths:novel,noveltyClarification,scriptSHAComparison:scriptHashes,
  relevantLessons:['The named technologies are NEWLY STRUCTURED FINGERPRINT EVIDENCE, not necessarily new software source assets.','React, Webpack, and Node.js can be implied by the Next.js detection rule; backend Node server not independently verified.','Three.js version detection from __THREE__ global is stronger evidence than generic bundle substring but actual GPU code paths remain independent work.','Module Federation pattern can be a generic webpack data-webpack false positive, not proof of remote microfrontends.','A positive Tailwind CSS signature indicates matching CSS tokens, not independently verified package-lock version.','No raw HTML/JS/GLB/shader/texture copy into GitHub or duplicate raw owner archives.']};
 const outfile=path.join(dir,run+'-X01-X13-novelty-and-tech-provenance.json');
 fs.writeFileSync(outfile,JSON.stringify(result,null,2));
