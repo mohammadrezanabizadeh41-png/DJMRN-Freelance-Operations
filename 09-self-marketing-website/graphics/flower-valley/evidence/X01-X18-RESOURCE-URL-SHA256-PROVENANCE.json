@@ -1,0 +1,6104 @@
+{
+  "summary": {
+    "stage": "X01-X18",
+    "utc": "2026-11-19T21:54:20.861Z",
+    "status": "COMPLETE_SCOPE_QUALIFIED",
+    "comparison": "URL path+actual source HTTP bytes SHA256 first; body variants separately; no synthetic URL inflation",
+    "captureArchiveX01toX15": {
+      "physicalIndexed": 2247,
+      "physicalRehashed": 2247,
+      "bytesRehashed": 331355219,
+      "uniqueFileSHAs": 1409,
+      "duplicatePhysicalCopies": 838,
+      "originalBodyURLs": 63,
+      "originalBodySamplesRehashed": 64
+    },
+    "pathReconciliation": {
+      "priorX15Paths": 72,
+      "priorNetwork66": 66,
+      "priorOfflineOnly6": 6,
+      "newX16Paths": 1,
+      "newX18Paths": 3,
+      "totalRecordedPaths": 76,
+      "networkObserved": 70,
+      "offlineDerivedOnly": 6,
+      "firstSeenByStage": {
+        "X01": 46,
+        "X02": 0,
+        "X03": 2,
+        "X04": 0,
+        "X05": 6,
+        "X06": 0,
+        "X07": 0,
+        "X08": 0,
+        "X09": 4,
+        "X10": 0,
+        "X11": 1,
+        "X12": 0,
+        "X13": 0,
+        "X14": 7,
+        "X15": 6,
+        "X16": 1,
+        "X17": 0,
+        "X18": 3
+      },
+      "originalBodyPaths": 67,
+      "categoryCounts": {
+        "ROUTE_OR_OTHER": 16,
+        "JS": 35,
+        "CSS": 6,
+        "FONT": 5,
+        "IMAGE_OR_TEXTURE": 12,
+        "AUDIO": 1,
+        "GLB_CAMERA_OR_MODEL": 1
+      }
+    },
+    "validatedNovelCaptures": [
+      {
+        "stage": "X16",
+        "url": "https://www.gladeye.com/_next/static/chunks/app/work/%5Bwork%5D/page-af89f4191159d0b5.js",
+        "sha256": "7a47436417afa2e2da87a0ab8ae5d229784ea973f0e305a8753febe3e499cb5d",
+        "bytes": 16851,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X16",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+        "sha256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+        "bytes": 247,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+        "sha256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+        "bytes": 224,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+        "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+        "bytes": 80,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      }
+    ],
+    "previousX17JSWithExactX01Hash": 25,
+    "checks": {
+      "x15All2247PhysicalBytesSHAStillValid": true,
+      "x15OriginalHTTPBodiesStillValid": true,
+      "x15OriginalPaths63": true,
+      "x15PathScope72": true,
+      "x15Network66": true,
+      "x15DerivedOnly6": true,
+      "x16NewOriginalPathOne": true,
+      "x18NewOriginalPathsThree": true,
+      "x17ReusedExactX01SourceBodies25": true,
+      "stageChronologyX16BeforeX17": true,
+      "x18All34VerifiedBodiesInspected": true,
+      "union76PathIdentifiers": true,
+      "noOverstatementOfSiteCompleteness": true
+    },
+    "failed": [],
+    "limits": [
+      "X15 originally normalized to path: query-specific image variants are NOT proved identical",
+      "X15 2247 physical files include tool sources, fixtures and duplicate archives; not 2247 unique website resources",
+      "X05 GTM is a real offline mirrored artifact with separately indexed mirrored SHA but lacks independent original HTTP response-body proof",
+      "X10 WACZ archive SHA is not a hash of its individual embedded responses",
+      "X18 plugin static candidate paths are NOT counted as verified served assets",
+      "X18 /work jsdj traversal timed out; independent HTML and X16 CDP coverage are complementary only",
+      "X18 Next.js manifests are framework/build evidence, not new flower GLB/terrain/geometry or recovered authoring source",
+      "No published source map recovered, no complete GPU/WebGL frame state or private backend source"
+    ]
+  },
+  "resources": [
+    {
+      "url": "https://www.gladeye.com/",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "924a93bc789997719e6d4d825f526a30d5796ca15f877e842d92fb55ff0833a2",
+          "bytes": 35758,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        },
+        {
+          "sha256": "c17a479c734a9afcdcdb3ab7cf6b44b3c1ebac7b43e558021d91a3f6dab2a1b8",
+          "bytes": 19020,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "caa49b0a718f7ee15d47163631c4135e115a742c517341e0d6723ef83b7d0b00",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "00342a8a5523ac6a2f4532a3c3ff0620096806a4c01a856fd879b2171eef6bd4",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3dff6292dccf39c93028fbb91420b935dc8f6bb1be5126e4f552ff565962e13c",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "41c7f9227abc34bbdb1f7d3d016fe2d09e7cbdf0e46c6c258c717c200b199447",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "c17a479c734a9afcdcdb3ab7cf6b44b3c1ebac7b43e558021d91a3f6dab2a1b8",
+      "bodyIdentity": "SAME_URL_MULTIPLE_ORIGINAL_BYTE_VARIANTS"
+    },
+    {
+      "url": "https://www.gladeye.com/_next",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X09",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X09"
+      ],
+      "observations": [
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "952eb1a542933158d9677a87d1cdae0add3d2e9fc9a71b7ca02099635f4ece15",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "URL_METADATA_NO_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/image",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X09",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X09",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "c3b0e4b7b5132ff79c948703672f9f72f1552f6c4c926413ef7d61efb15549ac",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "ff8153a7ab9012288ac39330256d9e29a3225bb0028f822c7a0dff796fd855f4",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "9a4b86082c1c1ce9e61a16153e9259987063fc4d61c2d361e1f1c13cc8befafa",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d69c856810faae7bbb8d73fc1846a1ebabb7b48836601354f374a07ff9ad8d84",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3701cd8182b9dcd9e34412612207cb71821b04e934c591a29439baa5bca84878",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "078700a9fee7808dd5c82dacb435a8a8656793a80e16c6d25154b20e4ad580d0",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d8771d1d4d42bf453a2758a7fa46b6ab619030d42637b908757b17708435eaa0",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "f2d416722a3c648a7edcb486eb8d77b5a1975f52d4ff637df5f50f6deba336ef",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d59dd5ac1728bd12eb445f7e57cf081b673f6a987427bcd3472f2171bbcd141e",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "da3f23e8bd01fc5cb06fa346ee6c8eb62f1965c08b2ea92744f8cee5d3d2de6a",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "adf7c0a0acfe239d68affc0d97f86515582ca409290f3fdba1d9265d18a83f1b",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "dfbafd4a43fa1784dcdbcabb96a5b69d70e9f6a40e455fbfe7af0478633d52af",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "9156b6756c27b2555a230718b32a5ac033d835e0c9b3815d488b396e28ab6164",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "11967a1e08d096c478e470b97d5a60d58e06c759679cc6405860cee41e28b466",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7a6ffecd03c7427a5773df4146094b66708b1b6cca7e13be496738c5ce9b5a2f",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7c85b4bda33139eced2c74b6a4a26e972abc2d9092792522be924addec99f43b",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d700c908d8a9049c08508de5f61b737a0ac5559faef16bb6eebc978f6281fc89",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "1943d8f8549c92be8d131dc9ad8ec7e2d788379ec8be068927107f13838285e0",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "4ee957ca4c546dbff806e5d654ff071cbc44e110ca5119c78533cde4079b3205",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7a95e4343932d9ee0fb3362e0eac4d58bf1cd129fdfcf732418b23a44dd83fb9",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "2c79c657a4826f46032e057c4b1fcb6404f02d1674e53a27df6411cd18954936",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5398f74ed452890df9ede13ab11daf548243ff5c7a00e91f52a6b11638df9772",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "9d4e3d87df9ccb353e816f54b4544ce4537816baecf9c5a750282c35c318b289",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3a71ef6ec84a7fad6aa15d0491dcbf509bed40f2949f1f44b1a8c1598f5008ee",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7f6c6c502a2cc15dfb54731ba03d185d6a8d97a2dfb040775a38d6c72cf22288",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "86514d94026378ef809bf28bf5fd7970a4f3d529bf5d52e76244f2cb3771c4c0",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7fd389d789370f677085bfea5f6e4c1d95816d52f279df02a8939066d06cd605",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "8716a2e46df6e66c9c5eac1de80939b386c5b46dd35b16cbd59eb5bbbb216cfe",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "80f716c34f4a7587b0fb4cc9787aef2b87cce727e2bd0524e0d25b86992a8efe",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e54caddb950819fad240aeccbe124fad376226fc0a2dba957167cc49b97c3f5f",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "0db25b03c735d8a168f5c94ed160154328300986fbe99035b89cc919902d6699",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "URL_METADATA_NO_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+          "bytes": 102017,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "3e7769adb300b07540540a441ee768d720cda8d31d38fe1f897f9b4a51e47154",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+          "bytes": 17110,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "369384fe40390e3453ffb3c0e08ff528346d7b617bc9195715c8a5e38c882e8b",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+          "bytes": 6157,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+          "bytes": 14536,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+          "bytes": 6751,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+          "bytes": 11135,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+          "bytes": 81048,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+          "bytes": 141609,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+          "bytes": 80490,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+          "bytes": 19252,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "STATIC_PLUGIN_CANDIDATE_UNVERIFIED"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+          "bytes": 111113,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "ae2e3d716255d05c27d1784cfbaeb52c1d7ce264314cf29e0e4b2c18c66fa3a7",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+          "bytes": 19277,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/743-c1c23600c4e6dd0e.js",
+      "role": "JS",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "1be9b1612c180453c666c18be2f5f4a32bf36fc27b040b3af5ed697aec55a90f",
+          "bytes": 8046,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "1be9b1612c180453c666c18be2f5f4a32bf36fc27b040b3af5ed697aec55a90f",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+          "bytes": 40996,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+          "bytes": 16685,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+          "bytes": 11256,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "285f3d2c524ff2953aa51867725163ed08d13aa0f2e923d60255b94189c392a7",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+          "bytes": 5066,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+          "bytes": 38686,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/%5Bpage%5D/page-c639dc70f189dc2f.js",
+      "role": "JS",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "316332928be3f08835c1c98949e2c3b03364daff80d9a9da523dd5ba6f595229",
+          "bytes": 22157,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "316332928be3f08835c1c98949e2c3b03364daff80d9a9da523dd5ba6f595229",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/careers/page-ed4d364c5468127c.js",
+      "role": "JS",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "8c5161f611218635c78af4cbaca83353239d0d4f23b6a1d7809d6efede8fe6bd",
+          "bytes": 9511,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "8c5161f611218635c78af4cbaca83353239d0d4f23b6a1d7809d6efede8fe6bd",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/contact/page-c27772baecf4a1c8.js",
+      "role": "JS",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "68207d296645c3759c1689aa42a72a0b21ba0c3acd6c27a94f6ba472371528cc",
+          "bytes": 1575,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "68207d296645c3759c1689aa42a72a0b21ba0c3acd6c27a94f6ba472371528cc",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+          "bytes": 30550,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+          "bytes": 596,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+          "bytes": 82741,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "90a44e1948b6b44ce64ae15342f69e71d2ccd3dfbb22919a17e02d649174ce52",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/%5Bwork%5D/page-af89f4191159d0b5.js",
+      "role": "JS",
+      "firstSeenStage": "X16",
+      "x15Classification": null,
+      "reportedStages": [
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X16",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "7a47436417afa2e2da87a0ab8ae5d229784ea973f0e305a8753febe3e499cb5d",
+          "bytes": 16851,
+          "stage": "X16",
+          "kind": "FIRST_CAPTURED_RESPONSE_BODY_STAGE"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X16",
+      "currentBodySHA256": "7a47436417afa2e2da87a0ab8ae5d229784ea973f0e305a8753febe3e499cb5d",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+          "bytes": 13682,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+          "bytes": 549571,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "6cb3547ef492a1005a14e1c974dc12e5f4111a350e263ddbca3ded751019a419",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+          "bytes": 160712,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "1ddb9d41f476ede4d9323e44750c2cc1a0979422c8ab2a2926cc621192e4b414",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+          "bytes": 463,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+      "role": "JS",
+      "firstSeenStage": "X18",
+      "x15Classification": null,
+      "reportedStages": [
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X18",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+          "bytes": 247,
+          "stage": "X18",
+          "kind": "FIRST_CAPTURED_RESPONSE_BODY_STAGE"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X18",
+      "currentBodySHA256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js",
+      "role": "JS",
+      "firstSeenStage": "X03",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X03",
+        "X05",
+        "X09",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+          "bytes": 91381,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3757a24d92e82352ab3d7326cc128a86743452192aefbdfae11618b2f03dedbe",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "e903cec1d59e0157bcc7e4ac883ae6f866babb60e4aa01b9485aa096b9722200",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "role": "JS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+          "bytes": 3962,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "13f586eb25d4e6f57051065209d08451be11457460cf434215df3382d047ffcf",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "f01b74766e3db0090f422c205816806ac7ea215b68955434d25699fb729649c0",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/0b3a3a603128fa66.css",
+      "role": "CSS",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "b94a40e504539b9188c5ae14422ae0c0d0d9d863f98df63738ec89255cf9a99c",
+          "bytes": 1980,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "b94a40e504539b9188c5ae14422ae0c0d0d9d863f98df63738ec89255cf9a99c",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "role": "CSS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+          "bytes": 8004,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "role": "CSS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+          "bytes": 46176,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "4527ba883d5fc84d5f8ce9e1f5c5763b9dbfa51d45a044e997310faaf8835288",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "df965f509bcdaac801c57c2dcae9419b71b4e176d53dec1c50101ca414aded14",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "ee3d98b9ab838385577288d0696e2b49de501d08785852aea3ff0b3a4ec45aaf",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/9085b6f617458941.css",
+      "role": "CSS",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "44169e6d0f12fe9adcf8025a665c2e46e35b05db2d3e0548d101d6c5d416ea58",
+          "bytes": 8214,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "44169e6d0f12fe9adcf8025a665c2e46e35b05db2d3e0548d101d6c5d416ea58",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/9a7eb02b3db9aeb7.css",
+      "role": "CSS",
+      "firstSeenStage": "X09",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X09",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "82badc4764761cd94b45990502203c3ffd82032e5208d8bf5397abc045fd9784",
+          "bytes": 7336,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "82badc4764761cd94b45990502203c3ffd82032e5208d8bf5397abc045fd9784",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "82badc4764761cd94b45990502203c3ffd82032e5208d8bf5397abc045fd9784",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "role": "CSS",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+          "bytes": 16406,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "role": "FONT",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+          "bytes": 45972,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "34c304b6452f22e022be88c86b0333d0f5ec64b9537f23495a5f867e76685320",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "role": "FONT",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+          "bytes": 41902,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "68ec1d2a28ff27777e395f3196ffdf5fdebbce6e37a0956163a0fc1af8c2e5a1",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "role": "FONT",
+      "firstSeenStage": "X03",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X03",
+        "X05",
+        "X09",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+          "bytes": 33159,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "3121a5e8b2862d709f599803e1d34652b5c5950fb410846cc53a47b7e7306ce5",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "role": "FONT",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+          "bytes": 31866,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "3d66ac42be0f6be9e8b3c9d03bed143c8820466c57a3da5a291dd97a6fb6d719",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "role": "FONT",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+          "bytes": 32760,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "7469876683c48411b4b8a1c8f51286898fb451dfa4d1db3fcd59d0c45cc0e4f5",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+      "role": "JS",
+      "firstSeenStage": "X18",
+      "x15Classification": null,
+      "reportedStages": [
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X18",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        },
+        {
+          "stage": "X18",
+          "kind": "STATIC_PLUGIN_CANDIDATE_UNVERIFIED"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+          "bytes": 224,
+          "stage": "X18",
+          "kind": "FIRST_CAPTURED_RESPONSE_BODY_STAGE"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X18",
+      "currentBodySHA256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+      "role": "JS",
+      "firstSeenStage": "X18",
+      "x15Classification": null,
+      "reportedStages": [
+        "X18"
+      ],
+      "observations": [
+        {
+          "stage": "X18",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X18",
+          "kind": "JSDJ_LIVE_PUBLIC_JS_URL"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+          "bytes": 80,
+          "stage": "X18",
+          "kind": "FIRST_CAPTURED_RESPONSE_BODY_STAGE"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X18",
+      "currentBodySHA256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/about",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6",
+          "bytes": 126,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "7f9055917e19395951e246154856d613215cf58875bbd7a82f8f2e017191e5cc",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "3295646f28d6d9180bcdebe5b9c285529d6d757c8be0dfce5c745457349e9ee6",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/careers",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "71256b59fdadfe943d1f9929b80572dff4b363f4dab2e583e13d3f0f33b89ab2",
+          "bytes": 211312,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "71256b59fdadfe943d1f9929b80572dff4b363f4dab2e583e13d3f0f33b89ab2",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/contact",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "6502cda0ee6b38cf4764f698422a0b62e04ddbfdc637bc1830b761523d059f92",
+          "bytes": 44919,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "6502cda0ee6b38cf4764f698422a0b62e04ddbfdc637bc1830b761523d059f92",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.ico",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X11",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X11",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "bad7a3c1c6d1fea2b71ca56a29c78096aa7196b6452240f7fce6a6a2575487a4",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "URL_METADATA_NO_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X03",
+        "X05",
+        "X09",
+        "X10",
+        "X11",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X03",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+          "bytes": 2059,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+          "stage": "X03",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/gtag/js/index.q-6cef70f9923374bd.html",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "cce0d9e2887f826fcf8d3f7e5e6b06bbecc8fee313e3ba65c08ed6a92786d36e",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/gtm.q-c92099c696a43b1f.js",
+      "role": "JS",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05",
+        "X16",
+        "X17"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X16",
+          "kind": "CDP_SOURCE_OR_BODY_METADATA"
+        },
+        {
+          "stage": "X17",
+          "kind": "BUNDLE_COMPRESSION_AND_SOURCE_MAP_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "e44dc0bc4a0c35f2a3dafe0fa2a04829e2eb4ead53d3311a6f74d283a7e87695",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/index.html",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "535219aefe69b2a14ca50f21296b91ac53e5910b885ee5c50b7237d390d2c1c7",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/robots.txt",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X09",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X09",
+        "X11",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "a0e30a1fe45c6bf830be36645f0662fd34a45c7b1f01dbbb6bb73d7075983358",
+          "bytes": 69,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "a0e30a1fe45c6bf830be36645f0662fd34a45c7b1f01dbbb6bb73d7075983358",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "a0e30a1fe45c6bf830be36645f0662fd34a45c7b1f01dbbb6bb73d7075983358",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/screenshots/index/desktop.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "d447c70297eef17df394d4af2ac0a4c44ed1ff500e6988df7424b6af95580dd1",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/screenshots/index/mobile.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "0a2c1835451f920f0696fdd77d5a7ea076e64c546d0e20eb3740d7e6de3ba8dc",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/screenshots/index/tablet.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X05",
+      "x15Classification": "OFFLINE_DERIVED_PATH_ONLY",
+      "reportedStages": [
+        "X05"
+      ],
+      "observations": [
+        {
+          "stage": "X05",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [],
+      "secondaryHashReferences": [
+        {
+          "sha256": "3586570a8017fc1716fc898f3964a6a3eb87b22ba001256557ee0c24ac33c1e2",
+          "stage": "X05",
+          "kind": "OFFLINE_MIRROR_REWRITTEN",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": false,
+      "notes": [],
+      "firstOriginalByteStage": null,
+      "currentBodySHA256": null,
+      "bodyIdentity": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+      "role": "AUDIO",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "e56ff90d828a14701832e4ece56f13791dfa25dfcddb0a64f40370ec763514d3",
+          "bytes": 3315774,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "e56ff90d828a14701832e4ece56f13791dfa25dfcddb0a64f40370ec763514d3",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "e56ff90d828a14701832e4ece56f13791dfa25dfcddb0a64f40370ec763514d3",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "role": "GLB_CAMERA_OR_MODEL",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+          "bytes": 10132,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+          "bytes": 2102,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+          "bytes": 249287,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+          "bytes": 915892,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+          "bytes": 295868,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+          "bytes": 225311,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+          "bytes": 222220,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+          "bytes": 8562,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "role": "IMAGE_OR_TEXTURE",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+          "bytes": 7436,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/ventures",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X14",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "b6d76a7e257d7beb566caeb15736bcfac45b59cf426d47cd668252340d155657",
+          "bytes": 70179,
+          "stage": "X14",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X14",
+      "currentBodySHA256": "b6d76a7e257d7beb566caeb15736bcfac45b59cf426d47cd668252340d155657",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/work",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X01",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X01",
+        "X02",
+        "X09",
+        "X10",
+        "X11",
+        "X12",
+        "X13",
+        "X14",
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X01",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X01",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        },
+        {
+          "stage": "X02",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X09",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X10",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X11",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X12",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X13",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X14",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "180191997ba64a9dab94e70bea2f550d6a59141e2779fd2c6cca746e976d5f5a",
+          "bytes": 648224,
+          "stage": "X01",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [
+        {
+          "sha256": "b6a415c58ed1cfb2d9552d2b2619c1a7af14eeb1c6ea9a8b04516851ef58cc31",
+          "stage": "X09",
+          "kind": "HTTRACK_NETWORK_OBSERVATION",
+          "physicalHashPreviouslyVerified": true,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        },
+        {
+          "sha256": "f0da28f01097a8c95874a80757e3b659c656fd0de31daebd9a524789be6b7d22",
+          "stage": "X11",
+          "kind": "WARC_EMBEDDED_RESPONSE",
+          "physicalHashPreviouslyVerified": false,
+          "identity": "NON_ORIGINAL_HTTP_RESPONSE_HASH_REFERENCE"
+        }
+      ],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X01",
+      "currentBodySHA256": "180191997ba64a9dab94e70bea2f550d6a59141e2779fd2c6cca746e976d5f5a",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/work/hypercinema",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "c2ce1de3b6fa3f7bd647849ccc48e3db72a883c8512e35d18b458b545d7f1b7d",
+          "bytes": 212398,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "c2ce1de3b6fa3f7bd647849ccc48e3db72a883c8512e35d18b458b545d7f1b7d",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/work/into-the-amazon",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "4243acde584cd3974602f887ed8fc8535ef2551f3a922243189ca15b588722df",
+          "bytes": 148727,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "4243acde584cd3974602f887ed8fc8535ef2551f3a922243189ca15b588722df",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/work/the-dj-and-the-war-crimes",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "7fe054cc3866424ca3063ab5ed6aa530d3e3fb3af6b542ae6d5ea918d20ec8f1",
+          "bytes": 177343,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "7fe054cc3866424ca3063ab5ed6aa530d3e3fb3af6b542ae6d5ea918d20ec8f1",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    },
+    {
+      "url": "https://www.gladeye.com/work/where-opportunity-takes-root",
+      "role": "ROUTE_OR_OTHER",
+      "firstSeenStage": "X15",
+      "x15Classification": "NETWORK_OBSERVED",
+      "reportedStages": [
+        "X15"
+      ],
+      "observations": [
+        {
+          "stage": "X15",
+          "kind": "PREVIOUSLY_RECORDED_URL_OR_ARCHIVE_METADATA"
+        },
+        {
+          "stage": "X15",
+          "kind": "INDEPENDENT_ORIGINAL_BODY_SHA256"
+        }
+      ],
+      "originalBodyVariants": [
+        {
+          "sha256": "4c1ff373ebf3aa44c51a6e5b73289151a7dd0fe1cf7c594e0b72ed44971a00a0",
+          "bytes": 101634,
+          "stage": "X15",
+          "kind": "X15_CANONICAL_ORIGINAL_HTTP_BODY"
+        }
+      ],
+      "secondaryHashReferences": [],
+      "confirmedNetworkPath": true,
+      "notes": [],
+      "firstOriginalByteStage": "X15",
+      "currentBodySHA256": "4c1ff373ebf3aa44c51a6e5b73289151a7dd0fe1cf7c594e0b72ed44971a00a0",
+      "bodyIdentity": "ORIGINAL_BODY_SHA256_VERIFIED"
+    }
+  ]
+}
