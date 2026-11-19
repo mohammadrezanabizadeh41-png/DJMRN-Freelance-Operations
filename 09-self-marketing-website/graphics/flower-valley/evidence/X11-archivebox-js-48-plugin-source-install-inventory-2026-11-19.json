@@ -1,0 +1,1529 @@
+{
+  "audit_type": "X11_PUBLIC_PLUGIN_SOURCE_INVENTORY_COMPACT",
+  "date_utc": "2026-11-19T09:26:38.579521+00:00",
+  "package": {
+    "name": "archivebox-js",
+    "version": "0.1.0",
+    "packageManager": "pnpm@10.33.2",
+    "node": "^22.13.0 || ^24.0.0",
+    "dependencies_declared": 54,
+    "dev_dependencies_declared": 12
+  },
+  "extension_manifest": {
+    "name": "ArchiveBox JS",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "storage",
+      "unlimitedStorage",
+      "tabs",
+      "debugger",
+      "downloads",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "checks": {
+      "background": {
+        "target": "background.js",
+        "exists": true
+      },
+      "content_scripts": []
+    }
+  },
+  "flags": {
+    "plugin_count": 48,
+    "all_plugin_configs_present": true,
+    "all_plugin_dirs_have_browser": false,
+    "no_missing_manifest_references": true,
+    "source_zip_integrity_ok": true,
+    "extension_output_files": 234,
+    "extension_output_total_bytes": 170980490,
+    "extension_wasm_files": 5,
+    "installed_pnpm_store_package_dirs": 772,
+    "source_plugin_ids": [
+      "accessibility",
+      "archivewebpage",
+      "browsertrix_behaviors",
+      "chrome",
+      "consolelog",
+      "defuddle",
+      "dns",
+      "dom",
+      "dropbox",
+      "favicon",
+      "forumdl",
+      "gallerydl",
+      "gdrive",
+      "git",
+      "googledocs",
+      "hashes",
+      "headers",
+      "htmltotext",
+      "infiniscroll",
+      "istilldontcareaboutcookies",
+      "liteparse",
+      "manifest",
+      "media",
+      "mercury",
+      "modalcloser",
+      "networktiming",
+      "papersdl",
+      "parse_dom_outlinks",
+      "parse_html_urls",
+      "parse_jsonl_urls",
+      "parse_netscape_urls",
+      "parse_rss_urls",
+      "parse_txt_urls",
+      "pdf",
+      "readability",
+      "redirects",
+      "responses",
+      "robots",
+      "rss",
+      "screenshot",
+      "search_contents",
+      "seo",
+      "singlefile",
+      "ssl",
+      "sslcerts",
+      "staticfile",
+      "title",
+      "ytdlp"
+    ],
+    "source_required_external_binaries": [],
+    "plugin_no_browser_dir": [
+      "networktiming",
+      "ssl"
+    ],
+    "source_configs_missing": []
+  },
+  "plugins": [
+    {
+      "id": "accessibility",
+      "config_present": true,
+      "title": "Accessibility tree",
+      "description": "Derive Chromium's native accessibility tree from offline replay when opened.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "archivewebpage",
+      "config_present": true,
+      "title": "Web archive",
+      "description": "Capture and replay original page responses in one WACZ using ArchiveWeb.page and Browsertrix resource discovery.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__49_requisites.ts"
+      ],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "on_Snapshot__49_requisites.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "browsertrix_behaviors",
+      "config_present": true,
+      "title": "Browser Behaviors",
+      "description": "All upstream Browsertrix behaviors: site-specific capture, autoscroll, autoclick, autoplay and shared-recorder autofetch.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__47_browsertrix_behaviors.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__47_browsertrix_behaviors.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "chrome",
+      "config_present": true,
+      "title": "Chrome navigation",
+      "description": "Reload the selected tab with the shared recorder attached.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__30_navigate.ts",
+        "on_Snapshot__50_settle.ts"
+      ],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "on_Snapshot__30_navigate.ts",
+        "on_Snapshot__50_settle.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "consolelog",
+      "config_present": true,
+      "title": "Console",
+      "description": "Observe original console messages and exceptions until polite shutdown.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__21_consolelog.daemon.bg.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__21_consolelog.daemon.bg.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "defuddle",
+      "config_present": true,
+      "title": "Defuddle",
+      "description": "Extract article content and metadata locally from the archived DOM.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "dns",
+      "config_present": true,
+      "title": "DNS and connections",
+      "description": "Derive observed host/IP mappings from response metadata; retain DNS failures that have no response.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__22_dns.daemon.bg.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__22_dns.daemon.bg.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "dom",
+      "config_present": true,
+      "title": "Rendered DOM",
+      "description": "Preserve the rendered page DOM and observed image dimensions after browser interactions.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__53_dom.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "card.ts",
+        "document.ts",
+        "on_Snapshot__53_dom.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "dropbox",
+      "config_present": true,
+      "title": "Dropbox",
+      "description": "Save Dropbox shared folders with the built-in ZIP download using the existing Chrome session.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__53_dropbox.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "on_Snapshot__53_dropbox.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "favicon",
+      "config_present": true,
+      "title": "Favicons",
+      "description": "Fetch discovered icons into the same HTTP archive.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__37_favicon.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__37_favicon.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "forumdl",
+      "config_present": true,
+      "title": "Forum threads",
+      "description": "Complete upstream forum-dl corpus in bundled Python: Discourse, Hacker News, Hyperkitty, Hypermail, Invision, phpBB, Pipermail, ProBoards, Simple Machines, vBulletin and XenForo. Browser HTTP credentials and original responses are shared with the recorder.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__49_forumdl.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "on_Snapshot__49_forumdl.ts",
+        "view.ts"
+      ],
+      "source_files": 6,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "gallerydl",
+      "config_present": true,
+      "title": "gallery-dl",
+      "description": "Unchanged gallery-dl 1.32.15 Python engine: all 306 extractor modules bundled. Runtime support depends on site access and browser capabilities.",
+      "requires": [
+        "chrome",
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__49_gallerydl.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "on_Snapshot__49_gallerydl.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "gdrive",
+      "config_present": true,
+      "title": "Google Drive",
+      "description": "Save Google Drive shared folders with the built-in ZIP download using the existing Chrome session.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__53_gdrive.ts"
+      ],
+      "browser_entry_count": 10,
+      "browser_entry_examples": [
+        "available.ts",
+        "card-template.d.ts",
+        "card-template.js",
+        "card.ts",
+        "downloads.ts",
+        "on_Snapshot__53_gdrive.ts"
+      ],
+      "source_files": 11,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "git",
+      "config_present": true,
+      "title": "Git",
+      "description": "Shallow repository checkout and recursive pinned submodules using isomorphic-git. Original smart-HTTP exchanges are captured in the WACZ and reconstruct the repository offline.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__34_git.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "on_Snapshot__34_git.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "googledocs",
+      "config_present": true,
+      "title": "Google Docs",
+      "description": "Export Google Docs, Sheets, Slides and Drawings using the existing Chrome session, without OAuth or API keys.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__53_googledocs.ts"
+      ],
+      "browser_entry_count": 9,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "model.ts",
+        "on_Snapshot__53_googledocs.ts",
+        "template.d.ts",
+        "template.js"
+      ],
+      "source_files": 11,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "hashes",
+      "config_present": true,
+      "title": "Integrity and duplicates",
+      "description": "Verify WACZ package members and indexed payload digests, and identify identical payloads without writing redundant manifests.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "headers",
+      "config_present": true,
+      "title": "HTTP headers",
+      "description": "Inspect original recorded response headers.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "htmltotext",
+      "config_present": true,
+      "title": "Plain text",
+      "description": "Read document text with paragraph, list, heading, and table boundaries.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "infiniscroll",
+      "config_present": true,
+      "title": "Infinite scroll",
+      "description": "Bounded scrolling and details expansion while the recorder saves newly loaded responses.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__45_infiniscroll.ts"
+      ],
+      "browser_entry_count": 5,
+      "browser_entry_examples": [
+        "card.ts",
+        "infiniscroll.html",
+        "on_Snapshot__45_infiniscroll.ts",
+        "presentation.ts",
+        "view.ts"
+      ],
+      "source_files": 7,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "istilldontcareaboutcookies",
+      "config_present": true,
+      "title": "Cookie banner rejection",
+      "description": "Reject optional cookies using a small explicit set of known consent controls.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__13_istilldontcareaboutcookies.daemon.bg.ts"
+      ],
+      "browser_entry_count": 1,
+      "browser_entry_examples": [
+        "on_Snapshot__13_istilldontcareaboutcookies.daemon.bg.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "liteparse",
+      "config_present": true,
+      "title": "LiteParse",
+      "description": "Save original PDF text/layout and image/scanned-PDF OCR during capture with LiteParse WASM and PaddleOCR. Office conversion is not available.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__68_liteparse.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "on_Snapshot__68_liteparse.ts",
+        "parse.ts",
+        "view.ts"
+      ],
+      "source_files": 6,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "manifest",
+      "config_present": true,
+      "title": "Web manifest",
+      "description": "Preserve up to four discovered web app manifests and inspect application metadata.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__41_manifest.ts"
+      ],
+      "browser_entry_count": 1,
+      "browser_entry_examples": [
+        "on_Snapshot__41_manifest.ts"
+      ],
+      "source_files": 2,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "media",
+      "config_present": true,
+      "title": "Embedded media",
+      "description": "Discover embedded audio/video and archive direct files or HLS/DASH manifests, selected segments, initialization data, captions and ordinary AES-128 keys into one WACZ.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__48_media.ts"
+      ],
+      "browser_entry_count": 5,
+      "browser_entry_examples": [
+        "card.ts",
+        "discover.ts",
+        "on_Snapshot__48_media.ts",
+        "streams.ts",
+        "view.ts"
+      ],
+      "source_files": 7,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "mercury",
+      "config_present": true,
+      "title": "Mercury article",
+      "description": "Run the actual Postlight Parser browser build on the saved DOM, with network fetching and multipage collection disabled.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "parser.ts",
+        "view.ts"
+      ],
+      "source_files": 6,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "modalcloser",
+      "config_present": true,
+      "title": "Modal Closer",
+      "description": "Automatically dismiss dialogs, cookie banners, and framework modals while the page is being archived.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__15_modalcloser.daemon.bg.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "close-modals.d.ts",
+        "close-modals.js",
+        "on_Snapshot__15_modalcloser.daemon.bg.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "networktiming",
+      "config_present": true,
+      "title": "Network timing",
+      "description": "Derive connection and response timing from the original browser observations stored with WARC responses.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": false,
+      "browser_hooks": [],
+      "browser_entry_count": 0,
+      "browser_entry_examples": [],
+      "source_files": 1,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "papersdl",
+      "config_present": true,
+      "title": "Academic papers",
+      "description": "Run actual papers-dl 0.0.25 and pdf2doi 1.5.1 in bundled Python/WASM. DOI, arXiv, publisher and PDF URLs use original provider logic; original requests are archived for offline identifier/title inference.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__49_papersdl.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "on_Snapshot__49_papersdl.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_dom_outlinks",
+      "config_present": true,
+      "title": "DOM links",
+      "description": "Categorize links, media, scripts, stylesheets, frames, forms, and inline CSS URLs from the archived DOM.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_html_urls",
+      "config_present": true,
+      "title": "HTML URLs",
+      "description": "Extract anchor targets and literal HTTP URLs from captured source HTML.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_jsonl_urls",
+      "config_present": true,
+      "title": "JSONL bookmark URLs",
+      "description": "Read bookmarked URLs, titles, dates and tags from archived JSONL bookmark responses.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_netscape_urls",
+      "config_present": true,
+      "title": "Netscape bookmark URLs",
+      "description": "Read links, titles, tags and browser bookmark dates from archived Netscape bookmark HTML exports.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "sources.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_rss_urls",
+      "config_present": true,
+      "title": "Feed URLs",
+      "description": "Extract article URLs, titles, dates and tags from archived RSS, Atom and JSON Feed responses.",
+      "requires": [
+        "rss"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "parse_txt_urls",
+      "config_present": true,
+      "title": "Text URLs",
+      "description": "Extract HTTP URLs from the original document and archived plain-text or Markdown responses, with source-line provenance.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "urls.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "pdf",
+      "config_present": true,
+      "title": "PDF",
+      "description": "Print the archived page to PDF on demand.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "readability",
+      "config_present": true,
+      "title": "Readability",
+      "description": "Extract the main article from the archived DOM with Mozilla Readability.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 6,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "redirects",
+      "config_present": true,
+      "title": "Redirects",
+      "description": "Read recorded HTTP redirect hops and destinations.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "responses",
+      "config_present": true,
+      "title": "HTTP responses",
+      "description": "Browse shared response bytes already stored in the archive.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 1,
+      "browser_entry_examples": [
+        "view.ts"
+      ],
+      "source_files": 2,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "robots",
+      "config_present": true,
+      "title": "Robots.txt",
+      "description": "Preserve the site's robots.txt response and inspect directives at view time.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__40_robots.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__40_robots.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "rss",
+      "config_present": true,
+      "title": "Feeds",
+      "description": "Preserve up to eight discovered RSS, Atom, or JSON Feed responses and read their entries offline.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__42_feeds.ts"
+      ],
+      "browser_entry_count": 5,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "feed.ts",
+        "on_Snapshot__42_feeds.ts",
+        "view.ts"
+      ],
+      "source_files": 6,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "screenshot",
+      "config_present": true,
+      "title": "Screenshot",
+      "description": "A JPEG preview capped at 12,000 CSS pixels tall, plus full-resolution page-by-page PNGs capped by INFINISCROLL_SCROLL_LIMIT.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__51_screenshot.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "on_Snapshot__51_screenshot.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "search_contents",
+      "config_present": true,
+      "title": "Search archived text",
+      "description": "Index original responses, document exports, ZIP members, subtitles and saved OCR after acquisition finishes.",
+      "requires": [],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__90_index.ts"
+      ],
+      "browser_entry_count": 6,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "index.ts",
+        "on_Snapshot__90_index.ts",
+        "text.ts",
+        "view.ts"
+      ],
+      "source_files": 7,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "seo",
+      "config_present": true,
+      "title": "SEO metadata",
+      "description": "Inspect metadata, headings, structured data, canonical links and archived social images.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__39_social_images.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "on_Snapshot__39_social_images.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "singlefile",
+      "config_present": true,
+      "title": "SingleFile",
+      "description": "Run the upstream SingleFile engine over the saved DOM and WACZ resources to generate self-contained HTML on demand.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "card.ts",
+        "single-file-core.d.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "ssl",
+      "config_present": true,
+      "title": "Connection security",
+      "description": "Inspect connection security from the saved certificate evidence.",
+      "requires": [
+        "sslcerts"
+      ],
+      "required_binaries": [],
+      "browser_present": false,
+      "browser_hooks": [],
+      "browser_entry_count": 0,
+      "browser_entry_examples": [],
+      "source_files": 1,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "sslcerts",
+      "config_present": true,
+      "title": "TLS certificates",
+      "description": "Preserve browser-observed TLS details and certificate chains.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__23_sslcerts.daemon.bg.ts"
+      ],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "on_Snapshot__23_sslcerts.daemon.bg.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "staticfile",
+      "config_present": true,
+      "title": "Original file",
+      "description": "Open the original non-HTML main response from the shared archive.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 4,
+      "browser_entry_examples": [
+        "available.ts",
+        "card.ts",
+        "source.ts",
+        "view.ts"
+      ],
+      "source_files": 5,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "title",
+      "config_present": true,
+      "title": "Title",
+      "description": "Compare the archived document title and social title metadata.",
+      "requires": [
+        "dom"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [],
+      "browser_entry_count": 2,
+      "browser_entry_examples": [
+        "card.ts",
+        "view.ts"
+      ],
+      "source_files": 3,
+      "status": "source-only until functional verification"
+    },
+    {
+      "id": "ytdlp",
+      "config_present": true,
+      "title": "yt-dlp",
+      "description": "Run upstream yt-dlp in bundled CPython WebAssembly. Archive extractor HTTP responses and all manual and automatic subtitle languages in their preferred original format.",
+      "requires": [
+        "chrome"
+      ],
+      "required_binaries": [],
+      "browser_present": true,
+      "browser_hooks": [
+        "on_Snapshot__49_ytdlp.ts"
+      ],
+      "browser_entry_count": 3,
+      "browser_entry_examples": [
+        "available.ts",
+        "on_Snapshot__49_ytdlp.ts",
+        "view.ts"
+      ],
+      "source_files": 4,
+      "status": "source-only until functional verification"
+    }
+  ],
+  "largest_bundled_files": [
+    [
+      "ytdlp/ffmpeg/core/ffmpeg-core.wasm",
+      32232419
+    ],
+    [
+      "ocr/ort/ort-wasm-simd-threaded.jsep.wasm",
+      28312028
+    ],
+    [
+      "ocr/models/PP-OCRv5_mobile_rec.tar",
+      16701440
+    ],
+    [
+      "assets/worker-entry-C9UNuyOJ-EhIzhVdm.js",
+      11341486
+    ],
+    [
+      "chunks/ocr-sandbox-o_HS5t6r.js",
+      10496471
+    ],
+    [
+      "papers-dl/mupdf/mupdf-wasm.wasm",
+      10409826
+    ],
+    [
+      "pyodide/pyodide.asm.wasm",
+      8647684
+    ],
+    [
+      "papers-dl/pdfminer.six-20221105-py3-none-any.whl",
+      5613896
+    ],
+    [
+      "assets/liteparse_wasm_bg-C_TgrK-M.wasm",
+      5534810
+    ],
+    [
+      "assets/officeparser.browser.slim-Zq0TuCnQ.js",
+      5415921
+    ],
+    [
+      "chunks/officeparser.browser.slim-PdzwjR_a.js",
+      5415490
+    ],
+    [
+      "ocr/models/PP-OCRv5_mobile_det.tar",
+      4843520
+    ],
+    [
+      "ytdlp/yt_dlp-2026.8.19-py3-none-any.whl",
+      3185533
+    ],
+    [
+      "pyodide/python_stdlib.zip",
+      2423989
+    ],
+    [
+      "chunks/studio-XZHTt4VR.js",
+      2263520
+    ],
+    [
+      "forum-dl/lxml-6.0.2-cp313-cp313-pyodide_2025_0_wasm32.whl",
+      1777696
+    ],
+    [
+      "background.js",
+      1269650
+    ],
+    [
+      "pyodide/pyodide.asm.js",
+      1074322
+    ],
+    [
+      "papers-dl/cryptography-46.0.3-cp313-abi3-pyodide_2025_0_wasm32.whl",
+      1030571
+    ],
+    [
+      "gallery-dl/gallery_dl-1.32.15-py3-none-any.whl",
+      941320
+    ],
+    [
+      "chunks/view-MGtm5IQ6.js",
+      909898
+    ],
+    [
+      "chunks/dash.all.min-IffRPtXm.js",
+      822672
+    ],
+    [
+      "pyodide/libopenssl-1.1.1w.zip",
+      796818
+    ],
+    [
+      "assets/streams-BNZ5n87F.js",
+      708052
+    ],
+    [
+      "chunks/dist-BYctGeVb.js",
+      596949
+    ],
+    [
+      "chunks/hls-BZqVGdSr.js",
+      575189
+    ],
+    [
+      "assets/mercury.browser-DzsuvJOr.js",
+      525524
+    ],
+    [
+      "forum-dl/pytz-2025.2-py2.py3-none-any.whl",
+      509225
+    ],
+    [
+      "assets/on_Snapshot__34_git-4nLvV4px.js",
+      489662
+    ],
+    [
+      "chunks/view-Bb2AsHM_.js",
+      463280
+    ]
+  ],
+  "bundled_auxiliary_assets": [
+    [
+      "ytdlp/ffmpeg/core/ffmpeg-core.wasm",
+      32232419
+    ],
+    [
+      "ocr/ort/ort-wasm-simd-threaded.jsep.wasm",
+      28312028
+    ],
+    [
+      "papers-dl/mupdf/mupdf-wasm.wasm",
+      10409826
+    ],
+    [
+      "pyodide/pyodide.asm.wasm",
+      8647684
+    ],
+    [
+      "papers-dl/pdfminer.six-20221105-py3-none-any.whl",
+      5613896
+    ],
+    [
+      "assets/liteparse_wasm_bg-C_TgrK-M.wasm",
+      5534810
+    ],
+    [
+      "ytdlp/yt_dlp-2026.8.19-py3-none-any.whl",
+      3185533
+    ],
+    [
+      "pyodide/python_stdlib.zip",
+      2423989
+    ],
+    [
+      "forum-dl/lxml-6.0.2-cp313-cp313-pyodide_2025_0_wasm32.whl",
+      1777696
+    ],
+    [
+      "papers-dl/cryptography-46.0.3-cp313-abi3-pyodide_2025_0_wasm32.whl",
+      1030571
+    ],
+    [
+      "gallery-dl/gallery_dl-1.32.15-py3-none-any.whl",
+      941320
+    ],
+    [
+      "pyodide/libopenssl-1.1.1w.zip",
+      796818
+    ],
+    [
+      "forum-dl/pytz-2025.2-py2.py3-none-any.whl",
+      509225
+    ],
+    [
+      "forum-dl/dateparser-1.2.2-py3-none-any.whl",
+      315453
+    ],
+    [
+      "forum-dl/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      229892
+    ],
+    [
+      "forum-dl/regex-2024.11.6-cp313-cp313-pyodide_2025_0_wasm32.whl",
+      210345
+    ],
+    [
+      "forum-dl/pydantic-1.10.26-py3-none-any.whl",
+      166975
+    ],
+    [
+      "papers-dl/certifi-2024.2.2-py3-none-any.whl",
+      163774
+    ],
+    [
+      "gallery-dl/certifi-2026.1.4-py3-none-any.whl",
+      152900
+    ],
+    [
+      "papers-dl/cffi-1.17.1-cp313-cp313-pyodide_2025_0_wasm32.whl",
+      152401
+    ],
+    [
+      "papers-dl/beautifulsoup4-4.12.3-py3-none-any.whl",
+      147925
+    ],
+    [
+      "gallery-dl/urllib3-2.6.3-py3-none-any.whl",
+      131584
+    ],
+    [
+      "papers-dl/urllib3-2.2.1-py3-none-any.whl",
+      121067
+    ],
+    [
+      "papers-dl/pycparser-2.22-py3-none-any.whl",
+      117552
+    ],
+    [
+      "forum-dl/beautifulsoup4-4.13.3-py3-none-any.whl",
+      104396
+    ],
+    [
+      "papers-dl/PyPDF2-2.0.0-py3-none-any.whl",
+      88473
+    ],
+    [
+      "papers-dl/feedparser-6.0.11-py3-none-any.whl",
+      81343
+    ],
+    [
+      "gallery-dl/idna-3.11-py3-none-any.whl",
+      71008
+    ],
+    [
+      "pyodide/ssl-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl",
+      65178
+    ],
+    [
+      "gallery-dl/requests-2.32.5-py3-none-any.whl",
+      64738
+    ],
+    [
+      "papers-dl/requests-2.31.0-py3-none-any.whl",
+      62574
+    ],
+    [
+      "papers-dl/loguru-0.7.2-py3-none-any.whl",
+      62549
+    ],
+    [
+      "papers-dl/idna-3.6-py3-none-any.whl",
+      61567
+    ],
+    [
+      "forum-dl/forum_dl-0.3.0-py3-none-any.whl",
+      53830
+    ],
+    [
+      "ytdlp/yt_dlp_ejs-0.8.0-py3-none-any.whl",
+      53443
+    ],
+    [
+      "gallery-dl/charset_normalizer-3.4.4-py3-none-any.whl",
+      53402
+    ],
+    [
+      "papers-dl/charset_normalizer-3.3.2-py3-none-any.whl",
+      48543
+    ],
+    [
+      "papers-dl/google-3.0.0-py2.py3-none-any.whl",
+      45258
+    ],
+    [
+      "forum-dl/typing_extensions-4.15.0-py3-none-any.whl",
+      44613
+    ],
+    [
+      "forum-dl/soupsieve-2.6-py3-none-any.whl",
+      36185
+    ],
+    [
+      "papers-dl/soupsieve-2.5-py3-none-any.whl",
+      36131
+    ],
+    [
+      "forum-dl/html2text-2025.4.15-py3-none-any.whl",
+      34656
+    ],
+    [
+      "papers-dl/pdf2doi-1.5.1-py3-none-any.whl",
+      34216
+    ],
+    [
+      "forum-dl/tenacity-9.1.4-py3-none-any.whl",
+      28926
+    ],
+    [
+      "forum-dl/tzlocal-5.3.1-py3-none-any.whl",
+      18026
+    ],
+    [
+      "forum-dl/six-1.17.0-py2.py3-none-any.whl",
+      11050
+    ],
+    [
+      "papers-dl/six-1.17.0-py2.py3-none-any.whl",
+      11050
+    ],
+    [
+      "papers-dl/pdftitle-0.11.tgz",
+      10396
+    ],
+    [
+      "papers-dl/sgmllib3k-1.0.0.tgz",
+      5750
+    ]
+  ],
+  "local_test_summaries": [
+    {
+      "run": "local-dom-pass-001",
+      "state": "complete",
+      "resources": 5,
+      "plugins": [
+        "chrome",
+        "dom"
+      ],
+      "hook_statuses": [
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "dom",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "run": "local-multiplugin-pass-001",
+      "state": "complete",
+      "resources": 8,
+      "plugins": [
+        "chrome",
+        "accessibility",
+        "consolelog",
+        "dom",
+        "hashes",
+        "headers",
+        "networktiming",
+        "responses",
+        "screenshot",
+        "singlefile",
+        "title"
+      ],
+      "hook_statuses": [
+        {
+          "plugin": "consolelog",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "screenshot",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "dom",
+          "status": "succeeded"
+        }
+      ]
+    },
+    {
+      "run": "local-multiplugin-pass-002",
+      "state": "complete",
+      "resources": 8,
+      "plugins": [
+        "chrome",
+        "accessibility",
+        "consolelog",
+        "dom",
+        "hashes",
+        "headers",
+        "networktiming",
+        "responses",
+        "screenshot",
+        "singlefile",
+        "title"
+      ],
+      "hook_statuses": [
+        {
+          "plugin": "consolelog",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "chrome",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "screenshot",
+          "status": "succeeded"
+        },
+        {
+          "plugin": "dom",
+          "status": "succeeded"
+        }
+      ]
+    }
+  ]
+}
