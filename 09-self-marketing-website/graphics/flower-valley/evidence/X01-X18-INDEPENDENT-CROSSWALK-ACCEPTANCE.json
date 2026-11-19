@@ -1,0 +1,128 @@
+{
+  "summary": {
+    "stage": "X01-X18",
+    "utc": "2026-11-19T21:54:20.861Z",
+    "status": "COMPLETE_SCOPE_QUALIFIED",
+    "comparison": "URL path+actual source HTTP bytes SHA256 first; body variants separately; no synthetic URL inflation",
+    "captureArchiveX01toX15": {
+      "physicalIndexed": 2247,
+      "physicalRehashed": 2247,
+      "bytesRehashed": 331355219,
+      "uniqueFileSHAs": 1409,
+      "duplicatePhysicalCopies": 838,
+      "originalBodyURLs": 63,
+      "originalBodySamplesRehashed": 64
+    },
+    "pathReconciliation": {
+      "priorX15Paths": 72,
+      "priorNetwork66": 66,
+      "priorOfflineOnly6": 6,
+      "newX16Paths": 1,
+      "newX18Paths": 3,
+      "totalRecordedPaths": 76,
+      "networkObserved": 70,
+      "offlineDerivedOnly": 6,
+      "firstSeenByStage": {
+        "X01": 46,
+        "X02": 0,
+        "X03": 2,
+        "X04": 0,
+        "X05": 6,
+        "X06": 0,
+        "X07": 0,
+        "X08": 0,
+        "X09": 4,
+        "X10": 0,
+        "X11": 1,
+        "X12": 0,
+        "X13": 0,
+        "X14": 7,
+        "X15": 6,
+        "X16": 1,
+        "X17": 0,
+        "X18": 3
+      },
+      "originalBodyPaths": 67,
+      "categoryCounts": {
+        "ROUTE_OR_OTHER": 16,
+        "JS": 35,
+        "CSS": 6,
+        "FONT": 5,
+        "IMAGE_OR_TEXTURE": 12,
+        "AUDIO": 1,
+        "GLB_CAMERA_OR_MODEL": 1
+      }
+    },
+    "validatedNovelCaptures": [
+      {
+        "stage": "X16",
+        "url": "https://www.gladeye.com/_next/static/chunks/app/work/%5Bwork%5D/page-af89f4191159d0b5.js",
+        "sha256": "7a47436417afa2e2da87a0ab8ae5d229784ea973f0e305a8753febe3e499cb5d",
+        "bytes": 16851,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X16",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+        "sha256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+        "bytes": 247,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+        "sha256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+        "bytes": 224,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      },
+      {
+        "stage": "X18",
+        "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+        "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+        "bytes": 80,
+        "priorUrlSeen": false,
+        "priorPhysicalHashStageCount": 0,
+        "firstSeenStage": "X18",
+        "relation": "NEW_URL_AND_NEW_BYTES"
+      }
+    ],
+    "previousX17JSWithExactX01Hash": 25,
+    "checks": {
+      "x15All2247PhysicalBytesSHAStillValid": true,
+      "x15OriginalHTTPBodiesStillValid": true,
+      "x15OriginalPaths63": true,
+      "x15PathScope72": true,
+      "x15Network66": true,
+      "x15DerivedOnly6": true,
+      "x16NewOriginalPathOne": true,
+      "x18NewOriginalPathsThree": true,
+      "x17ReusedExactX01SourceBodies25": true,
+      "stageChronologyX16BeforeX17": true,
+      "x18All34VerifiedBodiesInspected": true,
+      "union76PathIdentifiers": true,
+      "noOverstatementOfSiteCompleteness": true
+    },
+    "failed": [],
+    "limits": [
+      "X15 originally normalized to path: query-specific image variants are NOT proved identical",
+      "X15 2247 physical files include tool sources, fixtures and duplicate archives; not 2247 unique website resources",
+      "X05 GTM is a real offline mirrored artifact with separately indexed mirrored SHA but lacks independent original HTTP response-body proof",
+      "X10 WACZ archive SHA is not a hash of its individual embedded responses",
+      "X18 plugin static candidate paths are NOT counted as verified served assets",
+      "X18 /work jsdj traversal timed out; independent HTML and X16 CDP coverage are complementary only",
+      "X18 Next.js manifests are framework/build evidence, not new flower GLB/terrain/geometry or recovered authoring source",
+      "No published source map recovered, no complete GPU/WebGL frame state or private backend source"
+    ]
+  },
+  "physicalErrors": [],
+  "originalBodyErrors": []
+}
