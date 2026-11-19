@@ -1,0 +1,39 @@
+{
+  "status": "FULL_VERIFIED_JS_STATIC_SWEEP_PASS",
+  "utc": "2026-11-19T23:32:19.513Z",
+  "checks": {
+    "allOriginalVerifiedBeforeTransform": true,
+    "everyInputProcessed": true,
+    "noFailedOrMissingFile": true,
+    "noVendorNodeEval": true,
+    "independentOriginalHashLineage": true,
+    "dataPrivateAndPublicMetadataSeparate": true
+  },
+  "stats": {
+    "count": 34,
+    "pass": 34,
+    "notProcessed": 0,
+    "failure": 0,
+    "originalsVerifiedTotal": 34,
+    "originalBytesTotal": 1715533,
+    "modulesExtracted": 457,
+    "filesGenerated": 521,
+    "formats": {
+      "webpack": 30,
+      "NONE": 4
+    },
+    "realVendorCodeEvaluatedInNode": false,
+    "optionalNativeAddonOwnerTestedPreviously": true,
+    "resultsWithObfuscationHeuristics": 0,
+    "nativeEvalDenied": 0,
+    "totalElapsedSeconds": 44
+  },
+  "excluded": [
+    {
+      "url": "https://www.gladeye.com/gtm.q-c92099c696a43b1f.js",
+      "firstSeenStage": "X05",
+      "classification": "OFFLINE_DERIVED_ONLY_NO_ORIGINAL_HTTP_BODY",
+      "note": "NOT_BITWISE_VERIFIED_ORIGINAL_HTTP_RESPONSE_BODY; no invented input file"
+    }
+  ]
+}
