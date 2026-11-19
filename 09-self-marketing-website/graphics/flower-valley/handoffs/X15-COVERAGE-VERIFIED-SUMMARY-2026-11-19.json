@@ -1,0 +1,85 @@
+{
+  "mission": "DJMRN-FREELANCE-WEBSITE-001",
+  "stage": "X15",
+  "date": "2026-11-19",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "canonicalReport": "graphics/flower-valley/handoffs/X15-ALL-TOOLS-COVERAGE-CLOSURE-2026-11-19.md",
+  "stageAuthority": "09-self-marketing-website/PROJECT-LOG.md",
+  "nextStage": "X16",
+  "nextStageStatus": "NOT_STARTED_IN_X15",
+  "tool": "Deterministic Node.js 24 and Python 3.14 using existing local data and browser",
+  "localValidatedAuditRun": "X15-AUDIT-2026-11-19T15-24-17-814Z",
+  "localEvidenceRelative": "Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261118-NEW-EXTRACTION/02-reviewed-derived/X15-AUDIT-CURRENT",
+  "metrics": {
+    "physicalFilesHashed": 2247,
+    "uniquePhysicalSHA256": 1409,
+    "physicalExactDuplicateHashGroups": 187,
+    "physicalDuplicateCopies": 838,
+    "physicalBytesHashed": 331355219,
+    "potentialFirstPartyPathsIncludingOfflineOnly": 72,
+    "offlineSynthesizedPathsExcluded": 6,
+    "networkObservedFirstPartyPaths": 66,
+    "originalStandaloneSHA256VerifiedPaths": 63,
+    "otherNetworkPathsClassified": 3,
+    "x10WaczIndexedFirstPartyResponseRows": 47,
+    "x10WaczIndexedUniqueFirstPartyPaths": 46,
+    "validZipCRCContainers": 16,
+    "expectedContainerSHA256Pass": 3,
+    "x01OriginalSHA256Pass": 47,
+    "x14NovelOriginalSHA256Pass": 7,
+    "x15WorkNewOriginalSHA256Pass": 6,
+    "workHTMLCorrectedExtensions": 4,
+    "diagnostics": 0,
+    "boundedLiveObservationSeconds": 180.66,
+    "boundedDistinctRouteVisits": 6,
+    "boundedNavigationRequests": 7,
+    "successfulTopLevelNavigations": 7,
+    "boundedTimeSamples": 13,
+    "boundedPrivateScreenshots": 7,
+    "boundedNetworkEvents": 933,
+    "boundedFailedThirdPartyRequests": 19,
+    "firstPartyNetworkRequestFailures": 0
+  },
+  "newX15PrivateResponseBodies": {
+    "js": 2,
+    "html": 4,
+    "originalBodiesSHA256Verified": 6,
+    "notFresh3DModelFiles": true
+  },
+  "incompleteObservedPaths": [
+    {
+      "path": "/_next",
+      "code": "DIRECTORY_REDIRECT_308",
+      "interpretation": "HTTP 308 redirect, not a standalone asset body"
+    },
+    {
+      "path": "/_next/image",
+      "code": "QUERY_DEPENDENT_IMAGE_OPTIMIZER",
+      "interpretation": "Query-stripped path combines distinct image requests; statuses 200/404/502; never infer full path-only asset"
+    },
+    {
+      "path": "/favicon.ico",
+      "code": "HTTP_404_NOT_VALID_ICON",
+      "interpretation": "HTTP404 error HTML already archived; not usable icon; favicon.svg separately observed"
+    }
+  ],
+  "evidence": {
+    "audit": "X15-integrated-coverage-and-gaps.json",
+    "acceptance": "X15-acceptance-check.json",
+    "x10Index": "X15-archive-container-and-X10-CDX-index.json",
+    "hashIndex": "raw-captures-content-hash-index.json",
+    "resourceCrosswalk": "observed-first-party-resource-coverage.json",
+    "resourceCSV": "observed-resource-coverage.csv",
+    "x15PrivateSixBodies": "X15-six-new-work-route-response-bodies.json",
+    "repairProvenance": "X15-closure-provenance-fixes.json",
+    "x15LiveRun": "X15-ROUTE-FRESHNESS-TRUE180-2026-11-19T14-59-34-333Z"
+  },
+  "constraints": [
+    "Denominator is observed first-party network paths, not all website endpoints or source files",
+    "Do not copy any third-party raw source/assets to public GitHub",
+    "X10 archive SHA is whole-WACZ SHA, not individual HTTP response SHA",
+    "No camera matrix / GPU frame / shader unbundled source recovery claimed",
+    "No new network capture or tool installation was performed during closure"
+  ],
+  "decision": "X15 complete for specifically assigned cross-stage reconciliation; start X16 only via subsequent user instruction"
+}
