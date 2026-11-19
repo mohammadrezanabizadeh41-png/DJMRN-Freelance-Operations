@@ -1,0 +1,2228 @@
+{
+  "stage": "X19",
+  "stats": {
+    "sourceJSAnalyzed": 34,
+    "sourceBytes": 1715533,
+    "modulesVerified": 457,
+    "moduleBodyBytesVerified": 2435529,
+    "generatedFilesSHA256Verified": 521,
+    "topLevelJSVerified": 34,
+    "uniqueDerivedModuleHashes": 453,
+    "duplicateDerivedModuleSHAInstances": 4,
+    "repeatedModuleIDs": 34,
+    "sameIDWithDifferingSHA": 32,
+    "importReferenceCandidates": 670,
+    "intraBundleImportCandidates": 670,
+    "unresolvedImportCandidates": 0,
+    "signalClassification": {
+      "SCENE_RELEVANT_HIGH_SIGNAL": 5,
+      "GENERAL_OR_WEAK_SIGNAL": 440,
+      "SCENE_RELEVANT_POSSIBLE": 12
+    },
+    "assetPathHints": 12,
+    "assetHintsPreviouslyKnown": 0,
+    "assetHintsUnverified": 12,
+    "newSiteAssetsOrBytes": 0,
+    "x19LiveEdgesPreviouslyObservedX16": 61,
+    "x19LiveEdgesNotSeenX16": 0,
+    "x19LiveDistinctFirstPartyPaths": 52
+  },
+  "topLikelySceneModules": [
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "889",
+      "modulePath": "889.js",
+      "moduleSHA256": "60abecd12cdf56e25ffb16ea236d2287f32b6d46393e17c131d29fba6be40603",
+      "bytes": 56977,
+      "score": 133,
+      "signalCounts": {
+        "gltf": 13,
+        "draco": 1,
+        "shader": 6,
+        "uniforms": 42,
+        "flowers": 17,
+        "terrain": 17,
+        "raysBloom": 11,
+        "motion": 5,
+        "pointer": 7,
+        "scroll": 2,
+        "react": 6
+      },
+      "classification": "SCENE_RELEVANT_HIGH_SIGNAL",
+      "directImportHints": [
+        "./1554.js",
+        "./9169.js",
+        "./4025.js",
+        "./5593.js",
+        "./4291.js",
+        "./9744.js",
+        "./5165.js",
+        "./7936.js",
+        "./526.js",
+        "./2551.js",
+        "./5249.js",
+        "./6432.js",
+        "./2289.js",
+        "./255.js",
+        "./6057.js",
+        "./1944.js",
+        "./4666.js",
+        "./1879.js",
+        "./4759.js",
+        "./7929.js"
+      ],
+      "assetPathHints": [
+        "/camera-path07.glb",
+        "/flowers/pool_summer.png",
+        "/flowers/pool_winter.png",
+        "/vignette.png",
+        "/dust-particle.png",
+        "/rays/ray1.png",
+        "/rays/ray2.png",
+        "/rays/ray3.png",
+        "/terrain.png"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6375",
+      "modulePath": "6375.js",
+      "moduleSHA256": "0b4d7379c7ab840cc9580c42838856de6b323ea1c859172a50834dd80eb4a161",
+      "bytes": 789546,
+      "score": 121,
+      "signalCounts": {
+        "threeRenderer": 45,
+        "webgl": 4,
+        "camera": 6,
+        "instancing": 39,
+        "shader": 158,
+        "uniforms": 112,
+        "flowers": 3,
+        "motion": 8,
+        "react": 1
+      },
+      "classification": "SCENE_RELEVANT_HIGH_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4863",
+      "modulePath": "4863.js",
+      "moduleSHA256": "3ddce0565fbaf67b80075e273b8c65a67779b0d56db26b2e5c439db86c3b1b49",
+      "bytes": 66240,
+      "score": 45,
+      "signalCounts": {
+        "gltf": 25,
+        "draco": 8
+      },
+      "classification": "SCENE_RELEVANT_HIGH_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4059",
+      "modulePath": "4059.js",
+      "moduleSHA256": "62dba776761e6e1d6cc72c233cf1ae4bb64ea9f823c8a052309eb0b07841a402",
+      "bytes": 11191,
+      "score": 44,
+      "signalCounts": {
+        "shader": 20,
+        "uniforms": 42,
+        "raysBloom": 3
+      },
+      "classification": "SCENE_RELEVANT_HIGH_SIGNAL",
+      "directImportHints": [
+        "./9136.js",
+        "./2108.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "9169",
+      "modulePath": "9169.js",
+      "moduleSHA256": "ef883ca9f9f58262786db842be0be67f09bc7070f8c3634ebe51d9eee831473e",
+      "bytes": 18722,
+      "score": 42,
+      "signalCounts": {
+        "shader": 1,
+        "uniforms": 1,
+        "flowers": 28,
+        "terrain": 21
+      },
+      "classification": "SCENE_RELEVANT_HIGH_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4948",
+      "modulePath": "4948.js",
+      "moduleSHA256": "45b91df069dd82a8fd16648c4539aaf114da0f46d9461b28b6496b6877b2dd7c",
+      "bytes": 1210,
+      "score": 30,
+      "signalCounts": {
+        "shader": 4,
+        "uniforms": 8
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [
+        "./9136.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5828",
+      "modulePath": "5828.js",
+      "moduleSHA256": "538e79aa9f665c529b8deeb3cfe75aa7b080f282e486272977423abb94751578",
+      "bytes": 132136,
+      "score": 28,
+      "signalCounts": {
+        "flowers": 1,
+        "motion": 8,
+        "pointer": 10,
+        "scroll": 11,
+        "react": 1
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2108",
+      "modulePath": "2108.js",
+      "moduleSHA256": "15c3bb8bf953a20b0917d03855e9a473e021ef9005ad2bc5cde8f3f09a271db3",
+      "bytes": 548,
+      "score": 26,
+      "signalCounts": {
+        "shader": 4,
+        "uniforms": 3
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/%5Bpage%5D/page-c639dc70f189dc2f.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "1617",
+      "modulePath": "1617.js",
+      "moduleSHA256": "0eafeb7d393537d3ac2a596e7d56107de10035154c55edea741f27185c89f272",
+      "bytes": 18160,
+      "score": 22,
+      "signalCounts": {
+        "terrain": 4,
+        "scroll": 3,
+        "react": 7
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [
+        "./1214.js",
+        "./3711.js",
+        "./7895.js",
+        "./7101.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/work/%5Bwork%5D/page-af89f4191159d0b5.js",
+      "sourceFirstSeen": "X16",
+      "moduleId": "2649",
+      "modulePath": "2649.js",
+      "moduleSHA256": "dae1efdcb63072f2c76989d8081c6af0b2e431d6be9459d07731772c05736b3d",
+      "bytes": 15945,
+      "score": 22,
+      "signalCounts": {
+        "terrain": 4,
+        "motion": 2,
+        "scroll": 1,
+        "react": 9
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [
+        "./5472.js",
+        "./9720.js",
+        "./7781.js",
+        "./706.js",
+        "./1184.js",
+        "./9471.js",
+        "./8475.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2321",
+      "modulePath": "2321.js",
+      "moduleSHA256": "e58cbfa637feeba01c59a7c9b33975c9421d0f172e56acede39f013df775d160",
+      "bytes": 36353,
+      "score": 21,
+      "signalCounts": {
+        "motion": 3,
+        "pointer": 7,
+        "scroll": 7,
+        "react": 19
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5339",
+      "modulePath": "5339.js",
+      "moduleSHA256": "b62c788c7237eeb8f92498e2092b9b68ebfd2c512c4fce2bb20f80ce3f989091",
+      "bytes": 10541,
+      "score": 20,
+      "signalCounts": {
+        "draco": 7
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4025",
+      "modulePath": "4025.js",
+      "moduleSHA256": "3cff450fa511270c1fb8c10d76e89001f4ccd3b8b758de59b88e174d847437f8",
+      "bytes": 7077,
+      "score": 20,
+      "signalCounts": {
+        "shader": 3,
+        "uniforms": 1,
+        "flowers": 1
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "255",
+      "modulePath": "255.js",
+      "moduleSHA256": "66094621fc147197b0b2699e5606725a4b4a139b838a380e491935f56e3521a8",
+      "bytes": 1511,
+      "score": 17,
+      "signalCounts": {
+        "shader": 3,
+        "uniforms": 1
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4417",
+      "modulePath": "4417.js",
+      "moduleSHA256": "4ff7245984bd4eee732e5c94ca004d076dae77748253279d06798bcf0cbbaa2d",
+      "bytes": 292615,
+      "score": 15,
+      "signalCounts": {
+        "pointer": 13,
+        "scroll": 12,
+        "react": 36
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5299",
+      "modulePath": "5299.js",
+      "moduleSHA256": "3b725f1c3f10c334a4b934c16c25d30633757fe8e1a6c86b92891961426622ba",
+      "bytes": 19627,
+      "score": 15,
+      "signalCounts": {
+        "flowers": 10,
+        "react": 55
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [
+        "./7946.js",
+        "./3613.js",
+        "./666.js",
+        "./5633.js",
+        "./3711.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4590",
+      "modulePath": "4590.js",
+      "moduleSHA256": "09d65685a58db049dae338efe4aea83aeb3d7bdbf57398d163c7392b94de5548",
+      "bytes": 7807,
+      "score": 15,
+      "signalCounts": {
+        "pointer": 10,
+        "scroll": 25
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1944",
+      "modulePath": "1944.js",
+      "moduleSHA256": "68735434afb96c8c89931ca9769c44eb5c4fc7d4ed8629f1a2be9613c80b6568",
+      "bytes": 462,
+      "score": 15,
+      "signalCounts": {
+        "flowers": 8
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1879",
+      "modulePath": "1879.js",
+      "moduleSHA256": "80fbdff5e3391cd634ab5f4c9c0adcb4677e4178d859e58542330336a7bd62f8",
+      "bytes": 268,
+      "score": 15,
+      "signalCounts": {
+        "flowers": 5
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1385",
+      "modulePath": "1385.js",
+      "moduleSHA256": "5f716d07c5b678ede1855a8968fa3bd6d8a05c7766b3dd00f56be4017aba47d9",
+      "bytes": 7365,
+      "score": 11,
+      "signalCounts": {
+        "pointer": 6,
+        "scroll": 3,
+        "react": 3
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./413.js",
+        "./8029.js",
+        "./983.js"
+      ],
+      "assetPathHints": [
+        "/matter/wave.png",
+        "/matter/skull.png"
+      ]
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6057",
+      "modulePath": "6057.js",
+      "moduleSHA256": "9a63bb97ffcda1361720e6f165d979e49e947fe4cc22eeed7d5eaff25218fcd5",
+      "bytes": 2812,
+      "score": 10,
+      "signalCounts": {
+        "scroll": 5,
+        "react": 3
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6432.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6057",
+      "modulePath": "6057.js",
+      "moduleSHA256": "3b81f0b6b64a300d4845c8e36c96d3350c5db415d9074bf334a8dffdf0ac2617",
+      "bytes": 2809,
+      "score": 10,
+      "signalCounts": {
+        "scroll": 5,
+        "react": 3
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6432.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "9744",
+      "modulePath": "9744.js",
+      "moduleSHA256": "8655bacc7092798451d728a4ecba25f1ec757b5ef1aab609dc949f590c237462",
+      "bytes": 303,
+      "score": 10,
+      "signalCounts": {
+        "shader": 2
+      },
+      "classification": "SCENE_RELEVANT_POSSIBLE",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5879",
+      "modulePath": "5879.js",
+      "moduleSHA256": "201b73517a8ed0956910e35f228a71ef01582806555114ed180333f69a6dcbb3",
+      "bytes": 92240,
+      "score": 9,
+      "signalCounts": {
+        "pointer": 3,
+        "scroll": 3,
+        "react": 8
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./5968.js",
+        "./8243.js",
+        "./538.js",
+        "./5503.js",
+        "./3345.js",
+        "./6049.js",
+        "./9001.js",
+        "./6613.js",
+        "./781.js",
+        "./1118.js",
+        "./5735.js",
+        "./458.js",
+        "./1524.js",
+        "./922.js",
+        "./8239.js",
+        "./5625.js",
+        "./7866.js",
+        "./3331.js",
+        "./961.js",
+        "./1832.js",
+        "./3495.js",
+        "./4694.js",
+        "./3041.js",
+        "./6977.js",
+        "./363.js",
+        "./2593.js",
+        "./5247.js",
+        "./8126.js",
+        "./6567.js",
+        "./1356.js",
+        "./2868.js",
+        "./7.js",
+        "./3021.js",
+        "./4597.js",
+        "./3937.js",
+        "./4902.js",
+        "./3681.js",
+        "./1924.js",
+        "./9155.js",
+        "./611.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6522",
+      "modulePath": "6522.js",
+      "moduleSHA256": "91d933f911b6c06d0770b6e46b9b39c837679dc95ba1c2a68921192f853cb52a",
+      "bytes": 10373,
+      "score": 8,
+      "signalCounts": {
+        "scroll": 4,
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6537",
+      "modulePath": "6537.js",
+      "moduleSHA256": "58a78853f73b9a88c2fe8b5afd51a56e622bffef9744833353030fc6a5f60c1d",
+      "bytes": 10835,
+      "score": 6,
+      "signalCounts": {
+        "pointer": 4,
+        "scroll": 1,
+        "react": 10
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./8066.js",
+        "./8179.js",
+        "./413.js",
+        "./8704.js",
+        "./1554.js",
+        "./2521.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/743-c1c23600c4e6dd0e.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "2139",
+      "modulePath": "2139.js",
+      "moduleSHA256": "6be73a0d5e14fdfc55d6ca3e52893016e4c76bcadd541577a02b8b9bc3698abb",
+      "bytes": 1253,
+      "score": 6,
+      "signalCounts": {
+        "scroll": 3,
+        "react": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5633",
+      "modulePath": "5633.js",
+      "moduleSHA256": "3c0466f029369a1bba5a57374e76af788c540348517a4de6cac0ec8a2b79a977",
+      "bytes": 94,
+      "score": 6,
+      "signalCounts": {
+        "flowers": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4346",
+      "modulePath": "4346.js",
+      "moduleSHA256": "40b94175733a782e82c39b6161c0345ed8bc174cdf743c14be4fc36eb6460e56",
+      "bytes": 17957,
+      "score": 5,
+      "signalCounts": {
+        "pointer": 1,
+        "scroll": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4394",
+      "modulePath": "4394.js",
+      "moduleSHA256": "7478fa630b3d58740e6d615e9d8430ef45d6ba2d9e1f251c3a60b1a8e7083f5c",
+      "bytes": 6029,
+      "score": 5,
+      "signalCounts": {
+        "pointer": 5,
+        "react": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./8699.js",
+        "./4981.js",
+        "./1448.js",
+        "./6554.js",
+        "./986.js",
+        "./5472.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5249",
+      "modulePath": "5249.js",
+      "moduleSHA256": "8388b9b453066ef821f6d97853336fc0fe2b63d77270747e755b5e2d88819c96",
+      "bytes": 3914,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4291",
+      "modulePath": "4291.js",
+      "moduleSHA256": "c1a1f8a574075a8d58a47a43841c99616ce921af57797ea4f0f25f1b98424b1c",
+      "bytes": 3073,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7936",
+      "modulePath": "7936.js",
+      "moduleSHA256": "140ad63646f49624fe9baef1ee2787acbbb7370e62a63dc83e10187db011f03d",
+      "bytes": 2152,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5165",
+      "modulePath": "5165.js",
+      "moduleSHA256": "090684950507063b46bf00720c7c7f1ec1e75d53a1e2c82e90b613944202a623",
+      "bytes": 1226,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "526",
+      "modulePath": "526.js",
+      "moduleSHA256": "55382c68bdb3e6b1d125e9d278adfee52b9e89cfaa003435edebe2540d095192",
+      "bytes": 797,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2551",
+      "modulePath": "2551.js",
+      "moduleSHA256": "9707c27bcf55910a58a8d22595130c269256912dc044048d2d52e04b31a868d4",
+      "bytes": 374,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5593",
+      "modulePath": "5593.js",
+      "moduleSHA256": "97b2c3d8c8277d0ec0e79f24206fa81e500f64868ca8bb8fc4d2f2b32b7c6c81",
+      "bytes": 175,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2289",
+      "modulePath": "2289.js",
+      "moduleSHA256": "ff14c14fda49cbf72307a1b304f0120570112bbd13140ce00d84d05d18bc3df6",
+      "bytes": 165,
+      "score": 5,
+      "signalCounts": {
+        "shader": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3041",
+      "modulePath": "3041.js",
+      "moduleSHA256": "5f83a895b30da9ec5c7551c020eedc016c86fad30236ab5f1ff84eb1abf7fa74",
+      "bytes": 2524,
+      "score": 4,
+      "signalCounts": {
+        "motion": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6977.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/%5Bpage%5D/page-c639dc70f189dc2f.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "3535",
+      "modulePath": "3535.js",
+      "moduleSHA256": "1420b01745cd0de9b53ea8971637219da5173ed4e998b78b6b8e5ead6dd67c40",
+      "bytes": 633,
+      "score": 4,
+      "signalCounts": {
+        "scroll": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3535",
+      "modulePath": "3535.js",
+      "moduleSHA256": "d14e9b217821ceb109b316c425a27ff0f189975c59a6d2d6f02969fa2f426639",
+      "bytes": 633,
+      "score": 4,
+      "signalCounts": {
+        "scroll": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4180",
+      "modulePath": "4180.js",
+      "moduleSHA256": "20eac4d761bdfbdbb898d68d07e9372fa427edcf4c391f6f84ac6f94082c7ee6",
+      "bytes": 4465,
+      "score": 3,
+      "signalCounts": {
+        "flowers": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1923",
+      "modulePath": "1923.js",
+      "moduleSHA256": "016d5e00c6d6b975350e3fe277a1d334cf94c44648720761f5f05b5fcbc36d58",
+      "bytes": 17965,
+      "score": 2,
+      "signalCounts": {
+        "scroll": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./5411.js",
+        "./6567.js",
+        "./417.js",
+        "./363.js",
+        "./9303.js",
+        "./8824.js",
+        "./6613.js",
+        "./2980.js",
+        "./3681.js",
+        "./4597.js",
+        "./5503.js",
+        "./7026.js",
+        "./4101.js",
+        "./3227.js",
+        "./5735.js",
+        "./6049.js",
+        "./3345.js",
+        "./3331.js",
+        "./9001.js",
+        "./5247.js",
+        "./4900.js",
+        "./3041.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "9858",
+      "modulePath": "9858.js",
+      "moduleSHA256": "a2f6081f41e825d169d764f23dc425b890d105ec0c8c23c78e0c36a679b70a2d",
+      "bytes": 7993,
+      "score": 2,
+      "signalCounts": {
+        "scroll": 1,
+        "react": 5
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4666.js",
+        "./7946.js",
+        "./7096.js",
+        "./1448.js",
+        "./9437.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7767",
+      "modulePath": "7767.js",
+      "moduleSHA256": "7d4dc10466ffeebb5367d412f977f610866e533043453eea2bbca124419655cf",
+      "bytes": 7668,
+      "score": 2,
+      "signalCounts": {
+        "scroll": 1,
+        "react": 13
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1024.js",
+        "./8533.js",
+        "./2265.js",
+        "./4887.js",
+        "./6656.js",
+        "./2738.js",
+        "./8987.js",
+        "./6628.js",
+        "./7910.js",
+        "./1067.js",
+        "./935.js",
+        "./6280.js",
+        "./5447.js",
+        "./4818.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7854",
+      "modulePath": "7854.js",
+      "moduleSHA256": "fd922ca2e60481e0beada315670f7bcf482aa2cbedce26aef81676084e493f4a",
+      "bytes": 62236,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": [
+        "/api/oembed.json?url="
+      ]
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2537",
+      "modulePath": "2537.js",
+      "moduleSHA256": "e6cf9c05370a581dc1a015780d762711480e51bfd77ea768b9b41714608c6270",
+      "bytes": 52954,
+      "score": 0,
+      "signalCounts": {
+        "react": 28
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7966.js",
+        "./5487.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6968",
+      "modulePath": "6968.js",
+      "moduleSHA256": "5d54072063e143d177e2e2d357f44398b0d84b520fccdaeee1d88437a8e12282",
+      "bytes": 29120,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3674",
+      "modulePath": "3674.js",
+      "moduleSHA256": "69cb83486ff6aa19d79a3837be374bfa2989e2b9a936e9f37e55fecb13834b8a",
+      "bytes": 23356,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6565",
+      "modulePath": "6565.js",
+      "moduleSHA256": "4dde51861e5acffe9378adbdbefccd165f3193617e7740ce6da4d5b777609313",
+      "bytes": 20353,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7950",
+      "modulePath": "7950.js",
+      "moduleSHA256": "e9f569a54385256f91a442d55d1b97d13a1c2a7f0264659a1553becb174b89c6",
+      "bytes": 19587,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4887.js",
+        "./2265.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1559",
+      "modulePath": "1559.js",
+      "moduleSHA256": "375d224b911b8eb14735df4f51ba69c9372d7ed24cd5072f783753e40473ac66",
+      "bytes": 12744,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7869",
+      "modulePath": "7869.js",
+      "moduleSHA256": "18969fc48db6680a6b6c87b40ee183ddc10e6488dff39fd46cd20fe52ae9e50a",
+      "bytes": 11967,
+      "score": 0,
+      "signalCounts": {
+        "react": 5
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6137",
+      "modulePath": "6137.js",
+      "moduleSHA256": "b9a697162a9848fd7665da568fbf64b45b2113952118c206b31e97f3e170a95a",
+      "bytes": 11643,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2609.js",
+        "./2728.js",
+        "./4117.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3564",
+      "modulePath": "3564.js",
+      "moduleSHA256": "d0558d96edcde529baa2e12c03c0d16350c6695023f5770b19ec580c7c105d20",
+      "bytes": 11438,
+      "score": 0,
+      "signalCounts": {
+        "react": 4
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7106.js",
+        "./2104.js",
+        "./2609.js",
+        "./2728.js",
+        "./4117.js",
+        "./6137.js",
+        "./5518.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4008",
+      "modulePath": "4008.js",
+      "moduleSHA256": "d404b56125a5192d04ea54d159ce8563931461d61af86b2c691fee6838e0e6a7",
+      "bytes": 9582,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7636.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "300",
+      "modulePath": "300.js",
+      "moduleSHA256": "d15824db4c5c4c21e6c27d4aa33fc737cce84b88a7c09d55056c851abd447885",
+      "bytes": 8876,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4117.js",
+        "./5087.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1705",
+      "modulePath": "1705.js",
+      "moduleSHA256": "a69b127cad142cd736f6e77f5cc91345cb3971be8081a4bfbc6b7851fa52cb13",
+      "bytes": 7927,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6977.js",
+        "./7565.js",
+        "./6567.js",
+        "./927.js",
+        "./933.js",
+        "./484.js",
+        "./3245.js",
+        "./9448.js",
+        "./3816.js",
+        "./2252.js",
+        "./3041.js",
+        "./3021.js",
+        "./1356.js",
+        "./1064.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1924",
+      "modulePath": "1924.js",
+      "moduleSHA256": "b7b473ae5f1434eecafeebc2fff7c1f839b1ae23be982028d3346c58970f1b6a",
+      "bytes": 7913,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6567.js",
+        "./1356.js",
+        "./1705.js",
+        "./9648.js",
+        "./6977.js",
+        "./3041.js",
+        "./9303.js",
+        "./9155.js",
+        "./9006.js",
+        "./5243.js",
+        "./7924.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7948",
+      "modulePath": "7948.js",
+      "moduleSHA256": "c698b241161f43a8b630c7b8be32cf507e6ffd678624bb1269c856ca97701219",
+      "bytes": 7707,
+      "score": 0,
+      "signalCounts": {
+        "react": 15
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./8533.js",
+        "./2265.js",
+        "./6656.js",
+        "./7538.js",
+        "./5685.js",
+        "./9330.js",
+        "./6208.js",
+        "./9865.js",
+        "./6628.js",
+        "./4444.js",
+        "./3738.js",
+        "./6711.js",
+        "./1768.js",
+        "./935.js",
+        "./1487.js",
+        "./8987.js",
+        "./4509.js",
+        "./3570.js",
+        "./3719.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5518",
+      "modulePath": "5518.js",
+      "moduleSHA256": "127cde359ea56e92296638b93a54c882113ddcf9554d65e30d9b5bea04dc56ba",
+      "bytes": 7606,
+      "score": 0,
+      "signalCounts": {
+        "react": 3
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7341",
+      "modulePath": "7341.js",
+      "moduleSHA256": "6b3f7bef0fce55d82f485a13741e9641ac31dc9863892dbd22e8aa64d4da9b46",
+      "bytes": 7359,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1201.js",
+        "./3503.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1756",
+      "modulePath": "1756.js",
+      "moduleSHA256": "3e380c58bb92a0fe378c4fb82cee8a91cd158c7e95c99f5a1d43aba7c8d10569",
+      "bytes": 7080,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5829",
+      "modulePath": "5829.js",
+      "moduleSHA256": "08c8fe2b9a2926b28b7fe6d73af5991d5ae181cf943d15c53bf4b47819d22a95",
+      "bytes": 6531,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4721.js",
+        "./2946.js",
+        "./4748.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5631",
+      "modulePath": "5631.js",
+      "moduleSHA256": "9a572774663765af7dca58bd0d412681d50c9dfdf35406b50529c21b50136f3c",
+      "bytes": 6422,
+      "score": 0,
+      "signalCounts": {
+        "react": 15
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/careers/page-ed4d364c5468127c.js",
+      "sourceFirstSeen": "X14",
+      "moduleId": "5631",
+      "modulePath": "5631.js",
+      "moduleSHA256": "82d0af05e9aa0d789ee1ec19f3b550c88b2b94d7d23628813b01935b96ad3841",
+      "bytes": 6422,
+      "score": 0,
+      "signalCounts": {
+        "react": 15
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/743-c1c23600c4e6dd0e.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "5631",
+      "modulePath": "5631.js",
+      "moduleSHA256": "c78c2a1616ba131357fb6fcfb308ed1fdddeda4d0bcec6845aa60959f08f6568",
+      "bytes": 6422,
+      "score": 0,
+      "signalCounts": {
+        "react": 15
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4762",
+      "modulePath": "4762.js",
+      "moduleSHA256": "e7c2dfd17c7426cab9f488619b5d8586f91fadba3be8c9bf2a91da2c40d53669",
+      "bytes": 6386,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./3503.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2301",
+      "modulePath": "2301.js",
+      "moduleSHA256": "50083fff8f3805370504f091e67f11c258b1890dfe0c49ebcac4da1d456e7d0a",
+      "bytes": 6294,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7873.js",
+        "./9540.js",
+        "./7709.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2946",
+      "modulePath": "2946.js",
+      "moduleSHA256": "0d64fee09a70c7c769369217adea20236e255f08f65caaee3272ca35d76c8d2d",
+      "bytes": 6195,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7603.js",
+        "./7324.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5087",
+      "modulePath": "5087.js",
+      "moduleSHA256": "116061d4aee6575519663e53c5841d4b3c0264c4448ab9bffc37741a842eceac",
+      "bytes": 6081,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4117.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4117",
+      "modulePath": "4117.js",
+      "moduleSHA256": "efc3f16cea454bbe4293f750bba8c1ebdf0589593fa24c632a1f44f408976882",
+      "bytes": 6071,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2451.js",
+        "./7106.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6685",
+      "modulePath": "6685.js",
+      "moduleSHA256": "835ef5f5993b9fa3373c5036963677a96f9b3c9ad17564d717c0b63f8ac8f38a",
+      "bytes": 6028,
+      "score": 0,
+      "signalCounts": {
+        "react": 5
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2156.js",
+        "./3954.js",
+        "./6162.js",
+        "./5090.js",
+        "./7607.js",
+        "./2706.js",
+        "./283.js",
+        "./7561.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3015",
+      "modulePath": "3015.js",
+      "moduleSHA256": "d0592676d7240ebcbfc8d1f1aede5483e2858ce3b38bb51b2eaa963b9e820605",
+      "bytes": 5984,
+      "score": 0,
+      "signalCounts": {
+        "react": 8
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./3453.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4838",
+      "modulePath": "4838.js",
+      "moduleSHA256": "dd2bd9fe9afa85d5da8894d5662e11baf76966d34fff1a5a388a1b9fb33c9526",
+      "bytes": 5893,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6656.js",
+        "./2738.js",
+        "./8982.js",
+        "./6689.js",
+        "./9330.js",
+        "./4170.js",
+        "./2562.js",
+        "./4679.js",
+        "./7491.js",
+        "./8741.js",
+        "./3139.js",
+        "./5685.js",
+        "./7575.js",
+        "./7027.js",
+        "./234.js",
+        "./3996.js",
+        "./8593.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/%5Bpage%5D/page-c639dc70f189dc2f.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "7101",
+      "modulePath": "7101.js",
+      "moduleSHA256": "b3495121b06e76c9f5555ec4ff41205a9c5f0dda856fd827e10594f98f187c7f",
+      "bytes": 5732,
+      "score": 0,
+      "signalCounts": {
+        "react": 17
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./3276.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7101",
+      "modulePath": "7101.js",
+      "moduleSHA256": "c136c7b02454d7c3202e9d9e42c23a46dfeb6043bf10b99616e1f7006394ea1b",
+      "bytes": 5732,
+      "score": 0,
+      "signalCounts": {
+        "react": 17
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./3276.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3222",
+      "modulePath": "3222.js",
+      "moduleSHA256": "20eef9e89fe18449e19189288ff8ab8aa058be7b281932a6a22827feec52bb9f",
+      "bytes": 5560,
+      "score": 0,
+      "signalCounts": {
+        "react": 10
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2912.js",
+        "./2301.js",
+        "./7709.js",
+        "./9469.js",
+        "./7873.js",
+        "./5033.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "362",
+      "modulePath": "362.js",
+      "moduleSHA256": "9b7d069e60425afac519388c676290670234e0249673bc6bb2fa2f085b7ad2c6",
+      "bytes": 5193,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2108.js",
+        "./4948.js",
+        "./9136.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6430",
+      "modulePath": "6430.js",
+      "moduleSHA256": "18cf5e786a230873d844c9582c2d2dee249e9137a2bc77e3ab8a25a527e26820",
+      "bytes": 4781,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6458.js",
+        "./6924.js",
+        "./2387.js",
+        "./9653.js",
+        "./1855.js",
+        "./1201.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4710",
+      "modulePath": "4710.js",
+      "moduleSHA256": "a616a66bf83c8998ec8f005b841b45c76d83992be2b25152b9f2000bbda1fd0e",
+      "bytes": 4428,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./9653.js",
+        "./4370.js",
+        "./1000.js",
+        "./4762.js",
+        "./3294.js",
+        "./9966.js",
+        "./7341.js",
+        "./2691.js",
+        "./6430.js",
+        "./6924.js",
+        "./626.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3245",
+      "modulePath": "3245.js",
+      "moduleSHA256": "ef7f7557dc1964b24ed88aed14089d0ed5c6d39523c4e21f14147e8a6caa17e4",
+      "bytes": 4381,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./6567.js",
+        "./2199.js",
+        "./3021.js",
+        "./7.js",
+        "./3257.js",
+        "./2808.js",
+        "./6002.js",
+        "./4694.js",
+        "./9155.js",
+        "./2868.js",
+        "./6977.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7148",
+      "modulePath": "7148.js",
+      "moduleSHA256": "3f2f68351fc22e72450e6d3cfe0ee6b33135274afe26a2adf2035a6f2a79e2e2",
+      "bytes": 4342,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4039.js",
+        "./4509.js",
+        "./8982.js",
+        "./6689.js",
+        "./6671.js",
+        "./6711.js",
+        "./9330.js",
+        "./4838.js",
+        "./7491.js",
+        "./3139.js",
+        "./6656.js",
+        "./7575.js",
+        "./9726.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "7973",
+      "modulePath": "7973.js",
+      "moduleSHA256": "7ea26603be97987c3b763a2a22dcc1a12f264ee723a5c48d6c53fb5139fd688f",
+      "bytes": 4299,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "8165",
+      "modulePath": "8165.js",
+      "moduleSHA256": "6130c806d72aa4304c85dae36ab2fe6de9d679f5f3749882619c5c16f8dda43e",
+      "bytes": 4149,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2265.js",
+        "./6656.js",
+        "./6208.js",
+        "./1253.js",
+        "./5447.js",
+        "./8169.js",
+        "./5800.js",
+        "./6920.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2728",
+      "modulePath": "2728.js",
+      "moduleSHA256": "e8da6d8c85e8b750f08bd55ab7d277d46b41067d7e69a05e0f5eebba98a61775",
+      "bytes": 4101,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./4275.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2387",
+      "modulePath": "2387.js",
+      "moduleSHA256": "45add346941dc72ced6c9dd614fe96aa8740532e738bb450141dd7948f08878c",
+      "bytes": 4094,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2217.js",
+        "./7999.js",
+        "./8139.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "8489",
+      "modulePath": "8489.js",
+      "moduleSHA256": "3d821c1206105d8b010ff17cbe43c638befd93d0eb7daf1921db1f18b7f39ded",
+      "bytes": 3983,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./3805.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3816",
+      "modulePath": "3816.js",
+      "moduleSHA256": "4c17cfcead020ebfee11019d79f6f9f858c93a92852a4c76f6c5389ab0254f65",
+      "bytes": 3820,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1356.js",
+        "./2252.js",
+        "./6567.js",
+        "./3021.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "8960",
+      "modulePath": "8960.js",
+      "moduleSHA256": "ade215676ff5436d8fa9f7be9b9c3f208d14a686c2cdb0841027f97111f83831",
+      "bytes": 3816,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2912",
+      "modulePath": "2912.js",
+      "moduleSHA256": "aa6bed4dee4d61ec3daa7c656e14679d5ca06b12d7165ef090e4dc8dd7d25315",
+      "bytes": 3730,
+      "score": 0,
+      "signalCounts": {
+        "react": 3
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./2378.js",
+        "./7555.js",
+        "./8551.js",
+        "./7873.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/743-c1c23600c4e6dd0e.js",
+      "sourceFirstSeen": "X15",
+      "moduleId": "8179",
+      "modulePath": "8179.js",
+      "moduleSHA256": "e51af5e792e5d2a0f44f7c7f04f1b14b1d4991d779d52063bbdc07d760267d01",
+      "bytes": 3634,
+      "score": 0,
+      "signalCounts": {
+        "react": 5
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "3453",
+      "modulePath": "3453.js",
+      "moduleSHA256": "966eb28c20e4ea7bb722ab536c78c47af8981553b5a7ab5ccf2384b7873caacd",
+      "bytes": 3597,
+      "score": 0,
+      "signalCounts": {
+        "react": 1
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "8179",
+      "modulePath": "8179.js",
+      "moduleSHA256": "68b215471f445be730174a0b5390fad91cacd421c6460b907d9a9de5537203d6",
+      "bytes": 3596,
+      "score": 0,
+      "signalCounts": {
+        "react": 5
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1710.js",
+        "./5861.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "4101",
+      "modulePath": "4101.js",
+      "moduleSHA256": "d6bb557607278d674b6148fac47fb957d1a495cb73b3c12f16685f6d483c44be",
+      "bytes": 3578,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./7026.js",
+        "./9815.js",
+        "./3041.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "8236",
+      "modulePath": "8236.js",
+      "moduleSHA256": "3868e349a13eb23ccbd5aced9b3b8f408d12930cea35fe33c0933be093c866ee",
+      "bytes": 3344,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "1615",
+      "modulePath": "1615.js",
+      "moduleSHA256": "0020c1c2c92517ebfe0229276c131f2d9a0e76488d5807eb9a3324d42fa686ac",
+      "bytes": 3225,
+      "score": 0,
+      "signalCounts": {
+        "react": 6,
+        "next": 2
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1024.js",
+        "./8533.js",
+        "./2335.js",
+        "./4040.js",
+        "./2265.js",
+        "./6671.js",
+        "./1330.js",
+        "./6656.js",
+        "./5152.js",
+        "./4039.js",
+        "./8747.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "5090",
+      "modulePath": "5090.js",
+      "moduleSHA256": "c1163e2a9c24a4602a6c3a02461de161de8e2b2701a6090daf57005d3f9a1438",
+      "bytes": 3221,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "6628",
+      "modulePath": "6628.js",
+      "moduleSHA256": "22e8f7947bee932161f30fbcdb984eb7388b1d13b2ac9353e7fb886e62949bbd",
+      "bytes": 3127,
+      "score": 0,
+      "signalCounts": {
+        "react": 11
+      },
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [
+        "./1024.js",
+        "./2265.js",
+        "./8165.js"
+      ],
+      "assetPathHints": []
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sourceFirstSeen": "X01",
+      "moduleId": "2609",
+      "modulePath": "2609.js",
+      "moduleSHA256": "d262706b18abb06ad351263c6377703335013c459313c819303729af49babcf7",
+      "bytes": 3123,
+      "score": 0,
+      "signalCounts": {},
+      "classification": "GENERAL_OR_WEAK_SIGNAL",
+      "directImportHints": [],
+      "assetPathHints": []
+    }
+  ],
+  "staticAssetPathHints": [
+    {
+      "hint": "/api/oembed.json?url=",
+      "normalizedURL": "https://www.gladeye.com/api/oembed.json",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/camera-path07.glb",
+      "normalizedURL": "https://www.gladeye.com/camera-path07.glb",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/dust-particle.png",
+      "normalizedURL": "https://www.gladeye.com/dust-particle.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/flowers/pool_summer.png",
+      "normalizedURL": "https://www.gladeye.com/flowers/pool_summer.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/flowers/pool_winter.png",
+      "normalizedURL": "https://www.gladeye.com/flowers/pool_winter.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/matter/skull.png",
+      "normalizedURL": "https://www.gladeye.com/matter/skull.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/matter/wave.png",
+      "normalizedURL": "https://www.gladeye.com/matter/wave.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/rays/ray1.png",
+      "normalizedURL": "https://www.gladeye.com/rays/ray1.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/rays/ray2.png",
+      "normalizedURL": "https://www.gladeye.com/rays/ray2.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/rays/ray3.png",
+      "normalizedURL": "https://www.gladeye.com/rays/ray3.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/terrain.png",
+      "normalizedURL": "https://www.gladeye.com/terrain.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    },
+    {
+      "hint": "/vignette.png",
+      "normalizedURL": "https://www.gladeye.com/vignette.png",
+      "previouslyInX01X18": false,
+      "classification": "UNVERIFIED_STATIC_ASSET_PATH_HINT"
+    }
+  ],
+  "duplicateModuleBodySHA": [
+    {
+      "sha256": "cb95481fce2139d29340c2cb737763ad93044d5e33a5212b49f2791cd427102f",
+      "instances": 2,
+      "refs": [
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+          "moduleId": "3699"
+        },
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/app/contact/page-c27772baecf4a1c8.js",
+          "moduleId": "3699"
+        }
+      ]
+    },
+    {
+      "sha256": "d10879d2b52c07fbe209daa310b3ad9e74c0c5cc7756a473e8992655880efbdd",
+      "instances": 3,
+      "refs": [
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+          "moduleId": "1245"
+        },
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+          "moduleId": "1245"
+        },
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+          "moduleId": "1245"
+        }
+      ]
+    },
+    {
+      "sha256": "06703f65010bb5373f250c3848b599481a7de09ed558c3ac47335cbcb0032d5c",
+      "instances": 2,
+      "refs": [
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+          "moduleId": "3757"
+        },
+        {
+          "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+          "moduleId": "3757"
+        }
+      ]
+    }
+  ],
+  "repeatedNumericModuleIDs": [
+    {
+      "id": "3699",
+      "distinctModuleHashes": 2,
+      "instances": 3
+    },
+    {
+      "id": "6308",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "6057",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "1554",
+      "distinctModuleHashes": 5,
+      "instances": 5
+    },
+    {
+      "id": "6432",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "4666",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "5631",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "7636",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "609",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "1448",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "3711",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "413",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "9437",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "1245",
+      "distinctModuleHashes": 1,
+      "instances": 3
+    },
+    {
+      "id": "7895",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "7472",
+      "distinctModuleHashes": 5,
+      "instances": 5
+    },
+    {
+      "id": "3535",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "5861",
+      "distinctModuleHashes": 5,
+      "instances": 5
+    },
+    {
+      "id": "1710",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "1214",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "7101",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "3276",
+      "distinctModuleHashes": 4,
+      "instances": 4
+    },
+    {
+      "id": "9842",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "6554",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "986",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "596",
+      "distinctModuleHashes": 3,
+      "instances": 3
+    },
+    {
+      "id": "3757",
+      "distinctModuleHashes": 1,
+      "instances": 2
+    },
+    {
+      "id": "1184",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "5472",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "6244",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "6775",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "8180",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "8179",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    },
+    {
+      "id": "983",
+      "distinctModuleHashes": 2,
+      "instances": 2
+    }
+  ],
+  "caveats": [
+    "Ranking is based on string/AST-derived keyword signals and can match third-party engine libraries",
+    "Asset filenames are string candidates from shipped JS, not necessarily public or independently reachable",
+    "The original GLB/camera/texture byte authority remains X01-X18 original capture ledger"
+  ]
+}
