@@ -21,6 +21,7 @@ for(const u of targets){
  if(!scene.staticAssetPathHints.some(x=>x.hint===hint))throw Error('NOT_FROM_X19_VERIFIED_STATIC_HINT_'+hint);
 }
 fs.mkdirSync(RAW,{recursive:true});
+async function main(){
 const checks=[];
 for(const u of targets){
  const v=new URL(u);
@@ -64,3 +65,5 @@ const publicReport={...report,items:checks.map(({originalFilePrivateRelativePath
 fs.writeFileSync(path.join(OUT,'X19-NEW-PNG-ORIGINAL-BODY-PUBLIC-METADATA.json'),JSON.stringify(publicReport,null,2)+'\n');
 console.log('X19_NEW_PNG_ACCEPTANCE '+JSON.stringify({status,newBinaries:checks.filter(x=>x.relation==='NEW_URL_NEW_BYTES').length,totalBytes:checks.reduce((s,x)=>s+(x.bytes||0),0)}));
 if(status!=='TWO_NEW_ORIGINAL_ASSET_BODIES_VERIFIED')process.exitCode=2;
+}
+main().catch(e=>{console.error('X19_ASSET_VERIFY_ERROR '+(e.stack||e));process.exitCode=2});
