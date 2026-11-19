@@ -1,0 +1,192 @@
+{
+  "mission": "DJMRN-Flower-Valley-X11",
+  "evidence_date": "2026-11-19",
+  "evidence_type": "PRIMARY_REAL_RUNTIME_WINDOWS_LOCAL_OWN_FIXTURE",
+  "purpose": "Confirm official ArchiveBox family replacement can actually capture WARC/WACZ, rendered DOM, screenshots, plugin metadata, SHA256 fixity and offline replay natively on user's Windows computer without Docker",
+  "hardware": {
+    "physical_ram_gb": 8,
+    "windows_visible_ram_mib": 6020,
+    "gpu": "AMD Radeon Vega 8 integrated, shared RAM",
+    "os": "Windows 11 Pro",
+    "ram_after_successful_tests_mib": [
+      1556,
+      1549,
+      1636
+    ],
+    "peak_ram_while_browser_running": "NOT MEASURED AS DEFINITIVE PEAK",
+    "docker_used": false
+  },
+  "original_archivebox": {
+    "name": "ArchiveBox",
+    "version": "0.9.77",
+    "status": "NATIVE_WINDOWS_CLI_POSIX_BLOCKED_AND_DOCKER_WSL_RAM_GUARD",
+    "reason": "Earlier Docker/WSL lowered free RAM to emergency guard; no successful original ArchiveBox capture",
+    "existing_evidence": "X11-archivebox-preflight-and-runtime-blocker.json"
+  },
+  "abx_dl": {
+    "source": "https://github.com/ArchiveBox/abx-dl",
+    "python_version": "3.14.7",
+    "version": "1.13.369",
+    "abx_plugins_version": "1.13.776",
+    "abxpkg": "1.13.101",
+    "abxbus": "2.5.91",
+    "packages_installed": 29,
+    "installation": "PASS_ISOLATED_UV_VENV",
+    "cli_launch": "FAIL_ON_WINDOWS_PWD",
+    "root": "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\abx-dl-venv",
+    "reason": "ModuleNotFoundError: No module named 'pwd' from abxpkg/binprovider.py; upstream also imports fcntl and uses Unix getuid/chown",
+    "cli_not_operational": true
+  },
+  "archivebox_js": {
+    "source": "https://github.com/ArchiveBox/archivebox-js",
+    "version": "0.1.0",
+    "license": "AGPL-3.0-or-later",
+    "package_release": "NO_OFFICIAL_BINARY_RELEASE_FOUND",
+    "node_major": 24,
+    "pnpm": "10.33.2",
+    "pnpm_transitive_packages_installed": 770,
+    "source_archive_bytes": 43354771,
+    "source_archive_sha256": "3058D4CFFEE4F1113B06AEB9B3ABB8A4243B14EEDCECCD2862208495CC00F2F4",
+    "source_url": "https://codeload.github.com/ArchiveBox/archivebox-js/zip/refs/heads/main",
+    "build": "PASS_WXT_VITE_PRODUCTION_CHROME_MV3",
+    "build_output_mb_reported": 170.98,
+    "output_path": "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\archivebox-js-main\\.output\\chrome-mv3",
+    "manifest_permissions": [
+      "storage",
+      "unlimitedStorage",
+      "tabs",
+      "debugger",
+      "downloads",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "upstream_plugin_dirs_count": 48,
+    "plugin_dirs_count_not_individual_tests": true
+  },
+  "chrome_for_testing": {
+    "url": "https://storage.googleapis.com/chrome-for-testing-public/157.0.8103.78/win64/chrome-win64.zip",
+    "version": "157.0.8103.78",
+    "zip_bytes": 209854321,
+    "sha256": "5F6EC40206407112702E163BF694D07F9FDC8CCBD346C70CE61FA62F716493F9",
+    "exe_path": "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\ChromeForTesting-157\\chrome-win64\\chrome.exe",
+    "authenticode_status": "NotSigned",
+    "reason": "Branded Google Chrome >=137 disallows automatic unpacked --load-extension in Playwright; official Chrome for Testing supports it; isolated test profile used, personal profile unaffected"
+  },
+  "tests": [
+    {
+      "name": "official_upstream_local_dom_capture_and_offline_replay",
+      "source_file": "tests/dom-capture-live.test.ts",
+      "adaptation": "Change launch to explicit Chrome for Testing executable path, otherwise preserved upstream test",
+      "test_status": "PASS",
+      "runtime_seconds": 16,
+      "exit_code": 0,
+      "archive_state": "complete",
+      "record_count": 5,
+      "plugins": [
+        "chrome",
+        "dom"
+      ],
+      "wacz_bytes": 14635,
+      "wacz_sha256": "B71D0FCCBF57BB7F0999D28211CF8E8ABA7A0D7E60A8F32C89D85B5E21149160",
+      "report_json_bytes": 5688,
+      "report_json_sha256": "19F581F585623400A1F34159CE6D32552D534697BC06D6499D501B15B8F452C3",
+      "offline_live_http_requests": 0,
+      "verified": "Original WARC response equal to fixture, resource SHA256 checks, sensitive form field exclusion, rendered DOM derivation and offline replay"
+    },
+    {
+      "name": "owned_local_multi_plugin_capture_first",
+      "source_file": "tests/x11-multiprovider-local.test.ts",
+      "adaptation": "Copy upstream DOM contract test; select 11 plugin entries, maintain fixture and offline replay assertions",
+      "test_status": "PASS",
+      "runtime_seconds": 13.4,
+      "exit_code": 0,
+      "archive_state": "complete",
+      "record_count": 8,
+      "plugins": [
+        "chrome",
+        "accessibility",
+        "consolelog",
+        "dom",
+        "hashes",
+        "headers",
+        "networktiming",
+        "responses",
+        "screenshot",
+        "singlefile",
+        "title"
+      ],
+      "capture_hooks_observed_success": [
+        "consolelog",
+        "chrome.navigate",
+        "chrome.settle",
+        "screenshot",
+        "dom"
+      ],
+      "independent_derived_plugin_views_verified": false,
+      "wacz_bytes": 60297,
+      "wacz_sha256": "04AE8263EFB16C035DFAF86B1D9E81C520D253DA6D6BD546C65A255D67581A30",
+      "report_json_bytes": 7561,
+      "report_json_sha256": "1CDC68E253EAB34B4ED2D7616AD3BF0966DA63D6EAC67A670E98CC1757763EB9"
+    },
+    {
+      "name": "owned_local_multi_plugin_capture_repeat",
+      "source_file": "tests/x11-multiprovider-local.test.ts",
+      "test_status": "PASS",
+      "runtime_seconds": 12.8,
+      "exit_code": 0,
+      "archive_state": "complete",
+      "record_count": 8,
+      "plugins": [
+        "chrome",
+        "accessibility",
+        "consolelog",
+        "dom",
+        "hashes",
+        "headers",
+        "networktiming",
+        "responses",
+        "screenshot",
+        "singlefile",
+        "title"
+      ],
+      "capture_hooks_observed_success": [
+        "consolelog",
+        "chrome.navigate",
+        "chrome.settle",
+        "screenshot",
+        "dom"
+      ],
+      "wacz_bytes": 60288,
+      "wacz_sha256": "D4DA7D77A79C890CCCA4661018EA2156F451993DC2294DD0159191D49875E777",
+      "report_json_bytes": 7561,
+      "report_json_sha256": "F7AB88CE415AB35F30A6A0B634A54CF421C81DA50FCAE8431981D9569DC3ADFA"
+    }
+  ],
+  "repeated_capture_fidelity": {
+    "plugin_selection_same": true,
+    "record_count_same": true,
+    "successful_hook_statuses_same": true,
+    "original_html_sha256": "388ff5f1722343ed5a03986a1e0c9452e2139171f8af172a03d5f52f235349d0",
+    "svg_sha256": "19c572e87b87944dd788c42c1c08ed6f41ca9b567c9ba4c7445cdae49036effb",
+    "html_content_digest_same": true,
+    "svg_content_digest_same": true,
+    "derived_dom_sha256_identical": true,
+    "derived_jpeg_sha256_identical": true,
+    "derived_png_sha256_identical": true,
+    "archive_wacz_sha256_identical": false,
+    "reason_for_archive_difference": "Capture timestamps, ephemeral local port, and WARC metadata differ across runs; content stable"
+  },
+  "local_evidence_folders": [
+    "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\reports\\local-dom-pass-001",
+    "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\reports\\local-multiplugin-pass-001",
+    "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\reports\\local-multiplugin-pass-002"
+  ],
+  "security": "Isolated throwaway Chrome for Testing profiles; no real login, personal Chrome profile, sensitive provider activation or production changes. Browser extension debugger/download/host permissions require explicit scoping for future real sites; raw WACZ kept local.",
+  "outstanding": [
+    "Full live Gladeye target capture not performed in this run; do not assert target X11 asset/data coverage",
+    "48 upstream plugin directories not individually acceptance-tested",
+    "Offline interactive WebGL fidelity not validated",
+    "Full archival lifecycle UI and third-party site change detection not independently measured",
+    "X12 state graph replacement remains pending; X13 HAR review remains retained"
+  ],
+  "status": "X11_SELECTED_ARCHIVEBOX_JS_BUILT_LOCAL_OWN_FIXTURE_CAPTURE_REPLAY_REPEATABILITY_PASS__TARGET_SPECIFIC_AND_FULL_CAPABILITY_GAPS_REMAIN"
+}
