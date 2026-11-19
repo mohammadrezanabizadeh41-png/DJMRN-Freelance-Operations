@@ -26,8 +26,12 @@ if($Mode -eq 'stop'){
 $p=Get-ViewerServer
 if(!$p){
  New-Item -ItemType Directory -Force -Path $log|Out-Null
- $py=(Get-Command py.exe -ErrorAction Stop).Source
- $launcher=Start-Process -FilePath $py -ArgumentList @('-3.14','-m','http.server',"$port",'--bind','127.0.0.1','--directory',"$src") -PassThru -WindowStyle Hidden -RedirectStandardOutput (Join-Path $log 'viewer-static-out.log') -RedirectStandardError (Join-Path $log 'viewer-static-err.log')
+ $pyLauncher=(Get-Command py.exe -ErrorAction Stop).Source
+ $pythonPath=(& $pyLauncher -3.14 -c 'import sys;print(sys.executable)' | Select-Object -Last 1).Trim()
+ if(!(Test-Path $pythonPath)){throw 'Cannot resolve exact Python 3.14 executable'}
+ # Start the real python.exe directly; avoid py.exe launching a descendant that
+ # can keep inherited PowerShell output streams open after the launcher exits.
+ $launcher=Start-Process -FilePath $pythonPath -ArgumentList @('-m','http.server',"$port",'--bind','127.0.0.1','--directory',"$src") -PassThru -WindowStyle Hidden -RedirectStandardOutput (Join-Path $log 'viewer-static-out.log') -RedirectStandardError (Join-Path $log 'viewer-static-err.log')
  Start-Sleep -Seconds 3
 }
 $p=Get-ViewerServer
