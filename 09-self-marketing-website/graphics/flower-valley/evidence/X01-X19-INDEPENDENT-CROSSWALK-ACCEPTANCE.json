@@ -1,0 +1,22 @@
+{
+  "stage": "X01-X19",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "checks": {
+    "old76Preserved": true,
+    "twoNewPNG": true,
+    "total78": true,
+    "network72": true,
+    "offline6": true,
+    "old9SuffixResolved": true,
+    "new2Resolved": true,
+    "oembedUnverified": true,
+    "verifiedBodiesPlus2": true
+  },
+  "failed": [],
+  "counts": {
+    "urls": 78,
+    "network": 72,
+    "offline": 6,
+    "originalBodyPaths": 69
+  }
+}
