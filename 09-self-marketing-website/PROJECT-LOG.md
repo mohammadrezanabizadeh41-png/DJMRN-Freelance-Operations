@@ -1135,3 +1135,15 @@ Other canonical evidence:
 Audit scripts saved under `graphics/flower-valley/scripts/X11-audit-archivebox-*.py`.
 
 **Current verdict:** X11 **ArchiveBox JS installation/build/baseline local owned-fixture operation ACCEPTED**; target-specific extraction and total specialist-plugin validation remain PENDING. Owner intends to run ArchiveBox JS for bounded site data capture at a later activation step. X12 candidate research remains separately pending; X13 retained, NOT skipped. No new Docker/WSL setup, account integrations, sensitive provider activation, live target crawl or production deployment in this continuation.
+
+## 2026-11-19 — X11 blocked sibling re-evaluation: abx-dl conditional complement, JS remains current
+
+**Owner asked whether previously BLOCKED ArchiveBox-family tools can complement currently working ArchiveBox JS instead of being discarded.** Read [full, source-linked feasibility report](graphics/flower-valley/research/X11-ABX-DL-COMPLEMENT-RECOVERY-FEASIBILITY-2026-11-19.md). **No change to X11 CURRENT runtime:** ArchiveBox JS 0.1.0 / CfT 157 retains proven local WACZ capture, WARC/DOM, offline replay and repeatability.
+
+**Facts verified 2026-11-19:**
+- \`abx-dl 1.13.369\`, \`abx-plugins 1.13.776\`, \`abxpkg 1.13.101\`, \`abxbus 2.5.91\` already installed in isolated Windows Python 3.14.7 venv. Fresh \`abx-dl --version\` retest: exit 1, \`ModuleNotFoundError: pwd\`; source has \`fcntl\`, Unix UID/chown operations. **NATIVE WINDOWS CLI BLOCKED, NOT PASS**.
+- Narrow read-only imports of \`abx_plugins.plugins.base.utils\`, \`abx_plugins.plugins.search_backend_sqlite.search\` and \`abxbus\` all return **exit 0**. **This is not plugin execution nor WACZ-to-SQLite export success**.
+- Official GitHub plugin directory count: Python 96 / JS 48 / common 41 / Python-only 55 / JS-only 7. Python-only includes specialized Source Maps, browser MHTML, responsive viewport, Chrome screencast, wget, SQLite FTS, Trafilatura; many others are cloud/sensitive-account/AI backends, and 55 is **not 55 independent tested extractors**.
+- Existing WSL3 distro registration: **only stopped docker-desktop**. Current global \`.wslconfig\` **memory=2048MB, processors=2, swap=4GB**; instantaneous Windows free RAM approx 1460–1500MiB. Separate Linux WSL2 distro (no Docker) could technically provide POSIX for abx-dl but is **NOT INSTALLED OR TESTED**, with concurrent browser+WSL RAM risk. Original ArchiveBox server still resource/POSIX BLOCKED.
+
+**Decision/recommended next test:** Prefer existing JS+Node/Playwright tiny deterministic **targeted** enrichment (SourceMap URL/resource checks, MHTML CDP, responsive assets or local SQLite indexing) on already collected, authorized materials, serially, before another full archiver. Full Python \`abx-dl\` on Linux remains a **CONDITIONAL option requiring separately scoped distro setup, resource gate, single-plugin execution and evidence of unique output**, not authorized for activation by research alone. X12/X13 unchanged. No Docker/WSL launch, new distro, downloads, provider credentials or paid tools in this re-evaluation.
