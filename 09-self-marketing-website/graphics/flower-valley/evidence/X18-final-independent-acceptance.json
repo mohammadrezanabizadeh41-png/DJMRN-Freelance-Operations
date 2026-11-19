@@ -1,0 +1,78 @@
+{
+  "stage": "X18",
+  "status": "COMPLETE_SCOPE_QUALIFIED_WITH_KNOWN_WORK_TIMEOUT",
+  "utc": "2026-11-19T21:33:12.904Z",
+  "checks": {
+    "sourceAuthorityX16": true,
+    "jsdjInstalledPinned": true,
+    "ownerFixtureRun": true,
+    "tenRoutesAttempted": true,
+    "nineMainOrFocusedRoutesPass": true,
+    "workHTMLFallback": true,
+    "allNewJSOriginalSHA": true,
+    "offlineAllVerifiedJs": true,
+    "sourceMapEvidenceBounded": true,
+    "allRawFilesPrivate": true,
+    "hostScopeAndEmergencyMemory": true
+  },
+  "failedChecks": [],
+  "scope": {
+    "firstPartyHosts": [
+      "gladeye.com",
+      "www.gladeye.com"
+    ],
+    "routesAttempted": 10,
+    "jsdjPassRoutes": 9,
+    "jsdjPartialRoutes": 1,
+    "workFallback": "HTML_FIRSTPARTY_SCRIPTS_CONFIRMED",
+    "requestsAcrossOriginalAndFocusedRuns": 419,
+    "uniqueJsPathsFromLivePlugin": 8,
+    "firstPartyPluginDependencyRelations": 29,
+    "newJsPathsSinceX16": 3,
+    "newShaVerifiedBytes": 551,
+    "originalBodyVerifiedTotal": 34,
+    "knownClientJsPaths": 35,
+    "knownUnverifiedPaths": [
+      "https://www.gladeye.com/gtm.q-c92099c696a43b1f.js"
+    ],
+    "offlinePluginCount": 26,
+    "offlineStaticPotentialEdges": 4,
+    "offlinePotentialTargetPaths": 3,
+    "jsdjAdvertisedMapsOnTarget": 0,
+    "sourceFilesRestoredOnTarget": 0,
+    "ownerFixtureSourceMapCount": 1
+  },
+  "gaps": [
+    "The /work jsdj full traversal exceeded 90 seconds twice (all-26 and focused-25-plugin modes). Independent HTML GET HTTP200 found five first-party script references and X16 CDP had successfully observed this route.",
+    "One X15 path /gtm.q-c92099c696a43b1f.js lacks a verified standalone body.",
+    "Static candidates including Draco decoder and a manifest-relative URL were not confirmed as accessible assets; their inferred paths are not recovered sources.",
+    "No original source maps were advertised in the tested target resources; no vendor authored module tree/backend or shaders recovered."
+  ],
+  "citations": {
+    "sourceFiles": "X18 public and private files on owner machine",
+    "scriptInventory": "X18-public-sanitized-discovery.json"
+  },
+  "verifiedNewJsMetadata": [
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/pages/_error-c92d5c4bb2b49926.js",
+      "bytes": 247,
+      "sha256": "f14770f5d6c8bdfca9b141ecf8dc9fe91349bd42161ae146646ab4e7305429a2",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_buildManifest.js",
+      "bytes": 224,
+      "sha256": "ecfebbfba964a258fc10a7c6d854248d7246c17c734a2d7abb17a262e6872aba",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/p2bqUOtISlsUD-1MiVjOb/_ssgManifest.js",
+      "bytes": 80,
+      "sha256": "678f6ce2cb80b1fe72fc67e7412be6e2ab6ada083111b64f7c40d35e3cba5e00",
+      "httpStatus": 200,
+      "mime": "application/javascript; charset=utf-8"
+    }
+  ]
+}
