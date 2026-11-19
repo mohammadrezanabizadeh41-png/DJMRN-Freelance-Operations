@@ -1,0 +1,126 @@
+{
+  "status": "X19_STATIC_PILOT_PASS",
+  "utc": "2026-11-19T22:10:22.978Z",
+  "checks": {
+    "ownerFixtureAccepted": true,
+    "knownURLAndSHAInCrosswalk": true,
+    "allSelectedOriginalBytesSHAValid": true,
+    "bothStaticRunsOutput": true,
+    "noRuntimeExecution": true,
+    "noNewHTTPRequests": true,
+    "withinPrivateOwnerArchive": true,
+    "memAboveEmergency": true
+  },
+  "tool": "webcrack@2.16.0",
+  "selected": [
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "firstSeenStage": "X01",
+      "sourceSHA256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "sourceBytes": 3962,
+      "webcrackMode": "AST/unminify/unpack; deobfuscate=false; jsx=false",
+      "bundleType": null,
+      "unpackedModules": 0,
+      "derivedCodeBytes": 6707,
+      "privateOutputFileCount": 1,
+      "privateOutputFiles": [
+        {
+          "name": "deobfuscated.js",
+          "bytes": 6707
+        }
+      ],
+      "durationMs": 115,
+      "ramStartMiB": 2264,
+      "ramEndMiB": 2252,
+      "classification": "COMPLEMENTARY_STRUCTURE_NOT_NEW_VENDOR_BYTES",
+      "status": "PASS",
+      "provenance": "Local X17 verified original HTTP response body, cross-checked with X01-X18 URL/hash lineage"
+    },
+    {
+      "sourceUrl": "https://www.gladeye.com/_next/static/chunks/app/work/%5Bwork%5D/page-af89f4191159d0b5.js",
+      "firstSeenStage": "X16",
+      "sourceSHA256": "7a47436417afa2e2da87a0ab8ae5d229784ea973f0e305a8753febe3e499cb5d",
+      "sourceBytes": 16851,
+      "webcrackMode": "AST/unminify/unpack; deobfuscate=false; jsx=false",
+      "bundleType": "webpack",
+      "unpackedModules": 13,
+      "derivedCodeBytes": 31016,
+      "privateOutputFileCount": 15,
+      "privateOutputFiles": [
+        {
+          "name": "1184.js",
+          "bytes": 2701
+        },
+        {
+          "name": "2649.js",
+          "bytes": 21138
+        },
+        {
+          "name": "5472.js",
+          "bytes": 1196
+        },
+        {
+          "name": "6244.js",
+          "bytes": 272
+        },
+        {
+          "name": "6775.js",
+          "bytes": 505
+        },
+        {
+          "name": "706.js",
+          "bytes": 112
+        },
+        {
+          "name": "7636.js",
+          "bytes": 572
+        },
+        {
+          "name": "7781.js",
+          "bytes": 80
+        },
+        {
+          "name": "8180.js",
+          "bytes": 93
+        },
+        {
+          "name": "8475.js",
+          "bytes": 58
+        },
+        {
+          "name": "9038.js",
+          "bytes": 288
+        },
+        {
+          "name": "9471.js",
+          "bytes": 86
+        },
+        {
+          "name": "9720.js",
+          "bytes": 53
+        },
+        {
+          "name": "bundle.json",
+          "bytes": 824
+        },
+        {
+          "name": "deobfuscated.js",
+          "bytes": 31016
+        }
+      ],
+      "durationMs": 214,
+      "ramStartMiB": 2251,
+      "ramEndMiB": 2242,
+      "classification": "COMPLEMENTARY_STRUCTURE_NOT_NEW_VENDOR_BYTES",
+      "status": "PASS",
+      "provenance": "Local X17 verified original HTTP response body, cross-checked with X01-X18 URL/hash lineage"
+    }
+  ],
+  "limits": [
+    "JS is publicly delivered byte-verified old evidence; no new external requests",
+    "Outputs are private, never copy vendor JS to public GitHub",
+    "AST/module hypotheses do not restore original authorship/server code or prove new source assets",
+    "Native isolated-vm was intentionally NOT loaded; advanced decoder not tested",
+    "This is X19 activation pilot, not X19 full stage acceptance"
+  ]
+}
