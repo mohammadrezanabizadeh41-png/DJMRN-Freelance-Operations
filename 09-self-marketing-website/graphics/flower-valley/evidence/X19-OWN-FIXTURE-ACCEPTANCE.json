@@ -1,0 +1,37 @@
+{
+  "stage": "X19",
+  "status": "STATIC_TOOL_OPERATIONAL",
+  "type": "OWNER_SYNTHETIC_ONLY",
+  "webcrackVersion": "2.16.0",
+  "nativeSandbox": "NOT_INSTALLED_UNNECESSARY_FOR_STATIC_GATE",
+  "fixtureSha256": "b899c0fb767c8e982bf05113281a5d8bee613a43f02f7a73e8a68e87ed763a6b",
+  "fixtureBytes": 545,
+  "resultCodeBytes": 725,
+  "bundleType": "webpack",
+  "moduleCount": 2,
+  "outputFiles": [
+    {
+      "name": "101.js",
+      "bytes": 61
+    },
+    {
+      "name": "102.js",
+      "bytes": 55
+    },
+    {
+      "name": "bundle.json",
+      "bytes": 173
+    },
+    {
+      "name": "deobfuscated.js",
+      "bytes": 725
+    }
+  ],
+  "ramFreeMiB": 2276,
+  "testedUtc": "2026-11-19T22:09:15.409Z",
+  "limitations": [
+    "Owner synthetic bundle does not prove target source recovery",
+    "No untrusted code evaluation",
+    "No source map or proprietary code restored"
+  ]
+}
