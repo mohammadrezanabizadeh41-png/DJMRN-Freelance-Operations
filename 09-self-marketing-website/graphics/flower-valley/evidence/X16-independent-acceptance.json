@@ -1,0 +1,86 @@
+{
+  "runId": "X16-2026-11-19T19-14-44-192Z",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "checks": {
+    "x15AvailableBodiesShaValid": true,
+    "x16NewBodyShaValid": true,
+    "tenRoutesHttp200": true,
+    "liveCDPSourcesAndNetwork": true,
+    "fullGraphRecorded": true,
+    "allKnownJSClassified": true,
+    "mapDeclarationCountsConsistent": true,
+    "noEmergencyRamStop": true,
+    "noFirstPartyNetworkLoadFailure": true,
+    "noScriptProcessingIssue": true,
+    "originalX16BrowserClosed": true
+  },
+  "summary": {
+    "runId": "X16-2026-11-19T19-14-44-192Z",
+    "generatedUtc": "2026-11-19T19:18:33.686Z",
+    "x15IndexedJS": 31,
+    "x15ShaVerified": 30,
+    "x16NewJS": 1,
+    "uniqueKnownJS": 32,
+    "verifiedStandaloneBodies": 31,
+    "unverifiedBodies": [
+      {
+        "url": "https://www.gladeye.com/gtm.q-c92099c696a43b1f.js",
+        "status": "NO_STANDALONE_VERIFIED_BODY"
+      }
+    ],
+    "roles": {
+      "NEXT_CHUNK": 23,
+      "NEXT_APP_ROUTE_CHUNK": 7,
+      "NEXT_CLIENT_JS": 1,
+      "UNKNOWN": 1
+    },
+    "staticSignalHeuristics": {
+      "webpackChunk_N_E": 29,
+      "nextRuntime": 1,
+      "react": 27,
+      "scrollListener": 6,
+      "animationLoop": 5,
+      "webpackRequire": 3,
+      "glsl": 3,
+      "threeEngine": 1
+    },
+    "routeHttp200": 10,
+    "routeTotal": 10,
+    "scriptParsedEvents": 444,
+    "firstPartyResponseEvents": 490,
+    "firstPartyScriptRequestEvents": 235,
+    "uniqueScriptPathsObserved": 30,
+    "initiatorEdges": 130,
+    "edgeKinds": {
+      "other": 20,
+      "parser": 73,
+      "script": 37
+    },
+    "sourceMapCandidates": 0,
+    "non200": [
+      {
+        "url": "https://www.gladeye.com/_next/image",
+        "status": 404
+      },
+      {
+        "url": "https://www.gladeye.com/_next/image",
+        "status": 502
+      }
+    ],
+    "memoryMinMiB": 515,
+    "notes": [
+      "Client-only observation. Backend and unpublished original source unknown.",
+      "Script parse events and request events repeat across routes.",
+      "No declared source maps in observed scripts or HTTP headers; no unadvertised map URL guessing.",
+      "Minified JS string signatures are heuristics, not exact component or shader recovery."
+    ]
+  },
+  "limitations": [
+    "No advertised source-map URLs to probe; nonadvertised maps remain UNKNOWN.",
+    "gtm.q URL has no verified standalone body.",
+    "Two image optimizer responses were HTTP 404/502.",
+    "Network initiator graph does not prove authored import/exports.",
+    "No private vendor source, login, browser profile or third-party raw files included."
+  ]
+}
+
