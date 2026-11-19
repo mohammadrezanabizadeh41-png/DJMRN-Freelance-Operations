@@ -1,0 +1,85 @@
+{
+  "status": "ALL_PINNED_ARCHIVEBOX_FAMILY_SOURCE_ARCHIVES_PRESENT",
+  "abi": "source availability does not mean every plugin operational on Windows",
+  "source_archives_checked_utc": "2026-11-19T09:44:45.591441+00:00",
+  "provenance": "Pinned installed Python dependencies and official ArchiveBox JS/Chrome for Testing; GitHub ZIP for abxbus accepted as canonical source when PyPI sdist request failed",
+  "initial_pypi_attempt_report": "%LOCALAPPDATA%\\DJMRN-Website-Toolkit\\04-Runtimes\\ArchiveBox-X11\\reports\\X11-python-pinned-source-downloads-2026-11-19.json",
+  "records": [
+    {
+      "name": "ArchiveBox JS 0.1.0 source",
+      "relative_path": "archivebox-js-main.zip",
+      "source_url": "https://github.com/ArchiveBox/archivebox-js",
+      "notes": "2026-11-19 download of main; upstream later resolved as commit 5a90961db5c5fca4eca0eaef129fc674aaf27420",
+      "exists": true,
+      "bytes": 43354771,
+      "sha256": "3058d4cffee4f1113b06aeb9b3abb8a4243b14eedceccd2862208495cc00f2f4",
+      "zip_entries": 1000,
+      "zip_first_bad_entry": null,
+      "zip_integrity": "PASS"
+    },
+    {
+      "name": "Original ArchiveBox 0.9.77 source",
+      "relative_path": "sources-python/ArchiveBox-0.9.77-official-source.zip",
+      "source_url": "https://github.com/ArchiveBox/ArchiveBox/releases/tag/v0.9.77",
+      "notes": "older original; Docker/WSL Windows runtime blocked",
+      "exists": true,
+      "bytes": 13565537,
+      "sha256": "5f5b883f7ebdf62563e554c2d57d1ab3752ec71d450f6f3c255d0dfe45f76f03",
+      "zip_entries": 1175,
+      "zip_first_bad_entry": null,
+      "zip_integrity": "PASS"
+    },
+    {
+      "name": "abx-dl 1.13.369 source",
+      "relative_path": "sources-python/abx_dl-1.13.369.tar.gz",
+      "source_url": "https://pypi.org/project/abx-dl/1.13.369/",
+      "notes": "pinned Python-only alternative; native Windows CLI blocked",
+      "exists": true,
+      "bytes": 115895,
+      "sha256": "0ce19b63cd5c744709705dde3243c38d6117d9e6ac0e36adf1ec4045dd450de7"
+    },
+    {
+      "name": "abx-plugins 1.13.776 source",
+      "relative_path": "sources-python/abx_plugins-1.13.776.tar.gz",
+      "source_url": "https://pypi.org/project/abx-plugins/1.13.776/",
+      "notes": "matching pinned installed plugin package, not latest GitHub release",
+      "exists": true,
+      "bytes": 1660591,
+      "sha256": "448ae63ae9001ddac2421d94543b1d602df9f004d6f82a6579ada3669bbdc0cd"
+    },
+    {
+      "name": "abxpkg 1.13.101 source",
+      "relative_path": "sources-python/abxpkg-1.13.101.tar.gz",
+      "source_url": "https://pypi.org/project/abxpkg/1.13.101/",
+      "notes": "native Windows pwd/fcntl blocker",
+      "exists": true,
+      "bytes": 257307,
+      "sha256": "e64b0280393d8431bbb538716b1e313602aecfd31fbb6e8be909a6b7d0e0d68c"
+    },
+    {
+      "name": "abxbus 2.5.91 exact commit source",
+      "relative_path": "sources-python/abxbus-2.5.91-git-02f2800d.zip",
+      "source_url": "https://github.com/ArchiveBox/abxbus/commit/02f2800dade5526c72092ef412134c70016605d7",
+      "notes": "PyPI sdist download attempt failed; full GitHub codeload source archive exists, commit ID verified via GitHub",
+      "exists": true,
+      "bytes": 1241046,
+      "sha256": "74bc840ed92c1196ae86174f275fed915d349dbb74afcda2cc29a36ecb009c29",
+      "zip_entries": 347,
+      "zip_first_bad_entry": null,
+      "zip_integrity": "PASS",
+      "zip_root": "abxbus-02f2800dade5526c72092ef412134c70016605d7/"
+    },
+    {
+      "name": "Chrome for Testing 157.0.8103.78",
+      "relative_path": "ChromeForTesting-157.0.8103.78-win64.zip",
+      "source_url": "https://storage.googleapis.com/chrome-for-testing-public/157.0.8103.78/win64/chrome-win64.zip",
+      "notes": "browser binary not an ArchiveBox source; official Google separate compatible test browser",
+      "exists": true,
+      "bytes": 209854321,
+      "sha256": "5f6ec40206407112702e163bf694d07f9fdc8ccbd346c70ce61fa62f716493f9",
+      "zip_entries": 305,
+      "zip_first_bad_entry": null,
+      "zip_integrity": "PASS"
+    }
+  ]
+}
