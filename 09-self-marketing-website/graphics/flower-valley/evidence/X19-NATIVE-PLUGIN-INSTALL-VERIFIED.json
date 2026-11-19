@@ -1,0 +1,15 @@
+{
+    "stage":  "X19",
+    "status":  "NATIVE_NODE24_ADVANCED_READY",
+    "version":  "6.1.2",
+    "license":  "ISC",
+    "windowsBinaryBytes":  817152,
+    "binarySha256":  "D6FFFC33364A78575AE62F05680643624DD360F6B4BF2B258DD9FC2206227B7F",
+    "nodeAbi":  "137",
+    "nodeVersion":  "v24.22.1",
+    "nativeAddonAlias":  "isolated-vm-6",
+    "nativeAddon7Needed":  false,
+    "installSource":  "official npm pinned isolated-vm-6@npm:isolated-vm@6.1.2",
+    "ownerFixtureStatus":  "ADVANCED_NATIVE_DECODER_ACTIVE",
+    "timestamp":  "2026-11-19T23:01:40.7524064Z"
+}
