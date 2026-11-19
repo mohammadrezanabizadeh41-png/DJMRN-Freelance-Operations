@@ -32,12 +32,24 @@ function Get-ScopedServer {
 }
 function Stop-ScopedServer {
   $p=Get-ScopedServer
-  if(!$p){Write-Output 'X12_SERVER_ALREADY_STOPPED';return}
-  & $bin server stop *> $null
-  Start-Sleep -Seconds 2
-  $p=Get-ScopedServer
-  if($p){Stop-Process -Id $p.Id -ErrorAction Stop}
-  Write-Output 'X12_SERVER_STOP_REQUESTED'
+  if($p){Stop-Process -Id $p.Id -ErrorAction Stop;Write-Output "X12_SERVER_STOPPED=$($p.Id)"}
+  else{Write-Output 'X12_SERVER_ALREADY_STOPPED'}
+  # The PinchTab browser can remain after its HTTP service stops. Only close Chrome
+  # roots whose command line explicitly belongs to this dedicated X12 profile.
+  $profileTag=[regex]::Escape((Join-Path $rt 'profiles'))
+  $ownedRoots=@(Get-CimInstance Win32_Process -ErrorAction SilentlyContinue|Where-Object {
+    $_.Name -eq 'chrome.exe' -and
+    $_.ExecutablePath -like '*ChromeForTesting-157*' -and
+    $_.CommandLine -match $profileTag -and
+    $_.CommandLine -notmatch ' --type='
+  })
+  foreach($ch in $ownedRoots){
+    $verified=Get-CimInstance Win32_Process -Filter "ProcessId = $($ch.ProcessId)" -ErrorAction SilentlyContinue
+    if($verified -and $verified.CommandLine -match $profileTag -and $verified.ExecutablePath -like '*ChromeForTesting-157*'){
+      & taskkill.exe /T /F /PID $verified.ProcessId *> $null
+      Write-Output "X12_OWN_BROWSER_TREE_CLOSED=$($verified.ProcessId)"
+    }
+  }
 }
 function Guarded-Call($file,$arguments,$base) {
   $p=Start-Process -FilePath $file -ArgumentList $arguments -WindowStyle Hidden -PassThru -RedirectStandardOutput "$logdir\$base.out.log" -RedirectStandardError "$logdir\$base.err.log"
