@@ -1,5 +1,7 @@
 # DJMRN — X12 Preflight: WebSnap vs PinchTab WebGraph vs existing Playwright
 
+**HISTORICAL PREFLIGHT NOTICE, SUPERSEDED BY REAL INSTALLATION/TESTS ON 2026-11-19:** Both PinchTab Windows v0.15.2 and PinchTab WebGraph 0.1.0 were subsequently installed and accepted on a real OWN SPA fixture and on Gladeye. X12 operational task COMPLETE; next X13. Read [X12 LIVE final reproducible handoff](../handoffs/X12-PINCHTAB-WEBGRAPH-WINDOWS-LIVE-COMPLETE-REPRODUCIBLE-2026-11-19.md) and canonical [PROJECT-LOG](../../../PROJECT-LOG.md). The old PENDING assertions below record the decision history and MUST NOT be interpreted as current state.
+
 **Date:** 2026-11-19. **Mission:** DJMRN-FREELANCE-WEBSITE-001 / X12 / E1, after completed X11. **Status:** RESEARCH + OWN LOCAL CONTROL-FIXTURE BASELINE PASS; PinchTab WebGraph is **NOT INSTALLED / NOT YET ACCEPTANCE TESTED** on owner's Windows laptop. **Current execution state:** see sole [PROJECT-LOG](../../../PROJECT-LOG.md), not this research document.
 
 **Reason:** X12 runbook asked for SPA state/accessibility tree exploration, safe action edges, deduplicated state hashes and replayable navigation, replacing the allegedly unpublished/unavailable `uirip/websnap` with `pinchtab-webgraph`. This assessment checks that premise, architecture, free cost, security and GPU-scene suitability before any tool installation.
