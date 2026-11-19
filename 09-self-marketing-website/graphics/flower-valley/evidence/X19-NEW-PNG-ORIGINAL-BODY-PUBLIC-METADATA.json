@@ -1,0 +1,46 @@
+{
+  "stage": "X19",
+  "status": "TWO_NEW_ORIGINAL_ASSET_BODIES_VERIFIED",
+  "utc": "2026-11-19T23:36:14.755Z",
+  "source": "webcrack 34-client-JS module graph static asset hint",
+  "comparisonAuthority": "X01-X18 76-path canonical ledger and 2247 per-file hashes; not just X16",
+  "maxDirectGetRequests": 2,
+  "items": [
+    {
+      "url": "https://www.gladeye.com/matter/skull.png",
+      "status": 200,
+      "sha256": "f98f63a27c56147ac482b13fc31c7b796149b1ececd93f178b239fad4621bb74",
+      "bytes": 15677,
+      "width": 128,
+      "height": 129,
+      "contentType": "image/png",
+      "firstSeenStage": "X19",
+      "provenance": "STATIC_STRING_HINT_FROM_SHA_VERIFIED_JS + ANONYMOUS_GET_HTTP200 + BINARY_PNG_MAGIC + SHA256",
+      "existingX01toX18Path": false,
+      "oldPhysicalBodyHashMatches": 0,
+      "oldOriginalBodyHashMatches": 0,
+      "relation": "NEW_URL_NEW_BYTES"
+    },
+    {
+      "url": "https://www.gladeye.com/matter/wave.png",
+      "status": 200,
+      "sha256": "cbc7bfa9fe5cea61149121a05bd3c4ecfbcfc9d790fc21766aab188003880c0d",
+      "bytes": 19830,
+      "width": 128,
+      "height": 129,
+      "contentType": "image/png",
+      "firstSeenStage": "X19",
+      "provenance": "STATIC_STRING_HINT_FROM_SHA_VERIFIED_JS + ANONYMOUS_GET_HTTP200 + BINARY_PNG_MAGIC + SHA256",
+      "existingX01toX18Path": false,
+      "oldPhysicalBodyHashMatches": 0,
+      "oldOriginalBodyHashMatches": 0,
+      "relation": "NEW_URL_NEW_BYTES"
+    }
+  ],
+  "privacy": "original PNG body bytes private on owner Windows only",
+  "caveats": [
+    "Exactly two public PNG bodies were independently retrieved; other site assets not exhaustively probed",
+    "A text string path is only a hypothesis until response+signature+SHA proof succeeds",
+    "No third-party vendor source code or image pixels published to GitHub"
+  ]
+}
