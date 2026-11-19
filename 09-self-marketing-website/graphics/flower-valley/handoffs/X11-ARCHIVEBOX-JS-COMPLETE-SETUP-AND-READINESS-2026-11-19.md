@@ -2,7 +2,7 @@
 
 **Status date:** 2026-11-19  
 **Selected tool and only X11 implementation in focus:** **ArchiveBox JS `0.1.0`** (official [ArchiveBox/archivebox-js](https://github.com/ArchiveBox/archivebox-js), browser extension, AGPL-3.0).  
-**Operational state:** **BUILT / INSTALLED / WORKING ON OWN LOCAL FIXTURE / NOT YET VERIFIED ON LIVE REFERENCE**.  
+**Operational state at this handoff's original creation:** **BUILT / INSTALLED / WORKING ON OWN LOCAL FIXTURE / NOT YET VERIFIED ON LIVE REFERENCE**. **2026-11-19 update:** This is historical setup readiness; LIVE reference was subsequently verified and X11 completed. Read [X11 LIVE 180s completion / exact rerun procedure](X11-ARCHIVEBOX-JS-LIVE-180S-REPRODUCIBLE-COMPLETION-2026-11-19.md) and current [PROJECT-LOG](../../../PROJECT-LOG.md) before taking further action. Do not interpret historical PENDING sentences below as current.  
 **Canonical current project progress:** [PROJECT-LOG](../../../PROJECT-LOG.md); [X11 sequence](../EXTRACTION-RUNBOOK.md); [official tool registry](../../../design/home/TOOLING-DOWNLOAD-INSTALL-CATALOG.md).  
 **Important owner correction:** Older ArchiveBox server `0.9.77` **is NOT the implementation selected for X11**. It was blocked by Docker/WSL RAM and Unix dependencies; Python `abx-dl` alternative installed packages but CLI cannot start on native Windows. ArchiveBox **JS**, not original ArchiveBox, passed the actual local capture tests and must remain the focus. The user's speech-to-text sometimes renders JS as "GS"; it means the same **archivebox-js** browser version.
 
