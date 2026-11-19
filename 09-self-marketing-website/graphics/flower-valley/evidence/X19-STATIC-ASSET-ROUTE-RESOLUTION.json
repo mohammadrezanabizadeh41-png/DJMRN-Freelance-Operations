@@ -1,0 +1,95 @@
+{
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "counts": {
+    "HTTP404_LIBRARY_HINT": 1,
+    "OLD_X01_X18_PATH": 9,
+    "NEW_X19_HTTP200_SHA": 2
+  },
+  "resolutions": [
+    {
+      "hint": "/api/oembed.json?url=",
+      "classification": "HTTP404_LIBRARY_HINT",
+      "url": null,
+      "firstSeen": null,
+      "originalSha256": null
+    },
+    {
+      "hint": "/camera-path07.glb",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "firstSeen": "X01",
+      "originalSha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e"
+    },
+    {
+      "hint": "/dust-particle.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "firstSeen": "X01",
+      "originalSha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe"
+    },
+    {
+      "hint": "/flowers/pool_summer.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "firstSeen": "X01",
+      "originalSha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47"
+    },
+    {
+      "hint": "/flowers/pool_winter.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "firstSeen": "X01",
+      "originalSha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71"
+    },
+    {
+      "hint": "/matter/skull.png",
+      "classification": "NEW_X19_HTTP200_SHA",
+      "url": "https://www.gladeye.com/matter/skull.png",
+      "firstSeen": "X19",
+      "originalSha256": "f98f63a27c56147ac482b13fc31c7b796149b1ececd93f178b239fad4621bb74"
+    },
+    {
+      "hint": "/matter/wave.png",
+      "classification": "NEW_X19_HTTP200_SHA",
+      "url": "https://www.gladeye.com/matter/wave.png",
+      "firstSeen": "X19",
+      "originalSha256": "cbc7bfa9fe5cea61149121a05bd3c4ecfbcfc9d790fc21766aab188003880c0d"
+    },
+    {
+      "hint": "/rays/ray1.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "firstSeen": "X01",
+      "originalSha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087"
+    },
+    {
+      "hint": "/rays/ray2.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "firstSeen": "X01",
+      "originalSha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2"
+    },
+    {
+      "hint": "/rays/ray3.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "firstSeen": "X01",
+      "originalSha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7"
+    },
+    {
+      "hint": "/terrain.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "firstSeen": "X01",
+      "originalSha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e"
+    },
+    {
+      "hint": "/vignette.png",
+      "classification": "OLD_X01_X18_PATH",
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "firstSeen": "X01",
+      "originalSha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334"
+    }
+  ],
+  "caveat": "A string hint is not a new asset until original first-party HTTP body and SHA are verified"
+}
