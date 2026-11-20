@@ -1,0 +1,275 @@
+{
+  "stage": "X30",
+  "status": "PASS",
+  "ownerComparison": {
+    "X29TrianglesModes": [
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "X29PointPrimitives": 0,
+    "X29NodeCount": 2,
+    "X29TextureCount": 1,
+    "X30PointPrimitiveCount": 0,
+    "X30InstanceBaseTriangleCopies": 1
+  },
+  "ownGLBStructure": {
+    "meshes": 2,
+    "nodes": 2,
+    "sceneCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "modes": {
+      "4": 2
+    },
+    "extensionsUsed": []
+  },
+  "liveObservedSeconds": 90,
+  "phases": [
+    {
+      "label": "initial",
+      "time": 3.41,
+      "cumulativeGPUdraws": 0,
+      "uniqueGLsignatures": [],
+      "privateImageSHA256": "4b08003ff5ce9e5a762fabd171bcad97a881d94a36c67518b6d63484bf265b93"
+    },
+    {
+      "label": "hover_left",
+      "time": 16.55,
+      "cumulativeGPUdraws": 5008,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 313
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 4382
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 313
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "hover_right",
+      "time": 29.59,
+      "cumulativeGPUdraws": 15456,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 966
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 13524
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 966
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "scroll_450",
+      "time": 42.46,
+      "cumulativeGPUdraws": 26496,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1656
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 23184
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1656
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "pointer_center",
+      "time": 55.53,
+      "cumulativeGPUdraws": 38176,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 2386
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 33404
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 2386
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "reverse_scroll",
+      "time": 72.46,
+      "cumulativeGPUdraws": 53152,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 3322
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 46508
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 3322
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "return_idle",
+      "time": 87.54,
+      "cumulativeGPUdraws": 66928,
+      "uniqueGLsignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 4183
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 58562
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 4183
+        }
+      ],
+      "privateImageSHA256": "89cabbd2c8f1b5c6c65fbfffa4ac24deb00fd944d7eeec3c8e2c2b4cc6e51e81"
+    }
+  ],
+  "knownX19Paths": 78,
+  "X30FirstPartyPaths": 46,
+  "newPaths": [],
+  "X30SourceBodyHashesTotal": 37,
+  "X30SourceHashesExact": 37,
+  "X30X16GraphObservedEdges": 37,
+  "newEdges": [],
+  "X29PriorLiveSeconds": 90.01,
+  "X28OriginalDrawsPerFrame": 16,
+  "sourceUnitTests": {
+    "tests": "54",
+    "pass": "54",
+    "fail": "0",
+    "cancelled": "0",
+    "skipped": "0"
+  },
+  "sourceCanonFileMatches": {
+    "README.md": {
+      "filename": "README.md",
+      "localGitBlob": "fe9474bddebbc004235c72e2d952d7b36e86d82c",
+      "GitHubCanonicalBlob": "fe9474bddebbc004235c72e2d952d7b36e86d82c",
+      "byteExact": true
+    },
+    "package.json": {
+      "filename": "package.json",
+      "localGitBlob": "2df124ae5af4463b5f80818428589d7e3a8efd03",
+      "GitHubCanonicalBlob": "2df124ae5af4463b5f80818428589d7e3a8efd03",
+      "byteExact": true
+    },
+    "build.mjs": {
+      "filename": "build.mjs",
+      "localGitBlob": "3b6740bb77e74b05c4b80c90d86955cd83b5ab00",
+      "GitHubCanonicalBlob": "3b6740bb77e74b05c4b80c90d86955cd83b5ab00",
+      "byteExact": true
+    },
+    "src/main/index.js": {
+      "filename": "src/main/index.js",
+      "localGitBlob": "549094a33271a2008ce2a0479fbf56901aed0fb9",
+      "GitHubCanonicalBlob": "549094a33271a2008ce2a0479fbf56901aed0fb9",
+      "byteExact": true
+    },
+    "test/harness/driver.mjs": {
+      "filename": "test/harness/driver.mjs",
+      "localGitBlob": "df2ab6d5015dd88ff55a4f5d85397768ef218c3e",
+      "GitHubCanonicalBlob": "df2ab6d5015dd88ff55a4f5d85397768ef218c3e",
+      "byteExact": true
+    }
+  },
+  "caveats": [
+    "Model-extractor 0.7.0 original owner fixture cannot export five GL_POINTS or preserve three submitted instances; only one instance exported",
+    "X30 export lacks normals although X29 owner GLB included normal accessors",
+    "Real commercial site GLB/OBJ/GLSL/textures NOT captured/exported",
+    "3 distinct draw signatures must never be confused with 3 draw calls/frame; X28 shows 16 draws/frame",
+    "GPU 960000 POINT index count is NOT flower count",
+    "Visual dispersal/return cause is not proven",
+    "Live Chrome isolated --no-proxy-server flag bypasses WinINET proxy ONLY inside throwaway browser; Windows/VPN system proxy untouched",
+    "No server-side native asset recovery, no Chrome Web Store extension installation, no paid services"
+  ]
+}
