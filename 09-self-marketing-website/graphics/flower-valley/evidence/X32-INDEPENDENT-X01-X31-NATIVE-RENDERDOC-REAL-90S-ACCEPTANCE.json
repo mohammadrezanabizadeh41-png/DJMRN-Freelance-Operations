@@ -1,6 +1,7 @@
 {
   "stage": "X32",
-  "generatedUTC": "2026-11-20T20:22:03.815124+00:00",
+  "generatedUTC": "2026-11-20T20:16:34.639Z",
+  "timestampSemantics": "stable original X32 observation UTC; not a timestamp of acceptance reruns",
   "scope": "native owner D3D11 direct RenderDoc capture + browser ANGLE backend fingerprint + separate live site read-only",
   "status": "PASS",
   "total": 128,
