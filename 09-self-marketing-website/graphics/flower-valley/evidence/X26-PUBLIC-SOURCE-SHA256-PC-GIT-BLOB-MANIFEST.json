@@ -1,0 +1,77 @@
+{
+    "stage":  "X26",
+    "dateUTC":  "2026-11-20T13:46:48.4905358Z",
+    "repo":  "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+    "publicOwnerFiles":  7,
+    "pcSha256ToPublishedGitBlobsVerified":  7,
+    "allMatched":  true,
+    "scope":  "Seven public owner-authored X26 source, fixture, independent test, source receipts and derived state. Original private third-party resource/shader/image bytes excluded.",
+    "upstreamOfficialZIP_SHA256":  "23820d60993ec466a754d394e2072d8411d50b82aa267bc40bac9b8a1c1d4989",
+    "sourcePinnedCommit":  "cbe4463869bbf543106d672790f82155a22844f8",
+    "originalSiteNeverPublished":  true,
+    "files":  [
+                  {
+                      "sha256":  "859ded50373eb06d67349b59e3b204e54ee67e3ef67edd09edacafbe79204424",
+                      "locallyComputedRawGitBlobSHA1":  "30d9c9dace33ccf402f9abc58f615d7ff2c777e5",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X26-WebGL2-Overdraw-Risk-90s-Runner.cjs",
+                      "localBasename":  "X26-WebGL2-Overdraw-Risk-90s-Runner.cjs",
+                      "githubBlobSha1":  "30d9c9dace33ccf402f9abc58f615d7ff2c777e5",
+                      "localBytes":  12508
+                  },
+                  {
+                      "sha256":  "fa65f2a14fe32163a44ad5dcef0928240605cf5cc46a530bc77bdb20f5ee3abe",
+                      "locallyComputedRawGitBlobSHA1":  "6fe810a9aba18a19f9a52b015495e3a4e9a358a2",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X26-OWN-WebGL2-Controlled-Overdraw-Fixture.html",
+                      "localBasename":  "X26-OWN-WebGL2-Controlled-Overdraw-Fixture.html",
+                      "githubBlobSha1":  "6fe810a9aba18a19f9a52b015495e3a4e9a358a2",
+                      "localBytes":  2096
+                  },
+                  {
+                      "sha256":  "4f5f1eda8ed57c04b0657c3a4e47ad97bb8293f6b3020a806dd05a84abdcc3ed",
+                      "locallyComputedRawGitBlobSHA1":  "afa612cd38f254f332b79b950279a35a3fd3ebd2",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X26-Independent-X01-X25-Reconciliation.py",
+                      "localBasename":  "X26-Independent-X01-X25-Reconciliation.py",
+                      "githubBlobSha1":  "afa612cd38f254f332b79b950279a35a3fd3ebd2",
+                      "localBytes":  14253
+                  },
+                  {
+                      "sha256":  "4fc3aa56b9a526b30d0c877536589b95f0efe7cf2c7d34bada4d2058583e41ed",
+                      "locallyComputedRawGitBlobSHA1":  "94842c8406adff6eb32274707d8ac9879780f14c",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X26-OFFICIAL-SOURCE-SECURITY-INSTALL-RECEIPT.json",
+                      "localBasename":  "X26-OFFICIAL-SOURCE-SECURITY-INSTALL-RECEIPT.json",
+                      "githubBlobSha1":  "94842c8406adff6eb32274707d8ac9879780f14c",
+                      "localBytes":  1326
+                  },
+                  {
+                      "sha256":  "8a47957ac5012b1b06acbd85f452ed869dabffb780486b8dfb828dbaae444d83",
+                      "locallyComputedRawGitBlobSHA1":  "7888b6a18036e0bea1176513e17905af64975e82",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X26-SANITIZED-90S-SEVEN-SAMPLES-X01-X25-CROSSWALK.json",
+                      "localBasename":  "X26-SANITIZED-90S-SEVEN-SAMPLES-X01-X25-CROSSWALK.json",
+                      "githubBlobSha1":  "7888b6a18036e0bea1176513e17905af64975e82",
+                      "localBytes":  18796
+                  },
+                  {
+                      "sha256":  "4083975810b96fdaff02df0dabc9ca586351d465093fcafe6c2c43a108079282",
+                      "locallyComputedRawGitBlobSHA1":  "ceba612b4c1bb26cd7728533ba07cf77bb52c17e",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X26-INDEPENDENT-ACCEPTANCE.json",
+                      "localBasename":  "X26-INDEPENDENT-ACCEPTANCE.json",
+                      "githubBlobSha1":  "ceba612b4c1bb26cd7728533ba07cf77bb52c17e",
+                      "localBytes":  4268
+                  },
+                  {
+                      "sha256":  "7144b640bf65dcc0c3273b9f7e9835ebb297874f14ef0c67a26ecc1b4b23c635",
+                      "locallyComputedRawGitBlobSHA1":  "b4ace33d1d73e46fd485ce9a0569990dd0cfcc69",
+                      "exactMatch":  true,
+                      "path":  "09-self-marketing-website/graphics/flower-valley/handoffs/X26-FULL-WEBGL-INSIGHT-LEGACY-OWN-OVERDRAW-90S-X01-X25-HANDOFF-2026-11-20.md",
+                      "localBasename":  "X26-FULL-WEBGL-INSIGHT-LEGACY-OWN-OVERDRAW-90S-X01-X25-HANDOFF-2026-11-20.md",
+                      "githubBlobSha1":  "b4ace33d1d73e46fd485ce9a0569990dd0cfcc69",
+                      "localBytes":  7425
+                  }
+              ]
+}
