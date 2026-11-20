@@ -1,0 +1,2000 @@
+{
+  "stage": "X35",
+  "scope": "PUBLIC_SITE_INPUT_BEHAVIOR_90S_ONE_SESSION_CONTROLLED_PAIRS_NO_PRIVATE_SCENE_EXPORT",
+  "site": "https://www.gladeye.com/",
+  "observer": "Playwright 1.65.1 Chromium CDP and sharp 0.35.5; passive original WebGL primitive counts",
+  "officialDocs": [
+    "https://playwright.dev/docs/api/class-mouse",
+    "https://playwright.dev/docs/emulation",
+    "https://chromedevtools.github.io/devtools-protocol/tot/Emulation/"
+  ],
+  "observedSecondsLimit": 90,
+  "ownerRAMHardStopMiB": 100,
+  "systemProxyNotChanged": true,
+  "noVendorNativeGpuInjection": true,
+  "noThirdPartyGeometryOrShaderOrTexturesSaved": true,
+  "noVendorSourceScriptPublication": true,
+  "screenshotsPrivatePCOnly": true,
+  "unsupervisedSiteClicksFormSubmissions": false,
+  "events": [
+    {
+      "label": "idle_A",
+      "inputKind": "control",
+      "targetSecond": 2,
+      "actualSecond": 2.358,
+      "inputActionElapsedMs": 344,
+      "freeMiBBefore": 1623,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 7,
+        "inputCounts": {
+          "focus": 1
+        },
+        "trustedCounts": {
+          "focus": 1
+        },
+        "webgl": {
+          "draws": 0,
+          "instancedDraws": 0,
+          "signatures": []
+        }
+      },
+      "imageMetrics": {
+        "bytes": 16518,
+        "sha256": "0f72a7bc3359a4c3c24b791bb4f5271700206467a4df2055b85b32d19fd8f295"
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-01-idle_A.png",
+        "bytes": 16518,
+        "sha256": "0f72a7bc3359a4c3c24b791bb4f5271700206467a4df2055b85b32d19fd8f295"
+      }
+    },
+    {
+      "label": "idle_B",
+      "inputKind": "control",
+      "targetSecond": 6,
+      "actualSecond": 6.319,
+      "inputActionElapsedMs": 317,
+      "freeMiBBefore": 1513,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 7,
+        "inputCounts": {
+          "focus": 1
+        },
+        "trustedCounts": {
+          "focus": 1
+        },
+        "webgl": {
+          "draws": 0,
+          "instancedDraws": 0,
+          "signatures": []
+        }
+      },
+      "imageMetrics": {
+        "bytes": 16420,
+        "sha256": "5a1288aa0690e7dcf7f14115ccd0ece4f18365cdaaa6e80c9e90ef3958e8f601",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 0.1083,
+          "changedRGBComponentsOver15Pct": 0.2
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-02-idle_B.png",
+        "bytes": 16420,
+        "sha256": "5a1288aa0690e7dcf7f14115ccd0ece4f18365cdaaa6e80c9e90ef3958e8f601"
+      }
+    },
+    {
+      "label": "pointer_left_A",
+      "inputKind": "pointer",
+      "targetSecond": 10,
+      "actualSecond": 12.414,
+      "inputActionElapsedMs": 2410,
+      "freeMiBBefore": 1004,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "webgl": {
+          "draws": 192,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 12
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 12
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 168
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1799221,
+        "sha256": "bb922c8449dc0a876f7fa49b60b93d9a22dc816897f7f44e2555388cd69f8b4e",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 29.5333,
+          "changedRGBComponentsOver15Pct": 42.03
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-03-pointer_left_A.png",
+        "bytes": 1799221,
+        "sha256": "bb922c8449dc0a876f7fa49b60b93d9a22dc816897f7f44e2555388cd69f8b4e"
+      }
+    },
+    {
+      "label": "pointer_left_hold",
+      "inputKind": "hold",
+      "targetSecond": 14,
+      "actualSecond": 14.651,
+      "inputActionElapsedMs": 649,
+      "freeMiBBefore": 893,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "webgl": {
+          "draws": 2096,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 131
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 131
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 1834
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1785680,
+        "sha256": "a45ae3962e181c05f4660a1347b24b9d42e66ac5996d6f3d64e06232b7342485",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 21.97,
+          "changedRGBComponentsOver15Pct": 41.22
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-04-pointer_left_hold.png",
+        "bytes": 1785680,
+        "sha256": "a45ae3962e181c05f4660a1347b24b9d42e66ac5996d6f3d64e06232b7342485"
+      }
+    },
+    {
+      "label": "pointer_right_A",
+      "inputKind": "pointer",
+      "targetSecond": 18,
+      "actualSecond": 18.768,
+      "inputActionElapsedMs": 769,
+      "freeMiBBefore": 965,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "webgl": {
+          "draws": 5952,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 372
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 372
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 5208
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1814087,
+        "sha256": "321ddd1513035d7fb1a8839e716bff6eaf91da2e5703af16c475551c33e37b69",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 26.8061,
+          "changedRGBComponentsOver15Pct": 49.68
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-05-pointer_right_A.png",
+        "bytes": 1814087,
+        "sha256": "321ddd1513035d7fb1a8839e716bff6eaf91da2e5703af16c475551c33e37b69"
+      }
+    },
+    {
+      "label": "pointer_right_hold",
+      "inputKind": "hold",
+      "targetSecond": 22,
+      "actualSecond": 22.638,
+      "inputActionElapsedMs": 634,
+      "freeMiBBefore": 971,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "webgl": {
+          "draws": 9344,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 584
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 584
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 8176
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1815952,
+        "sha256": "24bc453fcb7fdf5ae334d1fb2ff671a4eeb06887e4350628c10fef8303bb35b0",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 25.9534,
+          "changedRGBComponentsOver15Pct": 47.03
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-06-pointer_right_hold.png",
+        "bytes": 1815952,
+        "sha256": "24bc453fcb7fdf5ae334d1fb2ff671a4eeb06887e4350628c10fef8303bb35b0"
+      }
+    },
+    {
+      "label": "pointer_left_B",
+      "inputKind": "replicate",
+      "targetSecond": 26,
+      "actualSecond": 26.78,
+      "inputActionElapsedMs": 762,
+      "freeMiBBefore": 990,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24
+        },
+        "webgl": {
+          "draws": 13232,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 827
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 827
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 11578
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1787423,
+        "sha256": "6a6c33b33bef33d06746007f9fd812c0538a59a26e04f036188a2fa5fe42e68a",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 26.9761,
+          "changedRGBComponentsOver15Pct": 48.67
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-07-pointer_left_B.png",
+        "bytes": 1787423,
+        "sha256": "6a6c33b33bef33d06746007f9fd812c0538a59a26e04f036188a2fa5fe42e68a"
+      }
+    },
+    {
+      "label": "pointer_right_B",
+      "inputKind": "replicate",
+      "targetSecond": 30,
+      "actualSecond": 30.739,
+      "inputActionElapsedMs": 731,
+      "freeMiBBefore": 1446,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 32,
+          "mousemove": 32
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 32,
+          "mousemove": 32
+        },
+        "webgl": {
+          "draws": 16880,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 1055
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 1055
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 14770
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1825672,
+        "sha256": "3176adacc88714620eea0a514ba601d0a79b0ab9f5d69b138a9caa495977e115",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 24.0752,
+          "changedRGBComponentsOver15Pct": 44.45
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-08-pointer_right_B.png",
+        "bytes": 1825672,
+        "sha256": "3176adacc88714620eea0a514ba601d0a79b0ab9f5d69b138a9caa495977e115"
+      }
+    },
+    {
+      "label": "center_reset",
+      "inputKind": "reset",
+      "targetSecond": 34,
+      "actualSecond": 34.776,
+      "inputActionElapsedMs": 773,
+      "freeMiBBefore": 1443,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 40,
+          "mousemove": 40
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 40,
+          "mousemove": 40
+        },
+        "webgl": {
+          "draws": 20640,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 1290
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 1290
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 18060
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1824157,
+        "sha256": "7410c7f36c690485259da9bc865340d87adb206c1a37772baa669c400dd07c4b",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 27.0363,
+          "changedRGBComponentsOver15Pct": 48.76
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-09-center_reset.png",
+        "bytes": 1824157,
+        "sha256": "7410c7f36c690485259da9bc865340d87adb206c1a37772baa669c400dd07c4b"
+      }
+    },
+    {
+      "label": "drag_press",
+      "inputKind": "drag",
+      "targetSecond": 38,
+      "actualSecond": 38.625,
+      "inputActionElapsedMs": 617,
+      "freeMiBBefore": 1456,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 40,
+          "mousemove": 40,
+          "pointerdown": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 40,
+          "mousemove": 40,
+          "pointerdown": 1
+        },
+        "webgl": {
+          "draws": 24256,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 1516
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 1516
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 21224
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1841241,
+        "sha256": "e177b60d873496608a11b03db0d0f93277c402229a628bdb6921938c2679ba60",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 27.8875,
+          "changedRGBComponentsOver15Pct": 49.75
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-10-drag_press.png",
+        "bytes": 1841241,
+        "sha256": "e177b60d873496608a11b03db0d0f93277c402229a628bdb6921938c2679ba60"
+      }
+    },
+    {
+      "label": "drag_move",
+      "inputKind": "drag",
+      "targetSecond": 42,
+      "actualSecond": 42.934,
+      "inputActionElapsedMs": 928,
+      "freeMiBBefore": 1444,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 52,
+          "mousemove": 52,
+          "pointerdown": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 52,
+          "mousemove": 52,
+          "pointerdown": 1
+        },
+        "webgl": {
+          "draws": 28240,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 1765
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 1765
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 24710
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1788122,
+        "sha256": "3bf9d28a6e57f6a0c85f53cf9f264bb949ac81bbc3926a399e6b58573ace1e00",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 27.3676,
+          "changedRGBComponentsOver15Pct": 48.13
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-11-drag_move.png",
+        "bytes": 1788122,
+        "sha256": "3bf9d28a6e57f6a0c85f53cf9f264bb949ac81bbc3926a399e6b58573ace1e00"
+      }
+    },
+    {
+      "label": "drag_release",
+      "inputKind": "drag",
+      "targetSecond": 46,
+      "actualSecond": 46.643,
+      "inputActionElapsedMs": 629,
+      "freeMiBBefore": 1447,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 52,
+          "mousemove": 52,
+          "pointerdown": 1,
+          "pointerup": 1,
+          "click": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 52,
+          "mousemove": 52,
+          "pointerdown": 1,
+          "pointerup": 1,
+          "click": 1
+        },
+        "webgl": {
+          "draws": 31728,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 1983
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 1983
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 27762
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1697216,
+        "sha256": "e0e8046a5e588ff53d9917f53cc1cc522bca2b0833c8b7a1cf5a1c77640d4935",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 26.6639,
+          "changedRGBComponentsOver15Pct": 45.54
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-12-drag_release.png",
+        "bytes": 1697216,
+        "sha256": "e0e8046a5e588ff53d9917f53cc1cc522bca2b0833c8b7a1cf5a1c77640d4935"
+      }
+    },
+    {
+      "label": "canvas_click",
+      "inputKind": "click",
+      "targetSecond": 50,
+      "actualSecond": 50.673,
+      "inputActionElapsedMs": 659,
+      "freeMiBBefore": 1447,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2
+        },
+        "webgl": {
+          "draws": 35584,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 2224
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 2224
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 31136
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1607206,
+        "sha256": "8895d759558e8b0eff515b822695d34ce0d47ae413f3beaf6852fe40baed769e",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 22.3706,
+          "changedRGBComponentsOver15Pct": 40.14
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-13-canvas_click.png",
+        "bytes": 1607206,
+        "sha256": "8895d759558e8b0eff515b822695d34ce0d47ae413f3beaf6852fe40baed769e"
+      }
+    },
+    {
+      "label": "wheel_down",
+      "inputKind": "scroll",
+      "targetSecond": 54,
+      "actualSecond": 54.667,
+      "inputActionElapsedMs": 663,
+      "freeMiBBefore": 1451,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 1
+        },
+        "webgl": {
+          "draws": 39360,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 2460
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 2460
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 34440
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1601123,
+        "sha256": "edfaaee56a42d9e4c2be1ff7d10f2bae85b75ba3a1ecc57fdad218c3d7cf962a",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 20.9231,
+          "changedRGBComponentsOver15Pct": 36.09
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-14-wheel_down.png",
+        "bytes": 1601123,
+        "sha256": "edfaaee56a42d9e4c2be1ff7d10f2bae85b75ba3a1ecc57fdad218c3d7cf962a"
+      }
+    },
+    {
+      "label": "wheel_up",
+      "inputKind": "scroll",
+      "targetSecond": 58,
+      "actualSecond": 58.679,
+      "inputActionElapsedMs": 664,
+      "freeMiBBefore": 1466,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2
+        },
+        "webgl": {
+          "draws": 43184,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 2699
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 2699
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 37786
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1620840,
+        "sha256": "59b67a3b57a6a1b47fecd59b56f50a084a67189c1d0595877d6b422b2a7ae8ae",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 23.5754,
+          "changedRGBComponentsOver15Pct": 38.83
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-15-wheel_up.png",
+        "bytes": 1620840,
+        "sha256": "59b67a3b57a6a1b47fecd59b56f50a084a67189c1d0595877d6b422b2a7ae8ae"
+      }
+    },
+    {
+      "label": "keyboard_focus",
+      "inputKind": "focus",
+      "targetSecond": 62,
+      "actualSecond": 62.726,
+      "inputActionElapsedMs": 719,
+      "freeMiBBefore": 1454,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 44,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 53,
+          "mousemove": 53,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1
+        },
+        "webgl": {
+          "draws": 46832,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 2927
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 2927
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 40978
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1648591,
+        "sha256": "c5f49322901f9e9a6a58f45c82c0a18a2e67f726fcc16885cd1caded7e660d33",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 26.3619,
+          "changedRGBComponentsOver15Pct": 40.43
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-16-keyboard_focus.png",
+        "bytes": 1648591,
+        "sha256": "c5f49322901f9e9a6a58f45c82c0a18a2e67f726fcc16885cd1caded7e660d33"
+      }
+    },
+    {
+      "label": "pointer_exit",
+      "inputKind": "exit",
+      "targetSecond": 66,
+      "actualSecond": 66.75,
+      "inputActionElapsedMs": 744,
+      "freeMiBBefore": 1463,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1
+        },
+        "webgl": {
+          "draws": 50624,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 3164
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 3164
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 44296
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1593229,
+        "sha256": "a1f353a6247d3beb2b55028ce90b8c1cae5a791ec0b459696fd8f68bf3d1d43e",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 21.7728,
+          "changedRGBComponentsOver15Pct": 36.76
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-17-pointer_exit.png",
+        "bytes": 1593229,
+        "sha256": "a1f353a6247d3beb2b55028ce90b8c1cae5a791ec0b459696fd8f68bf3d1d43e"
+      }
+    },
+    {
+      "label": "resize_960x600",
+      "inputKind": "resize",
+      "targetSecond": 70,
+      "actualSecond": 70.607,
+      "inputActionElapsedMs": 593,
+      "freeMiBBefore": 1448,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 960,
+          "height": 600,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 43,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 1
+        },
+        "webgl": {
+          "draws": 54272,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 3392
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 3392
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 47488
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 951836,
+        "sha256": "6a85bf3deb16e6bd39ba2ec6d7073d6a873b78a9cf3b1894ab240d3a585db0f7",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 23.7623,
+          "changedRGBComponentsOver15Pct": 38.84
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-18-resize_960x600.png",
+        "bytes": 951836,
+        "sha256": "6a85bf3deb16e6bd39ba2ec6d7073d6a873b78a9cf3b1894ab240d3a585db0f7"
+      }
+    },
+    {
+      "label": "resize_restore",
+      "inputKind": "resize",
+      "targetSecond": 74,
+      "actualSecond": 74.676,
+      "inputActionElapsedMs": 665,
+      "freeMiBBefore": 1464,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 43,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "webgl": {
+          "draws": 58048,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 3628
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 3628
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 50792
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1514945,
+        "sha256": "9dd9143d43db46c369f160f92c7d094fa6aa34dc71a0a59d4d30246880f799ff",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 22.1268,
+          "changedRGBComponentsOver15Pct": 34.69
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-19-resize_restore.png",
+        "bytes": 1514945,
+        "sha256": "9dd9143d43db46c369f160f92c7d094fa6aa34dc71a0a59d4d30246880f799ff"
+      }
+    },
+    {
+      "label": "reduced_motion_on",
+      "inputKind": "media",
+      "targetSecond": 78,
+      "actualSecond": 78.617,
+      "inputActionElapsedMs": 603,
+      "freeMiBBefore": 1448,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": true,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "webgl": {
+          "draws": 61840,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 3865
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 3865
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 54110
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1490763,
+        "sha256": "a02df5da47fcbe9a57e55b35017f4e0d9de576924beb0c18f88daa9b73ac5503",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 16.2889,
+          "changedRGBComponentsOver15Pct": 28.1
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-20-reduced_motion_on.png",
+        "bytes": 1490763,
+        "sha256": "a02df5da47fcbe9a57e55b35017f4e0d9de576924beb0c18f88daa9b73ac5503"
+      }
+    },
+    {
+      "label": "reduced_motion_off",
+      "inputKind": "media",
+      "targetSecond": 82,
+      "actualSecond": 82.623,
+      "inputActionElapsedMs": 622,
+      "freeMiBBefore": 1461,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 1280,
+          "height": 720,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": false,
+        "touchCapable": false,
+        "cssAnimations": 42,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 2
+        },
+        "webgl": {
+          "draws": 65664,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 4104
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 4104
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 57456
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 1457881,
+        "sha256": "5b1f5b41601ca5ac881ca9a3e6ae305df2d0a859d53d10ee797f03c78e350583",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 15.6207,
+          "changedRGBComponentsOver15Pct": 26.33
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-21-reduced_motion_off.png",
+        "bytes": 1457881,
+        "sha256": "5b1f5b41601ca5ac881ca9a3e6ae305df2d0a859d53d10ee797f03c78e350583"
+      }
+    },
+    {
+      "label": "mobile_emulation",
+      "inputKind": "mobile",
+      "targetSecond": 85,
+      "actualSecond": 85.69,
+      "inputActionElapsedMs": 680,
+      "freeMiBBefore": 1451,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": true,
+        "touchCapable": true,
+        "cssAnimations": 46,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 59,
+          "pointerdown": 2,
+          "pointerup": 2,
+          "click": 2,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3
+        },
+        "webgl": {
+          "draws": 68396,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 4280
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 4280
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 59836
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 325927,
+        "sha256": "3b0d928ea18c61fa5acd4a0d8f751976b838dcd667b00d2152c800cd9648b2f3",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 22.4301,
+          "changedRGBComponentsOver15Pct": 27.37
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-22-mobile_emulation.png",
+        "bytes": 325927,
+        "sha256": "3b0d928ea18c61fa5acd4a0d8f751976b838dcd667b00d2152c800cd9648b2f3"
+      }
+    },
+    {
+      "label": "mobile_touch_tap",
+      "inputKind": "mobile",
+      "targetSecond": 87,
+      "actualSecond": 87.467,
+      "inputActionElapsedMs": 461,
+      "freeMiBBefore": 1446,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": true,
+        "touchCapable": true,
+        "cssAnimations": 43,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 60,
+          "pointerdown": 3,
+          "pointerup": 3,
+          "click": 3,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3,
+          "touchstart": 1,
+          "touchend": 1
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 59,
+          "mousemove": 60,
+          "pointerdown": 3,
+          "pointerup": 3,
+          "click": 3,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3,
+          "touchstart": 1,
+          "touchend": 1
+        },
+        "webgl": {
+          "draws": 68612,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 4388
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 4388
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 59836
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 346701,
+        "sha256": "6e393ae3ea826dbd002dbbcd5ce410435bbda80de4dc54369e467d8d9da9d82f",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 3.7962,
+          "changedRGBComponentsOver15Pct": 7.57
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-23-mobile_touch_tap.png",
+        "bytes": 346701,
+        "sha256": "6e393ae3ea826dbd002dbbcd5ce410435bbda80de4dc54369e467d8d9da9d82f"
+      }
+    },
+    {
+      "label": "mobile_touch_swipe",
+      "inputKind": "mobile",
+      "targetSecond": 88.35,
+      "actualSecond": 89.024,
+      "inputActionElapsedMs": 664,
+      "freeMiBBefore": 1449,
+      "screen": {
+        "hostname": "www.gladeye.com",
+        "canvas": true,
+        "webgl2": true,
+        "threeRevision": "154",
+        "win": {
+          "width": 390,
+          "height": 844,
+          "dpr": 1
+        },
+        "scrollY": 0,
+        "docReady": "complete",
+        "reducedMotion": false,
+        "pointerCoarse": true,
+        "touchCapable": true,
+        "cssAnimations": 41,
+        "inputCounts": {
+          "focus": 1,
+          "pointermove": 60,
+          "mousemove": 60,
+          "pointerdown": 4,
+          "pointerup": 3,
+          "click": 3,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3,
+          "touchstart": 2,
+          "touchend": 2,
+          "touchmove": 8
+        },
+        "trustedCounts": {
+          "focus": 1,
+          "pointermove": 60,
+          "mousemove": 60,
+          "pointerdown": 4,
+          "pointerup": 3,
+          "click": 3,
+          "wheel": 2,
+          "keydown": 1,
+          "resize": 3,
+          "touchstart": 2,
+          "touchend": 2,
+          "touchmove": 8
+        },
+        "webgl": {
+          "draws": 68792,
+          "instancedDraws": 0,
+          "signatures": [
+            {
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "instances": 1,
+              "calls": 4478
+            },
+            {
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "instances": 1,
+              "calls": 4478
+            },
+            {
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "instances": 1,
+              "calls": 59836
+            }
+          ]
+        }
+      },
+      "imageMetrics": {
+        "bytes": 408232,
+        "sha256": "1183e003b0fda52496aa7f72e8ac091a989578f7c30122140acff0785a2fa3fb",
+        "fromPrevious": {
+          "meanAbsoluteRGB": 5.3725,
+          "changedRGBComponentsOver15Pct": 9.84
+        }
+      },
+      "privateScreenshot": {
+        "name": "X35-PRIVATE-24-mobile_touch_swipe.png",
+        "bytes": 408232,
+        "sha256": "1183e003b0fda52496aa7f72e8ac091a989578f7c30122140acff0785a2fa3fb"
+      }
+    }
+  ],
+  "issues": [],
+  "startUTC": "2026-11-20T21:13:28.070Z",
+  "navigation": {
+    "loaded": true,
+    "attempts": 1,
+    "previousFailures": []
+  },
+  "observedStartUTC": "2026-11-20T21:13:35.945Z",
+  "schedule": [
+    {
+      "targetSecond": 2,
+      "name": "idle_A",
+      "kind": "control"
+    },
+    {
+      "targetSecond": 6,
+      "name": "idle_B",
+      "kind": "control"
+    },
+    {
+      "targetSecond": 10,
+      "name": "pointer_left_A",
+      "kind": "pointer"
+    },
+    {
+      "targetSecond": 14,
+      "name": "pointer_left_hold",
+      "kind": "hold"
+    },
+    {
+      "targetSecond": 18,
+      "name": "pointer_right_A",
+      "kind": "pointer"
+    },
+    {
+      "targetSecond": 22,
+      "name": "pointer_right_hold",
+      "kind": "hold"
+    },
+    {
+      "targetSecond": 26,
+      "name": "pointer_left_B",
+      "kind": "replicate"
+    },
+    {
+      "targetSecond": 30,
+      "name": "pointer_right_B",
+      "kind": "replicate"
+    },
+    {
+      "targetSecond": 34,
+      "name": "center_reset",
+      "kind": "reset"
+    },
+    {
+      "targetSecond": 38,
+      "name": "drag_press",
+      "kind": "drag"
+    },
+    {
+      "targetSecond": 42,
+      "name": "drag_move",
+      "kind": "drag"
+    },
+    {
+      "targetSecond": 46,
+      "name": "drag_release",
+      "kind": "drag"
+    },
+    {
+      "targetSecond": 50,
+      "name": "canvas_click",
+      "kind": "click"
+    },
+    {
+      "targetSecond": 54,
+      "name": "wheel_down",
+      "kind": "scroll"
+    },
+    {
+      "targetSecond": 58,
+      "name": "wheel_up",
+      "kind": "scroll"
+    },
+    {
+      "targetSecond": 62,
+      "name": "keyboard_focus",
+      "kind": "focus"
+    },
+    {
