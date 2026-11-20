@@ -116,8 +116,8 @@ def main():
     expected_changed = sorted(["09-self-marketing-website/PROJECT-LOG.md", FLOWER + "EXTRACTION-RUNBOOK.md"])
     check("no_preexisting_Github_files_deleted", not deleted, deleted)
     check("only_canonical_runbook_and_project_log_modified", changed == expected_changed, changed)
-    check("all_nine_X25_added_placed_in_original_flower_valley", len(added) == 9 and all(p.startswith(FLOWER) and "/X25-" in p for p in added), added)
-    check("no_unrelated_or_duplicate_repository_created", len(added) == 9 and all(p.startswith(FLOWER) for p in added))
+    check("X25_added_only_owner_source_evidence_and_audit_files", len(added) in (9, 11) and all(p.startswith(FLOWER) and "/X25-" in p for p in added), added)
+    check("no_unrelated_or_duplicate_repository_created", len(added) in (9, 11) and all(p.startswith(FLOWER) for p in added))
 
     # Identical original X01–X24 public Git blobs, including the X24 source/crosswalk.
     historical = [p for p in before if p.startswith(FLOWER) and "/X25-" not in p and p != FLOWER + "EXTRACTION-RUNBOOK.md"]
@@ -138,7 +138,7 @@ def main():
     unchanged = {f"X{i:02d}": stages24.get(f"X{i:02d}", 0) == stages25.get(f"X{i:02d}", 0) for i in range(1, 25)}
     check("all_X01_to_X25_stages_in_canonical_repository", all(stages25.get(f"X{i:02d}", 0) > 0 for i in range(1, 26)), dict(stages25))
     check("X01_to_X24_public_stage_file_coverage_not_diminished", all(unchanged.values()), {k: v for k, v in unchanged.items() if not v})
-    check("X25_stage_nine_public_files_at_snapshot", stages25["X25"] == 9, stages25["X25"])
+    check("X25_stage_expected_nine_or_eleven_public_files_at_snapshot", stages25["X25"] in (9, 11), stages25["X25"])
 
     # Validate 8 original X25 public artifacts with independent bytes + actual GitHub live tree blob.
     file_records = []
@@ -276,7 +276,7 @@ def main():
                        "failed": [name for name, okay in checks.items() if not okay],
                        "checks": checks, "details": details},
         "warnings": warnings,
-        "publicationBoundary": "Snapshot audited BEFORE publication of this audit script/result; new X25 audit files and subsequent normal log/runbook update are expected additive changes, not included in prior published snapshot.",
+        "publicationBoundary": "Every coverage result is pinned to auditedCurrentGitCommit. The current head may include 9 initial X25 files or 11 after its separate auditor+evidence additions; this report does not recursively hash its own changing report file. Recheck after subsequent commits.",
     }
     output = HERE / OUTPUT_NAME
     output.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
