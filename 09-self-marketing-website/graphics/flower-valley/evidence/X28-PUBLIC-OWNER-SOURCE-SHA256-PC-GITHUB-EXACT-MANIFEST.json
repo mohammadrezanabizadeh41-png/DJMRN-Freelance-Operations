@@ -1,0 +1,138 @@
+{
+    "stage":  "X28",
+    "timestampUTC":  "2026-11-20T14:43:21.6744115Z",
+    "repo":  "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+    "branch":  "main",
+    "publicOwnerArtifactCount":  12,
+    "pcToGithubBlobExactVerifiedCount":  12,
+    "allMatched":  true,
+    "privateVendorGPUOrGLSLOrPixelPayloadPublished":  false,
+    "rawCaptureLocations":  "01-private-captures/X28/SPECTOR-90S and ISPETTORE-90S owner PC only",
+    "siteObservedSecondsEachTool":  {
+                                        "Spector":  90.01,
+                                        "Ispettore":  90.48
+                                    },
+    "phaseAcceptance":  "58/58 PASS",
+    "records":  [
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-Build-Independent-Phase-Runners.py",
+                        "githubVerifiedGitBlobSHA1":  "87454adcc1a5ba6255a8f1e071937809ca49e6d8",
+                        "fileName":  "X28-Build-Independent-Phase-Runners.py",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X28-Build-Independent-Phase-Runners.py",
+                        "pcGitBlobSHA1":  "87454adcc1a5ba6255a8f1e071937809ca49e6d8",
+                        "bytes":  11254,
+                        "sha256":  "4d9927e0820eb1c6f6fdf0f2576d7a38726f87a49ad7fc8bfcdb48b9eb71ef82"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-Spector-Playwright-90s-Phase-Capture.cjs",
+                        "githubVerifiedGitBlobSHA1":  "50e0189b5d1d7c70208e606393dd62e0b212ee5a",
+                        "fileName":  "X28-Spector-Playwright-90s-Phase-Capture.cjs",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X28-Spector-Playwright-90s-Phase-Capture.cjs",
+                        "pcGitBlobSHA1":  "50e0189b5d1d7c70208e606393dd62e0b212ee5a",
+                        "bytes":  15308,
+                        "sha256":  "4999e6a9a138c29214d12178200323e1f7523d4168e1260f1f60e8c154f44255"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-Ispettore-Playwright-90s-Phase-Capture.cjs",
+                        "githubVerifiedGitBlobSHA1":  "d25fcb5e6b2a0b446a5977733c283dc2842d8735",
+                        "fileName":  "X28-Ispettore-Playwright-90s-Phase-Capture.cjs",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X28-Ispettore-Playwright-90s-Phase-Capture.cjs",
+                        "pcGitBlobSHA1":  "d25fcb5e6b2a0b446a5977733c283dc2842d8735",
+                        "bytes":  17109,
+                        "sha256":  "ed5a228c582db36099bc1624e9e114b1d0a242cb3a78a25e9e3ace699d5b5eab"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-Private-Screenshot-Sampled-RGB-Comparison.ps1",
+                        "githubVerifiedGitBlobSHA1":  "337c1e9f52bf2c9fbf13255b2013945e0f88e29e",
+                        "fileName":  "X28-Private-Screenshot-Sampled-RGB-Comparison.ps1",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X28-Private-Screenshot-Sampled-RGB-Comparison.ps1",
+                        "pcGitBlobSHA1":  "337c1e9f52bf2c9fbf13255b2013945e0f88e29e",
+                        "bytes":  3266,
+                        "sha256":  "5c3a626419f65912ad7f3367ab71caa640c5bf2bfd659b8e95154e568e2a1bd1"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-Independent-X01-X27-Dual-GPU-Phase-Reconcile.py",
+                        "githubVerifiedGitBlobSHA1":  "2efeaba4f0c1aea690ebaf3129cbc6a517ca80e1",
+                        "fileName":  "X28-Independent-X01-X27-Dual-GPU-Phase-Reconcile.py",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/scripts/X28-Independent-X01-X27-Dual-GPU-Phase-Reconcile.py",
+                        "pcGitBlobSHA1":  "2efeaba4f0c1aea690ebaf3129cbc6a517ca80e1",
+                        "bytes":  20109,
+                        "sha256":  "e9f78476d28ba55bebcee2c10c5b454a275f3a7e5bd5a7908c7424cf0fa88b63"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-OFFICIAL-TOOLS-SOURCE-LICENSE-SECURITY-PREFLIGHT.json",
+                        "githubVerifiedGitBlobSHA1":  "5c0c84981bc4ae3aa6b2c4f4e393066399e70506",
+                        "fileName":  "X28-OFFICIAL-TOOLS-SOURCE-LICENSE-SECURITY-PREFLIGHT.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-OFFICIAL-TOOLS-SOURCE-LICENSE-SECURITY-PREFLIGHT.json",
+                        "pcGitBlobSHA1":  "5c0c84981bc4ae3aa6b2c4f4e393066399e70506",
+                        "bytes":  2918,
+                        "sha256":  "be33e8a10c12a1d187ccbeb8fbb118141ed23102fd9ffaf61cc156f1de0ce04f"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "SPECTOR-90S/X28-SPECTOR-90S-SANITIZED-GPU-AND-NETWORK-TIMELINE.json",
+                        "githubVerifiedGitBlobSHA1":  "9a4cfef6ab73530f2ba4d61690ac1e1fdf61ad51",
+                        "fileName":  "X28-SPECTOR-90S-SANITIZED-GPU-AND-NETWORK-TIMELINE.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-SPECTOR-90S-SANITIZED-GPU-AND-NETWORK-TIMELINE.json",
+                        "pcGitBlobSHA1":  "9a4cfef6ab73530f2ba4d61690ac1e1fdf61ad51",
+                        "bytes":  185279,
+                        "sha256":  "9bd2304167dbf2f29d653174daef398d50f89bf99aaf9316d77cc1c21da8b669"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "ISPETTORE-90S/X28-ISPETTORE-90S-SANITIZED-GPU-TIMELINE.json",
+                        "githubVerifiedGitBlobSHA1":  "73d816c4751c1df5cc12f30feada5d39de6447c4",
+                        "fileName":  "X28-ISPETTORE-90S-SANITIZED-GPU-TIMELINE.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-ISPETTORE-90S-SANITIZED-GPU-TIMELINE.json",
+                        "pcGitBlobSHA1":  "73d816c4751c1df5cc12f30feada5d39de6447c4",
+                        "bytes":  171357,
+                        "sha256":  "a7b57ea0bea6d671d8388924021d70d148eaa2c89f43c6c477d3eb0d1576c30a"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-SANITIZED-PRIVATE-SCREENSHOT-VISUAL-DELTA.json",
+                        "githubVerifiedGitBlobSHA1":  "826ab435a27bd7714a8756f270c93a2bd1194f8f",
+                        "fileName":  "X28-SANITIZED-PRIVATE-SCREENSHOT-VISUAL-DELTA.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-SANITIZED-PRIVATE-SCREENSHOT-VISUAL-DELTA.json",
+                        "pcGitBlobSHA1":  "826ab435a27bd7714a8756f270c93a2bd1194f8f",
+                        "bytes":  11179,
+                        "sha256":  "5ddc7bfd1ce2f0e7e0ec6ed43b6ab0897cb6138f1bb24b1ad54914e9c269806a"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-SANITIZED-EIGHT-PHASE-DUAL-INSPECTOR-GPU-GRAPH-X01-X27-CROSSWALK.json",
+                        "githubVerifiedGitBlobSHA1":  "8d91a4b4ccab63f503c45fafb693525344c4af24",
+                        "fileName":  "X28-SANITIZED-EIGHT-PHASE-DUAL-INSPECTOR-GPU-GRAPH-X01-X27-CROSSWALK.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-SANITIZED-EIGHT-PHASE-DUAL-INSPECTOR-GPU-GRAPH-X01-X27-CROSSWALK.json",
+                        "pcGitBlobSHA1":  "8d91a4b4ccab63f503c45fafb693525344c4af24",
+                        "bytes":  54401,
+                        "sha256":  "4ae6472348540dc9b074d9472fe388a2175db91bceaab50232e913f0dd3fe25f"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-INDEPENDENT-ACCEPTANCE.json",
+                        "githubVerifiedGitBlobSHA1":  "f69e9eb4dc99915eddca1fc8d9691609bb6a0b5b",
+                        "fileName":  "X28-INDEPENDENT-ACCEPTANCE.json",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/evidence/X28-INDEPENDENT-ACCEPTANCE.json",
+                        "pcGitBlobSHA1":  "f69e9eb4dc99915eddca1fc8d9691609bb6a0b5b",
+                        "bytes":  3673,
+                        "sha256":  "d4ca3743f9f4f873edc579dccd7197933a60bdc3668e6a19e09bb5821eda89a6"
+                    },
+                    {
+                        "exactOriginalPCtoPublicGitBlob":  true,
+                        "pcRelativePath":  "/X28-FULL-SPECTOR-ISPETTORE-PLAYWRIGHT-2X90S-X01-X27-HANDOFF-2026-11-20.md",
+                        "githubVerifiedGitBlobSHA1":  "8fe9ca99535a8ed40474f6da0c00a7a488b82ff0",
+                        "fileName":  "X28-FULL-SPECTOR-ISPETTORE-PLAYWRIGHT-2X90S-X01-X27-HANDOFF-2026-11-20.md",
+                        "path":  "09-self-marketing-website/graphics/flower-valley/handoffs/X28-FULL-SPECTOR-ISPETTORE-PLAYWRIGHT-2X90S-X01-X27-HANDOFF-2026-11-20.md",
+                        "pcGitBlobSHA1":  "8fe9ca99535a8ed40474f6da0c00a7a488b82ff0",
+                        "bytes":  8691,
+                        "sha256":  "2ed532c6c31485c158e9cb8417d815cfd29c793675b71a41926c20722946b9f6"
+                    }
+                ]
+}
