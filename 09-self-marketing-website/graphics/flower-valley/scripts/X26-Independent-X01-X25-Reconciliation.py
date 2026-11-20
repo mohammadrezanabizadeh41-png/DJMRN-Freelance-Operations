@@ -155,7 +155,7 @@ def main():
                        "programChanges": counts["programChanges"],
                        "maxCountSingleDraw_Not_distinctFlowerCount": counts["maxCount"],
                        "snapshotMetadataSHA": s["sha256"]})
-    result = {"stage": "X26", "dateUTC": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    result = {"stage": "X26", "dateUTC": live["observationStartUTC"],
               "status": "POST_RUN_VERIFICATION",
               "sourceAuthority": {"officialHistoricalExtension": "https://github.com/3Dparallax/insight",
                                   "legacySHA": SHA_UP, "legacyManifest": 2, "legacyActive": False,
