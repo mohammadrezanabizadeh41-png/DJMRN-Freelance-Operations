@@ -1,0 +1,150 @@
+{
+  "stage": "X33",
+  "stableTimestampUTC": "2026-11-20T20:36:29.654Z",
+  "source": {
+    "repo": "https://github.com/JiaboLi-GitHub/renderdoc-mcp",
+    "version": "v0.3.0",
+    "officialSourceCommit": "50fd55cade854ed24ce8c853fd2dbda04a4b0bdb",
+    "officialReleaseManifestURL": "https://github.com/JiaboLi-GitHub/renderdoc-mcp/releases/download/v0.3.0/renderdoc-mcp-windows-x64-v0.3.0.sha256",
+    "officialZipSHA256": "08cc5ffe4a9eeb34308096e72830461b36d81102fd9f1477cebcb6179e8f6e02",
+    "actualZipSHA256": "08cc5ffe4a9eeb34308096e72830461b36d81102fd9f1477cebcb6179e8f6e02",
+    "license": "MIT",
+    "bundleRenderDoc": "1.43",
+    "ownerCaptureRenderDoc": "1.47",
+    "sameVersionDLLSwaps": false,
+    "persistentCodexConfigurationChanged": false
+  },
+  "mcp": {
+    "transport": "ACTUAL_STDIO_JSONRPC",
+    "protocol": "2025-03-26",
+    "serverReportedVersion": "1.0.0",
+    "advertisedToolCount": 52,
+    "actualInvokedToolsUnique": 17,
+    "testedMCPcalls": 21,
+    "capturedFileSize": 44495,
+    "capturedFileSHA256": "b5fe755c5085eae72ee54347656afac070521cf78ffdabadcfa1605ddd8ddae4",
+    "openedReal147RDCWith143Runtime": true,
+    "api": "D3D11",
+    "events": 5,
+    "draws": 3,
+    "drawDetails": [
+      {
+        "eventId": 10,
+        "indicesOrVertices": 2790,
+        "instances": 0,
+        "flags": "Drawcall|Indexed"
+      },
+      {
+        "eventId": 13,
+        "indicesOrVertices": 5,
+        "instances": 0,
+        "flags": "Drawcall"
+      },
+      {
+        "eventId": 16,
+        "indicesOrVertices": 3,
+        "instances": 3,
+        "flags": "Drawcall|Instanced"
+      }
+    ],
+    "resourceCount": 11,
+    "bufferSizes": [
+      84,
+      140,
+      5580,
+      14336
+    ],
+    "renderTarget": {
+      "width": 768,
+      "height": 480,
+      "format": "R8G8B8A8_UNORM",
+      "byteSize": 1474560
+    },
+    "shader": {
+      "vsID": "46",
+      "psID": "47",
+      "vsInputSemantics": [
+        "POSITION",
+        "COLOR",
+        "SV_InstanceID"
+      ],
+      "psOutputSemantics": [
+        "SV_Target"
+      ]
+    },
+    "passStats": {
+      "passCount": 1,
+      "threeDraws": 3,
+      "reportedTotalTriangles": 934,
+      "expectedActualOwnerTriangles": 933,
+      "mismatchNote": "Report's 934 is a heuristic tally; owner true triangle draws 930 grid+3 triangle instances=933; 5 points are NOT triangles"
+    },
+    "actualPixelRGBA": [
+      0.03921568766236305,
+      0.07058823853731155,
+      0.1411764770746231,
+      1.0
+    ],
+    "gpuDebugMessageCount": 0,
+    "errors": []
+  },
+  "live": {
+    "site": "https://www.gladeye.com/",
+    "actualSeconds": 90.01,
+    "sevenPhaseTimingAndDrawing": [
+      {
+        "phase": "initial",
+        "second": 3.41,
+        "cumulativeObservedDrawCalls": 0
+      },
+      {
+        "phase": "hover_left",
+        "second": 16.56,
+        "cumulativeObservedDrawCalls": 5408
+      },
+      {
+        "phase": "hover_right",
+        "second": 29.58,
+        "cumulativeObservedDrawCalls": 17520
+      },
+      {
+        "phase": "scroll_450",
+        "second": 42.48,
+        "cumulativeObservedDrawCalls": 29712
+      },
+      {
+        "phase": "pointer_center",
+        "second": 55.55,
+        "cumulativeObservedDrawCalls": 42048
+      },
+      {
+        "phase": "reverse_scroll",
+        "second": 72.48,
+        "cumulativeObservedDrawCalls": 58224
+      },
+      {
+        "phase": "return_idle",
+        "second": 87.55,
+        "cumulativeObservedDrawCalls": 72528
+      }
+    ],
+    "knownFirstPartyPaths": 46,
+    "sameHistoricalBodyShaAndSize": 35,
+    "newFirstPartyPaths": 0,
+    "knownInitiatorEdges": 37,
+    "newInitiatorEdges": 0,
+    "minFreeRAMMiB": 1199,
+    "toolInVendorSite": "NO RenderDoc MCP/native injection; read-only draw command count observer",
+    "captureOfProprietarySite": false,
+    "privateScreenshotContentPublished": false
+  },
+  "boundaries": {
+    "ownedRdcOnly": true,
+    "persistentChatGPTOrCodexMCPPluginRegistered": false,
+    "GPUreplaySuccessfulForThisSpecific1_47File": true,
+    "universalRDCBackwardCompatibility": "UNVERIFIED",
+    "vendorSceneAssetExtraction": "NOT_PERFORMED",
+    "shaderConstantBufferSampling": "not present in owner fixture",
+    "sourceVendorCodeRecovered": false
+  }
+}
