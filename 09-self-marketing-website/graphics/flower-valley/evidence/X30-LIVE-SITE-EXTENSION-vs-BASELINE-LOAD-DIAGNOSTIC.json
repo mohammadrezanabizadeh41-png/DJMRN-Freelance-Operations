@@ -1,0 +1,307 @@
+{
+  "stage": "X30-LIVE-BROWSER-A-B",
+  "timestamp": "2026-11-20T18:43:45.477Z",
+  "page": "https://www.gladeye.com/",
+  "modes": [
+    {
+      "mode": "NO_EXTENSION_BASELINE",
+      "startUtc": "2026-11-20T18:43:45.478Z",
+      "responses": [
+        {
+          "path": "https://www.gladeye.com/",
+          "status": 200,
+          "type": "document"
+        },
+        {
+          "path": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/favicon.svg",
+          "status": 200,
+          "type": "other"
+        }
+      ],
+      "failedRequests": [
+        {
+          "path": "https://www.googletagmanager.com/gtag/js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED",
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+      ],
+      "snapshots": [
+        {
+          "second": 1,
+          "ready": "loading",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": false,
+          "officialContexts": null,
+          "scripts": 7,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 281
+        },
+        {
+          "second": 5,
+          "ready": "loading",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": false,
+          "officialContexts": null,
+          "scripts": 7,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 281
+        },
+        {
+          "second": 12,
+          "ready": "loading",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": false,
+          "officialContexts": null,
+          "scripts": 7,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 281
+        },
+        {
+          "second": 22,
+          "ready": "complete",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": false,
+          "officialContexts": null,
+          "scripts": 27,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 281
+        }
+      ],
+      "navigation": "FAILED:Navigation timeout of 38000 ms exceeded",
+      "pending": [
+        {
+          "path": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+          "kind": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+          "kind": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+          "kind": "script"
+        }
+      ],
+      "endUtc": "2026-11-20T18:44:46.489Z"
+    },
+    {
+      "mode": "WITH_OFFICIAL_BINBUF_MV3",
+      "startUtc": "2026-11-20T18:44:48.002Z",
+      "responses": [
+        {
+          "path": "https://www.gladeye.com/",
+          "status": 200,
+          "type": "document"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+          "status": 200,
+          "type": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+          "status": 200,
+          "type": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "status": 200,
+          "type": "script"
+        }
+      ],
+      "failedRequests": [
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "error": "net::ERR_CONNECTION_CLOSED"
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_CLOSED"
+      ],
+      "snapshots": [
+        {
+          "second": 1,
+          "ready": "interactive",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": true,
+          "officialContexts": null,
+          "scripts": 27,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 287
+        },
+        {
+          "second": 5,
+          "ready": "interactive",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": true,
+          "officialContexts": null,
+          "scripts": 27,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 287
+        },
+        {
+          "second": 12,
+          "ready": "interactive",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": true,
+          "officialContexts": null,
+          "scripts": 27,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 287
+        },
+        {
+          "second": 22,
+          "ready": "interactive",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": true,
+          "officialContexts": null,
+          "scripts": 27,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 287
+        }
+      ],
+      "navigation": "DOM_CONTENT_LOADED",
+      "pending": [
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.googletagmanager.com/gtag/js",
+          "kind": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+          "kind": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+          "kind": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+          "kind": "font"
+        }
+      ],
+      "endUtc": "2026-11-20T18:45:12.313Z"
+    }
+  ],
+  "stop": "A_B_COMPLETED",
+  "minFreeRamMiB": 2303
+}
