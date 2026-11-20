@@ -1,0 +1,2995 @@
+{
+  "stage": "X23-R2",
+  "dateUtc": "2026-11-20T09:40:04.947546+00:00",
+  "status": "COMPLETE_SCOPE_QUALIFIED_RERUN_1GB",
+  "scope": "Repeat Ispettore X23 after request to remove prior 20MB packet limit; user cap 1 decimal GB per transfer and RAM emergency stop at 100 MiB. One live anonymous Gladeye browser session ran 91.27s (90s target, final snapshot finalized after 90s), sampling 15 individual WebGL2 frames and 3 complete browser/scene/texture snapshots with 3 private PNGs. Not continuous capture of every GPU frame.",
+  "userSettings": {
+    "maxTransferBytes": 1000000000,
+    "emergencyFreeRamMiB": 100,
+    "priorX23SingleGPUPacketCapBytes": 20000000,
+    "effectiveGPUPacketMaxBytes": 2162869,
+    "noGpuRawPacketDiscardedDueToSize": true
+  },
+  "officialTool": {
+    "upstream": "https://github.com/velvetfrustum/ispettore",
+    "release": "v0.1.1",
+    "sourceArchiveSHA256": "ca49c6a4f24a3872ef2a24f792f2598374a17591124ece702c56017d9b8973df",
+    "verifiedExtractedSourceFiles": 168,
+    "sourceZipFileCount": 168,
+    "upstreamMV3ManifestVersion": "0.1.0",
+    "extensionBuiltSha256": "fa1efd86ac4278a583912de121a9264906bdd565ccb101825c64d4c35d74d394",
+    "unitTestsPassed": 245,
+    "unitTestsFailed": 0,
+    "newInstallRequired": false
+  },
+  "session": {
+    "targetSeconds": 90,
+    "actualObservedSeconds": 91.27,
+    "wallSeconds": 95.77,
+    "stopReason": "COMPLETED_90S",
+    "errors": [],
+    "minRamFreeMiB": 807,
+    "framesCaptured": 15,
+    "fullSceneSnapshots": 3,
+    "privatePNG": 3,
+    "siteNetworkPaths": 46,
+    "newSiteOriginalURLPaths": 0,
+    "networkSourceBodySHACompared": 36,
+    "allObservedBodySHARepeats": true,
+    "networkInitiatorPairs": 37,
+    "newInitiatorPairs": 0
+  },
+  "newDetailedEvidence": {
+    "GPUPerFrame": [
+      {
+        "label": "baseline",
+        "requestedSecond": 3,
+        "completedAtSecond": 7.45,
+        "commandCount": 137,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {},
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "ef24aaf6312121fe828d4e9d2e018e428bcd0ddd68c44222b7d5c4cef7c0adb9",
+        "privateRawBytes": 1866488,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 0,
+            "frameCount": 0
+          }
+        ]
+      },
+      {
+        "label": "pointer_high_left",
+        "requestedSecond": 9,
+        "completedAtSecond": 12.38,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "48e5693becb800acd84592f5afd692eed25cb071c40f2fe11636d660f3bd51ea",
+        "privateRawBytes": 1867759,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 137,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_mid_right",
+        "requestedSecond": 15,
+        "completedAtSecond": 17.47,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "49a1d77651ce053ddac3f42c158cf3540bbba74e50a1c57c691689db2492bbe8",
+        "privateRawBytes": 1984827,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "scroll_down_250",
+        "requestedSecond": 21,
+        "completedAtSecond": 23.31,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "8b981ea24bf1b5dfc2b2531ccb522e2cd8a13d72421563a34b299b54e94802b2",
+        "privateRawBytes": 2042717,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_low_left",
+        "requestedSecond": 27,
+        "completedAtSecond": 29.2,
+        "commandCount": 139,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1,
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "b34bdfe61d258b2517fb12c64dcdff6480699a7eabf15f59976822ab88dec660",
+        "privateRawBytes": 1830866,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "scroll_up_300",
+        "requestedSecond": 33,
+        "completedAtSecond": 35.3,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "2897781bda89aff3f5c98e45e528f03c0ea482641e9aa99dd1ec3f453a68ca39",
+        "privateRawBytes": 2162869,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_high_right",
+        "requestedSecond": 39,
+        "completedAtSecond": 41.2,
+        "commandCount": 139,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1,
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "f39071f126085592e523535cea52e471801b72eefee1f567bad46f81c5e40078",
+        "privateRawBytes": 1859105,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "wheel_450",
+        "requestedSecond": 45,
+        "completedAtSecond": 47.22,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "6771b84bef86f95f33551d039a836cda30cc1819495d71455c89a1ab50084db5",
+        "privateRawBytes": 1848875,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_bottom",
+        "requestedSecond": 51,
+        "completedAtSecond": 52.96,
+        "commandCount": 142,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniformMatrix4fv": 2,
+          "uniform3f": 1,
+          "uniform1f": 5,
+          "uniform2f": 11,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniformMatrix4fv": 1,
+          "uniform1f": 3,
+          "uniform2f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 3,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "137091874e3c314c5a5307e574d5005a2159babb42911391fe2aa1201d2b6d2b",
+        "privateRawBytes": 1033761,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "wheel_reverse",
+        "requestedSecond": 57,
+        "completedAtSecond": 59.02,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "9dac0833b2aef67090910993dba892a6ef95272e4549fdd18cc1d1a7be007505",
+        "privateRawBytes": 1038996,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 142,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_left",
+        "requestedSecond": 63,
+        "completedAtSecond": 65.03,
+        "commandCount": 142,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniformMatrix4fv": 2,
+          "uniform3f": 1,
+          "uniform1f": 5,
+          "uniform2f": 11,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniformMatrix4fv": 1,
+          "uniform1f": 3,
+          "uniform2f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 3,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "b60e08015f61de7435065a00b54f77a1d062648cfe5264159510b62c22981e91",
+        "privateRawBytes": 1382079,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "wheel_800",
+        "requestedSecond": 69,
+        "completedAtSecond": 71.22,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "facc7c8cde6b09d34bc72fca9412f808fa3c343bb96ee523e6cfaa7fae2f9479",
+        "privateRawBytes": 1788505,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 142,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_right",
+        "requestedSecond": 75,
+        "completedAtSecond": 77.16,
+        "commandCount": 139,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1,
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "485d324e792ea72c2035ec624e4324f55c0f2380dc3d44016146576d057ef0da",
+        "privateRawBytes": 1693665,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "wheel_up",
+        "requestedSecond": 81,
+        "completedAtSecond": 83.12,
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "61270f66b9dabc6a136b172e5923d717128c0b449f58268b65ba1b46dee6aee3",
+        "privateRawBytes": 1695103,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      {
+        "label": "pointer_reverse",
+        "requestedSecond": 87,
+        "completedAtSecond": 89.11,
+        "commandCount": 139,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "newCommandsComparedToFirstFrame": {
+          "uniform2f": 1,
+          "uniform1f": 1
+        },
+        "drawCount": 16,
+        "drawSignature": [
+          {
+            "method": "drawElements",
+            "mode": 0,
+            "count": 960000
+          },
+          {
+            "method": "drawElements",
+            "mode": 4,
+            "count": 6
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          },
+          {
+            "method": "drawArrays",
+            "mode": 4,
+            "count": 3
+          }
+        ],
+        "programCount": 11,
+        "shaderSourceSHA256Unique": 22,
+        "shaderSourceMatchesX22": true,
+        "eventCounts": {
+          "clear": 14,
+          "draw": 16
+        },
+        "sceneObjectDrawTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "blobCount": 2,
+        "blobBytesByType": [
+          {
+            "type": "Float32Array",
+            "reportedBytes": 64
+          },
+          {
+            "type": "Float32Array",
+            "reportedBytes": 60
+          }
+        ],
+        "GPUhardwareTimingAvailable": false,
+        "privateRawSHA256": "0891e4782e206acfcf34c196d7fcd0d23cb466390ad19715ba569ec306b22a9c",
+        "privateRawBytes": 1736369,
+        "viewport": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      }
+    ],
+    "snapshots": [
+      {
+        "label": "baseline",
+        "capturedSecond": 7.45,
+        "privateRawSha256": "c07091b58353378cfc958bed017e8db15b39dd1c22c9ddfb96b7cb33e5e71789",
+        "privateRawBytes": 7496189,
+        "nodes": [
+          {
+            "type": "Scene",
+            "depth": 0,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "PerspectiveCamera",
+            "depth": 3,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Points",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Mesh",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          }
+        ],
+        "sceneNodes": 7,
+        "cameraFromComposer": "OrthographicCamera",
+        "sceneCameraTypes": [
+          "PerspectiveCamera"
+        ],
+        "textureCount": 17,
+        "textureDimensions": [
+          {
+            "w": 1,
+            "h": 1,
+            "target": "TEXTURE_CUBE_MAP_NEGATIVE_Z",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 125,
+            "h": 88,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          }
+        ],
+        "rendererCount": 1,
+        "modelRecords": [
+          {
+            "format": "glb",
+            "fileName": "camera-path07.glb",
+            "bytes": 10132,
+            "urlAlreadyKnown": true
+          }
+        ],
+        "programCount": 11,
+        "sceneTreeCaptured": true
+      },
+      {
+        "label": "wheel_450",
+        "capturedSecond": 47.22,
+        "privateRawSha256": "9e1b0214e7adad9b2d6aec498a6defe0f14caa22d88b32fde7b7f4a1f061b2c3",
+        "privateRawBytes": 7394072,
+        "nodes": [
+          {
+            "type": "Scene",
+            "depth": 0,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "PerspectiveCamera",
+            "depth": 3,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Points",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Mesh",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          }
+        ],
+        "sceneNodes": 7,
+        "cameraFromComposer": "OrthographicCamera",
+        "sceneCameraTypes": [
+          "PerspectiveCamera"
+        ],
+        "textureCount": 17,
+        "textureDimensions": [
+          {
+            "w": 1,
+            "h": 1,
+            "target": "TEXTURE_CUBE_MAP_NEGATIVE_Z",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 125,
+            "h": 88,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          }
+        ],
+        "rendererCount": 1,
+        "modelRecords": [
+          {
+            "format": "glb",
+            "fileName": "camera-path07.glb",
+            "bytes": 10132,
+            "urlAlreadyKnown": true
+          }
+        ],
+        "programCount": 11,
+        "sceneTreeCaptured": true
+      },
+      {
+        "label": "pointer_reverse",
+        "capturedSecond": 89.11,
+        "privateRawSha256": "55b8ec43ad657da263997de737f6d5a99fd1a7156f3ca31cb13f984d335a2133",
+        "privateRawBytes": 6931344,
+        "nodes": [
+          {
+            "type": "Scene",
+            "depth": 0,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "PerspectiveCamera",
+            "depth": 3,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Points",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Object3D",
+            "depth": 1,
+            "name": "(unnamed)",
+            "visible": true
+          },
+          {
+            "type": "Mesh",
+            "depth": 2,
+            "name": "(unnamed)",
+            "visible": true
+          }
+        ],
+        "sceneNodes": 7,
+        "cameraFromComposer": "OrthographicCamera",
+        "sceneCameraTypes": [
+          "PerspectiveCamera"
+        ],
+        "textureCount": 17,
+        "textureDimensions": [
+          {
+            "w": 1,
+            "h": 1,
+            "target": "TEXTURE_CUBE_MAP_NEGATIVE_Z",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1500,
+            "h": 1312,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 125,
+            "h": 88,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 640,
+            "h": 360,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 320,
+            "h": 180,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 160,
+            "h": 90,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 80,
+            "h": 45,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 40,
+            "h": 23,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          },
+          {
+            "w": 1280,
+            "h": 720,
+            "target": "TEXTURE_2D",
+            "hasPreview": true,
+            "hasFullPreview": true,
+            "previewError": null
+          }
+        ],
+        "rendererCount": 1,
+        "modelRecords": [
+          {
+            "format": "glb",
+            "fileName": "camera-path07.glb",
+            "bytes": 10132,
+            "urlAlreadyKnown": true
+          }
+        ],
+        "programCount": 11,
+        "sceneTreeCaptured": true
+      }
+    ],
+    "realObjectTreeNodeCount": 7,
+    "registeredTextureCount": 17,
+    "rendererCount": 1,
+    "reportedDistinctModelCount": 1,
+    "cameraFromComposer": "OrthographicCamera",
+    "cameraInSceneGraph": "PerspectiveCamera",
+    "knownCameraModelOriginal": "/valley/camera-path07.glb (10132 bytes; already known original asset)",
+    "BlobsPerFrame": {
+      "standard": 2,
+      "transient": 3
+    },
+    "extraUniformCallNotNewShader": [
+      "uniformMatrix4fv",
+      "uniform1f",
+      "uniform2f"
+    ],
+    "pingPongFramebufferSwitch": {
+      "firstFourSamples": "EffectComposer.rt2",
+      "laterElevenSamples": "EffectComposer.rt1",
+      "firstObservedAtSeconds": 29.2,
+      "differentStepNamesOnlyAtDrawIndices": [
+        0,
+        1,
+        14
+      ],
+      "shaderDrawSignaturesRemainExact": true
+    },
+    "X22_X23_previousGPUShadersSHA": 22,
+    "newGPUShaderSourceSHA": 0,
+    "newHTTPOriginalResources": 0,
+    "rawGLSLAndTexturePreviewsPublished": false
+  },
+  "x01x22": {
+    "canonicalOriginal78PathIndexUnchanged": true,
+    "X19OriginalJSRehashed": 34,
+    "X16PriorInitiatorEdgesReused": 37,
+    "X21PreviousAcceptance": "45/45",
+    "X22Previous90sAcceptance": "87/87",
+    "PreviousX23Acceptance": "114/114",
+    "X22DrawSignatureMatchesForAll15Frames": true
+  },
+  "independentAcceptance": {
+    "passed": 358,
+    "total": 358,
+    "failed": []
+  },
+  "limitations": [
+    "Official Ispettore captures one GPU frame when armed; 15 frames sampled over 90s do not equal every frame of a 90s rendering.",
+    "One complete scene snapshot has 17 textures, but this is not proof of all possible scene state/route variations.",
+    "Ispettore on Three.js r154 is best-effort semantic introspection; original source authored project unavailable.",
+    "No certified hardware GPU time/FPS values; instrumented CPU issue durations cannot substitute.",
+    "X23-R2 CDP response body hashes are 36 exact repetitions in this run (prior X23 had 38); browser response-body coverage is not exhaustive.",
+    "No new original vendor source/data copied into public GitHub; raw shader/texture/scene/image/GPU captures remain only on laptop."
+  ]
+}

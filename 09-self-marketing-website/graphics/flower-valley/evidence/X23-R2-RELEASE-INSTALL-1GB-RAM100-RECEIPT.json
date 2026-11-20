@@ -1,0 +1,40 @@
+{
+  "stage": "X23-R2",
+  "sessionDate": "2026-11-20",
+  "source": "https://github.com/velvetfrustum/ispettore",
+  "releaseTag": "v0.1.1",
+  "actualPackagedMV3ManifestVersion": "0.1.0",
+  "license": "Apache-2.0",
+  "sourceArchiveSHA256": "ca49c6a4f24a3872ef2a24f792f2598374a17591124ece702c56017d9b8973df",
+  "sourceZipFileIntegrity": "168/168 exact per-file SHA256",
+  "officialBuiltExtensionInjectedSHA256": "fa1efd86ac4278a583912de121a9264906bdd565ccb101825c64d4c35d74d394",
+  "nativeUnitTests": {
+    "passed": 245,
+    "failed": 0
+  },
+  "runtime": {
+    "isolatedBrowser": "Chrome for Testing 157",
+    "originalThirdPartySite": "https://www.gladeye.com/",
+    "publicAnonymousOnly": true,
+    "newInstall": false,
+    "perTransferCapBytes": 1000000000,
+    "emergencyFreeRAMMiB": 100,
+    "actualFreeRAMMinMiB": 807,
+    "fullSceneTexturePreview": true,
+    "targetSec": 90,
+    "realObservedSec": 91.27,
+    "actualFullGPUSingleFrameCaptures": 15,
+    "actualFullSceneAndTextureCaptures": 3,
+    "actualPrivatePNG": 3
+  },
+  "priorX23Original": {
+    "acceptance": "114/114",
+    "filesOverwritten": false,
+    "note": "original 20MB GPU packet guard never triggered in R1; its extension to 1GB is a new authorized configuration, not proof of missing earlier frames"
+  },
+  "currentX23R2": {
+    "acceptance": "358/358",
+    "newDerivedFindings": "EffectComposer.rt2 to rt1 around 29.20s, extra transient 142-command uniform update frames, 7 scene nodes and 17 GPU textures full preview"
+  },
+  "scopeAndReversibility": "owner scripts and isolated browser. No production change; no raw shader or original GPU pixel files made public."
+}

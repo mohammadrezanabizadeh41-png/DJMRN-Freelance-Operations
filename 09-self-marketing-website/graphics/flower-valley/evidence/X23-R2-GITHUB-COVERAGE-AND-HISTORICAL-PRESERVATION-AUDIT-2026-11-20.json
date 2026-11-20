@@ -1,0 +1,126 @@
+{
+  "stage": "X23-R2",
+  "dateUtc": "2026-11-20",
+  "branch": "main",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "baselineHead": "4b179272475690b2bc44a642128cfdb4292faf1b",
+  "scope": "Public GitHub stage artifact presence X01-X24; independent exact blob-preservation checks of original X23 R1, later X24 and canonical X19 URL+SHA authority; new X23-R2 358/358 technical acceptance elsewhere.",
+  "stagePresence": [
+    {
+      "stage": "X01",
+      "files": 14
+    },
+    {
+      "stage": "X02",
+      "files": 3
+    },
+    {
+      "stage": "X03",
+      "files": 1
+    },
+    {
+      "stage": "X04",
+      "files": 2
+    },
+    {
+      "stage": "X05",
+      "files": 1
+    },
+    {
+      "stage": "X06",
+      "files": 1
+    },
+    {
+      "stage": "X07",
+      "files": 3
+    },
+    {
+      "stage": "X08",
+      "files": 2
+    },
+    {
+      "stage": "X09",
+      "files": 1
+    },
+    {
+      "stage": "X10",
+      "files": 2
+    },
+    {
+      "stage": "X11",
+      "files": 10
+    },
+    {
+      "stage": "X12",
+      "files": 10
+    },
+    {
+      "stage": "X13",
+      "files": 5
+    },
+    {
+      "stage": "X14",
+      "files": 5
+    },
+    {
+      "stage": "X15",
+      "files": 8
+    },
+    {
+      "stage": "X16",
+      "files": 8
+    },
+    {
+      "stage": "X17",
+      "files": 7
+    },
+    {
+      "stage": "X18",
+      "files": 15
+    },
+    {
+      "stage": "X19",
+      "files": 34
+    },
+    {
+      "stage": "X20",
+      "files": 8
+    },
+    {
+      "stage": "X21",
+      "files": 8
+    },
+    {
+      "stage": "X22",
+      "files": 16
+    },
+    {
+      "stage": "X23",
+      "files": 21
+    },
+    {
+      "stage": "X24",
+      "files": 16
+    }
+  ],
+  "all24HaveEvidence": true,
+  "priorX23OriginalFileCount": 11,
+  "priorX23OriginalGitBlobsUnchanged": true,
+  "followingX24OriginalFileCount": 16,
+  "followingX24GitBlobsUnchanged": true,
+  "canonical78URLResourceLedgerBlobSHA1": "2764733dff2b0d6e40ad176f66a25a418ec2d663",
+  "originalXHRNetworkAuthorityAltered": false,
+  "newR2OwnerFiles": 9,
+  "newR2ShaManifestPath": "09-self-marketing-website/graphics/flower-valley/evidence/X23-R2-PUBLIC-SOURCE-TO-GIT-SHA256-MANIFEST.json",
+  "R2scope": "15 independent WebGL2 frames, 3 full scene and texture previews, 3 private PNG, 91.27 second live page session, 1GB per transfer and 100MiB RAM stop, 358/358 independent tests",
+  "distinctOriginalSitePathCount": 78,
+  "noNewOriginalSiteResourceUrls": true,
+  "publishedPrivateRawShaderOrTextureFiles": false,
+  "knownLimitations": [
+    "Original X23 R1 114/114 and later X24 66/66 unchanged; new R2 is an addendum not a replacement.",
+    "15 captured GPU frames over 90 second target, not every GPU frame in that period.",
+    "36 response-body SHA+byte matches in R2; previous R1 saw 38, so do not claim all HTTP bodies captured.",
+    "One capture finishes after 90s because final full-scene GPU inspection completed at 91.27s.",
+    "Raw GLSL/texture/preview/screenshot data remains local and private."
+  ]
+}

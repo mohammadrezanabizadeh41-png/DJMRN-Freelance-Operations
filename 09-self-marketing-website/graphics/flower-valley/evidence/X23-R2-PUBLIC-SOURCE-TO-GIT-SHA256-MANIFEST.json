@@ -1,0 +1,120 @@
+{
+  "stage": "X23-R2",
+  "generatedUtc": "2026-11-20T09:42:21.497934+00:00",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "originalX23R1": "HISTORICAL preserved 114/114",
+  "previousX24": "PRESERVED 66/66",
+  "authorizedTransferLimitBytes": 1000000000,
+  "RAMStopFreeMiB": 100,
+  "ownerPublicFiles": 9,
+  "entries": [
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X23-R2-1GB-RAM100-FULL-90S-AND-X01-X22-CROSSWALK-2026-11-20.md",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-1GB-RAM100-FULL-90S-AND-X01-X22-CROSSWALK-2026-11-20.md",
+      "source_sha256": "6bb39ac8006f190c199a8859a5e3d9e8d17d8c75278bae4e3f7d6f85f3a30712",
+      "source_bytes": 7536,
+      "published_sha256": "2c75bb1fac1d23799db55f1189012fa2d197ad54ff326d301541be08f20451f5",
+      "published_bytes": 7456,
+      "gitBlobSHA1": "86c101faf23f562d53ba4ae5b7d45658fd7b2851",
+      "newlineOrUtf8Normalized": true,
+      "class": "SANITIZED_DERIVED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-R2-90S-15FRAMES-3SCENES-SANITIZED-RECONCILIATION.json",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-90S-15FRAMES-3SCENES-SANITIZED-RECONCILIATION.json",
+      "source_sha256": "cba6e3d1a85ba834e15ba4ae60afd80e791c0b8b58295d007816b67d8a6942fb",
+      "source_bytes": 76832,
+      "published_sha256": "6006d9f2860a47ea53e73cbf99f3a66182fc2eaa900ddf37e9e1ac40cd3099cd",
+      "published_bytes": 73837,
+      "gitBlobSHA1": "b44edb1fd578ca3230c6aad998a9d835d765a75a",
+      "newlineOrUtf8Normalized": true,
+      "class": "SANITIZED_DERIVED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-R2-INDEPENDENT-ACCEPTANCE.json",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-INDEPENDENT-ACCEPTANCE.json",
+      "source_sha256": "7855adfd149057e3a1f0a1d6263c1f100269cd6e92ca682c384ff6f2a0cbe31a",
+      "source_bytes": 16495,
+      "published_sha256": "d8c328cec32bef5a1e279358a8018a2b8fdcd32a62df008ceb2400005d44fd16",
+      "published_bytes": 16125,
+      "gitBlobSHA1": "7e27b93965e70eb9d3e7ce206bc1d855f596af58",
+      "newlineOrUtf8Normalized": true,
+      "class": "SANITIZED_DERIVED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-R2-90S-SANITIZED-ISPETTORE-GPU-TIMELINE.json",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-90S-SANITIZED-ISPETTORE-GPU-TIMELINE.json",
+      "source_sha256": "1c123710c1fd1a76395bd41d5d6e94aecfdeda60b9f7dbb7db0a30e0ae113e9e",
+      "source_bytes": 120271,
+      "published_sha256": "1c123710c1fd1a76395bd41d5d6e94aecfdeda60b9f7dbb7db0a30e0ae113e9e",
+      "published_bytes": 120271,
+      "gitBlobSHA1": "8011711bf68d7f91317af363c7eed256aae1ab7e",
+      "newlineOrUtf8Normalized": false,
+      "class": "SANITIZED_DERIVED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-R2-RELEASE-INSTALL-1GB-RAM100-RECEIPT.json",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-RELEASE-INSTALL-1GB-RAM100-RECEIPT.json",
+      "source_sha256": "5d417b382a9da23c70dc409e659549daed899d24a56466b381b13f11af1672a8",
+      "source_bytes": 1683,
+      "published_sha256": "2f5607009477dd851122196631a4e6855da7aa042b9f71c79015de6a1dc1fa58",
+      "published_bytes": 1643,
+      "gitBlobSHA1": "96a66c3b66143368f5b2e8ad2f77f4e3f9bd3d94",
+      "newlineOrUtf8Normalized": true,
+      "class": "SANITIZED_DERIVED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-R2-Full-90s-Ispettore-1GB-100MiB-RAM-Runner.cjs",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-Full-90s-Ispettore-1GB-100MiB-RAM-Runner.cjs",
+      "source_sha256": "8d1efe8a9caf4c5ca7a7a986125bbddb33716a140c11c23f73b85fc237f125d2",
+      "source_bytes": 15296,
+      "published_sha256": "4b6d928b8b1582a06bc3189feb95e60faebe7e50b2321048fa199f2339c5b069",
+      "published_bytes": 15104,
+      "gitBlobSHA1": "a3551bd02668d25a8bb7434270ec1b62daf81095",
+      "newlineOrUtf8Normalized": true,
+      "class": "OWNER_AUTHORED_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-R2-Independent-Reconciliation-and-Acceptance.py",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-Independent-Reconciliation-and-Acceptance.py",
+      "source_sha256": "c9a4cbf8dda4644b717b46299e3956c30d85dcdd8655fd4e4acdc3cf198d449a",
+      "source_bytes": 19042,
+      "published_sha256": "e0d9337d540c882f236a373845ba4672673124de963e10e239d3d353d18baef5",
+      "published_bytes": 18817,
+      "gitBlobSHA1": "a67f3031994c47fa324537516839c269e842b036",
+      "newlineOrUtf8Normalized": true,
+      "class": "OWNER_AUTHORED_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-R2-Build-Public-Handoff.py",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-Build-Public-Handoff.py",
+      "source_sha256": "7c4fe0d963052894dea19a48d0ba1cc528b93e9a1148acc3ecae5a587509de49",
+      "source_bytes": 7993,
+      "published_sha256": "7c4fe0d963052894dea19a48d0ba1cc528b93e9a1148acc3ecae5a587509de49",
+      "published_bytes": 7993,
+      "gitBlobSHA1": "b29ac1b576fd4d004fe1b3c5c9daddd3117048a5",
+      "newlineOrUtf8Normalized": false,
+      "class": "OWNER_AUTHORED_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-R2-Prepare-GitHub-Publication.py",
+      "ownerOriginRelative": "02-reviewed-derived/X23-CURRENT/X23-RERUN-1GB-2026-11-20/X23-R2-Prepare-GitHub-Publication.py",
+      "source_sha256": "5e0375f0bacb5bcdfcc1e9639427a31c437abfa74d8928c0e1911b8fcfca61cb",
+      "source_bytes": 3951,
+      "published_sha256": "5e0375f0bacb5bcdfcc1e9639427a31c437abfa74d8928c0e1911b8fcfca61cb",
+      "published_bytes": 3951,
+      "gitBlobSHA1": "e1e61baaf71fc43600c59642bcc21b47c8c8b70e",
+      "newlineOrUtf8Normalized": false,
+      "class": "OWNER_AUTHORED_SCRIPT"
+    }
+  ],
+  "canonicalOriginalResources": "X01–X19 original 78-path URL+SHA index; unchanged",
+  "privateExcluded": [
+    "15 original GPU JSON packets with GLSL",
+    "3 original full scene texture data JSON packets",
+    "3 source site PNG screenshots",
+    "private official unit-test output"
+  ],
+  "note": "Each source SHA is measured from laptop bytes. Public Git SHA is exact Git blob SHA1. Raw original-site graphics and shaders remain on PC; no circular manifest self hash."
+}

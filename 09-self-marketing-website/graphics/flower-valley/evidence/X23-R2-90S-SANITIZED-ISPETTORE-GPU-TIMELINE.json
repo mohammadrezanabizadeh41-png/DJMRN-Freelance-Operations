@@ -1,0 +1,4947 @@
+{
+  "run": {
+    "stage": "X23-RERUN-2026-11-20",
+    "tool": "Ispettore release v0.1.1 (MV3 dist manifest field 0.1.0)",
+    "site": "https://www.gladeye.com/",
+    "reference": "Spector X22 full-90s",
+    "desiredSeconds": 90,
+    "safeTransferCeilingBytes": 1000000000,
+    "emergencyFreeRamMiB": 100,
+    "sourceOriginalX23Preserved": true,
+    "source": "https://github.com/velvetfrustum/ispettore",
+    "installedAlready": true,
+    "isolation": "one fresh isolated Chrome profile",
+    "manifestVersion": "0.1.0",
+    "serviceWorker": false,
+    "pre": {
+      "api": [
+        "getSnapshot",
+        "getWebGlJournalSummary",
+        "getWebGpuJournalSummary",
+        "getWebGpuJournalPackage",
+        "setWebGlJournalBudget",
+        "getWebGlJournalPackage",
+        "armWebGlCapture",
+        "storeWebGlFrame",
+        "armWebGpuCapture",
+        "storeWebGpuFrame",
+        "storeWebGlPackage",
+        "registerComposer",
+        "registerRenderPipeline"
+      ],
+      "webglContexts": [
+        "ctx-1"
+      ]
+    },
+    "observedStartUtc": "2026-11-20T09:35:43.604Z",
+    "observedSeconds": 91.27,
+    "stopReason": "COMPLETED_90S",
+    "minFreeRamMiB": 807,
+    "issues": [],
+    "frames": 15,
+    "wallSeconds": 95.77,
+    "firstPartyResponses": 47,
+    "firstPartyPaths": 46,
+    "newFirstPartyUrls": [],
+    "firstPartyBodyHashed": 36,
+    "initiatorPairs": 37,
+    "newInitiatorPairs": [],
+    "fullSceneSnapshots": 3,
+    "screenshots": 3
+  },
+  "snapshots": [
+    {
+      "label": "baseline",
+      "sec": 7.45,
+      "file": "X23-R2-FULL-SCENE-AND-TEXTURE-baseline.json",
+      "bytes": 7496189,
+      "sha256": "c07091b58353378cfc958bed017e8db15b39dd1c22c9ddfb96b7cb33e5e71789",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "42bf0ce1-6a60-45a9-b632-72aa04f4d22f"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    },
+    {
+      "label": "wheel_450",
+      "sec": 47.22,
+      "file": "X23-R2-FULL-SCENE-AND-TEXTURE-wheel_450.json",
+      "bytes": 7394072,
+      "sha256": "9e1b0214e7adad9b2d6aec498a6defe0f14caa22d88b32fde7b7f4a1f061b2c3",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "42bf0ce1-6a60-45a9-b632-72aa04f4d22f"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    },
+    {
+      "label": "pointer_reverse",
+      "sec": 89.11,
+      "file": "X23-R2-FULL-SCENE-AND-TEXTURE-pointer_reverse.json",
+      "bytes": 6931344,
+      "sha256": "55b8ec43ad657da263997de737f6d5a99fd1a7156f3ca31cb13f984d335a2133",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "42bf0ce1-6a60-45a9-b632-72aa04f4d22f"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "baseline",
+      "file": "X23-R2-SCREEN-baseline.png",
+      "bytes": 1815157,
+      "sha256": "72c5891b16636bad7babb551e5668b8f0f11514539f26c174e5a201ae574484f"
+    },
+    {
+      "label": "wheel_450",
+      "file": "X23-R2-SCREEN-wheel_450.png",
+      "bytes": 1788225,
+      "sha256": "01097eed7aba7f11e26b633d44c5f9892655e29e448e3118159aff98d78ed5f5"
+    },
+    {
+      "label": "pointer_reverse",
+      "file": "X23-R2-SCREEN-pointer_reverse.png",
+      "bytes": 1593217,
+      "sha256": "d5db596f836b7204f57b91ced30ccdfa898eb3b89698a4012fbb94a63aa6c22d"
+    }
+  ],
+  "frames": [
+    {
+      "label": "baseline",
+      "requestedSecond": 3,
+      "second": 7.45,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 7,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 0,
+            "frameCount": 0
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "ef24aaf6312121fe828d4e9d2e018e428bcd0ddd68c44222b7d5c4cef7c0adb9",
+      "rawBytes": 1866488,
+      "gpu": {
+        "commandCount": 137,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.3,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.4,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:3",
+            "kind": "animation-frame",
+            "commands": 137,
+            "blobCount": 2,
+            "bytes": 1774395
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1781.8,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      },
+      "fullSceneSnapshot": {
+        "file": "X23-R2-FULL-SCENE-AND-TEXTURE-baseline.json",
+        "sha256": "c07091b58353378cfc958bed017e8db15b39dd1c22c9ddfb96b7cb33e5e71789",
+        "bytes": 7496189
+      }
+    },
+    {
+      "label": "pointer_high_left",
+      "requestedSecond": 9,
+      "second": 12.38,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 137,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "48e5693becb800acd84592f5afd692eed25cb071c40f2fe11636d660f3bd51ea",
+      "rawBytes": 1867759,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:65",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1775634
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1693.8,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_mid_right",
+      "requestedSecond": 15,
+      "second": 17.47,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "49a1d77651ce053ddac3f42c158cf3540bbba74e50a1c57c691689db2492bbe8",
+      "rawBytes": 1984827,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:241",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1892671
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1831.7,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "scroll_down_250",
+      "requestedSecond": 21,
+      "second": 23.31,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "8b981ea24bf1b5dfc2b2531ccb522e2cd8a13d72421563a34b299b54e94802b2",
+      "rawBytes": 2042717,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:467",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1950561
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1641.1,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_low_left",
+      "requestedSecond": 27,
+      "second": 29.2,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "b34bdfe61d258b2517fb12c64dcdff6480699a7eabf15f59976822ab88dec660",
+      "rawBytes": 1830866,
+      "gpu": {
+        "commandCount": 139,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:704",
+            "kind": "animation-frame",
+            "commands": 139,
+            "blobCount": 2,
+            "bytes": 1738709
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1584.2,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "scroll_up_300",
+      "requestedSecond": 33,
+      "second": 35.3,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "2897781bda89aff3f5c98e45e528f03c0ea482641e9aa99dd1ec3f453a68ca39",
+      "rawBytes": 2162869,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:958",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 2070713
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1638.5,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_high_right",
+      "requestedSecond": 39,
+      "second": 41.2,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "f39071f126085592e523535cea52e471801b72eefee1f567bad46f81c5e40078",
+      "rawBytes": 1859105,
+      "gpu": {
+        "commandCount": 139,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1192",
+            "kind": "animation-frame",
+            "commands": 139,
+            "blobCount": 2,
+            "bytes": 1766917
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1563.2,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "wheel_450",
+      "requestedSecond": 45,
+      "second": 47.22,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "6771b84bef86f95f33551d039a836cda30cc1819495d71455c89a1ab50084db5",
+      "rawBytes": 1848875,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1448",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1756688
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1530.7,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      },
+      "fullSceneSnapshot": {
+        "file": "X23-R2-FULL-SCENE-AND-TEXTURE-wheel_450.json",
+        "sha256": "9e1b0214e7adad9b2d6aec498a6defe0f14caa22d88b32fde7b7f4a1f061b2c3",
+        "bytes": 7394072
+      }
+    },
+    {
+      "label": "pointer_bottom",
+      "requestedSecond": 51,
+      "second": 52.96,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 45,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "137091874e3c314c5a5307e574d5005a2159babb42911391fe2aa1201d2b6d2b",
+      "rawBytes": 1033761,
+      "gpu": {
+        "commandCount": 142,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniformMatrix4fv": 2,
+          "uniform3f": 1,
+          "uniform1f": 5,
+          "uniform2f": 11,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1610",
+            "kind": "animation-frame",
+            "commands": 142,
+            "blobCount": 3,
+            "bytes": 941501
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 3,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1379.4,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "wheel_reverse",
+      "requestedSecond": 57,
+      "second": 59.02,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 142,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "9dac0833b2aef67090910993dba892a6ef95272e4549fdd18cc1d1a7be007505",
+      "rawBytes": 1038996,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1880",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 946811
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1380.4,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_left",
+      "requestedSecond": 63,
+      "second": 65.03,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 45,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "b60e08015f61de7435065a00b54f77a1d062648cfe5264159510b62c22981e91",
+      "rawBytes": 1382079,
+      "gpu": {
+        "commandCount": 142,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniformMatrix4fv": 2,
+          "uniform3f": 1,
+          "uniform1f": 5,
+          "uniform2f": 11,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2144",
+            "kind": "animation-frame",
+            "commands": 142,
+            "blobCount": 3,
+            "bytes": 1289817
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 3,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1432.8,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "wheel_800",
+      "requestedSecond": 69,
+      "second": 71.22,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 142,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "facc7c8cde6b09d34bc72fca9412f808fa3c343bb96ee523e6cfaa7fae2f9479",
+      "rawBytes": 1788505,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2410",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1696318
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1547.2,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_right",
+      "requestedSecond": 75,
+      "second": 77.16,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "485d324e792ea72c2035ec624e4324f55c0f2380dc3d44016146576d057ef0da",
+      "rawBytes": 1693665,
+      "gpu": {
+        "commandCount": 139,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2666",
+            "kind": "animation-frame",
+            "commands": 139,
+            "blobCount": 2,
+            "bytes": 1601477
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1536.8,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "wheel_up",
+      "requestedSecond": 81,
+      "second": 83.12,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "61270f66b9dabc6a136b172e5923d717128c0b449f58268b65ba1b46dee6aee3",
+      "rawBytes": 1695103,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2924",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1602916
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1489,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      }
+    },
+    {
+      "label": "pointer_reverse",
+      "requestedSecond": 87,
+      "second": 89.11,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "0891e4782e206acfcf34c196d7fcd0d23cb466390ad19715ba569ec306b22a9c",
+      "rawBytes": 1736369,
+      "gpu": {
+        "commandCount": 139,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:3182",
+            "kind": "animation-frame",
+            "commands": 139,
+            "blobCount": 2,
+            "bytes": 1644181
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1512.9,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary"
+      },
+      "fullSceneSnapshot": {
+        "file": "X23-R2-FULL-SCENE-AND-TEXTURE-pointer_reverse.json",
+        "sha256": "55b8ec43ad657da263997de737f6d5a99fd1a7156f3ca31cb13f984d335a2133",
+        "bytes": 6931344
+      }
+    }
+  ],
+  "bodyHashes": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bytes": 8004,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bytes": 46176,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bytes": 3962,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "bytes": 463,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "bytes": 160712,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "bytes": 102017,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "bytes": 6751,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "bytes": 19252,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "bytes": 16685,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "bytes": 17110,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "bytes": 141609,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "bytes": 81048,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "bytes": 30550,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "bytes": 6157,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "bytes": 11256,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "bytes": 596,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "bytes": 5066,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "bytes": 80490,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "bytes": 82741,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "bytes": 111113,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bytes": 2059,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bytes": 10132,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bytes": 249287,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bytes": 7436,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bytes": 2102,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bytes": 915892,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bytes": 295868,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bytes": 225311,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bytes": 222220,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bytes": 8562,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "bytes": 16406,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "bytes": 14536,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "bytes": 19277,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "bytes": 11135,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "bytes": 38686,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "bytes": 40996,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    }
+  ]
+}
