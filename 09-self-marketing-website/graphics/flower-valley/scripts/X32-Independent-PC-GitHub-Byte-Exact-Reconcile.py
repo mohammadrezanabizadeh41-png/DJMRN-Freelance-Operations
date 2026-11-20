@@ -10,11 +10,11 @@ recs=[
 ("scripts/","X32-Build-90S-Public-ReadOnly-Runner.cjs","a8e79a7360c8e0b506e95d44e66ba33d5f6dfcec"),
 ("scripts/","X32-Native-RenderDoc-Feasibility-90s-Public-ReadOnly.cjs","693c6763f96c18053f6c5d2e5c7f49f386d6444e"),
 ("scripts/","X32-OWN-Chrome157-ANGLE-D3D11-WebGL2-Feasibility.cjs","fe4acdd1a094a231d2c7dd4b8a38dee1b073d819"),
-("scripts/","X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py","4f748defb82d6686c62c5ef7a0a7992e1e829fac"),
+("scripts/","X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py","f8e67369507a673ad6466cd8cc91de044ac46af6"),
 ("scripts/","X32-Official-RenderDoc-Source-Local-Preflight.py","35942a1c9f55200af8f4686c22ac2c41612d50eb"),
 ("evidence/","X32-90S-LIVE-READONLY-RENDERDOC-NO-VENDOR-INJECTION-X01-X31-TIMELINE.json","45d55f3de16e6b90d98e38a3015e7b20485ddbb4"),
 ("evidence/","X32-OWN-CHROME157-ANGLE-D3D11-WEBGL2-FEASIBILITY.json","5838305d70862fc3e9091842fac52a3a4590bd69"),
-("evidence/","X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json","a41c5018ef2a5815f721f460bd1e18a585f67394"),
+("evidence/","X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json","b090628919533a498010e0d33c0373ae0558dbbd"),
 ("evidence/","X32-OFFICIAL-RENDERDOC-1.47-SOURCE-LOCAL-PREFLIGHT-AND-OWNER-RECEIPT.json","9ae2139a51cc7e199c28cc1215a9f9a2f8dd2930"),
 ("handoffs/","X32-FULL-RENDERDOC-NATIVE-OWN-VEGA8-90S-LIVE-X01-X31-FINAL-HANDOFF-2026-11-20.md","6b806814d81502ac43ade85149d179808d233434")
 ]
@@ -26,7 +26,8 @@ for folder,name,blob in recs:
   "localSHA256":hashlib.sha256(data).hexdigest(),
   "localGitBlob":computed,"githubConnectorReadbackGitBlob":blob,
   "exactPCtoGithub":computed==blob})
-out={"stage":"X32","generatedUTC":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+out={"stage":"X32","generatedUTC":json.loads((D/"X32-90S-LIVE-READONLY-RENDERDOC-NO-VENDOR-INJECTION-X01-X31-TIMELINE.json").read_text(encoding="utf-8"))["startUTC"],
+ "timestampSemantics":"stable original X32 observation UTC; not reconciliation rerun time",
  "repo":"mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
  "branch":"main","method":"PC original raw bytes Git blob independently computed vs GitHub connected contents API read-back SHA",
  "scope":"only owner-authored scripts and sanitized evidence; proprietary vendor frames and raw RDC/XML/images never mirrored",
