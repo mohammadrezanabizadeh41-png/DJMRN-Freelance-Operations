@@ -1,21 +1,23 @@
 {
   "stage": "X25-R3-REGISTRATION-AUDIT",
-  "dateUTC": "2026-11-20T12:46:18.535233+00:00",
+  "dateUTC": "2026-11-20T12:50:37.974311+00:00",
   "scope": "Independent actual GitHub tree vs previous X24 release, all 25 stages, PC SHA+Git blob, canonical links and private-original preservation. No live recapture.",
   "baselineX24GitCommit": "292f870c077c25e5fe08a93c83f21cb2ec43f4cb",
-  "auditedCurrentGitCommit": "21250d73068f9d0bd227f155660ff2fdc02c7495",
+  "auditedCurrentGitCommit": "ea4802b01e40cd72d339dcb9605cd4bec3f0bc58",
   "githubTree": {
     "previousFileBlobs": 392,
-    "currentFileBlobs": 401,
+    "currentFileBlobs": 403,
     "newFiles": [
       "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
       "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
       "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-PUBLIC-SOURCE-AND-RECEIPT-SHA256-MANIFEST.json",
       "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+      "09-self-marketing-website/graphics/flower-valley/evidence/X25-R3-GITHUB-PC-STAGE-COVERAGE-LINKS-INTEGRITY.json",
       "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
       "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
       "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
       "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+      "09-self-marketing-website/graphics/flower-valley/scripts/X25-R3-Verify-Repository-PC-Stage-Coverage.py",
       "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs"
     ],
     "modifiedFiles": [
@@ -49,13 +51,13 @@
       "X22": 16,
       "X23": 22,
       "X24": 46,
-      "X25": 9
+      "X25": 11
     }
   },
   "canonicalMarkdownLinks": {
     "counts": {
-      "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md": 131,
-      "09-self-marketing-website/PROJECT-LOG.md": 227,
+      "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md": 133,
+      "09-self-marketing-website/PROJECT-LOG.md": 232,
       "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md": 6
     },
     "broken": []
@@ -188,12 +190,12 @@
       "both_repo_trees_nontrivial": true,
       "no_preexisting_Github_files_deleted": true,
       "only_canonical_runbook_and_project_log_modified": true,
-      "all_nine_X25_added_placed_in_original_flower_valley": true,
+      "X25_added_only_owner_source_evidence_and_audit_files": true,
       "no_unrelated_or_duplicate_repository_created": true,
       "all_historical_flower_files_exact_Git_blobs_preserved": true,
       "all_X01_to_X25_stages_in_canonical_repository": true,
       "X01_to_X24_public_stage_file_coverage_not_diminished": true,
-      "X25_stage_nine_public_files_at_snapshot": true,
+      "X25_stage_expected_nine_or_eleven_public_files_at_snapshot": true,
       "all_8_public_X25_files_true_PC_SHA_and_byte_match": true,
       "all_8_public_X25_Git_blobs_still_current_in_repository": true,
       "ninth_X25_manifest_actual_GitHub_blob_present": true,
@@ -223,22 +225,24 @@
       "prior_X24_release_tree_pinned": "292f870c077c25e5fe08a93c83f21cb2ec43f4cb",
       "both_repo_trees_nontrivial": {
         "prior": 392,
-        "X25": 401
+        "X25": 403
       },
       "no_preexisting_Github_files_deleted": [],
       "only_canonical_runbook_and_project_log_modified": [
         "09-self-marketing-website/PROJECT-LOG.md",
         "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md"
       ],
-      "all_nine_X25_added_placed_in_original_flower_valley": [
+      "X25_added_only_owner_source_evidence_and_audit_files": [
         "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
         "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
         "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-PUBLIC-SOURCE-AND-RECEIPT-SHA256-MANIFEST.json",
         "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+        "09-self-marketing-website/graphics/flower-valley/evidence/X25-R3-GITHUB-PC-STAGE-COVERAGE-LINKS-INTEGRITY.json",
         "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
         "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
         "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
         "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+        "09-self-marketing-website/graphics/flower-valley/scripts/X25-R3-Verify-Repository-PC-Stage-Coverage.py",
         "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs"
       ],
       "all_historical_flower_files_exact_Git_blobs_preserved": {
@@ -266,20 +270,20 @@
         "X22": 16,
         "X23": 22,
         "X24": 46,
-        "X25": 9,
+        "X25": 11,
         "X12": 10,
         "X13": 5,
         "X14": 5,
         "X15": 8
       },
       "X01_to_X24_public_stage_file_coverage_not_diminished": {},
-      "X25_stage_nine_public_files_at_snapshot": 9,
+      "X25_stage_expected_nine_or_eleven_public_files_at_snapshot": 11,
       "runbook_all_relative_links_resolve": {
-        "links": 131,
+        "links": 133,
         "broken": []
       },
       "project_log_all_relative_links_resolve": {
-        "links": 227,
+        "links": 232,
         "broken": []
       },
       "X25_handoff_all_relative_links_resolve": {
@@ -340,5 +344,5 @@
     "Original screenshots, shader text, GPU capture binaries and browser-profile metadata remain LOCAL PRIVATE; public GitHub has owner source and derived metadata.",
     "GitHub tree and markdown snapshots are pinned to snapshot 'sha'; any subsequent Git commit requires rerunning this independent audit with refreshed snapshots."
   ],
-  "publicationBoundary": "Snapshot audited BEFORE publication of this audit script/result; new X25 audit files and subsequent normal log/runbook update are expected additive changes, not included in prior published snapshot."
+  "publicationBoundary": "Every coverage result is pinned to auditedCurrentGitCommit. The current head may include 9 initial X25 files or 11 after its separate auditor+evidence additions; this report does not recursively hash its own changing report file. Recheck after subsequent commits."
 }
