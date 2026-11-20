@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "stage": "X24",
+  "createdUtc": "2026-11-20T09:07:18.513943+00:00",
+  "repository": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "sourceAuthority": "Original vendor site resources canonical only in prior X01-X19 78-path ledger, unchanged",
+  "thisStageEvidence": "SCOPE_QUALIFIED: webgd JavaScript-only capture verified; Rust UI/WASM replay BLOCKED",
+  "ownerPublicArtifacts": 15,
+  "entries": [
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X24-WEBGD-FEASIBILITY-90S-GPU-X01-X23-CROSSWALK-2026-11-20.md",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-WEBGD-FEASIBILITY-90S-GPU-X01-X23-CROSSWALK-2026-11-20.md",
+      "source_sha256": "af0e8528d394a16b5e1e729e8c8e93ab3ab8ab5fe740d8ccc0010a323702965e",
+      "source_bytes": 10894,
+      "published_sha256": "af0e8528d394a16b5e1e729e8c8e93ab3ab8ab5fe740d8ccc0010a323702965e",
+      "published_bytes": 10894,
+      "published_git_blob_sha1": "9a56ef305f78da72c9e2d8a4a747425b7b8e0877",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "OWNER_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-INDEPENDENT-ACCEPTANCE.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-INDEPENDENT-ACCEPTANCE.json",
+      "source_sha256": "02431194c27604f65ec7e6d73522bbdf64a9ba6ce7d9d05f4fcf571dc5f53446",
+      "source_bytes": 3702,
+      "published_sha256": "673ac490c93835ee00fbf3bc435243b8f1415245cf200212033f7d2389f08ad4",
+      "published_bytes": 3623,
+      "published_git_blob_sha1": "89cbd3868e5a13a8cc7da852f39c1dd1c9000d49",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-INDEPENDENT-X01-X23-RECONCILIATION.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-INDEPENDENT-X01-X23-RECONCILIATION.json",
+      "source_sha256": "b7f0ae68563714eea6f841e1265bf7ce0385892f8a33d351cdc1675da56a33a6",
+      "source_bytes": 11592,
+      "published_sha256": "2be0ad77f6b383984b079dc3ea0ca2d2331b71d91b8353a2da2feae123e22122",
+      "published_bytes": 11313,
+      "published_git_blob_sha1": "9af900f5e8e13e68d7ff2e0d9d0cf6303830c2ec",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-TOOL-SOURCE-INSTALL-AND-ACCESS-CONFIG.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-TOOL-SOURCE-INSTALL-AND-ACCESS-CONFIG.json",
+      "source_sha256": "89213ed163aade9c3b987c0201eb7e0b8e845532dc68f66e629422411c6661eb",
+      "source_bytes": 1731,
+      "published_sha256": "89213ed163aade9c3b987c0201eb7e0b8e845532dc68f66e629422411c6661eb",
+      "published_bytes": 1731,
+      "published_git_blob_sha1": "ba4adb8665fc7d274c03c2cdc090501694c105b8",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-OWN-FIXTURE-WEBGD-JS-HOOK-RESULT.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-OWN-FIXTURE-WEBGD-JS-HOOK-RESULT.json",
+      "source_sha256": "10b94417a628cbb376771e7880c4e0bba957ae06b1f1d8163a2ddb687005050e",
+      "source_bytes": 995,
+      "published_sha256": "10b94417a628cbb376771e7880c4e0bba957ae06b1f1d8163a2ddb687005050e",
+      "published_bytes": 995,
+      "published_git_blob_sha1": "0b07c25b98cece9e6ced44b051b0ed6845851f50",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-OWN-FIXTURE-INDEPENDENT-WIRE-DECODE.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-OWN-FIXTURE-INDEPENDENT-WIRE-DECODE.json",
+      "source_sha256": "c665d34a5feece92508d3a1340961189e5a54692fd036a84620173dd385ec850",
+      "source_bytes": 1996,
+      "published_sha256": "a908d83febd01fbf7805ed428bb71248d0ffcb6058e9a5d83e88b57e11bdba1b",
+      "published_bytes": 1911,
+      "published_git_blob_sha1": "c9b08e868e2e4ac05c62476722fdb0f7a72c0b71",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-LIVE-90S-SANITIZED-CAPTURE-TIMELINE.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-LIVE-90S/X24-LIVE-90S-SANITIZED-CAPTURE-TIMELINE.json",
+      "source_sha256": "64570b90f3e35d938a3ed3125a44a636d1582958b3f2c596ee27e889fb994e41",
+      "source_bytes": 11347,
+      "published_sha256": "64570b90f3e35d938a3ed3125a44a636d1582958b3f2c596ee27e889fb994e41",
+      "published_bytes": 11347,
+      "published_git_blob_sha1": "154e056c281fa2cde3948242c8cb4b87ae80ae68",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-ONE-FRAME-SANITIZED-RESULT.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-ONE-FRAME-SAFE-LIMIT/X24-ONE-FRAME-SANITIZED-RESULT.json",
+      "source_sha256": "e2c73eff19d71a1777361a078920b41e73c5443aa4b108a9c0d68bc14904584e",
+      "source_bytes": 10782,
+      "published_sha256": "e2c73eff19d71a1777361a078920b41e73c5443aa4b108a9c0d68bc14904584e",
+      "published_bytes": 10782,
+      "published_git_blob_sha1": "868aa66a2a3eb179a96f03def065396159880bba",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X24-ONEFRAME-INDEPENDENT-WIRE-DECODE.json",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-ONEFRAME-INDEPENDENT-WIRE-DECODE.json",
+      "source_sha256": "da9ad749f43e710c9bd4ede1e18a7375616f4981f24b421e679231b94bb2fb4d",
+      "source_bytes": 10395,
+      "published_sha256": "18b94305c534f6c2c6b45200892bf6dfd6df176df758cb806dd72c5fa13dc4b1",
+      "published_bytes": 10026,
+      "published_git_blob_sha1": "6e16a678c9d495c06fbe474e0fde22ff8c26be10",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "SANITIZED_DERIVED_METADATA"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-Own-Loopback-Webgd-Hook-Probe.cjs",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-Own-Loopback-Webgd-Hook-Probe.cjs",
+      "source_sha256": "9aed3612772c8f1342f01587f68e43b6d3fe2b4ef4f1306428bd86eecedfd9de",
+      "source_bytes": 5318,
+      "published_sha256": "9aed3612772c8f1342f01587f68e43b6d3fe2b4ef4f1306428bd86eecedfd9de",
+      "published_bytes": 5318,
+      "published_git_blob_sha1": "2247b7eecbf60ebbbf0680b2e91f00881965b7d9",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "OWNER_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-Full-90s-Webgd-JS-Hook-Live-Runner.cjs",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-Full-90s-Webgd-JS-Hook-Live-Runner.cjs",
+      "source_sha256": "977e4919aa7f49a67c3671830bb7b39a28eee499986c8e0f557ae5969c4b8ce5",
+      "source_bytes": 11348,
+      "published_sha256": "977e4919aa7f49a67c3671830bb7b39a28eee499986c8e0f557ae5969c4b8ce5",
+      "published_bytes": 11348,
+      "published_git_blob_sha1": "0c44d2abb7771ead567b85032d1802b64c4f565b",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "OWNER_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-OneFrame-Webgd-140MiB-Safe-Size-Gate.cjs",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-OneFrame-Webgd-140MiB-Safe-Size-Gate.cjs",
+      "source_sha256": "5343aea8f5b9b63e135c15344e56844afe20efb5dd7f92a8d6cd7a2af46078b5",
+      "source_bytes": 11162,
+      "published_sha256": "2c1fa3731f01511dc45d4bb8c7bbe11a385900299af7000b7049edfdef18b55f",
+      "published_bytes": 11021,
+      "published_git_blob_sha1": "8edafbd994cc324af71ff404a580a957e838c8ef",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "OWNER_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-Webgd-WGDW-Independent-Metadata-Decoder.py",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-Webgd-WGDW-Independent-Metadata-Decoder.py",
+      "source_sha256": "52c0c2fcb724d53dfc63603dbaaa7550edf25143b6bae1ef8fde48f36e415bb0",
+      "source_bytes": 5138,
+      "published_sha256": "14fe92759542aaf2a9adc16a0602be8c5940a9b63fe53c241740ddafc41e0e7e",
+      "published_bytes": 5046,
+      "published_git_blob_sha1": "8ce26bd76b4b9054508995ecc1039fe3447271c8",
+      "contentNormalizedOrSanitized": true,
+      "evidenceClass": "OWNER_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-Independent-CrossStage-X01-X23-Acceptance.py",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-Independent-CrossStage-X01-X23-Acceptance.py",
+      "source_sha256": "3f364e8ad9c0c3d0b35965d5d937ad3dc7937357b46a04c5719008131f8a1b39",
+      "source_bytes": 16109,
+      "published_sha256": "3f364e8ad9c0c3d0b35965d5d937ad3dc7937357b46a04c5719008131f8a1b39",
+      "published_bytes": 16109,
+      "published_git_blob_sha1": "bfac4e1bd56e5eec0875bc8274f0f5e8d093ae37",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "OWNER_SCRIPT"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X24-Prepare-GitHub-Publication.py",
+      "originalLaptopRelativePath": "02-reviewed-derived/X24-CURRENT/X24-Prepare-GitHub-Publication.py",
+      "source_sha256": "28c2168607cfe09ee34b5e085f6d8b2763f7de66a27d31a16763d43a0e4340c6",
+      "source_bytes": 4699,
+      "published_sha256": "28c2168607cfe09ee34b5e085f6d8b2763f7de66a27d31a16763d43a0e4340c6",
+      "published_bytes": 4699,
+      "published_git_blob_sha1": "0117d81104bba74846dabe74a9d22483165a76bc",
+      "contentNormalizedOrSanitized": false,
+      "evidenceClass": "OWNER_SCRIPT"
+    }
+  ],
+  "explicitExclusions": [
+    "PRIVATE original full site WGDW binary (137151592 bytes)",
+    "PRIVATE owner-fixture WGDW bytes",
+    "Any original vendor shader source, GPU raw blobs/textures or tokens",
+    "X24-LIVE-90S-LOCAL-PRIVATE-INDEX.json",
+    "X24-ONE-FRAME-LOCAL-PRIVATE-INDEX.json"
+  ],
+  "noSelfHashToAvoidCircularity": true
+}

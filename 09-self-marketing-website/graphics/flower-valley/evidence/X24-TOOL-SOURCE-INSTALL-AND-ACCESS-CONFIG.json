@@ -1,0 +1,45 @@
+{
+  "stage": "X24",
+  "tool": "Snowapril/webgd",
+  "role": "OBSERVER / independent WebGL2+WebGPU capture feasibility",
+  "sourceUrl": "https://github.com/Snowapril/webgd",
+  "license": "MIT",
+  "officialMainTreeSha": "7cd385690d6f3f5ff67fdf8faa6640b210451b80",
+  "officialManifestVersion": "0.1.0",
+  "sourceArchiveSha256": "ea311807a17681f725daf818db4e9aeb498cd435e655235c8b11ad16c128059d",
+  "sourceZipEntriesVerified": "101/101",
+  "nativeRuntime": {
+    "rustc": "NOT_INSTALLED",
+    "cargo": "NOT_INSTALLED",
+    "wasmBindgen": "NOT_INSTALLED",
+    "wasmUI": "MISSING",
+    "replay": "NOT_EXECUTABLE",
+    "rustBuildPerformed": false
+  },
+  "liveCapture": {
+    "officialJSWebgdHook": "OPERATIONAL_IN_ANONYMOUS_CHROME",
+    "ownerWebGLFixture": "PASS",
+    "firstPublicHomepageSessionSeconds": 90.01,
+    "largeWGDWFramesRejectedBy60MiBGate": 7,
+    "subsequentSingleCaptureSeconds": 23.32,
+    "rawCaptureBytes": 137151592,
+    "rawSha256": "62e5e9fb1d580900697265f50a706546ed23532a2e652194529eda4d57a0f5b9",
+    "captureSavedOnlyOnPrivateLaptop": true
+  },
+  "limits": {
+    "laptopRAMGiB": 8,
+    "hardStopFreeRamMiB": 100,
+    "recordedMinimumFreeRamMiBFirst90s": 648,
+    "recordedMinimumFreeRamMiBSupplemental": 734,
+    "fullRustUIActivation": "BLOCKED_NOT_INSTALLED_NO_USER_APPROVAL_FOR_HEAVY_RUST",
+    "noPaidService": true,
+    "noPersonalChromePermanentPermission": true
+  },
+  "next": "X25; deferred Rust UI build only if demonstrated incremental need and explicit approval",
+  "factsSource": [
+    "Official GitHub repo and README",
+    "ZIP vs extracted original source per-file SHA",
+    "Official GitHub git blob identities",
+    "local Chrome WGDW capture and independently decoded source wire format"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "stage": "X24",
+  "mode": "OWN_WEBGL2_FIXTURE_WEBGD_JS_HOOK_ONLY",
+  "startedUTC": "2026-11-20T08:59:01.242Z",
+  "officialRelease": "NO_PUBLISHED_BINARY",
+  "rustToolchainInstalled": false,
+  "wasmUIBuilt": false,
+  "sourceAlreadyPresent": true,
+  "issues": [],
+  "pre": {
+    "webgdInstalled": true,
+    "canvas": 1,
+    "isWebGL2": true,
+    "lastStatuses": [
+      {
+        "gl2": 1,
+        "webgl1": 0,
+        "gpuDevices": 0
+      }
+    ],
+    "captured": 0,
+    "errors": []
+  },
+  "report": {
+    "captures": 1,
+    "errors": [],
+    "len": 931231
+  },
+  "privateFile": "X24-OWN-WEBGD-FIXTURE-CAPTURE.webgd",
+  "captureHeader": {
+    "magic": "WGDW",
+    "version": 1,
+    "recordedURLLength": 32,
+    "sourceURL": "REDACTED_LOCAL_LOOPBACK",
+    "totalBytes": 931231,
+    "sha256": "ae28f1f6309b23b3ebafcef0f705bab31cf99ce7f92270aa3b7a2b72748c3ad3"
+  },
+  "status": "PASS_JS_HOOK_CAPTURE",
+  "minFreeRamMiB": 1652,
+  "abortReason": null,
+  "endedUTC": "2026-11-20T08:59:04.690Z"
+}

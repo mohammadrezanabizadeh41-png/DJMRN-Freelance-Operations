@@ -1,0 +1,85 @@
+{
+  "magic": "WGDW",
+  "version": 1,
+  "recordedUrlOrigin": "http://127.0.0.1/<owner-fixture>",
+  "byteLength": 931231,
+  "sha256": "ae28f1f6309b23b3ebafcef0f705bab31cf99ce7f92270aa3b7a2b72748c3ad3",
+  "recordCountByTag": {
+    "1": 138,
+    "2": 9,
+    "4": 28,
+    "3": 23,
+    "255": 1
+  },
+  "stringTableSize": 138,
+  "objectCount": 9,
+  "objectClasses": {
+    "GPU": 1,
+    "HTMLCanvasElement": 1,
+    "WebGL2RenderingContext": 1,
+    "WebGLShader": 2,
+    "WebGLProgram": 1,
+    "WebGLVertexArrayObject": 1,
+    "WebGLBuffer": 1,
+    "WebGLUniformLocation": 1
+  },
+  "blobCount": 23,
+  "blobByteTotal": 921952,
+  "largestBlobBytes": 921600,
+  "sections": {
+    "setup": {
+      "callCount": 14,
+      "drawCount": 0,
+      "drawSignatures": [],
+      "methodHistogram": {
+        "attachShader": 2,
+        "compileShader": 2,
+        "createBuffer": 1,
+        "createProgram": 1,
+        "createShader": 2,
+        "createVertexArray": 1,
+        "getContext": 1,
+        "getUniformLocation": 1,
+        "linkProgram": 1,
+        "shaderSource": 2
+      },
+      "objectCallCount": 14
+    },
+    "snapshot": {
+      "callCount": 7,
+      "drawCount": 0,
+      "drawSignatures": [],
+      "methodHistogram": {
+        "webgd:canvasSize": 1,
+        "webgd:glBuffer": 1,
+        "webgd:glDefaultFramebuffer": 1,
+        "webgd:glProgram": 1,
+        "webgd:glState": 1,
+        "webgd:glVertexArray": 2
+      },
+      "objectCallCount": 7
+    },
+    "frame": {
+      "callCount": 7,
+      "drawCount": 1,
+      "drawSignatures": [
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        }
+      ],
+      "methodHistogram": {
+        "bindVertexArray": 1,
+        "clear": 1,
+        "clearColor": 1,
+        "drawArrays": 1,
+        "uniform1f": 1,
+        "useProgram": 1,
+        "viewport": 1
+      },
+      "objectCallCount": 7
+    }
+  },
+  "complete": true
+}
