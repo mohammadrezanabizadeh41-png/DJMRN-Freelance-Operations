@@ -1,0 +1,344 @@
+{
+  "stage": "X25-R3-REGISTRATION-AUDIT",
+  "dateUTC": "2026-11-20T12:46:18.535233+00:00",
+  "scope": "Independent actual GitHub tree vs previous X24 release, all 25 stages, PC SHA+Git blob, canonical links and private-original preservation. No live recapture.",
+  "baselineX24GitCommit": "292f870c077c25e5fe08a93c83f21cb2ec43f4cb",
+  "auditedCurrentGitCommit": "21250d73068f9d0bd227f155660ff2fdc02c7495",
+  "githubTree": {
+    "previousFileBlobs": 392,
+    "currentFileBlobs": 401,
+    "newFiles": [
+      "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
+      "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
+      "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-PUBLIC-SOURCE-AND-RECEIPT-SHA256-MANIFEST.json",
+      "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+      "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
+      "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
+      "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
+      "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+      "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs"
+    ],
+    "modifiedFiles": [
+      "09-self-marketing-website/PROJECT-LOG.md",
+      "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md"
+    ],
+    "deletedFiles": [],
+    "allHistoricalFlowerBlobsPreserved": true,
+    "X01ToX25StageFilePresence": {
+      "X01": 14,
+      "X02": 3,
+      "X03": 1,
+      "X04": 2,
+      "X05": 1,
+      "X06": 1,
+      "X07": 3,
+      "X08": 2,
+      "X09": 1,
+      "X10": 2,
+      "X11": 10,
+      "X12": 10,
+      "X13": 5,
+      "X14": 5,
+      "X15": 8,
+      "X16": 8,
+      "X17": 7,
+      "X18": 15,
+      "X19": 34,
+      "X20": 8,
+      "X21": 8,
+      "X22": 16,
+      "X23": 22,
+      "X24": 46,
+      "X25": 9
+    }
+  },
+  "canonicalMarkdownLinks": {
+    "counts": {
+      "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md": 131,
+      "09-self-marketing-website/PROJECT-LOG.md": 227,
+      "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md": 6
+    },
+    "broken": []
+  },
+  "originalEightX25SourceFilesExactPCGit": [
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 13135,
+      "sha256": "5d97632c98e11a3a6ad8380d18832bdc8adca83615232471ac286e749be557df",
+      "gitBlobSha1FromRawBytes": "bcff7c1b0861095f7db02a46837b9ef1021728b7",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 2776,
+      "sha256": "a21b4014b753c61d37c502a89b3e5509f9f2b5aa1b58d74cea014febec95848f",
+      "gitBlobSha1FromRawBytes": "9406d21eaec585db00874b5e954ced5c74fde970",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 14173,
+      "sha256": "64a5b602d15e0cb25195fbb15ac7ccc4d118ee29133db40c606124e1c4cf6a26",
+      "gitBlobSha1FromRawBytes": "25205f382a10a1072057068479adaa347290c654",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 1819,
+      "sha256": "65ef6d17d1535f72eeac7dea474da1c0e803b7fcae7156332ef6a40d484db220",
+      "gitBlobSha1FromRawBytes": "81343cf09be10ebeb947f77bdf2f8839617e8094",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 1558,
+      "sha256": "65c1f14362d50a8158943dfc63f5bf4946aacd3532f6108f33c4e44ee6c7ee13",
+      "gitBlobSha1FromRawBytes": "00141ecc3a7436e8fad9f4d7fb2972f9b5966842",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 169811,
+      "sha256": "e32156c6a0b389d9cc5c408ff303574092ea9eaf62cab91c34a159001d1fa823",
+      "gitBlobSha1FromRawBytes": "2c23803147023e8654612cc40ef328f8bc1e8cd0",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 8518,
+      "sha256": "b1443c325f15cdc74232d2c250b9e7a4ebc00523db93667cfa344cc141303541",
+      "gitBlobSha1FromRawBytes": "3e689e89cb741a3df5cf4a7476a916ddbd9ec28f",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
+      "foundOnPC": true,
+      "foundInGithubTree": true,
+      "bytes": 2203,
+      "sha256": "35152057d58c23f2995503b9dbf65c97c3fda24614e2168fac736bcabe4cbaa9",
+      "gitBlobSha1FromRawBytes": "1bf77f12afd76e47cc5a15e18e33188babc370a7",
+      "matchesManifestSHA": true,
+      "matchesManifestBytes": true,
+      "matchesManifestGitBlob": true,
+      "matchesCurrentGithubTreeBlob": true
+    }
+  ],
+  "localRawPreservation": {
+    "X24SevenPacketsPrivateBytes": 960061412,
+    "X25PrivateScreenshots": [
+      "X25-fixture-own_fixture_baseline-PRIVATE.png",
+      "X25-live-baseline-PRIVATE.png",
+      "X25-live-pointer_center-PRIVATE.png",
+      "X25-live-pointer_right-PRIVATE.png"
+    ],
+    "X25SevenLiveSampleFiles": [
+      "X25-live-baseline-observer-metadata.json",
+      "X25-live-pointer_left-observer-metadata.json",
+      "X25-live-pointer_right-observer-metadata.json",
+      "X25-live-wheel_450-observer-metadata.json",
+      "X25-live-pointer_center-observer-metadata.json",
+      "X25-live-wheel_800-observer-metadata.json",
+      "X25-live-pointer_reverse-observer-metadata.json"
+    ],
+    "fixtureSampleCount": 2,
+    "X25HistoricalR1CaptureCount": 5
+  },
+  "acceptance": {
+    "passed": 35,
+    "total": 35,
+    "failed": [],
+    "checks": {
+      "full_github_tree_untruncated": true,
+      "prior_X24_release_tree_pinned": true,
+      "both_repo_trees_nontrivial": true,
+      "no_preexisting_Github_files_deleted": true,
+      "only_canonical_runbook_and_project_log_modified": true,
+      "all_nine_X25_added_placed_in_original_flower_valley": true,
+      "no_unrelated_or_duplicate_repository_created": true,
+      "all_historical_flower_files_exact_Git_blobs_preserved": true,
+      "all_X01_to_X25_stages_in_canonical_repository": true,
+      "X01_to_X24_public_stage_file_coverage_not_diminished": true,
+      "X25_stage_nine_public_files_at_snapshot": true,
+      "all_8_public_X25_files_true_PC_SHA_and_byte_match": true,
+      "all_8_public_X25_Git_blobs_still_current_in_repository": true,
+      "ninth_X25_manifest_actual_GitHub_blob_present": true,
+      "runbook_all_relative_links_resolve": true,
+      "project_log_all_relative_links_resolve": true,
+      "X25_handoff_all_relative_links_resolve": true,
+      "runbook_X25_current_X26_next_linked": true,
+      "canonical_project_log_X25_closure_registered": true,
+      "all_25_local_PC_stage_folders_or_files_present": true,
+      "own_fixture_two_real_captures": true,
+      "real_135sec_seven_sample_sweep_and_RAM_guard": true,
+      "all_7_raw_sample_metadata_SHA256_valid": true,
+      "7_sample_names_and_X24_GPU_topology_match": true,
+      "all_26_observed_source_bodies_existing_X19_sha_bytes": true,
+      "all_37_first_party_initiator_edges_existing_X16": true,
+      "zero_new_X25_source_url_paths": true,
+      "X25_numeric_Uniform_and_FBO_provenance_in_public_crosswalk": true,
+      "X25_36_of_36_independent_checks_still_readable": true,
+      "all_7_previous_X24_raw_GPU_packets_still_private": true,
+      "four_private_X25_screenshots_valid_PNG": true,
+      "failed_90s_historical_capture_preserved": true,
+      "official_upstream_ZIP_SHA256_reverified": true,
+      "compiled_embed_and_Chrome_MV3_plugin_still_installed": true,
+      "NPM_install_test_build_logs_stored_locally": true
+    },
+    "details": {
+      "prior_X24_release_tree_pinned": "292f870c077c25e5fe08a93c83f21cb2ec43f4cb",
+      "both_repo_trees_nontrivial": {
+        "prior": 392,
+        "X25": 401
+      },
+      "no_preexisting_Github_files_deleted": [],
+      "only_canonical_runbook_and_project_log_modified": [
+        "09-self-marketing-website/PROJECT-LOG.md",
+        "09-self-marketing-website/graphics/flower-valley/EXTRACTION-RUNBOOK.md"
+      ],
+      "all_nine_X25_added_placed_in_original_flower_valley": [
+        "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
+        "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
+        "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-PUBLIC-SOURCE-AND-RECEIPT-SHA256-MANIFEST.json",
+        "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+        "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
+        "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
+        "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
+        "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+        "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs"
+      ],
+      "all_historical_flower_files_exact_Git_blobs_preserved": {
+        "fileCount": 233,
+        "altered": []
+      },
+      "all_X01_to_X25_stages_in_canonical_repository": {
+        "X01": 14,
+        "X02": 3,
+        "X03": 1,
+        "X04": 2,
+        "X05": 1,
+        "X06": 1,
+        "X07": 3,
+        "X08": 2,
+        "X09": 1,
+        "X10": 2,
+        "X11": 10,
+        "X16": 8,
+        "X17": 7,
+        "X18": 15,
+        "X19": 34,
+        "X20": 8,
+        "X21": 8,
+        "X22": 16,
+        "X23": 22,
+        "X24": 46,
+        "X25": 9,
+        "X12": 10,
+        "X13": 5,
+        "X14": 5,
+        "X15": 8
+      },
+      "X01_to_X24_public_stage_file_coverage_not_diminished": {},
+      "X25_stage_nine_public_files_at_snapshot": 9,
+      "runbook_all_relative_links_resolve": {
+        "links": 131,
+        "broken": []
+      },
+      "project_log_all_relative_links_resolve": {
+        "links": 227,
+        "broken": []
+      },
+      "X25_handoff_all_relative_links_resolve": {
+        "links": 6,
+        "broken": []
+      },
+      "all_25_local_PC_stage_folders_or_files_present": {
+        "X01": 10,
+        "X02": 4,
+        "X03": 2,
+        "X04": 3,
+        "X05": 1,
+        "X06": 1,
+        "X07": 7,
+        "X08": 3,
+        "X09": 1,
+        "X10": 2,
+        "X11": 20,
+        "X12": 13,
+        "X13": 6,
+        "X14": 6,
+        "X15": 3,
+        "X16": 1,
+        "X17": 2,
+        "X18": 4,
+        "X19": 3,
+        "X20": 1,
+        "X21": 3,
+        "X22": 1,
+        "X23": 1,
+        "X24": 1,
+        "X25": 1
+      },
+      "real_135sec_seven_sample_sweep_and_RAM_guard": {
+        "actualSeconds": 135,
+        "frameCount": 7,
+        "minFreeMiB": 970
+      },
+      "all_26_observed_source_bodies_existing_X19_sha_bytes": {
+        "checked": 26,
+        "matched": 26
+      },
+      "four_private_X25_screenshots_valid_PNG": {
+        "count": 4,
+        "filenames": [
+          "X25-fixture-own_fixture_baseline-PRIVATE.png",
+          "X25-live-baseline-PRIVATE.png",
+          "X25-live-pointer_center-PRIVATE.png",
+          "X25-live-pointer_right-PRIVATE.png"
+        ]
+      }
+    }
+  },
+  "warnings": [
+    "WebGL Developer Tool reported 29 WebGL errors per stable public frame; possible debugger artifact, not an independently proven bug in the website.",
+    "GL-call duration metadata is CPU/observer-instrumented and is not native GPU timer-query evidence.",
+    "Seven discrete captured frames over 135 s; not a continuous every-frame stream.",
+    "Original screenshots, shader text, GPU capture binaries and browser-profile metadata remain LOCAL PRIVATE; public GitHub has owner source and derived metadata.",
+    "GitHub tree and markdown snapshots are pinned to snapshot 'sha'; any subsequent Git commit requires rerunning this independent audit with refreshed snapshots."
+  ],
+  "publicationBoundary": "Snapshot audited BEFORE publication of this audit script/result; new X25 audit files and subsequent normal log/runbook update are expected additive changes, not included in prior published snapshot."
+}
