@@ -1,0 +1,112 @@
+{
+  "stage": "X32",
+  "generatedUTC": "2026-11-20T20:25:01.003232+00:00",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "method": "PC original raw bytes Git blob independently computed vs GitHub connected contents API read-back SHA",
+  "scope": "only owner-authored scripts and sanitized evidence; proprietary vendor frames and raw RDC/XML/images never mirrored",
+  "total": 11,
+  "passed": 11,
+  "status": "PASS",
+  "files": [
+    {
+      "name": "X32-OWN-RenderDoc-Native-D3D11-Grid-Points-Instancing.cpp",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-OWN-RenderDoc-Native-D3D11-Grid-Points-Instancing.cpp",
+      "size": 8232,
+      "localSHA256": "fca7fae8401e9e16644388ad0fa9f0997fcaa1d32a4189f4b782278878ab66db",
+      "localGitBlob": "97bd02fba36bb04027cb4930cadb0219df526d6b",
+      "githubConnectorReadbackGitBlob": "97bd02fba36bb04027cb4930cadb0219df526d6b",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-Build-90S-Public-ReadOnly-Runner.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-Build-90S-Public-ReadOnly-Runner.cjs",
+      "size": 4155,
+      "localSHA256": "3f64ac259ab4dba15b9df0bd337d351dde9f74dd762a53e254c46a655bb3bcc1",
+      "localGitBlob": "a8e79a7360c8e0b506e95d44e66ba33d5f6dfcec",
+      "githubConnectorReadbackGitBlob": "a8e79a7360c8e0b506e95d44e66ba33d5f6dfcec",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-Native-RenderDoc-Feasibility-90s-Public-ReadOnly.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-Native-RenderDoc-Feasibility-90s-Public-ReadOnly.cjs",
+      "size": 11739,
+      "localSHA256": "ce32b351de69737f1fca23592e669f0ce76a6b66facb2df506ffba98b83c8742",
+      "localGitBlob": "693c6763f96c18053f6c5d2e5c7f49f386d6444e",
+      "githubConnectorReadbackGitBlob": "693c6763f96c18053f6c5d2e5c7f49f386d6444e",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-OWN-Chrome157-ANGLE-D3D11-WebGL2-Feasibility.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-OWN-Chrome157-ANGLE-D3D11-WebGL2-Feasibility.cjs",
+      "size": 4392,
+      "localSHA256": "9728c10ace1a6c873591eaaaa405ce6274a4146bdc3fd20f9a75ef6d7997fca0",
+      "localGitBlob": "fe4acdd1a094a231d2c7dd4b8a38dee1b073d819",
+      "githubConnectorReadbackGitBlob": "fe4acdd1a094a231d2c7dd4b8a38dee1b073d819",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py",
+      "size": 11190,
+      "localSHA256": "0bb0a435c9db8ece1c46eb6fa3c3840e8e863caf7e3cdb6e2393fecf89567ee6",
+      "localGitBlob": "4f748defb82d6686c62c5ef7a0a7992e1e829fac",
+      "githubConnectorReadbackGitBlob": "4f748defb82d6686c62c5ef7a0a7992e1e829fac",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-Official-RenderDoc-Source-Local-Preflight.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-Official-RenderDoc-Source-Local-Preflight.py",
+      "size": 3339,
+      "localSHA256": "93572b68c31f87fff022b10c96595af41409b21b74253cfbfa982b4470ea8c18",
+      "localGitBlob": "35942a1c9f55200af8f4686c22ac2c41612d50eb",
+      "githubConnectorReadbackGitBlob": "35942a1c9f55200af8f4686c22ac2c41612d50eb",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-90S-LIVE-READONLY-RENDERDOC-NO-VENDOR-INJECTION-X01-X31-TIMELINE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X32-90S-LIVE-READONLY-RENDERDOC-NO-VENDOR-INJECTION-X01-X31-TIMELINE.json",
+      "size": 19387,
+      "localSHA256": "5da06d7fa9c4288bad85350af9520463800717738f8415589583a5595f5456e9",
+      "localGitBlob": "45d55f3de16e6b90d98e38a3015e7b20485ddbb4",
+      "githubConnectorReadbackGitBlob": "45d55f3de16e6b90d98e38a3015e7b20485ddbb4",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-OWN-CHROME157-ANGLE-D3D11-WEBGL2-FEASIBILITY.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X32-OWN-CHROME157-ANGLE-D3D11-WEBGL2-FEASIBILITY.json",
+      "size": 9003,
+      "localSHA256": "88a7aed5381a29d4dd598e02ab2949c722d23b7fb22396e223f726f9cd16776b",
+      "localGitBlob": "5838305d70862fc3e9091842fac52a3a4590bd69",
+      "githubConnectorReadbackGitBlob": "5838305d70862fc3e9091842fac52a3a4590bd69",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json",
+      "size": 8848,
+      "localSHA256": "e15914862247191b713a896d89550b496b7dbb5d698fc2dc70da7c90a02780d5",
+      "localGitBlob": "a41c5018ef2a5815f721f460bd1e18a585f67394",
+      "githubConnectorReadbackGitBlob": "a41c5018ef2a5815f721f460bd1e18a585f67394",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-OFFICIAL-RENDERDOC-1.47-SOURCE-LOCAL-PREFLIGHT-AND-OWNER-RECEIPT.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X32-OFFICIAL-RENDERDOC-1.47-SOURCE-LOCAL-PREFLIGHT-AND-OWNER-RECEIPT.json",
+      "size": 4827,
+      "localSHA256": "6acecce3060c16cc89d03b4dab41ec8e2c06137277709af3211cfcc20aad4264",
+      "localGitBlob": "9ae2139a51cc7e199c28cc1215a9f9a2f8dd2930",
+      "githubConnectorReadbackGitBlob": "9ae2139a51cc7e199c28cc1215a9f9a2f8dd2930",
+      "exactPCtoGithub": true
+    },
+    {
+      "name": "X32-FULL-RENDERDOC-NATIVE-OWN-VEGA8-90S-LIVE-X01-X31-FINAL-HANDOFF-2026-11-20.md",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/handoffs/X32-FULL-RENDERDOC-NATIVE-OWN-VEGA8-90S-LIVE-X01-X31-FINAL-HANDOFF-2026-11-20.md",
+      "size": 10510,
+      "localSHA256": "957594b45626e066dcc90a68d7d860ac24d3857062fcfeb21ee7bc50d7d6ece4",
+      "localGitBlob": "6b806814d81502ac43ade85149d179808d233434",
+      "githubConnectorReadbackGitBlob": "6b806814d81502ac43ade85149d179808d233434",
+      "exactPCtoGithub": true
+    }
+  ]
+}
