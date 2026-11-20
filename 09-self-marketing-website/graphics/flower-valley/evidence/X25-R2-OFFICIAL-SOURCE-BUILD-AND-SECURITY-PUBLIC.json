@@ -1,0 +1,40 @@
+{
+  "stage": "X25",
+  "officialGitHub": "https://github.com/srinivas-86/webgl-developer-tool",
+  "pinnedCommit": "cc9317e6e6805beb16968f2cbd19dcbfe0c064e4",
+  "version": "0.1.0",
+  "packageLicense": "MIT",
+  "licenseMITFile": true,
+  "originBSD3Attribution": true,
+  "pinnedSourceZip": {
+    "bytes": 158767,
+    "sha256": "2dfd529dd3c8e4a44ee1f1997adc9bb6deed66f2e73a77c92ca75454b31ccbf5"
+  },
+  "lockedDependencyInstall": {
+    "npmCiExitCode": 0,
+    "lockPresent": true,
+    "installedPackagesClaimFromLog": true
+  },
+  "upstreamTests": {
+    "exitCode": 0,
+    "passed31ClaimFromLog": true,
+    "passed10SuitesClaimFromLog": true
+  },
+  "build": {
+    "exitCode": 0,
+    "embedIIFEBytes": 156609,
+    "embedSHA256": "61878b3e134ae3c88cc45ef3dee49ff4f7af6d8758d17f4c50e35c2e0817be43",
+    "mv3ManifestSHA256": "efed7f85ec26de6f212d0df87e90362f9ad9ca87f0d584cab331ff888ff52093",
+    "builtExtensionVersion": "0.1.0",
+    "requiredPermissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "isolatedChrome157": true,
+    "privateUserChromeUntouched": true
+  },
+  "cost": "Free local open-source, no paid API, quota or overage activated",
+  "featureLimit": "Upstream official README lists GPU timer queries as future enhancement; collected per-call CPU instrumentation, not a valid native GPU-timer measurement.",
+  "releaseSourceModified": false,
+  "sensitiveExtensionScope": "MV3 content script has broad <all_urls> match; deployed only into an isolated anonymous Chrome profile; personal Chrome unchanged."
+}
