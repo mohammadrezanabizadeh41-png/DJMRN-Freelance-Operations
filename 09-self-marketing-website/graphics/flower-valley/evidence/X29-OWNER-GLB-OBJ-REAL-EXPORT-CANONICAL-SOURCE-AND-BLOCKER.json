@@ -1,0 +1,179 @@
+{
+  "stage": "X29",
+  "status": "PARTIAL_OWNER_FIXTURE_VERIFIED_PUBLIC_90S_BLOCKED",
+  "referenceDate": "2026-11-20",
+  "sources": {
+    "ripper": {
+      "canonical": "https://github.com/int3re/WebGLRipper",
+      "pinnedCommit": "7fe32c9616f55f3aa80ace68a4b79d0cb7b5a849",
+      "installedSourceVersion": "1.3.2",
+      "manifestVersion": 3,
+      "license": "MIT",
+      "gitTrackedSourceFiles": 72,
+      "priorVersionSameButDifferentBytes": true
+    },
+    "khronos": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html"
+  },
+  "permissions": {
+    "chromiumIsolated": true,
+    "installedInPersonalChrome": false,
+    "newPaidTools": false,
+    "ripperBroadHostPermissions": "<all_urls>",
+    "originalCommercialGeometryExported": false
+  },
+  "officialTests": {
+    "chrome": "Chrome for Testing 157",
+    "i18nExit": 0,
+    "nativeChromeNoThree": {
+      "passed": 170,
+      "failed": 1,
+      "exitCode": 1,
+      "failedCase": "V in the preview records a turntable video (WebM)",
+      "threeCDNTestsSkipped": true
+    }
+  },
+  "originalOwnFixture": {
+    "webGL": "WebGL2",
+    "drawCallsPerFrame": 3,
+    "mesh": {
+      "vertices": 4,
+      "triangleIndices": 6,
+      "triangles": 2,
+      "uvPairs": 4
+    },
+    "points": {
+      "primitive": "GL_POINTS",
+      "count": 5
+    },
+    "instancing": {
+      "baseTriangleVertices": 3,
+      "instances": 3,
+      "logicalTriangles": 3
+    },
+    "texture": {
+      "width": 2,
+      "height": 2
+    }
+  },
+  "realExport": {
+    "type": "ZIP containing GLB2/OBJ/MTL/PNG",
+    "filename": "webglripper_127.0.0.1_20261120-205751.zip",
+    "bytes": 3236,
+    "sha256": "e9364b91483129e7e7c2602a943b302852e665664c24418812c7d4cfc3540662",
+    "savedOnOwnerPC": true,
+    "ownerGeneratedOnly": true,
+    "toolReportedMeshes": 2,
+    "toolReportedTextures": 1,
+    "minFreeRamMiB": 2029
+  },
+  "independentOfflineDecodedGLB": {
+    "validGLB2": true,
+    "gltfVersion": "2.0",
+    "meshes": 2,
+    "nodes": 2,
+    "materials": 2,
+    "textures": 1,
+    "trianglesMode4": 2,
+    "pointsMode0": 0,
+    "geometry": [
+      {
+        "name": "mesh_000",
+        "glbPositions": 4,
+        "indices": 6,
+        "triangles": 2,
+        "uvPairs": 4,
+        "normals": 4,
+        "boundsMin": [
+          -0.96,
+          -0.55,
+          0
+        ],
+        "boundsMax": [
+          -0.46,
+          0.5,
+          0
+        ]
+      },
+      {
+        "name": "mesh_001",
+        "glbPositions": 3,
+        "indices": 3,
+        "triangles": 1,
+        "uvPairs": 3,
+        "normals": 3,
+        "boundsMin": [
+          0.45,
+          -0.3,
+          0
+        ],
+        "boundsMax": [
+          0.64,
+          -0.02,
+          0
+        ]
+      }
+    ],
+    "OBJ": [
+      {
+        "name": "mesh_000.obj",
+        "v": 4,
+        "vt": 4,
+        "vn": 4,
+        "f": 2
+      },
+      {
+        "name": "mesh_001.obj",
+        "v": 3,
+        "vt": 3,
+        "vn": 3,
+        "f": 1
+      },
+      {
+        "name": "scene.obj",
+        "v": 7,
+        "vt": 7,
+        "vn": 7,
+        "f": 3
+      }
+    ],
+    "embeddedPNG": {
+      "width": 2,
+      "height": 2,
+      "bytes": 79
+    },
+    "limitations": [
+      "all 5 GL_POINTS absent from exported GLB",
+      "three instanced copies reduced to one base triangle",
+      "not a measure of generalized model-ripping accuracy"
+    ]
+  },
+  "publicSiteAttempt": {
+    "URL": "https://www.gladeye.com/",
+    "goalSeconds": 90,
+    "successfulObservedSeconds": null,
+    "actualGPUFrames": 0,
+    "reason": "Navigation timeout of 24000 ms exceeded",
+    "siteFirstPartyPathsSeenBeforeFailure": 1,
+    "minFreeRAMMiB": 1933,
+    "completed": false,
+    "thirdPartyGLBExported": false,
+    "remotePCIntermittentlyDisconnected": true
+  },
+  "continuity": {
+    "X28AlreadyVerified": true,
+    "X29OriginalOwnPCFilesPresentAtLastSuccessfulCheck": true,
+    "X01toX28PreservationNotIndependentlyRerunAtX29": true,
+    "newPCGitFileByteExactManifest": false
+  },
+  "pending": [
+    "reliable PC connectivity",
+    "90-second site observer with WebGLRipper activated but no vendor export",
+    "X01–X28 evidence crosswalk and independent acceptance",
+    "original owner source and sanitized evidence GitHub exact SHA verification",
+    "update status to qualified complete only after tests"
+  ],
+  "filesOnOwnerPC": {
+    "derived": "Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261118-NEW-EXTRACTION/02-reviewed-derived/X29-CURRENT",
+    "private": "Desktop/DJMRN-Website-Reference-Evidence/fernhollow-gladeye-20261118-NEW-EXTRACTION/01-private-captures/X29/own-fixture-export"
+  }
+}
