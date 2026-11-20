@@ -1,0 +1,117 @@
+{
+  "stage": "X29",
+  "scope": "OWN_SYNTHETIC_GEOMETRY_ONLY",
+  "source": "official int3re/WebGLRipper commit 7fe32c9616f55f3aa80ace68a4b79d0cb7b5a849, v1.3.2 MIT",
+  "chrome": "157 isolated",
+  "startUTC": "2026-11-20T17:27:47.815Z",
+  "guardRAMMiB": 100,
+  "issues": [],
+  "extensionWorkerPresent": false,
+  "groundTruth": {
+    "ready": true,
+    "source": "DJMRN original fixture",
+    "canvasWidth": 960,
+    "canvasHeight": 540,
+    "groundTruth": {
+      "quadUniqueVertices": 4,
+      "quadSubmittedIndices": 6,
+      "quadTriangles": 2,
+      "quadUVPairs": 4,
+      "glPoints": 5,
+      "instancedBaseVertices": 3,
+      "instancedBaseTriangles": 1,
+      "instancedDrawInstanceCount": 3,
+      "instancedLogicalTriangles": 3,
+      "textureDimensions": [
+        2,
+        2
+      ]
+    },
+    "drawCallsPerFrame": 3,
+    "frame": 16
+  },
+  "extensionHello": [
+    {
+      "type": "ready",
+      "state": "idle",
+      "text": "",
+      "contexts": 1,
+      "canvasCount": 1
+    }
+  ],
+  "exports": [
+    {
+      "name": "webglripper_127.0.0.1_20261120-205751.zip",
+      "bytes": 3236,
+      "sha256": "e9364b91483129e7e7c2602a943b302852e665664c24418812c7d4cfc3540662",
+      "format": "zip"
+    }
+  ],
+  "downloadEvents": [
+    {
+      "event": "begin",
+      "name": "webglripper_127.0.0.1_20261120-205751.zip"
+    },
+    {
+      "event": "complete",
+      "guid": "fc68f7c2-2c42-4b08-8c24-18d3b3d834c5"
+    }
+  ],
+  "extensionEventsAfter": [
+    {
+      "type": "ready",
+      "state": "idle",
+      "text": "",
+      "contexts": 1,
+      "canvasCount": 1
+    },
+    {
+      "type": "state",
+      "state": "waiting",
+      "text": "Waiting for the next frame…"
+    },
+    {
+      "type": "state",
+      "state": "capturing",
+      "text": "Recording a frame…"
+    },
+    {
+      "type": "state",
+      "state": "exporting",
+      "text": "Recorded 2 meshes from 3 draw calls…"
+    },
+    {
+      "type": "state",
+      "state": "exporting",
+      "text": "Reading texture 1 of 1…"
+    },
+    {
+      "type": "state",
+      "state": "exporting",
+      "text": "Writing mesh 1 of 2…"
+    },
+    {
+      "type": "state",
+      "state": "exporting",
+      "text": "Building GLB…"
+    },
+    {
+      "type": "state",
+      "state": "exporting",
+      "text": "Packing .zip…"
+    },
+    {
+      "type": "state",
+      "state": "done",
+      "text": "Saved 2 meshes and 1 texture."
+    }
+  ],
+  "consoleErrors": [],
+  "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+  "completedDownload": true,
+  "stopReason": "OWN_FIXTURE_EXPORT_COMPLETED",
+  "minFreeRAMMiB": 2029,
+  "endUTC": "2026-11-20T17:27:52.638Z",
+  "originalCommercialWebSiteDataExported": false,
+  "scopeRights": "OWNER_GENERATED_ONLY"
+}
