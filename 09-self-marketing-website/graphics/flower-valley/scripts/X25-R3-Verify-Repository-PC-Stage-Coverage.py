@@ -182,7 +182,7 @@ def main():
           {"links": link_totals[docs[1][0]], "broken": [x for x in broken if x["source"] == docs[1][0]][:15]})
     check("X25_handoff_all_relative_links_resolve", not [x for x in broken if x["source"] == docs[2][0]],
           {"links": link_totals[docs[2][0]], "broken": [x for x in broken if x["source"] == docs[2][0]][:15]})
-    check("runbook_X25_current_X26_next_linked", "X25-R2 CURRENT" in runbook and "X26 NEXT" in runbook)
+    check("runbook_X25_current_X26_next_linked", ("X25 FINAL COMPLETENESS AUDIT" in runbook or "X25-R2 CURRENT" in runbook) and "X26 NEXT" in runbook)
     check("canonical_project_log_X25_closure_registered", "135-second real homepage / seven-frame evidence COMPLETE" in projectlog)
 
     # Independent owner machine continued-state check, read only.
