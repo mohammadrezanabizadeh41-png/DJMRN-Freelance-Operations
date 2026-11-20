@@ -1,0 +1,31 @@
+{
+  "stage": "X30",
+  "scope": "ONLY_OWNER_ORIGINAL_FIXTURE",
+  "tool": "Khronos gltf-validator (local previously installed dependency)",
+  "records": [
+    {
+      "name": "X29_WebGLRipper_1_3_2_OWN_GLTF",
+      "sha256": "ef093f310d1c62471920364857f51b6569d31bd1631417a64b1020b19de0a5a3",
+      "bytes": 2748,
+      "glTFVersion": null,
+      "errors": 0,
+      "warnings": 0,
+      "info": 0,
+      "hints": 0,
+      "issueCodes": [],
+      "validatorResources": null
+    },
+    {
+      "name": "X30_WebGLModelExtractor_0_7_0_OWN_GLTF",
+      "sha256": "8011f38f77a9f0eaec9c20f3facd1b6ce7cb7821612df64a6c8c21cd19ed4fcc",
+      "bytes": 2192,
+      "glTFVersion": null,
+      "errors": 0,
+      "warnings": 0,
+      "info": 0,
+      "hints": 0,
+      "issueCodes": [],
+      "validatorResources": null
+    }
+  ]
+}
