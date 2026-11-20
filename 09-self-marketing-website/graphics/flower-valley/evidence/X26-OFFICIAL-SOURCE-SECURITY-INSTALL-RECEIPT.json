@@ -1,0 +1,30 @@
+{
+    "stage":  "X26",
+    "observedUTC":  "2026-11-20T13:42:31.1818667Z",
+    "officialRepo":  "https://github.com/3Dparallax/insight",
+    "commit":  "cbe4463869bbf543106d672790f82155a22844f8",
+    "upstreamLastCommitUTC":  "2021-09-30T16:30:40Z",
+    "officialZipSha256":  "23820d60993ec466a754d394e2072d8411d50b82aa267bc40bac9b8a1c1d4989",
+    "officialZipBytes":  525048,
+    "sourceFileCount":  79,
+    "license":  "MIT",
+    "licenseVerified":  true,
+    "readmeSaysDeprecated":  true,
+    "readmeSaysChromeStoreUnavailable":  true,
+    "manifestV2":  2,
+    "manifestVersion":  "1.0.3",
+    "manifestPermissions":  [
+                                "tabs",
+                                "storage"
+                            ],
+    "manifestUsesAllURLs":  true,
+    "manifestUnsafeEval":  true,
+    "overdrawSourceIncludesDepthDisable":  true,
+    "overdrawSourceChangesBlend":  true,
+    "zeroExtraDependencyRequiredForSourceReview":  true,
+    "oldMV2BrowserActivationAttempted":  false,
+    "portToMV3Attempted":  false,
+    "ownerFallback":  "Isolated Chrome157, no extension, owner-authored WebGL2-state proxy",
+    "hardStopFreeRAMMiB":  100,
+    "capturePrivacy":  "Raw screenshots kept private on PC; no external credentials read; no original vendor shaders/textures published"
+}
