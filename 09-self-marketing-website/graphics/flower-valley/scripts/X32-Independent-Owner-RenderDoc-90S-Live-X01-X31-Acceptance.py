@@ -124,7 +124,8 @@ for i in range(1,32):
     prefix=f"X{i:02d}"
     found=any(f.name.startswith(prefix) for f in (R/"02-reviewed-derived").iterdir())
     ok(prefix+"_prior_PC_derived_existence",found)
-res={"stage":"X32","generatedUTC":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+res={"stage":"X32","generatedUTC":live["startUTC"],
+ "timestampSemantics":"stable original X32 observation UTC; not a timestamp of acceptance reruns",
  "scope":"native owner D3D11 direct RenderDoc capture + browser ANGLE backend fingerprint + separate live site read-only",
  "status":"PASS" if all(checks.values()) else "FAIL","total":len(checks),"passed":sum(checks.values()),
  "failed":[k for k,v in checks.items() if not v],"checks":checks,"ownerBinaryEvidence":details,
