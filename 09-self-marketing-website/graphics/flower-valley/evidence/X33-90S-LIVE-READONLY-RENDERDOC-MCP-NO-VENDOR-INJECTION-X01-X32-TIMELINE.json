@@ -1,0 +1,566 @@
+{
+  "stage": "X33-RENDERDOC-SEPARATE-OBSERVATION-NO-INJECTION-ON-VENDOR",
+  "site": "https://www.gladeye.com/",
+  "tool": "RenderDoc MCP v0.3.0 / bundled 1.43 used ONLY for owner capture replay separately; public site is uninstrumented isolated Chrome passive WebGL nonexpressive metadata",
+  "renderDocOfficialUpstream": "https://github.com/JiaboLi-GitHub/renderdoc-mcp",
+  "renderDocVersion": "MCP-v0.3.0-bundled-1.43",
+  "targetSeconds": 90,
+  "ownerRamHardStopMiB": 100,
+  "isolatedChromeProxyBypass": true,
+  "systemProxyUnchanged": true,
+  "geometryExportOfOriginalSite": false,
+  "originalSiteGLB": false,
+  "renderDocVendorProcessNeverInjected": true,
+  "originalVertexShaderSourcesSaved": false,
+  "originalTexturePixelDataSaved": false,
+  "screenshotsPrivateOnPCOnly": true,
+  "startUTC": "2026-11-20T20:36:29.654Z",
+  "schedule": [],
+  "snapshots": [
+    {
+      "label": "initial",
+      "scheduledSecond": 3,
+      "actualSecond": 3.41,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 0,
+          "signatureCount": 0,
+          "signatures": [],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      },
+      "privateScreenshot": {
+        "name": "X33-PRIVATE-LIVE-initial.png",
+        "bytes": 16045,
+        "sha256": "bf84873b37176ba0c3fcef0a2b3e17f1139582c9b0bf8cff8d6882aa5259d07d"
+      }
+    },
+    {
+      "label": "hover_left",
+      "scheduledSecond": 16,
+      "actualSecond": 16.56,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 5408,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 338
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 4732
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 338
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      }
+    },
+    {
+      "label": "hover_right",
+      "scheduledSecond": 29,
+      "actualSecond": 29.58,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 17520,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 1095
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 15330
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 1095
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      }
+    },
+    {
+      "label": "scroll_450",
+      "scheduledSecond": 42,
+      "actualSecond": 42.48,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 29712,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 1857
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 25998
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 1857
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      }
+    },
+    {
+      "label": "pointer_center",
+      "scheduledSecond": 55,
+      "actualSecond": 55.55,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 42048,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 2628
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 36792
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 2628
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      }
+    },
+    {
+      "label": "reverse_scroll",
+      "scheduledSecond": 72,
+      "actualSecond": 72.48,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 58224,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 3639
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 50946
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 3639
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      }
+    },
+    {
+      "label": "return_idle",
+      "scheduledSecond": 87,
+      "actualSecond": 87.55,
+      "metadata": {
+        "renderdocVendorProcessInjection": false,
+        "canvasCount": 1,
+        "webgl2": true,
+        "ThreeRevision": "154",
+        "scrollY": 0,
+        "renderer": {
+          "totalDraws": 72528,
+          "signatureCount": 3,
+          "signatures": [
+            {
+              "mode": 0,
+              "count": 960000,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 4533
+            },
+            {
+              "mode": 4,
+              "count": 3,
+              "instanceCount": 1,
+              "op": "drawArrays",
+              "calls": 63462
+            },
+            {
+              "mode": 4,
+              "count": 6,
+              "instanceCount": 1,
+              "op": "drawElements",
+              "calls": 4533
+            }
+          ],
+          "nativeGlInstancedDrawCount": 0,
+          "firstRealContextWebGL2": true
+        }
+      },
+      "privateScreenshot": {
+        "name": "X33-PRIVATE-LIVE-return_idle.png",
+        "bytes": 1469876,
+        "sha256": "77d0ef39221c6f04a4c6d7765d65a26d5f4ad0ef417d76df65e8314e235a889f"
+      }
+    }
+  ],
+  "issues": [],
+  "renderdocAttachToVendor": false,
+  "noNativeGPUCaptureOfVendor": true,
+  "navigationAttempts": 1,
+  "navigationErrors": [],
+  "vendorRenderDocSafety": {
+    "renderdocNotLoadedOrInjected": true,
+    "chromeNoExtensionFlags": true,
+    "publicObservationReadOnly": true
+  },
+  "liveStartedUTC": "2026-11-20T20:36:33.836Z",
+  "actualObservedSeconds": 90.01,
+  "stopReason": "COMPLETED_90_SECONDS",
+  "minFreeRamMiB": 1199,
+  "endUTC": "2026-11-20T20:38:04.241Z",
+  "vendorRenderDocNeverInjectedEverySnapshot": true,
+  "observedFirstPartyPaths": 46,
+  "novelFirstPartyPaths": [],
+  "networkBodyShaAndSize": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bytes": 46176,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bytes": 8004,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bytes": 3962,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "bytes": 463,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "bytes": 160712,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "bytes": 102017,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "bytes": 19252,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "bytes": 141609,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "bytes": 5066,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "bytes": 6157,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "bytes": 16685,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "bytes": 17110,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "bytes": 111113,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "bytes": 30550,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "bytes": 81048,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "bytes": 11256,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "bytes": 82741,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "bytes": 549571,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bytes": 2059,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bytes": 10132,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bytes": 915892,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bytes": 7436,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bytes": 249287,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bytes": 2102,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bytes": 295868,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bytes": 225311,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bytes": 222220,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bytes": 8562,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "bytes": 16406,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "bytes": 14536,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "bytes": 38686,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "bytes": 19277,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "bytes": 11135,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "bytes": 40996,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "bytes": 13682,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    }
+  ],
+  "totalHashedResponses": 35,
+  "originalBodyExactCount": 35,
+  "networkInitiatorEdgesObserved": 37,
+  "newInitiatorEdges": [],
+  "sanitizationNotes": "RenderDoc MCP NOT injected on vendor; isolated ordinary Chrome passive WebGL2 draw signatures and first-party resource SHA-size, private screenshots only. No vendor native capture or model export"
+}
