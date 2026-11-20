@@ -1,0 +1,161 @@
+{
+  "stage": "X31",
+  "mode": "OWNER_ONLY_REAL_OFFICIAL_MV3",
+  "tool": "kmatzen/meshgrab",
+  "manifestVersion": "1.1.1",
+  "sourceTreeSHA": "30dc6f45205407dbcf485e51e030568b4e997300",
+  "license": "MIT",
+  "officialCodeUnmodified": true,
+  "sitePermission": "http://127.0.0.1/* ONLY",
+  "thirdPartyEnabled": false,
+  "thirdPartyGLBExported": false,
+  "hardStopFreeRAMMiB": 100,
+  "startUTC": "2026-11-20T19:59:14.174Z",
+  "issues": [],
+  "events": [
+    {
+      "step": "tiny_negative_control",
+      "timeUTC": "2026-11-20T19:59:15.570Z"
+    },
+    {
+      "step": "real_owner_glb_binary_saved",
+      "timeUTC": "2026-11-20T19:59:16.036Z"
+    }
+  ],
+  "derivedOwnerOnlyManifest": true,
+  "originalManifestSHA256": "3cdd94604aa96adf2fd821b8e72f929f7d65af758ea6e4ff90fabc4d43b94a42",
+  "derivedManifestSHA256": "c673e9c733f3b0872e6e0771715b532e345f2cb26b9f96e1dc3e3fc193ac3016",
+  "ownerFixtures": {
+    "tinyOriginalSHA256": "966119038f4470e4f3c69e6468ffac70e9f6386e0c493a1043e918dbc1611993",
+    "largeOriginalSHA256": "5be00d77c83321efd0ab049802a4c28cdf135b2aab6f9bc5aece2cdaba002597"
+  },
+  "extensionServiceWorkerLoaded": true,
+  "officialExtensionPermission": {
+    "ok": true,
+    "mode": "DERIVED_STATIC_LOCALHOST_ONLY_MANIFEST",
+    "originalManifestUnchanged": true,
+    "officialHooksUnchanged": true
+  },
+  "derivedOverrideDoesNotGrantThirdPartyHosts": true,
+  "tinyOwner": {
+    "groundTruth": {
+      "quadUniqueVertices": 4,
+      "quadSubmittedIndices": 6,
+      "quadTriangles": 2,
+      "quadUVPairs": 4,
+      "glPoints": 5,
+      "instancedBaseVertices": 3,
+      "instancedBaseTriangles": 1,
+      "instancedDrawInstanceCount": 3,
+      "instancedLogicalTriangles": 3,
+      "textureDimensions": [
+        2,
+        2
+      ]
+    },
+    "hooksInstalled": true,
+    "capture": {
+      "ok": false,
+      "reason": "no ARRAY_BUFFER uploads captured",
+      "version": "1.0.0",
+      "capturing": true,
+      "vertexCount": 0,
+      "triangleCount": 0,
+      "capturedMB": 0,
+      "bufferCount": 0,
+      "calls": 12,
+      "hint": "saw 12 bufferData calls but captured none — all were below the size floor or an unexpected target",
+      "slots": {},
+      "dead": [],
+      "textures": [],
+      "notes": []
+    }
+  },
+  "largeOwner": {
+    "groundTruth": {
+      "gridVertices": 512,
+      "gridIndices": 2790,
+      "gridTriangles": 930,
+      "gridUVPairs": 512,
+      "gridNormalVec3": 512,
+      "pointCount": 5,
+      "instancedBaseVertices": 3,
+      "instancedBaseTriangles": 1,
+      "instancedCopies": 3,
+      "ownerPrimitiveSubmissionsPerFrame": 3,
+      "gridPositionMin": [
+        -0.94,
+        -0.76,
+        0
+      ],
+      "gridPositionMax": [
+        -0.26,
+        0.76,
+        0
+      ],
+      "textureDimensions": [
+        2,
+        2
+      ],
+      "glBufferBytes": {
+        "position": 6144,
+        "normal": 6144,
+        "uv": 4096,
+        "indices": 5580,
+        "pointsPosition": 60,
+        "instanceOffsets": 24
+      }
+    },
+    "hooksInstalled": true,
+    "capture": {
+      "ok": true,
+      "reason": null,
+      "version": "1.0.0",
+      "capturing": true,
+      "vertexCount": 512,
+      "triangleCount": 930,
+      "capturedMB": 0.02,
+      "bufferCount": 4,
+      "calls": 12,
+      "hint": null,
+      "slots": {
+        "POSITION": {
+          "ctor": "Float32Array",
+          "comps": 3,
+          "bytes": 6144,
+          "packed": false
+        },
+        "NORMAL": {
+          "ctor": "Float32Array",
+          "comps": 3,
+          "bytes": 6144,
+          "packed": false
+        },
+        "TANGENT": null,
+        "TEXCOORD_0": {
+          "ctor": "Float32Array",
+          "comps": 2,
+          "bytes": 4096,
+          "packed": false
+        },
+        "COLOR_0": null
+      },
+      "dead": [],
+      "textures": [],
+      "notes": []
+    }
+  },
+  "realOwnerGLB": {
+    "filename": "X31-OWN-Official-MeshGrab-1.1.1-GRID-EXACT.glb",
+    "bytes": 22940,
+    "sha256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30"
+  },
+  "ownerExportOnly": true,
+  "privateOwnerScreenshot": {
+    "bytes": 10578,
+    "sha256": "ace79900d6c901514564876314f8d5cc5f5e37a4770eb13e155fa75d5eb46877"
+  },
+  "minFreeMiB": 2024,
+  "stopReason": "SUCCESS",
+  "endUTC": "2026-11-20T19:59:16.445Z"
+}
