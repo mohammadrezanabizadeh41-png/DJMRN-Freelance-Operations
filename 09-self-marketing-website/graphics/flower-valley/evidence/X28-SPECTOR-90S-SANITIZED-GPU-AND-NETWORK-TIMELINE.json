@@ -1,0 +1,6599 @@
+{
+  "stats": {
+    "stage": "X28-SPECTOR",
+    "runId": "2026-11-20T14-26-53-791Z",
+    "goal": "X28 independent 90s same-viewport phase-candidate GPU frames via Spector MV3 + Playwright 1.65.1",
+    "targetObservationSeconds": 90,
+    "previousPathAuthority": 78,
+    "priorNetworkEdges": 130,
+    "ramStopMiB": 100,
+    "extensionWorker": false,
+    "observedStartUtc": "2026-11-20T14:27:02.470Z",
+    "observedSeconds": 90.01,
+    "endUtc": "2026-11-20T14:28:32.862Z",
+    "totalWallSeconds": 99.07,
+    "stopReason": "COMPLETED_90S",
+    "minRamMiB": 1668,
+    "controlEngine": "Playwright Core via CDP, inspected by standalone Spector.js",
+    "frames": 8,
+    "firstPartyResponses": 47,
+    "observedPaths": 46,
+    "newPathCandidates": [],
+    "initiatorEdges": 37,
+    "newInitiatorEdges": 0,
+    "bodyVariants": 32,
+    "privateBodyBytes": 0,
+    "issueCount": 0
+  },
+  "frames": [
+    {
+      "label": "normal_baseline",
+      "requestedSecond": 6,
+      "actualSecond": 7.17,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "aab99cbb6236aca2f4693104c2394cb4d2ef3a83b1def50ef5436d8048cde1c3",
+      "rawBytes": 330846,
+      "meta": {
+        "commandCount": 137,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 0,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 20,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 0,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 32,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 39,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 44,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 53,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 58,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 67,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 72,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 81,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 86,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 95,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 100,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 112,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 124,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 0,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 136,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 24,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 33,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 40,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 45,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 54,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 59,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 68,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 73,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 82,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 87,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 96,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 101,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 113,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 128,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 0
+            },
+            {
+              "ordinal": 27,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 48,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 62,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 76,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 90,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 104,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 130,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "hover_left",
+      "requestedSecond": 18,
+      "actualSecond": 19.19,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "2022d8d35835fd9a6f481ea1e2e0b156623182c25e51ca6d5a546d407c2e9bec",
+      "rawBytes": 331891,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 13,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 13,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 13,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 13
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "hover_right",
+      "requestedSecond": 30,
+      "actualSecond": 31.24,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "7c465bebb6d61f4147d44170d633a70efa10e78f6cb36d4911c3b1e4fa7f6f6a",
+      "rawBytes": 331844,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 13,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 13,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 13,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 13
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "dispersal_candidate_sweep",
+      "requestedSecond": 42,
+      "actualSecond": 43.47,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "40cd294840dc22699e59cbfc7ab7aafe879e52027f9e7822aeda5557e1b31a70",
+      "rawBytes": 331582,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 0,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 0,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 0,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 0
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "dispersal_candidate_scroll",
+      "requestedSecond": 54,
+      "actualSecond": 55.07,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "14dc53206efc0c7f54429c5c6ca122b0c6daf4b678f0e23fe0c042c236cba8d2",
+      "rawBytes": 331724,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 13,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 13,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 13,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 13
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "return_scroll_up",
+      "requestedSecond": 66,
+      "actualSecond": 67.09,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "4fdc86374f2e6754ca4d3c3affe18979d4987832badb31d7be446603642d3d11",
+      "rawBytes": 331901,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 0,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 0,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 0,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 0
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "return_pointer_out",
+      "requestedSecond": 78,
+      "actualSecond": 79.31,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "f059bc0cc0060a6e27d35959c5fbd58e8d3ffdc400d17c946ab7807960d4536c",
+      "rawBytes": 332407,
+      "meta": {
+        "commandCount": 139,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 0,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 0,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 22,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 0,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 126,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 0,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 138,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 26,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 47,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 61,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 75,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 89,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 103,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 115,
+              "target": 36160,
+              "fbo": 0
+            },
+            {
+              "ordinal": 130,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 0
+            },
+            {
+              "ordinal": 29,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 36,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 43,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 50,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 57,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 64,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 71,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 78,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 85,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 92,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 99,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 106,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 132,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    },
+    {
+      "label": "return_idle",
+      "requestedSecond": 86,
+      "actualSecond": 87.06,
+      "dom": {
+        "path": "/",
+        "canvasCount": 1,
+        "animationCount": 42,
+        "scrollY": 0,
+        "three": "154",
+        "nextVersion": "13.4.19"
+      },
+      "rawSha256": "abff75d7844cc7e6778313e618bb9ebf0766dbad3a5e1c189dbe8693f1b79ef7",
+      "rawBytes": 331915,
+      "meta": {
+        "commandCount": 138,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCallCount": 16,
+        "programs": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "backbufferDraws": 1,
+        "shaders": [
+          "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+        ],
+        "uniforms": [
+          "bloomFactors",
+          "bloomRadius",
+          "bloomStrength",
+          "bloomTintColors",
+          "blurTexture1",
+          "blurTexture2",
+          "blurTexture3",
+          "blurTexture4",
+          "blurTexture5",
+          "colorTexture",
+          "defaultColor",
+          "defaultOpacity",
+          "direction",
+          "intensity",
+          "luminosityThreshold",
+          "modelViewMatrix",
+          "opacity",
+          "projectionMatrix",
+          "res",
+          "smoothWidth",
+          "tDiffuse",
+          "texSize",
+          "time",
+          "uAmountOfSprites",
+          "uBrightness",
+          "uBrightnessOnTouch",
+          "uCamFar",
+          "uCamFov",
+          "uCamFovBase",
+          "uCamNear",
+          "uComposerPixelRatio",
+          "uContainerPos",
+          "uDispersalAmountMultiplier",
+          "uDispersalIsFlowerWeight",
+          "uDispersalProgress",
+          "uFlowerBaseScale",
+          "uFlowerBloomDistance",
+          "uLeafGrowDistance",
+          "uLeavesBaseScale",
+          "uMaxDispersedPosX",
+          "uMaxDispersedPosY",
+          "uMousePosition",
+          "uNegativeSpaceDeepness",
+          "uNoiseAlpha",
+          "uNoiseDensityThreshold",
+          "uPoolSheetSize",
+          "uScreenResolution",
+          "uShrinkFactor",
+          "uSigmoidSteepness",
+          "uSpriteSheetMix",
+          "uSpriteSheetPool",
+          "uSpriteSheetPool2",
+          "uStartEndIndexFloor",
+          "uStartEndIndexLeaves",
+          "uStartEndIndexPool_0",
+          "uStartEndIndexPool_1",
+          "uStartEndIndexPool_2",
+          "uTerrainOffsetX",
+          "uTerrainOffsetY",
+          "uTextureResolution",
+          "uTime",
+          "uVignetteTexture"
+        ],
+        "draws": [
+          {
+            "command": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "program": 0,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 36
+          },
+          {
+            "command": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "program": 1,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 2,
+            "framebuffer": 2,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 7
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 3,
+            "framebuffer": 4,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 5,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 4,
+            "framebuffer": 6,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 7,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 5,
+            "framebuffer": 8,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 9,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 6,
+            "framebuffer": 10,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 11,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 7,
+            "framebuffer": 12,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 5
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 8,
+            "framebuffer": 3,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 11
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 9,
+            "framebuffer": 13,
+            "blend": true,
+            "depth": false,
+            "uniformCount": 4
+          },
+          {
+            "command": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "program": 10,
+            "framebuffer": null,
+            "blend": false,
+            "depth": true,
+            "uniformCount": 9
+          }
+        ],
+        "webgl": 2,
+        "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "frameBuffer": 13,
+              "program": 0,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "uFlowerBloomDistance",
+                "uLeafGrowDistance",
+                "uFlowerBaseScale",
+                "uLeavesBaseScale",
+                "uTerrainOffsetY",
+                "uTerrainOffsetX",
+                "uMaxDispersedPosX",
+                "uMaxDispersedPosY",
+                "uNegativeSpaceDeepness",
+                "uContainerPos",
+                "uCamNear",
+                "uCamFar",
+                "uComposerPixelRatio",
+                "res",
+                "uDispersalProgress",
+                "uCamFov",
+                "uCamFovBase",
+                "uDispersalAmountMultiplier",
+                "uDispersalIsFlowerWeight",
+                "uMousePosition",
+                "uTime",
+                "uSpriteSheetMix",
+                "uSigmoidSteepness",
+                "uBrightness",
+                "uPoolSheetSize",
+                "uAmountOfSprites",
+                "uStartEndIndexPool_0",
+                "uStartEndIndexPool_1",
+                "uStartEndIndexPool_2",
+                "uStartEndIndexLeaves",
+                "uStartEndIndexFloor",
+                "uBrightnessOnTouch",
+                "uSpriteSheetPool",
+                "uSpriteSheetPool2"
+              ]
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "frameBuffer": 13,
+              "program": 1,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "uShrinkFactor",
+                "uScreenResolution",
+                "uTextureResolution",
+                "uVignetteTexture"
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 2,
+              "program": 2,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "defaultColor",
+                "defaultOpacity",
+                "luminosityThreshold",
+                "smoothWidth",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 4,
+              "program": 3,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 5,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 6,
+              "program": 4,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 7,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 8,
+              "program": 5,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 9,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 10,
+              "program": 6,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 11,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 12,
+              "program": 7,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "texSize",
+                "direction",
+                "colorTexture"
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 3,
+              "program": 8,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "bloomStrength",
+                "bloomRadius",
+                "bloomFactors",
+                "bloomTintColors",
+                "blurTexture1",
+                "blurTexture2",
+                "blurTexture3",
+                "blurTexture4",
+                "blurTexture5"
+              ]
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": 13,
+              "program": 9,
+              "blend": true,
+              "depthTest": false,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "opacity",
+                "tDiffuse"
+              ]
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "frameBuffer": null,
+              "program": 10,
+              "blend": false,
+              "depthTest": true,
+              "uniformNames": [
+                "modelViewMatrix",
+                "projectionMatrix",
+                "time",
+                "uNoiseDensityThreshold",
+                "uNoiseAlpha",
+                "res",
+                "intensity",
+                "uTextureResolution",
+                "tDiffuse"
+              ]
+            }
+          ],
+          "renderTargetBinds": [
+            {
+              "ordinal": 0,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 25,
+              "target": 36160,
+              "fbo": 2
+            },
+            {
+              "ordinal": 34,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 41,
+              "target": 36160,
+              "fbo": 4
+            },
+            {
+              "ordinal": 46,
+              "target": 36160,
+              "fbo": 5
+            },
+            {
+              "ordinal": 55,
+              "target": 36160,
+              "fbo": 6
+            },
+            {
+              "ordinal": 60,
+              "target": 36160,
+              "fbo": 7
+            },
+            {
+              "ordinal": 69,
+              "target": 36160,
+              "fbo": 8
+            },
+            {
+              "ordinal": 74,
+              "target": 36160,
+              "fbo": 9
+            },
+            {
+              "ordinal": 83,
+              "target": 36160,
+              "fbo": 10
+            },
+            {
+              "ordinal": 88,
+              "target": 36160,
+              "fbo": 11
+            },
+            {
+              "ordinal": 97,
+              "target": 36160,
+              "fbo": 12
+            },
+            {
+              "ordinal": 102,
+              "target": 36160,
+              "fbo": 3
+            },
+            {
+              "ordinal": 114,
+              "target": 36160,
+              "fbo": 13
+            },
+            {
+              "ordinal": 129,
+              "target": 36160,
+              "fbo": null
+            }
+          ],
+          "clears": [
+            {
+              "ordinal": 2,
+              "mask": 17664,
+              "fbo": 13
+            },
+            {
+              "ordinal": 28,
+              "mask": 17664,
+              "fbo": 2
+            },
+            {
+              "ordinal": 35,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 42,
+              "mask": 17664,
+              "fbo": 4
+            },
+            {
+              "ordinal": 49,
+              "mask": 17664,
+              "fbo": 5
+            },
+            {
+              "ordinal": 56,
+              "mask": 17664,
+              "fbo": 6
+            },
+            {
+              "ordinal": 63,
+              "mask": 17664,
+              "fbo": 7
+            },
+            {
+              "ordinal": 70,
+              "mask": 17664,
+              "fbo": 8
+            },
+            {
+              "ordinal": 77,
+              "mask": 17664,
+              "fbo": 9
+            },
+            {
+              "ordinal": 84,
+              "mask": 17664,
+              "fbo": 10
+            },
+            {
+              "ordinal": 91,
+              "mask": 17664,
+              "fbo": 11
+            },
+            {
+              "ordinal": 98,
+              "mask": 17664,
+              "fbo": 12
+            },
+            {
+              "ordinal": 105,
+              "mask": 17664,
+              "fbo": 3
+            },
+            {
+              "ordinal": 131,
+              "mask": 17664,
+              "fbo": null
+            }
+          ],
+          "textureAndAttachmentCalls": [],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "GL enum hints; no proof of true GPU cost or same physical resource across separate captures"
+        }
+      }
+    }
+  ],
+  "resourceHashes": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bytes": 8004,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bytes": 46176,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "bytes": 463,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "bytes": 160712,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bytes": 3962,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "bytes": 102017,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "bytes": 19252,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "bytes": 6751,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "bytes": 16685,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "bytes": 30550,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "bytes": 5066,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "bytes": 6157,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "bytes": 596,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "bytes": 549571,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "bytes": 82741,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bytes": 2059,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/svg+xml"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bytes": 10132,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bytes": 249287,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bytes": 7436,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bytes": 2102,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bytes": 915892,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bytes": 225311,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bytes": 222220,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bytes": 295868,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bytes": 8562,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "image/png"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "bytes": 16406,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "text/css"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "bytes": 14536,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "bytes": 19277,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "bytes": 11135,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "bytes": 40996,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "bytes": 38686,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "bytes": 13682,
+      "classification": "KNOWN_PATH_MATCHED_ORIGINAL_SHA",
+      "mime": "application/javascript"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Spector capture changes timing; no native FPS inferred",
+    "Raw shader/texture and HTML bytes remain private",
+    "Site public homepage only, no credentials or private session",
+    "CDP bodies are decoded not original wire-encoded"
+  ]
+}
