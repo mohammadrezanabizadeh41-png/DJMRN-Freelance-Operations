@@ -1,0 +1,121 @@
+{
+  "stage": "X31",
+  "kind": "PC actual bytes compared to independently GitHub API read-back blob SHAs",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "verificationTimeUTC": "2026-11-20T20:08:59.287091+00:00",
+  "source": "GitHub connector read-back SHAs at 2026-11-20; local PC original Python SHA1 Git object calculations",
+  "files": [
+    {
+      "filename": "X31-OWN-LargeGrid-Points-Instancing-WebGL2.html",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/fixtures/X31-OWN-LargeGrid-Points-Instancing-WebGL2.html",
+      "localBytes": 4567,
+      "localSHA256": "5be00d77c83321efd0ab049802a4c28cdf135b2aab6f9bc5aece2cdaba002597",
+      "gitBlobPC": "f72823589ee516d1e40040536ec3b322802f136b",
+      "gitBlobGitHubReadBack": "f72823589ee516d1e40040536ec3b322802f136b",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Official-MeshGrab-Owner-MV3-Chrome157-Real-GLB-Capture.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Official-MeshGrab-Owner-MV3-Chrome157-Real-GLB-Capture.cjs",
+      "localBytes": 7718,
+      "localSHA256": "02208c2e047ee2c66aa44098ad7e5487eb90fbff19f1a8e77e29b3cdd50ea2cd",
+      "gitBlobPC": "c904aaf020e00d382fb4fd1edd138806fb103662",
+      "gitBlobGitHubReadBack": "c904aaf020e00d382fb4fd1edd138806fb103662",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Build-Official-MeshGrab-Live-ReadOnly-Runner.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Build-Official-MeshGrab-Live-ReadOnly-Runner.cjs",
+      "localBytes": 5612,
+      "localSHA256": "d9cbccd39e989a1caaa9aa322daab6a1382eeb6118a1717d37d63c08d0ff2cb3",
+      "gitBlobPC": "5caab7a4108ac62750e99ff64efc73e745d3ce4c",
+      "gitBlobGitHubReadBack": "5caab7a4108ac62750e99ff64efc73e745d3ce4c",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Official-MeshGrab-90s-LIVE-Public-ReadOnly.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Official-MeshGrab-90s-LIVE-Public-ReadOnly.cjs",
+      "localBytes": 12190,
+      "localSHA256": "e0bddb60cad87514b30faf13cd0132acc1b72d7e49b7b63bbf81efffb346b988",
+      "gitBlobPC": "c4e347df425379f1caed6d747a635192360f3d9c",
+      "gitBlobGitHubReadBack": "c4e347df425379f1caed6d747a635192360f3d9c",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Independent-Real-Owner-GLB-And-X01-X30-Acceptance.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Independent-Real-Owner-GLB-And-X01-X30-Acceptance.py",
+      "localBytes": 6845,
+      "localSHA256": "26489bdedd7ba8b30bcc96b714fe4eb3f5e6592b8b158a05e83f697fb0dd95fd",
+      "gitBlobPC": "81994e8833907a4318fae76a7647cf927bcefcd4",
+      "gitBlobGitHubReadBack": "81994e8833907a4318fae76a7647cf927bcefcd4",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Own-Khronos-GLTF-Validator.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Own-Khronos-GLTF-Validator.cjs",
+      "localBytes": 1441,
+      "localSHA256": "1e132e900889481e5f6e1758960653ebb93237101d9414a67e918dd8ce17b3ea",
+      "gitBlobPC": "56b4146bf82404cf7464e0ed6da9781aed6dcd6d",
+      "gitBlobGitHubReadBack": "56b4146bf82404cf7464e0ed6da9781aed6dcd6d",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-Independent-X01-X30-OWN-GLB-90s-LIVE-Acceptance.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X31-Independent-X01-X30-OWN-GLB-90s-LIVE-Acceptance.py",
+      "localBytes": 7160,
+      "localSHA256": "a240050236489b96e8f06776666cf14c8dba95062874196d5cf687f8c9982198",
+      "gitBlobPC": "adda86c1dc26a8bc4c56c6e4678d40d3809a0be3",
+      "gitBlobGitHubReadBack": "adda86c1dc26a8bc4c56c6e4678d40d3809a0be3",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-OFFICIAL-MESHGRAB-REAL-OWNER-CAPTURE-INDEX.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X31-OFFICIAL-MESHGRAB-REAL-OWNER-CAPTURE-INDEX.json",
+      "localBytes": 4279,
+      "localSHA256": "88b2dc3d2fde64935803be2573a5f6f5df1cd3d8a7333e9d690f5d4ee0ca4b16",
+      "gitBlobPC": "83d1d3383663021391583dcaaf1d1a11e7baec4a",
+      "gitBlobGitHubReadBack": "83d1d3383663021391583dcaaf1d1a11e7baec4a",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-OWN-KHRONOS-GLTF-VALIDATOR.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X31-OWN-KHRONOS-GLTF-VALIDATOR.json",
+      "localBytes": 1431,
+      "localSHA256": "0fddfb4461898058e9424150b3cd15f98b83cbf2a4bb39b98b63ab49bb0259ba",
+      "gitBlobPC": "6cd81179d8a3e90dfc492e35ee6e8b0aab9662f3",
+      "gitBlobGitHubReadBack": "6cd81179d8a3e90dfc492e35ee6e8b0aab9662f3",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-INDEPENDENT-REAL-OWNER-GLB-AND-X01-X30-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X31-INDEPENDENT-REAL-OWNER-GLB-AND-X01-X30-ACCEPTANCE.json",
+      "localBytes": 7913,
+      "localSHA256": "d4dfb90e54172fd038dda757396361388d4fb0204617b888c568a1d4bab84a06",
+      "gitBlobPC": "ad3db27e62c74af1a1412a4bbccd872e576c5318",
+      "gitBlobGitHubReadBack": "ad3db27e62c74af1a1412a4bbccd872e576c5318",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-90S-LIVE-READONLY-MESHGRAB-UNGRANTED-X01-X30-TIMELINE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X31-90S-LIVE-READONLY-MESHGRAB-UNGRANTED-X01-X30-TIMELINE.json",
+      "localBytes": 18102,
+      "localSHA256": "02cd169a218b7fd979de9503a2fa83aeac416e9f38a669558e3278a1a6d106e5",
+      "gitBlobPC": "aa4735e985600fc488206b0d4cb0bb08425eac98",
+      "gitBlobGitHubReadBack": "aa4735e985600fc488206b0d4cb0bb08425eac98",
+      "exactByteMatch": true
+    },
+    {
+      "filename": "X31-INDEPENDENT-X01-X30-OWN-GLB-90S-LIVE-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X31-INDEPENDENT-X01-X30-OWN-GLB-90S-LIVE-ACCEPTANCE.json",
+      "localBytes": 3812,
+      "localSHA256": "80fa9b36d641fd0d7b964e11782fc3eb5793f533c544099d1ab291789b9868ea",
+      "gitBlobPC": "e49aa652f598b1dab3251946b37dd662895eb386",
+      "gitBlobGitHubReadBack": "e49aa652f598b1dab3251946b37dd662895eb386",
+      "exactByteMatch": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "status": "PASS"
+}
