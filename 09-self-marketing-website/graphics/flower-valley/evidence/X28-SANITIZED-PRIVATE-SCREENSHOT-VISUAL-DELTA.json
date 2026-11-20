@@ -1,0 +1,188 @@
+{
+    "stage":  "X28",
+    "source":  "8 locally private PNG screenshots per inspector; only sampled RGB difference metadata exported",
+    "reference":  "Each observer normal_baseline capture; separate 90-second sessions at 1280x720",
+    "sampleGridStridePx":  24,
+    "originalPixelsPublished":  false,
+    "causality":  "NOT_INFERRED_FROM_SCREENSHOT_DIFFERENCE",
+    "dispersalVisuallyConfirmed":  false,
+    "warning":  "Animation and time differences can cause pixel changes independent of mouse/scroll. Return similarity is NOT proof of completed transition.",
+    "snapshots":  [
+                      {
+                          "screenshotSHA256":  "c8f997b9d68a70c3e188580ba623316e3f2b6812b4e44950b06d0b30640b8319",
+                          "meanObservedRGB":  36.8036,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1794753,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "normal_baseline",
+                          "meanRGBDifferenceFromSameObserverBaseline":  0,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "37133e70a41bd2a7e68856ff72bf761e18d44fe11038258b01561a75853f3b51",
+                          "meanObservedRGB":  35.6767,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.3899,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1767502,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "hover_left",
+                          "meanRGBDifferenceFromSameObserverBaseline":  27.2354,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "398541f1b2d2c4c7008a547ae48a1c57b7461a902d71f36a1c4949693c1002b0",
+                          "meanObservedRGB":  47.4788,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4164,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1799534,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "hover_right",
+                          "meanRGBDifferenceFromSameObserverBaseline":  30.0426,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "da64b9b61554242a67e6aa54ad3ff2b731d628f3e5382c101d111731ef568254",
+                          "meanObservedRGB":  30.243,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4277,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1538796,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "dispersal_candidate_sweep",
+                          "meanRGBDifferenceFromSameObserverBaseline":  29.5694,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "2b5f620edf7ffb0bf8a12b66de03cf0670efc9852047e269714d3f07a0109cd8",
+                          "meanObservedRGB":  31.9042,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4358,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1589844,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "dispersal_candidate_scroll",
+                          "meanRGBDifferenceFromSameObserverBaseline":  29.8964,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "14689fcfe25741a74d9c17cbef1c5b39513fd852f132dcbc0cc68b3050cfc22f",
+                          "meanObservedRGB":  36.1799,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4321,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1574581,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_scroll_up",
+                          "meanRGBDifferenceFromSameObserverBaseline":  31.7813,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "b0af79981798314ba38c69ac73f05e3ba8f202762ec685ad8cd9b91cee8337e3",
+                          "meanObservedRGB":  25.678,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4528,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1426618,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_pointer_out",
+                          "meanRGBDifferenceFromSameObserverBaseline":  30.5386,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "70442951f6a660e901981272ca160bcb775908c40d23374a959877c9bafe8e92",
+                          "meanObservedRGB":  27.5356,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4296,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1479654,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_idle",
+                          "meanRGBDifferenceFromSameObserverBaseline":  29.9015,
+                          "observer":  "SPECTOR"
+                      },
+                      {
+                          "screenshotSHA256":  "b20497fd962d6e7f5dbb2bc092bce4431690296fd51868bd5b8fd4252deb594f",
+                          "meanObservedRGB":  38.7398,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1804717,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "normal_baseline",
+                          "meanRGBDifferenceFromSameObserverBaseline":  0,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "979b26a9f7c101769900e49599ab4f2c60cddef30521b0e7e3c8d24ee2ed411d",
+                          "meanObservedRGB":  39.4126,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4101,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1806368,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "hover_left",
+                          "meanRGBDifferenceFromSameObserverBaseline":  28.3491,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "5e289b3950c1920ade3f54af97427142350d4ba4455255c52828fbbded94a8b2",
+                          "meanObservedRGB":  42.2348,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4195,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1822921,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "hover_right",
+                          "meanRGBDifferenceFromSameObserverBaseline":  29.8099,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "53648452656c3f51f827471d629598a4a90a54999661fe0a86a07ad308825df9",
+                          "meanObservedRGB":  41.5574,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.444,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1770794,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "dispersal_candidate_sweep",
+                          "meanRGBDifferenceFromSameObserverBaseline":  31.1836,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "6270860deb78c5ff64dab10191ad54834a6c22ba5976595d8ae70a7fccab6fb7",
+                          "meanObservedRGB":  33.4543,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4226,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1558600,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "dispersal_candidate_scroll",
+                          "meanRGBDifferenceFromSameObserverBaseline":  30.514,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "cc4bee451f535b856380e3c978f5de718cdab7281b748bf6c00c65d33c61d0ee",
+                          "meanObservedRGB":  36.7002,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4151,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1602001,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_scroll_up",
+                          "meanRGBDifferenceFromSameObserverBaseline":  30.7583,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "75ab19892e7f01670597293b229b9d07e2c0ff85f3a11f535c9f94878469e512",
+                          "meanObservedRGB":  29.5857,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4239,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1530855,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_pointer_out",
+                          "meanRGBDifferenceFromSameObserverBaseline":  29.4686,
+                          "observer":  "ISPETTORE"
+                      },
+                      {
+                          "screenshotSHA256":  "ba5365746d0acf1f6936d39218f0a446311dbc2b7dcfc48c51a45ae0cdac36fd",
+                          "meanObservedRGB":  24.2442,
+                          "fractionPixelsWithRGBDifferenceAtLeast24":  0.4132,
+                          "viewport":  "1280x720",
+                          "screenshotBytes":  1457697,
+                          "sampledPixels":  1590,
+                          "phaseCandidate":  "return_idle",
+                          "meanRGBDifferenceFromSameObserverBaseline":  28.1417,
+                          "observer":  "ISPETTORE"
+                      }
+                  ]
+}
