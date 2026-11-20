@@ -1,0 +1,324 @@
+{
+  "stage": "X31",
+  "generatedUTC": "2026-11-20T20:04:40.770795+00:00",
+  "scope": "OFFICIAL_MESHGRAB_ON_OWNER_GENERATED_FIXTURE_ONLY; NO_COMMERCIAL_MODEL_EXPORT",
+  "sourceOwnerFixtureSHA256": {
+    "tinyOriginalSHA256": "966119038f4470e4f3c69e6468ffac70e9f6386e0c493a1043e918dbc1611993",
+    "largeOriginalSHA256": "5be00d77c83321efd0ab049802a4c28cdf135b2aab6f9bc5aece2cdaba002597"
+  },
+  "glbSHA256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30",
+  "glbBytes": 22940,
+  "geometry": {
+    "positions": 512,
+    "indices": 2790,
+    "triangles": 930,
+    "normals": 512,
+    "uvPairs": 512,
+    "primitives": 1,
+    "glPointsExported": false,
+    "instancesExported": 1,
+    "originalOwnerInstances": 3,
+    "originalOwnerPoints": 5
+  },
+  "distinctChecks": 52,
+  "passed": 52,
+  "failed": {},
+  "checks": {
+    "glb_sha256": {
+      "pass": true,
+      "actual": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30",
+      "expected": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30"
+    },
+    "glb_file_length": {
+      "pass": true,
+      "actual": 22940,
+      "expected": 22940
+    },
+    "GLB_magic": {
+      "pass": true,
+      "actual": 1179937895,
+      "expected": 1179937895
+    },
+    "GLB_version": {
+      "pass": true,
+      "actual": 2,
+      "expected": 2
+    },
+    "GLB_length": {
+      "pass": true,
+      "actual": 22940,
+      "expected": 22940
+    },
+    "GLB_JSON_type": {
+      "pass": true,
+      "actual": 1313821514,
+      "expected": 1313821514
+    },
+    "GLB_BIN_type": {
+      "pass": true,
+      "actual": 5130562,
+      "expected": 5130562
+    },
+    "GLB_BIN_length": {
+      "pass": true,
+      "actual": 21964,
+      "expected": 21964
+    },
+    "GLB_chunk_boundary": {
+      "pass": true,
+      "actual": 22940,
+      "expected": 22940
+    },
+    "glTF_asset_version": {
+      "pass": true,
+      "actual": "2.0",
+      "expected": "2.0"
+    },
+    "one_mesh": {
+      "pass": true,
+      "actual": 1,
+      "expected": 1
+    },
+    "single_primitive": {
+      "pass": true,
+      "actual": 1,
+      "expected": 1
+    },
+    "triangle_mode": {
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    "POSITION_exists": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "NORMAL_exists": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "UV_exists": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "POSITION_count": {
+      "pass": true,
+      "actual": 512,
+      "expected": 512
+    },
+    "NORMAL_count": {
+      "pass": true,
+      "actual": 512,
+      "expected": 512
+    },
+    "UV_count": {
+      "pass": true,
+      "actual": 512,
+      "expected": 512
+    },
+    "POSITION_componentType": {
+      "pass": true,
+      "actual": 5126,
+      "expected": 5126
+    },
+    "POSITION_type": {
+      "pass": true,
+      "actual": "VEC3",
+      "expected": "VEC3"
+    },
+    "index_count": {
+      "pass": true,
+      "actual": 2790,
+      "expected": 2790
+    },
+    "triangle_count_from_index_count": {
+      "pass": true,
+      "actual": 930,
+      "expected": 930
+    },
+    "indices_componentType": {
+      "pass": true,
+      "actual": 5123,
+      "expected": 5123
+    },
+    "one_node": {
+      "pass": true,
+      "actual": 1,
+      "expected": 1
+    },
+    "no_points_primitive": {
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    "no_instancing_extension": {
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    "owner_tiny_no_capture": {
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    "owner_tiny_calls": {
+      "pass": true,
+      "actual": 12,
+      "expected": 12
+    },
+    "owner_grid_captured_buffers": {
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    "owner_grid_summarized_vertices": {
+      "pass": true,
+      "actual": 512,
+      "expected": 512
+    },
+    "owner_grid_summarized_triangles": {
+      "pass": true,
+      "actual": 930,
+      "expected": 930
+    },
+    "owner_grid_ground_truth_points": {
+      "pass": true,
+      "actual": 5,
+      "expected": 5
+    },
+    "owner_grid_ground_truth_instances": {
+      "pass": true,
+      "actual": 3,
+      "expected": 3
+    },
+    "ram_min_above_hard_stop": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "private_owner_export_only": {
+      "pass": true,
+      "actual": false,
+      "expected": false
+    },
+    "execution_success": {
+      "pass": true,
+      "actual": "SUCCESS",
+      "expected": "SUCCESS"
+    },
+    "no_owner_runner_issues": {
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    "derived_manifest_private": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_all_finite": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_min_x": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_max_x": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_min_y": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_max_y": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "positions_z_zero": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "indices_in_range": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "indices_first_quad": {
+      "pass": true,
+      "actual": [
+        0,
+        1,
+        33,
+        0,
+        33,
+        32
+      ],
+      "expected": [
+        0,
+        1,
+        33,
+        0,
+        33,
+        32
+      ]
+    },
+    "normals_plusZ": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "uv_count_512": {
+      "pass": true,
+      "actual": 512,
+      "expected": 512
+    },
+    "capture_summary_has_normal": {
+      "pass": true,
+      "actual": true,
+      "expected": true
+    },
+    "khronos_error_count": {
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    },
+    "khronos_warning_count": {
+      "pass": true,
+      "actual": 0,
+      "expected": 0
+    }
+  },
+  "priorAcceptanceEvidence": {
+    "X27": {
+      "file": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\02-reviewed-derived\\X27-CURRENT\\X27-INDEPENDENT-ACCEPTANCE.json",
+      "exists": true,
+      "sha256": "957437bdd4465b04b192e77468f14c774e38ca190bf8910b9c9238a4b1ce7646"
+    },
+    "X28": {
+      "file": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\02-reviewed-derived\\X28-CURRENT\\X28-INDEPENDENT-ACCEPTANCE.json",
+      "exists": true,
+      "sha256": "d4ca3743f9f4f873edc579dccd7197933a60bdc3668e6a19e09bb5821eda89a6"
+    },
+    "X29": {
+      "file": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\02-reviewed-derived\\X29-CURRENT\\X29-INDEPENDENT-X01-X28-OWN-GLTF-90S-ACCEPTANCE.json",
+      "exists": true,
+      "sha256": "da6101ac522820cd97f6e3a6269df46d630f627fadd7b4565e487455d4de27c2"
+    },
+    "X30": {
+      "file": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\02-reviewed-derived\\X30-CURRENT\\X30-INDEPENDENT-X01-X29-REAL-OWN-GLB-90S-ACCEPTANCE.json",
+      "exists": true,
+      "sha256": "fa021a9ed3deebcf1ad0413cd08af6eebea4db56f1998706a09aef122f509ad3"
+    }
+  }
+}
