@@ -1,0 +1,25 @@
+{
+  "stage": "X24-R2",
+  "status": "BUILT_COMPLETE_WEBGD_UI_RUST_WASM",
+  "wasmBindgenVersion": "0.2.130",
+  "releaseBinaryExistsOnUpstream": false,
+  "sourceOriginalUnmodified": true,
+  "files": {
+    "index.html": {
+      "bytes": 469,
+      "sha256": "712d34e4e0be611fb87766d52c5c9b8823fc25944fb5b3324d20e94cea8358bb"
+    },
+    "main.js": {
+      "bytes": 48,
+      "sha256": "90f7fa81cb159599ea6c0da03bf965d37320956056fb977044c83d10f26c24c3"
+    },
+    "webgd_ui.js": {
+      "bytes": 175851,
+      "sha256": "2a54152f7afd55fa6b86c5e9a97d984b1c9eb6150ffd516a0e311a0ade7d7f82"
+    },
+    "webgd_ui_bg.wasm": {
+      "bytes": 51867289,
+      "sha256": "2f0dfdd14fba5d579d8d923596f180e0b5376a69dd3bd982f4525b70935beb2b"
+    }
+  }
+}

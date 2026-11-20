@@ -1,0 +1,369 @@
+{
+  "magic": "WGDW",
+  "version": 1,
+  "recordedUrlOrigin": "https://www.gladeye.com/",
+  "byteLength": 137151659,
+  "sha256": "d37bec31a3624f9e7f30e8c6d4bc35d9e72c889e79ed01f62fc2e51ca21451ff",
+  "recordCountByTag": {
+    "1": 303,
+    "2": 213,
+    "4": 546,
+    "3": 144,
+    "255": 1
+  },
+  "stringTableSize": 303,
+  "objectCount": 213,
+  "objectClasses": {
+    "GPU": 1,
+    "HTMLCanvasElement": 1,
+    "WebGL2RenderingContext": 1,
+    "Object": 4,
+    "WebGLTexture": 20,
+    "WebGLFramebuffer": 13,
+    "WebGLRenderbuffer": 13,
+    "WebGLBuffer": 20,
+    "WebGLProgram": 11,
+    "WebGLShader": 22,
+    "WebGLUniformLocation": 96,
+    "WebGLVertexArrayObject": 11
+  },
+  "blobCount": 144,
+  "blobByteTotal": 137009984,
+  "largestBlobBytes": 14745600,
+  "sections": {
+    "setup": {
+      "callCount": 315,
+      "drawCount": 0,
+      "drawSignatures": [],
+      "methodHistogram": {
+        "attachShader": 22,
+        "compileShader": 22,
+        "createBuffer": 20,
+        "createFramebuffer": 13,
+        "createProgram": 11,
+        "createRenderbuffer": 13,
+        "createShader": 22,
+        "createTexture": 20,
+        "createVertexArray": 11,
+        "deleteShader": 22,
+        "getContext": 1,
+        "getExtension": 5,
+        "getUniformLocation": 96,
+        "linkProgram": 11,
+        "set:height": 2,
+        "set:width": 2,
+        "shaderSource": 22
+      },
+      "objectCallCount": 315
+    },
+    "snapshot": {
+      "callCount": 92,
+      "drawCount": 0,
+      "drawSignatures": [],
+      "methodHistogram": {
+        "webgd:canvasSize": 1,
+        "webgd:glBuffer": 20,
+        "webgd:glDefaultFramebuffer": 1,
+        "webgd:glFramebuffer": 13,
+        "webgd:glProgram": 11,
+        "webgd:glRenderbuffer": 13,
+        "webgd:glState": 1,
+        "webgd:glTexture": 20,
+        "webgd:glVertexArray": 12
+      },
+      "objectCallCount": 92
+    },
+    "frame": {
+      "callCount": 139,
+      "drawCount": 16,
+      "drawSignatures": [
+        {
+          "name": "drawElements",
+          "mode": 0.0,
+          "count": 960000.0
+        },
+        {
+          "name": "drawElements",
+          "mode": 4.0,
+          "count": 6.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        },
+        {
+          "name": "drawArrays",
+          "mode": 4.0,
+          "count": 3.0
+        }
+      ],
+      "methodHistogram": {
+        "activeTexture": 4,
+        "bindFramebuffer": 15,
+        "bindTexture": 18,
+        "bindVertexArray": 11,
+        "blendFunc": 1,
+        "blendFuncSeparate": 1,
+        "clear": 14,
+        "clearColor": 2,
+        "depthMask": 4,
+        "disable": 4,
+        "drawArrays": 14,
+        "drawElements": 2,
+        "enable": 4,
+        "scissor": 9,
+        "uniform1f": 3,
+        "uniform1fv": 1,
+        "uniform2f": 11,
+        "uniform3f": 1,
+        "uniform3fv": 1,
+        "uniformMatrix4fv": 1,
+        "useProgram": 11,
+        "viewport": 7
+      },
+      "objectCallCount": 139
+    }
+  },
+  "shaderSourceCount": 22,
+  "shaderSourceFingerprints": [
+    {
+      "sha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+      "utf8Bytes": 19595
+    },
+    {
+      "sha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+      "utf8Bytes": 7867
+    },
+    {
+      "sha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+      "utf8Bytes": 1782
+    },
+    {
+      "sha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+      "utf8Bytes": 2222
+    },
+    {
+      "sha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+      "utf8Bytes": 1650
+    },
+    {
+      "sha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+      "utf8Bytes": 1597
+    },
+    {
+      "sha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+      "utf8Bytes": 1690
+    },
+    {
+      "sha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+      "utf8Bytes": 4778
+    },
+    {
+      "sha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+      "utf8Bytes": 1690
+    },
+    {
+      "sha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+      "utf8Bytes": 4778
+    },
+    {
+      "sha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+      "utf8Bytes": 1690
+    },
+    {
+      "sha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+      "utf8Bytes": 4778
+    },
+    {
+      "sha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+      "utf8Bytes": 1690
+    },
+    {
+      "sha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+      "utf8Bytes": 4778
+    },
+    {
+      "sha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+      "utf8Bytes": 1692
+    },
+    {
+      "sha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+      "utf8Bytes": 4780
+    },
+    {
+      "sha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+      "utf8Bytes": 1669
+    },
+    {
+      "sha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+      "utf8Bytes": 2153
+    },
+    {
+      "sha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+      "utf8Bytes": 1649
+    },
+    {
+      "sha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+      "utf8Bytes": 1225
+    },
+    {
+      "sha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+      "utf8Bytes": 1675
+    },
+    {
+      "sha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+      "utf8Bytes": 3971
+    }
+  ],
+  "uniqueShaderSourceSHA256": [
+    "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+    "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+    "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+    "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+    "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+    "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+    "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+    "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+    "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+    "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+    "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+    "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+    "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+    "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+    "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+    "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+    "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+    "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+    "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+    "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+    "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+    "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+  ],
+  "uniformLocationNameCount": 96,
+  "uniqueUniformNames": [
+    "bloomFactors[0]",
+    "bloomRadius",
+    "bloomStrength",
+    "bloomTintColors[0]",
+    "blurTexture1",
+    "blurTexture2",
+    "blurTexture3",
+    "blurTexture4",
+    "blurTexture5",
+    "colorTexture",
+    "defaultColor",
+    "defaultOpacity",
+    "direction",
+    "intensity",
+    "luminosityThreshold",
+    "modelViewMatrix",
+    "opacity",
+    "projectionMatrix",
+    "res",
+    "smoothWidth",
+    "tDiffuse",
+    "texSize",
+    "time",
+    "uAmountOfSprites",
+    "uBrightness",
+    "uBrightnessOnTouch",
+    "uCamFar",
+    "uCamFov",
+    "uCamFovBase",
+    "uCamNear",
+    "uComposerPixelRatio",
+    "uContainerPos",
+    "uDispersalAmountMultiplier",
+    "uDispersalIsFlowerWeight",
+    "uDispersalProgress",
+    "uFlowerBaseScale",
+    "uFlowerBloomDistance",
+    "uLeafGrowDistance",
+    "uLeavesBaseScale",
+    "uMaxDispersedPosX",
+    "uMaxDispersedPosY",
+    "uMousePosition",
+    "uNegativeSpaceDeepness",
+    "uNoiseAlpha",
+    "uNoiseDensityThreshold",
+    "uPoolSheetSize",
+    "uScreenResolution",
+    "uShrinkFactor",
+    "uSigmoidSteepness",
+    "uSpriteSheetMix",
+    "uSpriteSheetPool",
+    "uSpriteSheetPool2",
+    "uStartEndIndexFloor",
+    "uStartEndIndexLeaves",
+    "uStartEndIndexPool_0",
+    "uStartEndIndexPool_1",
+    "uStartEndIndexPool_2",
+    "uTerrainOffsetX",
+    "uTerrainOffsetY",
+    "uTextureResolution",
+    "uTime",
+    "uVignetteTexture"
+  ],
+  "complete": true
+}

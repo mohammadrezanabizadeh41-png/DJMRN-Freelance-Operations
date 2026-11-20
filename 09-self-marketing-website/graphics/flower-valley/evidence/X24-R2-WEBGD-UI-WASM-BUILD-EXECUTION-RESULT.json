@@ -1,0 +1,21 @@
+{
+  "stage": "WEBGD-UI-WASM-BUILD",
+  "invocation": [
+    "cargo.exe",
+    "build",
+    "-p",
+    "webgd-ui",
+    "--target",
+    "wasm32-unknown-unknown",
+    "--locked"
+  ],
+  "startedUTC": "2026-11-20T10:27:13.281918+00:00",
+  "sourceCargoLockSHA256": "a58a54f96c46ec917e9a771e8a5b5f7c1a4f750ff9b2aa8d6e805c5c87b7ddd3",
+  "exit": 0,
+  "endUTC": "2026-11-20T10:34:31.702173+00:00",
+  "minimumFreeRAMMiB": 1381,
+  "elapsedSeconds": 438.42,
+  "logRelative": "X24-R2-WEBGD-UI-WASM-BUILD-PRIVATE-BUILD.log",
+  "logBytes": 5404,
+  "status": "PASS"
+}

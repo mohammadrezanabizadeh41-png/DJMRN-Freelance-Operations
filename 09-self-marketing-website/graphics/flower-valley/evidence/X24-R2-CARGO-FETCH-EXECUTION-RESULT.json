@@ -1,0 +1,19 @@
+{
+  "stage": "CARGO-FETCH",
+  "invocation": [
+    "cargo.exe",
+    "fetch",
+    "--locked",
+    "--target",
+    "wasm32-unknown-unknown"
+  ],
+  "startedUTC": "2026-11-20T10:19:12.904242+00:00",
+  "sourceCargoLockSHA256": "a58a54f96c46ec917e9a771e8a5b5f7c1a4f750ff9b2aa8d6e805c5c87b7ddd3",
+  "exit": 0,
+  "endUTC": "2026-11-20T10:21:39.077287+00:00",
+  "minimumFreeRAMMiB": 1976,
+  "elapsedSeconds": 146.17,
+  "logRelative": "X24-R2-CARGO-FETCH-PRIVATE-BUILD.log",
+  "logBytes": 6650,
+  "status": "PASS"
+}

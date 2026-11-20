@@ -1,0 +1,388 @@
+{
+  "stage": "X24-R2",
+  "status": "COMPLETE_SCOPE_QUALIFIED_FULL_RUST_WASM_AND_7GPU_STREAMED",
+  "dateUTC": "2026-11-20T11:08:51.754020+00:00",
+  "scope": "Built and exercised full Rust/WASM webgd frame debugger UI on owner WebGL2 fixture; recovered a complete set of seven real public Gladeye 137MB WGDW frames with progressive RAM management; original data private on PC; no all-frame continuous trace claim.",
+  "transferCapBytesPerPacket": 1000000000,
+  "freeRAMHardStopMiB": 100,
+  "independentChecks": {
+    "total": 248,
+    "passed": 248,
+    "failed": []
+  },
+  "time": {
+    "actualElapsedSeconds": 125.6,
+    "targetSeconds": 90,
+    "fullFramesCaptured": 7,
+    "capturedCompletedBy90Seconds": 4,
+    "additionalCapturesAfter90DueToSequentialTransfer": 3,
+    "frameTimingAccurateNoFixed90sClaim": true
+  },
+  "ram": {
+    "stage1OriginalS1": {
+      "captureCount": 3,
+      "minRAMMiB": 99,
+      "stopReason": "EMERGENCY_100MIB_RAM",
+      "fullRawBytes": 411454852
+    },
+    "stage2Completed": {
+      "captureCount": 7,
+      "minRAMMiB": 250,
+      "stopReason": "COMPLETED_90S",
+      "fullRawBytes": 960061412,
+      "freeRAMAfterEachGC": [
+        2362,
+        2262,
+        2168,
+        2055,
+        2131,
+        1998,
+        1969
+      ],
+      "reclaimedRAMMiB": [
+        274,
+        277,
+        259,
+        288,
+        297,
+        289,
+        298
+      ],
+      "averageReclaimedMiB": 283.1
+    }
+  },
+  "publicNetwork": {
+    "firstPartyPaths": 46,
+    "originalBodySHARepeated": 38,
+    "existingInitiatorEdgePairs": 37,
+    "novelOriginalPaths": 0,
+    "novelOriginalBodySHA": 0,
+    "novelInitiators": 0
+  },
+  "fullUi": {
+    "compiledRustWasmyes": true,
+    "wasmBindgen": "0.2.130",
+    "CargoBuildStatus": "PASS",
+    "nativeTests": "PASS",
+    "ownerFixtureBrowser": "PASS_FULL_UI_REAL_BROWSER",
+    "ownerFixtureScreenImagePrivateOnly": "X24-R2-FULL-RUST-WASM-OWN-FIXTURE-AFTER-CAPTURE.png",
+    "builtUIFiles": {
+      "index.html": {
+        "bytes": 469,
+        "sha256": "712d34e4e0be611fb87766d52c5c9b8823fc25944fb5b3324d20e94cea8358bb"
+      },
+      "main.js": {
+        "bytes": 48,
+        "sha256": "90f7fa81cb159599ea6c0da03bf965d37320956056fb977044c83d10f26c24c3"
+      },
+      "webgd_ui.js": {
+        "bytes": 175851,
+        "sha256": "2a54152f7afd55fa6b86c5e9a97d984b1c9eb6150ffd516a0e311a0ade7d7f82"
+      },
+      "webgd_ui_bg.wasm": {
+        "bytes": 51867289,
+        "sha256": "2f0dfdd14fba5d579d8d923596f180e0b5376a69dd3bd982f4525b70935beb2b"
+      }
+    },
+    "officialWebgdGitMainTree": "7cd385690d6f3f5ff67fdf8faa6640b210451b80",
+    "sourceCargoLockSha256": "a58a54f96c46ec917e9a771e8a5b5f7c1a4f750ff9b2aa8d6e805c5c87b7ddd3",
+    "toolchainVersions": {
+      "rustc": {
+        "exit": 0,
+        "version": "rustc 1.100.0 (0ef1bc386 2026-11-09)"
+      },
+      "cargo": {
+        "exit": 0,
+        "version": "cargo 1.100.0 (3acc79c0c 2026-11-05)"
+      },
+      "wasm-bindgen": {
+        "exit": 0,
+        "version": "wasm-bindgen 0.2.130"
+      },
+      "gcc": {
+        "exit": 0,
+        "version": "gcc.exe (GCC) 16.2.0"
+      },
+      "dlltool": {
+        "exit": 0,
+        "version": "GNU C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\Runtimes\\w64devkit-2.11.0\\w64devkit\\bin\\dlltool.exe (GNU Binutils) 2.47.20260726"
+      },
+      "wasm-target": {
+        "exit": 0,
+        "version": "wasm32-unknown-unknown"
+      }
+    }
+  },
+  "frames": [
+    {
+      "name": "baseline",
+      "requestedSecond": 5,
+      "completedSecond": 22.67,
+      "bytes": 137151592,
+      "sha256": "2f7c05dde22baf73e9dc05dc29a376d4c462f25c7f4498fe1027d7ce8d34d945",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 137,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 2088,
+        "freeAfterGC": 2362,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "pointer_left",
+      "requestedSecond": 19,
+      "completedSecond": 39.74,
+      "bytes": 137151630,
+      "sha256": "412482769ed15dfcff8464ec44a5d872b520f27749fe89a7693ee5779f5d44e8",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 138,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1985,
+        "freeAfterGC": 2262,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "pointer_right",
+      "requestedSecond": 33,
+      "completedSecond": 56.66,
+      "bytes": 137151630,
+      "sha256": "c8157da23467525766afc0669ec8448ac9b19bdebf9cedbed17fe46f9dd7d3db",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 138,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1909,
+        "freeAfterGC": 2168,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "wheel_450",
+      "requestedSecond": 47,
+      "completedSecond": 74.19,
+      "bytes": 137151621,
+      "sha256": "592572866feb0e070498864b920246cd37fd09fcc1f8a41890e9fe81788d2fe5",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 138,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1767,
+        "freeAfterGC": 2055,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "pointer_center",
+      "requestedSecond": 61,
+      "completedSecond": 91.43,
+      "bytes": 137151659,
+      "sha256": "d37bec31a3624f9e7f30e8c6d4bc35d9e72c889e79ed01f62fc2e51ca21451ff",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 139,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1834,
+        "freeAfterGC": 2131,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "wheel_800",
+      "requestedSecond": 75,
+      "completedSecond": 107.93,
+      "bytes": 137151621,
+      "sha256": "254816e7ca3d26c055961e6f1a95edbcd0991d046c63b396e271fe5d26e613bc",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 138,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1709,
+        "freeAfterGC": 1998,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    },
+    {
+      "name": "pointer_reverse",
+      "requestedSecond": 87,
+      "completedSecond": 125.15,
+      "bytes": 137151659,
+      "sha256": "b0c91c16359252907c76031c49d7cafcd54b734cdec0550ca4422ee55538c2a5",
+      "decodeMagic": "WGDW",
+      "setupCalls": 315,
+      "preframeSnapshotCalls": 92,
+      "frameCalls": 139,
+      "realDraws": 16,
+      "shaderSourceShaCount": 22,
+      "objectCount": 213,
+      "blobs": 144,
+      "blobBytes": 137009984,
+      "objectClasses": {
+        "GPU": 1,
+        "HTMLCanvasElement": 1,
+        "WebGL2RenderingContext": 1,
+        "Object": 4,
+        "WebGLTexture": 20,
+        "WebGLFramebuffer": 13,
+        "WebGLRenderbuffer": 13,
+        "WebGLBuffer": 20,
+        "WebGLProgram": 11,
+        "WebGLShader": 22,
+        "WebGLUniformLocation": 96,
+        "WebGLVertexArrayObject": 11
+      },
+      "ramRecovery": {
+        "freeBeforeGC": 1671,
+        "freeAfterGC": 1969,
+        "pageGcStatus": "PASS",
+        "nodeGcStatus": "PASS"
+      }
+    }
+  ],
+  "crossStage": {
+    "originalX19ResourceAuthority78PathsUnchanged": true,
+    "X23Original": "114/114",
+    "X23R2": "358/358",
+    "X24R1": "66/66",
+    "SpectorX22ShaderSHAEachFrame": "22/22 for each 7",
+    "SpectorX22DrawCountEachFrame": "16/16 for each 7",
+    "SpectorX22UniformNormalizedEachFrame": "62/62 for each 7",
+    "novelOriginalSiteData": false,
+    "newDerivedData": "seven complete independently hashed WGDW replay snapshots, stagewise RAM recovery telemetry"
+  },
+  "limits": [
+    "This new run actually took 125.60 seconds while seven capture transfers were serialized; the user-requested 90s target was exceeded, not represented as exactly 90 seconds.",
+    "The compiled Rust/egui WASM UI performed capture/replay on an owner fixture; public-site seven GPU files were recorded through the official webgd JS hook, then independently decoded. The UI has not been shown to replay all seven 137 MB public-site files.",
+    "webgd frame snapshots are seven discrete samples, not continuous every-frame GPU telemetry.",
+    "No original GLSL, third-party GPU WGDW resource bytes, private screenshot content or original texture pixels were uploaded to public GitHub.",
+    "No lower-than-1GB capture size limit, zero texture/shader omissions for RAM reasons; a per-capture 1GB ceiling is still a safety boundary."
+  ]
+}

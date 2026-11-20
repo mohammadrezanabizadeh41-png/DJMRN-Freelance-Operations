@@ -1,0 +1,22 @@
+{
+  "stage": "X24-R2",
+  "testType": "Owner WebGL2 fixture real browser integration",
+  "compiledRustWasmUiLoaded": true,
+  "officialMV3ServiceWorkerDetected": true,
+  "isolatedChromeExtensionPageResponse": 200,
+  "ownerWebGl2Hook": true,
+  "eguiCanvasPresent": true,
+  "actualUiCapturedAndReplayedFixture": true,
+  "manualVisualObservationsFromPrivateOwnerScreenshot": {
+    "frameEvents": 34,
+    "drawsOrDispatches": 2,
+    "gpuResources": 17,
+    "reportedReplayErrors": 0,
+    "reportedReplayWarnings": 0
+  },
+  "capturedFixtureScreenshotSha256": "1a2140e636f5b6814e266f451c54545b583f18ade8e4b80db5bd1fd630687b5a",
+  "capturedFixtureScreenshotBytes": 197817,
+  "freeRAMminimumMiB": 1644,
+  "chromePermission": "isolated anonymous Chrome for Testing only, not permanent personal Chrome",
+  "note": "UI replay is verified on owner fixture. Seven real-site WGDW packets captured with official webgd JS hook and independently decoded; UI replay of those seven 137MB packets NOT claimed."
+}

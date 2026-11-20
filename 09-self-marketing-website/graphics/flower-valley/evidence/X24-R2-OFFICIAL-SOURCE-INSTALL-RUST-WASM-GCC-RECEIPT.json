@@ -1,0 +1,88 @@
+{
+  "stage": "X24-R2",
+  "createdUtc": "2026-11-20T10:32:57.858968+00:00",
+  "officialWebgdRepository": "https://github.com/Snowapril/webgd",
+  "officialWebgdSourceCommit": "7cd385690d6f3f5ff67fdf8faa6640b210451b80",
+  "officialWebgdLatestGithubReleaseAssets": [],
+  "webgdVersion": "MV3 manifest 0.1.0",
+  "webgdLicense": "MIT",
+  "sourceZipSHA256": "ea311807a17681f725daf818db4e9aeb498cd435e655235c8b11ad16c128059d",
+  "sourceArchiveFileCount": 101,
+  "sourceFilesSHA256Identical": 101,
+  "originalSourceCargoLockSHA256": "a58a54f96c46ec917e9a771e8a5b5f7c1a4f750ff9b2aa8d6e805c5c87b7ddd3",
+  "downloadedOriginalVendorToolArchiveSHA256Verified": true,
+  "downloadedOfficialArchives": [
+    {
+      "name": "rustup-init.exe",
+      "sizeBytes": 12839424,
+      "sha256": "38027d51d69a5d05493627a0634dbea52d6cd793c8f072d2373d3f4163eec7db",
+      "officialExpectedSHA256": "38027d51d69a5d05493627a0634dbea52d6cd793c8f072d2373d3f4163eec7db",
+      "pass": true
+    },
+    {
+      "name": "rustc-1.100.0-x86_64-pc-windows-gnu.tar.xz",
+      "sizeBytes": 104199636,
+      "sha256": "5eead574f663a8800490d1fd28d2a304117e9268af998f5ff7cc45c4c3cedfcb",
+      "officialExpectedSHA256": "5eead574f663a8800490d1fd28d2a304117e9268af998f5ff7cc45c4c3cedfcb",
+      "pass": true
+    },
+    {
+      "name": "rust-std-1.100.0-wasm32-unknown-unknown.tar.xz",
+      "sizeBytes": 23018664,
+      "sha256": "19b7954d650fc0d22767eceb76b8e03d07ce0d6a9f4234f33c32a17ee8d6d7b9",
+      "officialExpectedSHA256": "19b7954d650fc0d22767eceb76b8e03d07ce0d6a9f4234f33c32a17ee8d6d7b9",
+      "pass": true
+    },
+    {
+      "name": "wasm-bindgen-0.2.130-x86_64-pc-windows-msvc.tar.gz",
+      "sizeBytes": 7979162,
+      "sha256": "844d23f1b56097549b936dd2e0d561fadebc1e8c9e985d5068b6b919654104ad",
+      "officialExpectedSHA256": "844d23f1b56097549b936dd2e0d561fadebc1e8c9e985d5068b6b919654104ad",
+      "pass": true
+    },
+    {
+      "name": "w64devkit-x64-2.11.0.7z.exe",
+      "sizeBytes": 68801240,
+      "sha256": "54c2bb9962e8a30c8270e34c5efc3d5fee579f53087fa7d435b95fbba2af7b2b",
+      "officialExpectedSHA256": "54c2bb9962e8a30c8270e34c5efc3d5fee579f53087fa7d435b95fbba2af7b2b",
+      "pass": true
+    }
+  ],
+  "installedToolVersions": {
+    "rustc": {
+      "exit": 0,
+      "version": "rustc 1.100.0 (0ef1bc386 2026-11-09)"
+    },
+    "cargo": {
+      "exit": 0,
+      "version": "cargo 1.100.0 (3acc79c0c 2026-11-05)"
+    },
+    "wasm-bindgen": {
+      "exit": 0,
+      "version": "wasm-bindgen 0.2.130"
+    },
+    "gcc": {
+      "exit": 0,
+      "version": "gcc.exe (GCC) 16.2.0"
+    },
+    "dlltool": {
+      "exit": 0,
+      "version": "GNU C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\Runtimes\\w64devkit-2.11.0\\w64devkit\\bin\\dlltool.exe (GNU Binutils) 2.47.20260726"
+    },
+    "wasm-target": {
+      "exit": 0,
+      "version": "wasm32-unknown-unknown"
+    }
+  },
+  "nativeRustSmokeTest": "PASS using Rust self-contained GNU libraries and portable w64devkit GCC",
+  "nativeCargoSmokeTest": "PASS linked and executed DJMRN_CARGO_NATIVE_OK",
+  "globalPATHModified": false,
+  "buildEnvironment": "Explicit absolute paths, scoped Rust self-contained LIBRARY_PATH and owner Rustc wrapper; no original webgd source edits",
+  "resourcePolicy": {
+    "freeRAMStopMiB": 100,
+    "maxPerGPUTransferBytes": 1000000000,
+    "cargoBuildJobs": 1,
+    "cost": 0
+  },
+  "phase": "INSTALLED_SOURCES_AND_COMPILERS; FULL_WEBGD_UI_BUILD_SEPARATELY_VERIFIED"
+}

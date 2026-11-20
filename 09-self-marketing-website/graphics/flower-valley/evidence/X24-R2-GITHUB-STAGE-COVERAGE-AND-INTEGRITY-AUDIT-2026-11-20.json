@@ -1,0 +1,143 @@
+{
+  "stage": "X24-R2",
+  "date": "2026-11-20",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "parentCommit": "446c610798527b041da94d8caee5408ce3454e8e",
+  "scope": "Read-back exact Git blob + byte counts of 28 new owner-generated X24 R2 files, preservation of original X23 and X24 R1, X01-X24 stage-file coverage, canonical X01-X19 resource ledger SHA, and Runbook internal links; not rehashing every historical private corpus.",
+  "publicFiles": 28,
+  "publicBytes": 219014,
+  "publicSourceToGitShaAndBytePass": 28,
+  "sourceToGitManifest": "09-self-marketing-website/graphics/flower-valley/evidence/X24-R2-S2-PUBLIC-SOURCE-SHA256-TO-GIT-BLOBS-MANIFEST.json",
+  "historicalX23GitBlobsPreserved": 22,
+  "historicalX24R1GitBlobsPreserved": 16,
+  "originalCanonical78UrlShaGitBlobUnchanged": "2764733dff2b0d6e40ad176f66a25a418ec2d663",
+  "all24StagesHavePublicEvidence": true,
+  "stageFilePresence": [
+    {
+      "stage": "X01",
+      "publicStageFileCount": 14
+    },
+    {
+      "stage": "X02",
+      "publicStageFileCount": 3
+    },
+    {
+      "stage": "X03",
+      "publicStageFileCount": 1
+    },
+    {
+      "stage": "X04",
+      "publicStageFileCount": 2
+    },
+    {
+      "stage": "X05",
+      "publicStageFileCount": 1
+    },
+    {
+      "stage": "X06",
+      "publicStageFileCount": 1
+    },
+    {
+      "stage": "X07",
+      "publicStageFileCount": 3
+    },
+    {
+      "stage": "X08",
+      "publicStageFileCount": 2
+    },
+    {
+      "stage": "X09",
+      "publicStageFileCount": 1
+    },
+    {
+      "stage": "X10",
+      "publicStageFileCount": 2
+    },
+    {
+      "stage": "X11",
+      "publicStageFileCount": 10
+    },
+    {
+      "stage": "X12",
+      "publicStageFileCount": 10
+    },
+    {
+      "stage": "X13",
+      "publicStageFileCount": 5
+    },
+    {
+      "stage": "X14",
+      "publicStageFileCount": 5
+    },
+    {
+      "stage": "X15",
+      "publicStageFileCount": 8
+    },
+    {
+      "stage": "X16",
+      "publicStageFileCount": 8
+    },
+    {
+      "stage": "X17",
+      "publicStageFileCount": 7
+    },
+    {
+      "stage": "X18",
+      "publicStageFileCount": 15
+    },
+    {
+      "stage": "X19",
+      "publicStageFileCount": 34
+    },
+    {
+      "stage": "X20",
+      "publicStageFileCount": 8
+    },
+    {
+      "stage": "X21",
+      "publicStageFileCount": 8
+    },
+    {
+      "stage": "X22",
+      "publicStageFileCount": 16
+    },
+    {
+      "stage": "X23",
+      "publicStageFileCount": 22
+    },
+    {
+      "stage": "X24",
+      "publicStageFileCount": 45
+    }
+  ],
+  "currentX24R2": "COMPLETE_SCOPE_QUALIFIED_FULL_RUST_WASM_AND_7GPU_STREAMED",
+  "independentChecks": "248/248",
+  "sourceArchivesFiveOfficialHashesVerified": true,
+  "rustUIwasmBuiltBytes": 51867289,
+  "ownFixtureCompiledRustUIActualCaptureReplay": true,
+  "GPUsiteSevenOriginalPacketsStoredPCprivatelyBytes": 960061412,
+  "privateRawGLSLTexturesOrScreenshotsUploaded": false,
+  "siteActualContinuousObservationSeconds": 125.6,
+  "targetObservationSeconds": 90,
+  "dataTransferCapPerPacketBytes": 1000000000,
+  "minFreeRamMiB": 250,
+  "ramHardStopMiB": 100,
+  "stage1": "3 completed frames; fourth triggered 99MiB hard stop",
+  "stage2": "7 completed frames, 0 errors, explicit page+Node GC only between frames",
+  "runbookInternalLinksAlreadyChecked": 121,
+  "runbookBrokenLinks": 0,
+  "diffExpected": {
+    "newOwnerPublic": 28,
+    "newManifest": 1,
+    "newAudit": 1,
+    "updatedRunbook": 1,
+    "updatedProjectLog": 1
+  },
+  "limits": [
+    "Original 78-site-path source authority unchanged; no new first-party original URL or shader SHA confirmed",
+    "Real-site captured seven original WGDW packets using the official JS hook; full Rust UI replay separately confirmed on an OWN WebGL2 fixture, not claimed for all seven huge site packets",
+    "Actual browser session 125.60 seconds, not an exactly 90s capture; seven independent frames not every frame",
+    "Raw original third-party site GPU and full WASM binary remain installed/private on owner PC; only source, hash, derived metadata published"
+  ]
+}
