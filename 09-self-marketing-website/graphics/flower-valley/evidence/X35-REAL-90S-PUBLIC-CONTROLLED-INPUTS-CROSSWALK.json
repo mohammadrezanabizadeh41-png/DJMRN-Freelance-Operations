@@ -1998,3 +1998,295 @@
       "kind": "focus"
     },
     {
+      "targetSecond": 66,
+      "name": "pointer_exit",
+      "kind": "exit"
+    },
+    {
+      "targetSecond": 70,
+      "name": "resize_960x600",
+      "kind": "resize"
+    },
+    {
+      "targetSecond": 74,
+      "name": "resize_restore",
+      "kind": "resize"
+    },
+    {
+      "targetSecond": 78,
+      "name": "reduced_motion_on",
+      "kind": "media"
+    },
+    {
+      "targetSecond": 82,
+      "name": "reduced_motion_off",
+      "kind": "media"
+    },
+    {
+      "targetSecond": 85,
+      "name": "mobile_emulation",
+      "kind": "mobile"
+    },
+    {
+      "targetSecond": 87,
+      "name": "mobile_touch_tap",
+      "kind": "mobile"
+    },
+    {
+      "targetSecond": 88.35,
+      "name": "mobile_touch_swipe",
+      "kind": "mobile"
+    }
+  ],
+  "actualObservedSeconds": 90.006,
+  "stopReason": "COMPLETED_90S_LIMIT",
+  "minFreeRamMiB": 854,
+  "endUTC": "2026-11-20T21:15:06.338Z",
+  "observedFirstPartyPaths": 46,
+  "novelFirstPartyPaths": [],
+  "networkBodySHAAndSize": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46176,
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "bytes": 6751,
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "bytes": 16685,
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "bytes": 6157,
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "bytes": 19252,
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "bytes": 141609,
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "bytes": 30550,
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "bytes": 81048,
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "bytes": 17110,
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "bytes": 111113,
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "bytes": 5066,
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "bytes": 82741,
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "bytes": 549571,
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "bytes": 80490,
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "bytes": 10132,
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "bytes": 249287,
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "bytes": 7436,
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "bytes": 225311,
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "bytes": 2102,
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "bytes": 915892,
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "bytes": 295868,
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "bytes": 222220,
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "bytes": 8562,
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "bytes": 16406,
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "bytes": 11135,
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "bytes": 14536,
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "bytes": 13682,
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "knownPath": true,
+      "exactX19Body": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "bytes": 40996,
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "knownPath": true,
+      "exactX19Body": true
+    }
+  ],
+  "exactX19BodyCount": 34,
+  "networkOldInitiatorEdges": 37,
+  "novelInitiatorEdges": [],
+  "liveOriginalCameraSHAIdenticalToX34": true,
+  "limitations": "One session sequential treatment order is not randomized/dual synchronized baseline; continuous autonomous camera/particles and loading confound image differences. Matched repeated left/right verifies consistency of input dispatch only. NO verified internal WebGL camera matrices. CDP device emulation is not a physical mobile device."
+}
