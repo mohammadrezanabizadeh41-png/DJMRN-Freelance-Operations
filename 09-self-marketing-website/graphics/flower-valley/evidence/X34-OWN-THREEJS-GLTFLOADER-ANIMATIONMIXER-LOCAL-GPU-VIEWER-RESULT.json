@@ -1,0 +1,55 @@
+{
+  "stage": "X34",
+  "mode": "OWN_ONLY_LocalThreeJS_GLTFLoader_AnimationMixer_GPU",
+  "errors": [],
+  "noVendorGLBLoaded": true,
+  "noRemoteNetwork": true,
+  "noGpuSandboxRelaxation": true,
+  "minFreeMiB": 1958,
+  "ownerCameraSHA256": "7e0785ef3c938fb0631eab9b00274aa18db4b695dbe0b21da778ed509b8bcd29",
+  "ownerMeshSHA256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30",
+  "viewer": {
+    "ready": true,
+    "sceneNodes": 1,
+    "animationClips": [
+      {
+        "name": "DJMRN_OWN_Camera_200Keys_Linear",
+        "trackCount": 3,
+        "duration": 8.29167,
+        "paths": [
+          "DJMRN_OWN_CameraRig.position",
+          "DJMRN_OWN_CameraRig.quaternion",
+          "DJMRN_OWN_CameraRig.scale"
+        ]
+      }
+    ],
+    "glVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (AMD, AMD Radeon(TM) Vega 8 Graphics (0x000015D8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "initialPosition": [
+      0,
+      0,
+      0
+    ],
+    "advancedPosition": [
+      0.34131,
+      1.2864,
+      5.08894
+    ],
+    "cameraActuallyMoved": true
+  },
+  "screenshotMetadata": [
+    {
+      "label": "owned_before",
+      "bytes": 3144,
+      "sha256": "1c6301240fa8b4155ccd7ea19c02cf27f971aee97c15116225c2bbed96465c0f"
+    },
+    {
+      "label": "owned_after",
+      "bytes": 3786,
+      "sha256": "f0b653cb33aa4640221bbd87219ad9739c97c7004ae6d4cf7565fa6d24902bbd"
+    }
+  ],
+  "screenshotsDiffer": true,
+  "status": "PASS",
+  "stop": "COMPLETE"
+}
