@@ -1,0 +1,353 @@
+{
+  "stage": "X30-LIVE-BROWSER-A-B",
+  "timestamp": "2026-11-20T18:45:41.327Z",
+  "page": "https://www.gladeye.com/",
+  "modes": [
+    {
+      "mode": "WITH_OFFICIAL_BINBUF_MV3",
+      "startUtc": "2026-11-20T18:45:41.328Z",
+      "responses": [
+        {
+          "path": "https://www.gladeye.com/",
+          "status": 200,
+          "type": "document"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+          "status": 200,
+          "type": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+          "status": 200,
+          "type": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+          "status": 200,
+          "type": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+          "status": 200,
+          "type": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+          "status": 206,
+          "type": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.googletagmanager.com/gtag/js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/favicon.svg",
+          "status": 200,
+          "type": "other"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+          "status": 200,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.googletagmanager.com/gtm.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://analytics.google.com/g/collect",
+          "status": 204,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/camera-path07.glb",
+          "status": 200,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.gladeye.com/",
+          "status": 200,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.gladeye.com/about",
+          "status": 200,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/rays/ray1.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/vignette.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/dust-particle.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/rays/ray2.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/rays/ray3.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/valley/terrain.png",
+          "status": 200,
+          "type": "image"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+          "status": 200,
+          "type": "font"
+        },
+        {
+          "path": "https://www.gladeye.com/work",
+          "status": 200,
+          "type": "fetch"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+          "status": 200,
+          "type": "stylesheet"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+          "status": 200,
+          "type": "script"
+        },
+        {
+          "path": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+          "status": 200,
+          "type": "script"
+        }
+      ],
+      "failedRequests": [
+        {
+          "path": "https://stats.g.doubleclick.net/g/collect",
+          "error": "net::ERR_CONNECTION_RESET"
+        }
+      ],
+      "pageErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_RESET"
+      ],
+      "snapshots": [
+        {
+          "second": 1,
+          "ready": "interactive",
+          "canvas": 0,
+          "gl": false,
+          "three": null,
+          "officialExtractor": true,
+          "officialContexts": null,
+          "scripts": 28,
+          "sampleScripts": [
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js",
+            "/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"
+          ],
+          "bodyLength": 287
+        },
+        {
+          "second": 5,
+          "ready": "complete",
+          "canvas": 1,
+          "gl": true,
+          "three": "154",
+          "officialExtractor": true,
+          "officialContexts": 1,
+          "scripts": 31,
+          "sampleScripts": [
+            "/gtm.js",
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js"
+          ],
+          "bodyLength": 4
+        },
+        {
+          "second": 12,
+          "ready": "complete",
+          "canvas": 1,
+          "gl": true,
+          "three": "154",
+          "officialExtractor": true,
+          "officialContexts": 1,
+          "scripts": 37,
+          "sampleScripts": [
+            "/gtm.js",
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js"
+          ],
+          "bodyLength": 64
+        },
+        {
+          "second": 22,
+          "ready": "complete",
+          "canvas": 1,
+          "gl": true,
+          "three": "154",
+          "officialExtractor": true,
+          "officialContexts": 1,
+          "scripts": 31,
+          "sampleScripts": [
+            "/gtm.js",
+            "/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+            "/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+            "/_next/static/chunks/main-app-26c70f106191f37c.js"
+          ],
+          "bodyLength": 64
+        }
+      ],
+      "navigation": "DOM_CONTENT_LOADED",
+      "pending": [
+        {
+          "path": "https://stats.g.doubleclick.net/g/collect",
+          "kind": "ping"
+        }
+      ],
+      "endUtc": "2026-11-20T18:46:05.266Z"
+    }
+  ],
+  "stop": "A_B_COMPLETED",
+  "minFreeRamMiB": 1504
+}
