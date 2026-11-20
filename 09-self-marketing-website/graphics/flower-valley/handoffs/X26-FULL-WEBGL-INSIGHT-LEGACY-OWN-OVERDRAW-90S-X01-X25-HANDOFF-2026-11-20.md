@@ -44,7 +44,7 @@ Date: 2026-11-20. Status: COMPLETE_SCOPE_QUALIFIED, legacy MV2 unsupported / mod
 - Owner local private screenshots: ...\01-private-captures\X26\webgl-insight-legacy-and-webgl2-2026-11-20 ; 2 private PNG images (never public).
 - Owner source in GitHub scripts/: X26-WebGL2-Overdraw-Risk-90s-Runner.cjs ; X26-OWN-WebGL2-Controlled-Overdraw-Fixture.html ; X26-Independent-X01-X25-Reconciliation.py .
 - Safe numerical evidence in GitHub evidence/: X26-OFFICIAL-SOURCE-SECURITY-INSTALL-RECEIPT.json ; X26-SANITIZED-90S-SEVEN-SAMPLES-X01-X25-CROSSWALK.json ; X26-INDEPENDENT-ACCEPTANCE.json ; subsequent public source-to-Git blob SHA256 manifest after publication.
-- Reproduce historical check on PC: py -3 X26-Independent-X01-X25-Reconciliation.py ; this check is read-only, never revisits the site.
+- Reproduce historical check on PC: py -3 X26-Independent-X01-X25-Reconciliation.py ; this check never revisits the site or alters X01–X25 originals; it deterministically regenerates its two owned X26 derived JSON outputs using the fixed original observation timestamp.
 - Reproduce OWN fixture: node X26-WebGL2-Overdraw-Risk-90s-Runner.cjs --fixture . Live recapture, if intentionally required, uses --live with anonymous isolated Chrome and 100 MiB RAM stop.
 - Neither individual vendor shader source, textures, raw site GPU packets, original screenshots, original vendor ZIP nor private browser credentials are published. No background job left running. No paid services, overages, OS permissions or personal Chrome modifications.
 
