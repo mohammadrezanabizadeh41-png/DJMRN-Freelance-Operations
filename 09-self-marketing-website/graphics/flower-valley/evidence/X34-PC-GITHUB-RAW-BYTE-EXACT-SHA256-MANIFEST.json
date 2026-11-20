@@ -1,0 +1,102 @@
+{
+  "stage": "X34",
+  "stableObservationUTC": "2026-11-20T20:57:17.238Z",
+  "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "method": "independent PC raw UTF8/CRLF bytes Git blob SHA1 vs actual GitHub Contents API blob SHA after all remote writes",
+  "scope": "10 code/evidence/final report; raw camera GLB, vendor binary, original animation keyframes, owner GPU screenshots PRIVATE; checker+manifest separate extra pair",
+  "total": 10,
+  "passed": 10,
+  "status": "PASS",
+  "files": [
+    {
+      "name": "X34-GLTF-CAMERA-ANIMATION-90S-Public-ReadOnly.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X34-GLTF-CAMERA-ANIMATION-90S-Public-ReadOnly.cjs",
+      "bytes": 12170,
+      "localSha256": "1cb56f029edb2f31bb21c5f00cf5dd976c0b61234d66a632630789950c65e5ec",
+      "localGitBlobSHA1": "bd7ae095e16c79f4c2601976504aeb8cfe929080",
+      "githubContentsReadbackBlobSHA1": "bd7ae095e16c79f4c2601976504aeb8cfe929080",
+      "exact": true
+    },
+    {
+      "name": "X34-Original-OwnCamera-GLTFTransform-Khronos-And-PublicReference-Structural-Analysis.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X34-Original-OwnCamera-GLTFTransform-Khronos-And-PublicReference-Structural-Analysis.cjs",
+      "bytes": 8972,
+      "localSha256": "b52078b36be9d2d05ec90589e48dfe92f0b939898eacfc4cfec4bf36b23f1827",
+      "localGitBlobSHA1": "c06b32d811153f6f6501558eb7865c1099b4e750",
+      "githubContentsReadbackBlobSHA1": "c06b32d811153f6f6501558eb7865c1099b4e750",
+      "exact": true
+    },
+    {
+      "name": "X34-OWN-GltfLoader-AnimationMixer-Viewer.html",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X34-OWN-GltfLoader-AnimationMixer-Viewer.html",
+      "bytes": 2612,
+      "localSha256": "fc347298a47d86deecf0c2d49cd59aa108d7937663ddee00619922031230ecb9",
+      "localGitBlobSHA1": "dd42d271249157632706e6b760d3426c602a49c0",
+      "githubContentsReadbackBlobSHA1": "dd42d271249157632706e6b760d3426c602a49c0",
+      "exact": true
+    },
+    {
+      "name": "X34-ThreeJS-OWN-Camera-Animation-and-X31-GLB-Viewer-GPU-Test.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X34-ThreeJS-OWN-Camera-Animation-and-X31-GLB-Viewer-GPU-Test.cjs",
+      "bytes": 5121,
+      "localSha256": "f98013c412247127e0c6d068f993f0adae513eff24fade920304ba405a399b8c",
+      "localGitBlobSHA1": "a30d6507bf729b0acb65dcec500aeed5365a8966",
+      "githubContentsReadbackBlobSHA1": "a30d6507bf729b0acb65dcec500aeed5365a8966",
+      "exact": true
+    },
+    {
+      "name": "X34-Independent-Original-GLTF-Camera-Owner-GPU-and-90S-X01-X33-Acceptance.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X34-Independent-Original-GLTF-Camera-Owner-GPU-and-90S-X01-X33-Acceptance.py",
+      "bytes": 13610,
+      "localSha256": "edcc2c5822314c853b798fb54fb21503a91bf363a5fd0878164f21d827b3c88f",
+      "localGitBlobSHA1": "89f6ba5181ca68e6aee2a03afabeb7e43f504565",
+      "githubContentsReadbackBlobSHA1": "89f6ba5181ca68e6aee2a03afabeb7e43f504565",
+      "exact": true
+    },
+    {
+      "name": "X34-90S-LIVE-CAMERA-RESOURCE-PUBLIC-READONLY-X01-X33-TIMELINE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X34-90S-LIVE-CAMERA-RESOURCE-PUBLIC-READONLY-X01-X33-TIMELINE.json",
+      "bytes": 21205,
+      "localSha256": "ad1243fbaf17ba985ffc50db863856c7a50e486b1e3d3577e21482e032ff24ff",
+      "localGitBlobSHA1": "9d4e7c10342b954aebf02a6194bd11507e61b37c",
+      "githubContentsReadbackBlobSHA1": "9d4e7c10342b954aebf02a6194bd11507e61b37c",
+      "exact": true
+    },
+    {
+      "name": "X34-GLTF-TRANSFORM-KHRONOS-OWNER-ANIMATION-CAMERA-AND-PRIVATE-REFERENCE-STRUCTURE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X34-GLTF-TRANSFORM-KHRONOS-OWNER-ANIMATION-CAMERA-AND-PRIVATE-REFERENCE-STRUCTURE.json",
+      "bytes": 6575,
+      "localSha256": "9e9bfa03b4eaab594349f51e52abfc4e3b98e6d1088933d119c91adc11565536",
+      "localGitBlobSHA1": "74eeac941486708b004a8370ce85eb05ed1e0040",
+      "githubContentsReadbackBlobSHA1": "74eeac941486708b004a8370ce85eb05ed1e0040",
+      "exact": true
+    },
+    {
+      "name": "X34-OWN-THREEJS-GLTFLOADER-ANIMATIONMIXER-LOCAL-GPU-VIEWER-RESULT.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X34-OWN-THREEJS-GLTFLOADER-ANIMATIONMIXER-LOCAL-GPU-VIEWER-RESULT.json",
+      "bytes": 1483,
+      "localSha256": "05e66b6ac7b5a40518d61e68db348b54bf2491cea324d63b7e8e5c1af7891ab6",
+      "localGitBlobSHA1": "19bd031ed5983aa222a79403a7e8274924c1f123",
+      "githubContentsReadbackBlobSHA1": "19bd031ed5983aa222a79403a7e8274924c1f123",
+      "exact": true
+    },
+    {
+      "name": "X34-INDEPENDENT-GLTF-CAMERA-GPU-VIEWER-LIVE90-X01-X33-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X34-INDEPENDENT-GLTF-CAMERA-GPU-VIEWER-LIVE90-X01-X33-ACCEPTANCE.json",
+      "bytes": 8333,
+      "localSha256": "9b2e84324b9e5e8d8cbafe278336f78901b284d1e1e7cb7165e270b923ae165b",
+      "localGitBlobSHA1": "10472cd08be4855154437e1e9ddf9d9b8c6b9c96",
+      "githubContentsReadbackBlobSHA1": "10472cd08be4855154437e1e9ddf9d9b8c6b9c96",
+      "exact": true
+    },
+    {
+      "name": "X34-FULL-GLTF-CAMERA-ANIMATION-KHRONOS-THREE-OWN-GPU-90S-LIVE-X01-X33-FINAL-HANDOFF-2026-11-21.md",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/handoffs/X34-FULL-GLTF-CAMERA-ANIMATION-KHRONOS-THREE-OWN-GPU-90S-LIVE-X01-X33-FINAL-HANDOFF-2026-11-21.md",
+      "bytes": 10265,
+      "localSha256": "0d0a2173e355d565514feaf064e549a9d399d254f0a09030ff11e9e00a09d8b6",
+      "localGitBlobSHA1": "0fbacf6a3d8c8a42b3f0e9b9d72779fdfed710dc",
+      "githubContentsReadbackBlobSHA1": "0fbacf6a3d8c8a42b3f0e9b9d72779fdfed710dc",
+      "exact": true
+    }
+  ]
+}
