@@ -1,0 +1,90 @@
+{
+  "stage": "X30",
+  "preflightUTC": "2026-11-20T18:43:12.596391+00:00",
+  "canonical": "https://github.com/binbuf/webgl-model-extractor",
+  "officialHeadObservedInGitHubConnector20261120": "458c5890b85c9fccf193e6f72e9ab15914196d3f",
+  "sourceSnapshot": "Previously installed ZIP checkout, .git absent; selected 5 canonical source files independently byte-identical to official GitHub; do not claim entire source tree pinned to head",
+  "sourceMatches": {
+    "README.md": {
+      "filename": "README.md",
+      "localGitBlob": "fe9474bddebbc004235c72e2d952d7b36e86d82c",
+      "GitHubCanonicalBlob": "fe9474bddebbc004235c72e2d952d7b36e86d82c",
+      "byteExact": true
+    },
+    "package.json": {
+      "filename": "package.json",
+      "localGitBlob": "2df124ae5af4463b5f80818428589d7e3a8efd03",
+      "GitHubCanonicalBlob": "2df124ae5af4463b5f80818428589d7e3a8efd03",
+      "byteExact": true
+    },
+    "build.mjs": {
+      "filename": "build.mjs",
+      "localGitBlob": "3b6740bb77e74b05c4b80c90d86955cd83b5ab00",
+      "GitHubCanonicalBlob": "3b6740bb77e74b05c4b80c90d86955cd83b5ab00",
+      "byteExact": true
+    },
+    "src/main/index.js": {
+      "filename": "src/main/index.js",
+      "localGitBlob": "549094a33271a2008ce2a0479fbf56901aed0fb9",
+      "GitHubCanonicalBlob": "549094a33271a2008ce2a0479fbf56901aed0fb9",
+      "byteExact": true
+    },
+    "test/harness/driver.mjs": {
+      "filename": "test/harness/driver.mjs",
+      "localGitBlob": "df2ab6d5015dd88ff55a4f5d85397768ef218c3e",
+      "GitHubCanonicalBlob": "df2ab6d5015dd88ff55a4f5d85397768ef218c3e",
+      "byteExact": true
+    }
+  },
+  "allSelectedExact": true,
+  "localSource": "C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\Sources\\WebGLModelExtractor\\webgl-model-extractor-main",
+  "officialLicense": "MIT",
+  "licensePresent": true,
+  "packageVersion": "0.7.0",
+  "manifestVersion": 3,
+  "extensionVersion": "0.7.0",
+  "manifestPermissions": [
+    "storage",
+    "contextMenus",
+    "activeTab"
+  ],
+  "hostPermissions": [
+    "<all_urls>"
+  ],
+  "contentScripts": [
+    {
+      "world": "MAIN",
+      "matches": [
+        "<all_urls>"
+      ],
+      "runAt": "document_start"
+    },
+    {
+      "world": "ISOLATED",
+      "matches": [
+        "<all_urls>"
+      ],
+      "runAt": "document_start"
+    }
+  ],
+  "bundledDistMainWorldSHA256": "4fdbd88fb365b448b715f18d962d56f9c886a1e3327e302064b8f6dab0b2ad4b",
+  "bundledDistMainWorldBytes": 120763,
+  "dependenciesAlreadyPresent": true,
+  "browserChrome157Present": true,
+  "officialUnitTests": {
+    "result": "PASS",
+    "counts": {
+      "tests": "54",
+      "pass": "54",
+      "fail": "0",
+      "cancelled": "0",
+      "skipped": "0"
+    },
+    "logSHA256": "a775dc1e51715fe96dc68076af19c8058439fc5416ca56d18c59c63e9e982bfb"
+  },
+  "testE2E": "WebGL owner-original real MV3 Chrome157 capture performed separately; official Playwright browser unavailable; no unnecessary new download",
+  "permissionsPolicy": "Only isolated throwaway Chrome157 profile, not personal Chrome; all_urls broad host permission confined to test browser; vendor live page READ ONLY",
+  "price": "Free local MIT; no provider billing, upgrade or API credits",
+  "role": "Alternative independent geometry-recovery analyzer on OWN source, not commercial site asset authority",
+  "mutation": "No new source install or permission changes; used existing built dist and dependencies"
+}
