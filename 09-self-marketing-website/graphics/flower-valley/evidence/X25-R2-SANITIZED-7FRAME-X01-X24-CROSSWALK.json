@@ -1,0 +1,7648 @@
+{
+  "stage": "X25-R2",
+  "status": "COMPLETE_SCOPE_QUALIFIED_7_OF_7_EXTENDED_135S",
+  "dateUTC": "2026-11-20T12:08:27.307758+00:00",
+  "tool": {
+    "official": "srinivas-86/webgl-developer-tool",
+    "version": "0.1.0",
+    "commit": "cc9317e6e6805beb16968f2cbd19dcbfe0c064e4",
+    "license": "MIT and upstream BSD attribution",
+    "integration": "official built Embed injected on document start in isolated Chrome157; MV3 extension also loaded but action icon not relied upon"
+  },
+  "observation": {
+    "targetSeconds": 135,
+    "actualSeconds": 135,
+    "realPage": "https://www.gladeye.com/",
+    "documentHTTPStatus": 304,
+    "frameSamples": 7,
+    "frameTypes": [
+      "baseline",
+      "pointer_left",
+      "pointer_right",
+      "wheel_450",
+      "pointer_center",
+      "wheel_800",
+      "pointer_reverse"
+    ],
+    "continuousEveryFrameTrace": false,
+    "first90sHistorical": {
+      "seconds": 90.01,
+      "framesSucceeded": 5,
+      "framesRequested": 7,
+      "reason": "first two captures before GL warmup timed out; retained local historical evidence"
+    }
+  },
+  "memory": {
+    "freeMiBMin": 970,
+    "hardStopMiB": 100,
+    "emergencyStopped": false,
+    "reducedGPUFidelityForRAM": false
+  },
+  "network": {
+    "observedPaths": 45,
+    "previousCanonicalX01X19Paths": 78,
+    "novelOriginalSitePaths": [],
+    "observedOriginalBodySHA": 26,
+    "exactPriorOriginalBodySHA": 26,
+    "nonExactOrUnknownBodyEvidence": [],
+    "observedInitiatorEdges": 37,
+    "newInitiatorEdges": []
+  },
+  "crossStage": {
+    "X24SevenGPUFramesPreviouslySaved": 7,
+    "x25SpecificObserverNovelty": "Uniform numeric values at sampled runtime instants, FBO attachment metadata, CPU-instrumented per GL call, GL error signals subject to independent validation",
+    "repeatedGPUArchitecture": "Each stable frame independently reports 16 draws/11 programs/22 shaders/13 framebuffers/20 buffers, matching X24.",
+    "differentResourceCoverage": "X25 tracks 16 texture versions and no VAO versions in stable frames, whereas X24 webgd wires report 20 texture objects and 11 VAO objects; coverage semantics differ; do not equate counts.",
+    "errorCaveat": "29 WebGL errors reported by this observer per public-site frame, while own WebGL2 fixture has 0 errors; likely instrumented-context/replay compatibility concern, NOT independently proved original-site errors.",
+    "GPUProfilerCaveat": "No native true GPU query timing measurement; reported durations are observer-instrumented CPU call times."
+  },
+  "uniformUniqueNamesAcrossSeven": [
+    "bloomFactors[0]",
+    "bloomRadius",
+    "bloomStrength",
+    "bloomTintColors[0]",
+    "blurTexture1",
+    "blurTexture2",
+    "blurTexture3",
+    "blurTexture4",
+    "blurTexture5",
+    "colorTexture",
+    "defaultColor",
+    "defaultOpacity",
+    "direction",
+    "intensity",
+    "luminosityThreshold",
+    "modelViewMatrix",
+    "opacity",
+    "projectionMatrix",
+    "res",
+    "smoothWidth",
+    "tDiffuse",
+    "texSize",
+    "time",
+    "uNoiseAlpha",
+    "uNoiseDensityThreshold",
+    "uScreenResolution",
+    "uShrinkFactor",
+    "uTextureResolution",
+    "uVignetteTexture"
+  ],
+  "GLReportedErrorCodeTotals": {
+    "1286": 196,
+    "1282": 7
+  },
+  "GLReportedErrorByFunctionCode": {
+    "clear|1286": 91,
+    "useProgram|1282": 7,
+    "drawElements|1286": 14,
+    "drawArrays|1286": 91
+  },
+  "CPUInstrumentationHotFunctionAggregateMs": {
+    "bindBuffer": 46.9,
+    "vertexAttribPointer": 43.2,
+    "bindFramebuffer": 25.6,
+    "bindTexture": 23.5,
+    "clear": 21.6,
+    "drawArrays": 21.500000000000004,
+    "uniform2f": 15.700000000000001,
+    "useProgram": 15.399999999999999,
+    "scissor": 12.200000000000001,
+    "viewport": 9.700000000000001,
+    "disable": 7.200000000000001,
+    "enable": 6.0
+  },
+  "frameMetadataIndependentHashFailures": [],
+  "frameArchitectureMismatch": [],
+  "frames": [
+    {
+      "name": "baseline",
+      "requestedSecond": 40,
+      "capturedSecond": 40.7,
+      "frameNumber": 1106,
+      "GLCallsObserved": 182,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            42.154701232910156
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 41.6,
+      "CPUHotFns": [
+        {
+          "name": "bindBuffer",
+          "ms": 7.1
+        },
+        {
+          "name": "vertexAttribPointer",
+          "ms": 5.9
+        },
+        {
+          "name": "clear",
+          "ms": 3.8
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.4
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.3
+        },
+        {
+          "name": "drawArrays",
+          "ms": 2.8
+        },
+        {
+          "name": "uniform2f",
+          "ms": 2
+        },
+        {
+          "name": "useProgram",
+          "ms": 1.9
+        },
+        {
+          "name": "scissor",
+          "ms": 1.8
+        },
+        {
+          "name": "disable",
+          "ms": 1.6
+        },
+        {
+          "name": "depthMask",
+          "ms": 1.2
+        },
+        {
+          "name": "viewport",
+          "ms": 1.2
+        },
+        {
+          "name": "enable",
+          "ms": 1.2
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.9
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.9
+        },
+        {
+          "name": "enableVertexAttribArray",
+          "ms": 0.6
+        },
+        {
+          "name": "clearColor",
+          "ms": 0.5
+        },
+        {
+          "name": "blendFunc",
+          "ms": 0.4
+        }
+      ],
+      "minFreeMiBAfterCapture": 1312,
+      "metadataSHA256": "3f61c0e30672950972057b995a1c07b39eb3a1ea4342e5b58f87de5009fff364",
+      "metadataFile": "X25-live-baseline-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "pointer_left",
+      "requestedSecond": 55,
+      "capturedSecond": 55.71,
+      "frameNumber": 1544,
+      "GLCallsObserved": 182,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            57.20069885253906
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 37.4,
+      "CPUHotFns": [
+        {
+          "name": "vertexAttribPointer",
+          "ms": 6.7
+        },
+        {
+          "name": "bindBuffer",
+          "ms": 6.1
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.9
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.1
+        },
+        {
+          "name": "drawArrays",
+          "ms": 3.1
+        },
+        {
+          "name": "clear",
+          "ms": 2.6
+        },
+        {
+          "name": "useProgram",
+          "ms": 1.9
+        },
+        {
+          "name": "uniform2f",
+          "ms": 1.9
+        },
+        {
+          "name": "scissor",
+          "ms": 1.8
+        },
+        {
+          "name": "viewport",
+          "ms": 1.5
+        },
+        {
+          "name": "enable",
+          "ms": 0.9
+        },
+        {
+          "name": "disable",
+          "ms": 0.8
+        },
+        {
+          "name": "enableVertexAttribArray",
+          "ms": 0.5
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.5
+        },
+        {
+          "name": "clearColor",
+          "ms": 0.4
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.4
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.4
+        },
+        {
+          "name": "blendFuncSeparate",
+          "ms": 0.3
+        }
+      ],
+      "minFreeMiBAfterCapture": 1309,
+      "metadataSHA256": "4ce4e59c3c83d7143fb3fe56f65a9d2f4ad3b55ec4257bc840878423d06aa646",
+      "metadataFile": "X25-live-pointer_left-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "pointer_right",
+      "requestedSecond": 70,
+      "capturedSecond": 70.69,
+      "frameNumber": 1959,
+      "GLCallsObserved": 182,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            72.16840362548828
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 42.5,
+      "CPUHotFns": [
+        {
+          "name": "bindBuffer",
+          "ms": 7.4
+        },
+        {
+          "name": "vertexAttribPointer",
+          "ms": 6.6
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 4.3
+        },
+        {
+          "name": "drawArrays",
+          "ms": 3.6
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.1
+        },
+        {
+          "name": "clear",
+          "ms": 3.1
+        },
+        {
+          "name": "uniform2f",
+          "ms": 2.7
+        },
+        {
+          "name": "useProgram",
+          "ms": 2.5
+        },
+        {
+          "name": "scissor",
+          "ms": 2.1
+        },
+        {
+          "name": "viewport",
+          "ms": 1.8
+        },
+        {
+          "name": "disable",
+          "ms": 0.9
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.8
+        },
+        {
+          "name": "enable",
+          "ms": 0.7
+        },
+        {
+          "name": "clearColor",
+          "ms": 0.5
+        },
+        {
+          "name": "enableVertexAttribArray",
+          "ms": 0.5
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.4
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.4
+        },
+        {
+          "name": "uniform1fv",
+          "ms": 0.3
+        }
+      ],
+      "minFreeMiBAfterCapture": 1314,
+      "metadataSHA256": "82e9e42a8a4503a3f28bb2e01bdc69506f8f764bf8d816daae8355dfca12c6f4",
+      "metadataFile": "X25-live-pointer_right-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "wheel_450",
+      "requestedSecond": 85,
+      "capturedSecond": 85.74,
+      "frameNumber": 2412,
+      "GLCallsObserved": 183,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.0011895436327904463
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            87.24130249023438
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 36.3,
+      "CPUHotFns": [
+        {
+          "name": "bindBuffer",
+          "ms": 6.1
+        },
+        {
+          "name": "vertexAttribPointer",
+          "ms": 5.3
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.3
+        },
+        {
+          "name": "clear",
+          "ms": 3.2
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.2
+        },
+        {
+          "name": "drawArrays",
+          "ms": 2.8
+        },
+        {
+          "name": "useProgram",
+          "ms": 2.2
+        },
+        {
+          "name": "uniform2f",
+          "ms": 1.8
+        },
+        {
+          "name": "scissor",
+          "ms": 1.6
+        },
+        {
+          "name": "viewport",
+          "ms": 1.4
+        },
+        {
+          "name": "enable",
+          "ms": 0.9
+        },
+        {
+          "name": "disable",
+          "ms": 0.8
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.7
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.5
+        },
+        {
+          "name": "uniform1fv",
+          "ms": 0.5
+        },
+        {
+          "name": "uniform3fv",
+          "ms": 0.4
+        },
+        {
+          "name": "enableVertexAttribArray",
+          "ms": 0.4
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.3
+        }
+      ],
+      "minFreeMiBAfterCapture": 1306,
+      "metadataSHA256": "325f73979555965f40f9845013bc08ca9363cd00186ceadf59eca70123484bf5",
+      "metadataFile": "X25-live-wheel_450-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "pointer_center",
+      "requestedSecond": 100,
+      "capturedSecond": 100.69,
+      "frameNumber": 2864,
+      "GLCallsObserved": 183,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1.0149623790077847e-13
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            102.17489624023438
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 42.4,
+      "CPUHotFns": [
+        {
+          "name": "bindBuffer",
+          "ms": 6.5
+        },
+        {
+          "name": "vertexAttribPointer",
+          "ms": 6.1
+        },
+        {
+          "name": "bindTexture",
+          "ms": 4.3
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.9
+        },
+        {
+          "name": "drawArrays",
+          "ms": 2.9
+        },
+        {
+          "name": "clear",
+          "ms": 2.8
+        },
+        {
+          "name": "useProgram",
+          "ms": 2.7
+        },
+        {
+          "name": "uniform2f",
+          "ms": 2.4
+        },
+        {
+          "name": "scissor",
+          "ms": 2
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 1.5
+        },
+        {
+          "name": "viewport",
+          "ms": 1.4
+        },
+        {
+          "name": "disable",
+          "ms": 1.2
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.8
+        },
+        {
+          "name": "enable",
+          "ms": 0.8
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.5
+        },
+        {
+          "name": "uniform1f",
+          "ms": 0.5
+        },
+        {
+          "name": "clearColor",
+          "ms": 0.5
+        },
+        {
+          "name": "uniform3fv",
+          "ms": 0.4
+        }
+      ],
+      "minFreeMiBAfterCapture": 1297,
+      "metadataSHA256": "84647f9b99a20b7cf3d456266176451a78add7fd122652e6bd8c65ceafa2ccc6",
+      "metadataFile": "X25-live-pointer_center-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "wheel_800",
+      "requestedSecond": 115,
+      "capturedSecond": 115.77,
+      "frameNumber": 3314,
+      "GLCallsObserved": 183,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.0011452350299805403
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            117.25299835205078
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 40.3,
+      "CPUHotFns": [
+        {
+          "name": "vertexAttribPointer",
+          "ms": 7
+        },
+        {
+          "name": "bindBuffer",
+          "ms": 6.8
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.3
+        },
+        {
+          "name": "drawArrays",
+          "ms": 3.2
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.2
+        },
+        {
+          "name": "clear",
+          "ms": 3.1
+        },
+        {
+          "name": "uniform2f",
+          "ms": 2.5
+        },
+        {
+          "name": "useProgram",
+          "ms": 2.5
+        },
+        {
+          "name": "scissor",
+          "ms": 1.6
+        },
+        {
+          "name": "viewport",
+          "ms": 1.3
+        },
+        {
+          "name": "disable",
+          "ms": 1
+        },
+        {
+          "name": "enable",
+          "ms": 1
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.9
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.5
+        },
+        {
+          "name": "clearColor",
+          "ms": 0.4
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.4
+        },
+        {
+          "name": "uniform1f",
+          "ms": 0.4
+        },
+        {
+          "name": "uniform3fv",
+          "ms": 0.3
+        }
+      ],
+      "minFreeMiBAfterCapture": 1307,
+      "metadataSHA256": "6169d8e6501bdf9c6fb7256b2158a0796307076e9aa6b13bf741b9b3d715e159",
+      "metadataFile": "X25-live-wheel_800-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    },
+    {
+      "name": "pointer_reverse",
+      "requestedSecond": 130,
+      "capturedSecond": 130.64,
+      "frameNumber": 3629,
+      "GLCallsObserved": 183,
+      "draws": 16,
+      "GLInspectorReportedErrors": 29,
+      "uniformProgramCount": 11,
+      "uniqueUniformNamesThisFrame": 29,
+      "uniforms": [
+        {
+          "programId": 25,
+          "name": "uShrinkFactor",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1.1011089956491915e-10
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 25,
+          "name": "uScreenResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            125,
+            88
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 25,
+          "name": "uVignetteTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 35,
+          "name": "defaultColor",
+          "type": 35665,
+          "size": 1,
+          "sampleValues": [
+            0,
+            0,
+            0
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 35,
+          "name": "defaultOpacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "luminosityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.4000000059604645
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "smoothWidth",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.009999999776482582
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 35,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 41,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 41,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            640,
+            360
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 41,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 50,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 50,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            320,
+            180
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 50,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 59,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 59,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            160,
+            90
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 59,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 68,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 68,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            80,
+            45
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 68,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 77,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 77,
+          "name": "texSize",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            40,
+            23
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "direction",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            0,
+            1
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 77,
+          "name": "colorTexture",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 83,
+          "name": "bloomStrength",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.5
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomRadius",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.20000000298023224
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomFactors[0]",
+          "type": 5126,
+          "size": 5,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "bloomTintColors[0]",
+          "type": 35665,
+          "size": 5,
+          "sampleValues": [
+            1,
+            1,
+            1
+          ],
+          "elements": 3
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture1",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture2",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture3",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            2
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture4",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            3
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 83,
+          "name": "blurTexture5",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            4
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 86,
+          "name": "opacity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            1
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 86,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "modelViewMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "projectionMatrix",
+          "type": 35676,
+          "size": 1,
+          "sampleValues": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "elements": 16
+        },
+        {
+          "programId": 89,
+          "name": "time",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            132.1558074951172
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseDensityThreshold",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.33358675241470337
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uNoiseAlpha",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.019999999552965164
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "res",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "intensity",
+          "type": 5126,
+          "size": 1,
+          "sampleValues": [
+            0.8571428656578064
+          ],
+          "elements": 1
+        },
+        {
+          "programId": 89,
+          "name": "uTextureResolution",
+          "type": 35664,
+          "size": 1,
+          "sampleValues": [
+            1280,
+            720
+          ],
+          "elements": 2
+        },
+        {
+          "programId": 89,
+          "name": "tDiffuse",
+          "type": 35678,
+          "size": 1,
+          "sampleValues": [
+            0
+          ],
+          "elements": 1
+        }
+      ],
+      "resources": {
+        "Texture": 16,
+        "Framebuffer": 13,
+        "Renderbuffer": 13,
+        "Buffer": 20,
+        "Program": 11,
+        "Shader": 22
+      },
+      "framebufferCount": 13,
+      "framebufferAttachmentTypes": [
+        {
+          "id": 3,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 63,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 66,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 72,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 75,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 81,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        },
+        {
+          "id": 93,
+          "parameterKeys": [
+            "colorAttachments",
+            "depthAttachment",
+            "stencilAttachment",
+            "depthStencilAttachment"
+          ],
+          "attachmentCalls": [
+            {
+              "name": "framebufferTexture2D"
+            },
+            {
+              "name": "framebufferRenderbuffer"
+            }
+          ]
+        }
+      ],
+      "cpuInstrumentationTimeSumMs": 36.6,
+      "CPUHotFns": [
+        {
+          "name": "bindBuffer",
+          "ms": 6.9
+        },
+        {
+          "name": "vertexAttribPointer",
+          "ms": 5.6
+        },
+        {
+          "name": "bindFramebuffer",
+          "ms": 3.6
+        },
+        {
+          "name": "bindTexture",
+          "ms": 3.2
+        },
+        {
+          "name": "drawArrays",
+          "ms": 3.1
+        },
+        {
+          "name": "clear",
+          "ms": 3
+        },
+        {
+          "name": "uniform2f",
+          "ms": 2.4
+        },
+        {
+          "name": "useProgram",
+          "ms": 1.7
+        },
+        {
+          "name": "scissor",
+          "ms": 1.3
+        },
+        {
+          "name": "viewport",
+          "ms": 1.1
+        },
+        {
+          "name": "disable",
+          "ms": 0.9
+        },
+        {
+          "name": "depthMask",
+          "ms": 0.7
+        },
+        {
+          "name": "enable",
+          "ms": 0.5
+        },
+        {
+          "name": "drawElements",
+          "ms": 0.5
+        },
+        {
+          "name": "uniform1f",
+          "ms": 0.4
+        },
+        {
+          "name": "enableVertexAttribArray",
+          "ms": 0.4
+        },
+        {
+          "name": "uniform1fv",
+          "ms": 0.3
+        },
+        {
+          "name": "disableVertexAttribArray",
+          "ms": 0.3
+        }
+      ],
+      "minFreeMiBAfterCapture": 1306,
+      "metadataSHA256": "1a0d6b86bec3fd2fe18484af57a2dd88da22950f1e8a4612881c4d8811a41fc0",
+      "metadataFile": "X25-live-pointer_reverse-observer-metadata.json",
+      "x24SemanticallyComparable": {
+        "draws_match_X24": true,
+        "shader_count_matches_X24": true,
+        "program_count_matches_X24": true,
+        "FBO_count_matches_X24": true,
+        "buffer_count_matches_X24": true
+      }
+    }
+  ],
+  "privacy": {
+    "originalShadersTexturesAndScreenshotImagesOnPCOnly": true,
+    "noBinaryOriginalCommercialAssetsPublished": true,
+    "previousX01ToX24FilesIntentionallyUnchanged": true
+  },
+  "limits": [
+    "7 discrete frames sampled during a 135s live session; not every display frame",
+    "No assertion original authored source repository or source map recovered",
+    "Instrumented WebGL errors may be observer artifacts; not evidence of source site bugs",
+    "CPU per-call timing not native GPU profiling",
+    "Site resources never exhaustively enumerated beyond observed public URLs"
+  ]
+}
