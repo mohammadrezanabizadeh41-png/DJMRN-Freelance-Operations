@@ -1,0 +1,721 @@
+{
+  "stage": "X35",
+  "stableUTC": "2026-11-20T21:13:35.945Z",
+  "method": "fresh independent PNG file read + sha256 + sharp 192x108 RGB raw compare",
+  "privateScreenshotPixelBytesNotPublished": true,
+  "originalThirdPartyFramesRemainOnOwnerPC": true,
+  "checks": [
+    {
+      "name": "idle_A_png_magic",
+      "pass": true
+    },
+    {
+      "name": "idle_A_sha256",
+      "pass": true
+    },
+    {
+      "name": "idle_A_raw_length",
+      "pass": true
+    },
+    {
+      "name": "idle_A_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "idle_B_png_magic",
+      "pass": true
+    },
+    {
+      "name": "idle_B_sha256",
+      "pass": true
+    },
+    {
+      "name": "idle_B_raw_length",
+      "pass": true
+    },
+    {
+      "name": "idle_B_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "idle_B_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "idle_B_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_A_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_hold_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_A_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_hold_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_left_B_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_right_B_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "center_reset_png_magic",
+      "pass": true
+    },
+    {
+      "name": "center_reset_sha256",
+      "pass": true
+    },
+    {
+      "name": "center_reset_raw_length",
+      "pass": true
+    },
+    {
+      "name": "center_reset_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "center_reset_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "center_reset_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_press_png_magic",
+      "pass": true
+    },
+    {
+      "name": "drag_press_sha256",
+      "pass": true
+    },
+    {
+      "name": "drag_press_raw_length",
+      "pass": true
+    },
+    {
+      "name": "drag_press_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "drag_press_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_press_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_move_png_magic",
+      "pass": true
+    },
+    {
+      "name": "drag_move_sha256",
+      "pass": true
+    },
+    {
+      "name": "drag_move_raw_length",
+      "pass": true
+    },
+    {
+      "name": "drag_move_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "drag_move_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_move_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_release_png_magic",
+      "pass": true
+    },
+    {
+      "name": "drag_release_sha256",
+      "pass": true
+    },
+    {
+      "name": "drag_release_raw_length",
+      "pass": true
+    },
+    {
+      "name": "drag_release_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "drag_release_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "drag_release_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_png_magic",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_sha256",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_raw_length",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "canvas_click_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_png_magic",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_sha256",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_raw_length",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "wheel_down_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_png_magic",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_sha256",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_raw_length",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "wheel_up_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_png_magic",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_sha256",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_raw_length",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "keyboard_focus_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_png_magic",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_sha256",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_raw_length",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "pointer_exit_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_png_magic",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_sha256",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_raw_length",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "resize_960x600_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_png_magic",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_sha256",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_raw_length",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "resize_restore_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_png_magic",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_sha256",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_raw_length",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_on_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_png_magic",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_sha256",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_raw_length",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "reduced_motion_off_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_png_magic",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_sha256",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_raw_length",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_emulation_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_png_magic",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_sha256",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_raw_length",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_tap_percent_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_png_magic",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_sha256",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_raw_length",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_exact_RGB_192x108_size",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_mae_recomputed",
+      "pass": true
+    },
+    {
+      "name": "mobile_touch_swipe_percent_recomputed",
+      "pass": true
+    }
+  ],
+  "differences": [
+    {
+      "phase": "idle_B",
+      "prior": "idle_A",
+      "mae": 0.1083,
+      "changedComponentsPct": 0.2
+    },
+    {
+      "phase": "pointer_left_A",
+      "prior": "idle_B",
+      "mae": 29.5333,
+      "changedComponentsPct": 42.03
+    },
+    {
+      "phase": "pointer_left_hold",
+      "prior": "pointer_left_A",
+      "mae": 21.97,
+      "changedComponentsPct": 41.22
+    },
+    {
+      "phase": "pointer_right_A",
+      "prior": "pointer_left_hold",
+      "mae": 26.8061,
+      "changedComponentsPct": 49.68
+    },
+    {
+      "phase": "pointer_right_hold",
+      "prior": "pointer_right_A",
+      "mae": 25.9534,
+      "changedComponentsPct": 47.03
+    },
+    {
+      "phase": "pointer_left_B",
+      "prior": "pointer_right_hold",
+      "mae": 26.9761,
+      "changedComponentsPct": 48.67
+    },
+    {
+      "phase": "pointer_right_B",
+      "prior": "pointer_left_B",
+      "mae": 24.0752,
+      "changedComponentsPct": 44.45
+    },
+    {
+      "phase": "center_reset",
+      "prior": "pointer_right_B",
+      "mae": 27.0363,
+      "changedComponentsPct": 48.76
+    },
+    {
+      "phase": "drag_press",
+      "prior": "center_reset",
+      "mae": 27.8875,
+      "changedComponentsPct": 49.75
+    },
+    {
+      "phase": "drag_move",
+      "prior": "drag_press",
+      "mae": 27.3676,
+      "changedComponentsPct": 48.13
+    },
+    {
+      "phase": "drag_release",
+      "prior": "drag_move",
+      "mae": 26.6639,
+      "changedComponentsPct": 45.54
+    },
+    {
+      "phase": "canvas_click",
+      "prior": "drag_release",
+      "mae": 22.3706,
+      "changedComponentsPct": 40.14
+    },
+    {
+      "phase": "wheel_down",
+      "prior": "canvas_click",
+      "mae": 20.9231,
+      "changedComponentsPct": 36.09
+    },
+    {
+      "phase": "wheel_up",
+      "prior": "wheel_down",
+      "mae": 23.5754,
+      "changedComponentsPct": 38.83
+    },
+    {
+      "phase": "keyboard_focus",
+      "prior": "wheel_up",
+      "mae": 26.3619,
+      "changedComponentsPct": 40.43
+    },
+    {
+      "phase": "pointer_exit",
+      "prior": "keyboard_focus",
+      "mae": 21.7728,
+      "changedComponentsPct": 36.76
+    },
+    {
+      "phase": "resize_960x600",
+      "prior": "pointer_exit",
+      "mae": 23.7623,
+      "changedComponentsPct": 38.84
+    },
+    {
+      "phase": "resize_restore",
+      "prior": "resize_960x600",
+      "mae": 22.1268,
+      "changedComponentsPct": 34.69
+    },
+    {
+      "phase": "reduced_motion_on",
+      "prior": "resize_restore",
+      "mae": 16.2889,
+      "changedComponentsPct": 28.1
+    },
+    {
+      "phase": "reduced_motion_off",
+      "prior": "reduced_motion_on",
+      "mae": 15.6207,
+      "changedComponentsPct": 26.33
+    },
+    {
+      "phase": "mobile_emulation",
+      "prior": "reduced_motion_off",
+      "mae": 22.4301,
+      "changedComponentsPct": 27.37
+    },
+    {
+      "phase": "mobile_touch_tap",
+      "prior": "mobile_emulation",
+      "mae": 3.7962,
+      "changedComponentsPct": 7.57
+    },
+    {
+      "phase": "mobile_touch_swipe",
+      "prior": "mobile_touch_tap",
+      "mae": 5.3725,
+      "changedComponentsPct": 9.84
+    }
+  ],
+  "total": 142,
+  "passed": 142,
+  "failed": [],
+  "status": "PASS"
+}
