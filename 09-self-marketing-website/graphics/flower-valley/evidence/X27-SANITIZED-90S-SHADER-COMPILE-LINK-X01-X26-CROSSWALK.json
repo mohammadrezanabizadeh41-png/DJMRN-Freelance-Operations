@@ -1,0 +1,2705 @@
+{
+  "stage": "X27",
+  "referenceObservationUTC": "2026-11-20T14:06:20.724Z",
+  "status": "COMPLETE_SCOPE_QUALIFIED_LEGACY_MV2_BLOCKED_MODERN_OWN_SHADER_EDIT_PASS",
+  "upstream": {
+    "repo": "https://github.com/spite/ShaderEditorExtension",
+    "commit": "564f6c1922b1dcf98813e6940d1e91995495e6dc",
+    "MIT": true,
+    "sourceZIP_SHA256": "a31afb158856c00d0837a75cf91055d50d9327779366e86a7bfcf4e758194d74",
+    "extensionManifestVersion": 2,
+    "extensionActivated": false
+  },
+  "ownFixtureOnlyActualLiveShaderEditProof": {
+    "stage": "X27",
+    "type": "OWN_WEBGL2_DYNAMIC_SHADER_EDITOR_FIXTURE",
+    "fixtureFile": "X27-OWN-WebGL2-Live-Shader-Editor-Fixture.html",
+    "initial": {
+      "label": "initial_red",
+      "accepted": true,
+      "pixel": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "successful": 1,
+      "rejected": 0,
+      "programChanged": false
+    },
+    "validEdit": {
+      "label": "valid_green",
+      "accepted": true,
+      "pixel": [
+        0,
+        255,
+        0,
+        255
+      ],
+      "successful": 2,
+      "rejected": 0,
+      "programChanged": true
+    },
+    "invalidEdit": {
+      "label": "invalid_rejected",
+      "accepted": false,
+      "errorClass": "GLSL_COMPILE_OR_LINK_FAILURE",
+      "previousProgramContinues": true,
+      "pixel": [
+        0,
+        255,
+        0,
+        255
+      ],
+      "successful": 2,
+      "rejected": 1
+    },
+    "recovery": {
+      "label": "revert_red",
+      "accepted": true,
+      "pixel": [
+        255,
+        0,
+        0,
+        255
+      ],
+      "successful": 3,
+      "rejected": 1,
+      "programChanged": true
+    },
+    "finalPixel": [
+      255,
+      0,
+      0,
+      255
+    ],
+    "allAcceptances": true,
+    "originalCommercialGLSLNeverTouched": true,
+    "observationSource": "actual_WebGL2_readPixels_64x64"
+  },
+  "independentlyObservedPublicSiteSeconds": 90,
+  "sevenIndependentGLSLReadOnlySamples": [
+    {
+      "label": "baseline",
+      "atSeconds": 10.27,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 3808,
+        "pointsDraws": 238,
+        "triangleDraws": 3570,
+        "useProgram": 2618,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-baseline-shader-metadata.json",
+      "rawEvidenceSHA256": "06138532d0e57a6320006618aca3bc7d2a8e2523f8429c2d4bcbe47dae34a94a",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "pointer_left",
+      "atSeconds": 24.29,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 12720,
+        "pointsDraws": 795,
+        "triangleDraws": 11925,
+        "useProgram": 8745,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-pointer_left-shader-metadata.json",
+      "rawEvidenceSHA256": "36fdbb2c0a5ad36fa22c915d51715a24575c6e147011a651364d90aa48f77a55",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "pointer_right",
+      "atSeconds": 37.29,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 12064,
+        "pointsDraws": 754,
+        "triangleDraws": 11310,
+        "useProgram": 8294,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-pointer_right-shader-metadata.json",
+      "rawEvidenceSHA256": "2479cb638ecd7e7973f3750266e748c5913494a869efe07ea63ba8a2b9f04505",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "wheel_450",
+      "atSeconds": 50.34,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 12496,
+        "pointsDraws": 781,
+        "triangleDraws": 11715,
+        "useProgram": 8591,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-wheel_450-shader-metadata.json",
+      "rawEvidenceSHA256": "eae229781fbe38bc9043e8d9748c944061ac23d4a074cd372cb1d8200626b629",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "pointer_center",
+      "atSeconds": 63.29,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 12256,
+        "pointsDraws": 766,
+        "triangleDraws": 11490,
+        "useProgram": 8426,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-pointer_center-shader-metadata.json",
+      "rawEvidenceSHA256": "31285bd2f183cb58f3cf0fcbdae59e4a7bf4a6713d190cacb8a59d58af207661",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "wheel_800",
+      "atSeconds": 76.34,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 12400,
+        "pointsDraws": 775,
+        "triangleDraws": 11625,
+        "useProgram": 8525,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-wheel_800-shader-metadata.json",
+      "rawEvidenceSHA256": "f37d50f8cabe6c0002c2bc95f2356b0acf39013fe23cc93141a8ec7a33acf0ad",
+      "rawSHAAndSizeMatches": true
+    },
+    {
+      "label": "pointer_reverse",
+      "atSeconds": 88.29,
+      "shaderHashes": [
+        "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+      ],
+      "newShadersVersusX22": [],
+      "missingShadersVersusX22": [],
+      "shaderKinds": {
+        "VERTEX": 11,
+        "FRAGMENT": 11,
+        "OTHER": 0
+      },
+      "perShaderSourceLengthHashAndCompileResult": [
+        {
+          "id": "s1",
+          "kind": "VERTEX",
+          "sourceSha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+          "utf8Bytes": 19595,
+          "lineCount": 584,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s2",
+          "kind": "FRAGMENT",
+          "sourceSha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+          "utf8Bytes": 7867,
+          "lineCount": 225,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s3",
+          "kind": "VERTEX",
+          "sourceSha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+          "utf8Bytes": 1782,
+          "lineCount": 83,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s4",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+          "utf8Bytes": 2222,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s5",
+          "kind": "VERTEX",
+          "sourceSha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+          "utf8Bytes": 1650,
+          "lineCount": 77,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s6",
+          "kind": "FRAGMENT",
+          "sourceSha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+          "utf8Bytes": 1597,
+          "lineCount": 57,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s7",
+          "kind": "VERTEX",
+          "sourceSha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s8",
+          "kind": "FRAGMENT",
+          "sourceSha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s9",
+          "kind": "VERTEX",
+          "sourceSha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s10",
+          "kind": "FRAGMENT",
+          "sourceSha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s11",
+          "kind": "VERTEX",
+          "sourceSha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s12",
+          "kind": "FRAGMENT",
+          "sourceSha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s13",
+          "kind": "VERTEX",
+          "sourceSha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+          "utf8Bytes": 1690,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s14",
+          "kind": "FRAGMENT",
+          "sourceSha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+          "utf8Bytes": 4778,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s15",
+          "kind": "VERTEX",
+          "sourceSha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+          "utf8Bytes": 1692,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s16",
+          "kind": "FRAGMENT",
+          "sourceSha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+          "utf8Bytes": 4780,
+          "lineCount": 145,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s17",
+          "kind": "VERTEX",
+          "sourceSha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+          "utf8Bytes": 1669,
+          "lineCount": 72,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s18",
+          "kind": "FRAGMENT",
+          "sourceSha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+          "utf8Bytes": 2153,
+          "lineCount": 56,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s19",
+          "kind": "VERTEX",
+          "sourceSha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+          "utf8Bytes": 1649,
+          "lineCount": 76,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s20",
+          "kind": "FRAGMENT",
+          "sourceSha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+          "utf8Bytes": 1225,
+          "lineCount": 46,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s21",
+          "kind": "VERTEX",
+          "sourceSha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+          "utf8Bytes": 1675,
+          "lineCount": 73,
+          "glsl300": true,
+          "compiled": true
+        },
+        {
+          "id": "s22",
+          "kind": "FRAGMENT",
+          "sourceSha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+          "utf8Bytes": 3971,
+          "lineCount": 153,
+          "glsl300": true,
+          "compiled": true
+        }
+      ],
+      "programAttachmentsAndLinkResult": [
+        {
+          "id": "p1",
+          "attached": [
+            "s1",
+            "s2"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p2",
+          "attached": [
+            "s3",
+            "s4"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p3",
+          "attached": [
+            "s5",
+            "s6"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p4",
+          "attached": [
+            "s7",
+            "s8"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p5",
+          "attached": [
+            "s9",
+            "s10"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p6",
+          "attached": [
+            "s11",
+            "s12"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p7",
+          "attached": [
+            "s13",
+            "s14"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p8",
+          "attached": [
+            "s15",
+            "s16"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p9",
+          "attached": [
+            "s17",
+            "s18"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p10",
+          "attached": [
+            "s19",
+            "s20"
+          ],
+          "linked": true
+        },
+        {
+          "id": "p11",
+          "attached": [
+            "s21",
+            "s22"
+          ],
+          "linked": true
+        }
+      ],
+      "windowDrawing": {
+        "drawCalls": 11392,
+        "pointsDraws": 712,
+        "triangleDraws": 10680,
+        "useProgram": 7832,
+        "shaderSourceCalls": 22,
+        "compileCalls": 22,
+        "linkCalls": 11,
+        "invalidCompiles": 0,
+        "invalidLinks": 0
+      },
+      "rawEvidenceFile": "X27-live-pointer_reverse-shader-metadata.json",
+      "rawEvidenceSHA256": "bf567703ea770e412970bde44ff5b1f235f8bcb1038b6260442c0c72ed2105f2",
+      "rawSHAAndSizeMatches": true
+    }
+  ],
+  "newOriginalShaderHashesVersusX22": [],
+  "priorX22SourceGitBlobSHA1": "9828d8854721fd2d7cb44987bef836edc47e8e4d",
+  "priorX22ShaderCount": 22,
+  "originalNetworkComparison": {
+    "firstPartyPathCount": 46,
+    "newPaths": [],
+    "SHA256BodySamples": 38,
+    "SHA256AndOriginalBytesMatching": 38,
+    "bodyVariants": [
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+        "bytes": 102017,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+        "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+        "bytes": 17110,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+        "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+        "bytes": 6157,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+        "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+        "bytes": 14536,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+        "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+        "bytes": 6751,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+        "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+        "bytes": 11135,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+        "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+        "bytes": 81048,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+        "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+        "bytes": 141609,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+        "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+        "bytes": 80490,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+        "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+        "bytes": 19252,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+        "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+        "bytes": 111113,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+        "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+        "bytes": 19277,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+        "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+        "bytes": 40996,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+        "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+        "bytes": 16685,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+        "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+        "bytes": 11256,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+        "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+        "bytes": 5066,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+        "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+        "bytes": 38686,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+        "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+        "bytes": 30550,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+        "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+        "bytes": 596,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+        "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+        "bytes": 82741,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+        "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+        "bytes": 13682,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+        "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+        "bytes": 549571,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+        "bytes": 160712,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+        "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+        "bytes": 463,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+        "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+        "bytes": 3962,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+        "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+        "bytes": 8004,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+        "bytes": 46176,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+        "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+        "bytes": 16406,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/favicon.svg",
+        "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+        "bytes": 2059,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/camera-path07.glb",
+        "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+        "bytes": 10132,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/dust-particle.png",
+        "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+        "bytes": 2102,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+        "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+        "bytes": 249287,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+        "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+        "bytes": 915892,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray1.png",
+        "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+        "bytes": 295868,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray2.png",
+        "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+        "bytes": 225311,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray3.png",
+        "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+        "bytes": 222220,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/terrain.png",
+        "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+        "bytes": 8562,
+        "exactHistoricalBody": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/vignette.png",
+        "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+        "bytes": 7436,
+        "exactHistoricalBody": true
+      }
+    ],
+    "networkInitiatorEdges": 37,
+    "newNetworkEdges": []
+  },
+  "minFreeRAM_MiB": 1690,
+  "classification": [
+    "OWN WebGL2 fragment source recompile/relink and safe rejected rollback = real proof",
+    "Third-party site shaders only observed as SHA256/length/type/program link status; never edited or saved as raw original GLSL",
+    "Seven discrete samples over 90s page observation, not every GPU frame/replay",
+    "Draws across each time-window do not establish accurate FPS",
+    "Legacy MV2 cannot be activated in Chrome 157 without unsupported policy bypass/downgrade"
+  ]
+}
