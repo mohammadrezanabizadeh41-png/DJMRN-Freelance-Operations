@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "checksPassed": 48,
+  "checksTotal": 48,
+  "failed": [],
+  "checks": {
+    "official_zip_exists": true,
+    "official_zip_SHA256_exact": true,
+    "official_zip_bytes_exact": true,
+    "pinned_official_git_commit_recorded": true,
+    "official_source_79_files": true,
+    "official_source_deprecated_and_removed_from_store": true,
+    "official_manifest_MV2_not_MV3": true,
+    "official_v_1_0_3": true,
+    "official_MIT_license": true,
+    "legacy_permissions_reviewed": true,
+    "legacy_broad_match_unsafe_eval_not_enabled": true,
+    "legacy_has_not_been_force_ported": true,
+    "isolated_modern_Chrome_157_used": true,
+    "privacy_source_and_overdraw_risk_properly_labeled": true,
+    "OWN_fixture_exact_overdraw_pass": true,
+    "OWN_fixture_three_controlled_pixel_layers": true,
+    "OWN_fixture_4096_pixel_area": true,
+    "OWN_fixture_WebGL2_64x64": true,
+    "OWN_fixture_two_valid_observer_samples": true,
+    "OWN_fixture_overdraw_observer_blend_depth_signal": true,
+    "OWN_fixture_true_observation_five_seconds": true,
+    "fixture_no_runtime_errors": true,
+    "real_public_site_page_status_200_or_304": true,
+    "real_public_site_90_seconds": true,
+    "real_site_completed_all_seven_discrete_samples": true,
+    "seven_exposure_conditions_exact": true,
+    "seven_sampled_contexts_are_WebGL2": true,
+    "all_seven_samples_exist_and_exact_SHA_bytes": true,
+    "minimum_RAM_gt_100MiB": true,
+    "all_live_samples_memory_gt_100MiB": true,
+    "live_observer_never_claims_GPU_timer": true,
+    "live_all_samples_have_real_draw_observations": true,
+    "all_samples_draw_counts_partitioned_consistently": true,
+    "every_sample_has_expected_11_16_GUI_scene_draw_pattern": true,
+    "X25_legacy_seven_sample_source_preserved": true,
+    "X25_prior_Spector_drawing_baseline_valid": true,
+    "X25_old_36_checks_pass": true,
+    "canonical_X19_78_URL_inventory_read": true,
+    "new_original_paths_disclosed_not_invented": true,
+    "all_live_body_SHA_verified_or_reported": true,
+    "X16_canonical_initiator_edges_loaded": true,
+    "all_new_edges_explicitly_reported": true,
+    "7_frame_counts_fit_prior_X25_webgl_resource_evidence": true,
+    "X24_7_original_GPU_files_still_private": true,
+    "X26_screenshots_private_not_public": true,
+    "all_X01_to_X26_derived_local_stage_dirs_present": true,
+    "remote_user_PC_standalone_source_runner_present": true,
+    "no_site_raw_shader_or_texture_pixels_in_public_result": true
+  },
+  "details": {
+    "real_public_site_90_seconds": 90.01,
+    "all_seven_samples_exist_and_exact_SHA_bytes": [
+      {
+        "label": "baseline",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-baseline-state.json"
+      },
+      {
+        "label": "pointer_left",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-pointer_left-state.json"
+      },
+      {
+        "label": "pointer_right",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-pointer_right-state.json"
+      },
+      {
+        "label": "wheel_450",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-wheel_450-state.json"
+      },
+      {
+        "label": "pointer_center",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-pointer_center-state.json"
+      },
+      {
+        "label": "wheel_800",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-wheel_800-state.json"
+      },
+      {
+        "label": "pointer_reverse",
+        "exists": true,
+        "bytesMatch": true,
+        "sha256Match": true,
+        "file": "X26-live-pointer_reverse-state.json"
+      }
+    ],
+    "minimum_RAM_gt_100MiB": 1916
+  },
+  "sourceStage": "X26",
+  "actualLiveSeconds": 90.01,
+  "toolLegacyActivated": false,
+  "exactPixelOverdrawSiteMeasured": false,
+  "publicDataBoundary": "Only owner scripts, fixture and synthetic/derived statistics; never proprietary raw resources."
+}
