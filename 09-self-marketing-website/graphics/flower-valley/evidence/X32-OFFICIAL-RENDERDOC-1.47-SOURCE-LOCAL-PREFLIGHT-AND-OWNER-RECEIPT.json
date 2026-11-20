@@ -1,0 +1,83 @@
+{
+  "stage": "X32",
+  "observedUTC": "2026-11-20T20:22:34.343931+00:00",
+  "tool": "RenderDoc GUI + renderdoccmd",
+  "officialSource": "https://github.com/baldurk/renderdoc",
+  "officialTag": "v1.47",
+  "officialAnnotatedTagObject": "f259f1ea6c226a19f870a75d6b3b69b5182acc19",
+  "officialLicense": "MIT",
+  "build": {
+    "versionCmd": {
+      "returnCode": 0,
+      "stdout": "renderdoccmd x64 v1.47 built from b0e1370309f7d7bf986a73830446ca39d9b8c1fd\n\n",
+      "stderr": ""
+    },
+    "vulkanLayerCheckReadOnly": {
+      "returnCode": 0,
+      "stdout": "",
+      "stderr": "*************************************************************************\n**          Warning: Vulkan layer not correctly registered.            **\n\n - This build's RenderDoc layer is not registered.\n\n To fix this, the following actions must take place: \n\n Register: C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\RenderDoc-MSI-Extract\\PFiles\\RenderDoc\\renderdoc.json\n Register: C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\RenderDoc-MSI-Extract\\PFiles\\RenderDoc\\x86\\renderdoc.json\n\n The layer must be registered at system level, this operation requires\n admin permissions.\n\n Run 'vulkanlayer --register --system' as administrator to register.\n\n*************************************************************************\n\n"
+    }
+  },
+  "sourceAndCapture": {
+    "qrenderdocExe": {
+      "bytes": 13700896,
+      "sha256": "787e3c60c4777ae46cd6c9847be49599ba5c083c554d102502b080c03d5c2f14",
+      "privateOwnerLocation": null
+    },
+    "renderdocCmdExe": {
+      "bytes": 577312,
+      "sha256": "25ea19261594486fc5ece4322b4e923df36842f059854a4279a01db2bc1734ad",
+      "privateOwnerLocation": null
+    },
+    "renderdocDll": {
+      "bytes": 27706656,
+      "sha256": "a81e3f5fda89039886f34ed6d34b6718a399cb230204d43011d90687c4da4726",
+      "privateOwnerLocation": null
+    },
+    "nativeOwnerSource": {
+      "bytes": 8232,
+      "sha256": "fca7fae8401e9e16644388ad0fa9f0997fcaa1d32a4189f4b782278878ab66db",
+      "privateOwnerLocation": null
+    },
+    "nativeOwnerExe": {
+      "bytes": 452248,
+      "sha256": "d4284b02793fd32590a9a59356987b99c8e9ec9f7653708af752af13c4a6b170",
+      "privateOwnerLocation": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\01-private-captures\\X32\\OWN-RENDERDOC\\X32-OWN-D3D11-Grid.exe"
+    },
+    "realRDC": {
+      "bytes": 44495,
+      "sha256": "b5fe755c5085eae72ee54347656afac070521cf78ffdabadcfa1605ddd8ddae4",
+      "privateOwnerLocation": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\01-private-captures\\X32\\OWN-RENDERDOC\\X32-OWN-D3D11-Vega8_capture.rdc"
+    },
+    "privateXML": {
+      "bytes": 263565,
+      "sha256": "a7e5eba551a4452fef05f487b9a1dd07b9b62820a19c66f9f98d2e8fa1571d49",
+      "privateOwnerLocation": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\01-private-captures\\X32\\OWN-RENDERDOC\\X32-OWN-CAPTURE-NATIVE.xml"
+    },
+    "privateThumbnail": {
+      "bytes": 13786,
+      "sha256": "8a939d6d517d048e7bab04f50d76868e652854df95489e57b74063f9ccde668a",
+      "privateOwnerLocation": "C:\\Users\\Mrn7206\\Desktop\\DJMRN-Website-Reference-Evidence\\fernhollow-gladeye-20261118-NEW-EXTRACTION\\01-private-captures\\X32\\OWN-RENDERDOC\\X32-OWN-THUMBNAIL.png"
+    }
+  },
+  "runtimeEvidence": {
+    "realOwnerNativeCapture": true,
+    "captureLog": "renderdoccmd capture -w -c owner-template owner.exe template: exit 0, D3D11_HARDWARE feature b000, API 1.7.0, EndCapture=1, NumCaptures=1",
+    "realReplay": "renderdoccmd replay -l 1 -w 640 -h 360 owner.rdc returned exit 0",
+    "realConvert": "renderdoccmd convert owner.rdc -> owned XML, returned exit 0",
+    "realThumbnail": "renderdoccmd thumb owner.rdc -> owned PNG, returned exit 0",
+    "qrenderdocGUI": "started with owner RDC, window Analytics observed",
+    "windowsChanges": "no admin, no system/driver registry change, no Vulkan registration",
+    "browserAngleProof": "separate X32-OWN-CHROME157-ANGLE-D3D11-WEBGL2-FEASIBILITY.json",
+    "nativeChromeRenderdocFrameCapture": "NOT_ATTEMPTED",
+    "commercialSiteNativeFrameCapture": "NOT_PERFORMED"
+  },
+  "security": {
+    "rawRDCPrivateOnOwnerPC": true,
+    "rawXMLPrivateOnOwnerPC": true,
+    "screenshotsPrivateOnOwnerPC": true,
+    "noWindowsGraphicsDriverOrSecurityBypass": true,
+    "GPUDriverKnownIssue": "official RenderDoc v1.47 release warns about Windows AMD driver bugs; no shader debugger claim",
+    "toolPricing": "Free MIT local, no credits, card, subscription, provider accounts or paid overage"
+  }
+}
