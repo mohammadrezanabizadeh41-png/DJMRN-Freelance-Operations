@@ -1,0 +1,33 @@
+{
+  "stage": "X27_REFERENCE_BASELINE_FROM_X22",
+  "sourceRepo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "sourcePath": "09-self-marketing-website/graphics/flower-valley/evidence/X22-90S-SANITIZED-GPU-AND-NETWORK-TIMELINE.json",
+  "sourceGitBlobSHA1": "9828d8854721fd2d7cb44987bef836edc47e8e4d",
+  "sourceFrameLabel": "initial",
+  "referenceMeaning": "22 shader SHA256 digests independently captured by X22 Spector.js, never shader text",
+  "sourceFrameRawPrivateSHA256": "80dd6bd7bca45830e95d9778e0c82ed8cacfde96f09031a1f31d102256fec260",
+  "shaderHashesSha256Sorted": [
+    "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+    "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+    "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+    "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+    "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+    "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+    "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+    "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+    "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+    "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+    "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+    "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+    "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+    "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+    "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+    "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+    "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+    "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+    "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+    "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+    "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+    "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830"
+  ]
+}
