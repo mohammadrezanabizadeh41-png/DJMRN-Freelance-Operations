@@ -1,0 +1,111 @@
+{
+  "stage": "X36",
+  "stableUTC": "2026-11-20T21:36:39.449Z",
+  "authority": "owner PC authored bytes + GitHub actual Contents API blob readback",
+  "status": "PASS",
+  "total": 11,
+  "passed": 11,
+  "items": [
+    {
+      "name": "X36-Independent-Visible-Chrome-ScreenToGif-90S-Site-Runner.cjs",
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X36-Independent-Visible-Chrome-ScreenToGif-90S-Site-Runner.cjs",
+      "bytes": 11468,
+      "pcSHA256": "b794d0a0cf6ddb4db0a90e0d8ca284a502fd8395d2fddbe782e994cb9213a207",
+      "pcGitBlobSHA1": "a657fd291dbe8505b0c11968c950e6f476e86917",
+      "gitHubActuallyReadBackBlobSHA1": "a657fd291dbe8505b0c11968c950e6f476e86917",
+      "byteExact": true
+    },
+    {
+      "name": "X36-Independent-ScreenToGif-Native-Frame-Archive.py",
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X36-Independent-ScreenToGif-Native-Frame-Archive.py",
+      "bytes": 4456,
+      "pcSHA256": "eb4209a11bb6c1c25a1bc677ac5edce1f5c76091231109ada58d5ac8e020c9a4",
+      "pcGitBlobSHA1": "5f52d73741e653914664701f0259fa8d00b87350",
+      "gitHubActuallyReadBackBlobSHA1": "5f52d73741e653914664701f0259fa8d00b87350",
+      "byteExact": true
+    },
+    {
+      "name": "X36-Independent-Native-ScreenToGif-Frame-Temporal-RGB.cjs",
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X36-Independent-Native-ScreenToGif-Frame-Temporal-RGB.cjs",
+      "bytes": 3329,
+      "pcSHA256": "b691cbfc66f098e54e9c0a79591ce09b76b6d439b9321e7eff40d1d9a7b5e47b",
+      "pcGitBlobSHA1": "76cd26ab9f919360dc6bf55e6022eea3d7bf6a38",
+      "gitHubActuallyReadBackBlobSHA1": "76cd26ab9f919360dc6bf55e6022eea3d7bf6a38",
+      "byteExact": true
+    },
+    {
+      "name": "X36-Independent-Native-ScreenToGif-Project-Frame-Timings.py",
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X36-Independent-Native-ScreenToGif-Project-Frame-Timings.py",
+      "bytes": 2692,
+      "pcSHA256": "026c83d675a3038d760fb20ef6d74f9bdca9269166a493636d05f24af756429b",
+      "pcGitBlobSHA1": "6f709920eed7d77d1c88c4c0c5b983c43202d882",
+      "gitHubActuallyReadBackBlobSHA1": "6f709920eed7d77d1c88c4c0c5b983c43202d882",
+      "byteExact": true
+    },
+    {
+      "name": "X36-Independent-Native-Video-Site-X01-X35-Acceptance.py",
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X36-Independent-Native-Video-Site-X01-X35-Acceptance.py",
+      "bytes": 9417,
+      "pcSHA256": "6f1d873e5c06f65a3f7eec7240a792e3a1558d01f67f77ee53c7bb836bd6bec1",
+      "pcGitBlobSHA1": "fac20700b77d9bf6b1e6c5e4ee7325bdd24833e5",
+      "gitHubActuallyReadBackBlobSHA1": "fac20700b77d9bf6b1e6c5e4ee7325bdd24833e5",
+      "byteExact": true
+    },
+    {
+      "name": "X36-NEW-90S-LIVE-PUBLIC-WEBGL-AND-NATIVE-ROI-OBSERVATION.json",
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X36-NEW-90S-LIVE-PUBLIC-WEBGL-AND-NATIVE-ROI-OBSERVATION.json",
+      "bytes": 27907,
+      "pcSHA256": "4794926c3ee8f6eaf87f7afff9a37e3656260a42425d8e10aa81ee307a5fa04a",
+      "pcGitBlobSHA1": "55b8fbb14b4ba14a17d0a64a0de66a1204377e10",
+      "gitHubActuallyReadBackBlobSHA1": "55b8fbb14b4ba14a17d0a64a0de66a1204377e10",
+      "byteExact": true
+    },
+    {
+      "name": "X36-ORIGINAL-SCREENTOGIF-REAL-NATIVE-FRAMES-SANITIZED-PROVENANCE.json",
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X36-ORIGINAL-SCREENTOGIF-REAL-NATIVE-FRAMES-SANITIZED-PROVENANCE.json",
+      "bytes": 38635,
+      "pcSHA256": "f86f400e56a72d5c09738ec92ff96980e29d1f62c31bf31cabe27355c8de1595",
+      "pcGitBlobSHA1": "245aab206c8aebfb9df2c358b9ed5b8025f2b2f6",
+      "gitHubActuallyReadBackBlobSHA1": "245aab206c8aebfb9df2c358b9ed5b8025f2b2f6",
+      "byteExact": true
+    },
+    {
+      "name": "X36-INDEPENDENT-NATIVE-FRAME-TEMPORAL-RGB-X35-CROSSWALK.json",
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X36-INDEPENDENT-NATIVE-FRAME-TEMPORAL-RGB-X35-CROSSWALK.json",
+      "bytes": 29684,
+      "pcSHA256": "90f8c43e30aebff4076b797c4035ff4b7ede565e55b547e274d3560a5b1b5194",
+      "pcGitBlobSHA1": "7c390c8c5115cd7cf6b499abe6552fe36f8cf8ef",
+      "gitHubActuallyReadBackBlobSHA1": "7c390c8c5115cd7cf6b499abe6552fe36f8cf8ef",
+      "byteExact": true
+    },
+    {
+      "name": "X36-ORIGINAL-SCREENTOGIF-NATIVE-108-FRAME-DURATIONS.json",
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X36-ORIGINAL-SCREENTOGIF-NATIVE-108-FRAME-DURATIONS.json",
+      "bytes": 2329,
+      "pcSHA256": "33c687abbb143a572a0d3ae7874045a255e3a04d0f908d80886909e235b66e10",
+      "pcGitBlobSHA1": "3dac405d75d0003b3f7334f6c1f46c055aa4081a",
+      "gitHubActuallyReadBackBlobSHA1": "3dac405d75d0003b3f7334f6c1f46c055aa4081a",
+      "byteExact": true
+    },
+    {
+      "name": "X36-INDEPENDENT-NATIVE-SCREENTOGIF-90S-LIVE-X01-X35-ACCEPTANCE.json",
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X36-INDEPENDENT-NATIVE-SCREENTOGIF-90S-LIVE-X01-X35-ACCEPTANCE.json",
+      "bytes": 15126,
+      "pcSHA256": "ab7dda3521479680d8abd59c66b6140e180fd0bc2c2fcc09ab80ddc4bed3102d",
+      "pcGitBlobSHA1": "2ac43d550832f7177e689f19ca9dd4234f1cae5c",
+      "gitHubActuallyReadBackBlobSHA1": "2ac43d550832f7177e689f19ca9dd4234f1cae5c",
+      "byteExact": true
+    },
+    {
+      "name": "X36-FULL-REAL-NATIVE-SCREENTOGIF-ROI-FRAMES-TIMECODES-90S-LIVE-X01-X35-FINAL-HANDOFF-2026-11-21.md",
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X36-FULL-REAL-NATIVE-SCREENTOGIF-ROI-FRAMES-TIMECODES-90S-LIVE-X01-X35-FINAL-HANDOFF-2026-11-21.md",
+      "bytes": 10116,
+      "pcSHA256": "6fd4e002404f898005bbca58660d5e18354c3f956936b67c8ec96eec92fb961d",
+      "pcGitBlobSHA1": "93b555545b6a2200fd79ed33f3e3dcff677fcdfd",
+      "gitHubActuallyReadBackBlobSHA1": "93b555545b6a2200fd79ed33f3e3dcff677fcdfd",
+      "byteExact": true
+    }
+  ],
+  "scope": "11 owner authored scripts / safe numerical metadata / QA / final handoff. Native ScreensToGif original screenshot frames and Project.json kept private.",
+  "extra": "Checker source + this deterministic manifest independently added to GitHub as separate extra pair; count them separately once their GitHub SHA verified."
+}
