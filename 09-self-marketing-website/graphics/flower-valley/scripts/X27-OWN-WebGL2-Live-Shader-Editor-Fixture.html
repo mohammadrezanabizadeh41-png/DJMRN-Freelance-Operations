@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>DJMRN X27 OWN WebGL2 Live Shader Edit Calibration</title>
+<body><h3>OWN synthetic WebGL2 shader live-edit fixture</h3><canvas id="display" width="64" height="64" style="width:256px;height:256px"></canvas>
+<script>
+/* This synthetic scene and its GLSL code are ORIGINAL DJMRN-authored. */
+(()=>{
+const gl=document.querySelector('canvas').getContext('webgl2',{antialias:false,preserveDrawingBuffer:true});
+if(!gl)throw Error('NO_WEBGL2');
+const vs='#version 300 es\nvoid main(){vec2 p=vec2(gl_VertexID==1?3.0:-1.0,gl_VertexID==2?3.0:-1.0);gl_Position=vec4(p,0.0,1.0);}';
+const fragment=(r,g,b)=>'#version 300 es\nprecision highp float;out vec4 frag;void main(){frag=vec4('+r+','+g+','+b+',1.0);}';
+const fsRed=fragment('1.0','0.0','0.0');
+const fsGreen=fragment('0.0','1.0','0.0');
+const fsInvalid='#version 300 es\nprecision highp float;out vec4 frag;void main(){frag=vec4(THIS_IS_INVALID,0.0,0.0,1.0);}';
+const vao=gl.createVertexArray();gl.bindVertexArray(vao);
+let active=null,successful=0,rejected=0;const log=[];
+function compile(kind,source){const s=gl.createShader(kind);gl.shaderSource(s,source);gl.compileShader(s);
+ if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){
+  const msg=gl.getShaderInfoLog(s);gl.deleteShader(s);throw Error(msg.slice(0,300))}
+ return s}
+function build(fragmentSource){
+ const vertex=compile(gl.VERTEX_SHADER,vs);
+ let frag;try{frag=compile(gl.FRAGMENT_SHADER,fragmentSource)}catch(e){gl.deleteShader(vertex);throw e}
+ const program=gl.createProgram();gl.attachShader(program,vertex);gl.attachShader(program,frag);gl.linkProgram(program);
+ const ok=gl.getProgramParameter(program,gl.LINK_STATUS),info=gl.getProgramInfoLog(program);
+ gl.deleteShader(vertex);gl.deleteShader(frag);
+ if(!ok){gl.deleteProgram(program);throw Error(info)}
+ return program;
+}
+function paint(){gl.viewport(0,0,64,64);gl.disable(gl.BLEND);gl.disable(gl.DEPTH_TEST);
+ gl.useProgram(active);gl.bindVertexArray(vao);gl.drawArrays(gl.TRIANGLES,0,3);
+ const p=new Uint8Array(4);gl.readPixels(32,32,1,1,gl.RGBA,gl.UNSIGNED_BYTE,p);
+ return Array.from(p)}
+function tryEdit(source,label){try{const p=build(source);const prev=active;active=p;
+  const pixel=paint();if(prev)gl.deleteProgram(prev);successful++;
+  const record={label,accepted:true,pixel,successful,rejected,programChanged:!!prev};
+  log.push(record);return record;
+ }catch(e){rejected++;const record={label,accepted:false,errorClass:'GLSL_COMPILE_OR_LINK_FAILURE',
+  previousProgramContinues:!!active,pixel:active?paint():null,successful,rejected};
+  log.push(record);return record}}
+const initial=tryEdit(fsRed,'initial_red');
+window.__DJMRNX27OWN={initial,tryEdit,getState(){return {initial,history:log,success:successful,rejected,
+ pixel:active?paint():null,version:gl.getParameter(gl.VERSION),contexts:1}},
+ sources:{green:fsGreen,invalid:fsInvalid,red:fsRed}};
+})();
+</script></body></html>
