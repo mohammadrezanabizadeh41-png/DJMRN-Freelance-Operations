@@ -1,0 +1,1769 @@
+{
+  "stage": "X28",
+  "observationDateUTC": "2026-11-20T14:27:02.470Z",
+  "state": "COMPLETE_SCOPE_QUALIFIED_2x90s_8GPU_FRAMES_PER_TOOL",
+  "sourceTools": {
+    "Spector": "BabylonJS/Spector.js 0.9.33 MV3",
+    "Ispettore": "velvetfrustum/ispettore v0.1.1 (packaged manifest 0.1.0) MV3",
+    "input": "playwright-core 1.65.1 via existing Puppeteer browser CDP"
+  },
+  "observersNeverRunConcurrently": true,
+  "liveSeconds": {
+    "Spector": 90.01,
+    "Ispettore": 90.48
+  },
+  "minFreeRAMMiB": {
+    "Spector": 1668,
+    "Ispettore": 1305
+  },
+  "sameViewport": "1280x720",
+  "frames": [
+    {
+      "phaseInputLabel": "normal_baseline",
+      "phaseFamily": "normal",
+      "requestedSeconds": 6,
+      "SpectorCapturedSecond": 7.17,
+      "IspettoreCapturedSecond": 8.46,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 137,
+      "IspettoreCallCount": 137,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1807.1,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 0,
+        "changedNames": [],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "uContainerPos": [
+            [
+              0.038559678942,
+              0.0,
+              -1.907409071922
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 0,
+          "pixelFractionRGBDelta24": 0
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 0,
+          "pixelFractionRGBDelta24": 0
+        }
+      },
+      "SpectorRawSHA256": "aab99cbb6236aca2f4693104c2394cb4d2ef3a83b1def50ef5436d8048cde1c3",
+      "IspettoreRawSHA256": "e9c8d66f08acb2521af7d3ffa766ed030b25cb6d2e68075e58e7764bcff4356d"
+    },
+    {
+      "phaseInputLabel": "hover_left",
+      "phaseFamily": "hover",
+      "requestedSeconds": 18,
+      "SpectorCapturedSecond": 19.19,
+      "IspettoreCapturedSecond": 20.36,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1610.7,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 5,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.44682648778,
+              0.016354942694
+            ]
+          ],
+          "uContainerPos": [
+            [
+              1.901547431946,
+              0.0,
+              -20.073163986206
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 27.2354,
+          "pixelFractionRGBDelta24": 0.3899
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 28.3491,
+          "pixelFractionRGBDelta24": 0.4101
+        }
+      },
+      "SpectorRawSHA256": "2022d8d35835fd9a6f481ea1e2e0b156623182c25e51ca6d5a546d407c2e9bec",
+      "IspettoreRawSHA256": "45f28f6da50f5b7a932f708c0d2cb6fc02ec8bf31052cb2e55467a9c2473e145"
+    },
+    {
+      "phaseInputLabel": "hover_right",
+      "phaseFamily": "hover",
+      "requestedSeconds": 30,
+      "SpectorCapturedSecond": 31.24,
+      "IspettoreCapturedSecond": 32.35,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1546.5,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 5,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              -0.444725126028,
+              0.135993242264
+            ]
+          ],
+          "uContainerPos": [
+            [
+              2.281874418259,
+              0.0,
+              -38.346435546875
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 30.0426,
+          "pixelFractionRGBDelta24": 0.4164
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 29.8099,
+          "pixelFractionRGBDelta24": 0.4195
+        }
+      },
+      "SpectorRawSHA256": "7c465bebb6d61f4147d44170d633a70efa10e78f6cb36d4911c3b1e4fa7f6f6a",
+      "IspettoreRawSHA256": "0a3a388b9b6471d61915b4960b1d9f46327d0110a5c24a624c441959a95b7d67"
+    },
+    {
+      "phaseInputLabel": "dispersal_candidate_sweep",
+      "phaseFamily": "dispersal_UNVERIFIED",
+      "requestedSeconds": 42,
+      "SpectorCapturedSecond": 43.47,
+      "IspettoreCapturedSecond": 44.83,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1739.3,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 5,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.76830881834,
+              -0.152307838202
+            ]
+          ],
+          "uContainerPos": [
+            [
+              -1.224583148956,
+              0.0,
+              -56.700885772705
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 29.5694,
+          "pixelFractionRGBDelta24": 0.4277
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 31.1836,
+          "pixelFractionRGBDelta24": 0.444
+        }
+      },
+      "SpectorRawSHA256": "40cd294840dc22699e59cbfc7ab7aafe879e52027f9e7822aeda5557e1b31a70",
+      "IspettoreRawSHA256": "d22858452f2611f6c5a829cb97424fdbd3b9fc36950cdba804cd62883add6e25"
+    },
+    {
+      "phaseInputLabel": "dispersal_candidate_scroll",
+      "phaseFamily": "dispersal_UNVERIFIED",
+      "requestedSeconds": 54,
+      "SpectorCapturedSecond": 55.07,
+      "IspettoreCapturedSecond": 56.09,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1458.1,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 6,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uShrinkFactor",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.000679689401
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.8125,
+              -0.166666671634
+            ]
+          ],
+          "uContainerPos": [
+            [
+              -1.446785211563,
+              0.0,
+              -74.571327209473
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 29.8964,
+          "pixelFractionRGBDelta24": 0.4358
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 30.514,
+          "pixelFractionRGBDelta24": 0.4226
+        }
+      },
+      "SpectorRawSHA256": "14dc53206efc0c7f54429c5c6ca122b0c6daf4b678f0e23fe0c042c236cba8d2",
+      "IspettoreRawSHA256": "f571209cba112b36720454450197a0ca5ba1d577886fd3c3e791cd8d9f762ce0"
+    },
+    {
+      "phaseInputLabel": "return_scroll_up",
+      "phaseFamily": "return_UNVERIFIED",
+      "requestedSeconds": 66,
+      "SpectorCapturedSecond": 67.09,
+      "IspettoreCapturedSecond": 68.16,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1520.6,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 6,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uShrinkFactor",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.000737012597
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.8125,
+              -0.166666671634
+            ]
+          ],
+          "uContainerPos": [
+            [
+              2.242270231247,
+              0.0,
+              -92.526031494141
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 31.7813,
+          "pixelFractionRGBDelta24": 0.4321
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 30.7583,
+          "pixelFractionRGBDelta24": 0.4151
+        }
+      },
+      "SpectorRawSHA256": "4fdc86374f2e6754ca4d3c3affe18979d4987832badb31d7be446603642d3d11",
+      "IspettoreRawSHA256": "1b4205cc990fc15f7e996a9dd2c98416d4ddb22fb77e7c9807a06d1839ece6f1"
+    },
+    {
+      "phaseInputLabel": "return_pointer_out",
+      "phaseFamily": "return_UNVERIFIED",
+      "requestedSeconds": 78,
+      "SpectorCapturedSecond": 79.31,
+      "IspettoreCapturedSecond": 80.19,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 139,
+      "IspettoreCallCount": 139,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 0,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1429.3,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 5,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              0.995813369751,
+              -0.981392741203
+            ]
+          ],
+          "uContainerPos": [
+            [
+              5.189353942871,
+              0.0,
+              -110.390258789062
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 30.5386,
+          "pixelFractionRGBDelta24": 0.4528
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 29.4686,
+          "pixelFractionRGBDelta24": 0.4239
+        }
+      },
+      "SpectorRawSHA256": "f059bc0cc0060a6e27d35959c5fbd58e8d3ffdc400d17c946ab7807960d4536c",
+      "IspettoreRawSHA256": "cfd545bee4a3facfe08fed9b039531705a0224d0ddfd789009c42a0542240418"
+    },
+    {
+      "phaseInputLabel": "return_idle",
+      "phaseFamily": "return_UNVERIFIED",
+      "requestedSeconds": 86,
+      "SpectorCapturedSecond": 87.06,
+      "IspettoreCapturedSecond": 87.98,
+      "SpectorDrawCount": 16,
+      "IspettoreDrawCount": 16,
+      "SpectorCallCount": 138,
+      "IspettoreCallCount": 138,
+      "observedGlClearCount": 14,
+      "framebufferBindCount": 15,
+      "fboTokenCountInDraws": 12,
+      "SpectorRenderTargetDrawSequence": [
+        {
+          "op": "drawElements",
+          "mode": 0,
+          "vertexOrIndexSubmissionCount": 960000,
+          "programLocalToken": 0,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawElements",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 6,
+          "programLocalToken": 1,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 2,
+          "framebufferLocalToken": 2,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 3,
+          "framebufferLocalToken": 4,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 5,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 4,
+          "framebufferLocalToken": 6,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 7,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 5,
+          "framebufferLocalToken": 8,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 9,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 6,
+          "framebufferLocalToken": 10,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 11,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 7,
+          "framebufferLocalToken": 12,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 8,
+          "framebufferLocalToken": 3,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 9,
+          "framebufferLocalToken": 13,
+          "blendEnabled": true,
+          "depthTestEnabled": false
+        },
+        {
+          "op": "drawArrays",
+          "mode": 4,
+          "vertexOrIndexSubmissionCount": 3,
+          "programLocalToken": 10,
+          "framebufferLocalToken": null,
+          "blendEnabled": false,
+          "depthTestEnabled": true
+        }
+      ],
+      "IspettoreGPUevents": 30,
+      "IspettoreShaderProgramCount": 11,
+      "IspettoreResourcesAttachedOrFramebufferCalls": 15,
+      "IspettoreCommandCpuTimeMsInstrumentedNotGpuTime": 1397,
+      "IspettoreNativeGpuTimerAvailable": false,
+      "drawSignatureExactSpectorVsIspettore": true,
+      "distinctSpectorOriginalShaderShaCount": 22,
+      "uniformChangesVersusNormal": {
+        "commonNumericUniformPairs": 119,
+        "changedPairsVersusBaseline": 5,
+        "changedNames": [
+          "modelViewMatrix",
+          "time",
+          "uContainerPos",
+          "uMousePosition",
+          "uTime"
+        ],
+        "selectedOwnerDerivedScalarOrVectorValues": {
+          "uShrinkFactor": [
+            [
+              0.0
+            ]
+          ],
+          "uMousePosition": [
+            [
+              1.0,
+              -1.0
+            ]
+          ],
+          "uContainerPos": [
+            [
+              5.982582092285,
+              0.0,
+              -122.019653320312
+            ]
+          ]
+        }
+      },
+      "privatePixelComparisonOnly": {
+        "SPECTOR": {
+          "meanRGBDelta": 29.9015,
+          "pixelFractionRGBDelta24": 0.4296
+        },
+        "ISPETTORE": {
+          "meanRGBDelta": 28.1417,
+          "pixelFractionRGBDelta24": 0.4132
+        }
+      },
+      "SpectorRawSHA256": "abff75d7844cc7e6778313e618bb9ebf0766dbad3a5e1c189dbe8693f1b79ef7",
+      "IspettoreRawSHA256": "910e4eacd7d74a211bf53c1b6f4e9464945fc2e25d570ade40fef660cb9fd33b"
+    }
+  ],
+  "IspettoreThreeFullSceneMetadata": [
+    {
+      "phase": "normal_baseline",
+      "sceneObjectCount": 7,
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "cameraType": "OrthographicCamera",
+      "sourcePrivateSHA256": "344cc7baf1aa74140dcf623757f06ffc0dcb4e632e7f2e65971ea3836471ec0a",
+      "rawBytesPrivate": 7639214
+    },
+    {
+      "phase": "dispersal_candidate_scroll",
+      "sceneObjectCount": 7,
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "cameraType": "OrthographicCamera",
+      "sourcePrivateSHA256": "2feda6fa3794bb4ba8806e82595a12f7ed711087fe65a3c6fe157f9e579f123e",
+      "rawBytesPrivate": 6555424
+    },
+    {
+      "phase": "return_idle",
+      "sceneObjectCount": 7,
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "cameraType": "OrthographicCamera",
+      "sourcePrivateSHA256": "037032bf242e35d77f77693212a0976886939eacf589a071a954aa80ebc1b7f9",
+      "rawBytesPrivate": 5885628
+    }
+  ],
+  "firstPartyNetwork": {
+    "SpectorPaths": 46,
+    "IspettorePaths": 46,
+    "SpectorKnownSHA": 32,
+    "SpectorResponsesHashed": 32,
+    "IspettoreKnownSHA": 38,
+    "IspettoreResponsesHashed": 38,
+    "X16KnownEdgesEach": 37,
+    "NovelOriginalURLs": [],
+    "NovelOriginalBodySHA": [],
+    "NovelInitiatorEdges": []
+  },
+  "crossStage": {
+    "X01_X19_78URLInventoryPreserved": true,
+    "X22ShaderSHA22ExactAll8Frames": true,
+    "X23PriorSemanticsUsedAsHistoryNotInvented": true,
+    "X24Private7GWPacketCount": 7,
+    "X25HistoricalFrames": 7,
+    "X26HistoricalFrames": 7,
+    "X27PriorAcceptancePass": 49
+  },
+  "novelInsights": [
+    "Blind GPU phase inputs were replayed using EXACT Playwright mouse/scroll schedule, 8 real GPU frames each on two isolated observers",
+    "Inter-tool command order/draw signatures compared by opcode, numeric GL mode and draw count per frame",
+    "Three live Ispettore Three.js GPU/scene snapshots at normal/dispersal-candidate/return-candidate phases",
+    "Spector numeric Uniform changes and per-draw frame-buffer/program target sequence quantified without publishing vendor shader GLSL",
+    "Private screenshot RGB differences quantified using fixed sampling grid without publishing original pixels"
+  ],
+  "limitations": [
+    "Dispersal was an input hypothesis; no independent exact ground truth that flowers dispersed solely because of input",
+    "Return is a pointer/scroll input condition; similarity in one animated screenshot is not proof of scene return state",
+    "Playwright inputs occurred in two distinct sequential sessions, not the same underlying animation frame",
+    "Instrumented GPU capture perturbs timing and does not measure true GPU frame/FPS performance",
+    "Render target and format semantics are GL API hints; per-frame capture may omit initialization of textures",
+    "Commercial Shader GLSL, full geometry, binary GPU captures, textures and full screenshots remain private on PC"
+  ]
+}
