@@ -1,5 +1,7 @@
 # DJMRN X31 — MeshGrab official source, real owner GLB: verified partial checkpoint
 
+> **HISTORICAL CHECKPOINT — SUPERSEDED.** The interrupted run was subsequently recovered and independently verified. The **canonical X31 FINAL** is [X31 real owner GLB + actual 90s + 121/121 acceptance + 14/14 PC↔GitHub exact handoff](X31-FULL-MESHGRAB-OWNER-GLB-90S-LIVE-X01-X30-FINAL-HANDOFF-2026-11-20.md). The PARTIAL status below documents the earlier in-progress state only; do not interpret it as current.
+
 **Date:** 2026-11-20 UTC. **Status: PARTIAL — OWNER CAPTURE VERIFIED; X31 LIVE 90S AND FINAL PC↔GITHUB RECONCILIATION UNVERIFIED.**
 **Next stage:** X31 continuation, not X32. This document must not be called a full X31 DONE receipt.
 
