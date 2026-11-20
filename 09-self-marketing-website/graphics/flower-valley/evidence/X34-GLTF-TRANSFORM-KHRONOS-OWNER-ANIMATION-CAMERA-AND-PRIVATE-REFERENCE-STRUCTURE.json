@@ -1,0 +1,259 @@
+{
+  "stage": "X34",
+  "source": "DJMRN_OWNER_ORIGINAL_GLTF_TRANSFORM_V4.5.1_AND_OFFICIAL_KHRONOS_VALIDATOR",
+  "originalPublicReferenceBinaryNeverPublished": true,
+  "originalReferenceLicenseNotProven": true,
+  "baseTools": {
+    "validator": {
+      "version": "2.0.0-dev.3.10",
+      "license": "Apache-2.0"
+    },
+    "core": {
+      "version": "4.5.1",
+      "license": "MIT"
+    },
+    "cli": {
+      "version": "4.5.1",
+      "license": "MIT"
+    },
+    "three": {
+      "version": "0.187.0",
+      "license": "MIT"
+    }
+  },
+  "links": {
+    "glTFTransform": "https://github.com/donmccurdy/glTF-Transform",
+    "validator": "https://github.com/KhronosGroup/glTF-Validator"
+  },
+  "results": {
+    "ownedCamera": {
+      "validatorVersion": "2.0.0-dev.3.10",
+      "bytes": 10140,
+      "sha256": "7e0785ef3c938fb0631eab9b00274aa18db4b695dbe0b21da778ed509b8bcd29",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "issuesCodes": [],
+      "scenes": 1,
+      "nodes": 1,
+      "cameras": 1,
+      "animations": 1,
+      "meshes": 0,
+      "meshPrimitives": 0,
+      "textures": 0,
+      "materials": 0,
+      "geometryPositions": [],
+      "geometryIndices": [],
+      "cameraTypes": [
+        "perspective"
+      ],
+      "animationChannels": [
+        3
+      ],
+      "durationSeconds": 8.291666666666666,
+      "timeSteps": 200,
+      "frequencyHz": 24,
+      "clipName": "DJMRN_OWN_Camera_200Keys_Linear",
+      "aspectRatio": 1.7777777777777777,
+      "fovYRadians": 0.62,
+      "paths": [
+        "translation",
+        "rotation",
+        "scale"
+      ],
+      "interpolations": [
+        "LINEAR",
+        "LINEAR",
+        "LINEAR"
+      ],
+      "positionsStats": {
+        "min": [
+          -0.35999,
+          1.15002,
+          4.6
+        ],
+        "max": [
+          0.35999,
+          1.55,
+          5.3
+        ]
+      },
+      "rotationsStats": {
+        "min": [
+          0,
+          -0.05996,
+          0,
+          0.9982
+        ],
+        "max": [
+          0,
+          0.05996,
+          0,
+          1
+        ]
+      },
+      "ownedGLBLocalOnly": true
+    },
+    "ownedMesh": {
+      "validatorVersion": "2.0.0-dev.3.10",
+      "bytes": 22940,
+      "sha256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 1,
+      "issuesCodes": [
+        {
+          "code": "UNUSED_OBJECT",
+          "severity": 2
+        }
+      ],
+      "scenes": 1,
+      "nodes": 1,
+      "cameras": 0,
+      "animations": 0,
+      "meshes": 1,
+      "meshPrimitives": 1,
+      "textures": 0,
+      "materials": 0,
+      "geometryPositions": [
+        512
+      ],
+      "geometryIndices": [
+        2790
+      ],
+      "cameraTypes": [],
+      "animationChannels": [],
+      "status": "OWN_3D_MESH_NO_CAMERA_ANIMATIONS"
+    },
+    "publicCameraStructuralAnalysis": {
+      "validatorVersion": "2.0.0-dev.3.10",
+      "bytes": 10132,
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "errors": 0,
+      "warnings": 0,
+      "infos": 0,
+      "issuesCodes": [],
+      "scene": {
+        "scenes": 1,
+        "nodes": 1,
+        "cameras": 1,
+        "animations": 1,
+        "meshes": 0,
+        "meshPrimitives": 0,
+        "textures": 0,
+        "materials": 0,
+        "geometryPositions": [],
+        "geometryIndices": [],
+        "cameraTypes": [
+          "perspective"
+        ],
+        "animationChannels": [
+          3
+        ]
+      },
+      "originalGenerator": "Khronos glTF Blender I/O v3.2.43",
+      "originalGlTFVersion": "2.0",
+      "jsonChunkBytes": 1304,
+      "binaryChunkBytes": 8800,
+      "animationSampling": [
+        {
+          "path": "translation",
+          "interpolation": "LINEAR",
+          "keyframes": 200,
+          "durationSeconds": 8.291667,
+          "keyframesPerSecond": 24,
+          "timeStepMinSeconds": 0.04166603,
+          "timeStepMaxSeconds": 0.04166698,
+          "targetAccessorComponentCount": 3,
+          "outputSamples": 200,
+          "outputAllFinite": true,
+          "minMaxRangeOnly": {
+            "min": [
+              -11.99704,
+              0,
+              -500
+            ],
+            "max": [
+              5.9971,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "path": "rotation",
+          "interpolation": "LINEAR",
+          "keyframes": 200,
+          "durationSeconds": 8.291667,
+          "keyframesPerSecond": 24,
+          "timeStepMinSeconds": 0.04166603,
+          "timeStepMaxSeconds": 0.04166698,
+          "targetAccessorComponentCount": 4,
+          "outputSamples": 200,
+          "outputAllFinite": true,
+          "minMaxRangeOnly": {
+            "min": [
+              0,
+              -0.14342,
+              0,
+              0.98549
+            ],
+            "max": [
+              0,
+              0.16971,
+              0,
+              1
+            ]
+          }
+        },
+        {
+          "path": "scale",
+          "interpolation": "LINEAR",
+          "keyframes": 200,
+          "durationSeconds": 8.291667,
+          "keyframesPerSecond": 24,
+          "timeStepMinSeconds": 0.04166603,
+          "timeStepMaxSeconds": 0.04166698,
+          "targetAccessorComponentCount": 3,
+          "outputSamples": 200,
+          "outputAllFinite": true,
+          "minMaxRangeOnly": {
+            "min": [
+              1,
+              1,
+              1
+            ],
+            "max": [
+              1,
+              1,
+              1
+            ]
+          }
+        }
+      ],
+      "camera": {
+        "type": "perspective",
+        "aspectRatio": 1.7777777777777777,
+        "fovYRadians": 0.39959648408210363,
+        "near": 0.10000000149011612,
+        "far": 1000
+      },
+      "cameraPathNotFlowerMesh": true,
+      "rawOriginalGLBPrivateOnly": true,
+      "originalKeyframesNotPublished": true,
+      "originalSceneOrShaderNotReconstructed": true
+    },
+    "crosswalk": {
+      "historicalCameraRecorded": [
+        "https://www.gladeye.com/valley/camera-path07.glb",
+        "200-sample translation rotation scale LINEAR duration 8.2916667",
+        "node Camera.001 GLB 10132 bytes, mesh=0, one camera"
+      ],
+      "actualPrivateReferenceSHA256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "originalX31OwnMeshSHA256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30",
+      "ownAnimationNewSHA256": "7e0785ef3c938fb0631eab9b00274aa18db4b695dbe0b21da778ed509b8bcd29"
+    }
+  },
+  "issues": [],
+  "ready": true
+}
