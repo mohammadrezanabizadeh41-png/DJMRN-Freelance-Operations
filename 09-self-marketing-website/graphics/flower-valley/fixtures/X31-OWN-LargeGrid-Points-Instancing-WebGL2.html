@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>DJMRN X31 OWN Synthetic WebGL2 Grid + Points + Instancing</title>
+<style>body{margin:0;color:white;background:#0d1420;font:15px system-ui}canvas{width:960px;height:540px;display:block}</style></head>
+<body><p>DJMRN original geometry fixture: 32x16 indexed grid, 5 tiny points, 3 instanced triangles</p>
+<canvas width="960" height="540" id="owner"></canvas>
+<script>
+(() => {
+"use strict";
+const gl=document.querySelector('#owner').getContext('webgl2',{preserveDrawingBuffer:true,antialias:false});
+if(!gl){window.__OWN_X31={error:"WEBGL2_UNAVAILABLE"};return;}
+const VERT='#version 300 es\nlayout(location=0) in vec3 aPos;\nlayout(location=1) in vec3 aNormal;\nlayout(location=2) in vec2 aUV;\nlayout(location=3) in vec2 aOffset;\nuniform float uInstance;\nout vec2 vUV;\nvoid main(){vUV=aUV;gl_Position=vec4(aPos.xy+aOffset*uInstance,aPos.z,1.0);gl_PointSize=8.0;}';
+const FRAG='#version 300 es\nprecision highp float;\nin vec2 vUV;\nuniform vec4 uColor;\nout vec4 outColor;\nvoid main(){outColor=vec4(uColor.xyz*(.65+.35*vUV.x),1.0);}';
+function mkShader(t,s){const sh=gl.createShader(t);gl.shaderSource(sh,s);gl.compileShader(sh);if(!gl.getShaderParameter(sh,gl.COMPILE_STATUS))throw Error(gl.getShaderInfoLog(sh));return sh;}
+const pg=gl.createProgram();gl.attachShader(pg,mkShader(gl.VERTEX_SHADER,VERT));gl.attachShader(pg,mkShader(gl.FRAGMENT_SHADER,FRAG));gl.linkProgram(pg);
+if(!gl.getProgramParameter(pg,gl.LINK_STATUS))throw Error(gl.getProgramInfoLog(pg));
+gl.useProgram(pg);const uCol=gl.getUniformLocation(pg,'uColor'),uIns=gl.getUniformLocation(pg,'uInstance');
+function geom(p,n,uv,indices){
+ const vao=gl.createVertexArray();gl.bindVertexArray(vao);
+ [[0,p,3],[1,n,3],[2,uv,2]].forEach(([a,values,comps])=>{
+  const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);
+  gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(values),gl.STATIC_DRAW);
+  gl.enableVertexAttribArray(a);gl.vertexAttribPointer(a,comps,gl.FLOAT,false,0,0);
+ });
+ gl.disableVertexAttribArray(3);gl.vertexAttrib2f(3,0,0);
+ if(indices){const e=gl.createBuffer();gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER,e);
+  gl.bufferData(gl.ELEMENT_ARRAY_BUFFER,new Uint16Array(indices),gl.STATIC_DRAW);}
+ gl.bindVertexArray(null);return vao;
+}
+const nx=32,ny=16,p=[],n=[],uv=[],ii=[];
+for(let y=0;y<ny;y++)for(let x=0;x<nx;x++){
+ p.push(-.94+.68*x/(nx-1),-.76+1.52*y/(ny-1),0);
+ n.push(0,0,1);uv.push(x/(nx-1),y/(ny-1));
+}
+for(let y=0;y<ny-1;y++)for(let x=0;x<nx-1;x++){
+ const a=y*nx+x,b=a+nx;ii.push(a,a+1,b+1,a,b+1,b);
+}
+const grid=geom(p,n,uv,ii);
+const pointP=[-.12,-.5,0,-.01,.34,0,.08,-.2,0,.18,.5,0,.26,-.5,0];
+const pt=geom(pointP,Array(15).fill(0).map((x,i)=>i%3===2?1:0),[0,0,.25,.25,.5,.5,.75,.75,1,1],null);
+const triP=[.38,-.3,0,.53,-.3,0,.45,-.07,0];
+const inst=geom(triP,[0,0,1,0,0,1,0,0,1],[0,0,1,0,.5,1],[0,1,2]);
+gl.bindVertexArray(inst);
+const b=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,b);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([0,0,.2,.18,.36,.0]),gl.STATIC_DRAW);
+gl.enableVertexAttribArray(3);gl.vertexAttribPointer(3,2,gl.FLOAT,false,0,0);gl.vertexAttribDivisor(3,1);
+gl.bindVertexArray(null);
+const tex=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,tex);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,2,2,0,gl.RGBA,gl.UNSIGNED_BYTE,new Uint8Array([255,0,0,255,0,255,0,255,0,0,255,255,255,255,0,255]));
+const groundTruth={gridVertices:512,gridIndices:2790,gridTriangles:930,gridUVPairs:512,gridNormalVec3:512,
+ pointCount:5,instancedBaseVertices:3,instancedBaseTriangles:1,instancedCopies:3,
+ ownerPrimitiveSubmissionsPerFrame:3,gridPositionMin:[-.94,-.76,0],gridPositionMax:[-.26,.76,0],
+ textureDimensions:[2,2],glBufferBytes:{position:6144,normal:6144,uv:4096,indices:5580,pointsPosition:60,instanceOffsets:24}};
+window.__OWN_X31={ready:true,source:'DJMRN independent original X31 fixture',groundTruth,frame:0};
+gl.disable(gl.DEPTH_TEST);gl.disable(gl.CULL_FACE);
+function draw(){
+ gl.viewport(0,0,960,540);gl.clearColor(.04,.08,.14,1);gl.clear(gl.COLOR_BUFFER_BIT);gl.useProgram(pg);
+ gl.uniform1f(uIns,0);gl.uniform4f(uCol,.1,.9,.6,1);
+ gl.bindVertexArray(grid);gl.drawElements(gl.TRIANGLES,ii.length,gl.UNSIGNED_SHORT,0);
+ gl.uniform4f(uCol,.96,.3,.96,1);gl.bindVertexArray(pt);gl.drawArrays(gl.POINTS,0,5);
+ gl.uniform1f(uIns,1);gl.uniform4f(uCol,.3,.6,.96,1);gl.bindVertexArray(inst);
+ gl.drawElementsInstanced(gl.TRIANGLES,3,gl.UNSIGNED_SHORT,0,3);gl.bindVertexArray(null);
+ window.__OWN_X31.frame++;requestAnimationFrame(draw);
+}
+requestAnimationFrame(draw);
+})();
+</script></body></html>
