@@ -1,6 +1,7 @@
 {
   "stage": "X32",
-  "generatedUTC": "2026-11-20T20:25:01.003232+00:00",
+  "generatedUTC": "2026-11-20T20:16:34.639Z",
+  "timestampSemantics": "stable original X32 observation UTC; not reconciliation rerun time",
   "repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
   "branch": "main",
   "method": "PC original raw bytes Git blob independently computed vs GitHub connected contents API read-back SHA",
@@ -48,10 +49,10 @@
     {
       "name": "X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py",
       "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X32-Independent-Owner-RenderDoc-90S-Live-X01-X31-Acceptance.py",
-      "size": 11190,
-      "localSHA256": "0bb0a435c9db8ece1c46eb6fa3c3840e8e863caf7e3cdb6e2393fecf89567ee6",
-      "localGitBlob": "4f748defb82d6686c62c5ef7a0a7992e1e829fac",
-      "githubConnectorReadbackGitBlob": "4f748defb82d6686c62c5ef7a0a7992e1e829fac",
+      "size": 11249,
+      "localSHA256": "105cc5c5c4152e6db1cee0d1b18f76b9263c758c33f32e0632733eb8eb8269c2",
+      "localGitBlob": "f8e67369507a673ad6466cd8cc91de044ac46af6",
+      "githubConnectorReadbackGitBlob": "f8e67369507a673ad6466cd8cc91de044ac46af6",
       "exactPCtoGithub": true
     },
     {
@@ -84,10 +85,10 @@
     {
       "name": "X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json",
       "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X32-INDEPENDENT-X01-X31-NATIVE-RENDERDOC-REAL-90S-ACCEPTANCE.json",
-      "size": 8848,
-      "localSHA256": "e15914862247191b713a896d89550b496b7dbb5d698fc2dc70da7c90a02780d5",
-      "localGitBlob": "a41c5018ef2a5815f721f460bd1e18a585f67394",
-      "githubConnectorReadbackGitBlob": "a41c5018ef2a5815f721f460bd1e18a585f67394",
+      "size": 8942,
+      "localSHA256": "9421f7f81c1e9c8c644fce05ced194180412aee9b5b82168ab8781660cbf1a3e",
+      "localGitBlob": "b090628919533a498010e0d33c0373ae0558dbbd",
+      "githubConnectorReadbackGitBlob": "b090628919533a498010e0d33c0373ae0558dbbd",
       "exactPCtoGithub": true
     },
     {
