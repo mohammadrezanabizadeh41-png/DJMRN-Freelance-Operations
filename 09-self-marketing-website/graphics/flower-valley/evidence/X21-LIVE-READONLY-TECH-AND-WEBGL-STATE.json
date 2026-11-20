@@ -1,0 +1,276 @@
+{
+  "stage": "X21",
+  "goal": "read-only live corroboration of framework and WebGL context",
+  "time_utc": "2026-11-20T07:34:02.137Z",
+  "verifiedTools": {
+    "chrome": "Chrome for Testing 157, existing X11",
+    "puppeteer": "existing X14 runtime",
+    "newInstall": false,
+    "provider": "none"
+  },
+  "elapsedSeconds": 15,
+  "ramMinMiB": 842,
+  "stopReason": "ALL_FIVE_CHECKPOINTS_COMPLETED",
+  "snapshots": [
+    {
+      "label": "home_ready",
+      "seconds": 5,
+      "route": "/",
+      "observation": {
+        "canvasCount": 1,
+        "canvasDimensions": [
+          {
+            "width": 1280,
+            "height": 720,
+            "clientWidth": 1280,
+            "clientHeight": 720
+          }
+        ],
+        "webgl": {
+          "status": "CONFIRMED_WEBGL2_CONTEXT",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "glslVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+          "maxTextureSize": 16384,
+          "maxVertexAttribs": 16,
+          "drawingBuffer": [
+            1280,
+            720
+          ],
+          "contextLost": false
+        },
+        "animationCount": 7,
+        "htmlFrameworkMarkers": {
+          "nextRscPushArray": true,
+          "nextRscPushCount": 21,
+          "webpackChunkNE": true,
+          "nextRuntimeVersion": "13.4.19",
+          "nextRuntimeAppDir": true,
+          "nextDataScript": false,
+          "nextRootElement": false,
+          "reactGlobal": false,
+          "threeGlobal": false,
+          "threeRevision": null,
+          "threeInternalRevision": "154",
+          "gsapGlobal": false,
+          "reactFiberGlobal": false
+        },
+        "dom": {
+          "imageCount": 0,
+          "anchorCount": 2,
+          "scriptTagCount": 7,
+          "webComponents": 0,
+          "mainCount": 1,
+          "headings": 0,
+          "scrollY": 0,
+          "documentScrollHeight": 720
+        },
+        "performance": {
+          "resourceEntryCount": 32
+        }
+      }
+    },
+    {
+      "label": "home_pointer",
+      "seconds": 8,
+      "route": "/",
+      "observation": {
+        "canvasCount": 1,
+        "canvasDimensions": [
+          {
+            "width": 1280,
+            "height": 720,
+            "clientWidth": 1280,
+            "clientHeight": 720
+          }
+        ],
+        "webgl": {
+          "status": "CONFIRMED_WEBGL2_CONTEXT",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "glslVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+          "maxTextureSize": 16384,
+          "maxVertexAttribs": 16,
+          "drawingBuffer": [
+            1280,
+            720
+          ],
+          "contextLost": false
+        },
+        "animationCount": 7,
+        "htmlFrameworkMarkers": {
+          "nextRscPushArray": true,
+          "nextRscPushCount": 21,
+          "webpackChunkNE": true,
+          "nextRuntimeVersion": "13.4.19",
+          "nextRuntimeAppDir": true,
+          "nextDataScript": false,
+          "nextRootElement": false,
+          "reactGlobal": false,
+          "threeGlobal": false,
+          "threeRevision": null,
+          "threeInternalRevision": "154",
+          "gsapGlobal": false,
+          "reactFiberGlobal": false
+        },
+        "dom": {
+          "imageCount": 0,
+          "anchorCount": 2,
+          "scriptTagCount": 7,
+          "webComponents": 0,
+          "mainCount": 1,
+          "headings": 0,
+          "scrollY": 0,
+          "documentScrollHeight": 720
+        },
+        "performance": {
+          "resourceEntryCount": 41
+        }
+      }
+    },
+    {
+      "label": "home_scroll",
+      "seconds": 10,
+      "route": "/",
+      "observation": {
+        "canvasCount": 1,
+        "canvasDimensions": [
+          {
+            "width": 1280,
+            "height": 720,
+            "clientWidth": 1280,
+            "clientHeight": 720
+          }
+        ],
+        "webgl": {
+          "status": "CONFIRMED_WEBGL2_CONTEXT",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+          "glslVersion": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+          "maxTextureSize": 16384,
+          "maxVertexAttribs": 16,
+          "drawingBuffer": [
+            1280,
+            720
+          ],
+          "contextLost": false
+        },
+        "animationCount": 42,
+        "htmlFrameworkMarkers": {
+          "nextRscPushArray": true,
+          "nextRscPushCount": 21,
+          "webpackChunkNE": true,
+          "nextRuntimeVersion": "13.4.19",
+          "nextRuntimeAppDir": true,
+          "nextDataScript": false,
+          "nextRootElement": false,
+          "reactGlobal": false,
+          "threeGlobal": false,
+          "threeRevision": null,
+          "threeInternalRevision": "154",
+          "gsapGlobal": false,
+          "reactFiberGlobal": false
+        },
+        "dom": {
+          "imageCount": 0,
+          "anchorCount": 3,
+          "scriptTagCount": 7,
+          "webComponents": 0,
+          "mainCount": 1,
+          "headings": 1,
+          "scrollY": 0,
+          "documentScrollHeight": 720
+        },
+        "performance": {
+          "resourceEntryCount": 50
+        }
+      }
+    },
+    {
+      "label": "work_ready",
+      "seconds": 13,
+      "route": "/work",
+      "observation": {
+        "canvasCount": 0,
+        "canvasDimensions": [],
+        "webgl": {
+          "status": "UNKNOWN_NO_CANVAS"
+        },
+        "animationCount": 1,
+        "htmlFrameworkMarkers": {
+          "nextRscPushArray": true,
+          "nextRscPushCount": 20,
+          "webpackChunkNE": true,
+          "nextRuntimeVersion": "13.4.19",
+          "nextRuntimeAppDir": true,
+          "nextDataScript": false,
+          "nextRootElement": false,
+          "reactGlobal": false,
+          "threeGlobal": false,
+          "threeRevision": null,
+          "threeInternalRevision": null,
+          "gsapGlobal": false,
+          "reactFiberGlobal": false
+        },
+        "dom": {
+          "imageCount": 43,
+          "anchorCount": 50,
+          "scriptTagCount": 8,
+          "webComponents": 0,
+          "mainCount": 1,
+          "headings": 47,
+          "scrollY": 0,
+          "documentScrollHeight": 6925
+        },
+        "performance": {
+          "resourceEntryCount": 115
+        }
+      }
+    },
+    {
+      "label": "work_scroll",
+      "seconds": 15,
+      "route": "/work",
+      "observation": {
+        "canvasCount": 0,
+        "canvasDimensions": [],
+        "webgl": {
+          "status": "UNKNOWN_NO_CANVAS"
+        },
+        "animationCount": 1,
+        "htmlFrameworkMarkers": {
+          "nextRscPushArray": true,
+          "nextRscPushCount": 20,
+          "webpackChunkNE": true,
+          "nextRuntimeVersion": "13.4.19",
+          "nextRuntimeAppDir": true,
+          "nextDataScript": false,
+          "nextRootElement": false,
+          "reactGlobal": false,
+          "threeGlobal": false,
+          "threeRevision": null,
+          "threeInternalRevision": null,
+          "gsapGlobal": false,
+          "reactFiberGlobal": false
+        },
+        "dom": {
+          "imageCount": 42,
+          "anchorCount": 50,
+          "scriptTagCount": 8,
+          "webComponents": 0,
+          "mainCount": 1,
+          "headings": 47,
+          "scrollY": 370,
+          "documentScrollHeight": 6925
+        },
+        "performance": {
+          "resourceEntryCount": 118
+        }
+      }
+    }
+  ],
+  "issues": [],
+  "privacy": "No credentials, cookies, query strings, DOM text/raw site JS, shader source, image pixels, original bodies or server-side source retained",
+  "evidenceLimitations": [
+    "WebGL2 context inquiry cannot expose original GPU shader source or draw-call stack",
+    "A missing global object does not prove the library was not bundled or used",
+    "Page may react to browser GPU environment differently than user device"
+  ]
+}

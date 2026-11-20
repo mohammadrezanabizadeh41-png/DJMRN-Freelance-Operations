@@ -1,0 +1,31 @@
+{
+    "runtime_settings":  {
+                             "vendor_js_node_execution":  "disabled",
+                             "tls_checks":  "enabled",
+                             "free_ram_stop_mib":  100,
+                             "payment":  "none",
+                             "timeout_seconds":  60,
+                             "browser_profile":  "ephemeral anonymous",
+                             "browser_count":  1,
+                             "private_file_publication":  "disabled",
+                             "gpu":  "enabled",
+                             "extensions":  "disabled",
+                             "new_mcp_registrations":  "disabled"
+                         },
+    "tools_ready":  true,
+    "stage":  "X21",
+    "tool_roles":  {
+                       "browser":  "Existing ChromeForTesting157 + Puppeteer25.16.0",
+                       "fingerprinting":  "Existing HTTPArchive Wappalyzer, commit 35b0847c01c118055c42596d5c6d01f60f15d706",
+                       "runtime":  "existing Chrome DevTools Protocol via Puppeteer",
+                       "static":  "X19 webcrack + X20 REA/Wakaru/ast-grep",
+                       "authority":  "X01-X19 original URL/SHA authority plus verified local GLB"
+                   },
+    "output_files":  [
+                         "X21-LIVE-READONLY-TECH-AND-WEBGL-STATE.json",
+                         "X21-TECHNOLOGY-AND-FACTORY-EVIDENCE-MATRIX.json",
+                         "X21-INDEPENDENT-ACCEPTANCE.json"
+                     ],
+    "state":  "ACTIVATED_AND_COMPLETED_LOCALLY",
+    "new_software_installed":  false
+}

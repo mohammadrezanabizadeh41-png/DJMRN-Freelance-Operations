@@ -1,0 +1,56 @@
+{
+  "stage": "X22",
+  "mode": "OWN_LOOPBACK",
+  "startedUtc": "2026-11-20T07:50:54.790Z",
+  "extensionVersion": "0.9.33",
+  "extensionWorkerActive": true,
+  "libraryAPI": {
+    "global": "object",
+    "spector": "function"
+  },
+  "fixture": {
+    "ready": true,
+    "error": null,
+    "frameCount": 3,
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)"
+  },
+  "capture": {
+    "status": "CAPTURED",
+    "commands": 7,
+    "drawCalls": 1,
+    "commandNameCounts": {
+      "viewport": 1,
+      "clearColor": 1,
+      "clear": 1,
+      "useProgram": 1,
+      "uniform1f": 1,
+      "bindVertexArray": 1,
+      "drawArrays": 1
+    },
+    "topLevelKeys": [
+      "canvas",
+      "context",
+      "commands",
+      "initState",
+      "endState",
+      "startTime",
+      "listenCommandsStartTime",
+      "listenCommandsEndTime",
+      "endTime",
+      "analyses",
+      "frameMemory",
+      "memory"
+    ],
+    "width": 640,
+    "height": 360
+  },
+  "errors": [],
+  "minimumFreeRamMiB": 1642,
+  "manifestVersion": 3,
+  "bundleBytes": 1193487,
+  "bundleSHA256": "cece563b656a223347af27c9f1db97c3c0225b01f2f5b400cd9deeb1b5958cca",
+  "rawPrivateSHA256": "7a84176e04b02411940912bfbb374971c1cfc4145a142f7a48e5bb34ebe752bf",
+  "fixtureFrameCountEnd": 35,
+  "elapsedSeconds": 4,
+  "status": "OWN_FIXTURE_PASS"
+}

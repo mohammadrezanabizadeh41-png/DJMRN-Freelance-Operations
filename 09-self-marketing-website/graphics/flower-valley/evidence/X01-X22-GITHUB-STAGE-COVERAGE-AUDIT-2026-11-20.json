@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "authoritative_repository": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "audit_date_utc": "2026-11-20",
+  "baseline_main_commit_before_this_publication": "e89559dccc803ed87e40f41c04ddc1733caf94e5",
+  "audit_scope": "GitHub stage-linked file presence and Runbook relative links, not all historical private original bytes",
+  "checks": {
+    "x01_x20_stages_with_public_files": 20,
+    "x01_x20_runbook_stage_rows": 20,
+    "x21_public_file_count": 7,
+    "x22_public_file_count": 16,
+    "x21_x22_individually_sha_tracked_public_files": 23,
+    "prior_runbook_internal_relative_links_checked": 56,
+    "prior_runbook_internal_relative_links_resolved": 56,
+    "prior_runbook_internal_relative_link_gaps": [],
+    "earlier_x20_independent_acceptance": "34/34",
+    "x21_independent_acceptance": "45/45",
+    "x22_first_gpu_acceptance": "35/35",
+    "x22_full_90s_gpu_acceptance": "87/87",
+    "canonical_original_site_resource_paths_unchanged": 78,
+    "additional_original_site_url_paths_x21_x22": 0
+  },
+  "stage_file_evidence": [
+    {
+      "stage": "X01",
+      "githubPublicFileCount": 11,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X02",
+      "githubPublicFileCount": 3,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X03",
+      "githubPublicFileCount": 1,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X04",
+      "githubPublicFileCount": 2,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X05",
+      "githubPublicFileCount": 1,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X06",
+      "githubPublicFileCount": 1,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X07",
+      "githubPublicFileCount": 3,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X08",
+      "githubPublicFileCount": 2,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X09",
+      "githubPublicFileCount": 1,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X10",
+      "githubPublicFileCount": 2,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X11",
+      "githubPublicFileCount": 10,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X12",
+      "githubPublicFileCount": 10,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X13",
+      "githubPublicFileCount": 5,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X14",
+      "githubPublicFileCount": 5,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X15",
+      "githubPublicFileCount": 8,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X16",
+      "githubPublicFileCount": 8,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X17",
+      "githubPublicFileCount": 7,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X18",
+      "githubPublicFileCount": 15,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X19",
+      "githubPublicFileCount": 34,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X20",
+      "githubPublicFileCount": 8,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X21",
+      "githubPublicFileCount": 7,
+      "runbookRecorded": true
+    },
+    {
+      "stage": "X22",
+      "githubPublicFileCount": 16,
+      "runbookRecorded": true
+    }
+  ],
+  "canonical_original_resource_ledger": "09-self-marketing-website/graphics/flower-valley/evidence/X01-X19-RESOURCE-URL-SHA256-PROVENANCE.json",
+  "public_hash_manifest": "09-self-marketing-website/graphics/flower-valley/evidence/X21-X22-PUBLIC-ARTIFACT-SHA256-MANIFEST.json",
+  "x21_evidence_classes": [
+    "new derived interpretation of already archived GLB Blender exporter and camera animation metadata",
+    "live verified Three.js r154, Next.js 13.4.19, WebGL2 context; zero new original site HTTP body"
+  ],
+  "x22_evidence_classes": [
+    "new direct GPU program/shader/Uniform and framebuffer activation evidence",
+    "new 90.01-second homepage observation with seven spaced GPU captures, 6 changing program/Uniform pairs",
+    "38/38 original body SHA+byte repeat; 37/37 known X16 network initiator edges; zero novel URL or new vendor shader source SHA"
+  ],
+  "privacy": [
+    "All original vendor GLSL, compiled shader representations, asset bodies and Spector raw captures remain local only.",
+    "Owner authored scripts and public-safe metadata are the only files selected for GitHub."
+  ],
+  "limitations": [
+    "File presence for stages X01–X20 does not prove full completeness of every private archive/experiment.",
+    "Seven separate GPU snapshots while a page stayed open for 90s are not 90 seconds of uninterrupted per-frame GPU recording.",
+    "Prior stage reports can describe scoped blocked cases; documentation presence is not operational completion.",
+    "A diff in CRLF/LF source text is reported separately as transport normalization, not new evidence."
+  ]
+}

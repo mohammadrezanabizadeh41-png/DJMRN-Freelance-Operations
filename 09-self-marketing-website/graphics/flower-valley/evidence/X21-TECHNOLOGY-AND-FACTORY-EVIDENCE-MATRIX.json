@@ -1,0 +1,535 @@
+{
+  "stage": "X21",
+  "generated_utc": "2026-11-20T07:35:40.385075+00:00",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "scope": "client framework, WebGL renderer, shader families, animation system, bundler, route/component architecture, exported asset authoring, hosting-vs-backend distinction",
+  "tool_readiness": {
+    "new_install_required": false,
+    "new_tool_installed": false,
+    "new_permission_granted": false,
+    "new_paid_usage": false,
+    "existing": {
+      "HTTPArchive_Wappalyzer": "GPL-3.0 fork pinned 35b0847c01c118055c42596d5c6d01f60f15d706",
+      "Chromium": "Chrome for Testing 157",
+      "Puppeteer": "25.16.0",
+      "REA": "6.9.0",
+      "Wakaru": "1.17.0",
+      "ast-grep": "0.51.3",
+      "webcrack": "2.16.0"
+    },
+    "roles": {
+      "Wappalyzer": "heuristic independent technology fingerprints",
+      "Chrome_CDPRuntime": "read-only live public page state",
+      "X19_original_source_and_GLB": "SHA authority for previously downloaded public bodies",
+      "REA_astgrep_Wakaru": "offline semantic/matcher/decompiler observer, not authority",
+      "X14_X20": "cross-stage provenance"
+    },
+    "settings": {
+      "chrome_profile": "isolated ephemeral anonymous",
+      "gpu": "enabled",
+      "extensions": "disabled",
+      "tls_validation": "enabled",
+      "physical_ram_emergency_mib": 100,
+      "max_parallel_browsers": 1,
+      "new_MCP_registration": "disabled",
+      "vendor_JS_import_execution": "disabled",
+      "credentials": "none"
+    }
+  },
+  "source_provenance": {
+    "canonical_url_paths": 78,
+    "original_X19_JS_SHA_verified": 34,
+    "X19_original_JS_count": 34,
+    "scene_module_sha_verified": 5,
+    "blender_camera_glb_sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+    "blender_camera_glb_url": "https://www.gladeye.com/valley/camera-path07.glb",
+    "next_original_js_url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+    "next_original_js_sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+    "three_module_source_url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+    "three_module_sha256": "0b4d7379c7ab840cc9580c42838856de6b323ea1c859172a50834dd80eb4a161",
+    "camera_glb": {
+      "generator": "Khronos glTF Blender I/O v3.2.43",
+      "gltf_version": "2.0",
+      "bytes": 10132,
+      "camera_count": 1,
+      "animations": 1,
+      "camera_perspective": {
+        "vertical_fov_radians": 0.39959648,
+        "vertical_fov_degrees": 22.89519,
+        "aspect_ratio": 1.7777777777777777,
+        "z_near": 0.10000000149011612,
+        "z_far": 1000
+      },
+      "channels": [
+        {
+          "target": "translation",
+          "sampling": "LINEAR",
+          "keyframes": 200,
+          "duration_sec": 8.291667,
+          "output_range": {
+            "min": [
+              -11.997,
+              0.0,
+              -500.0
+            ],
+            "max": [
+              5.9971,
+              0.0,
+              -0.0
+            ]
+          }
+        },
+        {
+          "target": "rotation",
+          "sampling": "LINEAR",
+          "keyframes": 200,
+          "duration_sec": 8.291667,
+          "output_range": {
+            "min": [
+              -0.0,
+              -0.1434,
+              -0.0,
+              0.9855
+            ],
+            "max": [
+              0.0,
+              0.1697,
+              0.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "target": "scale",
+          "sampling": "LINEAR",
+          "keyframes": 200,
+          "duration_sec": 8.291667,
+          "output_range": {
+            "min": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "extensionsUsed": []
+    },
+    "shader_pattern_counts_per_module": {
+      "889": {
+        "vertexShader_property": 3,
+        "fragmentShader_property": 3,
+        "gl_Position": 0,
+        "gl_FragColor": 0,
+        "uniform_glsl_declarations": 0,
+        "bloom_literal": 19,
+        "instancing_support": 0
+      },
+      "4059": {
+        "vertexShader_property": 5,
+        "fragmentShader_property": 5,
+        "gl_Position": 3,
+        "gl_FragColor": 3,
+        "uniform_glsl_declarations": 17,
+        "bloom_literal": 39,
+        "instancing_support": 0
+      },
+      "6375": {
+        "vertexShader_property": 28,
+        "fragmentShader_property": 28,
+        "gl_Position": 7,
+        "gl_FragColor": 14,
+        "uniform_glsl_declarations": 27,
+        "bloom_literal": 0,
+        "instancing_support": 42
+      }
+    }
+  },
+  "runtime": {
+    "checkpoints": 5,
+    "home_webgl2_checkpoints": 3,
+    "work_no_canvas_checkpoints": 2,
+    "glsl_context_version": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "three_version_home": [
+      "154",
+      "154",
+      "154"
+    ],
+    "next_version": [
+      "13.4.19",
+      "13.4.19",
+      "13.4.19",
+      "13.4.19",
+      "13.4.19"
+    ],
+    "max_browser_elapsed_sec": 15,
+    "minimum_free_ram_mib": 842,
+    "browser_cleaned": true
+  },
+  "claims": [
+    {
+      "id": "framework_next",
+      "layer": "frontend",
+      "technology_or_behavior": "Next.js 13.4.19 / App Router",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X21 live window.next.version=13.4.19 and appDir=true in 5/5 samples",
+        "X19 SHA-verified original /_next/static/chunks/123-...js embeds Next 13.4.19 appDir flag",
+        "X14 HTTP header x-powered-by: Next.js and Wappalyzer independent fingerprint"
+      ],
+      "limits_or_counterevidence": [
+        "App Router/visible version says nothing about private build configuration or server deployment"
+      ],
+      "rebuild_implication": "Design an original Next.js/React page hierarchy, but pin dependencies only when implementation/testing needs the version.",
+      "scope": "public delivered frontend"
+    },
+    {
+      "id": "three_bundle",
+      "layer": "renderer-library",
+      "technology_or_behavior": "Three.js r154 delivered and present in home browser",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X21 home window.__THREE__=154 in 3/3 samples",
+        "X19 SHA-verified module 6375 sets the 154 marker",
+        "X14 native Wappalyzer JS+DOM signal reports version 154"
+      ],
+      "limits_or_counterevidence": [
+        "Browser marker confirms library presence, not every GPU draw attributable to it"
+      ],
+      "rebuild_implication": "Three.js is the strongest verified implementation reference for an original scene.",
+      "scope": "public delivered client"
+    },
+    {
+      "id": "active_webgl2",
+      "layer": "renderer-context",
+      "technology_or_behavior": "Active WebGL 2.0 context on home Canvas",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X21 same 3/3 home Canvas returned WebGL2 context, GLSL ES 3.00; 1280x720 drawingBuffer",
+        "X14 independent home WebGL2 observation"
+      ],
+      "limits_or_counterevidence": [
+        "GLSL ES 3.00 reports browser context shading language, not authored shader version",
+        "/work samples had no Canvas"
+      ],
+      "rebuild_implication": "Build WebGL2/Three scene with mobile fallback; reserve GPU pass analysis for X22.",
+      "scope": "live home view"
+    },
+    {
+      "id": "react_runtime",
+      "layer": "framework",
+      "technology_or_behavior": "React client dependency and RSC payload",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X14 React signature and Next.js App Router",
+        "X20 Wakaru work RSC 24 rows 23 assets 5 scripts, 0 parser issues",
+        "X21 home next_f array and webpack chunk array seen live"
+      ],
+      "limits_or_counterevidence": [
+        "Exact React package version, custom component source and backend component boundaries not recovered"
+      ],
+      "rebuild_implication": "Implement original React components and responsive routes; do not infer server-component tree directly.",
+      "scope": "public frontend"
+    },
+    {
+      "id": "webpack",
+      "layer": "bundler",
+      "technology_or_behavior": "Webpack 5-style bundle/chunks",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X20 Wakaru strict Webpack5 detected 22 original-page module IDs matching X19 webcrack",
+        "X21 webpackChunk_N_E global in 5/5 checks",
+        "X19 457 derived Webpack module files and static import index"
+      ],
+      "limits_or_counterevidence": [
+        "Does not establish Module Federation or exact build plugins/config"
+      ],
+      "rebuild_implication": "Bundler-specific output is evidence of shipping architecture, not reason to clone its config.",
+      "scope": "public built bundles"
+    },
+    {
+      "id": "shader_vertex_fragment",
+      "layer": "shader stages",
+      "technology_or_behavior": "Vertex and fragment GLSL source patterns present",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X19 SHA-verified non-vendor-private author script modules 4059 contains GLSL vertex/fragment properties and position/color statements",
+        "Three runtime engine 6375 includes vertex/fragment shader templates"
+      ],
+      "limits_or_counterevidence": [
+        "No X22 framebuffer/call trace to show which exact shaders executed per pass"
+      ],
+      "rebuild_implication": "Use custom original shaders where needed; evaluate active shader programs with X22.",
+      "scope": "client-bundle static evidence"
+    },
+    {
+      "id": "bloom_effect",
+      "layer": "postprocessing",
+      "technology_or_behavior": "Bloom/ray-style postprocessing candidate in scene modules",
+      "status": "PROBABLE",
+      "supporting_observations": [
+        "X19 scene modules 4059 and 889 both contain repeated bloom literals and shader/uniform code"
+      ],
+      "limits_or_counterevidence": [
+        "Could include library-provided effect implementations without proof of live use; X22 GPU pass evidence pending"
+      ],
+      "rebuild_implication": "Prototype an original bloom/glow pipeline, then tune against observed visuals and frame metrics.",
+      "scope": "inference based on delivered code"
+    },
+    {
+      "id": "gltf_draco",
+      "layer": "assets-loader",
+      "technology_or_behavior": "glTF/Draco loader infrastructure exists",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X19 SHA-verified module 889 exposes DRACOLoader string and module 4863 multiple Draco tokens",
+        "X01 camera-path07.glb delivered and SHA-verified"
+      ],
+      "limits_or_counterevidence": [
+        "Camera GLB has no extensionsUsed field; not evidence that its contents are Draco-compressed"
+      ],
+      "rebuild_implication": "For scene rebuild, use glTF camera-path concepts and load Draco only if own models need it.",
+      "scope": "loader support, not active compression"
+    },
+    {
+      "id": "camera_gltf",
+      "layer": "authoring-asset",
+      "technology_or_behavior": "glTF 2.0 camera animation exported with Blender glTF I/O v3.2.43",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "The original 10132-byte X01 asset matches the canonical GLB SHA and asset.generator metadata",
+        "One perspective camera, one glTF animation, translation/rotation/scale tracks each with 200 LINEAR keys over 8.291667 s"
+      ],
+      "limits_or_counterevidence": [
+        "Export addon version != installed Blender application version; no proof other artwork shared this pipeline",
+        "Client runtime remapping/scroll synchronization of camera animation not directly observed"
+      ],
+      "rebuild_implication": "Use a separately authored camera path and approximate motion; retained metadata provides reproducible ranges.",
+      "scope": "one delivered GLB file"
+    },
+    {
+      "id": "instanced_renderer",
+      "layer": "renderer capability",
+      "technology_or_behavior": "Instancing support inside delivered Three.js engine",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X19 module 6375 contains InstancedMesh/InstancedBuffer and instanceMatrix code"
+      ],
+      "limits_or_counterevidence": [
+        "No evidence yet that active flower meshes use a particular instancing strategy"
+      ],
+      "rebuild_implication": "Consider instanced meshes for mobile performance only after validating scene count.",
+      "scope": "engine capability; not proven active scene"
+    },
+    {
+      "id": "css_tailwind",
+      "layer": "styles",
+      "technology_or_behavior": "Tailwind CSS-like generated CSS",
+      "status": "PROBABLE",
+      "supporting_observations": [
+        "X14 Wappalyzer native full CSS fingerprint matches Tailwind token family"
+      ],
+      "limits_or_counterevidence": [
+        "Token family can occur in copied CSS; exact Tailwind version and own design tokens not recovered"
+      ],
+      "rebuild_implication": "Original utility CSS is an optional implementation choice, not a requirement.",
+      "scope": "public CSS fingerprint"
+    },
+    {
+      "id": "animation_system",
+      "layer": "motion",
+      "technology_or_behavior": "DOM animation and client animation scheduling",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X21 observed document.getAnimations() 7 -> 42 on home after scroll",
+        "X19/X20 syntax evidence of requestAnimationFrame and setAnimationLoop in delivered client modules"
+      ],
+      "limits_or_counterevidence": [
+        "Exact authoring timeline, GSAP usage, scroll-camera coupling or per-frame GPU draw order unknown"
+      ],
+      "rebuild_implication": "Use one native RAF/render loop plus explicit route/scroll/pointer state; test against real behavior.",
+      "scope": "observable DOM activity + static client API"
+    },
+    {
+      "id": "hosting_headers",
+      "layer": "delivery",
+      "technology_or_behavior": "Vercel response header and Next.js powered-by header",
+      "status": "CONFIRMED",
+      "supporting_observations": [
+        "X14 public first-party 200 main-page response: server Vercel and x-powered-by Next.js"
+      ],
+      "limits_or_counterevidence": [
+        "Header only confirms response path/edge characteristics; does not identify private infrastructure or compute origin"
+      ],
+      "rebuild_implication": "No Vercel account or deployment required to reproduce frontend locally.",
+      "scope": "HTTP delivery headers"
+    },
+    {
+      "id": "backend_runtime",
+      "layer": "backend",
+      "technology_or_behavior": "Actual server process/runtime/API implementation",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "Public Next.js frontend and x-powered-by response header"
+      ],
+      "limits_or_counterevidence": [
+        "Node.js detection is implied by Wappalyzer rule; Node/Edge functions, code, data stores, auth and secrets unseen"
+      ],
+      "rebuild_implication": "Do not create a server stack, DB or APIs based only on header fingerprints.",
+      "scope": "private backend out of scope"
+    },
+    {
+      "id": "react_version",
+      "layer": "frontend",
+      "technology_or_behavior": "Exact React package version",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "React framework signatures and existing Next App Router markup"
+      ],
+      "limits_or_counterevidence": [
+        "No direct reliable public React version value in inspected artifacts; a package inferred from Next isn't proof of deployment version"
+      ],
+      "rebuild_implication": "Choose supported React version for own site after tests; avoid guessed pin.",
+      "scope": "version provenance missing"
+    },
+    {
+      "id": "module_federation",
+      "layer": "bundler extension",
+      "technology_or_behavior": "Module Federation/microfrontend topology",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "X14 heuristic Module Federation pattern"
+      ],
+      "limits_or_counterevidence": [
+        "Generic Webpack data-webpack signatures can false-positive; no verified remote module manifests"
+      ],
+      "rebuild_implication": "Do not build microfrontends without a real use case.",
+      "scope": "unverified signal"
+    },
+    {
+      "id": "react_three_fiber",
+      "layer": "renderer orchestration",
+      "technology_or_behavior": "react-three/fiber or react-three/drei as a specific dependency",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "React and Three.js are both present in delivered frontend"
+      ],
+      "limits_or_counterevidence": [
+        "No authenticated dependency manifest/version or direct package identity established"
+      ],
+      "rebuild_implication": "Choose simplest Three integration based on own codebase and measured performance.",
+      "scope": "unsupported inference"
+    },
+    {
+      "id": "gsap_animation",
+      "layer": "animation framework",
+      "technology_or_behavior": "GSAP or another named authoring timeline engine",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "Pointer/wheel events and animation activity observed"
+      ],
+      "limits_or_counterevidence": [
+        "No directly verified GSAP global or named bundle package signature; bundled/minified aliases may hide it"
+      ],
+      "rebuild_implication": "Avoid unnecessarily installing GSAP until specific motion behavior requires it.",
+      "scope": "unsupported exact tool attribution"
+    },
+    {
+      "id": "authoring_app_version",
+      "layer": "3d authoring",
+      "technology_or_behavior": "Exact Blender desktop version or other DCC package",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "Camera file export generator says Khronos glTF Blender I/O v3.2.43"
+      ],
+      "limits_or_counterevidence": [
+        "Export plugin version cannot prove Blender application version or original production workflow"
+      ],
+      "rebuild_implication": "Use current free Blender if authoring new models later; no reason to install now for X21.",
+      "scope": "only one asset exporter known"
+    },
+    {
+      "id": "actual_gpu_passes",
+      "layer": "gpu pipeline",
+      "technology_or_behavior": "Precise active shader program, draw pass, FBO, blend and depth sequence",
+      "status": "UNKNOWN",
+      "supporting_observations": [
+        "WebGL2 live context and shader templates available"
+      ],
+      "limits_or_counterevidence": [
+        "X21 does not capture GPU draw-call/program evidence; X22 Spector required"
+      ],
+      "rebuild_implication": "Perform first-party-owner synthetic GPU fixture validation then bounded public frame capture in X22.",
+      "scope": "explicit next-stage boundary"
+    }
+  ],
+  "counts_by_status": {
+    "CONFIRMED": 11,
+    "PROBABLE": 2,
+    "UNKNOWN": 7
+  },
+  "tests": {
+    "checks": {
+      "all_34_original_js_sha_verified": true,
+      "legacy_78_path_authority_retained": true,
+      "prior_x20_34_acceptance_pass": true,
+      "next_13_4_19_version_direct_original": true,
+      "five_scene_module_origins_sha_verified": true,
+      "three_internal_revision_154_in_verified_module": true,
+      "custom_vertex_and_fragment_shader_blocks": true,
+      "three_engine_instancing_support": true,
+      "scene_effect_bloom_candidate": true,
+      "gltf_draco_loader_reference": true,
+      "five_usable_browser_checkpoints": true,
+      "all_home_three_revision_154": true,
+      "all_five_next_version_13_4_19": true,
+      "all_five_webpack_chunk_present": true,
+      "home_three_webgl2_contexts": true,
+      "home_glsl_es_3_context": true,
+      "work_no_sampled_canvas": true,
+      "home_canvas_1280_720": true,
+      "animation_count_changed_with_scroll": true,
+      "browser_ram_above_100mb": true,
+      "home_next_rsc_present": true,
+      "wappalyzer_reports_Next_js": true,
+      "wappalyzer_reports_Three_js": true,
+      "wappalyzer_reports_React": true,
+      "wappalyzer_reports_Webpack": true,
+      "wappalyzer_reports_Tailwind_CSS": true,
+      "wappalyzer_reports_Vercel": true,
+      "wappalyzer_reports_Node_js": true,
+      "wappalyzer_reports_Module_Federation": true,
+      "x14_three_version_154": true,
+      "x14_next_version_13_4_19": true,
+      "x14_vercel_and_next_header": true,
+      "one_prior_gltf_camera_file": true,
+      "glb_v2_valid_header": true,
+      "gltf_body_matches_canonical_source": true,
+      "verified_blender_gltf_exporter": true,
+      "one_camera_one_animation": true,
+      "camera_three_linear_channels": true,
+      "camera_all_channels_200_frames": true,
+      "camera_timeline_8_29_seconds": true,
+      "camera_perspective_and_fov": true,
+      "rsc_work_24_rows_0_problems": true,
+      "rsc_assets_and_scripts_28": true,
+      "x20_no_new_website_url_paths": true,
+      "ast_patterns_8": true
+    },
+    "passed": 45,
+    "total": 45
+  },
+  "next_stage": "X22 Spector.js GPU program/pass/texture metadata, subject to separate fixture validation",
+  "limitations": [
+    "X21 does not extract server source or recover proprietary authoring repository",
+    "Live WebGL2 GLSL version is the current rendering context's capability, not per-program shader provenance",
+    "Blender exporter version belongs to one GLB, not the desktop application's exact version",
+    "The 78-path original X01-X19 authority is unchanged. No claim that all assets or original source recovered.",
+    "No inferred semantic or technology label is considered an additional original site file."
+  ]
+}

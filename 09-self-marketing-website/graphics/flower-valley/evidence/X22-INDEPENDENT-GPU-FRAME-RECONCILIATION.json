@@ -1,0 +1,963 @@
+{
+  "stage": "X22",
+  "generatedUtc": "2026-11-20T07:56:00.327263+00:00",
+  "scope": "Own-fixture validation then two isolated, anonymous public WebGL2 frame captures; independent static source crosswalk X01-X21",
+  "tool": {
+    "name": "Spector.js",
+    "version": "0.9.33",
+    "officialSource": "https://github.com/BabylonJS/Spector.js",
+    "originalReleaseZipSha256": "70d7f0f31ffe7c6ad422ba23fb2dd1414d2120df5a5917236c34a015d6700a79",
+    "archiveEntryFileSHA_mappings_verified": 22,
+    "chromeMode": "headless new / anonymous isolated with MV3, no personal profile",
+    "newSoftwareInstalled": false,
+    "newPaidServices": false,
+    "newGlobalPermissions": false
+  },
+  "fixture": {
+    "result": "OWN_FIXTURE_PASS",
+    "commandCount": 7,
+    "drawCalls": 1,
+    "minFreeRamMiB": 1642
+  },
+  "publicFrames": {
+    "initial": {
+      "commandCount": 1135,
+      "drawCount": 16,
+      "commandHistogram": {
+        "createTexture": 15,
+        "createFramebuffer": 12,
+        "activeTexture": 9,
+        "bindTexture": 45,
+        "texParameteri": 60,
+        "getExtension": 1,
+        "texImage2D": 12,
+        "bindFramebuffer": 63,
+        "framebufferTexture2D": 12,
+        "createRenderbuffer": 12,
+        "bindRenderbuffer": 24,
+        "renderbufferStorage": 12,
+        "framebufferRenderbuffer": 12,
+        "drawBuffers": 13,
+        "scissor": 9,
+        "disable": 8,
+        "clear": 14,
+        "createBuffer": 20,
+        "bindBuffer": 53,
+        "bufferData": 20,
+        "createProgram": 11,
+        "createShader": 22,
+        "shaderSource": 22,
+        "compileShader": 22,
+        "attachShader": 22,
+        "linkProgram": 11,
+        "getProgramInfoLog": 11,
+        "getShaderInfoLog": 22,
+        "getProgramParameter": 33,
+        "deleteShader": 22,
+        "getActiveUniform": 96,
+        "getUniformLocation": 96,
+        "useProgram": 11,
+        "uniformMatrix4fv": 20,
+        "uniform1f": 33,
+        "uniform3f": 2,
+        "uniform2f": 28,
+        "uniform1i": 16,
+        "pixelStorei": 12,
+        "texStorage2D": 3,
+        "texSubImage2D": 3,
+        "generateMipmap": 3,
+        "enable": 4,
+        "blendEquation": 1,
+        "blendFuncSeparate": 1,
+        "depthMask": 5,
+        "colorMask": 1,
+        "createVertexArray": 11,
+        "bindVertexArray": 11,
+        "getActiveAttrib": 32,
+        "getAttribLocation": 32,
+        "enableVertexAttribArray": 31,
+        "vertexAttribPointer": 31,
+        "drawElements": 2,
+        "clearColor": 2,
+        "viewport": 7,
+        "drawArrays": 14,
+        "uniform1fv": 1,
+        "uniform3fv": 1,
+        "blendFunc": 1
+      },
+      "programIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "framebufferIds": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "hasDefaultFramebuffer": true,
+      "uniqueUniformNames": 62,
+      "draws": [
+        {
+          "drawIndex": 0,
+          "command": "drawElements",
+          "mode": 0,
+          "drawCount": 960000,
+          "programId": 0,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 36,
+          "attributeCount": 12,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 1,
+          "command": "drawElements",
+          "mode": 4,
+          "drawCount": 6,
+          "programId": 1,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 4,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 2,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 2,
+          "framebufferId": 2,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 7,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 3,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 3,
+          "framebufferId": 3,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 4,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 3,
+          "framebufferId": 4,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 5,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 4,
+          "framebufferId": 5,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 6,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 4,
+          "framebufferId": 6,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 7,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 5,
+          "framebufferId": 7,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 8,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 5,
+          "framebufferId": 8,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 9,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 6,
+          "framebufferId": 9,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 10,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 6,
+          "framebufferId": 10,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 11,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 7,
+          "framebufferId": 11,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 12,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 7,
+          "framebufferId": 12,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 13,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 8,
+          "framebufferId": 3,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 11,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 14,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 9,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 4,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 15,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 10,
+          "framebufferId": null,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 9,
+          "attributeCount": 2,
+          "shaderCount": 2
+        }
+      ],
+      "frameMemory": {
+        "Buffer": 0,
+        "Renderbuffer": 0,
+        "Texture2d": 0,
+        "Texture3d": 0,
+        "Program": 0
+      },
+      "hasTiming": true,
+      "note": "Spector instrumented timestamps are not unmodified GPU timing measurements"
+    },
+    "steady": {
+      "commandCount": 137,
+      "drawCount": 16,
+      "commandHistogram": {
+        "bindFramebuffer": 15,
+        "scissor": 9,
+        "clear": 14,
+        "useProgram": 11,
+        "uniform3f": 1,
+        "uniform1f": 2,
+        "bindTexture": 18,
+        "activeTexture": 4,
+        "uniformMatrix4fv": 1,
+        "enable": 4,
+        "blendFuncSeparate": 1,
+        "disable": 4,
+        "bindVertexArray": 11,
+        "drawElements": 2,
+        "depthMask": 4,
+        "clearColor": 2,
+        "viewport": 7,
+        "drawArrays": 14,
+        "uniform2f": 10,
+        "uniform1fv": 1,
+        "uniform3fv": 1,
+        "blendFunc": 1
+      },
+      "programIds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "framebufferIds": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "hasDefaultFramebuffer": true,
+      "uniqueUniformNames": 62,
+      "draws": [
+        {
+          "drawIndex": 0,
+          "command": "drawElements",
+          "mode": 0,
+          "drawCount": 960000,
+          "programId": 0,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 36,
+          "attributeCount": 12,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 1,
+          "command": "drawElements",
+          "mode": 4,
+          "drawCount": 6,
+          "programId": 1,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 4,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 2,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 2,
+          "framebufferId": 2,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 7,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 3,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 3,
+          "framebufferId": 3,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 4,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 3,
+          "framebufferId": 4,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 5,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 4,
+          "framebufferId": 5,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 6,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 4,
+          "framebufferId": 6,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 7,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 5,
+          "framebufferId": 7,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 8,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 5,
+          "framebufferId": 8,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 9,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 6,
+          "framebufferId": 9,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 10,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 6,
+          "framebufferId": 10,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 11,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 7,
+          "framebufferId": 11,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 12,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 7,
+          "framebufferId": 12,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 5,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 13,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 8,
+          "framebufferId": 3,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 11,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 14,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 9,
+          "framebufferId": 0,
+          "blendEnabled": true,
+          "depthTest": false,
+          "uniformCount": 4,
+          "attributeCount": 2,
+          "shaderCount": 2
+        },
+        {
+          "drawIndex": 15,
+          "command": "drawArrays",
+          "mode": 4,
+          "drawCount": 3,
+          "programId": 10,
+          "framebufferId": null,
+          "blendEnabled": false,
+          "depthTest": true,
+          "uniformCount": 9,
+          "attributeCount": 2,
+          "shaderCount": 2
+        }
+      ],
+      "frameMemory": {
+        "Buffer": 0,
+        "Renderbuffer": 0,
+        "Texture2d": 0,
+        "Texture3d": 0,
+        "Program": 0
+      },
+      "hasTiming": true,
+      "note": "Spector instrumented timestamps are not unmodified GPU timing measurements"
+    }
+  },
+  "GPU_shaderMetadata": {
+    "compilations_initial": [
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 19595,
+        "sha256": "734938e224c920c50db53d8a9df489815a44a2baddff4801f580ba6834388a36",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 7867,
+        "sha256": "822407f29dd6dd0e315abfd36ffa8c2dc99c3d8a2275bc787dc662cbd3a7a6f3",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1782,
+        "sha256": "f57c77973eb78c27e567e29948736186c8a6978fb640f15c9b60698aeebb0218",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 2222,
+        "sha256": "ed67d0188b956e94f802c201aaa2946bca077e7f88edc7e5c3d3db9f72acce88",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1650,
+        "sha256": "16c0fd9e63cde62e99dfdd10710120b07d5e0fd0c4565aaa6e8e0f77fa37e26e",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 1597,
+        "sha256": "09c3f85999a7c603c4f13a1f7479665cc0c3102ec41caf9f82177967d2959ac1",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1690,
+        "sha256": "47e8d4cceabf72362bf6cc76717471df20a7f6386791e16f5f36eb0ccf753d30",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 4778,
+        "sha256": "2a53c438f2e68ef62cad003a1b7f4c7d36e32a557984123ae180df7bc084896e",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1690,
+        "sha256": "dfea0dda418f98aa404b26c99cd113011db28015f6a32c7760633033c8747466",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 4778,
+        "sha256": "880acd4fdeb48701f99028f3e81a57933eb53638d85e42e6b5b69b0830b3870d",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1690,
+        "sha256": "ebb44baccfbbd31c8aca5e8531cee0b2f312c4e66ea1558eb36ac852ac14c57c",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 4778,
+        "sha256": "73f449c84f09ca56a82e018f4cef164d67565ca7f9391109b23ee9b4b3d792c4",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1690,
+        "sha256": "057e80042bf8820676d420b3cb69031a2843a10099fe70a9a269f5ca0c55612f",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 4778,
+        "sha256": "26ae3520f440877ac10aa5db3ea2da95b962b7e2f616fd57a5ab3bc29132bbdf",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1692,
+        "sha256": "36fcbfd702bad1bacad984868002a43a6e3c072289d006fcfa823a484ef7c283",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 4780,
+        "sha256": "4b179dac9f45251bdf2365a965b064426afe6f733661a034ce310749902863b8",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1669,
+        "sha256": "2dc754f2fe61155f6fdfc7e262a911127e8bd756a8ea86ccbe07c558ebe8a6cd",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 2153,
+        "sha256": "1c7f818c6ddadc8daf0b900b2eaf00511c34fb7c71b8dfa7ff4bd44805fce2c4",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1649,
+        "sha256": "95face924f53fc9da3c6acb2ae6388534789e0218d7ab0b47107b4ecfce6f9f1",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 1225,
+        "sha256": "ed7db2bbe311f10cbb04634a9a1833b4089a939ac4a626aa8d64a04e19ae4bec",
+        "compile_status": true
+      },
+      {
+        "stage": "VERTEX_SHADER",
+        "bytes_utf8": 1675,
+        "sha256": "fb138b8f192deb18da05b17db5c22a7a80d4e5c4c817a7b43f2eda42963eb830",
+        "compile_status": true
+      },
+      {
+        "stage": "FRAGMENT_SHADER",
+        "bytes_utf8": 3971,
+        "sha256": "96a99f3fb18aa5d7833d850704923832f3a7b9c471c00459e20ba839ed875daa",
+        "compile_status": true
+      }
+    ],
+    "uniform_count": 62,
+    "activeUniformMatchedPreviousX19": 62,
+    "unique_programs_in_steady": 11,
+    "program_draw_mapping": [
+      {
+        "programId": 0,
+        "drawIndices": [
+          0
+        ],
+        "uniformCount": 36,
+        "attributeCount": 12
+      },
+      {
+        "programId": 1,
+        "drawIndices": [
+          1
+        ],
+        "uniformCount": 4,
+        "attributeCount": 2
+      },
+      {
+        "programId": 2,
+        "drawIndices": [
+          2
+        ],
+        "uniformCount": 7,
+        "attributeCount": 2
+      },
+      {
+        "programId": 3,
+        "drawIndices": [
+          3,
+          4
+        ],
+        "uniformCount": 5,
+        "attributeCount": 2
+      },
+      {
+        "programId": 4,
+        "drawIndices": [
+          5,
+          6
+        ],
+        "uniformCount": 5,
+        "attributeCount": 2
+      },
+      {
+        "programId": 5,
+        "drawIndices": [
+          7,
+          8
+        ],
+        "uniformCount": 5,
+        "attributeCount": 2
+      },
+      {
+        "programId": 6,
+        "drawIndices": [
+          9,
+          10
+        ],
+        "uniformCount": 5,
+        "attributeCount": 2
+      },
+      {
+        "programId": 7,
+        "drawIndices": [
+          11,
+          12
+        ],
+        "uniformCount": 5,
+        "attributeCount": 2
+      },
+      {
+        "programId": 8,
+        "drawIndices": [
+          13
+        ],
+        "uniformCount": 11,
+        "attributeCount": 2
+      },
+      {
+        "programId": 9,
+        "drawIndices": [
+          14
+        ],
+        "uniformCount": 4,
+        "attributeCount": 2
+      },
+      {
+        "programId": 10,
+        "drawIndices": [
+          15
+        ],
+        "uniformCount": 9,
+        "attributeCount": 2
+      }
+    ],
+    "selectedUniformCategories": {
+      "flower_leaf_particle_controls": [
+        "uAmountOfSprites",
+        "uDispersalAmountMultiplier",
+        "uDispersalIsFlowerWeight",
+        "uDispersalProgress",
+        "uFlowerBaseScale",
+        "uFlowerBloomDistance",
+        "uLeafGrowDistance",
+        "uLeavesBaseScale",
+        "uMaxDispersedPosX",
+        "uMaxDispersedPosY",
+        "uMousePosition",
+        "uSpriteSheetMix",
+        "uSpriteSheetPool",
+        "uSpriteSheetPool2",
+        "uStartEndIndexLeaves",
+        "uTerrainOffsetX",
+        "uTerrainOffsetY"
+      ],
+      "bloom_pass_controls": [
+        "bloomFactors",
+        "bloomRadius",
+        "bloomStrength",
+        "bloomTintColors",
+        "blurTexture1",
+        "blurTexture2",
+        "blurTexture3",
+        "blurTexture4",
+        "blurTexture5",
+        "luminosityThreshold",
+        "uFlowerBloomDistance",
+        "uNoiseDensityThreshold"
+      ],
+      "time_noise_camera": [
+        "time",
+        "uCamFar",
+        "uCamFov",
+        "uCamFovBase",
+        "uCamNear",
+        "uNoiseAlpha",
+        "uNoiseDensityThreshold",
+        "uTime"
+      ]
+    }
+  },
+  "reconciliation": {
+    "baselineX01X19CanonicalURLPaths": 78,
+    "newOriginalAssetPathsDiscovered": 0,
+    "X21ConfirmedRenderer": [
+      "Next.js 13.4.19",
+      "Three.js 154",
+      "WebGL2"
+    ],
+    "X22NewDirectGPUObservations": [
+      "16 active render draws and 11 distinct program IDs",
+      "12 observed offscreen framebuffer IDs plus default backbuffer",
+      "Primary drawElements POINTS count 960000",
+      "14 TRIANGLES drawArrays with 3 vertices",
+      "Bloom threshold and multi-level blur/composite uniforms actually active",
+      "62/62 active uniform names matched pre-existing X19 original client JS; novelty is active runtime confirmation"
+    ],
+    "notConclusive": [
+      "Exact GPU wall-clock frame duration/FPS, as capture timestamps include instrumentation",
+      "No assertion that 960000 points means 960000 flowers",
+      "No proof all private authored shaders/source or all scene states recovered",
+      "WebKit WebGL renderer label not a unique physical GPU hardware model",
+      "Raw shader sources and pixel previews remain PRIVATE on the laptop"
+    ]
+  },
+  "acceptance": {
+    "checks": {
+      "official_download_22_of_22_match_staged_manifest": true,
+      "verified_spector_0_9_33_manifest": true,
+      "fixture_extension_worker_and_spector_api": true,
+      "fixture_captured_expected_GL_commands": true,
+      "raw_frame_SHA_initial_matches_metadata": true,
+      "raw_frame_SHA_steady_matches_metadata": true,
+      "both_live_frames_PASS": true,
+      "both_live_frames_extension_service_worker_active": true,
+      "both_live_frames_canvas_1280x720": true,
+      "both_live_frames_three_154_next_13_4_19": true,
+      "both_live_frames_RAM_guard": true,
+      "both_live_frames_no_errors": true,
+      "both_live_context_WebGL2": true,
+      "both_full_capture_12_sections": true,
+      "two_full_captures_are_not_truncated": true,
+      "initial_capture_1135_GL_commands": true,
+      "steady_capture_137_GL_commands": true,
+      "both_16_real_draw_calls": true,
+      "initial_resource_creation_11_programs_22_shaders": true,
+      "initial_resource_creation_15_textures_12_fbo": true,
+      "steady_zero_resource_creation": true,
+      "same_16_draw_signatures_initial_vs_steady": true,
+      "eleven_active_programs_both_captures": true,
+      "twelve_distinct_FBO_ids_and_default": true,
+      "primary_points_draw_960000_elements": true,
+      "small_indexed_triangle_draw_6_elements": true,
+      "fourteen_3_vertex_triangle_draws": true,
+      "exactly_62_active_uniform_names": true,
+      "init_capture_all_shader_compiles_succeed": true,
+      "initial_shader_pair_count": true,
+      "rehashed_34_X19_original_JS": true,
+      "GPU_active_62_uniform_names_exist_in_X19_originals": true,
+      "canonical_78_paths_unchanged": true,
+      "no_new_http_assets_claimed_from_GPU": true,
+      "specific_flower_and_Bloom_uniforms_direct_gpu": true
+    },
+    "passed": 35,
+    "total": 35
+  },
+  "privateRawSHA256": {
+    "initial": "63ca4abe89da7ce18df665ca47b7b253b3068f9448de1b0afb8db124a30ef2c4",
+    "steady": "d13f769ba9e5416b8b4ba18d9e176437d9c182e3efc282b8267b26d4cfac7029"
+  },
+  "privacy": "No raw original site code, shader source, translated source, texture pixels or command argument values exported in public report."
+}

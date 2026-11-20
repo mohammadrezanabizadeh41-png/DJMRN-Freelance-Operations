@@ -1,0 +1,820 @@
+{
+  "stage": "X22",
+  "scope": "Fresh 90.01s homepage session with 7 spaced Spector GPU capture checkpoints and CDP first-party body SHA/URL checks",
+  "timestampUtc": "2026-11-20T08:03:46.997628+00:00",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "observation": {
+    "seconds": 90.01,
+    "frames": 7,
+    "minFreeRamMiB": 777,
+    "issues": [],
+    "firstPartyResponseEvents": 47,
+    "paths": 46,
+    "novelPaths": 0,
+    "networkBodyHashes": 38,
+    "knownOriginalBodySHA": 38,
+    "requestInitiatorEdges": 37,
+    "newEdges": 0
+  },
+  "gpu": {
+    "frameStats": [
+      {
+        "label": "initial",
+        "second": 5.04,
+        "commandCount": 137,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "animationCount": 7,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "pointer_left",
+        "second": 18.07,
+        "commandCount": 138,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "pointer_right",
+        "second": 32.09,
+        "commandCount": 138,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "scroll_450",
+        "second": 46.1,
+        "commandCount": 138,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "pointer_center",
+        "second": 60.1,
+        "commandCount": 139,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "scroll_800",
+        "second": 74.09,
+        "commandCount": 138,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      },
+      {
+        "label": "pointer_reverse",
+        "second": 88.04,
+        "commandCount": 139,
+        "drawCount": 16,
+        "programs": 11,
+        "shaderHashes": 22,
+        "activeUniforms": 62,
+        "fboIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "animationCount": 42,
+        "commandHistogram": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        }
+      }
+    ],
+    "distinctProgramUniformPairs": 96,
+    "changedPairs": [
+      {
+        "program": 0,
+        "uniform": "modelViewMatrix",
+        "seenFrames": 7,
+        "uniqueValues": 7
+      },
+      {
+        "program": 0,
+        "uniform": "uContainerPos",
+        "seenFrames": 7,
+        "uniqueValues": 7
+      },
+      {
+        "program": 0,
+        "uniform": "uMousePosition",
+        "seenFrames": 7,
+        "uniqueValues": 7
+      },
+      {
+        "program": 0,
+        "uniform": "uTime",
+        "seenFrames": 7,
+        "uniqueValues": 7
+      },
+      {
+        "program": 1,
+        "uniform": "uShrinkFactor",
+        "seenFrames": 7,
+        "uniqueValues": 5
+      },
+      {
+        "program": 10,
+        "uniform": "time",
+        "seenFrames": 7,
+        "uniqueValues": 7
+      }
+    ],
+    "constantPairsCount": 90,
+    "uniqueActiveUniformNames": 62,
+    "shaderSourceHashCount": 22,
+    "shaderHashSetsIdentical": true,
+    "sameAsPreviousX22SpectorShaders": true,
+    "shaderNoveltyFromOlderX22": 0,
+    "renderTopology": [
+      "2 indexed drawElements including 960000 POINTS",
+      "14 full-screen 3-vertex drawArrays",
+      "11 active programs",
+      "12 framebuffer IDs per frame, alternating IDs in ping-pong setup",
+      "one final default backbuffer"
+    ],
+    "stableProgramIDs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "sampledParameterTrajectories": {
+      "uTime": [
+        {
+          "second": 5.04,
+          "label": "initial",
+          "value": 0.8492000102996826
+        },
+        {
+          "second": 18.07,
+          "label": "pointer_left",
+          "value": 14.003499984741211
+        },
+        {
+          "second": 32.09,
+          "label": "pointer_right",
+          "value": 28.011999130249023
+        },
+        {
+          "second": 46.1,
+          "label": "scroll_450",
+          "value": 42.038299560546875
+        },
+        {
+          "second": 60.1,
+          "label": "pointer_center",
+          "value": 55.96500015258789
+        },
+        {
+          "second": 74.09,
+          "label": "scroll_800",
+          "value": 70.00379943847656
+        },
+        {
+          "second": 88.04,
+          "label": "pointer_reverse",
+          "value": 83.95870208740234
+        }
+      ],
+      "uContainerPos": [
+        {
+          "second": 5.04,
+          "label": "initial",
+          "value": [
+            4.072814044775441e-05,
+            0,
+            -0.0020042932592332363
+          ]
+        },
+        {
+          "second": 18.07,
+          "label": "pointer_left",
+          "value": [
+            1.6527814865112305,
+            0,
+            -18.161531448364258
+          ]
+        },
+        {
+          "second": 32.09,
+          "label": "pointer_right",
+          "value": [
+            2.103147029876709,
+            0,
+            -39.549896240234375
+          ]
+        },
+        {
+          "second": 46.1,
+          "label": "scroll_450",
+          "value": [
+            -1.8180216550827026,
+            0,
+            -61.03759002685547
+          ]
+        },
+        {
+          "second": 60.1,
+          "label": "pointer_center",
+          "value": [
+            0.0019947297405451536,
+            0,
+            -82.5396499633789
+          ]
+        },
+        {
+          "second": 74.09,
+          "label": "scroll_800",
+          "value": [
+            4.315754413604736,
+            0,
+            -103.89743041992188
+          ]
+        },
+        {
+          "second": 88.04,
+          "label": "pointer_reverse",
+          "value": [
+            5.957307815551758,
+            0,
+            -125.50927734375
+          ]
+        }
+      ],
+      "uMousePosition": [
+        {
+          "second": 5.04,
+          "label": "initial",
+          "value": [
+            0,
+            0
+          ]
+        },
+        {
+          "second": 18.07,
+          "label": "pointer_left",
+          "value": [
+            0.7806214690208435,
+            -0.32025495171546936
+          ]
+        },
+        {
+          "second": 32.09,
+          "label": "pointer_right",
+          "value": [
+            -0.7339516282081604,
+            0.25388452410697937
+          ]
+        },
+        {
+          "second": 46.1,
+          "label": "scroll_450",
+          "value": [
+            -0.796875,
+            0.2777777910232544
+          ]
+        },
+        {
+          "second": 60.1,
+          "label": "pointer_center",
+          "value": [
+            -0.08444881439208984,
+            -0.012469928711652756
+          ]
+        },
+        {
+          "second": 74.09,
+          "label": "scroll_800",
+          "value": [
+            -0.046875,
+            -0.02777777798473835
+          ]
+        },
+        {
+          "second": 88.04,
+          "label": "pointer_reverse",
+          "value": [
+            0.7093554735183716,
+            0.446719765663147
+          ]
+        }
+      ],
+      "uDispersalProgress": [
+        {
+          "second": 5.04,
+          "label": "initial",
+          "value": 0
+        },
+        {
+          "second": 18.07,
+          "label": "pointer_left",
+          "value": 0
+        },
+        {
+          "second": 32.09,
+          "label": "pointer_right",
+          "value": 0
+        },
+        {
+          "second": 46.1,
+          "label": "scroll_450",
+          "value": 0
+        },
+        {
+          "second": 60.1,
+          "label": "pointer_center",
+          "value": 0
+        },
+        {
+          "second": 74.09,
+          "label": "scroll_800",
+          "value": 0
+        },
+        {
+          "second": 88.04,
+          "label": "pointer_reverse",
+          "value": 0
+        }
+      ],
+      "bloomStrength": [
+        {
+          "second": 5.04,
+          "label": "initial",
+          "value": 0.5
+        },
+        {
+          "second": 18.07,
+          "label": "pointer_left",
+          "value": 0.5
+        },
+        {
+          "second": 32.09,
+          "label": "pointer_right",
+          "value": 0.5
+        },
+        {
+          "second": 46.1,
+          "label": "scroll_450",
+          "value": 0.5
+        },
+        {
+          "second": 60.1,
+          "label": "pointer_center",
+          "value": 0.5
+        },
+        {
+          "second": 74.09,
+          "label": "scroll_800",
+          "value": 0.5
+        },
+        {
+          "second": 88.04,
+          "label": "pointer_reverse",
+          "value": 0.5
+        }
+      ]
+    },
+    "scopeLimitations": [
+      "uContainerPos is a shader uniform, NOT confirmed actual camera position or an independent 3D object count",
+      "point count 960000 is indices, not unique flowers",
+      "Spector instrumented trace is not a reliable baseline for native GPU frame timing",
+      "7 discrete GPU captures within continuous 90s page lifetime, not continuous per-frame recording"
+    ]
+  },
+  "crossStage": {
+    "canonicalURLPathsX01X19": 78,
+    "firstSeenByStage": {
+      "X01": 46,
+      "X09": 4,
+      "X15": 6,
+      "X14": 7,
+      "X16": 1,
+      "X18": 3,
+      "X03": 2,
+      "X11": 1,
+      "X05": 6,
+      "X19": 2
+    },
+    "reportedByStage": {
+      "X01": 46,
+      "X02": 46,
+      "X03": 29,
+      "X05": 34,
+      "X09": 20,
+      "X10": 46,
+      "X11": 48,
+      "X12": 45,
+      "X13": 46,
+      "X14": 53,
+      "X15": 65,
+      "X16": 32,
+      "X17": 32,
+      "X18": 9,
+      "X19": 2
+    },
+    "previousX20ChecksPassed": 34,
+    "previousX21ChecksPassed": 45,
+    "previousX22ChecksPassed": 35,
+    "originalJSReverified": 34,
+    "all62ActiveUniformNamesInPriorX19JS": true,
+    "X12SceneLabelsAlreadyInEarlierRawJS": 13,
+    "X14FingerprintCount": 13,
+    "X16InitiatorEdgesKnown": 130,
+    "X20PrevObservedPaths": 52,
+    "newFilePaths": 0,
+    "newShaderSourceHashVsPriorX22": 0,
+    "newRuntimeEvidence": [
+      "7-checkpoint 90s temporal uniform trajectories",
+      "6 changed program-uniform pairs",
+      "stable shader/program/draw topology despite mouse and wheel",
+      "GPU uniform uContainerPos.z shifted from approximately zero to -125.509"
+    ],
+    "canonicalAuthorityUnchanged": true,
+    "keySourceFiles": {
+      "x01_x19_78url": "02-reviewed-derived/X19-CURRENT/X01-X19-RESOURCE-URL-SHA256-PROVENANCE.json",
+      "x12_control": "02-reviewed-derived/X12-13-scene-parameter-labels-to-X01-raw-JS-crosswalk-2026-11-19.json",
+      "x14_fingerprint": "02-reviewed-derived/X14-WAPPALYZER-TRUE180-2026-11-19T14-32-05-339Z-technology-timeline.json",
+      "x16_graph": "02-reviewed-derived/X16-CURRENT/X16-script-init-network-graph.json",
+      "x19_originals": "02-reviewed-derived/X19-CURRENT/X19-FULL-INPUT-MANIFEST-PRIVATE.json",
+      "x20_90": "02-reviewed-derived/X20-CURRENT/X20-90S-INDEPENDENT-RECONCILIATION-AND-ACCEPTANCE.json",
+      "x21_stack": "02-reviewed-derived/X21-CURRENT/X21-INDEPENDENT-ACCEPTANCE.json",
+      "x22_prior": "02-reviewed-derived/X22-CURRENT/X22-INDEPENDENT-GPU-FRAME-RECONCILIATION.json"
+    }
+  },
+  "checks": {
+    "total": 87,
+    "passed": 87,
+    "items": {
+      "full_90_seconds_window": true,
+      "seven_scheduled_frames": true,
+      "first_and_last_checkpoints_cover_83s": true,
+      "zero_observation_errors": true,
+      "memory_min_above_100_mib": true,
+      "spector_installed_executable_already": true,
+      "canonical_78_path_authority": true,
+      "all_46_observed_urls_previously_known": true,
+      "38_hashed_response_bodies": true,
+      "all_38_sha_match_prior_original_body": true,
+      "37_edges_all_preobserved_X16": true,
+      "x20_completed_prior_34_gates": true,
+      "x21_completed_prior_45_gates": true,
+      "previous_x22_35_gates": true,
+      "x14_13_tech_fingerprints": true,
+      "x12_13_scene_labels": true,
+      "all_34_X19_original_js_sha_again": true,
+      "raw_initial_sha": true,
+      "frame_initial_16_draws_11_programs": true,
+      "frame_initial_22_shader_signatures": true,
+      "frame_initial_62_uniform_names": true,
+      "frame_initial_WebGL2_next_three": true,
+      "frame_initial_one_canvas": true,
+      "frame_initial_valid_timing": true,
+      "raw_pointer_left_sha": true,
+      "frame_pointer_left_16_draws_11_programs": true,
+      "frame_pointer_left_22_shader_signatures": true,
+      "frame_pointer_left_62_uniform_names": true,
+      "frame_pointer_left_WebGL2_next_three": true,
+      "frame_pointer_left_one_canvas": true,
+      "frame_pointer_left_valid_timing": true,
+      "raw_pointer_right_sha": true,
+      "frame_pointer_right_16_draws_11_programs": true,
+      "frame_pointer_right_22_shader_signatures": true,
+      "frame_pointer_right_62_uniform_names": true,
+      "frame_pointer_right_WebGL2_next_three": true,
+      "frame_pointer_right_one_canvas": true,
+      "frame_pointer_right_valid_timing": true,
+      "raw_scroll_450_sha": true,
+      "frame_scroll_450_16_draws_11_programs": true,
+      "frame_scroll_450_22_shader_signatures": true,
+      "frame_scroll_450_62_uniform_names": true,
+      "frame_scroll_450_WebGL2_next_three": true,
+      "frame_scroll_450_one_canvas": true,
+      "frame_scroll_450_valid_timing": true,
+      "raw_pointer_center_sha": true,
+      "frame_pointer_center_16_draws_11_programs": true,
+      "frame_pointer_center_22_shader_signatures": true,
+      "frame_pointer_center_62_uniform_names": true,
+      "frame_pointer_center_WebGL2_next_three": true,
+      "frame_pointer_center_one_canvas": true,
+      "frame_pointer_center_valid_timing": true,
+      "raw_scroll_800_sha": true,
+      "frame_scroll_800_16_draws_11_programs": true,
+      "frame_scroll_800_22_shader_signatures": true,
+      "frame_scroll_800_62_uniform_names": true,
+      "frame_scroll_800_WebGL2_next_three": true,
+      "frame_scroll_800_one_canvas": true,
+      "frame_scroll_800_valid_timing": true,
+      "raw_pointer_reverse_sha": true,
+      "frame_pointer_reverse_16_draws_11_programs": true,
+      "frame_pointer_reverse_22_shader_signatures": true,
+      "frame_pointer_reverse_62_uniform_names": true,
+      "frame_pointer_reverse_WebGL2_next_three": true,
+      "frame_pointer_reverse_one_canvas": true,
+      "frame_pointer_reverse_valid_timing": true,
+      "all_seven_draw_signatures_same_without_FBO_pingpong": true,
+      "all_seven_shader_sources_same_SHA": true,
+      "all_seven_program_ids_same": true,
+      "all_seven_62_uniform_names_identical": true,
+      "all_seven_16_draw_calls": true,
+      "all_seven_no_shader_compilation_after_initial": true,
+      "all_seven_no_program_creation_after_initial": true,
+      "old_previous_x22_shader_hashes_same": true,
+      "all_62_active_uniforms_in_34_preexisting_js": true,
+      "primary_point_draw_960000_indexed": true,
+      "fourteen_tris_drawarrays": true,
+      "known_7_uniform_names_current": true,
+      "96_program_uniform_pairs": true,
+      "six_changing_program_uniform_pairs": true,
+      "90_constant_program_uniform_pairs": true,
+      "utime_increases_between_7_frames": true,
+      "container_z_monotonically_decreasing": true,
+      "mouse_position_varies": true,
+      "dispersal_progress_zero_all_samples": true,
+      "bloom_strength_constant_half": true,
+      "stable_bloom_gpubinaries": true
+    }
+  },
+  "privacy": "Reports include SHA, benign GPU metadata and numeric uniform values; raw vendor shaders/textures remain local private."
+}

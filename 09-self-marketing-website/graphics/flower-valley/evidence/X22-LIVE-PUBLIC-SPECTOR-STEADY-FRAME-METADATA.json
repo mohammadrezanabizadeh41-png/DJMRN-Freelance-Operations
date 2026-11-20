@@ -1,0 +1,163 @@
+{
+  "stage": "X22",
+  "scope": "One second warmed public home WebGL frame, after 11s, no auth",
+  "tool": "Spector.js 0.9.33 MV3 + standalone API",
+  "startedUtc": "2026-11-20T07:52:35.267Z",
+  "elapsedSeconds": 17,
+  "isolatedExtensionServiceWorker": true,
+  "canvas": {
+    "canvas": true,
+    "width": 1280,
+    "height": 720,
+    "ready": true,
+    "jsThreeInternal": "154",
+    "nextVersion": "13.4.19"
+  },
+  "capture": {
+    "status": "CAPTURED",
+    "totalCommands": 137,
+    "drawCallCount": 16,
+    "commandCounts": {
+      "bindFramebuffer": 15,
+      "scissor": 9,
+      "clear": 14,
+      "useProgram": 11,
+      "uniform3f": 1,
+      "uniform1f": 2,
+      "bindTexture": 18,
+      "activeTexture": 4,
+      "uniformMatrix4fv": 1,
+      "enable": 4,
+      "blendFuncSeparate": 1,
+      "disable": 4,
+      "bindVertexArray": 11,
+      "drawElements": 2,
+      "depthMask": 4,
+      "clearColor": 2,
+      "viewport": 7,
+      "drawArrays": 14,
+      "uniform2f": 10,
+      "uniform1fv": 1,
+      "uniform3fv": 1,
+      "blendFunc": 1
+    },
+    "renderRelevantCommands": {
+      "bindFramebuffer": 15,
+      "scissor": 9,
+      "useProgram": 11,
+      "uniform3f": 1,
+      "uniform1f": 2,
+      "bindTexture": 18,
+      "activeTexture": 4,
+      "uniformMatrix4fv": 1,
+      "enable": 4,
+      "blendFuncSeparate": 1,
+      "disable": 4,
+      "drawElements": 2,
+      "depthMask": 4,
+      "viewport": 7,
+      "drawArrays": 14,
+      "uniform2f": 10,
+      "uniform1fv": 1,
+      "uniform3fv": 1,
+      "blendFunc": 1
+    },
+    "sectionKeys": {
+      "canvas": [
+        "width",
+        "height",
+        "clientWidth",
+        "clientHeight",
+        "browserAgent"
+      ],
+      "context": [
+        "version",
+        "contextAttributes",
+        "capabilities",
+        "extensions",
+        "compressedTextures"
+      ],
+      "initState": [
+        "AlignmentState",
+        "BlendState",
+        "ClearState",
+        "ColorState",
+        "CoverageState",
+        "CullState",
+        "DepthState",
+        "DrawState",
+        "MipmapHintState",
+        "PolygonOffsetState",
+        "ScissorState",
+        "StencilState",
+        "VisualState"
+      ],
+      "endState": [
+        "AlignmentState",
+        "BlendState",
+        "ClearState",
+        "ColorState",
+        "CoverageState",
+        "CullState",
+        "DepthState",
+        "DrawState",
+        "MipmapHintState",
+        "PolygonOffsetState",
+        "ScissorState",
+        "StencilState",
+        "VisualState"
+      ],
+      "analyses": [
+        "0",
+        "1",
+        "2"
+      ],
+      "frameMemory": [
+        "Buffer",
+        "Renderbuffer",
+        "Texture2d",
+        "Texture3d",
+        "Program"
+      ],
+      "memory": [
+        "Buffer",
+        "Renderbuffer",
+        "Texture2d",
+        "Texture3d",
+        "Program"
+      ]
+    },
+    "hasInitialState": true,
+    "hasEndState": true,
+    "observedCanvas": {
+      "width": 1280,
+      "height": 720
+    },
+    "actualStartTimePresent": true,
+    "actualEndTimePresent": true,
+    "topLevelKeys": [
+      "canvas",
+      "context",
+      "commands",
+      "initState",
+      "endState",
+      "startTime",
+      "listenCommandsStartTime",
+      "listenCommandsEndTime",
+      "endTime",
+      "analyses",
+      "frameMemory",
+      "memory"
+    ],
+    "truncatedPossible": false,
+    "numberOfProgramCandidates": null
+  },
+  "issues": [],
+  "minimumFreeRamMiB": 761,
+  "browserClosed": true,
+  "privacy": "Raw capture retains privately on laptop only; no shader contents, textures, screenshots, cookies, headers or authenticated data copied to public report",
+  "captureRequestedUtc": "2026-11-20T07:52:51.140Z",
+  "rawPrivateSHA256": "d13f769ba9e5416b8b4ba18d9e176437d9c182e3efc282b8267b26d4cfac7029",
+  "rawPrivateBytes": 330801,
+  "result": "X22_LIVE_FRAME_PASS"
+}
