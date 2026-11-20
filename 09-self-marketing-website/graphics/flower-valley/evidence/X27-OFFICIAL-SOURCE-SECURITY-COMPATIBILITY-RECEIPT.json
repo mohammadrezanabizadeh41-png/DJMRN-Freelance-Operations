@@ -1,0 +1,32 @@
+{
+    "stage":  "X27",
+    "officialRepo":  "https://github.com/spite/ShaderEditorExtension",
+    "immutableOfficialCommit":  "564f6c1922b1dcf98813e6940d1e91995495e6dc",
+    "version":  "1.0.17",
+    "license":  "MIT",
+    "licenseVerified":  true,
+    "sourceZIPFile":  "C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\Sources\\ShaderEditorExtension\\ShaderEditorExtension-564f6c1922b1dcf98813e6940d1e91995495e6dc.zip",
+    "sourceZIPBytes":  5315076,
+    "sourceZIPSHA256":  "a31afb158856c00d0837a75cf91055d50d9327779366e86a7bfcf4e758194d74",
+    "sourceExtractedFileCount":  43,
+    "installedOfficialSourcePath":  "C:\\Users\\Mrn7206\\AppData\\Local\\DJMRN-Website-Toolkit\\04-Specialists\\Sources\\ShaderEditorExtension\\source-564f6c1922b1",
+    "previousUnpinnedLegacyAlreadyInstalled":  true,
+    "manifestVersion":  2,
+    "manifestPermissions":  [
+                                "http://*/*",
+                                "https://*/*",
+                                "webNavigation",
+                                "storage"
+                            ],
+    "manifestMatches":  [
+                            "\u003call_urls\u003e"
+                        ],
+    "manifestAllFrames":  true,
+    "personalBrowserExtensionInstalledOrActivated":  false,
+    "legacyMV2CompatibleWithChrome157":  false,
+    "manifestV2PolicyBypassAttempted":  false,
+    "modernAlternative":  "Existing Puppeteer Chrome For Testing 157; directly compile/link owned GLSL; no extra provider/paid credit",
+    "security":  "No broad legacy MV2 permission grant; no browser downgrade; only isolated user-profile test with extensions disabled",
+    "reference":  "https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline",
+    "dateUTC":  "2026-11-20T14:07:21.5815993Z"
+}
