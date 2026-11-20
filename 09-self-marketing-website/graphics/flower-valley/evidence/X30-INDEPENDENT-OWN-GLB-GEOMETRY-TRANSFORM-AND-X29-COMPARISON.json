@@ -1,0 +1,210 @@
+{
+  "stage": "X30",
+  "scope": "OWN_LAB_FIXTURE_ONLY",
+  "tool": "binbuf/webgl-model-extractor v0.7.0",
+  "realGLB": {
+    "file": "X30-OWN-binbuf-WebGLModelExtractor-0.7.0-EXACT-REAL-OUTPUT.glb",
+    "bytes": 2192,
+    "sha256": "8011f38f77a9f0eaec9c20f3facd1b6ce7cb7821612df64a6c8c21cd19ed4fcc",
+    "validGLB2": true
+  },
+  "geometry": [
+    {
+      "mesh": 0,
+      "meshName": "mesh_0",
+      "mode": 4,
+      "positionCount": 4,
+      "normalCount": 0,
+      "uvCount": 4,
+      "indexCount": 6,
+      "triangleCount": 2,
+      "pointCount": 0,
+      "boundingBox": [
+        [
+          -0.96,
+          -0.55,
+          0.0
+        ],
+        [
+          -0.46,
+          0.5,
+          0.0
+        ]
+      ],
+      "positionSample": [
+        [
+          -0.96,
+          -0.55,
+          0.0
+        ],
+        [
+          -0.46,
+          -0.55,
+          0.0
+        ],
+        [
+          -0.46,
+          0.5,
+          0.0
+        ],
+        [
+          -0.96,
+          0.5,
+          0.0
+        ]
+      ],
+      "UVSample": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "materialIndex": 0,
+      "finitePosition": true
+    },
+    {
+      "mesh": 1,
+      "meshName": "mesh_1",
+      "mode": 4,
+      "positionCount": 3,
+      "normalCount": 0,
+      "uvCount": 3,
+      "indexCount": 3,
+      "triangleCount": 1,
+      "pointCount": 0,
+      "boundingBox": [
+        [
+          0.45,
+          -0.3,
+          0.0
+        ],
+        [
+          0.64,
+          -0.02,
+          0.0
+        ]
+      ],
+      "positionSample": [
+        [
+          0.45,
+          -0.3,
+          0.0
+        ],
+        [
+          0.64,
+          -0.3,
+          0.0
+        ],
+        [
+          0.54,
+          -0.02,
+          0.0
+        ]
+      ],
+      "UVSample": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.5,
+          1.0
+        ]
+      ],
+      "materialIndex": 0,
+      "finitePosition": true
+    }
+  ],
+  "nodes": [
+    {
+      "index": 0,
+      "mesh": 0,
+      "name": "object_0",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null,
+      "childrenCount": 0
+    },
+    {
+      "index": 1,
+      "mesh": 1,
+      "name": "object_1",
+      "translation": null,
+      "rotation": null,
+      "scale": null,
+      "matrix": null,
+      "childrenCount": 0
+    }
+  ],
+  "meshNodeReferenceCounts": {
+    "0": 1,
+    "1": 1
+  },
+  "structure": {
+    "meshes": 2,
+    "nodes": 2,
+    "sceneCount": 1,
+    "materialCount": 1,
+    "textureCount": 1,
+    "imageCount": 1,
+    "modes": {
+      "4": 2
+    },
+    "extensionsUsed": []
+  },
+  "ownerGroundTruth": {
+    "quadUniqueVertices": 4,
+    "quadSubmittedIndices": 6,
+    "quadTriangles": 2,
+    "quadUVPairs": 4,
+    "glPoints": 5,
+    "instancedBaseVertices": 3,
+    "instancedBaseTriangles": 1,
+    "instancedDrawInstanceCount": 3,
+    "instancedLogicalTriangles": 3,
+    "textureDimensions": [
+      2,
+      2
+    ]
+  },
+  "comparisonToX29": {
+    "X29TrianglesModes": [
+      [
+        4,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "X29PointPrimitives": 0,
+    "X29NodeCount": 2,
+    "X29TextureCount": 1,
+    "X30PointPrimitiveCount": 0,
+    "X30InstanceBaseTriangleCopies": 1
+  },
+  "limitations": [
+    "Draw capture is synthetic OWN original only; site geometry never exported",
+    "A single glTF mesh referenced by multiple nodes preserves instancing as hierarchy; not duplicate vertex buffer",
+    "A missing source 2x2 texture or UV is reported, not excused",
+    "X29 and X30 draws may differ in capture time. Full site source is not part of comparison"
+  ]
+}
