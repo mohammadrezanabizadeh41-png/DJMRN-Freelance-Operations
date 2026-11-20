@@ -1,0 +1,32 @@
+{
+  "stage": "X23",
+  "officialRelease": "https://github.com/velvetfrustum/ispettore/releases/tag/v0.1.1",
+  "officialRepository": "https://github.com/velvetfrustum/ispettore",
+  "license": "Apache-2.0",
+  "sourceArchiveLocalSHA256": "ca49c6a4f24a3872ef2a24f792f2598374a17591124ece702c56017d9b8973df",
+  "sourceArchiveFilesVerified": 168,
+  "sourceArchiveFilesTotal": 168,
+  "manifestActualVersion": "0.1.0",
+  "releaseTagVersion": "v0.1.1",
+  "mv3": 3,
+  "requestedPermissions": [
+    "activeTab",
+    "downloads",
+    "scripting",
+    "sidePanel",
+    "storage"
+  ],
+  "requestedHostPermissions": [
+    "http://*/*",
+    "https://*/*",
+    "file:///*"
+  ],
+  "implementation": "isolated Chrome for Testing 157 user-data-dir; existing dist loaded with --load-extension, never the user's personal Chrome",
+  "nativeUnitTests": "245/245 PASS (npm run test:unit; no npm install)",
+  "fixture": "OWN 7 GL cmds + 1 draw + genuine Ispettore frame; source test private raw",
+  "gpuCapture": "Seven real fresh public homepage WebGL2 frames / 90.01s, no paid API",
+  "minFreeRamMiB": 719,
+  "emergencyMemoryStopMiB": 100,
+  "sourceInstallerAdditionalActions": "NONE required; existing 168/168 official source files, dist bundle and node_modules present",
+  "missingRuntimeGPU_Timer": "UNKNOWN/UNAVAILABLE in sample, not a hardware FPS benchmark"
+}

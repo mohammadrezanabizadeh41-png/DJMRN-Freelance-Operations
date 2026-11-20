@@ -1,0 +1,161 @@
+{
+  "dateUtc": "2026-11-20",
+  "scope": "GitHub artifact presence and stage-row coverage X01–X23 plus newly independently verified X23 capture; historic private corpus not fully re-validated",
+  "repository": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "defaultBranch": "main",
+  "previousMainCommit": "cbb78c7eca7af50c6b0dc40d672ed26e49429a86",
+  "canonicalOriginalSiteSourceIndex": "09-self-marketing-website/graphics/flower-valley/evidence/X01-X19-RESOURCE-URL-SHA256-PROVENANCE.json",
+  "originalResourceLedgerGitBlobSHA1": "2764733dff2b0d6e40ad176f66a25a418ec2d663",
+  "originalUrlPathCount": 78,
+  "stageFiles": [
+    {
+      "stage": "X01",
+      "files": 12,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X02",
+      "files": 3,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X03",
+      "files": 1,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X04",
+      "files": 2,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X05",
+      "files": 1,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X06",
+      "files": 1,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X07",
+      "files": 3,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X08",
+      "files": 2,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X09",
+      "files": 1,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X10",
+      "files": 2,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X11",
+      "files": 10,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X12",
+      "files": 10,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X13",
+      "files": 5,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X14",
+      "files": 5,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X15",
+      "files": 8,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X16",
+      "files": 8,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X17",
+      "files": 7,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X18",
+      "files": 15,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X19",
+      "files": 34,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X20",
+      "files": 8,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X21",
+      "files": 8,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X22",
+      "files": 16,
+      "runbookRowPresent": true
+    },
+    {
+      "stage": "X23",
+      "files": 10,
+      "runbookRowPresent": true
+    }
+  ],
+  "results": {
+    "oldX01ToX22StagesWithGitHubFiles": 22,
+    "stageX23OwnerAuthoredArtifactCount": 10,
+    "previousX21Acceptance": "45/45",
+    "previousX22Acceptance": "87/87",
+    "X23OfficialRelease": "v0.1.1",
+    "X23PackagedManifestVersion": "0.1.0",
+    "X23SourceFilesSHAIdentical": "168/168",
+    "X23NativeUnitTests": "245/245",
+    "X23OwnSyntheticWebGLAcceptance": "7 actual GPU commands / frame",
+    "X23FullLiveObservationSeconds": 90.01,
+    "X23SampledGPUFrames": 7,
+    "X23IndependentCrossStageAcceptance": "114/114",
+    "X23VersusX22ExactShaders": "22/22 SHA256",
+    "X23VersusX22DrawSignatureFrames": "7/7",
+    "X23LivePublicURLPaths": 46,
+    "X23NewSiteURLPaths": 0,
+    "X23LiveResponseBodyOriginalSHARepetitions": "38/38",
+    "X23LiveInitiatorEdgesAlreadyInX16": "37/37",
+    "X23ThirdPartyRawGPUAndShaderPayloadPublished": false
+  },
+  "evidenceClassification": {
+    "NEW_DERIVED": "Observer annotations of Three.js Points, Mesh, ShaderMaterial, EffectComposer, UnrealBloomPass.bright/h0-v4/Bloom combine and event/preview metadata.",
+    "CONFIRMED_COMPLEMENT": "Independent 16 WebGL draws and 11 program records on all 7 frames, exact 22 source SHA values matched Spector.js X22.",
+    "REPEATED": "All 46 first-party paths already known; 38/38 response body SHA+size and 37/37 network initiator edges matched the earlier canonical evidence.",
+    "UNVERIFIED": "Private authoring project, underlying GPU hardware benchmark (timer unavailable), 100% interaction/route coverage."
+  },
+  "privacyPolicy": "Owner code + sanitized metadata published, raw proprietary GPU captures/GLSL/texture outputs retained privately on PC.",
+  "limits": [
+    "File presence is not proof that every historical stage completed its non-core branches.",
+    "90s live browser lifetime consisted of 7 separately captured GPU frames, not per-frame 90s GPU trace.",
+    "Three.js r154 adapter semantic labels are observer best-effort; upstream regression target r184.",
+    "No additional original website HTTP file was downloaded or added to the X19 canonical resource index."
+  ]
+}

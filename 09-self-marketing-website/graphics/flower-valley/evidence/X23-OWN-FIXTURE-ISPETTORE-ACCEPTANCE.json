@@ -1,0 +1,394 @@
+{
+  "stage": "X23",
+  "mode": "OWNER_OWN_LOOPBACK_TEST",
+  "startedUtc": "2026-11-20T08:43:01.423Z",
+  "issues": [],
+  "ramMinMiB": 1668,
+  "manifest": {
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "downloads",
+      "scripting",
+      "sidePanel",
+      "storage"
+    ],
+    "hostPermissions": [
+      "http://*/*",
+      "https://*/*",
+      "file:///*"
+    ]
+  },
+  "serviceWorkerTargets": [
+    "chrome-extension://hogeihmabncoeemmodjllffnkpahlbdi/background.js"
+  ],
+  "pre": {
+    "installed": true,
+    "keys": [
+      "getSnapshot",
+      "getWebGlJournalSummary",
+      "getWebGpuJournalSummary",
+      "getWebGpuJournalPackage",
+      "setWebGlJournalBudget",
+      "getWebGlJournalPackage",
+      "armWebGlCapture",
+      "storeWebGlFrame",
+      "armWebGpuCapture",
+      "storeWebGpuFrame",
+      "storeWebGlPackage",
+      "registerComposer",
+      "registerRenderPipeline"
+    ],
+    "canvas": true,
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "ready": true,
+    "summary": [
+      {
+        "contextId": "ctx-1",
+        "contextInfo": {
+          "version": 2,
+          "attributes": {
+            "alpha": true,
+            "antialias": false,
+            "depth": true,
+            "desynchronized": false,
+            "failIfMajorPerformanceCaveat": false,
+            "powerPreference": "default",
+            "premultipliedAlpha": true,
+            "preserveDrawingBuffer": true,
+            "stencil": false,
+            "xrCompatible": false
+          },
+          "drawingBufferWidth": 640,
+          "drawingBufferHeight": 360,
+          "canvasWidth": 640,
+          "canvasHeight": 360,
+          "limits": {
+            "ALIASED_LINE_WIDTH_RANGE": [
+              1,
+              1
+            ],
+            "ALIASED_POINT_SIZE_RANGE": [
+              1,
+              1024
+            ],
+            "MAX_3D_TEXTURE_SIZE": 2048,
+            "MAX_ARRAY_TEXTURE_LAYERS": 2048,
+            "MAX_CLIENT_WAIT_TIMEOUT_WEBGL": 0,
+            "MAX_COLOR_ATTACHMENTS": 8,
+            "MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS": 200704,
+            "MAX_COMBINED_TEXTURE_IMAGE_UNITS": 32,
+            "MAX_COMBINED_UNIFORM_BLOCKS": 24,
+            "MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS": 212992,
+            "MAX_CUBE_MAP_TEXTURE_SIZE": 16384,
+            "MAX_DRAW_BUFFERS": 8,
+            "MAX_ELEMENT_INDEX": 4294967294,
+            "MAX_ELEMENTS_INDICES": 2147483647,
+            "MAX_ELEMENTS_VERTICES": 2147483647,
+            "MAX_FRAGMENT_INPUT_COMPONENTS": 120,
+            "MAX_FRAGMENT_UNIFORM_BLOCKS": 12,
+            "MAX_FRAGMENT_UNIFORM_COMPONENTS": 4096,
+            "MAX_FRAGMENT_UNIFORM_VECTORS": 1024,
+            "MAX_PROGRAM_TEXEL_OFFSET": 7,
+            "MAX_RENDERBUFFER_SIZE": 16384,
+            "MAX_SAMPLES": 8,
+            "MAX_SERVER_WAIT_TIMEOUT": 0,
+            "MAX_TEXTURE_IMAGE_UNITS": 16,
+            "MAX_TEXTURE_LOD_BIAS": 2,
+            "MAX_TEXTURE_SIZE": 16384,
+            "MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS": 120,
+            "MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS": 4,
+            "MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS": 4,
+            "MAX_UNIFORM_BLOCK_SIZE": 65536,
+            "MAX_UNIFORM_BUFFER_BINDINGS": 24,
+            "MAX_VARYING_COMPONENTS": 120,
+            "MAX_VIEWPORT_DIMS": [
+              32767,
+              32767
+            ],
+            "MAX_VERTEX_ATTRIBS": 16,
+            "MAX_VERTEX_OUTPUT_COMPONENTS": 120,
+            "MAX_VERTEX_TEXTURE_IMAGE_UNITS": 16,
+            "MAX_VERTEX_UNIFORM_BLOCKS": 12,
+            "MAX_VERTEX_UNIFORM_COMPONENTS": 16384,
+            "MAX_VERTEX_UNIFORM_VECTORS": 4096,
+            "MAX_VARYING_VECTORS": 30,
+            "MIN_PROGRAM_TEXEL_OFFSET": -8,
+            "UNIFORM_BUFFER_OFFSET_ALIGNMENT": 256
+          },
+          "supportedExtensions": [
+            "EXT_clip_control",
+            "EXT_color_buffer_float",
+            "EXT_color_buffer_half_float",
+            "EXT_conservative_depth",
+            "EXT_depth_clamp",
+            "EXT_disjoint_timer_query_webgl2",
+            "EXT_float_blend",
+            "EXT_polygon_offset_clamp",
+            "EXT_render_snorm",
+            "EXT_texture_compression_bptc",
+            "EXT_texture_compression_rgtc",
+            "EXT_texture_filter_anisotropic",
+            "EXT_texture_mirror_clamp_to_edge",
+            "EXT_texture_norm16",
+            "KHR_parallel_shader_compile",
+            "NV_shader_noperspective_interpolation",
+            "OES_draw_buffers_indexed",
+            "OES_sample_variables",
+            "OES_shader_multisample_interpolation",
+            "OES_texture_float_linear",
+            "OVR_multiview2",
+            "WEBGL_blend_func_extended",
+            "WEBGL_clip_cull_distance",
+            "WEBGL_compressed_texture_s3tc",
+            "WEBGL_compressed_texture_s3tc_srgb",
+            "WEBGL_debug_renderer_info",
+            "WEBGL_debug_shaders",
+            "WEBGL_lose_context",
+            "WEBGL_multi_draw",
+            "WEBGL_polygon_mode",
+            "WEBGL_provoking_vertex",
+            "WEBGL_stencil_texturing"
+          ],
+          "resizeTracking": {
+            "complete": true,
+            "trackedProperties": [
+              "width",
+              "height"
+            ]
+          }
+        },
+        "commandCount": 0,
+        "capturedBytes": 0,
+        "overflow": null,
+        "frames": [],
+        "wrappedMethodCount": 225,
+        "valid": true,
+        "failureCount": 0,
+        "resizes": [],
+        "methods": {},
+        "failedMethods": {},
+        "signatures": {},
+        "failureReasons": {}
+      }
+    ],
+    "snapshotKeys": [
+      "capturedAt",
+      "gpuApi",
+      "three",
+      "renderers",
+      "scene",
+      "sceneObjectCount",
+      "camera",
+      "textures",
+      "programs",
+      "models",
+      "webGlCaptureContexts",
+      "webgpuContextCount",
+      "buildId",
+      "ping"
+    ]
+  },
+  "arm": {
+    "applied": 1
+  },
+  "postSummary": [
+    {
+      "contextId": "ctx-1",
+      "contextInfo": {
+        "version": 2,
+        "attributes": {
+          "alpha": true,
+          "antialias": false,
+          "depth": true,
+          "desynchronized": false,
+          "failIfMajorPerformanceCaveat": false,
+          "powerPreference": "default",
+          "premultipliedAlpha": true,
+          "preserveDrawingBuffer": true,
+          "stencil": false,
+          "xrCompatible": false
+        },
+        "drawingBufferWidth": 640,
+        "drawingBufferHeight": 360,
+        "canvasWidth": 640,
+        "canvasHeight": 360,
+        "limits": {
+          "ALIASED_LINE_WIDTH_RANGE": [
+            1,
+            1
+          ],
+          "ALIASED_POINT_SIZE_RANGE": [
+            1,
+            1024
+          ],
+          "MAX_3D_TEXTURE_SIZE": 2048,
+          "MAX_ARRAY_TEXTURE_LAYERS": 2048,
+          "MAX_CLIENT_WAIT_TIMEOUT_WEBGL": 0,
+          "MAX_COLOR_ATTACHMENTS": 8,
+          "MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS": 200704,
+          "MAX_COMBINED_TEXTURE_IMAGE_UNITS": 32,
+          "MAX_COMBINED_UNIFORM_BLOCKS": 24,
+          "MAX_COMBINED_VERTEX_UNIFORM_COMPONENTS": 212992,
+          "MAX_CUBE_MAP_TEXTURE_SIZE": 16384,
+          "MAX_DRAW_BUFFERS": 8,
+          "MAX_ELEMENT_INDEX": 4294967294,
+          "MAX_ELEMENTS_INDICES": 2147483647,
+          "MAX_ELEMENTS_VERTICES": 2147483647,
+          "MAX_FRAGMENT_INPUT_COMPONENTS": 120,
+          "MAX_FRAGMENT_UNIFORM_BLOCKS": 12,
+          "MAX_FRAGMENT_UNIFORM_COMPONENTS": 4096,
+          "MAX_FRAGMENT_UNIFORM_VECTORS": 1024,
+          "MAX_PROGRAM_TEXEL_OFFSET": 7,
+          "MAX_RENDERBUFFER_SIZE": 16384,
+          "MAX_SAMPLES": 8,
+          "MAX_SERVER_WAIT_TIMEOUT": 0,
+          "MAX_TEXTURE_IMAGE_UNITS": 16,
+          "MAX_TEXTURE_LOD_BIAS": 2,
+          "MAX_TEXTURE_SIZE": 16384,
+          "MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS": 120,
+          "MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS": 4,
+          "MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS": 4,
+          "MAX_UNIFORM_BLOCK_SIZE": 65536,
+          "MAX_UNIFORM_BUFFER_BINDINGS": 24,
+          "MAX_VARYING_COMPONENTS": 120,
+          "MAX_VIEWPORT_DIMS": [
+            32767,
+            32767
+          ],
+          "MAX_VERTEX_ATTRIBS": 16,
+          "MAX_VERTEX_OUTPUT_COMPONENTS": 120,
+          "MAX_VERTEX_TEXTURE_IMAGE_UNITS": 16,
+          "MAX_VERTEX_UNIFORM_BLOCKS": 12,
+          "MAX_VERTEX_UNIFORM_COMPONENTS": 16384,
+          "MAX_VERTEX_UNIFORM_VECTORS": 4096,
+          "MAX_VARYING_VECTORS": 30,
+          "MIN_PROGRAM_TEXEL_OFFSET": -8,
+          "UNIFORM_BUFFER_OFFSET_ALIGNMENT": 256
+        },
+        "supportedExtensions": [
+          "EXT_clip_control",
+          "EXT_color_buffer_float",
+          "EXT_color_buffer_half_float",
+          "EXT_conservative_depth",
+          "EXT_depth_clamp",
+          "EXT_disjoint_timer_query_webgl2",
+          "EXT_float_blend",
+          "EXT_polygon_offset_clamp",
+          "EXT_render_snorm",
+          "EXT_texture_compression_bptc",
+          "EXT_texture_compression_rgtc",
+          "EXT_texture_filter_anisotropic",
+          "EXT_texture_mirror_clamp_to_edge",
+          "EXT_texture_norm16",
+          "KHR_parallel_shader_compile",
+          "NV_shader_noperspective_interpolation",
+          "OES_draw_buffers_indexed",
+          "OES_sample_variables",
+          "OES_shader_multisample_interpolation",
+          "OES_texture_float_linear",
+          "OVR_multiview2",
+          "WEBGL_blend_func_extended",
+          "WEBGL_clip_cull_distance",
+          "WEBGL_compressed_texture_s3tc",
+          "WEBGL_compressed_texture_s3tc_srgb",
+          "WEBGL_debug_renderer_info",
+          "WEBGL_debug_shaders",
+          "WEBGL_lose_context",
+          "WEBGL_multi_draw",
+          "WEBGL_polygon_mode",
+          "WEBGL_provoking_vertex",
+          "WEBGL_stencil_texturing"
+        ],
+        "resizeTracking": {
+          "complete": true,
+          "trackedProperties": [
+            "width",
+            "height"
+          ]
+        }
+      },
+      "commandCount": 7,
+      "capturedBytes": 400,
+      "overflow": null,
+      "frames": [
+        {
+          "frameId": "frame:1:64",
+          "label": "animation callback",
+          "kind": "animation-frame",
+          "startCommandIndex": 0,
+          "endCommandIndex": 7,
+          "commandCount": 7
+        }
+      ],
+      "wrappedMethodCount": 225,
+      "valid": true,
+      "failureCount": 0,
+      "resizes": [],
+      "methods": {
+        "viewport": 1,
+        "clearColor": 1,
+        "clear": 1,
+        "useProgram": 1,
+        "uniform1f": 1,
+        "bindVertexArray": 1,
+        "drawArrays": 1
+      },
+      "failedMethods": {},
+      "signatures": {
+        "viewport": [
+          "number,number,number,number"
+        ],
+        "clearColor": [
+          "number,number,number,number"
+        ],
+        "clear": [
+          "number"
+        ],
+        "useProgram": [
+          "resource"
+        ],
+        "uniform1f": [
+          "resource,number"
+        ],
+        "bindVertexArray": [
+          "resource"
+        ],
+        "drawArrays": [
+          "number,number,number"
+        ]
+      },
+      "failureReasons": {}
+    }
+  ],
+  "rawSha256": "aae6974fbddb85b3374ea2cd66ec53bd3cf1a739b3a3ad710dcb35ea0f63eafa",
+  "rawBytes": 22714,
+  "packageKeys": [
+    "schema",
+    "version",
+    "context",
+    "commands",
+    "blobs",
+    "frames",
+    "events",
+    "programs",
+    "checkpoint",
+    "inspectionStatus"
+  ],
+  "packageTypes": {
+    "schema": "string",
+    "version": "number",
+    "context": "object",
+    "commands": "array:7",
+    "blobs": "array:0",
+    "frames": "array:1",
+    "events": "array:2",
+    "programs": "object",
+    "checkpoint": "object",
+    "inspectionStatus": "object"
+  },
+  "commands": 7,
+  "status": "PASS_OWNER_FIXTURE",
+  "endedUtc": "2026-11-20T08:43:05.915Z"
+}

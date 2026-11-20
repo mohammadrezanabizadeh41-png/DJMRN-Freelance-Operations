@@ -1,0 +1,125 @@
+{
+  "stage": "X23",
+  "schemaVersion": 1,
+  "createdUTC": "2026-11-20T08:50:16.544405+00:00",
+  "repository": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+  "branch": "main",
+  "ownerAuthoredArtifacts": 10,
+  "entries": [
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X23-ISPETTORE-90S-FULL-GPU-X01-X22-CROSSWALK-2026-11-20.md",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-ISPETTORE-90S-FULL-GPU-X01-X22-CROSSWALK-2026-11-20.md",
+      "source_sha256": "ac391864a761e5aed1c683fe7ab74ea01105066ee60631d3168c49d118891b85",
+      "source_bytes": 9460,
+      "published_sha256": "ac391864a761e5aed1c683fe7ab74ea01105066ee60631d3168c49d118891b85",
+      "published_bytes": 9460,
+      "published_git_blob_sha1": "37d98e574c5e9538c72a5b53e8c049b097f0a799",
+      "newline_or_BOM_normalized": false,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-OWN-FIXTURE-ISPETTORE-ACCEPTANCE.json",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-OWN-FIXTURE-ISPETTORE-ACCEPTANCE.json",
+      "source_sha256": "74f40c5a691438b744105dba4ef01fb3ce2080175d8d1c3a38dd7f6aea8afaab",
+      "source_bytes": 11903,
+      "published_sha256": "74f40c5a691438b744105dba4ef01fb3ce2080175d8d1c3a38dd7f6aea8afaab",
+      "published_bytes": 11903,
+      "published_git_blob_sha1": "3d789d908ee99d460e7c7ca986151092d2428ed3",
+      "newline_or_BOM_normalized": false,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-TOOL-INSTALL-CONFIG-AND-RELEASE-VERIFICATION.json",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-TOOL-INSTALL-CONFIG-AND-RELEASE-VERIFICATION.json",
+      "source_sha256": "324e52ff467e0f49807c29d308dc93d7b76e069a6bd625f93dfa62001d62dc8e",
+      "source_bytes": 1372,
+      "published_sha256": "264eb738d3c4bcd7fcb96246249c7a3f8dbb1b547ebb9b0b5054d09683583107",
+      "published_bytes": 1340,
+      "published_git_blob_sha1": "63156967c3cd2de34f254fadf5f02c968fc9e140",
+      "newline_or_BOM_normalized": true,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-INDEPENDENT-X01-X22-RECONCILIATION.json",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-INDEPENDENT-X01-X22-RECONCILIATION.json",
+      "source_sha256": "4e01ee497a099a32de82e746fffffe8eff9d593d3967481127d5850a30abe1e7",
+      "source_bytes": 18418,
+      "published_sha256": "c6b74151be6e5f603804ab70f5a90246d7937817ca3f6923f9603617bfcc5e93",
+      "published_bytes": 17794,
+      "published_git_blob_sha1": "3d950bf69ebd18e2a3ed298566a1d5729c664a8b",
+      "newline_or_BOM_normalized": true,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-INDEPENDENT-ACCEPTANCE.json",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-INDEPENDENT-ACCEPTANCE.json",
+      "source_sha256": "c535b281e0d1c05ca0c5ab006e4e970a9003b98e999d020280763ab3776a12cb",
+      "source_bytes": 6750,
+      "published_sha256": "4dd0e22573bc654c4bf9c2360f1a2c644b6d4a71512dae090e2395c0fd43b6d3",
+      "published_bytes": 6625,
+      "published_git_blob_sha1": "673b7f3c4044bf299d0164d8d3932dd8c1ebad58",
+      "newline_or_BOM_normalized": true,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X23-90S-SANITIZED-ISPETTORE-GPU-TIMELINE.json",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-LIVE-90S/X23-90S-SANITIZED-ISPETTORE-GPU-TIMELINE.json",
+      "source_sha256": "91acf2fdaf563c01425b3e603d226ebf1b891627cdc54dd244c89980ed1b6629",
+      "source_bytes": 60313,
+      "published_sha256": "91acf2fdaf563c01425b3e603d226ebf1b891627cdc54dd244c89980ed1b6629",
+      "published_bytes": 60313,
+      "published_git_blob_sha1": "48b8efb5b1c76a6892dec088efb6d822808f5ac2",
+      "newline_or_BOM_normalized": false,
+      "class": "SANITIZED_METADATA_OR_HANDOFF"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-Own-Loopback-Ispettore-Probe.cjs",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-Own-Loopback-Ispettore-Probe.cjs",
+      "source_sha256": "19d585d19ff728c35a95c322a105b9a7272a69ac55ab60c6093a139079428bef",
+      "source_bytes": 4928,
+      "published_sha256": "19d585d19ff728c35a95c322a105b9a7272a69ac55ab60c6093a139079428bef",
+      "published_bytes": 4928,
+      "published_git_blob_sha1": "067b29c569df9536c9b848f941ce74b6b5846494",
+      "newline_or_BOM_normalized": false,
+      "class": "OWNER_CODE"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-Full-90s-Ispettore-Live-Frame-Runner.cjs",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-LIVE-90S/X23-Full-90s-Ispettore-Live-Frame-Runner.cjs",
+      "source_sha256": "9bb7000e0d6880d90612234d222c63fc30ffb0c5d424c037becf00c19460e462",
+      "source_bytes": 12275,
+      "published_sha256": "9bb7000e0d6880d90612234d222c63fc30ffb0c5d424c037becf00c19460e462",
+      "published_bytes": 12275,
+      "published_git_blob_sha1": "578b8f4b149bc5da91368218f432d50816f169d1",
+      "newline_or_BOM_normalized": false,
+      "class": "OWNER_CODE"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-Independent-Reconcile-X01-X22.py",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-Independent-Reconcile-X01-X22.py",
+      "source_sha256": "6694a257e005627bade5a335c0f5fb293e1b16752db42dcbe649042148578247",
+      "source_bytes": 16815,
+      "published_sha256": "6694a257e005627bade5a335c0f5fb293e1b16752db42dcbe649042148578247",
+      "published_bytes": 16815,
+      "published_git_blob_sha1": "7106ac074e6b8610e0c66f967405adebeb29487c",
+      "newline_or_BOM_normalized": false,
+      "class": "OWNER_CODE"
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X23-Prepare-GitHub-Publication.py",
+      "privateOwnerOrigin": "02-reviewed-derived/X23-CURRENT/X23-Prepare-GitHub-Publication.py",
+      "source_sha256": "81757b16a0242da455f1c0753a64bef98ac8654cb916cf31c91ebd612351c026",
+      "source_bytes": 3967,
+      "published_sha256": "f887353ca2c390696cd56d664d4ced60bc459c7312b65cf573ad99fc25b2610a",
+      "published_bytes": 3966,
+      "published_git_blob_sha1": "3811c4a863bcba4f49f02a5e8833841388ea8535",
+      "newline_or_BOM_normalized": true,
+      "class": "OWNER_CODE"
+    }
+  ],
+  "canonicalOriginalWebsiteResourceURLSHAAuthority": "X01–X19 original 78-path ledger; unchanged, no new original body for X23",
+  "externalThirdPartyRawShaderAndGPUPreviews": "PRIVATE ON LAPTOP ONLY — NOT INCLUDED",
+  "privateCaptureDirectory": "01-private-captures/X23/",
+  "officialSourceArchive": "VERIFIED SHA in X23-TOOL-INSTALL-CONFIG-AND-RELEASE-VERIFICATION.json",
+  "note": "All SHA256 values derived directly from source bytes; Git blob SHA1 derived from exact public byte contents. This file excludes its own SHA to avoid circularity."
+}

@@ -1,0 +1,624 @@
+{
+  "stage": "X23",
+  "dateUtc": "2026-11-20T08:48:12.213147+00:00",
+  "status": "COMPLETE_SCOPE_QUALIFIED",
+  "scope": "90.01 seconds continuously open public homepage, seven separate Ispettore GPU frame snapshots; independent direct comparison against X22 Spector seven frames and X01–X21 canonical lineage",
+  "tool": {
+    "official": "https://github.com/velvetfrustum/ispettore",
+    "releaseTag": "v0.1.1",
+    "knownDistManifestVersion": "0.1.0 (source release's packaged manifest; do not misstate as 0.1.1)",
+    "license": "Apache-2.0",
+    "sourceZipSha256": "ca49c6a4f24a3872ef2a24f792f2598374a17591124ece702c56017d9b8973df",
+    "sourceZipCount": 168,
+    "sourceZipSameAsLaptopFiles": 168,
+    "installedDistSha256": "fa1efd86ac4278a583912de121a9264906bdd565ccb101825c64d4c35d74d394",
+    "browser": "Chrome for Testing 157/isolated temporary Chrome profile",
+    "nativeUnitTests": {
+      "passed": 245,
+      "total": 245,
+      "failed": 0
+    },
+    "ownWebGL2Fixture": {
+      "commands": 7,
+      "actualWebGLContext": true,
+      "frameCaptured": true
+    }
+  },
+  "live": {
+    "timeSeconds": 90.01,
+    "frames": 7,
+    "ramMinMiB": 719,
+    "newOriginalUrlCount": 0,
+    "knownPathCount": 46,
+    "hashedOriginalBodyCount": 38,
+    "allBodyHashesAlreadyInX19": true,
+    "priorObservedX16Edges": 37,
+    "newX16NetworkEdgeCount": 0,
+    "perFrame": [
+      {
+        "label": "baseline",
+        "seconds": 7.26,
+        "commandCount": 137,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1838,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt2",
+          "EffectComposer.rt2",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt2",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "02141042e254025297d8da44a7d0dd3498866178ceaa3b741027858dcdd42293",
+        "rawPrivateBytes": 1853077
+      },
+      {
+        "label": "pointer_left",
+        "seconds": 20.09,
+        "commandCount": 138,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1501.2,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt2",
+          "EffectComposer.rt2",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt2",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "bb8abe42655617e10c6a4bc63c3acc1da2e9c7baff47e34634d75881eef1530d",
+        "rawPrivateBytes": 1782359
+      },
+      {
+        "label": "pointer_right",
+        "seconds": 34.22,
+        "commandCount": 138,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1553.7,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt2",
+          "EffectComposer.rt2",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt2",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "051f67902b951d7722314b5ec0043a52bb55abcbf40fd7d357252310b6c2c191",
+        "rawPrivateBytes": 2036401
+      },
+      {
+        "label": "wheel_450",
+        "seconds": 48.14,
+        "commandCount": 138,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1521.4,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt1",
+          "EffectComposer.rt1",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt1",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "171cd70ffc47485f92570a6dfbffccc9685702ef7fc16c03c0300d04802b531e",
+        "rawPrivateBytes": 1621611
+      },
+      {
+        "label": "pointer_center",
+        "seconds": 62.06,
+        "commandCount": 139,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1419.5,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt2",
+          "EffectComposer.rt2",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt2",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "58237115860c703b55df7a654d57a57f9999cd3e74de65f2c7f1c6615d2e7e5d",
+        "rawPrivateBytes": 1585211
+      },
+      {
+        "label": "wheel_800",
+        "seconds": 76.12,
+        "commandCount": 138,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1442.5,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt2",
+          "EffectComposer.rt2",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt2",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "9e97f8990f24a83e4d9019198ca1800ee23b45ccb054b78449e27dbb81c028d1",
+        "rawPrivateBytes": 1565433
+      },
+      {
+        "label": "pointer_reverse",
+        "seconds": 89.1,
+        "commandCount": 139,
+        "eventCount": 30,
+        "eventTypes": {
+          "clear": 14,
+          "draw": 16
+        },
+        "draws": 16,
+        "programs": 11,
+        "sourceShas": 22,
+        "sourceTypes": {
+          "vertex": 11,
+          "fragment": 11
+        },
+        "blobs": 2,
+        "shadersExactX22": true,
+        "cpuIssueTimeSumMs": 1490.2,
+        "gpuHardwareTimersAvailable": false,
+        "drawMaterialTypes": {
+          "ShaderMaterial": 16
+        },
+        "drawObjectTypes": {
+          "Points": 1,
+          "Mesh": 15
+        },
+        "eventLabels": {
+          "EffectComposer": 4,
+          "UnrealBloomPass": 23,
+          "Bloom (combine)": 1,
+          "unspecified": 2
+        },
+        "passStepNames": [
+          "EffectComposer.rt1",
+          "EffectComposer.rt1",
+          "UnrealBloomPass.bright",
+          "UnrealBloomPass.h0",
+          "UnrealBloomPass.v0",
+          "UnrealBloomPass.h1",
+          "UnrealBloomPass.v1",
+          "UnrealBloomPass.h2",
+          "UnrealBloomPass.v2",
+          "UnrealBloomPass.h3",
+          "UnrealBloomPass.v3",
+          "UnrealBloomPass.h4",
+          "UnrealBloomPass.v4",
+          "Bloom (combine)",
+          "EffectComposer.rt1",
+          "unspecified"
+        ],
+        "rawPrivateSHA256": "8dddeefff6da56c9da927e67343275480d201405aa8b8ba0a2403e20d1afc32a",
+        "rawPrivateBytes": 1554798
+      }
+    ],
+    "passStepSequence": [
+      {
+        "pass": "EffectComposer",
+        "step": "EffectComposer.rt2",
+        "type": "Points",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "EffectComposer",
+        "step": "EffectComposer.rt2",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.bright",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.h0",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.v0",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.h1",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.v1",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.h2",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.v2",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.h3",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.v3",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.h4",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "UnrealBloomPass",
+        "step": "UnrealBloomPass.v4",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "Bloom (combine)",
+        "step": "Bloom (combine)",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": "bloom-combine"
+      },
+      {
+        "pass": "EffectComposer",
+        "step": "EffectComposer.rt2",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "offscreen",
+        "effect": null
+      },
+      {
+        "pass": "unspecified",
+        "step": "unspecified",
+        "type": "Mesh",
+        "material": "ShaderMaterial",
+        "target": "canvas",
+        "effect": null
+      }
+    ],
+    "distinctStepNames": [
+      "Bloom (combine)",
+      "EffectComposer.rt1",
+      "EffectComposer.rt2",
+      "UnrealBloomPass.bright",
+      "UnrealBloomPass.h0",
+      "UnrealBloomPass.h1",
+      "UnrealBloomPass.h2",
+      "UnrealBloomPass.h3",
+      "UnrealBloomPass.h4",
+      "UnrealBloomPass.v0",
+      "UnrealBloomPass.v1",
+      "UnrealBloomPass.v2",
+      "UnrealBloomPass.v3",
+      "UnrealBloomPass.v4",
+      "unspecified"
+    ],
+    "hardwareGpuTimingAvailable": false,
+    "Ispettore90sServiceWorkerObserved": false,
+    "IspettorePageCaptureAPIWorking": true
+  },
+  "comparison": {
+    "X22_90s_7CommandCountTimeline": [
+      137,
+      138,
+      138,
+      138,
+      139,
+      138,
+      139
+    ],
+    "X23_90s_7CommandCountTimeline": [
+      137,
+      138,
+      138,
+      138,
+      139,
+      138,
+      139
+    ],
+    "fullExactDrawTopologyCrosscheck": true,
+    "X22_gpu_shaderSourceSHA": 22,
+    "X23_gpu_shaderSourceSHA": 22,
+    "newSourceShaderHashes": 0,
+    "onePointDrawElementsIndexCount": 960000,
+    "newComplementarySemanticEvidence": [
+      "1 Three.js Points draw with ShaderMaterial",
+      "15 Mesh draws with ShaderMaterial",
+      "UnrealBloomPass.bright and separable h0-v4 bloom blur step labels",
+      "Bloom (combine) after blur cascade",
+      "postprocessing associated with EffectComposer and canvas",
+      "30 GPU capture events (16 draw + 14 clear) per sampled frame",
+      "2 independently baked preview blob records per frame (PRIVATE GPU data)"
+    ],
+    "unchangedOriginalResourceAuthority": {
+      "paths": 78,
+      "network": 72,
+      "offlineDerived": 6
+    },
+    "noNewOriginalSiteAssetBytes": true,
+    "X21PreviouslyAccepted": "45/45",
+    "X22Full90PreviouslyAccepted": "87/87"
+  },
+  "independentAcceptance": {
+    "passed": 114,
+    "total": 114,
+    "failed": []
+  },
+  "caveats": [
+    "The official tag is v0.1.1 but packaged MV3 manifest version field is 0.1.0; do not silently change the package.",
+    "r154 Three.js semantic introspection is best-effort; source code and pipeline event-label binding are not an original authored repository.",
+    "Spector and Ispettore are independent event recorders but share the same browser/scene.",
+    "Raw GPU previews, uniforms, shader text, program code and captured source remain private.",
+    "No actual GPU hardware timer available; do not estimate native FPS from instrumented CPU issue times.",
+    "Ispettore extension worker may idle and not show a target at some timepoints; page API captured real frames.",
+    "Seven spaced GPU snapshots during a 90s continuous page session, not every frame for 90 seconds."
+  ]
+}
