@@ -1,0 +1,206 @@
+{
+  "stage": "X30",
+  "source": "binbuf/webgl-model-extractor",
+  "version": "0.7.0",
+  "mode": "OWN_SYNTHETIC_FIXTURE_ONLY",
+  "target": "127.0.0.1",
+  "originalVendorContentExported": false,
+  "hardRAMStopMiB": 100,
+  "startUTC": "2026-11-20T18:38:55.887Z",
+  "issues": [],
+  "events": [],
+  "fixture": {
+    "ready": true,
+    "source": "DJMRN original fixture",
+    "canvasWidth": 960,
+    "canvasHeight": 540,
+    "groundTruth": {
+      "quadUniqueVertices": 4,
+      "quadSubmittedIndices": 6,
+      "quadTriangles": 2,
+      "quadUVPairs": 4,
+      "glPoints": 5,
+      "instancedBaseVertices": 3,
+      "instancedBaseTriangles": 1,
+      "instancedDrawInstanceCount": 3,
+      "instancedLogicalTriangles": 3,
+      "textureDimensions": [
+        2,
+        2
+      ]
+    },
+    "drawCallsPerFrame": 3,
+    "frame": 21
+  },
+  "ripperAtStart": {
+    "active": true,
+    "contexts": 1,
+    "gpuDevices": 0,
+    "settingsKeys": [
+      "exportFormat",
+      "embedTextures",
+      "packageAsZip",
+      "filenamePrefix",
+      "frameBoundary",
+      "minimumClears",
+      "shaderCapture",
+      "dedupeMeshes",
+      "captureInstances",
+      "preserveTransforms",
+      "captureSkinning",
+      "maxDrawCallsPerCapture",
+      "captureTextures",
+      "unflipTextures",
+      "textureReadback",
+      "fallbackTextureSize",
+      "maxTextureSize",
+      "hotkeyEnabled",
+      "hotkey",
+      "overlayEnabled",
+      "overlayPosition",
+      "overlayAutoHide",
+      "logLevel",
+      "logCategories",
+      "logRingSize",
+      "warnOnUnknownAttributes"
+    ],
+    "diagnosticsAvailable": true
+  },
+  "captureRequestedUTC": "2026-11-20T18:38:59.641Z",
+  "captureStages": [
+    {
+      "stage": "armed",
+      "message": "Armed on 1 WebGL context",
+      "contexts": 1,
+      "waiting": false,
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "capturing",
+      "message": "Recording draw calls",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "reading-textures",
+      "message": "Reading textures 0/1",
+      "draws": 2,
+      "progress": {
+        "done": 0,
+        "total": 1
+      },
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "reading-textures",
+      "message": "Reading textures 1/1",
+      "draws": 2,
+      "progress": {
+        "done": 1,
+        "total": 1
+      },
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "capturing",
+      "message": "Recording draw calls",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "encoding",
+      "message": "Encoding textures",
+      "draws": 2,
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "capturing",
+      "message": "Recording draw calls",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "capturing",
+      "message": "Recording draw calls",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "capturing",
+      "message": "Recording draw calls",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "building",
+      "message": "Building scene",
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "encoding",
+      "message": "Encoding file",
+      "stats": {
+        "nodes": 2,
+        "meshes": 2,
+        "materials": 1,
+        "images": 1,
+        "vertices": 7,
+        "triangles": 3,
+        "warnings": 0
+      },
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "downloading",
+      "message": "Preparing download",
+      "stats": {
+        "nodes": 2,
+        "meshes": 2,
+        "materials": 1,
+        "images": 1,
+        "vertices": 7,
+        "triangles": 3,
+        "warnings": 0
+      },
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    },
+    {
+      "stage": "done",
+      "message": "Saved rip-127.0.0.1-20261120-220859.glb (2.1 KB)",
+      "filename": "rip-127.0.0.1-20261120-220859.glb",
+      "bytes": 2192,
+      "stats": {
+        "nodes": 2,
+        "meshes": 2,
+        "materials": 1,
+        "images": 1,
+        "vertices": 7,
+        "triangles": 3,
+        "warnings": 0
+      },
+      "warnings": [],
+      "href": "http://127.0.0.1:64913/",
+      "frame": "top"
+    }
+  ],
+  "captureStatus": "SUCCESS",
+  "diagnosticsSample": "WebGL Ripper diagnostics\nurl: http://127.0.0.1:64913/\nagent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36\nerrors: 0  warnings: 2\nversion: 0.7.0\nbuild: 1118-1555\nwebglContexts: 1\nwebgpuDevices: 0\n     21ms info  hooks     WebGL Ripper 0.7.0 (build 1118-1555) initialising in top frame\n     24ms debug hooks     context hook installed\n     25ms debug hooks     WebGPU hook installed\n     25ms debug hooks     frame boundary hook installed\n   1180ms debug hooks     installed 36 hooks on WebGL2 context\n   1180ms info  hooks     attached to a WebGL2 context (1 total in this frame)\n   1265ms info  hooks     settings loaded {\"exportFormat\":\"glb\",\"embedTextures\":true,\"packageAsZip\":false,\"filenamePrefix\":\"rip\",\"frameBoundary\":\"raf\",\"minimumClears\":1,\"shaderCapture\":true,\"dedupeMeshes\":true,\"captureInstances\":true,\"preserveTransforms\":true,\"captureSkinning\":true,\"maxDrawCallsPerCapture\":20000,\"captureTextures\":true,\"unflipTextures\":false,\"textureReadback\":\"blit\",\"fallbackTextureSize\":1024,\"maxTextureSize\":8192,\"hotkeyEnabled\":true,\"hotkey\":{\"code\":\"F8\",\"ctrl\":false,\"shift\":false,\"alt\":false,\"meta\":false},\"overlayEnabled\":true,\"overlayPosition\":\"top-right\",\"overlayAutoHide\":8,\"logLevel\":\"info\",\"logCategories\":{\"hooks\":true,\"capture\":true,\"geometry\":true,\"textures\":true,\"materials\":true,\"export\":true,\"download\":true,\"ui\":true},\"logRingSize\":2000,\"warnOnUnknownAttributes\":true}\n   1266ms debug hooks     settings updated\n   1581ms debug geometry  shader analysis found nothing; falling back to heuristics\n   1601ms warn  geometry  could not build a shadow program; falling back to raw attributes: Error: no projection or view uniform identified, so clip space could not be undone\n   1604ms info  materials sampler uniforms in this program {\"mapped\":[\"uTexture->baseColor\"],\"byContent\":[]}\n   1611ms debug geometry  instanced draw of 3 with no recognisable transform attribute\n   1644ms info  capture   frame capture finished: 2 usable draws {\"draws\":2,\"skippedNoPosition\":0,\"skippedMode\":1,\"skippedScreenSpace\":0,\"skippedImplausible\":0,\"decodedDraws\":0,\"shaderCaptured\":0,\"unknownAttributes\":[],\"attributesDisabled\":[\"aInstanceOffset\"],\"attributesWithoutBuffer\":[],\"attributesUnreadable\":[],\"semanticsCaptured\":[\"POSITION\",\"TEXCOORD_0\"],\"misresolved\":[],\"positionFallbacks\":[],\"verticesCompacted\":0,\"texturesPending\":1,\"texturesSkipped\":0,\"samplersWithoutTexture\":0,\"captureMs\":32,\"buffersRead\":6,\"attribFastPath\":5,\"attribSlowPath\":1}\n   1863ms info  textures  texture readback finished {\"pending\":1,\"read\":1,\"skipped\":0}\n   1902ms info  export    scene assembled {\"nodes\":2,\"meshes\":2,\"materials\":1,\"images\":1,\"vertices\":7,\"triangles\":3,\"warnings\":0}\n   1903ms info  geometry  geometry report {\"positionStorage\":{\"FLOAT x3\":2},\"sceneMin\":[-0.96,-0.55,0],\"sceneMax\":[0.64,0.5,0],\"extent\":[1.6,1.05,0],\"drawsWithTransform\":0,\"drawsUsingModelViewOnly\":0,\"drawsTotal\":2,\"untexturedDraws\":[],\"screenSpacePassesSkipped\":0,\"transformUniforms\":[\"uColor\"]}\n   1904ms warn  geometry  no per-object transform was found for any draw, so every mesh is exported at the origin\n   1908ms info  download  delivered rip-127.0.0.1-20261120-220859.glb (2.1 KB)",
+  "realGLB": {
+    "name": "X30-OWN-binbuf-WebGLModelExtractor-0.7.0-EXACT-REAL-OUTPUT.glb",
+    "bytes": 2192,
+    "sha256": "8011f38f77a9f0eaec9c20f3facd1b6ce7cb7821612df64a6c8c21cd19ed4fcc"
+  },
+  "originalOwnerSourceFixtureSHA256": "966119038f4470e4f3c69e6468ffac70e9f6386e0c493a1043e918dbc1611993",
+  "privateExportOnly": true,
+  "saveCount": 1,
+  "stop": "SUCCESS",
+  "minFreeRAMMiB": 2538,
+  "endUTC": "2026-11-20T18:39:00.814Z"
+}
