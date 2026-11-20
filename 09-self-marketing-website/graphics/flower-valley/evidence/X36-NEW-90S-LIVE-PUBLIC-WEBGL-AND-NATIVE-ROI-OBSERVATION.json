@@ -1,0 +1,1084 @@
+{
+  "stage": "X36",
+  "scope": "NATIVE_SCREENTOGIF_GUI_ROI_PLUS_90S_READONLY_PUBLIC_SITE",
+  "site": "https://www.gladeye.com/",
+  "captureTool": "Official native ScreenToGif 2.43.2 FULL Portable self-contained",
+  "nativeCaptureConfigured": {
+    "ROI": {
+      "left": 130,
+      "top": 170,
+      "width": 700,
+      "height": 410
+    },
+    "maxFPS": 6,
+    "limitSeconds": 32
+  },
+  "captureIsNativeScreenToGifNotPlaywrightScreenshot": true,
+  "chromeVisible": true,
+  "noRenderDocOrGPUInspector": true,
+  "thirdPartyImagesPrivatePCOnly": true,
+  "noShadersOrRawGLBBodiesSaved": true,
+  "systemProxyUnchanged": true,
+  "hardStopRamMiB": 100,
+  "events": [
+    {
+      "phase": "initial_idle",
+      "targetSecond": 2,
+      "actualSecond": 2.192,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1
+        },
+        "trustedEventCounts": {
+          "focus": 1
+        },
+        "totalDraws": 0,
+        "signatures": [],
+        "cssAnimations": 7,
+        "cameraResource": []
+      },
+      "freeRAMMiB": 1838
+    },
+    {
+      "phase": "before_native_recorder",
+      "targetSecond": 9,
+      "actualSecond": 9.201,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1
+        },
+        "trustedEventCounts": {
+          "focus": 1
+        },
+        "totalDraws": 0,
+        "signatures": [],
+        "cssAnimations": 7,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1709
+    },
+    {
+      "phase": "start_native_screentogif",
+      "targetSecond": 11,
+      "actualSecond": 13.647,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1
+        },
+        "trustedEventCounts": {
+          "focus": 1
+        },
+        "totalDraws": 16,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 1
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 1
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 14
+          }
+        ],
+        "cssAnimations": 7,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1083
+    },
+    {
+      "phase": "pointer_left",
+      "targetSecond": 17,
+      "actualSecond": 17.351,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "totalDraws": 2816,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 176
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 176
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 2464
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1105
+    },
+    {
+      "phase": "pointer_left_hold",
+      "targetSecond": 22,
+      "actualSecond": 22.199,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 8,
+          "mousemove": 8
+        },
+        "totalDraws": 7424,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 464
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 464
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 6496
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1153
+    },
+    {
+      "phase": "pointer_right",
+      "targetSecond": 27,
+      "actualSecond": 27.334,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "totalDraws": 12224,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 764
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 764
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 10696
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1137
+    },
+    {
+      "phase": "pointer_right_hold",
+      "targetSecond": 32,
+      "actualSecond": 32.192,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16
+        },
+        "totalDraws": 16768,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 1048
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 1048
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 14672
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1555
+    },
+    {
+      "phase": "scroll_positive",
+      "targetSecond": 37,
+      "actualSecond": 37.247,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16,
+          "wheel": 1
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16,
+          "wheel": 1
+        },
+        "totalDraws": 21632,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 1352
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 1352
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 18928
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1607
+    },
+    {
+      "phase": "scroll_negative",
+      "targetSecond": 42,
+      "actualSecond": 42.239,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 16,
+          "mousemove": 16,
+          "wheel": 2
+        },
+        "totalDraws": 26384,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 1649
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 1649
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 23086
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1632
+    },
+    {
+      "phase": "return_center",
+      "targetSecond": 46,
+      "actualSecond": 46.324,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "totalDraws": 30288,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 1893
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 1893
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 26502
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1625
+    },
+    {
+      "phase": "record_limit_elapsed",
+      "targetSecond": 52,
+      "actualSecond": 52.204,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "totalDraws": 35536,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 2221
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 2221
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 31094
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1591
+    },
+    {
+      "phase": "late_idle",
+      "targetSecond": 65,
+      "actualSecond": 65.195,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 24,
+          "mousemove": 24,
+          "wheel": 2
+        },
+        "totalDraws": 47424,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 2964
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 2964
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 41496
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1628
+    },
+    {
+      "phase": "late_pointer",
+      "targetSecond": 79,
+      "actualSecond": 84.334,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 31,
+          "mousemove": 31,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 31,
+          "mousemove": 31,
+          "wheel": 2
+        },
+        "totalDraws": 57216,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 3576
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 3576
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 50064
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1642
+    },
+    {
+      "phase": "end_idle",
+      "targetSecond": 87,
+      "actualSecond": 87.199,
+      "meta": {
+        "hostname": "www.gladeye.com",
+        "documentState": "complete",
+        "threeRevision": "154",
+        "webgl2": true,
+        "canvasCount": 1,
+        "viewport": [
+          1080,
+          650
+        ],
+        "scrollY": 0,
+        "eventCounts": {
+          "focus": 1,
+          "pointermove": 31,
+          "mousemove": 31,
+          "wheel": 2
+        },
+        "trustedEventCounts": {
+          "focus": 1,
+          "pointermove": 31,
+          "mousemove": 31,
+          "wheel": 2
+        },
+        "totalDraws": 57264,
+        "signatures": [
+          {
+            "op": "drawElements",
+            "mode": 0,
+            "count": 960000,
+            "calls": 3579
+          },
+          {
+            "op": "drawElements",
+            "mode": 4,
+            "count": 6,
+            "calls": 3579
+          },
+          {
+            "op": "drawArrays",
+            "mode": 4,
+            "count": 3,
+            "calls": 50106
+          }
+        ],
+        "cssAnimations": 42,
+        "cameraResource": [
+          {
+            "path": "/valley/camera-path07.glb",
+            "decodedBodySize": 10132
+          }
+        ]
+      },
+      "freeRAMMiB": 1652
+    }
+  ],
+  "issues": [],
+  "startUTC": "2026-11-20T21:36:34.282Z",
+  "liveStartedUTC": "2026-11-20T21:36:39.449Z",
+  "schedule": [
+    {
+      "target": 2,
+      "name": "initial_idle"
+    },
+    {
+      "target": 9,
+      "name": "before_native_recorder"
+    },
+    {
+      "target": 11,
+      "name": "start_native_screentogif"
+    },
+    {
+      "target": 17,
+      "name": "pointer_left"
+    },
+    {
+      "target": 22,
+      "name": "pointer_left_hold"
+    },
+    {
+      "target": 27,
+      "name": "pointer_right"
+    },
+    {
+      "target": 32,
+      "name": "pointer_right_hold"
+    },
+    {
+      "target": 37,
+      "name": "scroll_positive"
+    },
+    {
+      "target": 42,
+      "name": "scroll_negative"
+    },
+    {
+      "target": 46,
+      "name": "return_center"
+    },
+    {
+      "target": 52,
+      "name": "record_limit_elapsed"
+    },
+    {
+      "target": 65,
+      "name": "late_idle"
+    },
+    {
+      "target": 79,
+      "name": "late_pointer"
+    },
+    {
+      "target": 87,
+      "name": "end_idle"
+    }
+  ],
+  "nativeScreenToGifPID": 15740,
+  "nativeStartSecond": 11.015,
+  "nativeArgs": [
+    "-n",
+    "-o",
+    "screen",
+    "-r",
+    "130,170,700,410",
+    "-f",
+    "6fps",
+    "-l",
+    "00:00:32",
+    "-c"
+  ],
+  "observedSeconds": 90.008,
+  "stopReason": "COMPLETED_90_S_LIMIT",
+  "minFreeMiB": 1083,
+  "endUTC": "2026-11-20T21:38:09.864Z",
+  "knownFirstPartyPaths": 46,
+  "novelFirstPartyPaths": [],
+  "resources": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "bytes": 8004,
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "bytes": 46176,
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "bytes": 463,
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "bytes": 3962,
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "bytes": 102017,
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "bytes": 160712,
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "bytes": 19252,
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "bytes": 141609,
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "bytes": 6751,
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "bytes": 16685,
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "bytes": 6157,
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "bytes": 17110,
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "bytes": 81048,
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "bytes": 80490,
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "bytes": 5066,
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "bytes": 596,
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "bytes": 11256,
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "bytes": 30550,
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "bytes": 82741,
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "bytes": 111113,
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "bytes": 549571,
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "bytes": 2059,
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "bytes": 10132,
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "bytes": 7436,
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "bytes": 249287,
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "bytes": 915892,
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "bytes": 2102,
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "bytes": 225311,
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "bytes": 295868,
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "bytes": 222220,
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "bytes": 8562,
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "bytes": 16406,
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "bytes": 14536,
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "bytes": 19277,
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "bytes": 38686,
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "bytes": 11135,
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "bytes": 13682,
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "exactX19Original": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "bytes": 40996,
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "exactX19Original": true
+    }
+  ],
+  "exactHistoricalBodyCount": 38,
+  "edgesTotal": 37,
+  "novelEdges": [],
+  "liveCameraHashExactX34": true,
+  "limits": "Native ScreenToGif is independent of Playwright screenshot APIs; user-visible video is a screen-capture observation, not internal camera pose or causal proof. No site video/pixels distributed."
+}
