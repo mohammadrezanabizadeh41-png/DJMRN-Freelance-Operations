@@ -1,0 +1,56 @@
+{
+    "stage":  "X28",
+    "sourceAuthority":  "official upstream repos + pinned original X22/X23 local prior verification",
+    "onlineVerificationDate":  "2026-11-20",
+    "spector":  {
+                    "official":  "https://github.com/BabylonJS/Spector.js",
+                    "release":  "https://github.com/BabylonJS/Spector.js/releases/tag/v0.9.33",
+                    "license":  "MIT",
+                    "version":  "0.9.33",
+                    "manifestV3":  3,
+                    "bundleSHA256":  "cece563b656a223347af27c9f1db97c3c0225b01f2f5b400cd9deeb1b5958cca",
+                    "bundleBytes":  1193487,
+                    "priorX22OwnFixtureAndLive":  "PASS",
+                    "existingInstalled":  true
+                },
+    "ispettore":  {
+                      "official":  "https://github.com/velvetfrustum/ispettore",
+                      "release":  "https://github.com/velvetfrustum/ispettore/releases/tag/v0.1.1",
+                      "license":  "Apache-2.0",
+                      "tag":  "v0.1.1",
+                      "builtManifestVersion":  "0.1.0",
+                      "manifestV3":  3,
+                      "originalSourceArchiveSHA256":  "ca49c6a4f24a3872ef2a24f792f2598374a17591124ece702c56017d9b8973df",
+                      "verifiedSourceFiles":  168,
+                      "priorNativeTests":  "245/245 PASS",
+                      "existingBuiltDist":  true,
+                      "permissions":  [
+                                          "activeTab",
+                                          "downloads",
+                                          "scripting",
+                                          "sidePanel",
+                                          "storage"
+                                      ],
+                      "hostPermissions":  [
+                                              "http://*/*",
+                                              "https://*/*",
+                                              "file:///*"
+                                          ]
+                  },
+    "interaction":  {
+                        "official":  "https://playwright.dev/docs/api/class-mouse",
+                        "playwrightCoreInstalledVersion":  "1.65.1",
+                        "playwrightCDPUsedForMouseAndWheel":  true,
+                        "puppeteerExistingForGPUCapture":  true
+                    },
+    "chrome":  "Chrome for Testing 157",
+    "viewport":  "1280x720",
+    "freeRAMHardStopMiB":  100,
+    "execution":  "One observer at a time in separate isolated headless Chrome profiles",
+    "paidUsage":  "NONE",
+    "noExtensionInstallInPersonalChrome":  true,
+    "noNewPaidPackage":  true,
+    "publicRawCommercialShadersOrTexturePixels":  false,
+    "status":  "INSTALLED_ALREADY/REUSED_SOURCE_VERIFIED",
+    "timeObservedUTC":  "2026-11-20T14:28:23.1649602Z"
+}
