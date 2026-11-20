@@ -1,0 +1,57 @@
+{
+  "stage": "X30-binbuf-LIVE-RETRY-EXTENDED-READY",
+  "site": "https://www.gladeye.com/",
+  "tool": "official binbuf/webgl-model-extractor v0.7.0 MIT MV3 in isolated Chrome157 MAIN-world doc_start; READ-ONLY; NO CAPTURE ON THIRD-PARTY",
+  "officialGitHubHeadAsOf20261120": "458c5890b85c9fccf193e6f72e9ab15914196d3f",
+  "targetSeconds": 90,
+  "ownerRamHardStopMiB": 100,
+  "geometryExportOfOriginalSite": false,
+  "originalSiteGLB": false,
+  "originalVertexShaderSourcesSaved": false,
+  "originalTexturePixelDataSaved": false,
+  "screenshotsPrivateOnPCOnly": true,
+  "startUTC": "2026-11-20T18:41:35.353Z",
+  "schedule": [],
+  "snapshots": [],
+  "issues": [
+    {
+      "phase": "fatal",
+      "info": "Waiting failed: 65000ms exceeded"
+    }
+  ],
+  "navigationAttempts": 1,
+  "navigationErrors": [],
+  "stopReason": "ERROR",
+  "minFreeRamMiB": 2412,
+  "endUTC": "2026-11-20T18:42:42.469Z",
+  "observedFirstPartyPaths": 4,
+  "novelFirstPartyPaths": [],
+  "networkBodyShaAndSize": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bytes": 8004,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bytes": 46176,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bytes": 3962,
+      "knownSourcePath": true,
+      "exactPreviousOriginalBodyShaSize": true
+    }
+  ],
+  "totalHashedResponses": 3,
+  "originalBodyExactCount": 3,
+  "networkInitiatorEdgesObserved": 9,
+  "newInitiatorEdges": [],
+  "sanitizationNotes": "ONLY binbuf model extractor context metadata, instrumented GPU draw primitive modes/count signatures, network first-party hash size and private screenshot hashes; NO vendor asset capture/export"
+}
