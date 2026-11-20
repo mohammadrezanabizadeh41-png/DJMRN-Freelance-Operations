@@ -1,0 +1,6792 @@
+{
+  "run": {
+    "stage": "X28-ISPETTORE",
+    "tool": "Ispettore release v0.1.1 (MV3 dist manifest field 0.1.0)",
+    "site": "https://www.gladeye.com/",
+    "reference": "Spector X22 full-90s",
+    "desiredSeconds": 90,
+    "safeTransferCeilingBytes": 1000000000,
+    "emergencyFreeRamMiB": 100,
+    "sourceOriginalX23Preserved": true,
+    "source": "https://github.com/velvetfrustum/ispettore",
+    "installedAlready": true,
+    "isolation": "one fresh isolated Chrome profile",
+    "manifestVersion": "0.1.0",
+    "serviceWorker": false,
+    "pre": {
+      "api": [
+        "getSnapshot",
+        "getWebGlJournalSummary",
+        "getWebGpuJournalSummary",
+        "getWebGpuJournalPackage",
+        "setWebGlJournalBudget",
+        "getWebGlJournalPackage",
+        "armWebGlCapture",
+        "storeWebGlFrame",
+        "armWebGpuCapture",
+        "storeWebGpuFrame",
+        "storeWebGlPackage",
+        "registerComposer",
+        "registerRenderPipeline"
+      ],
+      "webglContexts": [
+        "ctx-1"
+      ]
+    },
+    "observedStartUtc": "2026-11-20T14:28:53.365Z",
+    "observedSeconds": 90.48,
+    "stopReason": "COMPLETED_90S",
+    "minFreeRamMiB": 1305,
+    "controlEngine": "Playwright Core via CDP, inspected by Ispettore MV3",
+    "issues": [],
+    "frames": 8,
+    "wallSeconds": 94.14,
+    "firstPartyResponses": 47,
+    "firstPartyPaths": 46,
+    "newFirstPartyUrls": [],
+    "firstPartyBodyHashed": 38,
+    "initiatorPairs": 37,
+    "newInitiatorPairs": [],
+    "fullSceneSnapshots": 3,
+    "screenshots": 3
+  },
+  "snapshots": [
+    {
+      "label": "normal_baseline",
+      "sec": 8.46,
+      "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-normal_baseline.json",
+      "bytes": 7639214,
+      "sha256": "344cc7baf1aa74140dcf623757f06ffc0dcb4e632e7f2e65971ea3836471ec0a",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "202b577a-d3c5-4ef1-b590-8b071987331d"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    },
+    {
+      "label": "dispersal_candidate_scroll",
+      "sec": 56.09,
+      "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-dispersal_candidate_scroll.json",
+      "bytes": 6555424,
+      "sha256": "2feda6fa3794bb4ba8806e82595a12f7ed711087fe65a3c6fe157f9e579f123e",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "202b577a-d3c5-4ef1-b590-8b071987331d"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    },
+    {
+      "label": "return_idle",
+      "sec": 87.98,
+      "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-return_idle.json",
+      "bytes": 5885628,
+      "sha256": "037032bf242e35d77f77693212a0976886939eacf589a071a954aa80ebc1b7f9",
+      "gpuApi": "webgl",
+      "three": {
+        "detected": true,
+        "revision": "154",
+        "devtoolsMinRevision": 106,
+        "devtoolsBridge": true
+      },
+      "sceneObjectCount": 7,
+      "camera": {
+        "name": "",
+        "type": "OrthographicCamera",
+        "uuid": "202b577a-d3c5-4ef1-b590-8b071987331d"
+      },
+      "rendererCount": 1,
+      "modelCount": 1,
+      "textureCount": 17,
+      "programCount": 11,
+      "contextCount": 1,
+      "sceneTreePresent": true
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "normal_baseline",
+      "file": "X28-ISPETTORE-FULL-SCENE-SCREEN-normal_baseline.png",
+      "bytes": 1800859,
+      "sha256": "79d960ffaef7a3eec150dde095eb4d69cabbb6f5251c7f1c1f05de37b2a9b31a"
+    },
+    {
+      "label": "dispersal_candidate_scroll",
+      "file": "X28-ISPETTORE-FULL-SCENE-SCREEN-dispersal_candidate_scroll.png",
+      "bytes": 1546975,
+      "sha256": "df524c3b3c23c39a6ac4581a1b325dfb762707f72adb36d067c29ee12b11c2eb"
+    },
+    {
+      "label": "return_idle",
+      "file": "X28-ISPETTORE-FULL-SCENE-SCREEN-return_idle.png",
+      "bytes": 1468121,
+      "sha256": "b1b2f5abb5a9a42f5dc3dc24f94f94253381e9eaf22e73c4ae26a8ddb00b73d2"
+    }
+  ],
+  "frames": [
+    {
+      "label": "normal_baseline",
+      "requestedSecond": 6,
+      "second": 8.46,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 0,
+            "frameCount": 0
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "e9c8d66f08acb2521af7d3ffa766ed030b25cb6d2e68075e58e7764bcff4356d",
+      "rawBytes": 1895189,
+      "gpu": {
+        "commandCount": 137,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.4,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:41",
+            "kind": "animation-frame",
+            "commands": 137,
+            "blobCount": 2,
+            "bytes": 1803065
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1807.1,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 20,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 32,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 39,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 44,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 53,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 58,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 67,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 72,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 81,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 86,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 95,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 100,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 112,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 124,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 136,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 24,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 128,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 24,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 27,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 33,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 40,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 45,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 48,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 54,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 59,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 62,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 68,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 73,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 76,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 82,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 87,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 90,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 96,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 101,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 104,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 113,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 128,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 130,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "b20497fd962d6e7f5dbb2bc092bce4431690296fd51868bd5b8fd4252deb594f",
+      "privateImageBytes": 1804717,
+      "phaseCandidate": "normal",
+      "fullSceneSnapshot": {
+        "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-normal_baseline.json",
+        "sha256": "344cc7baf1aa74140dcf623757f06ffc0dcb4e632e7f2e65971ea3836471ec0a",
+        "bytes": 7639214
+      }
+    },
+    {
+      "label": "hover_left",
+      "requestedSecond": 18,
+      "second": 20.36,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 137,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "45f28f6da50f5b7a932f708c0d2cb6fc02ec8bf31052cb2e55467a9c2473e145",
+      "rawBytes": 1883825,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:496",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1791669
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1610.7,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "979b26a9f7c101769900e49599ab4f2c60cddef30521b0e7e3c8d24ee2ed411d",
+      "privateImageBytes": 1806368,
+      "phaseCandidate": "hover"
+    },
+    {
+      "label": "hover_right",
+      "requestedSecond": 30,
+      "second": 32.35,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "0a3a388b9b6471d61915b4960b1d9f46327d0110a5c24a624c441959a95b7d67",
+      "rawBytes": 1921857,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1094",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1829670
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1546.5,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "5e289b3950c1920ade3f54af97427142350d4ba4455255c52828fbbded94a8b2",
+      "privateImageBytes": 1822921,
+      "phaseCandidate": "hover"
+    },
+    {
+      "label": "dispersal_candidate_sweep",
+      "requestedSecond": 42,
+      "second": 44.83,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "d22858452f2611f6c5a829cb97424fdbd3b9fc36950cdba804cd62883add6e25",
+      "rawBytes": 1855551,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 2,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:1695",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1763364
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1739.3,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "53648452656c3f51f827471d629598a4a90a54999661fe0a86a07ad308825df9",
+      "privateImageBytes": 1770794,
+      "phaseCandidate": "dispersal_UNVERIFIED"
+    },
+    {
+      "label": "dispersal_candidate_scroll",
+      "requestedSecond": 54,
+      "second": 56.09,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "f571209cba112b36720454450197a0ca5ba1d577886fd3c3e791cd8d9f762ce0",
+      "rawBytes": 1592298,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2262",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1500111
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1458.1,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "6270860deb78c5ff64dab10191ad54834a6c22ba5976595d8ae70a7fccab6fb7",
+      "privateImageBytes": 1558600,
+      "phaseCandidate": "dispersal_UNVERIFIED",
+      "fullSceneSnapshot": {
+        "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-dispersal_candidate_scroll.json",
+        "sha256": "2feda6fa3794bb4ba8806e82595a12f7ed711087fe65a3c6fe157f9e579f123e",
+        "bytes": 6555424
+      }
+    },
+    {
+      "label": "return_scroll_up",
+      "requestedSecond": 66,
+      "second": 68.16,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "1b4205cc990fc15f7e996a9dd2c98416d4ddb22fb77e7c9807a06d1839ece6f1",
+      "rawBytes": 1671652,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:2799",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1579465
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1520.6,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "cc4bee451f535b856380e3c978f5de718cdab7281b748bf6c00c65d33c61d0ee",
+      "privateImageBytes": 1602001,
+      "phaseCandidate": "return_UNVERIFIED"
+    },
+    {
+      "label": "return_pointer_out",
+      "requestedSecond": 78,
+      "second": 80.19,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 138,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "cfd545bee4a3facfe08fed9b039531705a0224d0ddfd789009c42a0542240418",
+      "rawBytes": 1502841,
+      "gpu": {
+        "commandCount": 139,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform2f": 11,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.2,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:3421",
+            "kind": "animation-frame",
+            "commands": 139,
+            "blobCount": 2,
+            "bytes": 1410653
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1429.3,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 15,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 22,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 34,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 41,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 46,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 55,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 60,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 69,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 74,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 83,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 88,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 97,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 102,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 114,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 126,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 138,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 26,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 47,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 61,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 75,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 89,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 103,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 115,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 130,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 26,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 29,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 36,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 43,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 47,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 50,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 57,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 61,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 64,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 71,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 75,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 78,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 85,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 89,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 92,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 99,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 103,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 106,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 115,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 130,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 132,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "75ab19892e7f01670597293b229b9d07e2c0ff85f3a11f535c9f94878469e512",
+      "privateImageBytes": 1530855,
+      "phaseCandidate": "return_UNVERIFIED"
+    },
+    {
+      "label": "return_idle",
+      "requestedSecond": 86,
+      "second": 87.98,
+      "state": {
+        "domPath": "/",
+        "three": "154",
+        "next": "13.4.19",
+        "canvas": 1,
+        "scrollY": 0,
+        "animations": 42,
+        "hasIspettore": true,
+        "contextSummaries": [
+          {
+            "id": "ctx-1",
+            "webgl": 2,
+            "width": 300,
+            "height": 150,
+            "commandCount": 139,
+            "frameCount": 1
+          }
+        ]
+      },
+      "arm": {
+        "applied": 1
+      },
+      "rawSha256": "910e4eacd7d74a211bf53c1b6f4e9464945fc2e25d570ade40fef660cb9fd33b",
+      "rawBytes": 1367266,
+      "gpu": {
+        "commandCount": 138,
+        "ops": {
+          "bindFramebuffer": 15,
+          "scissor": 9,
+          "clear": 14,
+          "useProgram": 11,
+          "uniform3f": 1,
+          "uniform1f": 3,
+          "bindTexture": 18,
+          "activeTexture": 4,
+          "uniformMatrix4fv": 1,
+          "enable": 4,
+          "blendFuncSeparate": 1,
+          "disable": 4,
+          "bindVertexArray": 11,
+          "drawElements": 2,
+          "depthMask": 4,
+          "clearColor": 2,
+          "viewport": 7,
+          "drawArrays": 14,
+          "uniform2f": 10,
+          "uniform1fv": 1,
+          "uniform3fv": 1,
+          "blendFunc": 1
+        },
+        "drawCount": 16,
+        "draws": [
+          {
+            "op": "drawElements",
+            "args": [
+              0,
+              960000,
+              5125,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawElements",
+            "args": [
+              4,
+              6,
+              5123,
+              0
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0.1,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          },
+          {
+            "op": "drawArrays",
+            "args": [
+              4,
+              0,
+              3
+            ],
+            "semanticType": null,
+            "hasPreview": true,
+            "cpuMs": 0,
+            "gpuMs": null
+          }
+        ],
+        "programKeys": [
+          "ctx-1:program-24",
+          "ctx-1:program-67",
+          "ctx-1:program-82",
+          "ctx-1:program-96",
+          "ctx-1:program-111",
+          "ctx-1:program-126",
+          "ctx-1:program-141",
+          "ctx-1:program-156",
+          "ctx-1:program-168",
+          "ctx-1:program-183",
+          "ctx-1:program-191"
+        ],
+        "frameCount": 1,
+        "frameList": [
+          {
+            "id": "frame:2:3791",
+            "kind": "animation-frame",
+            "commands": 138,
+            "blobCount": 2,
+            "bytes": 1275079
+          }
+        ],
+        "eventCount": 30,
+        "imageOrBinaryBlobCount": 2,
+        "contextVersion": 2,
+        "contextKeys": [
+          "api",
+          "width",
+          "height",
+          "attributes",
+          "version",
+          "canvas",
+          "drawingBuffer",
+          "capabilities",
+          "extensions",
+          "resizes",
+          "resizeTracking",
+          "overflow",
+          "recordedFromContextCreation"
+        ],
+        "inspectionStatus": {
+          "level": "supported",
+          "reasons": []
+        },
+        "failedCommands": [],
+        "cpuSumCommandMs": 1397,
+        "gpuTimingAvailable": false,
+        "gpuTimedCommands": 0,
+        "reportedGpuTimingSumMs": null,
+        "warning": "Instrumented per-command CPU issue time is not native frame/FPS timing; GPU timer availability may vary",
+        "x28RenderGraph": {
+          "drawSequence": [
+            {
+              "ordinal": 14,
+              "op": "drawElements",
+              "mode": 0,
+              "count": 960000,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 21,
+              "op": "drawElements",
+              "mode": 4,
+              "count": 6,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 33,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 40,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 45,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 54,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 59,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 68,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 73,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 82,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 87,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 96,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 101,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 113,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 125,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            },
+            {
+              "ordinal": 137,
+              "op": "drawArrays",
+              "mode": 4,
+              "count": 3,
+              "semanticType": null,
+              "semanticPass": null,
+              "hasPreview": true
+            }
+          ],
+          "attachmentFormatHints": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            }
+          ],
+          "passEvents": [
+            {
+              "ordinal": 0,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 2,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 25,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 28,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 34,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 35,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 41,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 42,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 46,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 49,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 55,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 56,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 60,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 63,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 69,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 70,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 74,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 77,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 83,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 84,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 88,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 91,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 97,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 98,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 102,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 105,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            },
+            {
+              "ordinal": 114,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 129,
+              "op": "bindFramebuffer",
+              "scalarArguments": [
+                36160,
+                null
+              ]
+            },
+            {
+              "ordinal": 131,
+              "op": "clear",
+              "scalarArguments": [
+                17664
+              ]
+            }
+          ],
+          "resourceFormatOnlyNoPixels": true,
+          "warning": "Vendor Ispettore semantic labels from instrumented journal; no independently proven user-visible dispersal"
+        }
+      },
+      "privateImageSHA256": "ba5365746d0acf1f6936d39218f0a446311dbc2b7dcfc48c51a45ae0cdac36fd",
+      "privateImageBytes": 1457697,
+      "phaseCandidate": "return_UNVERIFIED",
+      "fullSceneSnapshot": {
+        "file": "X28-ISPETTORE-FULL-SCENE-AND-TEXTURE-return_idle.json",
+        "sha256": "037032bf242e35d77f77693212a0976886939eacf589a071a954aa80ebc1b7f9",
+        "bytes": 5885628
+      }
+    }
+  ],
+  "bodyHashes": [
+    {
+      "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+      "bytes": 46176,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+      "bytes": 8004,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+      "bytes": 3962,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+      "bytes": 160712,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+      "bytes": 463,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+      "bytes": 102017,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+      "bytes": 6751,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+      "bytes": 30550,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+      "bytes": 6157,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+      "bytes": 141609,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "sha256": "d760ffed0990e4d67451e4ad9034a4204b902520d063bd3c12c8fa8c70b8911f",
+      "bytes": 19252,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "sha256": "4455fa6cf7b4ff2efaa191aea584f1f877ad33fd5d12196be42aa268e469b88c",
+      "bytes": 17110,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "sha256": "31a365665836e8f3829c1a30bd34c95370c63f1b62902a11f20c20e74ccf0804",
+      "bytes": 5066,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "sha256": "e4de34bf8a456614d34fd366586215992568f441d4c6782df2b3ac7c43b6651d",
+      "bytes": 81048,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "sha256": "5d68a0a8dff6bdfdaac33d9fbc40aa3397a5183e0be694eb92340e468493a4fa",
+      "bytes": 596,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "sha256": "3a0249cfa4f13c02eaf34ed15746e3a943a9f456534213322937857e749b0115",
+      "bytes": 11256,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "sha256": "c837957c63f427ac0a093eb8a98c196c7aed24dd62c115e1df877cd53634a1de",
+      "bytes": 80490,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "sha256": "f808e878ce520da53ffbb92d37af7788a0c01a8ec115ec2af26c36be74e1f198",
+      "bytes": 111113,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "sha256": "5f164d7403807a0409497dd9808b8fa59b3228a1e1b8e7ca8fac2128d8fec65b",
+      "bytes": 82741,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+      "bytes": 549571,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+      "bytes": 16685,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/favicon.svg",
+      "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+      "bytes": 2059,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/camera-path07.glb",
+      "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+      "bytes": 10132,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/vignette.png",
+      "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+      "bytes": 7436,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+      "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+      "bytes": 249287,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/dust-particle.png",
+      "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+      "bytes": 2102,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+      "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+      "bytes": 915892,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray2.png",
+      "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+      "bytes": 225311,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray3.png",
+      "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+      "bytes": 222220,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/rays/ray1.png",
+      "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+      "bytes": 295868,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/valley/terrain.png",
+      "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+      "bytes": 8562,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+      "bytes": 16406,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+      "bytes": 14536,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+      "bytes": 19277,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+      "bytes": 38686,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+      "bytes": 11135,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+      "bytes": 13682,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+      "bytes": 40996,
+      "class": "EXACT_PREVIOUS_ORIGINAL_BODY"
+    }
+  ]
+}
