@@ -1,0 +1,526 @@
+{
+  "stage": "X20",
+  "scope": "exactly 90s planned anonymous observation of public same-origin routes",
+  "stats": {
+    "startedUtc": "2026-11-20T00:59:30.555Z",
+    "maxObservationSeconds": 90,
+    "memoryEmergencyMiB": 100,
+    "browser": "existing Chrome for Testing 157",
+    "priorLedger": "X01-X19 78 normalized paths",
+    "newBrowserOrPluginInstall": false,
+    "endedUtc": "2026-11-20T01:01:01.259Z",
+    "observationElapsedSeconds": 91,
+    "uniqueObservedFirstPartyPaths": 52,
+    "knownPathsObserved": 52,
+    "newPathCandidates": 0,
+    "capturedBodies": 46,
+    "storedNewPrivateBytes": 4753866,
+    "bodyClassifications": {
+      "KNOWN_PATH_SAME_SHA": 44,
+      "KNOWN_PATH_NEW_BODY_VARIANT_CANDIDATE": 1,
+      "KNOWN_PATH_FIRST_VERIFIED_BODY_CANDIDATE": 1
+    },
+    "networkStatuses": {
+      "200": 169
+    },
+    "initiatorPairs": 50,
+    "jsWithDeclaredSourceMaps": 0,
+    "minFreeMemoryMiB": 965,
+    "stopReason": "COMPLETED_90S",
+    "issues": 1
+  },
+  "newPathCandidates": [],
+  "newAndChangedBodyCandidates": [
+    {
+      "url": "https://www.gladeye.com/work",
+      "mime": "text/html",
+      "bytes": 957351,
+      "sha256": "2f08481df4a24a2fab50c212501fc042448d115bab306be3bb670c40ff2f1d66",
+      "classification": "KNOWN_PATH_NEW_BODY_VARIANT_CANDIDATE",
+      "previousFirstSeen": "X01"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/image",
+      "mime": "image/webp",
+      "bytes": 182,
+      "sha256": "810a5accd053237353a62a9be4c6139d01ebb576bd07d415cdf0cde23fcd4593",
+      "classification": "KNOWN_PATH_FIRST_VERIFIED_BODY_CANDIDATE",
+      "previousFirstSeen": "X09"
+    }
+  ],
+  "knownPathByteIdentityCounts": {
+    "KNOWN_PATH_SAME_SHA": 44,
+    "KNOWN_PATH_NEW_BODY_VARIANT_CANDIDATE": 1,
+    "KNOWN_PATH_FIRST_VERIFIED_BODY_CANDIDATE": 1
+  },
+  "initiatorEdges": [
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/",
+      "to": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "to": "https://www.gladeye.com/_next/static/media/soehne-kraftig.9c83d0e0.woff2",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "to": "https://www.gladeye.com/_next/static/media/epicene-text-light.0650b0f0.woff2",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "to": "https://www.gladeye.com/_next/static/media/soehne-leicht.31cd3571.woff2",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/567-6466d5cc81546a43.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/419-c9aec889e32d9e7b.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/131-8efcfd03f067c029.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/4b5b508e-6dceef0b9f02cb18.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/8-5234b317a5794281.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/785-3ec288b614fa287f.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/app/not-found-9264994d34f7485d.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/596-40a806be0d0d2bb3.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/app/page-4c279de0997d388f.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "to": "https://www.gladeye.com/valley/audio/ge-ambient.mp3",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+      "to": "https://www.gladeye.com/valley/camera-path07.glb",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/about",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "to": "https://www.gladeye.com/_next/static/media/epicene-text-light-italic.bab9dcbf.woff2",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/work",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "to": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "to": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+      "count": 2
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+      "to": "https://www.gladeye.com/_next/static/media/soehne-buch.5a88e093.woff2",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/work",
+      "to": "https://www.gladeye.com/_next/image",
+      "count": 82
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/work/where-opportunity-takes-root",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/work/into-the-amazon",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/work/the-dj-and-the-war-crimes",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+      "to": "https://www.gladeye.com/work/hypercinema",
+      "count": 1
+    },
+    {
+      "from": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+      "to": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+      "count": 1
+    }
+  ],
+  "samples": [
+    {
+      "label": "home_initial",
+      "elapsedSeconds": 7,
+      "url": "https://www.gladeye.com/",
+      "freeRamMiB": 1439,
+      "dom": {
+        "canvasCount": 1,
+        "canvas": [
+          {
+            "w": 1280,
+            "h": 720,
+            "clientW": 1280,
+            "clientH": 720
+          }
+        ],
+        "scrollY": 0,
+        "scrollHeight": 720,
+        "animationCount": 7,
+        "images": 0,
+        "scriptTags": 7,
+        "resourceEntries": 35,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": true
+      }
+    },
+    {
+      "label": "pointer_left_right",
+      "elapsedSeconds": 19,
+      "url": "https://www.gladeye.com/",
+      "freeRamMiB": 993,
+      "dom": {
+        "canvasCount": 1,
+        "canvas": [
+          {
+            "w": 1280,
+            "h": 720,
+            "clientW": 1280,
+            "clientH": 720
+          }
+        ],
+        "scrollY": 0,
+        "scrollHeight": 720,
+        "animationCount": 42,
+        "images": 0,
+        "scriptTags": 7,
+        "resourceEntries": 50,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": true
+      }
+    },
+    {
+      "label": "scroll_first",
+      "elapsedSeconds": 32,
+      "url": "https://www.gladeye.com/",
+      "freeRamMiB": 986,
+      "dom": {
+        "canvasCount": 1,
+        "canvas": [
+          {
+            "w": 1280,
+            "h": 720,
+            "clientW": 1280,
+            "clientH": 720
+          }
+        ],
+        "scrollY": 0,
+        "scrollHeight": 720,
+        "animationCount": 42,
+        "images": 0,
+        "scriptTags": 7,
+        "resourceEntries": 50,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": true
+      }
+    },
+    {
+      "label": "scroll_second",
+      "elapsedSeconds": 45,
+      "url": "https://www.gladeye.com/",
+      "freeRamMiB": 1382,
+      "dom": {
+        "canvasCount": 1,
+        "canvas": [
+          {
+            "w": 1280,
+            "h": 720,
+            "clientW": 1280,
+            "clientH": 720
+          }
+        ],
+        "scrollY": 0,
+        "scrollHeight": 720,
+        "animationCount": 42,
+        "images": 0,
+        "scriptTags": 7,
+        "resourceEntries": 50,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": true
+      }
+    },
+    {
+      "label": "pointer_reversal",
+      "elapsedSeconds": 59,
+      "url": "https://www.gladeye.com/",
+      "freeRamMiB": 1403,
+      "dom": {
+        "canvasCount": 1,
+        "canvas": [
+          {
+            "w": 1280,
+            "h": 720,
+            "clientW": 1280,
+            "clientH": 720
+          }
+        ],
+        "scrollY": 0,
+        "scrollHeight": 720,
+        "animationCount": 42,
+        "images": 0,
+        "scriptTags": 7,
+        "resourceEntries": 50,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": true
+      }
+    },
+    {
+      "label": "work_route",
+      "elapsedSeconds": 70,
+      "url": "https://www.gladeye.com/work",
+      "freeRamMiB": 1368,
+      "dom": {
+        "canvasCount": 0,
+        "canvas": [],
+        "scrollY": 0,
+        "scrollHeight": 6925,
+        "animationCount": 0,
+        "images": 82,
+        "scriptTags": 5,
+        "resourceEntries": 40,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": false
+      }
+    },
+    {
+      "label": "work_hover_scroll",
+      "elapsedSeconds": 79,
+      "url": "https://www.gladeye.com/work",
+      "freeRamMiB": 1247,
+      "dom": {
+        "canvasCount": 0,
+        "canvas": [],
+        "scrollY": 0,
+        "scrollHeight": 6925,
+        "animationCount": 6,
+        "images": 42,
+        "scriptTags": 8,
+        "resourceEntries": 123,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": false
+      }
+    },
+    {
+      "label": "work_final",
+      "elapsedSeconds": 87,
+      "url": "https://www.gladeye.com/work",
+      "freeRamMiB": 1097,
+      "dom": {
+        "canvasCount": 0,
+        "canvas": [],
+        "scrollY": 330,
+        "scrollHeight": 6925,
+        "animationCount": 1,
+        "images": 41,
+        "scriptTags": 8,
+        "resourceEntries": 144,
+        "viewport": [
+          1280,
+          720
+        ],
+        "hasWebGLCanvas": false
+      }
+    }
+  ],
+  "issues": [
+    {
+      "kind": "BODY_READ_UNAVAILABLE",
+      "detail": "https://www.gladeye.com/valley/audio/ge-ambient.mp3 ProtocolError"
+    }
+  ],
+  "caveats": [
+    "Client-side ordinary page JavaScript runs in isolated Chrome, not Node VM",
+    "No session credentials, request/response headers, query values or cookies stored",
+    "CDP response body is decoded API content, not guaranteed wire-exact HTTP raw body",
+    "No original source maps, authoring source, private backend or GPU shader provenance guaranteed",
+    "New path alone is not a new file; compare SHA+URL+first-seen before promotion"
+  ]
+}

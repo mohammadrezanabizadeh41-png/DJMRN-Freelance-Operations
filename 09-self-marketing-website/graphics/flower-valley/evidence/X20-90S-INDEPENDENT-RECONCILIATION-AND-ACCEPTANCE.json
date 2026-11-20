@@ -1,0 +1,137 @@
+{
+  "stage": "X20",
+  "date_utc": "2026-11-20T01:06:46.027555+00:00",
+  "scope": "owner-directed 90s anonymous first-party site observation and offline X19 structural reconciliation",
+  "prior_canonical": {
+    "stage": "X01-X19",
+    "paths": 78,
+    "network_observed_paths": 72,
+    "offline_derived_only_paths": 6,
+    "original_body_verified_paths": 69
+  },
+  "live": {
+    "observation_window_seconds": 90,
+    "elapsed_including_cleanup_rounded_seconds": 91,
+    "response_events": 169,
+    "distinct_site_paths": 52,
+    "repeated_site_paths": 52,
+    "new_site_paths": 0,
+    "downloaded_bytes_private_total": 4753866,
+    "body_hashes_checked": 46,
+    "prior_sha_matches": 44,
+    "initiator_edges_observed": 50,
+    "initiator_edges_repeated_x16": 50,
+    "initiator_edges_new_vs_x16": 0,
+    "source_map_declarations": 0,
+    "samples": 8,
+    "min_sampled_ram_mib": 965,
+    "stop_reason": "COMPLETED_90S",
+    "issues": [
+      {
+        "kind": "BODY_READ_UNAVAILABLE",
+        "detail": "https://www.gladeye.com/valley/audio/ge-ambient.mp3 ProtocolError"
+      }
+    ]
+  },
+  "body_deltas": [
+    {
+      "url": "https://www.gladeye.com/work",
+      "category": "SUPPLEMENTARY_KNOWN_ROUTE_HTML_BYTE_VARIANT",
+      "sha256": "2f08481df4a24a2fab50c212501fc042448d115bab306be3bb670c40ff2f1d66",
+      "bytes": 957351,
+      "prior_observed_shas": [
+        "180191997ba64a9dab94e70bea2f550d6a59141e2779fd2c6cca746e976d5f5a"
+      ],
+      "prior_observed_sizes": [
+        648224
+      ],
+      "assertion": "new observed CDP-decoded HTML body on an already-known URL, not a new asset URL or necessarily new authored component"
+    },
+    {
+      "url": "https://www.gladeye.com/_next/image",
+      "category": "SUPPLEMENTARY_FIRST_CDP_BODY_FOR_PREVIOUSLY_KNOWN_QUERY_SENSITIVE_ENDPOINT",
+      "sha256": "810a5accd053237353a62a9be4c6139d01ebb576bd07d415cdf0cde23fcd4593",
+      "bytes": 182,
+      "format": "WEBP VP8",
+      "dimensions": [
+        20,
+        15
+      ],
+      "assertion": "new body evidence on an existing URL path; exact request query intentionally not captured, no URL-level path novelty or raw-wire equivalence assumed"
+    }
+  ],
+  "semantic": {
+    "prior_rea": "5/5 candidate modules analyzed, 23/23 prior independent acceptance; module 6375 intentionally truncated",
+    "wakaru_version": "1.17.0",
+    "wakaru_webpack5_page_modules": 22,
+    "wakaru_corresponding_x19_modules": 22,
+    "wakaru_net_new_orig_modules": 0,
+    "wakaru_rsc_rows": 24,
+    "wakaru_rsc_assets": 23,
+    "wakaru_rsc_scripts": 5,
+    "wakaru_rsc_issues": 0,
+    "wakaru_rsc_known_url_references": 28,
+    "ast_grep_version": "0.51.3",
+    "ast_patterns": 8,
+    "ast_raw_hits_with_top_level_duplicates": 301,
+    "ast_derived_module_hits": 150,
+    "ast_distinct_derived_module_paths_hit": 27
+  },
+  "canonical_update": {
+    "x01_x19_original_canonical_path_count_unchanged": 78,
+    "new_network_path_count": 0,
+    "new_original_js_file_paths": 0,
+    "new_original_glb_or_texture_url_paths": 0,
+    "new_initiator_pairs": 0,
+    "reason": "Only same-path supplemental observed byte variants and new semantic views; no evidence to promote original path denominator, and query-sensitive image endpoint lacks exact request-key identity."
+  },
+  "constraints": [
+    "Site-issued JS executed only in an isolated, anonymous Chrome browsing context as normal site behavior; no imported vendor JS evaluated in REA/Node.",
+    "No credentials, cookies, request-header values, query-string values, private backend or third-party analytics bodies captured.",
+    "Network response bytes are CDP-decoded content, not proven wire-exact HTTP bodies.",
+    "X20 observed page state does not expose genuine GPU render commands or unpublished source.",
+    "No private source, decoded RSC, vendor body or transformed JS will be published to GitHub.",
+    "The 90-second window does not assert exhaustive coverage of the reference site.",
+    "One original MP3 body read was unavailable; the known MP3 URL is not a new asset.",
+    "Six offline-derived legacy paths remain distinct from verified network paths."
+  ],
+  "checks": {
+    "baseline_78_paths": true,
+    "browser_completed_90s": true,
+    "browser_8_samples": true,
+    "browser_52_known_paths": true,
+    "browser_zero_new_paths": true,
+    "browser_response_count_169": true,
+    "browser_50_initiator_edges": true,
+    "all_x20_edges_repeat_x16": true,
+    "no_new_script_sourcemap": true,
+    "memory_guard_passed": true,
+    "observed_two_routes": true,
+    "home_canvas_seen": true,
+    "work_canvas_absent_sampled": true,
+    "all_46_body_files_sha_and_sizes": true,
+    "44_exact_known_sha": true,
+    "one_known_url_changed_body": true,
+    "one_first_captured_body_known_url": true,
+    "work_html_variant_sha_diff": true,
+    "webp_20x15_valid_riff": true,
+    "webp_renamed_correctly": true,
+    "wakaru_22_matches_x19": true,
+    "wakaru_provenance_file": true,
+    "rsc_24_rows_zero_problems": true,
+    "rsc_23_assets_5_scripts": true,
+    "all_28_rsc_references_resolved_to_x19": true,
+    "ast_8_sweeps_executed": true,
+    "ast_301_raw_hits": true,
+    "ast_150_module_only_hits": true,
+    "ast_zero_scan_errors": true,
+    "prior_rea_23_gates_pass": true,
+    "rea_five_verified_candidates": true,
+    "rea_heavy_module_limits_declared": true,
+    "one_audio_body_read_issue_disclosed": true,
+    "no_secret_export": true
+  },
+  "checks_passed": 34,
+  "checks_total": 34,
+  "result": "COMPLETE_SCOPE_QUALIFIED"
+}

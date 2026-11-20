@@ -1,0 +1,253 @@
+{
+  "stage": "X20",
+  "tool": "ast-grep 0.51.3 Windows x64 official release, CLI static AST only",
+  "input": "X19 457 derived module files in 34 static folders; no vendor runtime executed",
+  "duration_total_seconds": 19.22,
+  "cases": [
+    {
+      "name": "pointer_or_event_listener",
+      "pattern": "$O.addEventListener($EV,$FN)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 203,
+      "unique_module_basenames": 21,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          102
+        ],
+        [
+          "2321.js",
+          29
+        ],
+        [
+          "6375.js",
+          19
+        ],
+        [
+          "7854.js",
+          8
+        ],
+        [
+          "5828.js",
+          8
+        ],
+        [
+          "4417.js",
+          8
+        ],
+        [
+          "3015.js",
+          4
+        ],
+        [
+          "889.js",
+          4
+        ],
+        [
+          "5879.js",
+          4
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 8.45,
+      "output_sha256": "d21a5e726fd8d0bfb1559b1d5512d1c0172854bc4b212f12268ce6723a01990f",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "scene_position_vector",
+      "pattern": "$O.position.set($X,$Y,$Z)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 6,
+      "unique_module_basenames": 2,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          3
+        ],
+        [
+          "4863.js",
+          3
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.53,
+      "output_sha256": "d5621a565ef20e2c33c1b82b0726530563357cb5d89d36ec040dc3e443baced9",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "renderer_two_arguments",
+      "pattern": "$O.render($SCENE,$CAMERA)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 36,
+      "unique_module_basenames": 6,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          18
+        ],
+        [
+          "6375.js",
+          12
+        ],
+        [
+          "362.js",
+          2
+        ],
+        [
+          "889.js",
+          2
+        ],
+        [
+          "9136.js",
+          1
+        ],
+        [
+          "1579.js",
+          1
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.53,
+      "output_sha256": "0ed64b9157fcb4e9c627811427270ad8afc84bded0212ac0499067011aa3ac44",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "webgl_context_request",
+      "pattern": "$O.getContext($T)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 12,
+      "unique_module_basenames": 3,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          6
+        ],
+        [
+          "6375.js",
+          4
+        ],
+        [
+          "5828.js",
+          2
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.53,
+      "output_sha256": "ac5c94a0b0c49838eb503a5fdd9b2425cdf111fb55f64fb46f358a3945b2c1b0",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "loader_async",
+      "pattern": "$O.loadAsync($PATH)",
+      "status": "EXITED",
+      "exit_code": 1,
+      "matches": 0,
+      "unique_module_basenames": 0,
+      "top_module_ids": [],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.51,
+      "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "loader_with_callbacks",
+      "pattern": "$O.load($PATH,$$$REST)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 28,
+      "unique_module_basenames": 7,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          14
+        ],
+        [
+          "4863.js",
+          3
+        ],
+        [
+          "889.js",
+          3
+        ],
+        [
+          "6375.js",
+          3
+        ],
+        [
+          "6137.js",
+          2
+        ],
+        [
+          "5339.js",
+          2
+        ],
+        [
+          "1559.js",
+          1
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.53,
+      "output_sha256": "28303e9b315f8080781edef1dae24a16f5fcd5adefecab50d2c3daf54ca83c87",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "raf_scheduling",
+      "pattern": "requestAnimationFrame($CALLBACK)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 10,
+      "unique_module_basenames": 3,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          5
+        ],
+        [
+          "2321.js",
+          3
+        ],
+        [
+          "2649.js",
+          2
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.53,
+      "output_sha256": "5b4fb855d29892b628d63c1beeb2809aa1e4a91564ad9e88558df89990bfd0b1",
+      "min_ram_not_measured": true
+    },
+    {
+      "name": "animation_loop",
+      "pattern": "$O.setAnimationLoop($CALLBACK)",
+      "status": "EXITED",
+      "exit_code": 0,
+      "matches": 6,
+      "unique_module_basenames": 2,
+      "top_module_ids": [
+        [
+          "deobfuscated.js",
+          3
+        ],
+        [
+          "6375.js",
+          3
+        ]
+      ],
+      "bad_json_records": 0,
+      "runtime_seconds": 1.55,
+      "output_sha256": "3a7c33a1cc20180588b923804a2f3d944280ef79a6263f84eb0eedb1da2bd6bf",
+      "min_ram_not_measured": true
+    }
+  ],
+  "limitations": [
+    "Patterns are syntax-level candidates, not behavior verification.",
+    "Module basename is reused across chunks: full input path+SHA needed for identity.",
+    "Raw snippet matches retained only on owner laptop.",
+    "No proof that all possible behaviors or 457 modules are covered by these eight patterns."
+  ]
+}
