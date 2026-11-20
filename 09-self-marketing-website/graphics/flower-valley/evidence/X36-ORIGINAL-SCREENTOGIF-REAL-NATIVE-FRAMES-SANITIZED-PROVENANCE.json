@@ -1,0 +1,1115 @@
+{
+  "stage": "X36",
+  "recorder": "ScreenToGif FULL portable 2.43.2 native screen recorder, independently persisted to real on-disk image files",
+  "captureProvenance": "original ScreenToGif cache directory selected by actual post-observation file time and frame count",
+  "observedStartUTC": "2026-11-20T21:36:39.449Z",
+  "siteObservedSeconds": 90.008,
+  "sourceCacheFolderPrivateOnly": true,
+  "ownerFrameFolder": "01-private-captures/X36/SCREEN-TO-GIF-REAL-FRAMES",
+  "frameCount": 108,
+  "uniqueFrameHashCount": 108,
+  "imageWidth": 875,
+  "imageHeight": 512,
+  "requestedMaxFPS": 6,
+  "requestedTimeLimitSeconds": 32,
+  "noExactCapturePTSClaim": true,
+  "frameFirstSourceMtimeUTC": "2026-11-20T21:40:17.750963+00:00",
+  "frameLastSourceMtimeUTC": "2026-11-20T21:40:35.566081+00:00",
+  "sumBytes": 58405606,
+  "firstSHA256": "be657fe27073666b7dfc600f549e39e2f8a04b0de2795af5fb71cb45035b5209",
+  "lastSHA256": "a47becb48c5cb69011b75871b7578cb7ecd0b384dc3cf5ea70d736079aeb76c5",
+  "frameMetadata": [
+    {
+      "index": 0,
+      "originalCacheName": "1.png",
+      "sourceBytes": 543658,
+      "SHA256": "be657fe27073666b7dfc600f549e39e2f8a04b0de2795af5fb71cb45035b5209",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:17.750963+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00000.png"
+    },
+    {
+      "index": 1,
+      "originalCacheName": "2.png",
+      "sourceBytes": 550133,
+      "SHA256": "8ebce517b62d893795db213027f3416d070d253945f81115a4d58b06c851a1a4",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:17.885999+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00001.png"
+    },
+    {
+      "index": 2,
+      "originalCacheName": "3.png",
+      "sourceBytes": 559106,
+      "SHA256": "fef545e56bb3147ea30173063074854352bde68b76b0351b9179795a1094c9fa",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.046982+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00002.png"
+    },
+    {
+      "index": 3,
+      "originalCacheName": "4.png",
+      "sourceBytes": 570798,
+      "SHA256": "6e5f4edca906a3e986c79119965ab257c7b871d421c99428f9cc08af28b6d23d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.257089+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00003.png"
+    },
+    {
+      "index": 4,
+      "originalCacheName": "5.png",
+      "sourceBytes": 582986,
+      "SHA256": "5d9510cefbd8f313d07918284988a1976f3cbf3819469549fd57834dd8cc8c44",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.395620+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00004.png"
+    },
+    {
+      "index": 5,
+      "originalCacheName": "6.png",
+      "sourceBytes": 585647,
+      "SHA256": "a58130a77d83f1e3f6ca8536337d7b609a65fd45291b4d689650836e36ca2f01",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.540833+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00005.png"
+    },
+    {
+      "index": 6,
+      "originalCacheName": "7.png",
+      "sourceBytes": 609139,
+      "SHA256": "c5a9487989f4bcec2b2c2d75030fb7e856aeed0a70b341de98770c3024077cb9",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.708364+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00006.png"
+    },
+    {
+      "index": 7,
+      "originalCacheName": "8.png",
+      "sourceBytes": 604444,
+      "SHA256": "872b2d52507fc7cd20fc43fa00e783db45fbc82ecad4a5aa6b2a8601bf90dc3a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:18.882143+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00007.png"
+    },
+    {
+      "index": 8,
+      "originalCacheName": "9.png",
+      "sourceBytes": 586203,
+      "SHA256": "991b786881b2bf0dca933fe5700f9d78dc6d45a18ae30c111651c05e786c5434",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.054737+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00008.png"
+    },
+    {
+      "index": 9,
+      "originalCacheName": "10.png",
+      "sourceBytes": 577737,
+      "SHA256": "d81fd5c8d4e3fb84af2adcdeba8360f96bf62e3767c420089719750d705201d9",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.216176+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00009.png"
+    },
+    {
+      "index": 10,
+      "originalCacheName": "11.png",
+      "sourceBytes": 578774,
+      "SHA256": "a3f934c86cee563a6ec436ad07087da997b0c24d4caac2cb7a009ee0d198e1dc",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.385237+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00010.png"
+    },
+    {
+      "index": 11,
+      "originalCacheName": "12.png",
+      "sourceBytes": 578080,
+      "SHA256": "2b8155557912cf2e0cac31fbc072e89cefcba6c611fdd6b917e5b88cc72d155b",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.549325+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00011.png"
+    },
+    {
+      "index": 12,
+      "originalCacheName": "13.png",
+      "sourceBytes": 592141,
+      "SHA256": "57aae3911f3a67c962a60ab8462c101ce059098d6995a7a209134e9e158e69a9",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.715418+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00012.png"
+    },
+    {
+      "index": 13,
+      "originalCacheName": "14.png",
+      "sourceBytes": 626825,
+      "SHA256": "6d643c515d51e10e4db420da8f697ba90d07954f045b14f006a183d85cfaecc7",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:19.868792+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00013.png"
+    },
+    {
+      "index": 14,
+      "originalCacheName": "15.png",
+      "sourceBytes": 636655,
+      "SHA256": "c77d0ac5f556eb0d09408e6a49f823b0d34e199d671795d04ee2fd62b1ce1ffd",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.077982+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00014.png"
+    },
+    {
+      "index": 15,
+      "originalCacheName": "16.png",
+      "sourceBytes": 573999,
+      "SHA256": "35d69b641e3110a5d46e8cf6e17e56d9941f6e8c05d864a92fa9c4cd05290431",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.223515+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00015.png"
+    },
+    {
+      "index": 16,
+      "originalCacheName": "17.png",
+      "sourceBytes": 552333,
+      "SHA256": "8b955d704cb6aa4567cb468a74219b718702968d86336d05fc120b0b29d742ce",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.396339+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00016.png"
+    },
+    {
+      "index": 17,
+      "originalCacheName": "18.png",
+      "sourceBytes": 545972,
+      "SHA256": "bfc79be612dd28b69c0c7a8186e2ba73b92f1bb9323ad96e3ebdcead12d13bbd",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.555128+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00017.png"
+    },
+    {
+      "index": 18,
+      "originalCacheName": "19.png",
+      "sourceBytes": 548820,
+      "SHA256": "97579d7f0e3c9991c6083c67ce3637abbe71635107056afb1c0116cf10ca3f23",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.755367+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00018.png"
+    },
+    {
+      "index": 19,
+      "originalCacheName": "20.png",
+      "sourceBytes": 543298,
+      "SHA256": "dd0f161d5c44a9029ba90368c377fc6e347cc4587b7c71ab2a11190606423e17",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:20.901525+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00019.png"
+    },
+    {
+      "index": 20,
+      "originalCacheName": "21.png",
+      "sourceBytes": 532304,
+      "SHA256": "296f856329ffb1c704f1deac9628db13d62bc9caac604a0fbc41780f26773ed7",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.071651+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00020.png"
+    },
+    {
+      "index": 21,
+      "originalCacheName": "22.png",
+      "sourceBytes": 532819,
+      "SHA256": "53b10730051a075cadc9bfae662ff0731f89ecbf3a40c8860b7372b165c50321",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.258363+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00021.png"
+    },
+    {
+      "index": 22,
+      "originalCacheName": "23.png",
+      "sourceBytes": 536766,
+      "SHA256": "91600e02cd5efc078e80efd4f766a64bdb4b6b60d9c342b81949e346fd4a90f8",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.402907+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00022.png"
+    },
+    {
+      "index": 23,
+      "originalCacheName": "24.png",
+      "sourceBytes": 542132,
+      "SHA256": "c5fb92525348d9231f4b2c8db0c90751ebc839b7149cb1bb7a77dbbd96b551c9",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.545506+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00023.png"
+    },
+    {
+      "index": 24,
+      "originalCacheName": "25.png",
+      "sourceBytes": 547606,
+      "SHA256": "c2fea29de976c8930d12e0d144cda3b56f007cc2731a88ad9bfa57e80db1789f",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.719778+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00024.png"
+    },
+    {
+      "index": 25,
+      "originalCacheName": "26.png",
+      "sourceBytes": 549373,
+      "SHA256": "b99c1e1034d9a7ba344a949c0de585095fc745051f8f1ab8cc6d1c1f799737d6",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:21.885743+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00025.png"
+    },
+    {
+      "index": 26,
+      "originalCacheName": "27.png",
+      "sourceBytes": 554643,
+      "SHA256": "342d3347f136b82449697879c16064095c0ec5529dfa81ee3f08a11505f41964",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.075148+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00026.png"
+    },
+    {
+      "index": 27,
+      "originalCacheName": "28.png",
+      "sourceBytes": 546765,
+      "SHA256": "deba0270aae12aef49e0138a59877b52fa11ee31b1566b99ec8a779a8804fbcb",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.211957+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00027.png"
+    },
+    {
+      "index": 28,
+      "originalCacheName": "29.png",
+      "sourceBytes": 550570,
+      "SHA256": "83033980edaa7ff1858778b22cd29f5b2cd81338852d4330017acf3058a20a36",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.402789+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00028.png"
+    },
+    {
+      "index": 29,
+      "originalCacheName": "30.png",
+      "sourceBytes": 558583,
+      "SHA256": "882f5e31762e78cb4b8a9ecd81c26d71f23a15812304c0aa4303ec88961b3f12",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.549987+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00029.png"
+    },
+    {
+      "index": 30,
+      "originalCacheName": "31.png",
+      "sourceBytes": 569112,
+      "SHA256": "83be79a368b8d68ffa9400954ce5fbaf78a681e7e752f1eb3897567d73ee7823",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.742346+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00030.png"
+    },
+    {
+      "index": 31,
+      "originalCacheName": "32.png",
+      "sourceBytes": 573243,
+      "SHA256": "534c7db208aa33692979675537bdff8fa5e0f76595caf422de9d771c7037cc62",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:22.886952+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00031.png"
+    },
+    {
+      "index": 32,
+      "originalCacheName": "33.png",
+      "sourceBytes": 575544,
+      "SHA256": "f168e71c9a7ee9d05139277d0744f359eb140b12b7e7be64f45e844e1dc25d3d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.053072+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00032.png"
+    },
+    {
+      "index": 33,
+      "originalCacheName": "34.png",
+      "sourceBytes": 576090,
+      "SHA256": "6fdb2f51784734beb6446eb4a60703d6358d84e05e1b301e2ffc53f8e87a1279",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.231596+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00033.png"
+    },
+    {
+      "index": 34,
+      "originalCacheName": "35.png",
+      "sourceBytes": 581359,
+      "SHA256": "9bc7d15da8a8022359fe3794dcb05e6d83fe48e76c535092120c0e5a66cacb46",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.380931+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00034.png"
+    },
+    {
+      "index": 35,
+      "originalCacheName": "36.png",
+      "sourceBytes": 574805,
+      "SHA256": "81839f34920d8c7c283cf9d18ed055d564d93ac92087a547f2c1a998caf6f852",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.550926+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00035.png"
+    },
+    {
+      "index": 36,
+      "originalCacheName": "37.png",
+      "sourceBytes": 556602,
+      "SHA256": "015e78b1d7cf4eb79ad400494a055861f06cb9841035b00b4fee5fc6902c4c0e",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.718515+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00036.png"
+    },
+    {
+      "index": 37,
+      "originalCacheName": "38.png",
+      "sourceBytes": 548231,
+      "SHA256": "367d887bb34ea6c10733ddc82adc1aeb120952b6c51d998d7f5b72a90a0156b0",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:23.892725+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00037.png"
+    },
+    {
+      "index": 38,
+      "originalCacheName": "39.png",
+      "sourceBytes": 545183,
+      "SHA256": "ab471622226e0db6f15e585813b9ccc8580b223af04730dbd3a9130a9cad97ae",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.087308+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00038.png"
+    },
+    {
+      "index": 39,
+      "originalCacheName": "40.png",
+      "sourceBytes": 539129,
+      "SHA256": "fa2b3b11e4b5937e2e3583f4c51ab8c5b07d3e7087e0046ab7b9e61d07e9e880",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.214277+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00039.png"
+    },
+    {
+      "index": 40,
+      "originalCacheName": "41.png",
+      "sourceBytes": 535044,
+      "SHA256": "81ddf6918df3a68810b7f7aaacb232d1e53ae5ab041d94c91af5883736ba92c2",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.390924+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00040.png"
+    },
+    {
+      "index": 41,
+      "originalCacheName": "42.png",
+      "sourceBytes": 528322,
+      "SHA256": "63161b6751c8a9d66f40178224038746b0f698a348dd2dc3cd7bd77dc1ab0081",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.545164+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00041.png"
+    },
+    {
+      "index": 42,
+      "originalCacheName": "43.png",
+      "sourceBytes": 528242,
+      "SHA256": "0cbfbf9cb45000b2017e2f962e438d208ea93360129ccffb5dc0834111bb1ad1",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.736833+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00042.png"
+    },
+    {
+      "index": 43,
+      "originalCacheName": "44.png",
+      "sourceBytes": 527179,
+      "SHA256": "435acba0009026a6d8c50cb00ed939017c15e80e00cc04a30ffdfe25c2a7c219",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:24.891440+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00043.png"
+    },
+    {
+      "index": 44,
+      "originalCacheName": "45.png",
+      "sourceBytes": 530236,
+      "SHA256": "bbe3e9a1a0385579bf7aa2178d54f31a58d2a541cdd1fd53870cfdcca38f4cf2",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.045597+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00044.png"
+    },
+    {
+      "index": 45,
+      "originalCacheName": "46.png",
+      "sourceBytes": 527254,
+      "SHA256": "fdea6ee000a39563990e88b6bf0d70eff324f1b1280bc006287fcb1f11907cf1",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.220426+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00045.png"
+    },
+    {
+      "index": 46,
+      "originalCacheName": "47.png",
+      "sourceBytes": 527306,
+      "SHA256": "01672e2e6722d02b000711e733ec1188bc24368a44edc4ed8bea0da5557f8ec3",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.402317+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00046.png"
+    },
+    {
+      "index": 47,
+      "originalCacheName": "48.png",
+      "sourceBytes": 529328,
+      "SHA256": "e01882b8b757e5ba46d82272cf5a9f76f69eb258e420ab54b3fb0c39ea3cbb96",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.568249+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00047.png"
+    },
+    {
+      "index": 48,
+      "originalCacheName": "49.png",
+      "sourceBytes": 531144,
+      "SHA256": "263cc6ea04d975dfa150ccd3b69e4dca7f6429a1a0e55849cd9fd18feff1351d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.744111+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00048.png"
+    },
+    {
+      "index": 49,
+      "originalCacheName": "50.png",
+      "sourceBytes": 537608,
+      "SHA256": "56207098572ebdd8077aadf22d99464503052e04e10b0212d6da7140404ed0b6",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:25.899462+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00049.png"
+    },
+    {
+      "index": 50,
+      "originalCacheName": "51.png",
+      "sourceBytes": 545754,
+      "SHA256": "3d57fbaf61da03396f63fd954d12031445e75f6d095d397974ca79b4e78f761a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.096496+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00050.png"
+    },
+    {
+      "index": 51,
+      "originalCacheName": "52.png",
+      "sourceBytes": 549046,
+      "SHA256": "23737ed8d47ff742ffea34bee3b8bee67cc754e1fd129e2636e2a6053aa3a866",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.240034+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00051.png"
+    },
+    {
+      "index": 52,
+      "originalCacheName": "53.png",
+      "sourceBytes": 551713,
+      "SHA256": "5acc022b5f1730822b4245336d088ccdc7b1772b54a33efb1b856109411f28d3",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.403623+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00052.png"
+    },
+    {
+      "index": 53,
+      "originalCacheName": "54.png",
+      "sourceBytes": 547156,
+      "SHA256": "9c052185b85e5dc9466b715afb9880560b6687a68e2d4dcaa8254930fcce6cdd",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.572320+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00053.png"
+    },
+    {
+      "index": 54,
+      "originalCacheName": "55.png",
+      "sourceBytes": 538292,
+      "SHA256": "bc6ebd70c308e7a79f5f95487e58ed37dd2341b551c0b26ea7bba562bbbfb4fa",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.733797+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00054.png"
+    },
+    {
+      "index": 55,
+      "originalCacheName": "56.png",
+      "sourceBytes": 528333,
+      "SHA256": "7d843918312c4a655e9444733c2bb15857bb41d129596b0642af017ff5ff654b",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:26.897233+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00055.png"
+    },
+    {
+      "index": 56,
+      "originalCacheName": "57.png",
+      "sourceBytes": 528196,
+      "SHA256": "13c1193a4ab498762ff8855df72be0f81432f07e9894da30d6927373970a2cff",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.062544+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00056.png"
+    },
+    {
+      "index": 57,
+      "originalCacheName": "58.png",
+      "sourceBytes": 529789,
+      "SHA256": "095caa439db5cb025671f45f3fbe75b5592fad3d6eafc278f6e8e7d18073f1b2",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.234194+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00057.png"
+    },
+    {
+      "index": 58,
+      "originalCacheName": "59.png",
+      "sourceBytes": 526495,
+      "SHA256": "19a6c1dbc0de926d4eccaf9687e8c7e8f5adcc400226b64c274d41ddaecada62",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.417057+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00058.png"
+    },
+    {
+      "index": 59,
+      "originalCacheName": "60.png",
+      "sourceBytes": 524832,
+      "SHA256": "ce96d1f5396ea8ef6a71ddbd5da1e165687e09176e742f8c29e0b6c576b729a0",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.556239+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00059.png"
+    },
+    {
+      "index": 60,
+      "originalCacheName": "61.png",
+      "sourceBytes": 527107,
+      "SHA256": "8edbf8946202d11669f86777a4609245ec6866f6e9bd5a13df3a41eee14e5403",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.728592+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00060.png"
+    },
+    {
+      "index": 61,
+      "originalCacheName": "62.png",
+      "sourceBytes": 522183,
+      "SHA256": "5fb323e311b86d004792c2d8d4f0627172657d56a761ec2b2dc0a8e8f79c0832",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:27.906158+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00061.png"
+    },
+    {
+      "index": 62,
+      "originalCacheName": "63.png",
+      "sourceBytes": 530284,
+      "SHA256": "6af5dd488b61ab51265bd766df4b834230b9c03007e26757604d5fdcfc476373",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.072945+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00062.png"
+    },
+    {
+      "index": 63,
+      "originalCacheName": "64.png",
+      "sourceBytes": 541540,
+      "SHA256": "c3ed351476a024f78eb325ecd9a36e61c37de3c5bfe227a455ee9dc7fc72c662",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.227459+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00063.png"
+    },
+    {
+      "index": 64,
+      "originalCacheName": "65.png",
+      "sourceBytes": 541746,
+      "SHA256": "94a63845c246921ab70b3392360b482d7a68f336ffa8638261ec2fc37dc1047c",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.406924+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00064.png"
+    },
+    {
+      "index": 65,
+      "originalCacheName": "66.png",
+      "sourceBytes": 530299,
+      "SHA256": "26882380a8f116a42d7855c3fd5fd6ac202b9d6a471d84a583c773aed1021a89",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.568986+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00065.png"
+    },
+    {
+      "index": 66,
+      "originalCacheName": "67.png",
+      "sourceBytes": 531586,
+      "SHA256": "d5a7f85f2c77d871768bba3e705844f5c04b7945555804c4199edf97234fa4d9",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.720076+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00066.png"
+    },
+    {
+      "index": 67,
+      "originalCacheName": "68.png",
+      "sourceBytes": 530815,
+      "SHA256": "3bc1fbd08ef4f0c39528ff9f188200be013c5fdc9d9cd7feb70b2c1b3eb77657",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:28.899852+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00067.png"
+    },
+    {
+      "index": 68,
+      "originalCacheName": "69.png",
+      "sourceBytes": 524883,
+      "SHA256": "073b9a1ea8039600a78b57c0e1dee4fc8870d75f4e5d2c9d0d3ac4348b18399a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.062827+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00068.png"
+    },
+    {
+      "index": 69,
+      "originalCacheName": "70.png",
+      "sourceBytes": 520167,
+      "SHA256": "abf97b650d2b71e326c40dbbde6b72b374cd1821d18bd9445914a836f525b836",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.230626+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00069.png"
+    },
+    {
+      "index": 70,
+      "originalCacheName": "71.png",
+      "sourceBytes": 518640,
+      "SHA256": "ba56dbce03638478290634ba2f98b17ff0fc2e58cfcbd484c6582d551f88b5e4",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.395506+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00070.png"
+    },
+    {
+      "index": 71,
+      "originalCacheName": "72.png",
+      "sourceBytes": 521819,
+      "SHA256": "75be41db8e77d7e2010972f1bca7c7f12d80f0c6213c6cbfb183b3c923d68974",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.576673+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00071.png"
+    },
+    {
+      "index": 72,
+      "originalCacheName": "73.png",
+      "sourceBytes": 521612,
+      "SHA256": "c3e39f0a7cbfb07318fb88e981492c6483575d83846fd614c018a3c71f79809b",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.745672+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00072.png"
+    },
+    {
+      "index": 73,
+      "originalCacheName": "74.png",
+      "sourceBytes": 530033,
+      "SHA256": "cc89e0aa2e238fa2ff9cd16898a29a475a148c947886ce626c257a6580da8de6",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:29.917404+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00073.png"
+    },
+    {
+      "index": 74,
+      "originalCacheName": "75.png",
+      "sourceBytes": 516904,
+      "SHA256": "31f75d12a36c5b9fc48d44f44ecffc7e38f9189554038fa906a36692ff004473",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.086472+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00074.png"
+    },
+    {
+      "index": 75,
+      "originalCacheName": "76.png",
+      "sourceBytes": 516938,
+      "SHA256": "b761cd9d6a16fbc220a6873e94d40cf20f683744f90c9a595b1fb661e50cbb54",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.242995+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00075.png"
+    },
+    {
+      "index": 76,
+      "originalCacheName": "77.png",
+      "sourceBytes": 521574,
+      "SHA256": "16402c80f00f73b447e00961dc040c4b9f874a0089a585bcc134563268612930",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.417186+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00076.png"
+    },
+    {
+      "index": 77,
+      "originalCacheName": "78.png",
+      "sourceBytes": 517498,
+      "SHA256": "a1bfcd05eff01d43be677d0af92bba0525fe4a6aa6bd6568a0f675f8bd92f032",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.605409+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00077.png"
+    },
+    {
+      "index": 78,
+      "originalCacheName": "79.png",
+      "sourceBytes": 510540,
+      "SHA256": "5139f78b1ed020d2cc1972e4af9f6cb4e89ec19c76f4eefda3c77450e8c75ab8",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.745380+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00078.png"
+    },
+    {
+      "index": 79,
+      "originalCacheName": "80.png",
+      "sourceBytes": 508025,
+      "SHA256": "3920ee9b6cfb81cc938a49026f493cd2ada64cfa4259423c2d281257cc8e44e1",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:30.911804+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00079.png"
+    },
+    {
+      "index": 80,
+      "originalCacheName": "81.png",
+      "sourceBytes": 510834,
+      "SHA256": "2b43762c173788c4a5629c41febeb0c4f0a253085e1e0a84a13e4162ea2df3d3",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.079623+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00080.png"
+    },
+    {
+      "index": 81,
+      "originalCacheName": "82.png",
+      "sourceBytes": 518720,
+      "SHA256": "7193620ac2dfa5f73adc509405a45115209e24ed4f1c3a7833bee2010fd6390d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.244625+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00081.png"
+    },
+    {
+      "index": 82,
+      "originalCacheName": "83.png",
+      "sourceBytes": 524801,
+      "SHA256": "32b1a31357e964cc66c095954d8d959fce2f98397fe8fcdc530a836e6b804f38",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.410006+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00082.png"
+    },
+    {
+      "index": 83,
+      "originalCacheName": "84.png",
+      "sourceBytes": 530264,
+      "SHA256": "18577ff62db11ced3af440e6b0c24185ea557aaf755b602f9fe2af90d3bfe65d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.586576+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00083.png"
+    },
+    {
+      "index": 84,
+      "originalCacheName": "85.png",
+      "sourceBytes": 537265,
+      "SHA256": "e7b1035f56314c88cf0393637e036daaf16b416ef9f20e6f5fad2d6f53360dcc",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.753470+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00084.png"
+    },
+    {
+      "index": 85,
+      "originalCacheName": "86.png",
+      "sourceBytes": 539038,
+      "SHA256": "aa19632b9b817f5defbe10646828476d6750f2c7215412ed682c772a4b869d0a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:31.917523+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00085.png"
+    },
+    {
+      "index": 86,
+      "originalCacheName": "87.png",
+      "sourceBytes": 542853,
+      "SHA256": "51c25f5dbf97079c52f7d3c1d49f0262757229290ad74c46a2220c8fb5e00146",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.074381+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00086.png"
+    },
+    {
+      "index": 87,
+      "originalCacheName": "88.png",
+      "sourceBytes": 535257,
+      "SHA256": "6c225bc7ed84f65567573208dfc8ff6c053c50246e02081ac1f3c70a6fe553ba",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.243303+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00087.png"
+    },
+    {
+      "index": 88,
+      "originalCacheName": "89.png",
+      "sourceBytes": 533501,
+      "SHA256": "8fc0df1962e17d318b936c1874bde19eca656ef4eac621a828a342d805c16533",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.407608+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00088.png"
+    },
+    {
+      "index": 89,
+      "originalCacheName": "90.png",
+      "sourceBytes": 543382,
+      "SHA256": "e3bd7bd5e2e07bda71c27d4d4b1ce5282b51803fb9b7bd86edc9e1958d50e223",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.573483+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00089.png"
+    },
+    {
+      "index": 90,
+      "originalCacheName": "91.png",
+      "sourceBytes": 550377,
+      "SHA256": "7da312ac25c3b7ab59ac15eb34e10a0a456e9cc09e31a7de9152214a636184ed",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.747046+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00090.png"
+    },
+    {
+      "index": 91,
+      "originalCacheName": "92.png",
+      "sourceBytes": 544735,
+      "SHA256": "dddae4044baf89b1c0b975a4c2cbc4f67c889b50ff946a3e32d5353f3dc1c19c",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:32.910309+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00091.png"
+    },
+    {
+      "index": 92,
+      "originalCacheName": "93.png",
+      "sourceBytes": 541813,
+      "SHA256": "a6150de48a4728511afb561b33014c1ca2854e4488e0a248993e3e522daf17af",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.075042+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00092.png"
+    },
+    {
+      "index": 93,
+      "originalCacheName": "94.png",
+      "sourceBytes": 541997,
+      "SHA256": "89a2e0fa7688bb7f7a49e3e646c62ed516a38c787c33850c663021f027d0fe75",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.270340+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00093.png"
+    },
+    {
+      "index": 94,
+      "originalCacheName": "95.png",
+      "sourceBytes": 535374,
+      "SHA256": "c2f7b8dbe83b79963ddd0f171a158882bd0da5534603831e60623c9da565dde7",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.416715+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00094.png"
+    },
+    {
+      "index": 95,
+      "originalCacheName": "96.png",
+      "sourceBytes": 522684,
+      "SHA256": "eba902d8c94612799bc9a2d83634c7bda6ec38e98588dddc2c7c2d620f30963a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.574431+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00095.png"
+    },
+    {
+      "index": 96,
+      "originalCacheName": "97.png",
+      "sourceBytes": 524911,
+      "SHA256": "401a602bda9bf549e202916882e58b694faacf7257c75a7413c8bf352159c7a4",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.746312+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00096.png"
+    },
+    {
+      "index": 97,
+      "originalCacheName": "98.png",
+      "sourceBytes": 520134,
+      "SHA256": "5f7add5852e07a47c2d877450846ccfa887bcb8e54bba71d8e2b6654b4221cf7",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:33.942590+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00097.png"
+    },
+    {
+      "index": 98,
+      "originalCacheName": "99.png",
+      "sourceBytes": 519653,
+      "SHA256": "8e01a4c0ba69b7c332e89515802124f755820e7d217d230cc70d719e4e8b783a",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.077955+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00098.png"
+    },
+    {
+      "index": 99,
+      "originalCacheName": "100.png",
+      "sourceBytes": 515427,
+      "SHA256": "dd4cdd1b881798c8cdaccac89d22b5a28e08184c16a811e528bcbe88853e9d3b",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.239026+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00099.png"
+    },
+    {
+      "index": 100,
+      "originalCacheName": "101.png",
+      "sourceBytes": 493559,
+      "SHA256": "aa65ae7c7dbf7dacaf23585eef7b33ee1537a58714878e6f0244773849e0b829",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.406375+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00100.png"
+    },
+    {
+      "index": 101,
+      "originalCacheName": "102.png",
+      "sourceBytes": 493377,
+      "SHA256": "27c1c88dc1a255956d145ea7ec36cfe896f681587fbf3e8ef39c75788f569ce4",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.601495+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00101.png"
+    },
+    {
+      "index": 102,
+      "originalCacheName": "103.png",
+      "sourceBytes": 496017,
+      "SHA256": "984be30dff4e6eb5280e9f60c136a9eec101bd01f095578d9a274d9fd22c3f1e",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.740072+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00102.png"
+    },
+    {
+      "index": 103,
+      "originalCacheName": "104.png",
+      "sourceBytes": 506348,
+      "SHA256": "0ce39a1fa8780d3cce1c486c70f2f8b7666bfa445579f4c9d0b160a3998b053d",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:34.908605+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00103.png"
+    },
+    {
+      "index": 104,
+      "originalCacheName": "105.png",
+      "sourceBytes": 512898,
+      "SHA256": "e08457750d843853d4fc341d6d69087ea6743f28eb7adfd0cf9b7a716536b1fa",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:35.077424+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00104.png"
+    },
+    {
+      "index": 105,
+      "originalCacheName": "106.png",
+      "sourceBytes": 532070,
+      "SHA256": "fd4aaee30063fbe2cc149e2b642a51216fe77c218c2b61b4884a39a53b511fe3",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:35.270623+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00105.png"
+    },
+    {
+      "index": 106,
+      "originalCacheName": "107.png",
+      "sourceBytes": 481623,
+      "SHA256": "04a129808cb5a2e883501247e42d407ae813854ad7caac8e08f9aa45e81ef16e",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:35.398309+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00106.png"
+    },
+    {
+      "index": 107,
+      "originalCacheName": "108.png",
+      "sourceBytes": 463625,
+      "SHA256": "a47becb48c5cb69011b75871b7578cb7ecd0b384dc3cf5ea70d736079aeb76c5",
+      "width": 875,
+      "height": 512,
+      "capturedFileMtimeUTC": "2026-11-20T21:40:35.566081+00:00",
+      "pcOwnerCopy": "X36_NATIVE_00107.png"
+    }
+  ],
+  "projectExtraMetadata": [
+    {
+      "name": "Project.json",
+      "bytes": 20150,
+      "sha256": "49bd8e825c83ce4f268649ffcdb4393e14220e78867e93d46121c68f447f0d99"
+    }
+  ],
+  "limits": [
+    "NTFS modification timestamps reflect cache write timing, not guaranteed video presentation timestamps; use native ScreenToGif frame metadata only if available",
+    "Native screen capture is independent of Playwright screenshot code but does not expose camera matrices",
+    "All original screen image pixels and video remain private on owner PC"
+  ]
+}
