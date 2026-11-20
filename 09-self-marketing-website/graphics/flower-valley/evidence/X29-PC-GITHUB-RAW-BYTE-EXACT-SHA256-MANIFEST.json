@@ -1,0 +1,160 @@
+{
+    "stage":  "X29",
+    "status":  "PASS_14_OF_14_PC_GITHUB_RAW_BYTES",
+    "verifiedUTC":  "2026-11-20T18:26:15.2321525Z",
+    "toolSourcePinned":  "https://github.com/int3re/WebGLRipper/commit/7fe32c9616f55f3aa80ace68a4b79d0cb7b5a849",
+    "ownerFixtureOriginalZipSHA256":  "e9364b91483129e7e7c2602a943b302852e665664c24418812c7d4cfc3540662",
+    "siteObservedSeconds":  90.01,
+    "siteObservedReadOnly":  true,
+    "ownerRightsOnly":  true,
+    "independentChecksPassed":  88,
+    "independentChecksTotal":  88,
+    "filesCount":  14,
+    "filesExact":  14,
+    "allExact":  true,
+    "files":  [
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/fixtures/X29-OWN-Controlled-WebGL2-Mesh-Points-Instancing-Fixture.html",
+                      "gitBlobGitHubRAW":  "5013f64944ed285471d0f2bfd5c3af3c6c284ce5",
+                      "name":  "X29-OWN-Controlled-WebGL2-Mesh-Points-Instancing-Fixture.html",
+                      "byteExact":  true,
+                      "bytes":  5349,
+                      "folder":  "fixtures",
+                      "gitBlobPC":  "5013f64944ed285471d0f2bfd5c3af3c6c284ce5",
+                      "sha256":  "966119038f4470e4f3c69e6468ffac70e9f6386e0c493a1043e918dbc1611993"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-OWN-Official-WebGLRipper-Real-GLB-OBJ-Runner.cjs",
+                      "gitBlobGitHubRAW":  "7b06f57ecf738ebb28a977822712fa5bbc3e94e8",
+                      "name":  "X29-OWN-Official-WebGLRipper-Real-GLB-OBJ-Runner.cjs",
+                      "byteExact":  true,
+                      "bytes":  6637,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "7b06f57ecf738ebb28a977822712fa5bbc3e94e8",
+                      "sha256":  "80dea20b76e6432c399eb40660fdeaa939dade8d8dd14d8749fd5240b4f0b3ec"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Independent-OWN-GLB-OBJ-Geometry-Decoder.py",
+                      "gitBlobGitHubRAW":  "761d87640fb6d9fbec5e5b70c7a4d4d9e70f942e",
+                      "name":  "X29-Independent-OWN-GLB-OBJ-Geometry-Decoder.py",
+                      "byteExact":  true,
+                      "bytes":  6876,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "761d87640fb6d9fbec5e5b70c7a4d4d9e70f942e",
+                      "sha256":  "9ae9dc3cf510fb375b754e034fae6fda908aac084b666bbc3b658e5b03d030f5"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Official-WebGLRipper-90s-LIVE-ReadOnly-Metadata.cjs",
+                      "gitBlobGitHubRAW":  "a7449f70b849303458c21c9c12ff78525d7ae8b2",
+                      "name":  "X29-Official-WebGLRipper-90s-LIVE-ReadOnly-Metadata.cjs",
+                      "byteExact":  true,
+                      "bytes":  11250,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "a7449f70b849303458c21c9c12ff78525d7ae8b2",
+                      "sha256":  "adcf561651fd72a1db82939ccfd9447e76200104593893b14dbf5cdec4dccdff"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Official-WebGLRipper-90s-LIVE-Retry-With-Commit-Navigation.cjs",
+                      "gitBlobGitHubRAW":  "6a70b2f8792c6c4450e191aaafa379253ff0900d",
+                      "name":  "X29-Official-WebGLRipper-90s-LIVE-Retry-With-Commit-Navigation.cjs",
+                      "byteExact":  true,
+                      "bytes":  11916,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "6a70b2f8792c6c4450e191aaafa379253ff0900d",
+                      "sha256":  "58ec9bf6c964abecac57fdb74aebd2f8fd234f86a1d7bfdd4d413f62e0cf2ee1"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Independent-X01-X28-WebGLRipper-OWN-GLTF-And-Live-90s-Acceptance.py",
+                      "gitBlobGitHubRAW":  "8c65019cac47a24ed38109967128b760f9542daf",
+                      "name":  "X29-Independent-X01-X28-WebGLRipper-OWN-GLTF-And-Live-90s-Acceptance.py",
+                      "byteExact":  true,
+                      "bytes":  16097,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "8c65019cac47a24ed38109967128b760f9542daf",
+                      "sha256":  "72d90935c81a59832d148467a246368f6b194b9595fdac89a5f6bee8e041d226"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Build-Live-Site-ReadOnly-Runner.py",
+                      "gitBlobGitHubRAW":  "443d63640b6b5a36b237d60cb9ede879cf2591d5",
+                      "name":  "X29-Build-Live-Site-ReadOnly-Runner.py",
+                      "byteExact":  true,
+                      "bytes":  2338,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "443d63640b6b5a36b237d60cb9ede879cf2591d5",
+                      "sha256":  "69486029ee11952f4a4a47726eb120231ad9aa7717c293f6a804fdde6f5234be"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X29-Public-90s-WebGLRipper-Activated-Spector-ReadOnly.cjs",
+                      "gitBlobGitHubRAW":  "21a50e0f15cd958e5f079c0ba483adc45ef66441",
+                      "name":  "X29-Public-90s-WebGLRipper-Activated-Spector-ReadOnly.cjs",
+                      "byteExact":  true,
+                      "bytes":  16215,
+                      "folder":  "scripts",
+                      "gitBlobPC":  "21a50e0f15cd958e5f079c0ba483adc45ef66441",
+                      "sha256":  "44283d5cbd318c4915dab8ccab56f87e60cbf65d039fc5e0b1faa926872c3bb1"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X29-OWN-RIPPER-REAL-CHROME-EXPORT-INDEX.json",
+                      "gitBlobGitHubRAW":  "fb964a9e71bc9106602db443c5d4d304c89dd30e",
+                      "name":  "X29-OWN-RIPPER-REAL-CHROME-EXPORT-INDEX.json",
+                      "byteExact":  true,
+                      "bytes":  2730,
+                      "folder":  "evidence",
+                      "gitBlobPC":  "fb964a9e71bc9106602db443c5d4d304c89dd30e",
+                      "sha256":  "256788b416484ec2af6cc6ee9ba1aa7848624a360dd3f7323f333dcae9a3d6de"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X29-OWN-REAL-GLB-OBJ-INDEPENDENT-DECODED-GEOMETRY.json",
+                      "gitBlobGitHubRAW":  "3c30e782fc6f74d335c1aa620d3dd5106a386122",
+                      "name":  "X29-OWN-REAL-GLB-OBJ-INDEPENDENT-DECODED-GEOMETRY.json",
+                      "byteExact":  true,
+                      "bytes":  4674,
+                      "folder":  "evidence",
+                      "gitBlobPC":  "3c30e782fc6f74d335c1aa620d3dd5106a386122",
+                      "sha256":  "a6fb0864c705b3b2d7336563728af2df773278f7856102b02471d2b613ff177c"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X29-90S-LIVE-READONLY-WEBGLRIPPER-METADATA-X01-X28-TIMELINE.json",
+                      "gitBlobGitHubRAW":  "ce916f05447c5362aa8b79193c03fc7a501fedfc",
+                      "name":  "X29-90S-LIVE-READONLY-WEBGLRIPPER-METADATA-X01-X28-TIMELINE.json",
+                      "byteExact":  true,
+                      "bytes":  19804,
+                      "folder":  "evidence",
+                      "gitBlobPC":  "ce916f05447c5362aa8b79193c03fc7a501fedfc",
+                      "sha256":  "cd72273fa1a1f2295da10f30a15c2fea9376649beabe50eed7a64d55949c0110"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X29-SANITIZED-90S-WEBGLRIPPER-GEOMETRY-X01-X28-CROSSWALK.json",
+                      "gitBlobGitHubRAW":  "bc8a3a7e011efa0ee167ba4736e8e2f20c1741cf",
+                      "name":  "X29-SANITIZED-90S-WEBGLRIPPER-GEOMETRY-X01-X28-CROSSWALK.json",
+                      "byteExact":  true,
+                      "bytes":  7413,
+                      "folder":  "evidence",
+                      "gitBlobPC":  "bc8a3a7e011efa0ee167ba4736e8e2f20c1741cf",
+                      "sha256":  "ee1af27eebcf38be2083e8f2faf08d6248f2ccd4df65fe49475bf0330773c496"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X29-INDEPENDENT-X01-X28-OWN-GLTF-90S-ACCEPTANCE.json",
+                      "gitBlobGitHubRAW":  "0205b242ce6bdd49fd1051302c818f5d478b44e7",
+                      "name":  "X29-INDEPENDENT-X01-X28-OWN-GLTF-90S-ACCEPTANCE.json",
+                      "byteExact":  true,
+                      "bytes":  5946,
+                      "folder":  "evidence",
+                      "gitBlobPC":  "0205b242ce6bdd49fd1051302c818f5d478b44e7",
+                      "sha256":  "26cee092e2ddff737a05068d2698056d5edad0fac722022fc4dc3040c92934fd"
+                  },
+                  {
+                      "githubPath":  "09-self-marketing-website/graphics/flower-valley/handoffs/X29-FULL-OWNER-WEBGLRIPPER-GLB-OBJ-90S-LIVE-X01-X28-FINAL-HANDOFF-2026-11-20.md",
+                      "gitBlobGitHubRAW":  "a40e9318042329f605c0174e4b0012bcb379373a",
+                      "name":  "X29-FULL-OWNER-WEBGLRIPPER-GLB-OBJ-90S-LIVE-X01-X28-FINAL-HANDOFF-2026-11-20.md",
+                      "byteExact":  true,
+                      "bytes":  9078,
+                      "folder":  "handoffs",
+                      "gitBlobPC":  "a40e9318042329f605c0174e4b0012bcb379373a",
+                      "sha256":  "f5c6676f4a94d298e0d4afe75a02ead6aa11bcedcd3fc1ac889587416fa266c4"
+                  }
+              ],
+    "originalVendorGLBorOBJPublished":  false,
+    "rawPrivateScreenshotsPublished":  false,
+    "lastHandoffRemoteVerifiedUsingPinnedCommit":  "fa764b144d933f6640f21b2e0987ee6133f006a2"
+}
