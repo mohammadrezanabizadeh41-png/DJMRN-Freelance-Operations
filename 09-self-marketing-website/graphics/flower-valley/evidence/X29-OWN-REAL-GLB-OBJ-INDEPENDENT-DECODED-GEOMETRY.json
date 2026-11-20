@@ -1,0 +1,190 @@
+{
+  "stage": "X29",
+  "scope": "OWN Original Fixture ONLY",
+  "officialSourcePinnedSHA": "7fe32c9616f55f3aa80ace68a4b79d0cb7b5a849",
+  "originalFixtureGroundTruth": {
+    "quadUniqueVertices": 4,
+    "quadSubmittedIndices": 6,
+    "quadTriangles": 2,
+    "quadUVPairs": 4,
+    "glPoints": 5,
+    "instancedBaseVertices": 3,
+    "instancedBaseTriangles": 1,
+    "instancedDrawInstanceCount": 3,
+    "instancedLogicalTriangles": 3,
+    "textureDimensions": [
+      2,
+      2
+    ]
+  },
+  "userOwnedZip": {
+    "fileName": "webglripper_127.0.0.1_20261120-205751.zip",
+    "bytes": 3236,
+    "sha256": "e9364b91483129e7e7c2602a943b302852e665664c24418812c7d4cfc3540662"
+  },
+  "zipFiles": [
+    {
+      "path": "textures/tex_000.png",
+      "bytes": 79,
+      "sha256": "55c447f01d7246be4ce86a8b154a7cf76f6a2481f89e085f9512b25c1044d829"
+    },
+    {
+      "path": "materials.mtl",
+      "bytes": 205,
+      "sha256": "d8c0a5a7b1811eaf637a26639037ea20839014ced5535d16c8ded8667d6f7d8c"
+    },
+    {
+      "path": "mesh_000.obj",
+      "bytes": 278,
+      "sha256": "ff4ff5eb9854bb0a04d86cd2f9b5e9376176bf849abcf4036afcdfb46eb34868"
+    },
+    {
+      "path": "mesh_001.obj",
+      "bytes": 227,
+      "sha256": "f5fbbc7358c5b627d974ea12c829f47e524bc99fed9a0e97f10741235516e09c"
+    },
+    {
+      "path": "scene.obj",
+      "bytes": 417,
+      "sha256": "053d0eb7aefd7456a90f9ba483f55769cfb687015d1b7ec745ca679d39f77361"
+    },
+    {
+      "path": "model.glb",
+      "bytes": 2748,
+      "sha256": "ef093f310d1c62471920364857f51b6569d31bd1631417a64b1020b19de0a5a3"
+    },
+    {
+      "path": "rip-info.json",
+      "bytes": 2357,
+      "sha256": "bd756e20a05026091bb10d4fa2bbe3fb9168b4b9691e904867ef8aae0925368a"
+    }
+  ],
+  "validGLB2": true,
+  "glTFVersion": "2.0",
+  "GLBStructure": {
+    "meshCount": 2,
+    "nodeCount": 2,
+    "materials": 2,
+    "textureCount": 1,
+    "cameraCount": 0,
+    "extensionsUsed": []
+  },
+  "geometryPrimitives": [
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "mesh_000",
+      "glTFMode": 4,
+      "vertices": 4,
+      "indices": 6,
+      "triangles": 2,
+      "uvCount": 4,
+      "normalCount": 4,
+      "materials": 0,
+      "positionBounding": [
+        [
+          -0.96,
+          -0.55,
+          0.0
+        ],
+        [
+          -0.46,
+          0.5,
+          0.0
+        ]
+      ],
+      "uvWithin01": true,
+      "finitePositions": true
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "mesh_001",
+      "glTFMode": 4,
+      "vertices": 3,
+      "indices": 3,
+      "triangles": 1,
+      "uvCount": 3,
+      "normalCount": 3,
+      "materials": 1,
+      "positionBounding": [
+        [
+          0.45,
+          -0.3,
+          0.0
+        ],
+        [
+          0.64,
+          -0.02,
+          0.0
+        ]
+      ],
+      "uvWithin01": true,
+      "finitePositions": true
+    }
+  ],
+  "OBJFiles": [
+    {
+      "file": "mesh_000.obj",
+      "vertices": 4,
+      "uvPairs": 4,
+      "normals": 4,
+      "faces": 2
+    },
+    {
+      "file": "mesh_001.obj",
+      "vertices": 3,
+      "uvPairs": 3,
+      "normals": 3,
+      "faces": 1
+    },
+    {
+      "file": "scene.obj",
+      "vertices": 7,
+      "uvPairs": 7,
+      "normals": 7,
+      "faces": 3
+    }
+  ],
+  "PNGs": [
+    {
+      "file": "textures/tex_000.png",
+      "bytes": 79,
+      "width": 2,
+      "height": 2
+    }
+  ],
+  "materialFiles": [
+    "materials.mtl"
+  ],
+  "ripInfo": {
+    "topLevelKeys": [
+      "capturedAt",
+      "contexts",
+      "meshes",
+      "offset",
+      "settings",
+      "summary",
+      "tool",
+      "unrecognizedAttributes",
+      "url",
+      "version"
+    ],
+    "sourceDrawCounts": {}
+  },
+  "observed": {
+    "GLTriangles": 3,
+    "GLPOINTSPrimitives": 0,
+    "GLTrianglesPrimitives": 2,
+    "instanceNodeCount": 2,
+    "pointCountGroundTruth": 5,
+    "instancedDrawCountGroundTruth": 3
+  },
+  "limits": [
+    "GLB 2.0 header, accessors and vertices independently decoded with stdlib (no Blender assumed)",
+    "POINTS are WebGL draw submissions, not necessarily a supported exported mesh primitive; GLB modes directly inspected",
+    "Instanced WebGL draw has 3 instances in OWN source; export may contain a single base mesh, independently count GLB primitives/nodes",
+    "A zip containing GLB and OBJ is not independent native Blender import and original source Shader behavior is not recoverable",
+    "No third-party commercial content read or exported in this analysis"
+  ]
+}
