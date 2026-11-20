@@ -1,0 +1,1221 @@
+{
+  "stage": "X36",
+  "source": "actual saved ScreenToGif native original PC frames, independently decoded via sharp",
+  "frameCount": 108,
+  "roi": [
+    875,
+    512
+  ],
+  "nativeRecorder": "ScreenToGif 2.43.2",
+  "thumbnailSize": [
+    128,
+    72
+  ],
+  "originalPixelsRemainPrivateOnPC": true,
+  "frames": [
+    {
+      "index": 0,
+      "originalSHA256": "be657fe27073666b7dfc600f549e39e2f8a04b0de2795af5fb71cb45035b5209",
+      "hashExact": true
+    },
+    {
+      "index": 1,
+      "originalSHA256": "8ebce517b62d893795db213027f3416d070d253945f81115a4d58b06c851a1a4",
+      "hashExact": true
+    },
+    {
+      "index": 2,
+      "originalSHA256": "fef545e56bb3147ea30173063074854352bde68b76b0351b9179795a1094c9fa",
+      "hashExact": true
+    },
+    {
+      "index": 3,
+      "originalSHA256": "6e5f4edca906a3e986c79119965ab257c7b871d421c99428f9cc08af28b6d23d",
+      "hashExact": true
+    },
+    {
+      "index": 4,
+      "originalSHA256": "5d9510cefbd8f313d07918284988a1976f3cbf3819469549fd57834dd8cc8c44",
+      "hashExact": true
+    },
+    {
+      "index": 5,
+      "originalSHA256": "a58130a77d83f1e3f6ca8536337d7b609a65fd45291b4d689650836e36ca2f01",
+      "hashExact": true
+    },
+    {
+      "index": 6,
+      "originalSHA256": "c5a9487989f4bcec2b2c2d75030fb7e856aeed0a70b341de98770c3024077cb9",
+      "hashExact": true
+    },
+    {
+      "index": 7,
+      "originalSHA256": "872b2d52507fc7cd20fc43fa00e783db45fbc82ecad4a5aa6b2a8601bf90dc3a",
+      "hashExact": true
+    },
+    {
+      "index": 8,
+      "originalSHA256": "991b786881b2bf0dca933fe5700f9d78dc6d45a18ae30c111651c05e786c5434",
+      "hashExact": true
+    },
+    {
+      "index": 9,
+      "originalSHA256": "d81fd5c8d4e3fb84af2adcdeba8360f96bf62e3767c420089719750d705201d9",
+      "hashExact": true
+    },
+    {
+      "index": 10,
+      "originalSHA256": "a3f934c86cee563a6ec436ad07087da997b0c24d4caac2cb7a009ee0d198e1dc",
+      "hashExact": true
+    },
+    {
+      "index": 11,
+      "originalSHA256": "2b8155557912cf2e0cac31fbc072e89cefcba6c611fdd6b917e5b88cc72d155b",
+      "hashExact": true
+    },
+    {
+      "index": 12,
+      "originalSHA256": "57aae3911f3a67c962a60ab8462c101ce059098d6995a7a209134e9e158e69a9",
+      "hashExact": true
+    },
+    {
+      "index": 13,
+      "originalSHA256": "6d643c515d51e10e4db420da8f697ba90d07954f045b14f006a183d85cfaecc7",
+      "hashExact": true
+    },
+    {
+      "index": 14,
+      "originalSHA256": "c77d0ac5f556eb0d09408e6a49f823b0d34e199d671795d04ee2fd62b1ce1ffd",
+      "hashExact": true
+    },
+    {
+      "index": 15,
+      "originalSHA256": "35d69b641e3110a5d46e8cf6e17e56d9941f6e8c05d864a92fa9c4cd05290431",
+      "hashExact": true
+    },
+    {
+      "index": 16,
+      "originalSHA256": "8b955d704cb6aa4567cb468a74219b718702968d86336d05fc120b0b29d742ce",
+      "hashExact": true
+    },
+    {
+      "index": 17,
+      "originalSHA256": "bfc79be612dd28b69c0c7a8186e2ba73b92f1bb9323ad96e3ebdcead12d13bbd",
+      "hashExact": true
+    },
+    {
+      "index": 18,
+      "originalSHA256": "97579d7f0e3c9991c6083c67ce3637abbe71635107056afb1c0116cf10ca3f23",
+      "hashExact": true
+    },
+    {
+      "index": 19,
+      "originalSHA256": "dd0f161d5c44a9029ba90368c377fc6e347cc4587b7c71ab2a11190606423e17",
+      "hashExact": true
+    },
+    {
+      "index": 20,
+      "originalSHA256": "296f856329ffb1c704f1deac9628db13d62bc9caac604a0fbc41780f26773ed7",
+      "hashExact": true
+    },
+    {
+      "index": 21,
+      "originalSHA256": "53b10730051a075cadc9bfae662ff0731f89ecbf3a40c8860b7372b165c50321",
+      "hashExact": true
+    },
+    {
+      "index": 22,
+      "originalSHA256": "91600e02cd5efc078e80efd4f766a64bdb4b6b60d9c342b81949e346fd4a90f8",
+      "hashExact": true
+    },
+    {
+      "index": 23,
+      "originalSHA256": "c5fb92525348d9231f4b2c8db0c90751ebc839b7149cb1bb7a77dbbd96b551c9",
+      "hashExact": true
+    },
+    {
+      "index": 24,
+      "originalSHA256": "c2fea29de976c8930d12e0d144cda3b56f007cc2731a88ad9bfa57e80db1789f",
+      "hashExact": true
+    },
+    {
+      "index": 25,
+      "originalSHA256": "b99c1e1034d9a7ba344a949c0de585095fc745051f8f1ab8cc6d1c1f799737d6",
+      "hashExact": true
+    },
+    {
+      "index": 26,
+      "originalSHA256": "342d3347f136b82449697879c16064095c0ec5529dfa81ee3f08a11505f41964",
+      "hashExact": true
+    },
+    {
+      "index": 27,
+      "originalSHA256": "deba0270aae12aef49e0138a59877b52fa11ee31b1566b99ec8a779a8804fbcb",
+      "hashExact": true
+    },
+    {
+      "index": 28,
+      "originalSHA256": "83033980edaa7ff1858778b22cd29f5b2cd81338852d4330017acf3058a20a36",
+      "hashExact": true
+    },
+    {
+      "index": 29,
+      "originalSHA256": "882f5e31762e78cb4b8a9ecd81c26d71f23a15812304c0aa4303ec88961b3f12",
+      "hashExact": true
+    },
+    {
+      "index": 30,
+      "originalSHA256": "83be79a368b8d68ffa9400954ce5fbaf78a681e7e752f1eb3897567d73ee7823",
+      "hashExact": true
+    },
+    {
+      "index": 31,
+      "originalSHA256": "534c7db208aa33692979675537bdff8fa5e0f76595caf422de9d771c7037cc62",
+      "hashExact": true
+    },
+    {
+      "index": 32,
+      "originalSHA256": "f168e71c9a7ee9d05139277d0744f359eb140b12b7e7be64f45e844e1dc25d3d",
+      "hashExact": true
+    },
+    {
+      "index": 33,
+      "originalSHA256": "6fdb2f51784734beb6446eb4a60703d6358d84e05e1b301e2ffc53f8e87a1279",
+      "hashExact": true
+    },
+    {
+      "index": 34,
+      "originalSHA256": "9bc7d15da8a8022359fe3794dcb05e6d83fe48e76c535092120c0e5a66cacb46",
+      "hashExact": true
+    },
+    {
+      "index": 35,
+      "originalSHA256": "81839f34920d8c7c283cf9d18ed055d564d93ac92087a547f2c1a998caf6f852",
+      "hashExact": true
+    },
+    {
+      "index": 36,
+      "originalSHA256": "015e78b1d7cf4eb79ad400494a055861f06cb9841035b00b4fee5fc6902c4c0e",
+      "hashExact": true
+    },
+    {
+      "index": 37,
+      "originalSHA256": "367d887bb34ea6c10733ddc82adc1aeb120952b6c51d998d7f5b72a90a0156b0",
+      "hashExact": true
+    },
+    {
+      "index": 38,
+      "originalSHA256": "ab471622226e0db6f15e585813b9ccc8580b223af04730dbd3a9130a9cad97ae",
+      "hashExact": true
+    },
+    {
+      "index": 39,
+      "originalSHA256": "fa2b3b11e4b5937e2e3583f4c51ab8c5b07d3e7087e0046ab7b9e61d07e9e880",
+      "hashExact": true
+    },
+    {
+      "index": 40,
+      "originalSHA256": "81ddf6918df3a68810b7f7aaacb232d1e53ae5ab041d94c91af5883736ba92c2",
+      "hashExact": true
+    },
+    {
+      "index": 41,
+      "originalSHA256": "63161b6751c8a9d66f40178224038746b0f698a348dd2dc3cd7bd77dc1ab0081",
+      "hashExact": true
+    },
+    {
+      "index": 42,
+      "originalSHA256": "0cbfbf9cb45000b2017e2f962e438d208ea93360129ccffb5dc0834111bb1ad1",
+      "hashExact": true
+    },
+    {
+      "index": 43,
+      "originalSHA256": "435acba0009026a6d8c50cb00ed939017c15e80e00cc04a30ffdfe25c2a7c219",
+      "hashExact": true
+    },
+    {
+      "index": 44,
+      "originalSHA256": "bbe3e9a1a0385579bf7aa2178d54f31a58d2a541cdd1fd53870cfdcca38f4cf2",
+      "hashExact": true
+    },
+    {
+      "index": 45,
+      "originalSHA256": "fdea6ee000a39563990e88b6bf0d70eff324f1b1280bc006287fcb1f11907cf1",
+      "hashExact": true
+    },
+    {
+      "index": 46,
+      "originalSHA256": "01672e2e6722d02b000711e733ec1188bc24368a44edc4ed8bea0da5557f8ec3",
+      "hashExact": true
+    },
+    {
+      "index": 47,
+      "originalSHA256": "e01882b8b757e5ba46d82272cf5a9f76f69eb258e420ab54b3fb0c39ea3cbb96",
+      "hashExact": true
+    },
+    {
+      "index": 48,
+      "originalSHA256": "263cc6ea04d975dfa150ccd3b69e4dca7f6429a1a0e55849cd9fd18feff1351d",
+      "hashExact": true
+    },
+    {
+      "index": 49,
+      "originalSHA256": "56207098572ebdd8077aadf22d99464503052e04e10b0212d6da7140404ed0b6",
+      "hashExact": true
+    },
+    {
+      "index": 50,
+      "originalSHA256": "3d57fbaf61da03396f63fd954d12031445e75f6d095d397974ca79b4e78f761a",
+      "hashExact": true
+    },
+    {
+      "index": 51,
+      "originalSHA256": "23737ed8d47ff742ffea34bee3b8bee67cc754e1fd129e2636e2a6053aa3a866",
+      "hashExact": true
+    },
+    {
+      "index": 52,
+      "originalSHA256": "5acc022b5f1730822b4245336d088ccdc7b1772b54a33efb1b856109411f28d3",
+      "hashExact": true
+    },
+    {
+      "index": 53,
+      "originalSHA256": "9c052185b85e5dc9466b715afb9880560b6687a68e2d4dcaa8254930fcce6cdd",
+      "hashExact": true
+    },
+    {
+      "index": 54,
+      "originalSHA256": "bc6ebd70c308e7a79f5f95487e58ed37dd2341b551c0b26ea7bba562bbbfb4fa",
+      "hashExact": true
+    },
+    {
+      "index": 55,
+      "originalSHA256": "7d843918312c4a655e9444733c2bb15857bb41d129596b0642af017ff5ff654b",
+      "hashExact": true
+    },
+    {
+      "index": 56,
+      "originalSHA256": "13c1193a4ab498762ff8855df72be0f81432f07e9894da30d6927373970a2cff",
+      "hashExact": true
+    },
+    {
+      "index": 57,
+      "originalSHA256": "095caa439db5cb025671f45f3fbe75b5592fad3d6eafc278f6e8e7d18073f1b2",
+      "hashExact": true
+    },
+    {
+      "index": 58,
+      "originalSHA256": "19a6c1dbc0de926d4eccaf9687e8c7e8f5adcc400226b64c274d41ddaecada62",
+      "hashExact": true
+    },
+    {
+      "index": 59,
+      "originalSHA256": "ce96d1f5396ea8ef6a71ddbd5da1e165687e09176e742f8c29e0b6c576b729a0",
+      "hashExact": true
+    },
+    {
+      "index": 60,
+      "originalSHA256": "8edbf8946202d11669f86777a4609245ec6866f6e9bd5a13df3a41eee14e5403",
+      "hashExact": true
+    },
+    {
+      "index": 61,
+      "originalSHA256": "5fb323e311b86d004792c2d8d4f0627172657d56a761ec2b2dc0a8e8f79c0832",
+      "hashExact": true
+    },
+    {
+      "index": 62,
+      "originalSHA256": "6af5dd488b61ab51265bd766df4b834230b9c03007e26757604d5fdcfc476373",
+      "hashExact": true
+    },
+    {
+      "index": 63,
+      "originalSHA256": "c3ed351476a024f78eb325ecd9a36e61c37de3c5bfe227a455ee9dc7fc72c662",
+      "hashExact": true
+    },
+    {
+      "index": 64,
+      "originalSHA256": "94a63845c246921ab70b3392360b482d7a68f336ffa8638261ec2fc37dc1047c",
+      "hashExact": true
+    },
+    {
+      "index": 65,
+      "originalSHA256": "26882380a8f116a42d7855c3fd5fd6ac202b9d6a471d84a583c773aed1021a89",
+      "hashExact": true
+    },
+    {
+      "index": 66,
+      "originalSHA256": "d5a7f85f2c77d871768bba3e705844f5c04b7945555804c4199edf97234fa4d9",
+      "hashExact": true
+    },
+    {
+      "index": 67,
+      "originalSHA256": "3bc1fbd08ef4f0c39528ff9f188200be013c5fdc9d9cd7feb70b2c1b3eb77657",
+      "hashExact": true
+    },
+    {
+      "index": 68,
+      "originalSHA256": "073b9a1ea8039600a78b57c0e1dee4fc8870d75f4e5d2c9d0d3ac4348b18399a",
+      "hashExact": true
+    },
+    {
+      "index": 69,
+      "originalSHA256": "abf97b650d2b71e326c40dbbde6b72b374cd1821d18bd9445914a836f525b836",
+      "hashExact": true
+    },
+    {
+      "index": 70,
+      "originalSHA256": "ba56dbce03638478290634ba2f98b17ff0fc2e58cfcbd484c6582d551f88b5e4",
+      "hashExact": true
+    },
+    {
+      "index": 71,
+      "originalSHA256": "75be41db8e77d7e2010972f1bca7c7f12d80f0c6213c6cbfb183b3c923d68974",
+      "hashExact": true
+    },
+    {
+      "index": 72,
+      "originalSHA256": "c3e39f0a7cbfb07318fb88e981492c6483575d83846fd614c018a3c71f79809b",
+      "hashExact": true
+    },
+    {
+      "index": 73,
+      "originalSHA256": "cc89e0aa2e238fa2ff9cd16898a29a475a148c947886ce626c257a6580da8de6",
+      "hashExact": true
+    },
+    {
+      "index": 74,
+      "originalSHA256": "31f75d12a36c5b9fc48d44f44ecffc7e38f9189554038fa906a36692ff004473",
+      "hashExact": true
+    },
+    {
+      "index": 75,
+      "originalSHA256": "b761cd9d6a16fbc220a6873e94d40cf20f683744f90c9a595b1fb661e50cbb54",
+      "hashExact": true
+    },
+    {
+      "index": 76,
+      "originalSHA256": "16402c80f00f73b447e00961dc040c4b9f874a0089a585bcc134563268612930",
+      "hashExact": true
+    },
+    {
+      "index": 77,
+      "originalSHA256": "a1bfcd05eff01d43be677d0af92bba0525fe4a6aa6bd6568a0f675f8bd92f032",
+      "hashExact": true
+    },
+    {
+      "index": 78,
+      "originalSHA256": "5139f78b1ed020d2cc1972e4af9f6cb4e89ec19c76f4eefda3c77450e8c75ab8",
+      "hashExact": true
+    },
+    {
+      "index": 79,
+      "originalSHA256": "3920ee9b6cfb81cc938a49026f493cd2ada64cfa4259423c2d281257cc8e44e1",
+      "hashExact": true
+    },
+    {
+      "index": 80,
+      "originalSHA256": "2b43762c173788c4a5629c41febeb0c4f0a253085e1e0a84a13e4162ea2df3d3",
+      "hashExact": true
+    },
+    {
+      "index": 81,
+      "originalSHA256": "7193620ac2dfa5f73adc509405a45115209e24ed4f1c3a7833bee2010fd6390d",
+      "hashExact": true
+    },
+    {
+      "index": 82,
+      "originalSHA256": "32b1a31357e964cc66c095954d8d959fce2f98397fe8fcdc530a836e6b804f38",
+      "hashExact": true
+    },
+    {
+      "index": 83,
+      "originalSHA256": "18577ff62db11ced3af440e6b0c24185ea557aaf755b602f9fe2af90d3bfe65d",
+      "hashExact": true
+    },
+    {
+      "index": 84,
+      "originalSHA256": "e7b1035f56314c88cf0393637e036daaf16b416ef9f20e6f5fad2d6f53360dcc",
+      "hashExact": true
+    },
+    {
+      "index": 85,
+      "originalSHA256": "aa19632b9b817f5defbe10646828476d6750f2c7215412ed682c772a4b869d0a",
+      "hashExact": true
+    },
+    {
+      "index": 86,
+      "originalSHA256": "51c25f5dbf97079c52f7d3c1d49f0262757229290ad74c46a2220c8fb5e00146",
+      "hashExact": true
+    },
+    {
+      "index": 87,
+      "originalSHA256": "6c225bc7ed84f65567573208dfc8ff6c053c50246e02081ac1f3c70a6fe553ba",
+      "hashExact": true
+    },
+    {
+      "index": 88,
+      "originalSHA256": "8fc0df1962e17d318b936c1874bde19eca656ef4eac621a828a342d805c16533",
+      "hashExact": true
+    },
+    {
+      "index": 89,
+      "originalSHA256": "e3bd7bd5e2e07bda71c27d4d4b1ce5282b51803fb9b7bd86edc9e1958d50e223",
+      "hashExact": true
+    },
+    {
+      "index": 90,
+      "originalSHA256": "7da312ac25c3b7ab59ac15eb34e10a0a456e9cc09e31a7de9152214a636184ed",
+      "hashExact": true
+    },
+    {
+      "index": 91,
+      "originalSHA256": "dddae4044baf89b1c0b975a4c2cbc4f67c889b50ff946a3e32d5353f3dc1c19c",
+      "hashExact": true
+    },
+    {
+      "index": 92,
+      "originalSHA256": "a6150de48a4728511afb561b33014c1ca2854e4488e0a248993e3e522daf17af",
+      "hashExact": true
+    },
+    {
+      "index": 93,
+      "originalSHA256": "89a2e0fa7688bb7f7a49e3e646c62ed516a38c787c33850c663021f027d0fe75",
+      "hashExact": true
+    },
+    {
+      "index": 94,
+      "originalSHA256": "c2f7b8dbe83b79963ddd0f171a158882bd0da5534603831e60623c9da565dde7",
+      "hashExact": true
+    },
+    {
+      "index": 95,
+      "originalSHA256": "eba902d8c94612799bc9a2d83634c7bda6ec38e98588dddc2c7c2d620f30963a",
+      "hashExact": true
+    },
+    {
+      "index": 96,
+      "originalSHA256": "401a602bda9bf549e202916882e58b694faacf7257c75a7413c8bf352159c7a4",
+      "hashExact": true
+    },
+    {
+      "index": 97,
+      "originalSHA256": "5f7add5852e07a47c2d877450846ccfa887bcb8e54bba71d8e2b6654b4221cf7",
+      "hashExact": true
+    },
+    {
+      "index": 98,
+      "originalSHA256": "8e01a4c0ba69b7c332e89515802124f755820e7d217d230cc70d719e4e8b783a",
+      "hashExact": true
+    },
+    {
+      "index": 99,
+      "originalSHA256": "dd4cdd1b881798c8cdaccac89d22b5a28e08184c16a811e528bcbe88853e9d3b",
+      "hashExact": true
+    },
+    {
+      "index": 100,
+      "originalSHA256": "aa65ae7c7dbf7dacaf23585eef7b33ee1537a58714878e6f0244773849e0b829",
+      "hashExact": true
+    },
+    {
+      "index": 101,
+      "originalSHA256": "27c1c88dc1a255956d145ea7ec36cfe896f681587fbf3e8ef39c75788f569ce4",
+      "hashExact": true
+    },
+    {
+      "index": 102,
+      "originalSHA256": "984be30dff4e6eb5280e9f60c136a9eec101bd01f095578d9a274d9fd22c3f1e",
+      "hashExact": true
+    },
+    {
+      "index": 103,
+      "originalSHA256": "0ce39a1fa8780d3cce1c486c70f2f8b7666bfa445579f4c9d0b160a3998b053d",
+      "hashExact": true
+    },
+    {
+      "index": 104,
+      "originalSHA256": "e08457750d843853d4fc341d6d69087ea6743f28eb7adfd0cf9b7a716536b1fa",
+      "hashExact": true
+    },
+    {
+      "index": 105,
+      "originalSHA256": "fd4aaee30063fbe2cc149e2b642a51216fe77c218c2b61b4884a39a53b511fe3",
+      "hashExact": true
+    },
+    {
+      "index": 106,
+      "originalSHA256": "04a129808cb5a2e883501247e42d407ae813854ad7caac8e08f9aa45e81ef16e",
+      "hashExact": true
+    },
+    {
+      "index": 107,
+      "originalSHA256": "a47becb48c5cb69011b75871b7578cb7ecd0b384dc3cf5ea70d736079aeb76c5",
+      "hashExact": true
+    }
+  ],
+  "pairwise": [
+    {
+      "from": 0,
+      "to": 1,
+      "meanAbsoluteRGB": 9.427,
+      "changedRGBComponentsPct": 18.07
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "meanAbsoluteRGB": 10.2286,
+      "changedRGBComponentsPct": 19.46
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "meanAbsoluteRGB": 10.9935,
+      "changedRGBComponentsPct": 20.48
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "meanAbsoluteRGB": 12.0897,
+      "changedRGBComponentsPct": 21.71
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "meanAbsoluteRGB": 12.4526,
+      "changedRGBComponentsPct": 22.07
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "meanAbsoluteRGB": 13.861,
+      "changedRGBComponentsPct": 24.86
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "meanAbsoluteRGB": 13.665,
+      "changedRGBComponentsPct": 24.54
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "meanAbsoluteRGB": 12.8257,
+      "changedRGBComponentsPct": 22.8
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "meanAbsoluteRGB": 12.781,
+      "changedRGBComponentsPct": 22.94
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "meanAbsoluteRGB": 12.3869,
+      "changedRGBComponentsPct": 21.71
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "meanAbsoluteRGB": 12.3538,
+      "changedRGBComponentsPct": 21.05
+    },
+    {
+      "from": 11,
+      "to": 12,
+      "meanAbsoluteRGB": 13.3998,
+      "changedRGBComponentsPct": 23.23
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "meanAbsoluteRGB": 13.6911,
+      "changedRGBComponentsPct": 25.3
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "meanAbsoluteRGB": 14.1988,
+      "changedRGBComponentsPct": 25.68
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "meanAbsoluteRGB": 13.2087,
+      "changedRGBComponentsPct": 23.36
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "meanAbsoluteRGB": 10.5728,
+      "changedRGBComponentsPct": 18
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "meanAbsoluteRGB": 9.2078,
+      "changedRGBComponentsPct": 16.93
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "meanAbsoluteRGB": 9.4992,
+      "changedRGBComponentsPct": 17.81
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "meanAbsoluteRGB": 8.4753,
+      "changedRGBComponentsPct": 15.52
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "meanAbsoluteRGB": 9.3023,
+      "changedRGBComponentsPct": 17.55
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "meanAbsoluteRGB": 8.5237,
+      "changedRGBComponentsPct": 16.12
+    },
+    {
+      "from": 21,
+      "to": 22,
+      "meanAbsoluteRGB": 7.8921,
+      "changedRGBComponentsPct": 14.93
+    },
+    {
+      "from": 22,
+      "to": 23,
+      "meanAbsoluteRGB": 8.7249,
+      "changedRGBComponentsPct": 16.24
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "meanAbsoluteRGB": 9.092,
+      "changedRGBComponentsPct": 16.84
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "meanAbsoluteRGB": 10.0796,
+      "changedRGBComponentsPct": 18.66
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "meanAbsoluteRGB": 9.9844,
+      "changedRGBComponentsPct": 18.14
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "meanAbsoluteRGB": 9.6016,
+      "changedRGBComponentsPct": 17.2
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "meanAbsoluteRGB": 10.8573,
+      "changedRGBComponentsPct": 19.13
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "meanAbsoluteRGB": 10.4585,
+      "changedRGBComponentsPct": 18.01
+    },
+    {
+      "from": 29,
+      "to": 30,
+      "meanAbsoluteRGB": 11.9842,
+      "changedRGBComponentsPct": 20.58
+    },
+    {
+      "from": 30,
+      "to": 31,
+      "meanAbsoluteRGB": 12.0048,
+      "changedRGBComponentsPct": 20.58
+    },
+    {
+      "from": 31,
+      "to": 32,
+      "meanAbsoluteRGB": 12.6576,
+      "changedRGBComponentsPct": 21.29
+    },
+    {
+      "from": 32,
+      "to": 33,
+      "meanAbsoluteRGB": 12.9996,
+      "changedRGBComponentsPct": 21.61
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "meanAbsoluteRGB": 12.5281,
+      "changedRGBComponentsPct": 20.42
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "meanAbsoluteRGB": 13.5192,
+      "changedRGBComponentsPct": 22.35
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "meanAbsoluteRGB": 12.4839,
+      "changedRGBComponentsPct": 20.53
+    },
+    {
+      "from": 36,
+      "to": 37,
+      "meanAbsoluteRGB": 11.3367,
+      "changedRGBComponentsPct": 19.41
+    },
+    {
+      "from": 37,
+      "to": 38,
+      "meanAbsoluteRGB": 10.965,
+      "changedRGBComponentsPct": 19.16
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "meanAbsoluteRGB": 9.7825,
+      "changedRGBComponentsPct": 17.42
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "meanAbsoluteRGB": 10.0609,
+      "changedRGBComponentsPct": 18.12
+    },
+    {
+      "from": 40,
+      "to": 41,
+      "meanAbsoluteRGB": 9.7933,
+      "changedRGBComponentsPct": 17.97
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "meanAbsoluteRGB": 10.5325,
+      "changedRGBComponentsPct": 18.84
+    },
+    {
+      "from": 42,
+      "to": 43,
+      "meanAbsoluteRGB": 10.1597,
+      "changedRGBComponentsPct": 17.72
+    },
+    {
+      "from": 43,
+      "to": 44,
+      "meanAbsoluteRGB": 9.9043,
+      "changedRGBComponentsPct": 17.01
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "meanAbsoluteRGB": 10.4041,
+      "changedRGBComponentsPct": 18.06
+    },
+    {
+      "from": 45,
+      "to": 46,
+      "meanAbsoluteRGB": 10.7767,
+      "changedRGBComponentsPct": 18.96
+    },
+    {
+      "from": 46,
+      "to": 47,
+      "meanAbsoluteRGB": 10.6528,
+      "changedRGBComponentsPct": 18.51
+    },
+    {
+      "from": 47,
+      "to": 48,
+      "meanAbsoluteRGB": 9.7394,
+      "changedRGBComponentsPct": 17.05
+    },
+    {
+      "from": 48,
+      "to": 49,
+      "meanAbsoluteRGB": 10.7199,
+      "changedRGBComponentsPct": 18.15
+    },
+    {
+      "from": 49,
+      "to": 50,
+      "meanAbsoluteRGB": 11.8062,
+      "changedRGBComponentsPct": 19.27
+    },
+    {
+      "from": 50,
+      "to": 51,
+      "meanAbsoluteRGB": 11.7575,
+      "changedRGBComponentsPct": 19.16
+    },
+    {
+      "from": 51,
+      "to": 52,
+      "meanAbsoluteRGB": 11.3244,
+      "changedRGBComponentsPct": 18.62
+    },
+    {
+      "from": 52,
+      "to": 53,
+      "meanAbsoluteRGB": 11.9167,
+      "changedRGBComponentsPct": 19.65
+    },
+    {
+      "from": 53,
+      "to": 54,
+      "meanAbsoluteRGB": 11.4763,
+      "changedRGBComponentsPct": 19.67
+    },
+    {
+      "from": 54,
+      "to": 55,
+      "meanAbsoluteRGB": 11.0555,
+      "changedRGBComponentsPct": 19.66
+    },
+    {
+      "from": 55,
+      "to": 56,
+      "meanAbsoluteRGB": 11.1098,
+      "changedRGBComponentsPct": 20.16
+    },
+    {
+      "from": 56,
+      "to": 57,
+      "meanAbsoluteRGB": 10.7009,
+      "changedRGBComponentsPct": 19.79
+    },
+    {
+      "from": 57,
+      "to": 58,
+      "meanAbsoluteRGB": 10.2074,
+      "changedRGBComponentsPct": 19.05
+    },
+    {
+      "from": 58,
+      "to": 59,
+      "meanAbsoluteRGB": 10.9838,
+      "changedRGBComponentsPct": 20.21
+    },
+    {
+      "from": 59,
+      "to": 60,
+      "meanAbsoluteRGB": 11.2499,
+      "changedRGBComponentsPct": 20.3
+    },
+    {
+      "from": 60,
+      "to": 61,
+      "meanAbsoluteRGB": 11.8783,
+      "changedRGBComponentsPct": 21.5
+    },
+    {
+      "from": 61,
+      "to": 62,
+      "meanAbsoluteRGB": 11.74,
+      "changedRGBComponentsPct": 20.79
+    },
+    {
+      "from": 62,
+      "to": 63,
+      "meanAbsoluteRGB": 11.8874,
+      "changedRGBComponentsPct": 21.53
+    },
+    {
+      "from": 63,
+      "to": 64,
+      "meanAbsoluteRGB": 13.1348,
+      "changedRGBComponentsPct": 23.72
+    },
+    {
+      "from": 64,
+      "to": 65,
+      "meanAbsoluteRGB": 13.1681,
+      "changedRGBComponentsPct": 24.17
+    },
+    {
+      "from": 65,
+      "to": 66,
+      "meanAbsoluteRGB": 12.1746,
+      "changedRGBComponentsPct": 22.45
+    },
+    {
+      "from": 66,
+      "to": 67,
+      "meanAbsoluteRGB": 13.1199,
+      "changedRGBComponentsPct": 24.11
+    },
+    {
+      "from": 67,
+      "to": 68,
+      "meanAbsoluteRGB": 11.8657,
+      "changedRGBComponentsPct": 22.02
+    },
+    {
+      "from": 68,
+      "to": 69,
+      "meanAbsoluteRGB": 12.4047,
+      "changedRGBComponentsPct": 22.5
+    },
+    {
+      "from": 69,
+      "to": 70,
+      "meanAbsoluteRGB": 12.1878,
+      "changedRGBComponentsPct": 22.27
+    },
+    {
+      "from": 70,
+      "to": 71,
+      "meanAbsoluteRGB": 13.2747,
+      "changedRGBComponentsPct": 23.87
+    },
+    {
+      "from": 71,
+      "to": 72,
+      "meanAbsoluteRGB": 13.1062,
+      "changedRGBComponentsPct": 23.87
+    },
+    {
+      "from": 72,
+      "to": 73,
+      "meanAbsoluteRGB": 13.1374,
+      "changedRGBComponentsPct": 23.77
+    },
+    {
+      "from": 73,
+      "to": 74,
+      "meanAbsoluteRGB": 13.0501,
+      "changedRGBComponentsPct": 23.34
+    },
+    {
+      "from": 74,
+      "to": 75,
+      "meanAbsoluteRGB": 12.4603,
+      "changedRGBComponentsPct": 22.32
+    },
+    {
+      "from": 75,
+      "to": 76,
+      "meanAbsoluteRGB": 11.9605,
+      "changedRGBComponentsPct": 21.47
+    },
+    {
+      "from": 76,
+      "to": 77,
+      "meanAbsoluteRGB": 12.236,
+      "changedRGBComponentsPct": 22.36
+    },
+    {
+      "from": 77,
+      "to": 78,
+      "meanAbsoluteRGB": 11.8166,
+      "changedRGBComponentsPct": 21.55
+    },
+    {
+      "from": 78,
+      "to": 79,
+      "meanAbsoluteRGB": 11.6306,
+      "changedRGBComponentsPct": 21.08
+    },
+    {
+      "from": 79,
+      "to": 80,
+      "meanAbsoluteRGB": 12.6079,
+      "changedRGBComponentsPct": 23.1
+    },
+    {
+      "from": 80,
+      "to": 81,
+      "meanAbsoluteRGB": 12.4632,
+      "changedRGBComponentsPct": 22.63
+    },
+    {
+      "from": 81,
+      "to": 82,
+      "meanAbsoluteRGB": 12.677,
+      "changedRGBComponentsPct": 22.89
+    },
+    {
+      "from": 82,
+      "to": 83,
+      "meanAbsoluteRGB": 12.5269,
+      "changedRGBComponentsPct": 22.45
+    },
+    {
+      "from": 83,
+      "to": 84,
+      "meanAbsoluteRGB": 14.016,
+      "changedRGBComponentsPct": 24.94
+    },
+    {
+      "from": 84,
+      "to": 85,
+      "meanAbsoluteRGB": 13.7579,
+      "changedRGBComponentsPct": 24.1
+    },
+    {
+      "from": 85,
+      "to": 86,
+      "meanAbsoluteRGB": 13.9937,
+      "changedRGBComponentsPct": 24.17
+    },
+    {
+      "from": 86,
+      "to": 87,
+      "meanAbsoluteRGB": 14.0108,
+      "changedRGBComponentsPct": 24.08
+    },
+    {
+      "from": 87,
+      "to": 88,
+      "meanAbsoluteRGB": 13.609,
+      "changedRGBComponentsPct": 23.4
+    },
+    {
+      "from": 88,
+      "to": 89,
+      "meanAbsoluteRGB": 15.323,
+      "changedRGBComponentsPct": 26.05
+    },
+    {
+      "from": 89,
+      "to": 90,
+      "meanAbsoluteRGB": 16.1422,
+      "changedRGBComponentsPct": 26.96
+    },
+    {
+      "from": 90,
+      "to": 91,
+      "meanAbsoluteRGB": 16.0581,
+      "changedRGBComponentsPct": 26.24
+    },
+    {
+      "from": 91,
+      "to": 92,
+      "meanAbsoluteRGB": 16.208,
+      "changedRGBComponentsPct": 26.65
+    },
+    {
+      "from": 92,
+      "to": 93,
+      "meanAbsoluteRGB": 16.3163,
+      "changedRGBComponentsPct": 26.61
+    },
+    {
+      "from": 93,
+      "to": 94,
+      "meanAbsoluteRGB": 15.5958,
+      "changedRGBComponentsPct": 25.72
+    },
+    {
+      "from": 94,
+      "to": 95,
+      "meanAbsoluteRGB": 15.5843,
+      "changedRGBComponentsPct": 25.81
+    },
+    {
+      "from": 95,
+      "to": 96,
+      "meanAbsoluteRGB": 16.1115,
+      "changedRGBComponentsPct": 26.54
+    },
+    {
+      "from": 96,
+      "to": 97,
+      "meanAbsoluteRGB": 16.3464,
+      "changedRGBComponentsPct": 27.21
+    },
+    {
+      "from": 97,
+      "to": 98,
+      "meanAbsoluteRGB": 15.7074,
+      "changedRGBComponentsPct": 26.24
+    },
+    {
+      "from": 98,
+      "to": 99,
+      "meanAbsoluteRGB": 16.0458,
+      "changedRGBComponentsPct": 26.87
+    },
+    {
+      "from": 99,
+      "to": 100,
+      "meanAbsoluteRGB": 15.4502,
+      "changedRGBComponentsPct": 26.01
+    },
+    {
+      "from": 100,
+      "to": 101,
+      "meanAbsoluteRGB": 14.0571,
+      "changedRGBComponentsPct": 24.52
+    },
+    {
+      "from": 101,
+      "to": 102,
+      "meanAbsoluteRGB": 13.6583,
+      "changedRGBComponentsPct": 23.62
+    },
+    {
+      "from": 102,
+      "to": 103,
+      "meanAbsoluteRGB": 14.7455,
+      "changedRGBComponentsPct": 25.05
+    },
+    {
+      "from": 103,
+      "to": 104,
+      "meanAbsoluteRGB": 14.9853,
+      "changedRGBComponentsPct": 25.64
+    },
+    {
+      "from": 104,
+      "to": 105,
+      "meanAbsoluteRGB": 16.0496,
+      "changedRGBComponentsPct": 27.72
+    },
+    {
+      "from": 105,
+      "to": 106,
+      "meanAbsoluteRGB": 15.9855,
+      "changedRGBComponentsPct": 27.43
+    },
+    {
+      "from": 106,
+      "to": 107,
+      "meanAbsoluteRGB": 13.7033,
+      "changedRGBComponentsPct": 22.93
+    }
+  ],
+  "errors": [],
+  "x35Comparison": {
+    "X35OriginalInputSnapshots": 24,
+    "X35ConsecutivePairs": 23,
+    "X35Tool": "Playwright/browser screenshots X35",
+    "X36Tool": "ScreenToGif native screen recorder"
+  },
+  "metrics": {
+    "framesDecoded": 108,
+    "adjacentPairCount": 107,
+    "meanAdjFrameMAE": 12.3028,
+    "medianAdjFrameMAE": 12.236,
+    "p90AdjFrameMAE": 15.5843,
+    "maximumAdjFrameMAE": 16.3464,
+    "pairsWithMAEGt1": 107,
+    "pairsWithMAEGt5": 107,
+    "x35MedianConsecutiveMAE": 23.5754,
+    "x35ConsecutivePairs": 23
+  },
+  "status": "PASS"
+}
