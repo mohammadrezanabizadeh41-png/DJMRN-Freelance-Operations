@@ -1,0 +1,296 @@
+{
+  "stage": "X29",
+  "status": "PASS",
+  "liveObservedSeconds": 90.01,
+  "liveSampleCount": 7,
+  "liveMinFreeRAMMiB": 1244,
+  "officialSourceSHA": "7fe32c9616f55f3aa80ace68a4b79d0cb7b5a849",
+  "X19KnownNetworkPaths": 78,
+  "X29NetworkPaths": 46,
+  "X29BodySha256Matches": 38,
+  "X29SourceBodyTotal": 38,
+  "X29PriorKnownX16InitiatorEdges": 37,
+  "X29NovelFirstPartyPaths": [],
+  "X29NovelInitiatorEdges": [],
+  "X28DualObserverDrawsPerFrame": 16,
+  "X28SpectorPrograms": 11,
+  "phaseEvidence": [
+    {
+      "label": "initial",
+      "second": 3.41,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 0,
+      "drawSignatures": [],
+      "privateImageSHA256": "63bf383e1b1eed5b69826ba92af14d526114730e28f2ecc045f5c149ade6adc1"
+    },
+    {
+      "label": "hover_left",
+      "second": 16.58,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 7552,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 472
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 6608
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 472
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "hover_right",
+      "second": 29.59,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 19760,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1235
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 17290
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1235
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "scroll_450",
+      "second": 42.52,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 31920,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1995
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 27930
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 1995
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "pointer_center",
+      "second": 55.55,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 44256,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 2766
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 38724
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 2766
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "reverse_scroll",
+      "second": 72.47,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 60432,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 3777
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 52878
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 3777
+        }
+      ],
+      "privateImageSHA256": null
+    },
+    {
+      "label": "return_idle",
+      "second": 87.58,
+      "webgl2": true,
+      "ripperReady": true,
+      "cumulativeDrawCalls": 70672,
+      "drawSignatures": [
+        {
+          "mode": 0,
+          "count": 960000,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 4417
+        },
+        {
+          "mode": 4,
+          "count": 3,
+          "instanceCount": 1,
+          "op": "drawArrays",
+          "calls": 61838
+        },
+        {
+          "mode": 4,
+          "count": 6,
+          "instanceCount": 1,
+          "op": "drawElements",
+          "calls": 4417
+        }
+      ],
+      "privateImageSHA256": "74e3431301c2c3db869f98d355f5f0276641ee43d6e358b097790588830521de"
+    }
+  ],
+  "originalOwnerFixtureGroundTruth": {
+    "quadUniqueVertices": 4,
+    "quadSubmittedIndices": 6,
+    "quadTriangles": 2,
+    "quadUVPairs": 4,
+    "glPoints": 5,
+    "instancedBaseVertices": 3,
+    "instancedBaseTriangles": 1,
+    "instancedDrawInstanceCount": 3,
+    "instancedLogicalTriangles": 3,
+    "textureDimensions": [
+      2,
+      2
+    ]
+  },
+  "recovered": [
+    {
+      "meshIndex": 0,
+      "primitiveIndex": 0,
+      "meshName": "mesh_000",
+      "glTFMode": 4,
+      "vertices": 4,
+      "indices": 6,
+      "triangles": 2,
+      "uvCount": 4,
+      "normalCount": 4,
+      "materials": 0,
+      "positionBounding": [
+        [
+          -0.96,
+          -0.55,
+          0.0
+        ],
+        [
+          -0.46,
+          0.5,
+          0.0
+        ]
+      ],
+      "uvWithin01": true,
+      "finitePositions": true
+    },
+    {
+      "meshIndex": 1,
+      "primitiveIndex": 0,
+      "meshName": "mesh_001",
+      "glTFMode": 4,
+      "vertices": 3,
+      "indices": 3,
+      "triangles": 1,
+      "uvCount": 3,
+      "normalCount": 3,
+      "materials": 1,
+      "positionBounding": [
+        [
+          0.45,
+          -0.3,
+          0.0
+        ],
+        [
+          0.64,
+          -0.02,
+          0.0
+        ]
+      ],
+      "uvWithin01": true,
+      "finitePositions": true
+    }
+  ],
+  "observableLimits": [
+    "X29 Ripper READ-ONLY public inspection, not third-party model export",
+    "First X29 live snapshot at second 3 saw ZERO draw calls; all six later snapshots saw exact 3 shader-independent primitive submission signatures",
+    "X29 live script counts accumulated WebGL calls between snapshots, not FPS or scene object count",
+    "960000 POINTS count is index submissions, not distinct flowers",
+    "The three recovered draw primitive signatures match X28; visual dispersal cause remains UNVERIFIED",
+    "WebGLRipper source-native WebM video unit test remains one failure; third-party dependent Three.js case skipped",
+    "OWN fixture exports one indexed mesh correctly but drops 5 POINTS and 2/3 instanced copies",
+    "No personal Chrome privilege or paid tool; no vendor GLB/OBJ/GLSL/texture pixels publicly exported"
+  ],
+  "X28PriorPass": 58,
+  "X27PriorPass": 49,
+  "noOriginalVendorGLTFExport": true
+}
