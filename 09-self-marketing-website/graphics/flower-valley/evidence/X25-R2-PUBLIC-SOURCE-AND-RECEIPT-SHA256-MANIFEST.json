@@ -1,0 +1,86 @@
+{
+  "stage": "X25-R2",
+  "status": "VERIFIED_EXACT_LOCAL_PC_BYTES_MATCH_GITHUB_BLOBS",
+  "records": 8,
+  "passed": 8,
+  "allPass": true,
+  "officialPinnedToolSourceGitCommit": "cc9317e6e6805beb16968f2cbd19dcbfe0c064e4",
+  "sourceZipSHA256": "2dfd529dd3c8e4a44ee1f1997adc9bb6deed66f2e73a77c92ca75454b31ccbf5",
+  "x25IndependentAcceptance": "36/36",
+  "fullOriginalGpuVendorCapturesRemainPrivatePC": true,
+  "unchangedHistoricalStageAuthority": "X01-X24",
+  "rows": [
+    {
+      "sha256": "5d97632c98e11a3a6ad8380d18832bdc8adca83615232471ac286e749be557df",
+      "githubCurrentBlobSha1": "bcff7c1b0861095f7db02a46837b9ef1021728b7",
+      "bytes": 13135,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-WebGL-Developer-Tool-90s-Runner.cjs",
+      "gitBlobSha1": "bcff7c1b0861095f7db02a46837b9ef1021728b7",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "a21b4014b753c61d37c502a89b3e5509f9f2b5aa1b58d74cea014febec95848f",
+      "githubCurrentBlobSha1": "9406d21eaec585db00874b5e954ced5c74fde970",
+      "bytes": 2776,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-OWN-WebGL2-MultiPass-Fixture.html",
+      "gitBlobSha1": "9406d21eaec585db00874b5e954ced5c74fde970",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "64a5b602d15e0cb25195fbb15ac7ccc4d118ee29133db40c606124e1c4cf6a26",
+      "githubCurrentBlobSha1": "25205f382a10a1072057068479adaa347290c654",
+      "bytes": 14173,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Independent-X01-X24-Reconciliation.py",
+      "gitBlobSha1": "25205f382a10a1072057068479adaa347290c654",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "65ef6d17d1535f72eeac7dea474da1c0e803b7fcae7156332ef6a40d484db220",
+      "githubCurrentBlobSha1": "81343cf09be10ebeb947f77bdf2f8839617e8094",
+      "bytes": 1819,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-INDEPENDENT-ACCEPTANCE.json",
+      "gitBlobSha1": "81343cf09be10ebeb947f77bdf2f8839617e8094",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "65c1f14362d50a8158943dfc63f5bf4946aacd3532f6108f33c4e44ee6c7ee13",
+      "githubCurrentBlobSha1": "00141ecc3a7436e8fad9f4d7fb2972f9b5966842",
+      "bytes": 1558,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-OFFICIAL-SOURCE-BUILD-AND-SECURITY-PUBLIC.json",
+      "gitBlobSha1": "00141ecc3a7436e8fad9f4d7fb2972f9b5966842",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "e32156c6a0b389d9cc5c408ff303574092ea9eaf62cab91c34a159001d1fa823",
+      "githubCurrentBlobSha1": "2c23803147023e8654612cc40ef328f8bc1e8cd0",
+      "bytes": 169811,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/evidence/X25-R2-SANITIZED-7FRAME-X01-X24-CROSSWALK.json",
+      "gitBlobSha1": "2c23803147023e8654612cc40ef328f8bc1e8cd0",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "sha256": "b1443c325f15cdc74232d2c250b9e7a4ebc00523db93667cfa344cc141303541",
+      "githubCurrentBlobSha1": "3e689e89cb741a3df5cf4a7476a916ddbd9ec28f",
+      "bytes": 8518,
+      "privateVendorContentPublished": false,
+      "path": "09-self-marketing-website/graphics/flower-valley/handoffs/X25-R2-WEBGL-DEVELOPER-TOOL-135S-FULL-X01-X24-HANDOFF-2026-11-20.md",
+      "gitBlobSha1": "3e689e89cb741a3df5cf4a7476a916ddbd9ec28f",
+      "verifiedGitBlobByteIdentity": true
+    },
+    {
+      "path": "09-self-marketing-website/graphics/flower-valley/scripts/X25-R2-Finalize-Public-Manifest.py",
+      "githubCurrentBlobSha1": "1bf77f12afd76e47cc5a15e18e33188babc370a7",
+      "privateVendorContentPublished": false,
+      "bytes": 2203,
+      "sha256": "35152057d58c23f2995503b9dbf65c97c3fda24614e2168fac736bcabe4cbaa9",
+      "gitBlobSha1": "1bf77f12afd76e47cc5a15e18e33188babc370a7",
+      "verifiedGitBlobByteIdentity": true
+    }
+  ]
+}
