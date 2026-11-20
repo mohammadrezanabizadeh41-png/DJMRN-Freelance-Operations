@@ -1,0 +1,87 @@
+{
+    "stage":  "X27",
+    "version":  "FINAL-2026-11-20",
+    "scope":  "8 owner-authored X27 scripts, own fixture, independent acceptance, X22 hash reference, source receipt, derived crosswalk, handoff",
+    "repo":  "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+    "branch":  "main",
+    "publishedOwnerArtifacts":  8,
+    "exactSourceSHA256AndGitBlobMatchCount":  8,
+    "allMatched":  true,
+    "sourceUpstreamSha":  "564f6c1922b1dcf98813e6940d1e91995495e6dc",
+    "sourceUpstreamZIP_SHA256":  "a31afb158856c00d0837a75cf91055d50d9327779366e86a7bfcf4e758194d74",
+    "privateOriginalGPUOrShadersUploaded":  false,
+    "sourceFileRecords":  [
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X27-WebGL2-Shaders-OWN-Editor-And-Live-90s-Runner.cjs",
+                                  "bytes":  13912,
+                                  "rawLocalGitBlobSHA1":  "6ac27983cf73893f525b6b1d27c5542bee0b3b21",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "5961f499c7e9fc5e21ec5de37e570fb1369e70a83b5ffd52b718b68526de0fe1",
+                                  "localBasename":  "X27-WebGL2-Shaders-OWN-Editor-And-Live-90s-Runner.cjs",
+                                  "publishedGitBlobSHA1":  "6ac27983cf73893f525b6b1d27c5542bee0b3b21"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X27-OWN-WebGL2-Live-Shader-Editor-Fixture.html",
+                                  "bytes":  2918,
+                                  "rawLocalGitBlobSHA1":  "98696611b93db0513ee09f3b7eb4e0abb35e73dc",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "33324c68fd62e6a9d18c6b55f42ebfa7a51fd963fbcf7e5871030e1100b71555",
+                                  "localBasename":  "X27-OWN-WebGL2-Live-Shader-Editor-Fixture.html",
+                                  "publishedGitBlobSHA1":  "98696611b93db0513ee09f3b7eb4e0abb35e73dc"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/scripts/X27-Independent-X01-X26-Shader-Reconciliation.py",
+                                  "bytes":  13668,
+                                  "rawLocalGitBlobSHA1":  "69c420071cd3fda460c303133e08f5d620adaa5a",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "15c2514a9d3b4359872576b9a1786693edce8856ba70d27e8cd197a3c9bb462e",
+                                  "localBasename":  "X27-Independent-X01-X26-Shader-Reconciliation.py",
+                                  "publishedGitBlobSHA1":  "69c420071cd3fda460c303133e08f5d620adaa5a"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X27-OFFICIAL-SOURCE-SECURITY-COMPATIBILITY-RECEIPT.json",
+                                  "bytes":  1852,
+                                  "rawLocalGitBlobSHA1":  "6c0ae91f25c32beafd6e337f798c5b4224a3c202",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "f98a5d05fe019d6991b3ba0f6c616b7457227ede6664f0effa7b9b99155df79d",
+                                  "localBasename":  "X27-OFFICIAL-SOURCE-SECURITY-COMPATIBILITY-RECEIPT.json",
+                                  "publishedGitBlobSHA1":  "6c0ae91f25c32beafd6e337f798c5b4224a3c202"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X27-X22-CANONICAL-22-SHADER-SHA256-REFERENCE.json",
+                                  "bytes":  2179,
+                                  "rawLocalGitBlobSHA1":  "c228de89c091a25fcd0fa9741111ae5e021e1914",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "3fa64cf3db265608bea89c51026f7f83b22bda3b21a779d59fe7e1f04660530d",
+                                  "localBasename":  "X27-X22-CANONICAL-22-SHADER-SHA256-REFERENCE.json",
+                                  "publishedGitBlobSHA1":  "c228de89c091a25fcd0fa9741111ae5e021e1914"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X27-SANITIZED-90S-SHADER-COMPILE-LINK-X01-X26-CROSSWALK.json",
+                                  "bytes":  86200,
+                                  "rawLocalGitBlobSHA1":  "0ff14dcea686ebe1a09c9bd98a0793fee58104a2",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "65428566ea8f3131208ff7c44f72ec8b56cf586205e8ac93ef1cac88ca7b3ff9",
+                                  "localBasename":  "X27-SANITIZED-90S-SHADER-COMPILE-LINK-X01-X26-CROSSWALK.json",
+                                  "publishedGitBlobSHA1":  "0ff14dcea686ebe1a09c9bd98a0793fee58104a2"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/evidence/X27-INDEPENDENT-ACCEPTANCE.json",
+                                  "bytes":  3151,
+                                  "rawLocalGitBlobSHA1":  "11a666141fa87050270b55071738d829864d0544",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "957437bdd4465b04b192e77468f14c774e38ca190bf8910b9c9238a4b1ce7646",
+                                  "localBasename":  "X27-INDEPENDENT-ACCEPTANCE.json",
+                                  "publishedGitBlobSHA1":  "11a666141fa87050270b55071738d829864d0544"
+                              },
+                              {
+                                  "repoPath":  "09-self-marketing-website/graphics/flower-valley/handoffs/X27-FULL-GLSL-SHADER-EDIT-OWN-FIXTURE-90S-X01-X26-HANDOFF-2026-11-20.md",
+                                  "bytes":  7013,
+                                  "rawLocalGitBlobSHA1":  "756115211ad82725abf1ace1f2a2a300aeeee015",
+                                  "pcGithubExact":  true,
+                                  "sha256":  "a65d1ae79794721d0c1d5e57a9bfb7782d9845d0c297621384d80d4afa7559c6",
+                                  "localBasename":  "X27-FULL-GLSL-SHADER-EDIT-OWN-FIXTURE-90S-X01-X26-HANDOFF-2026-11-20.md",
+                                  "publishedGitBlobSHA1":  "756115211ad82725abf1ace1f2a2a300aeeee015"
+                              }
+                          ]
+}
