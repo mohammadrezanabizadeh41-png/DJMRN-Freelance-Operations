@@ -1,0 +1,543 @@
+{
+  "stage": "X26",
+  "dateUTC": "2026-11-20T13:43:38.314896+00:00",
+  "status": "POST_RUN_VERIFICATION",
+  "sourceAuthority": {
+    "officialHistoricalExtension": "https://github.com/3Dparallax/insight",
+    "legacySHA": "cbe4463869bbf543106d672790f82155a22844f8",
+    "legacyManifest": 2,
+    "legacyActive": false,
+    "modernObserver": "owner-written in-browser draw/state proxy WebGL2"
+  },
+  "OWNFixtureQuantifiedRealPixelOverdraw": {
+    "expected": {
+      "one": 2048,
+      "two": 1024,
+      "three": 1024
+    },
+    "observed": {
+      "one": 2048,
+      "two": 1024,
+      "three": 1024
+    },
+    "pixelHistogram": {
+      "1": 2048,
+      "2": 1024,
+      "3": 1024
+    },
+    "drawsPerCycle": 3,
+    "passed": true,
+    "webglVersion": "WebGL2",
+    "drawingBuffer": [
+      64,
+      64
+    ]
+  },
+  "realSiteObservationSeconds": 90.01,
+  "sevenDiscreteSamples_Not_ContinuousPerFrameCapture": [
+    {
+      "label": "baseline",
+      "atSecond": 10.27,
+      "sampleWindowDrawCalls": 3440,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 215,
+      "observedPointsDraws": 215,
+      "observedTriangleDraws": 3225,
+      "drawsWithBlendingEnabled": 645,
+      "drawsWithDepthTestOff": 645,
+      "drawsWithDepthWriteOff": 430,
+      "drawsWithBlendAndDepthWriteOff": 430,
+      "drawsWithBlendAndDepthTestOff": 645,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb1": 324,
+        "fb2": 215,
+        "fb3": 430,
+        "fb4": 215,
+        "fb5": 215,
+        "fb6": 215,
+        "fb7": 215,
+        "fb8": 215,
+        "fb9": 215,
+        "fb10": 215,
+        "fb11": 215,
+        "fb12": 215,
+        "default": 215,
+        "fb13": 321
+      },
+      "framebufferBindChanges": 3277,
+      "programChanges": 2365,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "881dd0719ab3da8e9842740a4a3e5e6710e45563e8feb3c074c0f382c4408c95"
+    },
+    {
+      "label": "pointer_left",
+      "atSecond": 24.29,
+      "sampleWindowDrawCalls": 13216,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 826,
+      "observedPointsDraws": 826,
+      "observedTriangleDraws": 12390,
+      "drawsWithBlendingEnabled": 2478,
+      "drawsWithDepthTestOff": 2478,
+      "drawsWithDepthWriteOff": 1652,
+      "drawsWithBlendAndDepthWriteOff": 1652,
+      "drawsWithBlendAndDepthTestOff": 2478,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb13": 1239,
+        "fb2": 826,
+        "fb3": 1652,
+        "fb4": 826,
+        "fb5": 826,
+        "fb6": 826,
+        "fb7": 826,
+        "fb8": 826,
+        "fb9": 826,
+        "fb10": 826,
+        "fb11": 826,
+        "fb12": 826,
+        "default": 826,
+        "fb1": 1239
+      },
+      "framebufferBindChanges": 12390,
+      "programChanges": 9086,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "05d2170f3a505b68ce1b71c006390f1f51b533344c69c0c7a8b904b253676058"
+    },
+    {
+      "label": "pointer_right",
+      "atSecond": 37.28,
+      "sampleWindowDrawCalls": 12192,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 762,
+      "observedPointsDraws": 762,
+      "observedTriangleDraws": 11430,
+      "drawsWithBlendingEnabled": 2286,
+      "drawsWithDepthTestOff": 2286,
+      "drawsWithDepthWriteOff": 1524,
+      "drawsWithBlendAndDepthWriteOff": 1524,
+      "drawsWithBlendAndDepthTestOff": 2286,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb13": 1143,
+        "fb2": 762,
+        "fb3": 1524,
+        "fb4": 762,
+        "fb5": 762,
+        "fb6": 762,
+        "fb7": 762,
+        "fb8": 762,
+        "fb9": 762,
+        "fb10": 762,
+        "fb11": 762,
+        "fb12": 762,
+        "default": 762,
+        "fb1": 1143
+      },
+      "framebufferBindChanges": 11430,
+      "programChanges": 8382,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "c68d71e21c5627a4408b82102863339255123288de3dadc4a8145d129f0ece21"
+    },
+    {
+      "label": "wheel_450",
+      "atSecond": 50.33,
+      "sampleWindowDrawCalls": 12496,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 781,
+      "observedPointsDraws": 781,
+      "observedTriangleDraws": 11715,
+      "drawsWithBlendingEnabled": 2343,
+      "drawsWithDepthTestOff": 2343,
+      "drawsWithDepthWriteOff": 1562,
+      "drawsWithBlendAndDepthWriteOff": 1562,
+      "drawsWithBlendAndDepthTestOff": 2343,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb13": 1173,
+        "fb2": 781,
+        "fb3": 1562,
+        "fb4": 781,
+        "fb5": 781,
+        "fb6": 781,
+        "fb7": 781,
+        "fb8": 781,
+        "fb9": 781,
+        "fb10": 781,
+        "fb11": 781,
+        "fb12": 781,
+        "default": 781,
+        "fb1": 1170
+      },
+      "framebufferBindChanges": 11715,
+      "programChanges": 8591,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "ce78ae860e7a061ce82a5d1fce860a0d6af8f1095561cebcaedc6de5186fd976"
+    },
+    {
+      "label": "pointer_center",
+      "atSecond": 63.28,
+      "sampleWindowDrawCalls": 12416,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 776,
+      "observedPointsDraws": 776,
+      "observedTriangleDraws": 11640,
+      "drawsWithBlendingEnabled": 2328,
+      "drawsWithDepthTestOff": 2328,
+      "drawsWithDepthWriteOff": 1552,
+      "drawsWithBlendAndDepthWriteOff": 1552,
+      "drawsWithBlendAndDepthTestOff": 2328,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb1": 1164,
+        "fb2": 776,
+        "fb3": 1552,
+        "fb4": 776,
+        "fb5": 776,
+        "fb6": 776,
+        "fb7": 776,
+        "fb8": 776,
+        "fb9": 776,
+        "fb10": 776,
+        "fb11": 776,
+        "fb12": 776,
+        "default": 776,
+        "fb13": 1164
+      },
+      "framebufferBindChanges": 11640,
+      "programChanges": 8536,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "714d65299acdabba3d2bc092feb93107b524a75a86e1a3093cc5b611ff9ad671"
+    },
+    {
+      "label": "wheel_800",
+      "atSecond": 76.32,
+      "sampleWindowDrawCalls": 12384,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 774,
+      "observedPointsDraws": 774,
+      "observedTriangleDraws": 11610,
+      "drawsWithBlendingEnabled": 2322,
+      "drawsWithDepthTestOff": 2322,
+      "drawsWithDepthWriteOff": 1548,
+      "drawsWithBlendAndDepthWriteOff": 1548,
+      "drawsWithBlendAndDepthTestOff": 2322,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb1": 1161,
+        "fb2": 774,
+        "fb3": 1548,
+        "fb4": 774,
+        "fb5": 774,
+        "fb6": 774,
+        "fb7": 774,
+        "fb8": 774,
+        "fb9": 774,
+        "fb10": 774,
+        "fb11": 774,
+        "fb12": 774,
+        "default": 774,
+        "fb13": 1161
+      },
+      "framebufferBindChanges": 11610,
+      "programChanges": 8514,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "7211c31a63b5c7b13e947f4f6b429fa24a222151ed3624778deb1392dfe44446"
+    },
+    {
+      "label": "pointer_reverse",
+      "atSecond": 88.3,
+      "sampleWindowDrawCalls": 11504,
+      "estimatedFramesFrom16Draws_Not_independentFPS": 719,
+      "observedPointsDraws": 719,
+      "observedTriangleDraws": 10785,
+      "drawsWithBlendingEnabled": 2157,
+      "drawsWithDepthTestOff": 2157,
+      "drawsWithDepthWriteOff": 1438,
+      "drawsWithBlendAndDepthWriteOff": 1438,
+      "drawsWithBlendAndDepthTestOff": 2157,
+      "possibleAdditiveONE_ONEDraws": 0,
+      "drawByFramebufferToken": {
+        "fb1": 1080,
+        "fb2": 719,
+        "fb3": 1438,
+        "fb4": 719,
+        "fb5": 719,
+        "fb6": 719,
+        "fb7": 719,
+        "fb8": 719,
+        "fb9": 719,
+        "fb10": 719,
+        "fb11": 719,
+        "fb12": 719,
+        "default": 719,
+        "fb13": 1077
+      },
+      "framebufferBindChanges": 10785,
+      "programChanges": 7909,
+      "maxCountSingleDraw_Not_distinctFlowerCount": 960000,
+      "snapshotMetadataSHA": "54169b690734a9f7875c480c2d342d6888a433226218994de7239ddc45c41610"
+    }
+  ],
+  "totalWindowDraws": 77648,
+  "totalWindowPointsDraws": 4853,
+  "totalWindowBlendDraws": 14559,
+  "totalWindowDepthWriteOffDraws": 9706,
+  "meanBlendDrawsPerEstimatedFrame": 3.0,
+  "network": {
+    "publicPathCount": 46,
+    "knownPaths": 46,
+    "newPaths": [],
+    "responsesSHAExactKnown": 29,
+    "responsesTotal": 29,
+    "responsesSHAComparison": [
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/123-3b7f3df3cc5866d7.js",
+        "sha256": "e83b0df5cc1f98de8e7b140abbf9cd2635b631402d807e3b6c0dc7d6f1dea4d9",
+        "bytes": 102017,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/15-91b52fecfdd8e21a.js",
+        "sha256": "d6e8133aa3ab4e2fadc541e3cb559dc20845f36ee08df7b5783b07102c6b5022",
+        "bytes": 6157,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/230-777961633b59f201.js",
+        "sha256": "edd0768e163285b3642e669d1089f81724e40fe6f0d3b17a9d467423ee80afd1",
+        "bytes": 14536,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/340-4c85e05b44fc7370.js",
+        "sha256": "5e520073975eefe554444e98fb4ca660868702c2b476035897781c3ca35ce0e9",
+        "bytes": 6751,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/394-2f2be3bc86a0a157.js",
+        "sha256": "05978586c907f0d9b9fc4fc1d1350da7f115d940d528bbdeafb9b284092b54d8",
+        "bytes": 11135,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/450-96e2a31dde902aa5.js",
+        "sha256": "07f6da685fd76e30a9c1f1d9a0e55a121025fdc70da239ff79420f6af73d661e",
+        "bytes": 141609,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/672-92aa0f16298fa475.js",
+        "sha256": "3e4f45f0033f6de9857abafe12abb4376f30d5a4b87eb2c5b961f11bb6fdf25d",
+        "bytes": 19277,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/773-a7b43274c5faf5a0.js",
+        "sha256": "2886458cda6506b5a9aa2a3d9ec742f3351fa4832351da88653be48ed06bce0a",
+        "bytes": 40996,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/780-35f43a00462f78e8.js",
+        "sha256": "bef8c0267c6ab029782194ecaa11472ad1a16d67e867834c53010eecbca64683",
+        "bytes": 16685,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/986-03b9a0a8c3353ae8.js",
+        "sha256": "ec97c32c5f29dac3417d878a840a2fe7cdaf26eace0b0bb39b297d7486dcf76d",
+        "bytes": 38686,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/layout-681f1a9fe4dd4628.js",
+        "sha256": "133b733f5eab7e315ef06ec9841d9f7c00106d9884482581377325478c9a9fa1",
+        "bytes": 30550,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/app/work/page-8e3968f3d61178f4.js",
+        "sha256": "31dcdbdc2ddb6d7f447551f0bf2c8b0f16f8fe984e475ea2e91f49175c28487f",
+        "bytes": 13682,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/b536a0f1-51636bd4ac051d8f.js",
+        "sha256": "80bf95efc815127d7646dfec8f44451eea7bdc844f00d5ececd15b7260e40400",
+        "bytes": 549571,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/fd9d1056-76aadce26f555392.js",
+        "sha256": "ecf5645d5ec8f5acdc5c9667b5ec19a789d4faea07ed79f7eeee6bddec25aa8e",
+        "bytes": 160712,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/main-app-26c70f106191f37c.js",
+        "sha256": "6c1dfdda7bd7193f9785fea495b82b929dada579bfae2210905e14d7b1d8985b",
+        "bytes": 463,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/chunks/webpack-a76c04a7ba9aa4ef.js",
+        "sha256": "e9ee6b17ba7c4f30a892a7ccae50aba9a432407fa9f5fa956e03d6607b46801c",
+        "bytes": 3962,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/2347d98ee8e65578.css",
+        "sha256": "8785b189a6e716c56e1d4bf7fb98b919464322df70e93940e06623f8cca8ae74",
+        "bytes": 8004,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/70ccb8e7fa150b80.css",
+        "sha256": "80f5df5138d954160607cfd859acceac67778a2ff4c1b07f062c5a8e2b8c03a3",
+        "bytes": 46176,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/_next/static/css/c77e5212fefa8e87.css",
+        "sha256": "710fb20bd1661b718c819799c870cc5a47b8baaa2a3931dae45be86ef09292b7",
+        "bytes": 16406,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/favicon.svg",
+        "sha256": "789b2e74fa9c3fcc91c9fd7a444c8b62c47d8e0f69e373c81844561606b4e850",
+        "bytes": 2059,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/camera-path07.glb",
+        "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+        "bytes": 10132,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/dust-particle.png",
+        "sha256": "6a1dde1724aac0069dea0fb01fd42c362efa647da85acb6a83a2c12c3f9c7efe",
+        "bytes": 2102,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/flowers/pool_summer.png",
+        "sha256": "6f16b2d004f5260df4bbd1b49b19c0e978f0bff709fd7385107dd90226dbec47",
+        "bytes": 249287,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/flowers/pool_winter.png",
+        "sha256": "bea3c0bd21f77a65d09650f9030fdd54cec3f92234ef6e79769f493ba8bf1c71",
+        "bytes": 915892,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray1.png",
+        "sha256": "705002f9736633069b868df111942cdb3806de5f6b11f31b73995e4cbf638087",
+        "bytes": 295868,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray2.png",
+        "sha256": "f6d0c3128ba89b03fa2cf93004736712664b810d9513a4fc6167f7ade2fa58d2",
+        "bytes": 225311,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/rays/ray3.png",
+        "sha256": "f45d34a16445db569800053b6edcc015682f4e35613fdf2793442f41eb5417f7",
+        "bytes": 222220,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/terrain.png",
+        "sha256": "13e59c971bcf087298c52086a9163914cfa026624fd14f55eaa8ac652c9c372e",
+        "bytes": 8562,
+        "existingExactOriginalSHAAndSize": true
+      },
+      {
+        "url": "https://www.gladeye.com/valley/vignette.png",
+        "sha256": "cb96021890661683b94bae5f0dda04c6aab9c2f86af5a96468c0a0fabdc32334",
+        "bytes": 7436,
+        "existingExactOriginalSHAAndSize": true
+      }
+    ],
+    "initiatorEdgesTotal": 37,
+    "novelEdges": []
+  },
+  "memoryMinimumFreeMiB": 1916,
+  "sourceLimitations": [
+    "Official historical WebGL Insight is deprecated MV2; source only, NOT activated on Chrome 157.",
+    "The public-site draw classification is an overdraw-risk proxy, NOT a true pixel heatmap or true fragment count.",
+    "WebGL2 frame counts inferred from existing 16-draw topology, not accurate measured FPS.",
+    "A blended draw does not prove actual overlapping fragments or its GPU cost.",
+    "OWN-scene scissor ground-truth is a separate intentionally controlled scene; its counts do not transfer to third-party site.",
+    "Historical original third-party GPU frames, shaders, assets and full-resolution screenshots remain private on PC."
+  ],
+  "fixtureRaw": [
+    {
+      "label": "own_first",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-fixture-own_first-state.json"
+    },
+    {
+      "label": "own_second",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-fixture-own_second-state.json"
+    }
+  ],
+  "liveRaw": [
+    {
+      "label": "baseline",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-baseline-state.json"
+    },
+    {
+      "label": "pointer_left",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-pointer_left-state.json"
+    },
+    {
+      "label": "pointer_right",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-pointer_right-state.json"
+    },
+    {
+      "label": "wheel_450",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-wheel_450-state.json"
+    },
+    {
+      "label": "pointer_center",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-pointer_center-state.json"
+    },
+    {
+      "label": "wheel_800",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-wheel_800-state.json"
+    },
+    {
+      "label": "pointer_reverse",
+      "exists": true,
+      "bytesMatch": true,
+      "sha256Match": true,
+      "file": "X26-live-pointer_reverse-state.json"
+    }
+  ]
+}
