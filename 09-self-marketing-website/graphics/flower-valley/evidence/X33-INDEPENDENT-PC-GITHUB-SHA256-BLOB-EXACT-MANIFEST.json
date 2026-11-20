@@ -1,0 +1,74 @@
+{
+  "stage": "X33",
+  "stableObservationUTC": "2026-11-20T20:36:29.654Z",
+  "scope": "7 original owner code and numerically safe GitHub files, not the private original RDC, MCP raw transcript, screenshot, site asset",
+  "method": "Independently hash PC bytes as Git blob SHA1 and compare with actual GitHub Contents API SHA readback after remote creation",
+  "exact": true,
+  "total": 7,
+  "passed": 7,
+  "items": [
+    {
+      "filename": "X33-RenderDoc-MCP-90s-Public-ReadOnly.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X33-RenderDoc-MCP-90s-Public-ReadOnly.cjs",
+      "sizeBytes": 11790,
+      "PC_SHA256": "6c79d3ff3fb5b779e170cfcd9bcd0a49ae0eef15c119c42e1a5ae3e9ef48dffa",
+      "PC_GitBlob": "7d4d23c2a70cd0684888dd1a72426fcda109e89f",
+      "realGitHubContentsReadbackBlob": "7d4d23c2a70cd0684888dd1a72426fcda109e89f",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-Real-RenderDoc-MCP-Owner-RDC-JSONRPC-Client.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X33-Real-RenderDoc-MCP-Owner-RDC-JSONRPC-Client.py",
+      "sizeBytes": 7519,
+      "PC_SHA256": "67b7946962526de17254b3047a3cd486462fe6d1afafd117c24612eaa8afc386",
+      "PC_GitBlob": "d5a728b76a9171bc6bd35b5a642ce574d56935c2",
+      "realGitHubContentsReadbackBlob": "d5a728b76a9171bc6bd35b5a642ce574d56935c2",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-Independent-Real-MCP-Private-Source-To-Public-X01-X32-Audit.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X33-Independent-Real-MCP-Private-Source-To-Public-X01-X32-Audit.py",
+      "sizeBytes": 14686,
+      "PC_SHA256": "8a7926b6ae726bb5f89eabe338f64badc324c754836d831ad09fc191cafc7770",
+      "PC_GitBlob": "5ea3fd32231e6f1018e42c8dead05f763c71ac97",
+      "realGitHubContentsReadbackBlob": "5ea3fd32231e6f1018e42c8dead05f763c71ac97",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-90S-LIVE-READONLY-RENDERDOC-MCP-NO-VENDOR-INJECTION-X01-X32-TIMELINE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X33-90S-LIVE-READONLY-RENDERDOC-MCP-NO-VENDOR-INJECTION-X01-X32-TIMELINE.json",
+      "sizeBytes": 18584,
+      "PC_SHA256": "06ab38d34ecbb8a83fa3de2973b3d9a0d949846dfd2d0bb0192ecbcfb0297112",
+      "PC_GitBlob": "6e6fce7013c7d9b501de2e000de3fbabbcb1a686",
+      "realGitHubContentsReadbackBlob": "6e6fce7013c7d9b501de2e000de3fbabbcb1a686",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-SANITIZED-AUTHENTIC-MCP-REPLAY-90S-X01-X32-CROSSWALK.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X33-SANITIZED-AUTHENTIC-MCP-REPLAY-90S-X01-X32-CROSSWALK.json",
+      "sizeBytes": 4386,
+      "PC_SHA256": "94729f0d7d35590b1b752649230e0306c29e23ec27b6ec7df38f763f52bb741f",
+      "PC_GitBlob": "8f0e46ca916bf6ba28fa64ddc893e2c31fb4ebd8",
+      "realGitHubContentsReadbackBlob": "8f0e46ca916bf6ba28fa64ddc893e2c31fb4ebd8",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-INDEPENDENT-X01-X32-MCP-REPLAY-AND-LIVE-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X33-INDEPENDENT-X01-X32-MCP-REPLAY-AND-LIVE-ACCEPTANCE.json",
+      "sizeBytes": 5426,
+      "PC_SHA256": "f90976a6f07d489b4291885001ab5430a7b77f4f00808c2fd7ad4a2238dfd4c0",
+      "PC_GitBlob": "5d209be489eafa1cee286e6cd7d3e7356b49078e",
+      "realGitHubContentsReadbackBlob": "5d209be489eafa1cee286e6cd7d3e7356b49078e",
+      "byteExact": true
+    },
+    {
+      "filename": "X33-FULL-RENDERDOC-MCP-NATIVE-OWNER-REPLAY-90S-LIVE-X01-X32-FINAL-HANDOFF-2026-11-20.md",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/handoffs/X33-FULL-RENDERDOC-MCP-NATIVE-OWNER-REPLAY-90S-LIVE-X01-X32-FINAL-HANDOFF-2026-11-20.md",
+      "sizeBytes": 10330,
+      "PC_SHA256": "03df243ce9f88a9b7c625e76c89579fad9032d73d8866459f8224cf7a0440baf",
+      "PC_GitBlob": "2eb3c624e252c9c3d9ec88042aa279535493e9be",
+      "realGitHubContentsReadbackBlob": "2eb3c624e252c9c3d9ec88042aa279535493e9be",
+      "byteExact": true
+    }
+  ]
+}
