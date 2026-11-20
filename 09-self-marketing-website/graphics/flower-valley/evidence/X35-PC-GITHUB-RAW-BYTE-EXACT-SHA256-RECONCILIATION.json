@@ -1,0 +1,75 @@
+{
+  "stage": "X35",
+  "stableUTC": "2026-11-20T21:13:35.945Z",
+  "status": "PASS",
+  "total": 7,
+  "passed": 7,
+  "items": [
+    {
+      "file": "X35-Strict-90S-Public-Replicated-Input-Interaction-CDP-Playwright.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X35-Strict-90S-Public-Replicated-Input-Interaction-CDP-Playwright.cjs",
+      "bytes": 14700,
+      "PCSHA256": "60f8d0833919d3fa99fef7ac64719df7632a101dee9a12de5ab4a13024d3cb76",
+      "PCGitBlobSHA1": "d8bd3a9881f3d80f785df801ef02f53cd419d504",
+      "actualGitHubContentsReadbackBlobSHA1": "d8bd3a9881f3d80f785df801ef02f53cd419d504",
+      "byteExact": true
+    },
+    {
+      "file": "X35-Independent-Public-Inputs-90S-X01-X34-Acceptance.py",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X35-Independent-Public-Inputs-90S-X01-X34-Acceptance.py",
+      "bytes": 12639,
+      "PCSHA256": "883dcce1cf349a8f6554b001767ec8f40cb4dcfb00b625762807141e0961f123",
+      "PCGitBlobSHA1": "660beccaaf928ded2e4ec5f262827d7afcb5e23b",
+      "actualGitHubContentsReadbackBlobSHA1": "660beccaaf928ded2e4ec5f262827d7afcb5e23b",
+      "byteExact": true
+    },
+    {
+      "file": "X35-Independent-Private-PNG-Visual-Delta-Recheck.cjs",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/scripts/X35-Independent-Private-PNG-Visual-Delta-Recheck.cjs",
+      "bytes": 2975,
+      "PCSHA256": "39af9c1da13553546b4396a360e29c3881a6e1a31b5d57d7f6ba0a89cfeac886",
+      "PCGitBlobSHA1": "f541a2fa014cfb68fed049921844d0886d69dc37",
+      "actualGitHubContentsReadbackBlobSHA1": "f541a2fa014cfb68fed049921844d0886d69dc37",
+      "byteExact": true
+    },
+    {
+      "file": "X35-REAL-90S-PUBLIC-CONTROLLED-INPUTS-CROSSWALK.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X35-REAL-90S-PUBLIC-CONTROLLED-INPUTS-CROSSWALK.json",
+      "bytes": 61568,
+      "PCSHA256": "b52e7d902f75f481a61f7bfdf93f1fcc1d6031b3b26a957412c84d72a5e9fec7",
+      "PCGitBlobSHA1": "d07c3246991a95e5c518ac8df746ba48ebf6a077",
+      "actualGitHubContentsReadbackBlobSHA1": "d07c3246991a95e5c518ac8df746ba48ebf6a077",
+      "byteExact": true
+    },
+    {
+      "file": "X35-INDEPENDENT-STRICT-PUBLIC-INPUT-MOTION-X01-X34-ACCEPTANCE.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X35-INDEPENDENT-STRICT-PUBLIC-INPUT-MOTION-X01-X34-ACCEPTANCE.json",
+      "bytes": 33788,
+      "PCSHA256": "f5e59100deb8af45c4d6ac99338e445ecd388196a52668328d1a1a5ae85059a8",
+      "PCGitBlobSHA1": "f370c789513e6384b7209daa70dae7ce74e2d3c4",
+      "actualGitHubContentsReadbackBlobSHA1": "f370c789513e6384b7209daa70dae7ce74e2d3c4",
+      "byteExact": true
+    },
+    {
+      "file": "X35-INDEPENDENT-ALL-PNG-SCREEN-DELTA-CROSSCHECK.json",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/evidence/X35-INDEPENDENT-ALL-PNG-SCREEN-DELTA-CROSSCHECK.json",
+      "bytes": 14467,
+      "PCSHA256": "c3008ca350c1a3833c766f4a412ebcf98a91ef097e947e9c1b23c5658829f86d",
+      "PCGitBlobSHA1": "c99bcf7640129771cd4e5b21cd42c4e963747b9c",
+      "actualGitHubContentsReadbackBlobSHA1": "c99bcf7640129771cd4e5b21cd42c4e963747b9c",
+      "byteExact": true
+    },
+    {
+      "file": "X35-FULL-STRICT-90S-LIVE-INTERACTIONS-OWN-PNG-X01-X34-FINAL-HANDOFF-2026-11-21.md",
+      "githubPath": "09-self-marketing-website/graphics/flower-valley/handoffs/X35-FULL-STRICT-90S-LIVE-INTERACTIONS-OWN-PNG-X01-X34-FINAL-HANDOFF-2026-11-21.md",
+      "bytes": 10120,
+      "PCSHA256": "0fee4b398f6515992d7802b08147b388a1abb37a351e740975d8df8743a60c46",
+      "PCGitBlobSHA1": "3341d6a4d1bf4ed078c4761276cf608c07e1767c",
+      "actualGitHubContentsReadbackBlobSHA1": "3341d6a4d1bf4ed078c4761276cf608c07e1767c",
+      "byteExact": true
+    }
+  ],
+  "method": "Actual downloaded GitHub Contents API blob SHA1 independently compared against git blob from raw owner-PC file bytes",
+  "scope": "7 original user-owned scripts + nonexpressive evidence + QA + final report; private screenshots and 3D vendor assets NOT in GitHub",
+  "followup": "Checker and deterministic manifest added as 2 more independent exact-blob copies after source readbacks"
+}
