@@ -13,11 +13,12 @@
 3. **[03-MCP-AND-TEST-GATES.md](03-MCP-AND-TEST-GATES.md):** direct vs optional MCP connections; CLI delegation with Bridgerator; one MCP pilot acceptance protocol; tests/failures by site family.
 4. **[04-WEBSITE-BUILD-MODELS.md](04-WEBSITE-BUILD-MODELS.md):** 6 architecture families / 22 technical build recipes M01–M22, choices across static/CMS/headless/ecommerce/backend; first model M02 provisionally chosen for pilot.
 5. **[05-MODEL-BUILD-CHECKLIST.md](05-MODEL-BUILD-CHECKLIST.md):** the one actionable portfolio-build checklist: 6 unnumbered model families and 22 globally numbered [ ] checkboxes with evidence and completion conditions; all unchecked until tested.
+6. **[models/M01-vanilla-multilingual/README.md](models/M01-vanilla-multilingual/README.md):** dedicated five-language pure HTML/CSS/JS M01 site subproject on branch `project/light-sites-m01-vanilla-20261121`, with research, tools, 20-step roadmap, SEO/payment constraints and QA.
 
 ## Project intent
 Develop practical **lightweight** websites with ChatGPT GPT-6 through the connected **Bridgerator MCP** to a Windows laptop, **without using Codex or the heavy 3D codebase**. Frameworks are selected per real scenario, not accumulated. Prioritize a minimal working site, test it in a local real browser, then improve. Deploy only with explicit approval.
 
-**First engineering stack selected for planning: M02 (Vanilla HTML/CSS/JS + Vite + Bridgerator), not installed or built.** See model choice in 04. **First suggested experiment, not yet authorized for build:** synthetic six-product storefront: responsive catalog, product search, cart/quantity calculation, demo receipt; **no real payment/order/identity data**. Other candidate routes: one-page portfolio, Astro blog, WordPress theme/blocks, WooCommerce only after compatibility and resource checks.
+**Original parent proposal was M02 (Vanilla + Vite), still catalogued but NOT implemented. Current approved research target on this child branch is M01 (pure HTML/CSS/JS) with a premium five-language services/portfolio and mock storefront; see `models/M01-vanilla-multilingual/`.** No code or server has been built. M02 remains a separate model and must not be conflated with M01.
 
 ## Verified now (2026-11-21)
 - **Connected:** Bridgerator 1.1.19 to DJMRN-LAPTOP (online in live check); GitHub connector used to create this branch/docs.
