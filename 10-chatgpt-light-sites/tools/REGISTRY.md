@@ -153,6 +153,7 @@ https://github.com/vitejs/vite · https://github.com/withastro/astro · https://
 
 | ابزار | منبع/نوع | مصرف در پروژه سبک و ارزش واقعی | مسیر/اولویت | وضعیت |
 |---|---|---|---|---|
+| **Windows-MCP / Windows Commander / OpenDesk** | historical desktop-control alternatives; [MCP servers](https://github.com/modelcontextprotocol/servers) | P05/P10، کنترل پنجره/اپ در صورت شکاف واقعی Bridgerator | **ALTERNATIVE / NOT DEFAULT**؛ Desktop Commander and Bridgerator already overlap | status تاریخی و اتصال موثر به این گفتگو UNVERIFIED |
 | **REA / Reverse Engineer Anything** | [rea](https://github.com/morluto/rea), analyzer/MCP candidate | P02/P10، تحلیل ساختار JS صرفاً برای سایت خودمان یا با مجوز؛ جایگزین audit استاندارد نیست | research-only, heavy overlap | ZIP/TGZ در آرشیو قبلی؛ MCP به این چت متصل نیست |
 | **SiteOne Crawler GUI/CLI** | [GUI](https://github.com/janreges/siteone-crawler-gui) / [CLI](https://github.com/janreges/siteone-crawler) | P09، audit پیوندها، ساختار صفحات و منابع سایت محلی/مجاز | conditional QA | موجودی دانلود قدیمی؛ نصب/اجرا برای این پروژه UNVERIFIED |
 | **decant** | [repo](https://github.com/codingstark-dev/decant), CLI | P02، گرفتن نمای ساختاری و viewport مرجع مجاز | optional research | وضعیت نصب UNVERIFIED |
