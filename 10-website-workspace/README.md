@@ -1,6 +1,6 @@
 # DJMRN — Website Workspace (parent program, structural registration)
 
-**Status:** STRUCTURE-ONLY / source references, not a second site codebase or a new progress log.
+**Status:** Parent workspace registration, source routes and case planning documents.
 **Created:** 2026-11-21. **Project desktop identity:** `DJMRN-Website-Workspace`.
 **Scope:** Parent Codex workspace for website creation, multi-site extraction/research, source reconstruction, compositional prototyping, review, and eventual QA.
 
@@ -45,10 +45,14 @@ Codex must verify its **own** GitHub access; a ChatGPT GitHub connection does no
 - **Operational state:** workspace structure exists; Codex UI project registration and eventual graphical build/46 runtime gates must be independently verified, not claimed by this README.
 - **Future changes:** extensions/art direction go into independent, approved workstreams without rewriting original extraction source records.
 
-This subtree intentionally contains **only parent-project structure registration and directory placeholders**, not a second stage log, new extraction reports, or a replacement for the existing `09-self-marketing-website` project.
+The parent subtree contains the workspace structure, source references and the case-specific execution roadmap.
 
 ## One hierarchical GitHub + PC source profile for Codex
 
 All project source routes are now grouped under the [website-sources unified profile](00-program/profiles/website-sources/README.md), with four branches: [GitHub](00-program/profiles/website-sources/01-github/README.md), [PC references](00-program/profiles/website-sources/02-pc/README.md), [site cases](00-program/profiles/website-sources/03-cases/gladeye-fernhollow/README.md), and [Codex access instructions](00-program/profiles/website-sources/04-codex/README.md).
 
 The actual absolute Windows source locations, verified X46 index SHA and Codex start document live only in the existing *local* parent Codex project's `00-program/profiles/website-sources/PROFILE.json` and `CODEX-START.md`. This GitHub profile intentionally includes structure/public references only; it does not publish PC directory names, original third-party capture bodies, or a second status authority. Additional reference-site research gets its own sibling case, not another root profile.
+
+## Original Fernhollow engine reconstruction
+
+[Master roadmap](01-reference-sites/gladeye-fernhollow/roadmap/ROADMAP.md) · [Next session](01-reference-sites/gladeye-fernhollow/roadmap/START-HERE.md) · [46-gate crosswalk](01-reference-sites/gladeye-fernhollow/roadmap/GATE-CROSSWALK.csv). Implementation and runtime receipts are future case work.
