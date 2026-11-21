@@ -11,11 +11,12 @@
 1. **[01-PROFESSIONAL-STAGES.md](01-PROFESSIONAL-STAGES.md):** 13 sequential gates P00–P12, website families A–F, tool selection by stage, operational acceptance, RAM/security constraints and the proposed first pilot.
 2. **[02-TOOLS-CATALOG.md](02-TOOLS-CATALOG.md):** categorized inventory of tools/software/libraries/plugins/sources, capabilities, source links, stage, MCP connection reality, local install/archive status, reasons to select/skip, cost and security gates.
 3. **[03-MCP-AND-TEST-GATES.md](03-MCP-AND-TEST-GATES.md):** direct vs optional MCP connections; CLI delegation with Bridgerator; one MCP pilot acceptance protocol; tests/failures by site family.
+4. **[04-WEBSITE-BUILD-MODELS.md](04-WEBSITE-BUILD-MODELS.md):** 6 architecture families / 22 technical build recipes M01–M22, choices across static/CMS/headless/ecommerce/backend; first model M02 provisionally chosen for pilot.
 
 ## Project intent
 Develop practical **lightweight** websites with ChatGPT GPT-6 through the connected **Bridgerator MCP** to a Windows laptop, **without using Codex or the heavy 3D codebase**. Frameworks are selected per real scenario, not accumulated. Prioritize a minimal working site, test it in a local real browser, then improve. Deploy only with explicit approval.
 
-**First suggested experiment, not yet authorized for build:** synthetic six-product storefront: responsive catalog, product search, cart/quantity calculation, demo receipt; **no real payment/order/identity data**. Other candidate routes: one-page portfolio, Astro blog, WordPress theme/blocks, WooCommerce only after compatibility and resource checks.
+**First engineering stack selected for planning: M02 (Vanilla HTML/CSS/JS + Vite + Bridgerator), not installed or built.** See model choice in 04. **First suggested experiment, not yet authorized for build:** synthetic six-product storefront: responsive catalog, product search, cart/quantity calculation, demo receipt; **no real payment/order/identity data**. Other candidate routes: one-page portfolio, Astro blog, WordPress theme/blocks, WooCommerce only after compatibility and resource checks.
 
 ## Verified now (2026-11-21)
 - **Connected:** Bridgerator 1.1.19 to DJMRN-LAPTOP (online in live check); GitHub connector used to create this branch/docs.
