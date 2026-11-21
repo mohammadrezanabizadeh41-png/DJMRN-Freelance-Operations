@@ -7,7 +7,7 @@
 1. **[REGISTRY.md](REGISTRY.md) — کاتالوگ مرجع و واحد ابزارها:** همه ابزارهای پژوهش‌شده در گفت‌وگوهای قبلیِ این پروژه، نقش واقعی، وضعیت نصب/آرشیو/اتصال، MCP vs CLI، هزینه و اینکه در P00–P12 چه کار می‌کنند؛ به‌اضافه ابزارهای مفیدِ تطبیق‌شده با پروژه قدیمی. **این فایل تنها مرجع فعال ابزارها در پروژه جدید است.**
 2. **[LEGACY-CROSSWALK.md](LEGACY-CROSSWALK.md) — تطبیق کامل فهرست قدیمی:** برای ۸۶ ردیف از بخش‌های A–F کاتالوگ قبلی در پروژه 09، مشخص شده ۱۴ ردیف قبلاً پوشش داده شده‌اند، ۳۲ ردیف برای استفاده احتمالی در پروژه سبک منتقل/دسته‌بندی شده‌اند و ۴۰ ردیف مربوط به 3D/GPU و کارهای خارج از محدوده نگه داشته نشده‌اند. **فهرست قدیمی تغییر نکرده است.**
 
-**شمارش قابل بازبینی:** رجیستری قبلی ۶۳ ردیف A–G داشت؛ ۲۸ ردیف ترکیبی/گروهی مربوط به ابزارهای مفید قدیمی به بخش L افزوده شد و سه ردیف کشف‌های جدید MCP در K حضور دارند (برخی با C هم‌پوشانی دارند). بنابراین این ردیف‌ها **تعداد نرم‌افزار مستقل نصب‌شده یا تعداد محصولات یکتا نیستند**. آمار مستند تاریخی A–F و طبقه‌بندی ۸۶ ردیفی در crosswalk است.
+**شمارش قابل بازبینی:** رجیستری ابتدایی ۶۳ ردیف A–G شامل ۷ ردیف ابزارهای agent-first/خارج از دامنه داشت. در ممیزی فعلی بخش G از شمارش و انتخاب حذف شد؛ **uv 0.13.5** در بخش A ثبت شد؛ ابزارهای مناسب کاتالوگ قدیمی در L نگهداری شده‌اند و MCPهای WordPress/Grav/Studio و **Anode/Ghost MCPB** در K/M نیز ثبت هستند. این‌ها ردیف‌های گروهی و هم‌پوشان دارند، بنابراین **نباید تعدادشان را به‌عنوان تعداد نرم‌افزار نصب‌شده یا محصولات یکتا گزارش کرد**. تطبیق ۸۶ ردیف تاریخی در crosswalk قرار دارد.
 
 ## انتخاب‌های فوری در مقابل گزینه‌های آینده
 | فاز | پیش‌فرض انتخاب‌شده | ابزار فقط در صورت نیاز اثبات‌شده |
@@ -17,8 +17,13 @@
 | P06 طراحی و asset | HTML/CSS و تصاویر دارای مجوز | GIMP، Krita، Inkscape، Sharp، SVGO، Onlook، Webstudio، GrapesJS |
 | P07–P08 ساخت سایت سبک | **M02 = Vanilla + Vite** فقط در صورت نیاز bundling | Astro، WordPress Playground/Studio، Gutenberg، WooCommerce در مسیر دیگر |
 | P09 QA و عملکرد | Node test + مرورگر موجود/Playwright تست‌شده | axe, Lighthouse, Biome, SiteOne Crawler, Playwright MCP |
-| P10 بررسی تخصصی | Bridgerator file/terminal + browser CLI | Chrome DevTools MCP, WordPress MCP Adapter, Grav MCP, MCP Inspector |
+| P10 بررسی تخصصی | Bridgerator file/terminal + browser CLI | Chrome DevTools MCP, WordPress MCP Adapter, Grav MCP, MCP Inspector؛ Anode/Ghost MCPB فقط در صورت نیاز به GUI background |
 | P11 تحویل | GitHub branch مخصوص پروژه + readback | انتشار فقط بعد از تأیید و بررسی هزینه |
+
+## نتیجه ممیزی جدید بدون ایجنت‌ها
+- ابزارهای اصلی ذکرشده در گفتگوهای گذشته (Vite, Astro, WordPress Playground/Studio/Adapter, WooCommerce, Gutenberg, GrapesJS, Puck, Playwright/DevTools MCP, Grav, onlook, SiteOne, WebScoop و غیره) در REGISTRY مستند هستند.
+- سه مورد جاافتاده اصلاح شد: **uv** به‌عنوان ابزار محلی نصب‌شده؛ **Anode MCPB و Ghost MCPB** به‌عنوان سرورهای جایگزین کنترل GUI که فایل دانلودشان قبلاً شناسایی شده، اما وصل نشده‌اند.
+- **gptme، Goose، OpenCode، Pi Coding Agent، GitHub Copilot، Dyad** و دیگر عامل‌های مستقل برای تصمیم و شمارش این پروژه **خارج از دامنه** هستند؛ حذف از رجیستری فعال به معنی uninstall آن‌ها از لپ‌تاپ نیست.
 
 ## تمایز سه وضعیت که در تمام ابزارها رعایت می‌کنیم
 - **Connected to this ChatGPT:** فقط Bridgerator و GitHub connector در این پروژه تأیید شده‌اند. اگر ابزار دیگری از MCP پشتیبانی می‌کند، این به‌معنای اتصال فعال نیست.
