@@ -19,7 +19,7 @@
 
 - [ ] **01 — M01: HTML + CSS + JavaScript خالص**  
   نمونه انتخاب‌شده برای ساخت: **سایت پنج‌زبانه حرفه‌ای خدمات دیجیتال + نمونه‌کار + کاتالوگ محصولات نمایشی** (fa/en/ar/tr/de، RTL/LTR، SEO، DEMO checkout).  
-  معیار پایان: اجرای محلی پنج‌زبانه، تست صفحه/تعامل/سبد آزمایشی، SEO/hreflang، responsive، دسترس‌پذیری، امنیت و commit قابل بازبینی.  
+  معیار پایان: اجرای محلی پنج‌زبانه؛ **سازگاری موبایل، تبلت و لپ‌تاپ/دسکتاپ** با یک طراحی Responsive، RTL/LTR، portrait/landscape و touch/keyboard/mouse؛ تست صفحه/سبد آزمایشی، SEO/hreflang، دسترس‌پذیری، امنیت و commit قابل بازبینی.  
   **پروژه فرعی و نقشه ۲۰ مرحله‌ای:** [M01 README](models/M01-vanilla-multilingual/README.md) · [مراحل S01–S20](models/M01-vanilla-multilingual/03-EXECUTION-ROADMAP.md).  
   شواهد تکمیل: **هنوز ندارد — فقط پژوهش و نقشه‌راه ثبت شده** — استک برنامه‌ریزی‌شده: **Vanilla HTML/CSS/JS** — خروجی اجرایی/تست: **انجام نشده**
 
