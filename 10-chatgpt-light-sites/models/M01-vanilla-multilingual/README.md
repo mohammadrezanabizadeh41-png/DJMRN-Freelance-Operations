@@ -12,6 +12,7 @@
 ## Concept chosen for professional portfolio sample
 **Provisional fictional identity:** NOVA Atelier — multilingual digital services studio with visual portfolio, catalog of **demo** services/products, interactive demo cart and explicit mock checkout. Sample should look like a plausible client-facing premium website but must be clearly labeled a fictional demonstration. **No real merchant, bank gateway, order processing, account, payment, collection of PII or production hosting.**
 
+**Responsive display target (required):** **Mobile + Tablet + Laptop/Desktop** using one fluid responsive codebase; 1920px wide-screen is an additional check, not a fourth separately built version. Test both portrait/landscape where relevant, touch/mouse/keyboard, RTL/LTR and zoom/reflow. See [04 responsive contract](04-I18N-SEO-COMMERCE-SECURITY.md), [03 updated 20-stage roadmap](03-EXECUTION-ROADMAP.md), [05 device QA](05-QA-AND-HANDOFF.md).  
 **Languages:** فارسی (`fa`, RTL), English (`en`, LTR), العربية (`ar`, RTL), Türkçe (`tr`, LTR), Deutsch (`de`, LTR).  
 **Architecture:** semantic crawlable `HTML` + modern `CSS` + modular `JavaScript` only. **No Vite, React, WordPress, Next.js, backend or database** in M01 runtime. Existing Node/Git/Bridgerator are development/test executors, not website runtime dependencies.
 
@@ -36,7 +37,7 @@
 | Fonts/assets | self-host approved Vazirmatn/Inter, optional Lucide SVG; no font or image is copied/installed in this planning turn |
 | SEO | meaningful static HTML in 5 language URL subfolders, no JS-only SEO content, `hreflang` reciprocity, original truthful metadata |
 | Cart/payment | synthetic inventory/amounts, mock cart and mock receipt with no card fields; real payment future independent architecture |
-| Responsive | 320px–1440px, keyboard and touch, fa/ar RTL and en/tr/de LTR |
+| Responsive | **Mobile 320–430px, tablet 600–1024px, laptop/desktop 1024–1440px, wide 1920px optional**; keyboard/touch/mouse, rotation/zoom and fa/ar RTL + en/tr/de LTR |
 | Performance and access | WCAG 2.2 AA target, reduced-motion, CWV aspirations; never claim passing without measurements |
 | Permissions | no new software installed, no MCP/server configured, no provider sign-up, no actual data transmitted or external deploy |
 
