@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "stage": "X49",
+  "date": "2026-11-21",
+  "status": "PASS_OWN_FIXTURE_FIDELITY_SCOPE_QUALIFIED",
+  "scope": "EXISTING_OFFLINE_X29_X30_X31_X34_X42_X43A_X48, NO_X36",
+  "reference_site_new_requests": 0,
+  "new_installs": 0,
+  "paid_usage": 0,
+  "source_hash_verified": 10,
+  "own_tested_exports": 3,
+  "fixture_separation": {
+    "X29_X30": "same owner-authored tiny WebGL2 fixture",
+    "X31": "separate owner-authored larger grid fixture"
+  },
+  "observations": {
+    "x29": {
+      "meshes": 2,
+      "vertices": 7,
+      "triangles": 3,
+      "uvs": 7,
+      "normals": 7,
+      "points": 0,
+      "glb_sha256": "ef093f310d1c62471920364857f51b6569d31bd1631417a64b1020b19de0a5a3"
+    },
+    "x30": {
+      "meshes": 2,
+      "vertices": 7,
+      "triangles": 3,
+      "uvs": 7,
+      "normals": 0,
+      "points": 0,
+      "glb_sha256": "8011f38f77a9f0eaec9c20f3facd1b6ce7cb7821612df64a6c8c21cd19ed4fcc"
+    },
+    "x31": {
+      "meshes": 1,
+      "vertices": 512,
+      "triangles": 930,
+      "uvs": 512,
+      "normals": 512,
+      "points": 0,
+      "glb_sha256": "c69bd5f61c6d02c320d83439f0f9058b64b7e9a99970ef2aa571ecd918f37b30"
+    }
+  },
+  "feature_fidelity": {
+    "base_triangle_mesh": "PRESERVED_OWN_FIXTURE",
+    "UV0": "PRESERVED_OWN_FIXTURE",
+    "POINTS": "LOST_ALL_5_TEST_POINTS_IN_EACH_EXPORT",
+    "instancing": "THREE_LOGICAL_COPIES_NOT_PRESERVED",
+    "materials_and_normals": "EXTRACTOR_DEPENDENT",
+    "source_animation": "NOT_VERIFIED"
+  },
+  "independent_checks": {
+    "x29_zip_exists_and_hash_from_x43": true,
+    "x29_two_meshes_three_triangles": true,
+    "x29_quad_four_vertices": true,
+    "x29_uvs_seven": true,
+    "x29_no_points": true,
+    "x30_glb_matches_x30_gh_sha": true,
+    "x30_two_triangle_meshes": true,
+    "x30_no_normals": true,
+    "x30_uv_count_seven": true,
+    "x30_no_points": true,
+    "x31_glb_sha_matching_prior": true,
+    "x31_grid_vertex_512": true,
+    "x31_grid_triangles_930": true,
+    "x31_grid_normals_512": true,
+    "x31_grid_uv_512": true,
+    "x31_no_points": true,
+    "no_exported_gpu_instancing": true,
+    "no_exported_animations": true,
+    "all_indices_in_range": true,
+    "all_positions_finite": true,
+    "khronos_x31_report_clean": true,
+    "x34_grid_same_x31_sha": true,
+    "no_vendor_mesh_claim": true
+  },
+  "caveats": [
+    "Validation of GLB container is not fidelity of a whole scene",
+    "X29 and X30 are not the same fixture as X31; compare each to its own source",
+    "No original reference-site mesh has been recovered or reconstructed",
+    "No GPU benchmarking, no 3D rendering or new live-site capture",
+    "No third-party asset duplication or publication"
+  ],
+  "sources_public": {
+    "x29": "09-self-marketing-website/graphics/flower-valley/evidence/X29-SANITIZED-90S-WEBGLRIPPER-GEOMETRY-X01-X28-CROSSWALK.json",
+    "x30": "09-self-marketing-website/graphics/flower-valley/evidence/X30-INDEPENDENT-OWN-GLB-GEOMETRY-TRANSFORM-AND-X29-COMPARISON.json",
+    "x31": "09-self-marketing-website/graphics/flower-valley/evidence/X31-INDEPENDENT-REAL-OWNER-GLB-AND-X01-X30-ACCEPTANCE.json",
+    "x34": "09-self-marketing-website/graphics/flower-valley/evidence/X34-GLTF-TRANSFORM-KHRONOS-OWNER-ANIMATION-CAMERA-AND-PRIVATE-REFERENCE-STRUCTURE.json"
+  },
+  "next": "X43-B final evidence reconciliation",
+  "registration": {
+    "id": "DJMRN-FLOWER-VALLEY-X49-OFFLINE-2026-11-21",
+    "branch": "main",
+    "public_projection_only": true,
+    "original_fixture_assets_remain_private": true,
+    "previous_stages": [
+      "X43-A",
+      "X42",
+      "X48"
+    ],
+    "private_pc_relative_root": "OFFLINE-CODEX-HANDOFF/X49/",
+    "local_artifact_sha256": {
+      "GEOMETRY-FIDELITY-MATRIX.csv": "7b105208ce41fd1cc79c58990bbab532b820c30a2d11e17b59cb594733378bec",
+      "EXTRACTION-LOSS-REPORT.md": "83e5aeb449be86ac35cefbc0f047f6fcb94aa77cd56df7a30a5be591a27f8b30",
+      "X49-PRIVATE-BINARY-EVIDENCE.json": "2d478e42d9aea76b531bd321999dabbc22a1937188fcaed9901e4a0659931d8e",
+      "X49-TESTS.json": "07e1dc4ca3e134014dfd0fdc8eea2f4645e25b5b4b7f2b015b230913a348334f",
+      "X49-PUBLIC-SAFE-RESULT.json": "a3b5dd70f27be4a2c59db15e41be0498791121b72bf3f56cb34d5b9dd56c0c0a"
+    },
+    "github_owner_fixture_matrix": "09-self-marketing-website/graphics/flower-valley/evidence/X49-OFFLINE-OWN-GEOMETRY-FIDELITY-MATRIX-2026-11-21.csv",
+    "crosschecks": "10 locally existing input source bytes verified against X43-A SHA ledger; X29/X30/X31 published stage reports compared; X34 X31 ownMesh SHA confirmation",
+    "rights": "No original commercial mesh/shader/asset published; no access to live reference site"
+  }
+}
