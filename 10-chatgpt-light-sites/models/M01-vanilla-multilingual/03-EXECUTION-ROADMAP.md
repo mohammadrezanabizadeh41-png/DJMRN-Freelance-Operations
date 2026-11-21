@@ -35,14 +35,14 @@
   - **کار:** محل Git شاخه M01، مسیر مجزا روی لپ‌تاپ، RAM/Node/Git/Browser و ابزارهای ضروری را فقط‌خواندنی تطبیق بده.
   - **ابزار/نقش:** Bridgerator/Git/Node/Windows.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** Git branch/path درست، اتصال مستقیم برقرار، RAM و ports سنجیده؛ هیچ فایل 09 تغییر نکند.
+  - **قبولی:** اتصال و Git/Node/مرورگر + امکان شبیه‌سازی viewport در DevTools تأیید، RAM/ports بررسی؛ هیچ فایل 09 تغییر نکند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S02 — Brief کاربردی و مشتری فرضی**
   - **کار:** مخاطب/ارزش پیشنهادی، ۵ زبان، ۵ صفحه عمومی، Demo checkout، **سه کلاس اصلی نمایشگر موبایل/تبلت/لپ‌تاپ-دسکتاپ** و حالت افقی/عمودی را به‌عنوان نیاز قطعی ثبت کن.
   - **ابزار/نقش:** GPT-6 + سند 01.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** پیشنهاد برند/خدمات/محصولات demo با پیام صادقانه و CTA روشن، تایید کاربر.
+  - **قبولی:** برند و مخاطب/CTA و ۵ زبان/۳ کلاس نمایشگر با پیام DEMO، محدوده امکانات و تأیید صاحب پروژه روشن باشند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S03 — مرور رقبا/الگوهای طراحی روز**
@@ -56,77 +56,77 @@
   - **کار:** نقشه HTML/CSS/JS ماژولار با **یک DOM معنایی و CSS mobile-first، viewport meta، توکن‌های fluid و breakpoints محتوامحور**؛ JavaScript صرفاً تعامل، SSR/DB صفر؛ preview loopback.
   - **ابزار/نقش:** GPT-6 + Git.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** ساختار فایل، قرارداد ورودی/خروجی state UI و استراتژی برگشت‌پذیری تایید.
+  - **قبولی:** ساختار فایل/قرارداد state، یک DOM یکسان در هر locale، متای viewport، رویکرد mobile-first، breakpoints محتوامحور و rollback تأیید.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S05 — معماری اطلاعات، صفحات و مسیرها**
   - **کار:** navigation، sitemap، CTA، product data dummy، مسیر داده و حالت خطا برای زبان‌ها و هر سه سطح نمایش؛ منوی موبایل، ناوبری تبلت و desktop، سبد خرید و فرم بدون قابلیت گم‌شده.
   - **ابزار/نقش:** HTML map/JSON fixtures.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** تمام مسیرهای کاربر و وضعیت empty/error مشخص، هیچ data collection واقعی.
+  - **قبولی:** همه مسیرها و CTA در موبایل/تبلت/دسکتاپ و حالت‌های empty/error با ورودی touch/mouse/keyboard مشخص باشند؛ جمع‌آوری واقعی داده وجود ندارد.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S06 — سیستم بصری و تایپوگرافی**
   - **کار:** **سه wireframe واضح موبایل، تبلت، دسکتاپ** + wide-screen fluid max-width، توکن رنگ/space/type با clamp، Grid/Flex، media/container queries لازم، RTL/LTR، touch/hover/keyboard، کنتراست، ۱ hero original؛ بدون WebGL سنگین.
   - **ابزار/نقش:** CSS Grid/Flex/Container Query، optional GIMP/Inkscape.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** wireframe موبایل/دسکتاپ و سبک تایید؛ readable 320px و keyboard order معنادار.
+  - **قبولی:** wireframe مجزای سه کلاس **موبایل، تبلت، لپ‌تاپ/دسکتاپ** با یک سیستم CSS، RTL/LTR، 320px reflow و خوانایی wide screen بررسی/تأیید شود.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S07 — طراحی i18n و محتوای پنج زبان**
   - **کار:** fa/en/ar/tr/de، ترجمه معنا و title/meta/CTA/alt؛ تست طول واژه‌ها و شکست خطوط در **۳ کلاس صفحه**، direction در چرخش portrait/landscape، و bidi.
   - **ابزار/نقش:** HTML lang/dir + CSS logical + Intl.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** کلید/صفحه‌های عمومی هر locale منطبق، ترجمه موقت صادقانه و آماده بازبینی.
+  - **قبولی:** ترجمه و navigation همه localeها با طول متن واقعی، RTL/LTR و شکست خطوط سه کلاس نمایش بررسی شده و بازبینی انسانی ترجمه پیگیری شود.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S08 — قالب HTML، Git و پیش‌نمایش محلی**
   - **کار:** پوشه مستقل کد، فایل‌های پایه/README/test؛ preview Node built-in روی 127.0.0.1؛ **اولین smoke responsive در عرض‌های 320، 768 و 1366 CSS px** بدون سه HTML متفاوت.
   - **ابزار/نقش:** Bridgerator + Git + Node/Python.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** صفحه واقعی در مرورگر از localhost باز شود، سورس تمیز و branch درست.
+  - **قبولی:** سایت واقعی با browser در localhost در عرض‌های 390/820/1366 ظاهر شود؛ تک HTML/DOM قابل استفاده در هر کلاس و Git branch درست باشد.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S09 — کامپوننت‌های مشترک و ناوبری**
   - **کار:** header/footer، language switcher، menu موبایل/تبلت و navigation دسکتاپ با **یک مدل DOM**، skip link، active page، نقاط لمس مناسب و focus-visible.
   - **ابزار/نقش:** HTML semantic + CSS + vanilla JS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** menu با keyboard/touch، زبان حفظ شود، layout shift مهم نباشد.
+  - **قبولی:** منوی موبایل/تبلت/دسکتاپ + language switch با touch و mouse/keyboard کار کند؛ رنگ/Focus و بدون جابه‌جایی بزرگ layout.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S10 — صفحه اصلی حرفه‌ای**
   - **کار:** hero، ارزش پیشنهادی، خدمات منتخب، نمونه‌های DEMO، CTA و motion کاربردی؛ **نسخه ۱، ۲ و ۳ ستونه متناسب فضای محتوا**، بدون crop مخرب تصویر، چیدمان سازگار با صفحه عریض.
   - **ابزار/نقش:** HTML/CSS + DOM JS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** نمایش ۵ زبان و RTL/LTR؛ CTA و محتوای main بدون JS هم معنی‌دار.
+  - **قبولی:** Home در همه پنج زبان با سه viewport نماینده کار کند، محتوا/CTA بدون JS معنی‌دار، hero و typography بدون crop/overflow مخرب.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S11 — صفحات خدمات و نمونه‌کار**
   - **کار:** Services + Portfolio با case studies واضح DEMO، جزئیات و CTA به contact؛ grid کارت‌ها و طول متن fa/ar/de در موبایل/تبلت/دسکتاپ.
   - **ابزار/نقش:** static localized HTML + CSS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** مسیرها در ۵ زبان، محتوای شفاف و بدون لوگو/نقل‌قول ساختگی.
+  - **قبولی:** خدمات و نمونه‌کار در پنج زبان و سه کلاس بدون بریدگی کارت/متن، با لینک‌های واقعی محلی و بدون testimonials جعلی.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S12 — کاتالوگ استاتیک و فیلتر**
   - **کار:** ۴–۶ آیتم آزمایشی، جست‌وجو، فیلتر، حالت no-result، price labels nonreal؛ **فیلتر و cart قابل استفاده با لمس موبایل/تبلت و موس/کیبورد دسکتاپ**، بدون hover-only UX.
   - **ابزار/نقش:** vanilla JS modules + JSON/static HTML.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** filter و keyboard کار کند، اختلال JS محتوای اصلی را پنهان نکند.
+  - **قبولی:** فیلتر و جست‌وجو در mobile touch، tablet tap و desktop keyboard/mouse قابل استفاده؛ حالت خالی accessible و layout پایدار.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S13 — سبد و پرداخت نمایشی**
   - **کار:** cart, quantity, sum in integer minor units, mock checkout, demo receipt; **فرم و جدول خلاصه reflow در موبایل و تبلت** و banner ثابت و خوانای «پرداخت نمایشی» در همه اندازه‌ها.
   - **ابزار/نقش:** vanilla JS + Node built-in unit tests.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** جمع درست و حالت خطا/refresh/empty cart کار کند، هیچ PAN/PII/secret، فقط MOCK.
+  - **قبولی:** cart و receipt آزمایشی در هر سه کلاس screen با reflow درست و بنر DEMO روشن کار کند؛ بدون واقعی‌سازی پرداخت/PII و total غلط.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14 — تماس، اعتماد و صفحات حقوقی نمایشی**
   - **کار:** Contact, privacy/terms placeholder فقط صادقانه، بدون فرم ارسال واقعی یا شخص/نشانی جعلی؛ کنترل‌ها و برچسب‌های form در موبایل، تبلت و دسکتاپ با لمس و keyboard تست شوند.
   - **ابزار/نقش:** semantic HTML + validation UI.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** کاربر بفهمد ارسال نشده؛ بدون third-party collection؛ پیوندهای contact سالم.
+  - **قبولی:** Contact و disclaimer در موبایل/تبلت/دسکتاپ با focus/touch keyboard قابل استفاده و صادقانه فاقد ارسال واقعی باشند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S15 — سئوی فنی چندزبانه**
@@ -140,45 +140,45 @@
   - **کار:** WCAG 2.2 AA target، **reflow تا 320 CSS px و زوم 200%/400% مطابق تست مرتبط**، keyboard، pointer coarse/fine، touch targets، focus، contrast، lang/dir، bdi، forms، alt و reduced-motion در سه کلاس نمایش.
   - **ابزار/نقش:** axe-core optional + manual browser.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** تست صفحه‌ها ۵ زبان، RTL و قیمت‌ها؛ نقض جدی  keyboard/focus/contrast رفع.
+  - **قبولی:** reflow تا 320 CSS px، zoom 200% و سناریوی 400%، focus/keyboard/touch و WCAG 2.2 AA target در fa/ar RTL و LTR بررسی؛ blockerهای جدی صفر.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S17 — بهینه‌سازی و بودجه عملکرد**
   - **کار:** WebP/AVIF با **srcset/sizes/picture در صورت نیاز** و حفظ نسبت، fonts subsetting، no hydration، defer JS، CWV/Lighthouse روی پروفایل موبایل و دسکتاپ؛ استفاده از width محدود در نمایشگرهای بزرگ.
   - **ابزار/نقش:** Chrome DevTools + Lighthouse; Sharp/SVGO optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** بدون overflow در 320px، عکس‌ها aspect-ratio، هدف Lighthouse >=90 با گزارش واقعی؛ baseline و trade-off ثبت.
+  - **قبولی:** اندازه/عکس/فونت و کشیدگی 1920 با شواهد lab mobile + desktop بررسی؛ Lighthouse ≥90 فقط هدف و نه PASS تضمینی.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S18 — تست جامع عملکرد، امنیت و بازیابی**
   - **کار:** URL/lang routes، link crawl، unit/e2e، **ماتریس عرض 320/360/390/430/600/768/820/1024/1280/1440/1920 px** با ۳ کلاس اصلی، portrait/landscape، touch+mouse+keyboard، RTL/LTR، zoom، failure، XSS، no secrets.
   - **ابزار/نقش:** node --test, node --check, Playwright if verified, OWASP.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** smoke+unit+e2e+negative cases، صفر تراکنش واقعی، تجربه fallback و error تست‌شده.
+  - **قبولی:** ماتریس 3 کلاس × 5 زبان، zoom/portrait-landscape، touch/mouse/keyboard و مسیرها/سبد/فرم/test failures با شواهد PASS/FAIL واقعی کامل شود؛ هیچ class بلاک‌شده باقی نماند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S19 — پکیج نمونه‌کار و تحویل**
   - **کار:** سورس خوانا، دستور اجرا، **تصویر تأییدشده از هر سه کلاس نمایشگر** (موبایل، تبلت، لپ‌تاپ/دسکتاپ) در fa RTL و en LTR، LICENSE assets، محدودیت پرداخت.
   - **ابزار/نقش:** Git + GitHub branch + screenshot tools optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** commit مستقل، بازخوانی GitHub، راهنمای اجرا و شواهد آزمون، تایید مالک.
+  - **قبولی:** حداقل screenshot و تست قابل بازبینی برای موبایل، تبلت و لپ‌تاپ/دسکتاپ، fa RTL و en LTR، commit مستند و مجوز asset ثبت شود.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S20 — بازبینی مشتری و تصمیم انتشار/گسترش**
   - **کار:** **بازبینی واقعی در گوشی، تبلت در صورت دسترس، و لپ‌تاپ/PC** (یا شبیه‌سازی مستند در نبود دستگاه)، مقایسه portrait/landscape، دریافت بازخورد، اصلاح محدود، بررسی مجوز deploy اختیاری.
   - **ابزار/نقش:** browser/owner + Git; hosting only after approval.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** نمونه به‌صورت محلی usable؛ هر انتشار عمومی/دامنه/PSP/حساب نیازمند پیشنهاد و اجازه جدید.
+  - **قبولی:** UX نهایی موبایل و لپ‌تاپ واقعی و تبلت واقعی در صورت دسترس (وگرنه emulator با برچسب) تأیید شود؛ انتشار/دامنه/درگاه با approval مستقل.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 ## خوشه‌های تحویل؛ زیرمجموعه همین ۲۰ مرحله، نه پروژه‌های موازی
 | Milestone | Stages | خروجی مطلوب | Stop / recovery |
 |---|---|---|---|
 | Brief and design approved | S01–S07 | معماری، محتوا و طراحی تایید شده | اگر ترجمه/برند/حق استفاده مبهم است، با fixture صریح ادامه بده و ادعای نهایی نکن |
-| Real minimal working vertical | S08–S10 | Home در ۵ زبان + navigation واقعی محلی | اگر preview/route خراب است، توسعه قابلیت بعدی متوقف |
-| Service and shop demo functional | S11–S14 | Services/Portfolio/Catalog + cart/checkout DEMO end-to-end | اگر مبلغ/حالت خطا/برچسب غیرواقعی روشن نیست، checkout نمایشی مسدود |
-| Professional quality gates | S15–S18 | SEO/i18n/RTL/a11y/performance/security/functional evidence | failureها fix شوند، FAIL را PASS اعلام نکن |
-| Handoff and real user proof | S19–S20 | branch+README+test+portable local demo | public deploy/real payments فقط با approval جدا |
+| Real minimal working vertical | S08–S10 | Home در ۵ زبان + navigation واقعی محلی، سه viewport نماینده و یک DOM responsive | اگر preview/route خراب است، توسعه قابلیت بعدی متوقف |
+| Service and shop demo functional | S11–S14 | Services/Portfolio/Catalog + cart/checkout DEMO end-to-end در سه کلاس نمایشگر | اگر مبلغ/حالت خطا/برچسب غیرواقعی روشن نیست، checkout نمایشی مسدود |
+| Professional quality gates | S15–S18 | SEO/i18n/RTL/a11y/performance/security و responsive mobile/tablet/desktop functional evidence | failureها fix شوند، FAIL را PASS اعلام نکن |
+| Handoff and real user proof | S19–S20 | branch+README+test+portable local demo و screenshots سه کلاس دستگاه | public deploy/real payments فقط با approval جدا |
 
 ## Dependency rules و برش‌های کوچک
 - فقط S01–S07 پژوهش/brief هستند؛ اگر همه تصمیم‌ها از پیش روشن شد سریع به S08/S09 برو؛ از بازتولید گزارش‌های یکسان خودداری کن.
