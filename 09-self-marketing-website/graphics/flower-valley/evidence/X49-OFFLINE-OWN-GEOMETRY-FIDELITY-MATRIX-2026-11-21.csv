@@ -1,0 +1,31 @@
+feature,fixture,engine,expected,actual,verdict,evidence,note
+GLB2 file container,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,valid glTF2,valid glTF2,PASS,ORIGINAL_BYTES,Format validity is not semantic completeness
+TRIANGLES logical base,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,3,3,PASS,BINARY_DECODED,Does not count repeated instance copies
+VERTEX positions,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,7,7,PASS,BINARY_DECODED,Finite-position check also passed
+UV0 pairs,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,7,7,PASS,BINARY_DECODED,UV present; actual texture appearance separate
+NORMAL attributes,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,OWNER_GROUND_TRUTH_NOT_FIXED,7,PRESENT,BINARY_DECODED,No original normal fidelity percentage claimed
+POINTS submission,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,5 OWN points,0,LOSS,OWN_FIXTURE+GLB,All five POINTS are absent from exported primitives
+INSTANCED logical copies,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,3 OWN instance copies,2 scene mesh references,LOSS,OWN_FIXTURE+GLB,No EXT_mesh_gpu_instancing nodes; mesh reference count is not a full draw-call trace
+Materials/textures,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,REFERENCE_VISUAL_UNKNOWN,"mat=2,tex=1,images=1",OBSERVED,BINARY_DECODED,No vendor asset guarantee
+Node transforms,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,SOURCE_TRANSFORMS_UNSPECIFIED,2 nodes,NOT_PROVEN,BINARY_DECODED,Node count alone is not equality of original transforms
+Animation,OWN Tiny WebGL2,X29_WebGLRipper_OWN_tiny,SOURCE_ANIMATION_UNSPECIFIED,0 clips,NOT_PROVEN,BINARY_DECODED,Own fixture draw animation expectations not established
+GLB2 file container,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,valid glTF2,valid glTF2,PASS,ORIGINAL_BYTES,Format validity is not semantic completeness
+TRIANGLES logical base,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,3,3,PASS,BINARY_DECODED,Does not count repeated instance copies
+VERTEX positions,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,7,7,PASS,BINARY_DECODED,Finite-position check also passed
+UV0 pairs,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,7,7,PASS,BINARY_DECODED,UV present; actual texture appearance separate
+NORMAL attributes,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,OWNER_GROUND_TRUTH_NOT_FIXED,0,ABSENT,BINARY_DECODED,No original normal fidelity percentage claimed
+POINTS submission,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,5 OWN points,0,LOSS,OWN_FIXTURE+GLB,All five POINTS are absent from exported primitives
+INSTANCED logical copies,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,3 OWN instance copies,2 scene mesh references,LOSS,OWN_FIXTURE+GLB,No EXT_mesh_gpu_instancing nodes; mesh reference count is not a full draw-call trace
+Materials/textures,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,REFERENCE_VISUAL_UNKNOWN,"mat=1,tex=1,images=1",OBSERVED,BINARY_DECODED,No vendor asset guarantee
+Node transforms,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,SOURCE_TRANSFORMS_UNSPECIFIED,2 nodes,NOT_PROVEN,BINARY_DECODED,Node count alone is not equality of original transforms
+Animation,OWN Tiny WebGL2,X30_binbuf_OWN_tiny,SOURCE_ANIMATION_UNSPECIFIED,0 clips,NOT_PROVEN,BINARY_DECODED,Own fixture draw animation expectations not established
+GLB2 file container,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,valid glTF2,valid glTF2,PASS,ORIGINAL_BYTES,Format validity is not semantic completeness
+TRIANGLES logical base,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,930,930,PASS,BINARY_DECODED,Does not count repeated instance copies
+VERTEX positions,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,512,512,PASS,BINARY_DECODED,Finite-position check also passed
+UV0 pairs,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,512,512,PASS,BINARY_DECODED,UV present; actual texture appearance separate
+NORMAL attributes,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,OWNER_GROUND_TRUTH_NOT_FIXED,512,PRESENT,BINARY_DECODED,No original normal fidelity percentage claimed
+POINTS submission,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,5 OWN points,0,LOSS,OWN_FIXTURE+GLB,All five POINTS are absent from exported primitives
+INSTANCED logical copies,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,3 OWN instance copies,1 scene mesh references,LOSS,OWN_FIXTURE+GLB,No EXT_mesh_gpu_instancing nodes; mesh reference count is not a full draw-call trace
+Materials/textures,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,REFERENCE_VISUAL_UNKNOWN,"mat=0,tex=0,images=0",OBSERVED,BINARY_DECODED,No vendor asset guarantee
+Node transforms,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,SOURCE_TRANSFORMS_UNSPECIFIED,1 nodes,NOT_PROVEN,BINARY_DECODED,Node count alone is not equality of original transforms
+Animation,OWN Grid WebGL2,X31_MeshGrab_OWN_grid,SOURCE_ANIMATION_UNSPECIFIED,0 clips,NOT_PROVEN,BINARY_DECODED,Own fixture draw animation expectations not established
