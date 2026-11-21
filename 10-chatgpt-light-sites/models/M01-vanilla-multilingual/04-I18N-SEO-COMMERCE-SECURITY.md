@@ -58,6 +58,40 @@ README.md                      # how to run and inspect, not a separate status l
 
 The planned `site/{lang}` pages are **5 publicly indexable page kinds × 5 locales = 25 static pages**, plus **5 DEMO checkout routes** kept `noindex`. That is a plan, not files created. Avoid placeholder canonicals `https://example.com` in published data. May later use a small deterministic Node HTML writer for shared template duplication, but shipping runtime stays framework-free, static HTML; do not introduce Vite/Astro.
 
+## 1A) قرارداد معماری Responsive برای سه کلاس اصلی دستگاه
+**Single codebase, one semantic HTML per locale-route:** سایت جداگانه برای موبایل/تبلت/دسکتاپ نداریم. هر سه کلاس یک محتوا و ساختار معنایی می‌بینند؛ فقط چیدمان fluid متناسب **viewport، اندازه container، جهت و امکانات input** متفاوت می‌شود. CSS و JS پروژه همچنان Vanilla باقی می‌مانند.
+
+### رفتار طراحی
+| بخش | موبایل (هدف 320–430 px) | تبلت (هدف 600–1024 px) | لپ‌تاپ/دسکتاپ (هدف 1024–1440 px) | مانیتور عریض 1920 px |
+|---|---|---|---|---|
+| Header / Navigation | لوگو، منوی قابل لمس و انتخاب زبان accessible، بدون hover-only | منوی فشرده یا افقی بسته به جا، هدف لمس واضح | منوی افقی کامل در صورت جا، keyboard/mouse | همان منو، عرض محتوا محدود |
+| Hero | متن/CTA اول، تصویر زیر یا کنار در فضای کافی، عدم crop نامناسب | دو ستونه در صورت فضای کافی | متن و تصویر متعادل، عنوان بزرگ با `clamp()` | متن خوانا با `max-width`، فضای خالی کنترل‌شده |
+| Service/Portfolio grid | غالباً یک ستون؛ کارت‌ها resize fluid | معمولاً دو ستون، بر اساس متن و عرض container | ۲–۳ ستون یا CSS Grid بانتو محدود | بدون ستون‌های بسیار کشیده |
+| Catalog | فیلتر/کارت/سبد روی هم، دکمه‌ها لمسی | فیلتر کنار یا بالای محصولات؛ ۲ ستون | فیلتر/کارت/سبد در شبکه متناسب عرض | حداکثر عرض ثابت‌تر و whitespace |
+| Contact/demo checkout | فرم و خلاصه در یک ستون؛ دکمه‌ها تمام‌عرض در صورت لزوم | فرم + خلاصه در دو ستون اگر usable | دو ستون، بدون خروج محتوا | ستون‌ها محدود به عرض مناسب |
+| Language + bidi | `lang/dir`, `bdi`، متن بلند بدون overflow | همان محتوای واقعی با wrap مناسب | همان محتوا و دسترسی یکسان | همان قواعد |
+
+**این‌ها heuristic هستند، نه breakpoint ثابت.** پیکربندی واقعی در S06 با دیدن محتوا انتخاب می‌شود؛ عرض 820px الزاماً «فقط تبلت» نیست.
+
+### قواعد فنی حداقلی
+- `<meta name="viewport" content="width=device-width, initial-scale=1">` در هر صفحه؛ از `user-scalable=no` و محدودکردن بزرگ‌نمایی خودداری کن.
+- mobile-first CSS؛ Flex/Grid با `minmax(0,1fr)`, `repeat(auto-fit, minmax(...))`, `min-width:0`, `max-inline-size`, `max-width:100%`؛ در صورت نیاز media queries مبتنی بر محتوا با `rem` و container queries برای کارت‌های درون شبکه. JS برای تغییر layout استفاده نشود مگر ضرورت اثبات‌شده.
+- typography fluid: `clamp()` و واحد `rem`، طول خط خوانا (مثلاً 60–75ch برای متن Latin و آزمون مستقل متن فارسی/عربی)، فاصله و padding منطقی (`padding-inline`).
+- تصاویر: `<picture>` فقط اگر تغییر هنری واقعاً لازم شد، `srcset/sizes` برای انتخاب اندازه فایل، width/height یا `aspect-ratio` برای جلوگیری از CLS؛ آیکون/متن باید در zoom/RTL درست بمانند.
+- touch targets: **WCAG 2.2 AA حداقل 24×24 CSS px با استثناهای مقرر؛ ترجیح طراحی 44×44 CSS px برای کنترل‌های اصلی**؛ focus keyboard قابل مشاهده، state منو با Escape و بدون hover اجباری.
+- landscape و orientation: فقط viewport را مدنظر قرار بده؛ scroll افقی کل صفحه، sticky محتوای مزاحم یا پوشاندن CTA در صفحه کوتاه ممنوع. safe-area `env(safe-area-inset-*)` فقط هنگام نیاز، بدون طراحی مختص یک گوشی.
+- Reflow: آزمون در 320 CSS px و zoom تا 400% برای سناریوی W3C (از جمله محتوای 1280px در 400% ≈320 CSS px). Zoom 200% و text resize نیز جدا سنجیده شود؛ اسکرول افقی فقط برای استثنای واقعی محتوای دوبعدی و در container محدود.
+- هیچ قابلیت (language switcher، catalog filter، cart، demo receipt، contact) نباید در کلاس نمایش دیگر حذف شود؛ فقط محل و چیدمانش عوض می‌شود.
+- retina/large screens: رزولوشن فیزیکی و viewport CSS دو چیز جدا هستند؛ devicePixelRatio معیار تصمیم ساختار نیست. 1920px یک تست تکمیلی است نه یک «نسخه چهارم».
+
+### آزمون مداوم
+- **طراحی/بازبینی اولیه:** 390 موبایل + 820 تبلت + 1366 یا 1440 دسکتاپ، fa RTL و en LTR.
+- **آزمون نهایی S18:** 320/360/390/430، 600/768/820/1024، 1280/1440 و 1920 CSS px؛ هر پنج زبان با حالت‌ها و آزمون‌های ریسک‌محور؛ portrait/landscape در viewportهای مناسب، zoom، pointer/touch و keyboard.
+- **دستگاه واقعی:** اگر کاربر تبلت فیزیکی ندارد، مرورگرِ شبیه‌ساز viewport برای تست layout قابل استفاده است ولی «تست تبلت واقعی» نباید ادعا شود. موبایل و لپ‌تاپ واقعی تا حد دسترسی کاربر تست شوند.
+- شواهد هر گام در checkbox همان Sxx و ماتریس تست T10/T08 ثبت می‌شود، نه سند وضعیت موازی.
+
+**منابع رسمی:** [MDN Responsive Web Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design); [MDN Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries); [web.dev Choose Breakpoints](https://web.dev/learn/design/media-queries); [W3C WCAG Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html); [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/).
+
 ## 2) i18n conventions and content QA
 - Locale: `fa` RTL, `ar` RTL; `en`, `tr`, `de` LTR. Root HTML always sets `lang` and `dir` and a locale-specific page title.
 - Language switcher: each page links to the **equivalent route in other locales**, not blindly to each homepage. Text labels are human-readable language autonyms.
@@ -124,7 +158,7 @@ Sources: [OWASP Frontend](https://cheatsheetseries.owasp.org/cheatsheets/Web_Fro
 - Keep images dimensioned, lazy-load below-the-fold only, reserve layout space, responsive images, small JS modules, no unnecessary npm runtime, preload only actual critical asset.
 - WCAG 2.2 AA as a **target** with manual keyboard, meaningful focus, language, reduced motion, contrast plus axe; automated scanner alone does not certify compliance.
 - Motion: no scroll traps, no gratuitous parallax, no auto-playing background video. Prefer CSS transitions + `prefers-reduced-motion`.
-- Test 320, 360, 390, 768, 1024 and 1440 CSS pixel widths with real browser screenshots and no horizontal overflow except where design calls for scrollable component.
+- Test 320, 360, 390, 430 (mobile), 600, 768, 820, 1024 (tablet and small laptop), 1280/1440 (laptop/desktop) and 1920 CSS px (wide optional), including orientation and locale combinations. Require real browser screenshots and no unintended page-level horizontal overflow; record whether tested on real hardware or emulation.
 
 Sources: [web.dev CWV](https://web.dev/articles/defining-core-web-vitals-thresholds), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/), [MDN prefers reduced motion](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion).
 
