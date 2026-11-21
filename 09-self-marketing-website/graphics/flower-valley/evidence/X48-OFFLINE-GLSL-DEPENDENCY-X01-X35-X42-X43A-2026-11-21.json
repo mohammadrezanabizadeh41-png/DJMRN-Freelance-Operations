@@ -1,0 +1,123 @@
+{
+  "stage": "X48",
+  "status": "STATIC_DEPENDENCY_PASS_FULL_AST_UNAVAILABLE",
+  "source_scope": "Existing private X22/X27/X28 captures, X42 and X43-A, X01..X35 only",
+  "canonical_source_hashes": 22,
+  "vertex_sources": 11,
+  "fragment_sources": 11,
+  "linked_programs_from_saved_capture": 11,
+  "capture_rechecks": [
+    {
+      "stage": "X22",
+      "sample": "X22-90S-01-initial.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-02-pointer_left.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-03-pointer_right.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-04-scroll_450.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-05-pointer_center.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-06-scroll_800.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X22",
+      "sample": "X22-90S-07-pointer_reverse.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X28",
+      "sample": "X28-ISPETTORE-RAW-01-normal_baseline.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X28",
+      "sample": "X28-ISPETTORE-RAW-02-hover_left.json",
+      "matched_canonical_hashes": 22
+    },
+    {
+      "stage": "X28",
+      "sample": "X28-ISPETTORE-RAW-03-hover_right.json",
+      "matched_canonical_hashes": 22
+    }
+  ],
+  "functions_detected": 171,
+  "direct_function_call_edges": 42,
+  "unique_uniform_declarations": 73,
+  "unique_uniforms_reachable_from_main": 62,
+  "program_interface_pair_count": 11,
+  "parser": "local_structured_static_scanner_NOT_FULL_GLSL_AST",
+  "tests": {
+    "owner_fixture_cases": 3,
+    "passed": 3,
+    "exact_canonical_hashes": "22/22",
+    "capture_sets": "10/10",
+    "program_links": "11/11"
+  },
+  "provenance": {
+    "github_canonical_shader_digest_file": "09-self-marketing-website/graphics/flower-valley/evidence/X27-X22-CANONICAL-22-SHADER-SHA256-REFERENCE.json",
+    "github_x27_crosswalk": "09-self-marketing-website/graphics/flower-valley/evidence/X27-SANITIZED-90S-SHADER-COMPILE-LINK-X01-X26-CROSSWALK.json",
+    "github_x42_summary": "09-self-marketing-website/graphics/flower-valley/evidence/X42-OFFLINE-SCENE-ARCHITECTURE-X01-X35-X43A-2026-11-21.json"
+  },
+  "known_limits": [
+    "No complete GLSL AST parser locally",
+    "No runtime shader effects causality",
+    "No binary/vendor source files reconstructed",
+    "Macro and alias limitations"
+  ],
+  "privacy": {
+    "raw_vendor_shader_text_published": false,
+    "private_function_graph_published": false,
+    "user_files_uploaded": false
+  },
+  "live_site_requests": 0,
+  "new_installs": 0,
+  "paid_calls": 0,
+  "x36_used": false,
+  "next": "X49 (optional OWN fidelity), then X43-B; full parser only upon separate approval",
+  "registration": {
+    "id": "DJMRN-FLOWER-VALLEY-X48-OFFLINE-2026-11-21",
+    "date": "2026-11-21",
+    "governance": "user-requested dual-location archival; GitHub is sanitized projection, PC retains full private evidence",
+    "scope": "X01–X35, X42, X43-A; excludes X36, no live Gladeye",
+    "local_path_relative_to_private_evidence_root": "OFFLINE-CODEX-HANDOFF/X48/",
+    "previous_stages": {
+      "X43-A": "evidence/X43-A-OFFLINE-PC-GITHUB-CROSSWALK-SUMMARY-2026-11-21.json",
+      "X42": "evidence/X42-OFFLINE-SCENE-ARCHITECTURE-X01-X35-X43A-2026-11-21.json"
+    },
+    "local_artifact_sha256": {
+      "X48-PRIVATE-DEPENDENCY-GRAPH.json": "7549079bca7428dfb62865bd69d5f7e85a82541b22addb0da0cf417d82dade79",
+      "X48-PRIVATE-PROGRAM-INTERFACES.csv": "b148fb84923dd9d50797e27d23d60f135eadf90aa7657a5ab4db75c4aa96d7b3",
+      "X48-SHADER-DEPENDENCY-MAP.md": "c27e223037281886951b5db153f6d87edb1b78e4ccc8325993a832d4ea44ed77",
+      "X48-LIMITATIONS-AND-GAPS.md": "73f1e149889956d18752f05ca9499a42fdbd13df09889d86acbe4b6d9cf1ef03",
+      "X48-OWNER-FIXTURE-TEST.json": "19fb25ded3dc7362d8398573ede2cfce03cf925a4c33f1f544e9e8eccd153a7a",
+      "X48-PUBLIC-SAFE-RESULT.json": "46d1ad0a114d52ea99cfcb3f8a7e42b81c070ef93ff86f0147f07458787816fd",
+      "X48-INDEPENDENT-CROSS-STAGE-VERIFICATION.json": "b512fba6449e1c0f817e7b162b1ad2817ab0f19541f7cc729c1113bce81b769d"
+    },
+    "local_source_full_glsl_and_dependency_graph": "PRIVATE_PC_ONLY_NOT_PUBLISHED",
+    "status_not_full_ast": "STATIC_DEPENDENCY_PASS_FULL_AST_UNAVAILABLE",
+    "known_limits": [
+      "13 local X48 items present before receipt, including scripts, tests, private evidence, and public summaries",
+      "Raw vendor GLSL not licensed for public release",
+      "Full GLSL AST parser absent; lexical/brace-aware graph only",
+      "Provenance independent source checks PASS; does not certify runtime causality"
+    ]
+  }
+}
