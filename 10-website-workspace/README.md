@@ -46,3 +46,9 @@ Codex must verify its **own** GitHub access; a ChatGPT GitHub connection does no
 - **Future changes:** extensions/art direction go into independent, approved workstreams without rewriting original extraction source records.
 
 This subtree intentionally contains **only parent-project structure registration and directory placeholders**, not a second stage log, new extraction reports, or a replacement for the existing `09-self-marketing-website` project.
+
+## One hierarchical GitHub + PC source profile for Codex
+
+All project source routes are now grouped under the [website-sources unified profile](00-program/profiles/website-sources/README.md), with four branches: [GitHub](00-program/profiles/website-sources/01-github/README.md), [PC references](00-program/profiles/website-sources/02-pc/README.md), [site cases](00-program/profiles/website-sources/03-cases/gladeye-fernhollow/README.md), and [Codex access instructions](00-program/profiles/website-sources/04-codex/README.md).
+
+The actual absolute Windows source locations, verified X46 index SHA and Codex start document live only in the existing *local* parent Codex project's `00-program/profiles/website-sources/PROFILE.json` and `CODEX-START.md`. This GitHub profile intentionally includes structure/public references only; it does not publish PC directory names, original third-party capture bodies, or a second status authority. Additional reference-site research gets its own sibling case, not another root profile.
