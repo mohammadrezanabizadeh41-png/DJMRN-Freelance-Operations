@@ -1,0 +1,11 @@
+url_path,role,original_bytes_present,sha256_independently_verified,byte_length,first_seen,runtime_loaded_and_rendered,rights_to_publicly_reuse
+/valley/audio/ge-ambient.mp3,AUDIO,True,True,3315774,X01,NOT_TESTED,NOT_VERIFIED
+/valley/camera-path07.glb,GLB_CAMERA_OR_MODEL,True,True,10132,X01,NOT_TESTED,NOT_VERIFIED
+/valley/dust-particle.png,IMAGE_OR_TEXTURE,True,True,2102,X01,NOT_TESTED,NOT_VERIFIED
+/valley/flowers/pool_summer.png,IMAGE_OR_TEXTURE,True,True,249287,X01,NOT_TESTED,NOT_VERIFIED
+/valley/flowers/pool_winter.png,IMAGE_OR_TEXTURE,True,True,915892,X01,NOT_TESTED,NOT_VERIFIED
+/valley/rays/ray1.png,IMAGE_OR_TEXTURE,True,True,295868,X01,NOT_TESTED,NOT_VERIFIED
+/valley/rays/ray2.png,IMAGE_OR_TEXTURE,True,True,225311,X01,NOT_TESTED,NOT_VERIFIED
+/valley/rays/ray3.png,IMAGE_OR_TEXTURE,True,True,222220,X01,NOT_TESTED,NOT_VERIFIED
+/valley/terrain.png,IMAGE_OR_TEXTURE,True,True,8562,X01,NOT_TESTED,NOT_VERIFIED
+/valley/vignette.png,IMAGE_OR_TEXTURE,True,True,7436,X01,NOT_TESTED,NOT_VERIFIED
