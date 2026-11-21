@@ -12,6 +12,7 @@
 2. **[tools/README.md](tools/README.md) → [tools/REGISTRY.md](tools/REGISTRY.md) + [tools/LEGACY-CROSSWALK.md](tools/LEGACY-CROSSWALK.md):** the dedicated canonical tools subdirectory with full software/MCP/libraries, stage, role, local-install/archive status and the 86-row historical import reconciliation. The old 02-TOOLS-CATALOG.md is only a redirect.
 3. **[03-MCP-AND-TEST-GATES.md](03-MCP-AND-TEST-GATES.md):** direct vs optional MCP connections; CLI delegation with Bridgerator; one MCP pilot acceptance protocol; tests/failures by site family.
 4. **[04-WEBSITE-BUILD-MODELS.md](04-WEBSITE-BUILD-MODELS.md):** 6 architecture families / 22 technical build recipes M01–M22, choices across static/CMS/headless/ecommerce/backend; first model M02 provisionally chosen for pilot.
+5. **[05-MODEL-BUILD-CHECKLIST.md](05-MODEL-BUILD-CHECKLIST.md):** the one actionable portfolio-build checklist: 6 unnumbered model families and 22 globally numbered [ ] checkboxes with evidence and completion conditions; all unchecked until tested.
 
 ## Project intent
 Develop practical **lightweight** websites with ChatGPT GPT-6 through the connected **Bridgerator MCP** to a Windows laptop, **without using Codex or the heavy 3D codebase**. Frameworks are selected per real scenario, not accumulated. Prioritize a minimal working site, test it in a local real browser, then improve. Deploy only with explicit approval.
