@@ -11,8 +11,8 @@ This is an **import of tool knowledge**, not of third-party packages or files: p
 
 | Classification | Rows | Meaning |
 |---|---:|---|
-| ALREADY | 13 | present in the new core registry from earlier chat-based research |
-| IMPORTED | 33 | now considered in the new registry (mostly optional/deferred) and checked against use cases |
+| ALREADY | 14 | present in the new core registry from earlier chat-based research |
+| IMPORTED | 32 | now considered in the new registry (mostly optional/deferred) and checked against use cases |
 | EXCLUDED | 40 | old 3D/GPU/GLB/particle/visual effects tooling intentionally out-of-scope |
 | TOTAL | 86 | reconciles all old A–F rows; tool products/bundles not necessarily one per row |
 
@@ -91,7 +91,7 @@ This is an **import of tool knowledge**, not of third-party packages or files: p
 | F | Blender + Blender MCP | GUI 3D + MCP | **EXCLUDED** | ۳بعدی/GPU یا هندسه، خارج از این پروژه؛ صرفاً سابقه |
 | F | Krita | GRAPHIC GUI | **IMPORTED** | پوشش به‌صورت شرطی در رجیستری بخش L یا ارزیابی مستقل |
 | F | GIMP | GRAPHIC GUI | **ALREADY** | پوشش در رجیستری بخش‌های A–G |
-| F | Inkscape | VECTOR GUI | **IMPORTED** | پوشش به‌صورت شرطی در رجیستری بخش L یا ارزیابی مستقل |
+| F | Inkscape | VECTOR GUI | **ALREADY** | پوشش در رجیستری بخش‌های A–G |
 | F | Material Maker | MATERIAL GUI | **EXCLUDED** | ۳بعدی/GPU یا هندسه، خارج از این پروژه؛ صرفاً سابقه |
 | F | Free Texture Packer | ATLAS GUI | **IMPORTED** | پوشش به‌صورت شرطی در رجیستری بخش L یا ارزیابی مستقل |
 | F | FastPack | ATLAS GUI/CLI | **IMPORTED** | پوشش به‌صورت شرطی در رجیستری بخش L یا ارزیابی مستقل |
