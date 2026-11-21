@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "stage": "X43-A",
+  "workflow": "OWNER_REQUESTED_OFFLINE_SUBROADMAP",
+  "date": "2026-11-21",
+  "status": "COMPLETE_PRELIMINARY_RECONCILIATION_WITH_EXPLICIT_REVIEW_FLAGS",
+  "sources": {
+    "github_repo": "mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations",
+    "branch": "main",
+    "tree_sha_before_publication": "0ba31ee2a129ef2c7b084f5dc935ac013b03c7a0",
+    "canonical_resource_ledger": "graphics/flower-valley/evidence/X01-X19-RESOURCE-URL-SHA256-PROVENANCE.json",
+    "local_original_archive_scope": "X01–X35 and owner prompt only",
+    "local_raw_bytes_remain_private": true
+  },
+  "cross_stage": {
+    "local_indexed_source_files": 9283,
+    "local_root_scripts_analyzed_by_name": 55,
+    "x_stages_with_public_evidence": 35,
+    "github_x01_x35_public_blobs": 374,
+    "github_to_pc_exact_git_blob_matches": 244,
+    "newline_or_bom_equivalent_not_byte_exact": 54,
+    "same_name_different_blob_needing_review": 15,
+    "no_same_name_local_candidate": 61,
+    "cannot_infer_missing_evidence_from_no_basename_match": true
+  },
+  "original_site_canonical": {
+    "recorded_resource_paths": 78,
+    "network_observed_resource_paths": 72,
+    "offline_derived_or_metadata_only_paths": 6,
+    "original_http_body_byte_sha256_variants": 70,
+    "original_http_body_variants_sha256_found_in_scoped_pc": 70,
+    "resources_with_at_least_one_original_http_body_sha_found": 69,
+    "resources_with_no_original_body_sha": 9
+  },
+  "security": {
+    "x36_sources_included": 0,
+    "live_website_requests": 0,
+    "raw_vendor_JS_GLSL_GLB_images_uploaded": false,
+    "private_PC_files_uploaded": false,
+    "new_paid_tools_or_installs": false,
+    "original_source_files_modified": false
+  },
+  "methods": [
+    "GitHub REST main Git tree snapshot, file path+blob SHA-1 with stage regex X01..X35",
+    "Offline local source inventory and Git-compatible blob SHA-1 of same-named PC candidate",
+    "Separate UTF-8 BOM/CRLF/LF equivalence check (not byte identical)",
+    "Full SHA-256 joins for 70 canonical historical original HTTP-body variants",
+    "Source identity is URL plus original response-body SHA, not filename or mirror copy"
+  ],
+  "local_provenance_sha256": {
+    "public_file_crosswalk_csv": "a81c79d43d0a788249ffb72bcc0348eed30ef312be65aa038aec6ed507dec11b",
+    "resource_crosswalk_csv": "172a544728781ccffd62b0fc30f1b152730272cfca57ca0f262fc8053afed9d7",
+    "detailed_report_md": "c824b4a7918df1d8a60b65b9b919489e5d5b4bd08331bddfa6630ef1cb02f93a"
+  },
+  "limitations": [
+    "15 textual differences require content-aware review; no automatic attribution to website revision",
+    "61 GitHub public entries lack same-name counterparts in the scoped local case; this does not establish absence from backups",
+    "Old/new visual website design remains owner-unverified",
+    "X43-B remains responsible for final semantic claim and cross-stage contradiction resolution",
+    "Historical runbook's X37 NEXT remains separate; temporary offline plan proceeds to X42"
+  ],
+  "next": "X42_OFFLINE_ONLY"
+}
