@@ -21,6 +21,7 @@
 | **Node.js 24.22.1 + npm 11.19.1** | https://github.com/nodejs/node | P05–P09: dev server/build/test | CLI INDIRECT | **INSTALLED**؛ verify per-project lockfile |
 | **VS Code 1.142.0** | https://github.com/microsoft/vscode | P05–P09: editor, find, refactor، بررسی پروژه | MCP client optional، no exposed server | **INSTALLED**؛ در تست قبلی extensions list خالی |
 | **Python 3.14.7** | https://github.com/python/cpython | P03/P09: fixture، فایل/تصاویر، اسکریپت deterministic | CLI INDIRECT | **INSTALLED**؛ برای کار ساده به venv جدید نیاز نیست |
+| **uv 0.13.5** | [astral-sh/uv](https://github.com/astral-sh/uv)، Python package/project environment manager | P05/P09: محیط ایزوله، نصب وابستگی‌های Python فقط در پروژه‌ای که واقعاً Python لازم دارد، lock/reproducibility | CLI INDIRECT از طریق Bridgerator؛ MCP Server مستقل نیست | **INSTALLED — winget live check 2026-11-21**؛ برای M02 با Node/Vite ضروری نیست، هیچ پکیجی اکنون نصب نشد |
 | **Docker Desktop** | https://www.docker.com/products/docker-desktop/ | مسیر WP پیشرفته فقط در صورت نیاز DB سازگار | CLI INDIRECT؛ app نه لزوماً OSS | **INSTALLED**، runtime لازم نیست و پرمصرف؛ **HOLD** |
 | **PHP / WP-CLI** | https://github.com/wp-cli/wp-cli | C/E: توسعه WordPress واقعی | CLI INDIRECT | دستورهای php/wp در PATH پیدا نشدند؛ نصب سراسری **مجاز نیست تا تصمیم** |
 
@@ -92,16 +93,10 @@
 | **GitHub Pages** | https://docs.github.com/pages | P12: انتشار سایت استاتیک با مجوز | hosting بیرونی | **NOT ACTIVATED**؛ شرایط هزینه/visibility پیش از deploy |
 | **OWASP ZAP** | https://github.com/zaproxy/zaproxy | P09 advanced security test روی سایت مجاز | CLI/GUI، RAM سنگین | **DEFER**؛ only if actual attack surface |
 
-## G — عامل‌های دانلودشده/نصب‌شده: گزینه جایگزین، نه نیاز پیش‌فرض
-| Tool | مرجع | وضعیت دیده‌شده 2026-11-21 | دلیل عدم استفاده پیش‌فرض |
-|---|---|---|---|
-| **gptme 0.36.0** | https://github.com/gptme/gptme | winget installed؛ binary gptme و MCP server روی PATH دیده نشدند | نیاز به بررسی standalone MCP و هزینه provider؛ Bridgerator کافی است |
-| **Goose 1.58.1 installer** | https://github.com/block/goose | Downloads، command روی PATH نبود | agent میزبان مستقل؛ هزینه مدل/رم و duplicate capability |
-| **OpenCode Desktop installer** | https://github.com/anomalyco/opencode | Downloads، command روی PATH نبود | agent و API server جدا؛ no need for current chat |
-| **Pi Coding Agent ZIP** | https://github.com/badlogic/pi-mono | Downloads، نصب/اتصال تأیید نشده | agent replacement؛ نه ضرورت |
-| **Dyad 1.23.0** | https://github.com/dyad-sh/dyad | installed در winget | GUI builder، MCP client؛ inverse connection to chat verified نیست |
-| **GitHub Copilot app** | https://github.com/features/copilot | installed | provider/entitlement هزینه و overlap؛ نه code bridge این گفتگو |
-| **Spector.js / Three.js / REA / RenderDoc** | آرشیو تاریخی DJMRN-Website-Tools | بسته‌های محلی در سیستم وجود دارند | برای پروژه سه‌بعدی قدیمی‌اند؛ **OUT OF SCOPE** و تحت این پروژه اجرا نمی‌شوند |
+## G — ایجنت‌ها و عامل‌های کدنویسی از این ممیزی خارج‌اند
+مطابق دستور فعلی کاربر، **عامل‌های کدنویسی مستقل** مانند gptme، Goose، OpenCode، Pi Coding Agent و GitHub Copilot و برنامه‌های agent-first مثل Dyad را در **شمارش و انتخاب ابزارهای پروژه سبک وارد نمی‌کنیم**. وجود آن‌ها در Downloads/نصب ویندوز به معنای نقش در این پروژه نیست. سابقه قبلی در Git history محفوظ است؛ هیچ برنامه‌ای حذف یا غیرفعال نشده.
+
+سرورهای MCP «Anode» و «Ghost» با خودِ coding agent یکی نیستند؛ آن‌ها ابزارهای کنترل دسکتاپ برای یک کلاینت MCP هستند و به‌صورت گزینه مشروط در بخش M ثبت شده‌اند.
 
 ## H — انتخاب فشرده بر اساس مرحله و نوع سایت
 | مرحله | A ساده | B Astro | C WordPress | D demo shop | E واقعی | F app |
@@ -184,3 +179,26 @@ https://github.com/vitejs/vite · https://github.com/withastro/astro · https://
 | **MCP Inspector** | [official](https://github.com/modelcontextprotocol/inspector) | P10، tools/list و تست اتصال MCP جدید در محیط کنترل‌شده | conditional security/debug | **NOT CONNECTED**, Node package/tools not activated |
 
 **سایر موارد old catalog شامل 3D/GPU/GLB/Shader/particle هستند و برای این پروژه سبک آورده نشده‌اند.** فقط شواهد نام و دسته در crosswalk برای تشخیص scope حفظ شده‌اند؛ نه نصب، نه اجرا، نه دانلود یا کپی باینری صورت گرفته است.
+
+
+## M — ممیزی صریح ابزارهای غیرایجنتی معرفی‌شده در چت‌ها (2026-11-21)
+**Purpose:** verify that the user-mentioned website-building tools, laptop fundamentals and downloaded non-agent MCPB bundles are actually in this ONE canonical registry. This is **not** a request to start any program or install packages. Agent host apps are excluded, not silently counted as website tools.
+
+| Mentioned tool or group | Where in THIS registry | Why useful | Actual status |
+|---|---|---|---|
+| Bridgerator, GitHub connector, Git, VS Code, Node/npm, Python | A | P05–P12: direct code/terminal/git/build/test | Bridgerator and GitHub connected; OS tools installed, independent capability |
+| **uv** | **A — newly corrected** | Python env/package management if relevant (not for vanilla first pilot) | winget 0.13.5 verified; not MCP itself |
+| Vite, Astro, HTML/CSS/JS, React, Tailwind, GrapesJS, Puck | B | construct static/SPA/content sites and optionally edit visually | Vite archive only; most libs candidates, no MCP by default |
+| WordPress Playground, Studio, Gutenberg, WooCommerce, WP MCP Adapter, WP Agent Skills | C, K | CMS, block themes, commerce and optional permitted WordPress abilities | no direct WordPress MCP connected, no WP site created |
+| Grav 2 + official grav-mcp | K | lightweight file-backed CMS, optional structured editing through MCP | not installed/connected |
+| Playwright MCP, Chrome DevTools MCP, MCP Inspector | F, L | browser QA, console/network/performance and MCP handshake tests | optional; not connected as separate tools |
+| SiteOne, WebScoop, decant, SingleFile, HTTrack, Wappalyzer, Source Map Explorer, Onlook, Webstudio | L | permitted research/asset capture, structural audits, visual editing | mostly deferred/archived/untested in this project |
+| GIMP, Inkscape, Sharp, SVGO, Pagefind, FFmpeg, ShareX | D, L | licensed design assets, image/media optimization, content search and demos | choose on demand; install/active status varies |
+| **Anode MCPB** | **M — newly added** | separate *background Windows desktop* seat for UI testing native apps and browser, not a coding agent | [upstream official](https://github.com/skulitom/Anode), [docs](https://github.com/skulitom/Anode#readme); `anode-windows-x64.mcpb` found in Downloads historical inspection, **NOT INSTALLED/CONNECTED**; Windows Pro requirement and separate session; no isolated secrets sandbox |
+| **Ghost MCPB** | **M — newly added** | native desktop/GUI control, browser app tests without relying on foreground focus, not a coding agent | [upstream official](https://github.com/NORTHTEKDevs/ghost); `ghost-windows-x64.mcpb` found in Downloads historical inspection, **NOT INSTALLED/CONNECTED** |
+ 
+**Decision on Anode/Ghost:** Both overlap with Bridgerator as desktop-control executors, but might add native GUI background control for Playwright-unfriendly programs. **Role = ALTERNATIVE, NOT DEFAULT; NEED NOT PROVEN for our first M02 storefront.** Their MIT source code exists in official GitHub repositories; check exact bundle hash, license at selected version, host MCPB compatibility, session/permission/security, memory and whether the ChatGPT-side connection actually works before any activation. Neither grants this chat an MCP tool merely by having a downloaded `.mcpb`.
+
+**Coverage and counts:** Former A–F entries were audited separately in [LEGACY-CROSSWALK.md](LEGACY-CROSSWALK.md) (86 historical grouped rows = 14 already represented + 32 assessed for relevant optional reuse + 40 out of scope). Rows in this registry include groups and variants; they are **not a unique software count**. The previously drafted section G covering coding agents was explicitly excluded in this 2026-11-21 non-agent-only reconciliation.
+
+**Active base remains unchanged:** GPT-6 + Bridgerator + Git + Node.js + browser QA; Vite only when chosen project needs build. No install, code execution, MCPB activation, payment or merge in this audit.
