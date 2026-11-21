@@ -1,7 +1,7 @@
 # DJMRN — مدل‌های فنی ساخت سایت | Architecture / Stack Selection Matrix
 **Project:** DJMRN-CHATGPT-LIGHT-SITES-001  
 **Research reviewed:** 2026-11-21 | **Status:** RESEARCHED/CLASSIFIED, PILOT STACK SELECTED FOR PLANNING; NO INSTALL/BUILD/DEPLOY  
-**Authority:** this taxonomy extends existing [01 Professional Stages](01-PROFESSIONAL-STAGES.md), and uses the tool identity/status definitions of [02 Tools Catalog](02-TOOLS-CATALOG.md). It does **not** supersede that roadmap, and does not touch 09-self-marketing-website or Codex.
+**Authority:** this taxonomy extends existing [01 Professional Stages](01-PROFESSIONAL-STAGES.md), and uses the tool identity/status definitions of [Canonical Tools Registry](tools/REGISTRY.md). It does **not** supersede that roadmap, and does not touch 09-self-marketing-website or Codex.
 
 ## 0. Precise terminology and counting method
 **What is a build model?** A repeatable composition of frontend rendering + content/data source + backend (if any) + build/hosting/runtime + editor/operator + testing route. It is **not** the business type (store/portfolio/blog), and not a product name. The same shop demo could be built using A02, C10 or E18.
