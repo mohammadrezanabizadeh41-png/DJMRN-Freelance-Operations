@@ -62,6 +62,13 @@
 - **View Transitions API:** progressive enhancement only if stable across target browsers, never required for navigation.
 - **Typography:** self-hosted licensed **Vazirmatn** for Persian/Arabic and **Inter** for Latin if approved; native system stacks as zero-download fallback. Verify exact font artifact license and bundle size.
 
+## 5A) الزامات دستگاه و نمایشگر — به‌روزرسانی 2026-11-21
+**درخواست قطعی:** یک سایت با طراحی Fluid/Responsive مناسب **موبایل، تبلت و لپ‌تاپ/دسکتاپ**. لپ‌تاپ و دسکتاپ یک کلاس تجربه‌اند؛ صفحه عریض 1920 آزمون تکمیلی است. **سه سایت جداگانه ایجاد نمی‌شود**؛ در همه دستگاه‌ها همان ۵ زبان و همان قابلیت‌های services/portfolio/catalog/cart/demo checkout برقرار می‌ماند.
+
+**نمای طراحی اولیه:** موبایل باریک/عریض (320–430px)، تبلت عمودی/افقی (600–1024px)، لپ‌تاپ/دسکتاپ (1024–1440px)؛ breakpointهای واقعی بر اساس شکستن محتوا مشخص می‌شوند نه این تقسیم‌های توصیفی. در منوی موبایل، فیلتر کاتالوگ، فرم‌ها و سبد خرید هیچ عملکردی فقط به hover وابسته نیست. RTL فارسی/عربی و LTR انگلیسی/ترکی/آلمانی در هر سه کلاس بررسی می‌شوند.
+
+**ابزار کمینه:** CSS Grid/Flex, media/container queries, fluid `clamp()`, `srcset/sizes` و پیش‌نمایش مرورگر موجود؛ Playwright CLI و axe-core فقط در مرحله QA در صورت نیاز و مجوز. هیچ ابزار جدیدی صرفاً برای چندنمایشی بودن لازم نیست. **قواعد فنی واحد:** [04 Responsive Contract](04-I18N-SEO-COMMERCE-SECURITY.md)؛ [Roadmap S02–S20](03-EXECUTION-ROADMAP.md)؛ [Test T10](05-QA-AND-HANDOFF.md).
+
 ## 6) Explicit technical boundaries of the sample
 - Demo checkout state machine `cart → confirm → simulated result` is never a real payment. Display permanent "DEMO — no money charged" in each language; no card input fields, no bank logos impersonation, no order submission.
 - Client calculations are illustrative and mutable. Never take client totals as the source of truth in a production checkout.
