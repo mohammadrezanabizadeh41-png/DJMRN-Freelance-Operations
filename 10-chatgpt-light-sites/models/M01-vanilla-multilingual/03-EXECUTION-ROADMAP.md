@@ -11,6 +11,24 @@
 - مراحل بنیادین سایت مستقل از Codex، از طریق GPT-6 + Bridgerator + ابزارهای deterministic محلی انجام شود.
 - کنترل پروژه در **همین فایل** است؛ تیک‌ها و لینک evidence زیر هر مرحله، **نه ایجاد وضعیت روزانه موازی**. کاتالوگ ۲۲ مدل در پروژه مادر وضعیت final را دارد.
 
+## قرارداد سراسری واکنش‌گرایی — موبایل، تبلت، لپ‌تاپ و دسکتاپ
+این **الزام افقی تمام S02–S20** است، نه یک پروژه جدید یا افزونه‌ای که فقط در پایان بررسی شود. **یک HTML/DOM معنایی برای هر صفحه/زبان** با CSS fluid و حداقل breakpointهای مبتنی بر محتوا؛ mobile-first، `<meta name="viewport" content="width=device-width, initial-scale=1">`، Grid/Flexbox و در صورت نیاز Container Queries. هیچ وابستگی Vite/React/WordPress اضافه نمی‌شود.
+
+| کلاس نمایش (هدف UX) | نمونه عرض تست CSS px | رفتار طراحی مورد انتظار | ورودی‌ها |
+|---|---|---|---|
+| موبایل (باریک و عریض) | **320، 360، 390، 430** | یک ستون اصلی، دکمه/ناوبری قابل لمس، فرم و cart بدون overflow؛ منوی موبایل قابل استفاده | touch و keyboard/assistive |
+| تبلت portrait/landscape | **600، 768، 820، 1024** | ۱–۲ یا ۳ ستون برحسب محتوا، navigation و کارت‌ها مناسب لمس؛ چرخش بدون گم‌شدن state | touch، قلم، keyboard اختیاری |
+| لپ‌تاپ و دسکتاپ | **1024، 1280، 1440** | navigation کامل متناسب عرض، layout چندستونی با سقف عرض خواندن؛ hover به‌عنوان enhancement نه تنها راه تعامل | mouse، keyboard، touch hybrid |
+| صفحه عریض (تکمیلی، نه خانواده مستقل) | **1920** | محتوا با `max-width` خوانا بماند، فضا به حاشیه/تصویر مناسب اختصاص یابد، اجزا بی‌دلیل کشیده نشوند | mouse/keyboard |
+
+*این اعداد **نقاط نمونه‌برداری برای آزمون** هستند، نه breakpoints اجباری یا تضمین رفتار مدل خاص گوشی/تبلت. breakpoint واقعی از جایی که محتوا می‌شکند در S06 تعیین می‌شود؛ می‌تواند در `rem` و با `clamp()`، `minmax()` و `auto-fit` پیاده شود. تبلت افقی و لپ‌تاپ کوچک ممکن است عرض یکسان داشته باشند؛ سایت به **viewport و قابلیت ورودی** واکنش نشان می‌دهد نه user agent.*
+
+**خروجی هر مرحله از S08:** در نمونه HTML واقعی، حداقل snapshot/تست عرض 390 (موبایل)، 820 (تبلت)، 1366/1440 (لپ‌تاپ/دسکتاپ). در S18 ماتریس کامل اجرا شود؛ RTL فارسی/عربی، LTR انگلیسی/ترکی/آلمانی با طول رشته متفاوت، portrait/landscape، zoom، صفحه‌کلید و touch تست شوند. ساختار و محتوای سایت برای هر دستگاه واحد می‌ماند.
+
+**معیار توقف:** هر horizontal overflow ناخواسته، محتوای حذف‌شده، دکمه غیرقابل‌دسترس، شکست language switcher، سبد خرید unusable، اجزای فقط-hover یا ترتیب خواندن نادرست در هر کلاس نمایش = مرحله FAIL. موارد carousel/tables که ماهیتاً نیازمند اسکرول افقی هستند باید فقط درون container مشخص، accessible و با کنترل دیده‌شونده باشند.
+
+**مبنای منابع:** [MDN Responsive Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design) · [web.dev Breakpoints](https://web.dev/learn/design/media-queries) · [W3C WCAG 2.2 Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). جزئیات فنی در [04-I18N-SEO-COMMERCE-SECURITY.md](04-I18N-SEO-COMMERCE-SECURITY.md) و تست‌ها در [05-QA-AND-HANDOFF.md](05-QA-AND-HANDOFF.md).
+
 ## کارتابل ۲۰ مرحله‌ای — تیک پس از اثبات معیار قبول
 
 - [ ] **S01 — تأیید مبنا، دسترسی و جداسازی**
@@ -21,91 +39,91 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S02 — Brief کاربردی و مشتری فرضی**
-  - **کار:** مخاطب/ارزش پیشنهادی، ۵ زبان، ۵ صفحه عمومی و Demo checkout، مرز واقعی/نمایشی را نهایی کن.
+  - **کار:** مخاطب/ارزش پیشنهادی، ۵ زبان، ۵ صفحه عمومی، Demo checkout، **سه کلاس اصلی نمایشگر موبایل/تبلت/لپ‌تاپ-دسکتاپ** و حالت افقی/عمودی را به‌عنوان نیاز قطعی ثبت کن.
   - **ابزار/نقش:** GPT-6 + سند 01.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** پیشنهاد برند/خدمات/محصولات demo با پیام صادقانه و CTA روشن، تایید کاربر.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S03 — مرور رقبا/الگوهای طراحی روز**
-  - **کار:** ۳–۵ نمونه موفق و ۲–۳ الگوی UX با منابع/مجوز؛ نقاط قوت/ضعف نه کپی کد/دارایی.
+  - **کار:** ۳–۵ نمونه موفق و ۲–۳ الگوی UX با منابع/مجوز؛ از هر الگو رفتار layout در موبایل، تبلت و دسکتاپ را مقایسه کن، نه کپی کد/دارایی.
   - **ابزار/نقش:** Web research + GitHub + browser read-only.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** جدول شاهد، تاریخ، انتخاب moodboard و ریسک کپی‌رایت.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S04 — معماری ساده و قرارداد توسعه**
-  - **کار:** نقشه HTML/CSS/JS ماژولار، JavaScript صرفاً interaction، SSR/DB صفر؛ مرورگر و preview loopback.
+  - **کار:** نقشه HTML/CSS/JS ماژولار با **یک DOM معنایی و CSS mobile-first، viewport meta، توکن‌های fluid و breakpoints محتوامحور**؛ JavaScript صرفاً تعامل، SSR/DB صفر؛ preview loopback.
   - **ابزار/نقش:** GPT-6 + Git.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** ساختار فایل، قرارداد ورودی/خروجی state UI و استراتژی برگشت‌پذیری تایید.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S05 — معماری اطلاعات، صفحات و مسیرها**
-  - **کار:** navigation، sitemap ذهنی، CTA، product data dummy، مسیر داده و حالت خطا برای زبان‌ها.
+  - **کار:** navigation، sitemap، CTA، product data dummy، مسیر داده و حالت خطا برای زبان‌ها و هر سه سطح نمایش؛ منوی موبایل، ناوبری تبلت و desktop، سبد خرید و فرم بدون قابلیت گم‌شده.
   - **ابزار/نقش:** HTML map/JSON fixtures.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** تمام مسیرهای کاربر و وضعیت empty/error مشخص، هیچ data collection واقعی.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S06 — سیستم بصری و تایپوگرافی**
-  - **کار:** توکن رنگ/space/type، grid، responsive، RTL/LTR، کنتراست، ۱ hero original، no heavy 3D.
+  - **کار:** **سه wireframe واضح موبایل، تبلت، دسکتاپ** + wide-screen fluid max-width، توکن رنگ/space/type با clamp، Grid/Flex، media/container queries لازم، RTL/LTR، touch/hover/keyboard، کنتراست، ۱ hero original؛ بدون WebGL سنگین.
   - **ابزار/نقش:** CSS Grid/Flex/Container Query، optional GIMP/Inkscape.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** wireframe موبایل/دسکتاپ و سبک تایید؛ readable 320px و keyboard order معنادار.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S07 — طراحی i18n و محتوای پنج زبان**
-  - **کار:** fa/en/ar/tr/de، ترجمه معنا و title/meta/CTA/alt؛ ارزیابی طول متن و bidi.
+  - **کار:** fa/en/ar/tr/de، ترجمه معنا و title/meta/CTA/alt؛ تست طول واژه‌ها و شکست خطوط در **۳ کلاس صفحه**، direction در چرخش portrait/landscape، و bidi.
   - **ابزار/نقش:** HTML lang/dir + CSS logical + Intl.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** کلید/صفحه‌های عمومی هر locale منطبق، ترجمه موقت صادقانه و آماده بازبینی.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S08 — قالب HTML، Git و پیش‌نمایش محلی**
-  - **کار:** پوشه مستقل کد، فایل‌های پایه/README/test؛ preview Node built-in روی 127.0.0.1.
+  - **کار:** پوشه مستقل کد، فایل‌های پایه/README/test؛ preview Node built-in روی 127.0.0.1؛ **اولین smoke responsive در عرض‌های 320، 768 و 1366 CSS px** بدون سه HTML متفاوت.
   - **ابزار/نقش:** Bridgerator + Git + Node/Python.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** صفحه واقعی در مرورگر از localhost باز شود، سورس تمیز و branch درست.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S09 — کامپوننت‌های مشترک و ناوبری**
-  - **کار:** header/footer، language switcher، menu موبایل، skip link، active page.
+  - **کار:** header/footer، language switcher، menu موبایل/تبلت و navigation دسکتاپ با **یک مدل DOM**، skip link، active page، نقاط لمس مناسب و focus-visible.
   - **ابزار/نقش:** HTML semantic + CSS + vanilla JS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** menu با keyboard/touch، زبان حفظ شود، layout shift مهم نباشد.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S10 — صفحه اصلی حرفه‌ای**
-  - **کار:** hero، ارزش پیشنهادی، خدمات منتخب، نمونه‌های DEMO، CTA و motion کاربردی.
+  - **کار:** hero، ارزش پیشنهادی، خدمات منتخب، نمونه‌های DEMO، CTA و motion کاربردی؛ **نسخه ۱، ۲ و ۳ ستونه متناسب فضای محتوا**، بدون crop مخرب تصویر، چیدمان سازگار با صفحه عریض.
   - **ابزار/نقش:** HTML/CSS + DOM JS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** نمایش ۵ زبان و RTL/LTR؛ CTA و محتوای main بدون JS هم معنی‌دار.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S11 — صفحات خدمات و نمونه‌کار**
-  - **کار:** Services + Portfolio با case studies واضح DEMO، جزئیات و CTA به contact.
+  - **کار:** Services + Portfolio با case studies واضح DEMO، جزئیات و CTA به contact؛ grid کارت‌ها و طول متن fa/ar/de در موبایل/تبلت/دسکتاپ.
   - **ابزار/نقش:** static localized HTML + CSS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** مسیرها در ۵ زبان، محتوای شفاف و بدون لوگو/نقل‌قول ساختگی.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S12 — کاتالوگ استاتیک و فیلتر**
-  - **کار:** ۴–۶ آیتم آزمایشی، جست‌وجو، فیلتر، حالت no-result، price labels nonreal.
+  - **کار:** ۴–۶ آیتم آزمایشی، جست‌وجو، فیلتر، حالت no-result، price labels nonreal؛ **فیلتر و cart قابل استفاده با لمس موبایل/تبلت و موس/کیبورد دسکتاپ**، بدون hover-only UX.
   - **ابزار/نقش:** vanilla JS modules + JSON/static HTML.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** filter و keyboard کار کند، اختلال JS محتوای اصلی را پنهان نکند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S13 — سبد و پرداخت نمایشی**
-  - **کار:** cart, quantity, sum in integer minor units, mock checkout, demo receipt; clear nonpayment banner.
+  - **کار:** cart, quantity, sum in integer minor units, mock checkout, demo receipt; **فرم و جدول خلاصه reflow در موبایل و تبلت** و banner ثابت و خوانای «پرداخت نمایشی» در همه اندازه‌ها.
   - **ابزار/نقش:** vanilla JS + Node built-in unit tests.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** جمع درست و حالت خطا/refresh/empty cart کار کند، هیچ PAN/PII/secret، فقط MOCK.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14 — تماس، اعتماد و صفحات حقوقی نمایشی**
-  - **کار:** Contact, privacy/terms placeholder فقط صادقانه، بدون فرم ارسال واقعی یا شخص/نشانی جعلی.
+  - **کار:** Contact, privacy/terms placeholder فقط صادقانه، بدون فرم ارسال واقعی یا شخص/نشانی جعلی؛ کنترل‌ها و برچسب‌های form در موبایل، تبلت و دسکتاپ با لمس و keyboard تست شوند.
   - **ابزار/نقش:** semantic HTML + validation UI.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** کاربر بفهمد ارسال نشده؛ بدون third-party collection؛ پیوندهای contact سالم.
@@ -119,35 +137,35 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S16 — دسترس‌پذیری و بومی‌سازی دقیق**
-  - **کار:** WCAG 2.2 AA target، keyboard, focus, contrast, lang/dir, bdi, forms, alt, reduced-motion.
+  - **کار:** WCAG 2.2 AA target، **reflow تا 320 CSS px و زوم 200%/400% مطابق تست مرتبط**، keyboard، pointer coarse/fine، touch targets، focus، contrast، lang/dir، bdi، forms، alt و reduced-motion در سه کلاس نمایش.
   - **ابزار/نقش:** axe-core optional + manual browser.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** تست صفحه‌ها ۵ زبان، RTL و قیمت‌ها؛ نقض جدی  keyboard/focus/contrast رفع.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S17 — بهینه‌سازی و بودجه عملکرد**
-  - **کار:** WebP/AVIF responsive original assets، fonts subsetting، no hydration, defer JS, CWV/Lighthouse check.
+  - **کار:** WebP/AVIF با **srcset/sizes/picture در صورت نیاز** و حفظ نسبت، fonts subsetting، no hydration، defer JS، CWV/Lighthouse روی پروفایل موبایل و دسکتاپ؛ استفاده از width محدود در نمایشگرهای بزرگ.
   - **ابزار/نقش:** Chrome DevTools + Lighthouse; Sharp/SVGO optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** بدون overflow در 320px، عکس‌ها aspect-ratio، هدف Lighthouse >=90 با گزارش واقعی؛ baseline و trade-off ثبت.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S18 — تست جامع عملکرد، امنیت و بازیابی**
-  - **کار:** URL/lang routes, link crawl, test logic, responsive 320/390/768/1440, failure, XSS scan, no secrets.
+  - **کار:** URL/lang routes، link crawl، unit/e2e، **ماتریس عرض 320/360/390/430/600/768/820/1024/1280/1440/1920 px** با ۳ کلاس اصلی، portrait/landscape، touch+mouse+keyboard، RTL/LTR، zoom، failure، XSS، no secrets.
   - **ابزار/نقش:** node --test, node --check, Playwright if verified, OWASP.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** smoke+unit+e2e+negative cases، صفر تراکنش واقعی، تجربه fallback و error تست‌شده.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S19 — پکیج نمونه‌کار و تحویل**
-  - **کار:** سورس خوانا، دستور اجرا، تصاویر/ویدئوی تست مجاز، LICENSE assets، محدودیت پرداخت.
+  - **کار:** سورس خوانا، دستور اجرا، **تصویر تأییدشده از هر سه کلاس نمایشگر** (موبایل، تبلت، لپ‌تاپ/دسکتاپ) در fa RTL و en LTR، LICENSE assets، محدودیت پرداخت.
   - **ابزار/نقش:** Git + GitHub branch + screenshot tools optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** commit مستقل، بازخوانی GitHub، راهنمای اجرا و شواهد آزمون، تایید مالک.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S20 — بازبینی مشتری و تصمیم انتشار/گسترش**
-  - **کار:** نمایش روی موبایل و PC، دریافت بازخورد، اصلاح محدود، بررسی مجوز deploy اختیاری.
+  - **کار:** **بازبینی واقعی در گوشی، تبلت در صورت دسترس، و لپ‌تاپ/PC** (یا شبیه‌سازی مستند در نبود دستگاه)، مقایسه portrait/landscape، دریافت بازخورد، اصلاح محدود، بررسی مجوز deploy اختیاری.
   - **ابزار/نقش:** browser/owner + Git; hosting only after approval.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** نمونه به‌صورت محلی usable؛ هر انتشار عمومی/دامنه/PSP/حساب نیازمند پیشنهاد و اجازه جدید.
@@ -173,7 +191,7 @@
 ## Definition of Done overall
 - ۵ زبان با URL و محتوای مستقل، دو جهت RTL/LTR؛ صفحات Home/Services/Portfolio/Catalog/Contact، به‌علاوه Checkout DEMO روشن.
 - سئو ساختاری قابل ممیزی: title/H1/description/canonical/hreflang sitemap/robots/schema truthful. Indexed status NOT claimed without public domain/Search Console.
-- Desktop/mobile، navigation، forms mock، filter، cart and mock checkout واقعی در مرورگر، تست‌های failure و reduced-motion.
+- **Mobile + tablet + laptop/desktop (wide-screen optional)**: responsive fluid layout، portrait/landscape، touch/mouse/keyboard و zoom/reflow، هر پنج زبان RTL/LTR؛ navigation، forms mock، filter، cart and mock checkout واقعی در مرورگر، failure و reduced-motion.
 - Accessibility WCAG 2.2 AA target، حقوق assets و security baseline بررسی؛ no real PII/payments.
 - کد و راهنمای اجرای خوانا، commit خود M01، test evidence و owner review؛ تا قبل آن checkbox مدل M01 در parent **[ ]**.
 - هیچ کد یکپارچه‌ای از پروژه heavy Codex یا فایل‌های 3D وارد M01 نشود.
