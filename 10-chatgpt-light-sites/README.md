@@ -9,7 +9,7 @@
 
 ## Start here — documents in required reading order
 1. **[01-PROFESSIONAL-STAGES.md](01-PROFESSIONAL-STAGES.md):** 13 sequential gates P00–P12, website families A–F, tool selection by stage, operational acceptance, RAM/security constraints and the proposed first pilot.
-2. **[02-TOOLS-CATALOG.md](02-TOOLS-CATALOG.md):** categorized inventory of tools/software/libraries/plugins/sources, capabilities, source links, stage, MCP connection reality, local install/archive status, reasons to select/skip, cost and security gates.
+2. **[tools/README.md](tools/README.md) → [tools/REGISTRY.md](tools/REGISTRY.md) + [tools/LEGACY-CROSSWALK.md](tools/LEGACY-CROSSWALK.md):** the dedicated canonical tools subdirectory with full software/MCP/libraries, stage, role, local-install/archive status and the 86-row historical import reconciliation. The old 02-TOOLS-CATALOG.md is only a redirect.
 3. **[03-MCP-AND-TEST-GATES.md](03-MCP-AND-TEST-GATES.md):** direct vs optional MCP connections; CLI delegation with Bridgerator; one MCP pilot acceptance protocol; tests/failures by site family.
 4. **[04-WEBSITE-BUILD-MODELS.md](04-WEBSITE-BUILD-MODELS.md):** 6 architecture families / 22 technical build recipes M01–M22, choices across static/CMS/headless/ecommerce/backend; first model M02 provisionally chosen for pilot.
 
