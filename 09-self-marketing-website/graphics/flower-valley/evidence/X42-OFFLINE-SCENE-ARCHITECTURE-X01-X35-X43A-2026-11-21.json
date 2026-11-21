@@ -1,0 +1,168 @@
+{
+  "stage": "X42",
+  "status": "COMPLETE_SCOPE_QUALIFIED_OFFLINE",
+  "source_scope": "X01..X35, X43-A, no X36",
+  "source_count_sha_checked": 9,
+  "github_tree_evidence_sha": "0ba31ee2a129ef2c7b084f5dc935ac013b03c7a0",
+  "historical_original_http_sha_found": "70/70",
+  "canonical_resource_paths": 78,
+  "resource_roles": {
+    "ROUTE_OR_OTHER": 16,
+    "JS": 35,
+    "CSS": 6,
+    "FONT": 5,
+    "IMAGE_OR_TEXTURE": 14,
+    "AUDIO": 1,
+    "GLB_CAMERA_OR_MODEL": 1
+  },
+  "gpu": {
+    "draws_per_sampled_frame": 16,
+    "programs": 11,
+    "shader_hashes": 22,
+    "uniform_names": 62,
+    "full_screen_triangle_draws": 14,
+    "point_index_submissions": 960000,
+    "inspector_runtime_textures": 17
+  },
+  "camera": {
+    "sha256": "dab4459358d8d22ec633152119ec9939947336a0f116c7aca746407403630d4e",
+    "bytes": 10132,
+    "camera_type": "perspective",
+    "mesh_count": 0,
+    "animation_paths": [
+      "translation",
+      "rotation",
+      "scale"
+    ],
+    "keys_per_path": 200,
+    "duration_seconds": 8.291667,
+    "inspector_camera_type": "OrthographicCamera",
+    "runtime_link_confirmed": false
+  },
+  "input_phases_x35": 24,
+  "observed_seconds_x35": 90.006,
+  "role_count": 15,
+  "role_summary": [
+    {
+      "id": "R01",
+      "component": "HTML/Next and canvas",
+      "evidence_level": "OBSERVED",
+      "stage": "X01/X19/X21",
+      "original_build_implication": "Own semantic shell, independent Vite/WebGL2 with static fallback"
+    },
+    {
+      "id": "R02",
+      "component": "Renderer topology",
+      "evidence_level": "OBSERVED_GPU",
+      "stage": "X22/X23/X28",
+      "original_build_implication": "Minimal local Three renderer and bounded postprocess"
+    },
+    {
+      "id": "R03",
+      "component": "Perspective camera GLB",
+      "evidence_level": "VERIFIED_ORIGINAL_BYTES",
+      "stage": "X01/X19/X34",
+      "original_build_implication": "Write original camera rig/path and test easing"
+    },
+    {
+      "id": "R04",
+      "component": "OrthographicCamera inspector",
+      "evidence_level": "OBSERVED_INSPECTOR",
+      "stage": "X23/X28",
+      "original_build_implication": "Separate camera paths and compositor layers in design"
+    },
+    {
+      "id": "R05",
+      "component": "Points flower/particle geometry",
+      "evidence_level": "OBSERVED_GPU",
+      "stage": "X22/X23/X28/X29",
+      "original_build_implication": "Original heterogeneous sprite/points field"
+    },
+    {
+      "id": "R06",
+      "component": "Fullscreen triangles/geometry passes",
+      "evidence_level": "OBSERVED_GPU",
+      "stage": "X22/X28",
+      "original_build_implication": "Own render-to-texture fullscreen postpass"
+    },
+    {
+      "id": "R07",
+      "component": "Textures/sprites/atlas",
+      "evidence_level": "OBSERVED_GPU",
+      "stage": "X19/X23/X28",
+      "original_build_implication": "Own flower sprites and texture atlases"
+    },
+    {
+      "id": "R08",
+      "component": "Shaders/material uniform interface",
+      "evidence_level": "OBSERVED_GPU",
+      "stage": "X19/X22/X27",
+      "original_build_implication": "Original shader interfaces, optional X48 local AST"
+    },
+    {
+      "id": "R09",
+      "component": "Glow/bloom/blur",
+      "evidence_level": "OBSERVED_INSPECTOR",
+      "stage": "X22/X23/X28",
+      "original_build_implication": "Own configurable bloom with low-spec fallback"
+    },
+    {
+      "id": "R10",
+      "component": "Time and pointer uniforms",
+      "evidence_level": "OBSERVED_CORRELATION",
+      "stage": "X22/X27/X35",
+      "original_build_implication": "Own deterministic time and motion state"
+    },
+    {
+      "id": "R11",
+      "component": "Pointer/touch/wheel/drag",
+      "evidence_level": "OBSERVED_INPUT",
+      "stage": "X28/X35",
+      "original_build_implication": "Own hold-to-advance, pointer mapping and gesture controls"
+    },
+    {
+      "id": "R12",
+      "component": "Dispersal/return",
+      "evidence_level": "UNVERIFIED_CAUSE",
+      "stage": "X22/X28/X35",
+      "original_build_implication": "Original flower-to-stars/earth transition to meet owner spec"
+    },
+    {
+      "id": "R13",
+      "component": "Mobile, responsive, reduced motion",
+      "evidence_level": "OBSERVED_TEST",
+      "stage": "X21/X35",
+      "original_build_implication": "Static/reduced-motion fallback and mobile QA"
+    },
+    {
+      "id": "R14",
+      "component": "Owner moon/wind/gold dust/earth request",
+      "evidence_level": "OWNER_REQUIREMENT",
+      "stage": "OWNER",
+      "original_build_implication": "Author from scratch with owner-approved aesthetic"
+    },
+    {
+      "id": "R15",
+      "component": "OWN geometry export constraints",
+      "evidence_level": "VERIFIED_OWN_FIXTURE",
+      "stage": "X29/X30/X31",
+      "original_build_implication": "Do not claim vendor mesh recovered; X49 optional"
+    }
+  ],
+  "limitations": [
+    "Original vendor mesh not recovered",
+    "GLB camera vs runtime scene camera unknown",
+    "Input causality and exact effect timings unknown",
+    "Vendor GLSL AST not proven",
+    "Owner visual version not confirmed",
+    "OWN fixture != vendor model"
+  ],
+  "privacy": {
+    "raw_vendor_assets_uploaded": false,
+    "private_paths_uploaded": false,
+    "user_prompt_uploaded": false
+  },
+  "no_new_live_site_capture": true,
+  "no_install_or_payment": true,
+  "next": "X48/X49 if useful; then X43-B"
+}
