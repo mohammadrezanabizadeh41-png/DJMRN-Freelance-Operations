@@ -1,10 +1,11 @@
 # M01 — نقشه راه اجرایی ترتیبی ساخت نمونه پنج‌زبانه
-**Status:** RESEARCH-ONLY; 20 stages planned, NO SITE BUILT / no stage checked.  
+**Status:** S01 environment preflight **PASS**; S02–S20 **NOT STARTED**; no website code has been built or tested.  
 **Source:** [01 Brief](01-RESEARCH-AND-BRIEF.md) · [02 Tools](02-STACK-TOOLS-AND-MCP.md) · [04 Cross-cutting contracts](04-I18N-SEO-COMMERCE-SECURITY.md) · [05 Acceptance](05-QA-AND-HANDOFF.md).  
 **Parent build checklist:** [M01 of 22](../../05-MODEL-BUILD-CHECKLIST.md). The parent M01 must remain unchecked until real acceptance.
 
 ## قوانین اجرا
 - مراحل به‌ترتیب `S01 → S20`؛ در هر turn کوچک‌ترین مرحله مجاز را انجام بده، سپس خروجی و **نتیجه TEST/FAIL/NOT TESTED** را اعلام کن. هیچ تیکی بدون فایل، تست و شواهد عملی نزن.
+- **روال ثبت مورد تأیید کاربر از 2026-11-21:** پس از اجرای هر مرحله، فقط **همان checkbox در همین سند** در شاخه M01 به‌روزرسانی و در GitHub commit شود؛ اقدام، زمان، ابزار، خروجی، آزمون و PASS/FAIL/BLOCKED، محدودیت‌ها و اقدام بعد زیر همان مرحله نوشته شود. PASS با `[x]` و شواهد؛ FAIL/BLOCKED بدون تیک همراه شرح علت. SHA commit در پاسخ داده شود. هیچ فایل پیشرفت موازی ساخته نشود. چک‌باکس M01 در کارتابل ۲۲ مدل والد تا پایان کامل سایت همچنان خالی است.
 - هر مرحله شامل ورودی‌های تاییدشده، file(s)/output، test و مسئله بازگشت‌پذیری است. در صورت کمبود ورودی واقعی، از fixture ساده و صریح استفاده کن؛ به ساخت Agent یا dependency جدید فرار نکن.
 - GitHub فقط در شاخه `project/light-sites-m01-vanilla-20261121` و زیر `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`. مسیرهای اصلی/3D ممنوع.
 - نوشته‌های پژوهش و برنامه = اماده‌سازی، **نه** build؛ هر نصب جدید/اتصال MCP/هزینه/انتشار/تغییر Production/خدمات پرداخت نیازمند approval جداگانه.
@@ -31,12 +32,17 @@
 
 ## کارتابل ۲۰ مرحله‌ای — تیک پس از اثبات معیار قبول
 
-- [ ] **S01 — تأیید مبنا، دسترسی و جداسازی**
-  - **کار:** محل Git شاخه M01، مسیر مجزا روی لپ‌تاپ، RAM/Node/Git/Browser و ابزارهای ضروری را فقط‌خواندنی تطبیق بده.
-  - **ابزار/نقش:** Bridgerator/Git/Node/Windows.
-  - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** اتصال و Git/Node/مرورگر + امکان شبیه‌سازی viewport در DevTools تأیید، RAM/ports بررسی؛ هیچ فایل 09 تغییر نکند.
-  - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
+- [x] **S01 — تأیید مبنا، دسترسی و جداسازی**
+  - **کار:** تطبیق شاخه Git و مسیر مستقل پروژه با RAM، Node/Git/VS Code، مرورگرها و تست viewport.
+  - **ابزار/نقش:** Bridgerator + PowerShell + Git؛ Playwright Test + Edge برای smoke test پیش‌نیاز.
+  - **نتیجه و زمان:** **PASS** — 2026-11-21، حدود 23:50 به ساعت دستگاه؛ شواهد در اجرای همان روز جمع‌آوری شدند و به درخواست صریح کاربر در GitHub ثبت شدند.
+  - **ایزوله‌سازی:** پروژه محلی `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01`؛ branch `project/light-sites-m01-vanilla-20261121`، HEAD زمان آزمون `18d37653ad70f6641151763d8665c9b82bf63440`، `git status --porcelain` خالی، sparse checkout فقط پوشه `10-chatgpt-light-sites/models/M01-vanilla-multilingual`؛ ۶ سند موجود، `09-self-marketing-website` در checkout وجود ندارد.
+  - **ابزارهای تأییدشده:** Bridgerator online `DJMRN-LAPTOP`، Node `v24.22.1`، npm `11.19.1`، Git `2.55.0.windows.5`، Python `3.14.7`، VS Code CLI، Edge `158.0.4370.33`، Chrome `157.0.8103.79`. ابزار QA جدا: `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01-Prep\qa` شامل Playwright، axe-core، html-validate و prettier.
+  - **آزمون مرورگر:** اجرای `node .\preflight.cjs` در محیط QA با Playwright + Edge: موبایل `390→390`، تبلت `820→820`، دسکتاپ `1366→1366`، خروجی `BROWSER_SMOKE_EXIT=0` → **PASS**. این فقط تأیید launch/viewport است؛ هنوز سایت واقعی M01 ساخته یا آزمایش نشده است.
+  - **پایداری و منابع:** RAM فیزیکی `8192 MiB`، قابل‌مشاهده برای ویندوز `6020 MiB` (علت اختلاف قطعی نیست)، آزاد زمان آزمون `593–857 MiB`، فضای آزاد C حدود `87.6 GiB`؛ پورت‌های محلی `4173`، `3000` و `8080` در بررسی listener نداشتند. یک مرورگر آزمایشی و یک server محلی، بدون Docker و مصرف سنگین موازی.
+  - **قبولی:** اتصال Bridge/Git/Node/Browser، شبیه‌سازی ۳ viewport، RAM/port و ایزوله‌سازی پروژه تأیید شد؛ فایل‌های Codex/09 تغییر نکردند.
+  - **شواهد/محدودیت:** نتایج PowerShell و smoke در گفتگوی اجرای S01 گزارش شده‌اند، هیچ screenshot محصول یا آزمون ۵ زبان انجام نشده؛ نصب/تغییر مجوز جدیدی در خود S01 انجام نشد. برگشت با revert همین commit سند امکان‌پذیر است.
+  - **مرحله بعد:** `S02 — NOT STARTED`. قبل از نوشتن سورس روی لپ‌تاپ، شاخه local به HEAD جدید GitHub fast-forward شود.
 
 - [ ] **S02 — Brief کاربردی و مشتری فرضی**
   - **کار:** مخاطب/ارزش پیشنهادی، ۵ زبان، ۵ صفحه عمومی، Demo checkout، **سه کلاس اصلی نمایشگر موبایل/تبلت/لپ‌تاپ-دسکتاپ** و حالت افقی/عمودی را به‌عنوان نیاز قطعی ثبت کن.
