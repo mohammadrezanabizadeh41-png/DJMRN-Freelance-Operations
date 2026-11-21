@@ -58,6 +58,18 @@
 | **MCP Inspector** | [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | test remote MCP server tools/permissions before connecting | **ONLY IF NEW MCP**; not a website-building requirement |
 | **Anode/Ghost MCPB** | see [parent registry](../../tools/REGISTRY.md) | optional GUI background if Bridgerator cannot reach test window | **NOT CONNECTED; NOT SELECTED**, security and RAM unknown |
 
+## 3A — ابزار انتخاب‌شده برای طراحی و QA چندنمایشی
+| مرحله/نیاز | ابزار فعلی / روش | خروجی واقعی | ابزار تخصصی فقط در صورت ضرورت |
+|---|---|---|---|
+| S04/S06 — Grid و تغییر چیدمان | **CSS Grid, Flexbox, `clamp()`, media queries و logical properties**؛ همه native browser | طرح واحد موبایل/تبلت/دسکتاپ بدون JS برای layout | Container Queries در صورت استفاده مجدد از کارت در عرض‌های مختلف (خود CSS است، افزونه نیست) |
+| S06/S17 — تصاویر واکنش‌گرا | native `picture`, `srcset`, `sizes`, `aspect-ratio` | حجم متناسب تصویر و عدم اعوجاج/CLS | Sharp یا SVGO برای تعداد زیاد تصاویر، بعد از بررسی نصب/مجوز |
+| S08–S14 — تکرار smoke | **DevTools مرورگر موجود** + preview loopback از Node/Bridgerator | عرض 390/820/1366، بررسی keyboard/touch و screenshot | **Playwright CLI** فقط اگر runtime از قبل قابل استفاده یا نیاز اثبات شود |
+| S16/S18 — reflow و a11y | zoom مرورگر + keyboard/touch دستی، `lang/dir` | 320px reflow، 200% text zoom، 400% browser zoom در سناریوی مرتبط | **axe-core** برای lint دسترس‌پذیری، نه جایگزین تست دستی |
+| S17 — عملکرد موبایل/دسکتاپ | browser Performance panel / Lighthouse موجود | گزارش جداگانه موبایل/دسکتاپ، بدون ادعای نمره قبل از اجرا | Chrome DevTools MCP فقط اگر gap واقعی و اتصال جدا تأیید شود |
+| S18–S20 — تست/تحویل سه کلاس | Node test برای logic، browser capture و بازبینی کاربر | شواهد گوشی، تبلت و لپ‌تاپ/دسکتاپ؛ واقعی در صورت دسترس، در غیر این صورت emulated با برچسب | Playwright MCP/Anode/Ghost پیش‌فرض نیستند و **NOT CONNECTED** |
+
+**معماری انتخاب:** یک CSS/HTML واحد با تغییر مبتنی بر محتوای viewport، نه تشخیص مدل گوشی یا user-agent. تست هر سه کلاس در تمام مراحل کار اهمیت دارد؛ **نیازی به نصب نرم‌افزار اضافه برای آغاز طراحی responsive وجود ندارد**. منابع: [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)، [web.dev](https://web.dev/learn/design/media-queries)، [W3C Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html).
+
 ## 4 — Tools/services NOT to activate for this M01 research
 | Capability | Reason / proposal |
 |---|---|
