@@ -116,7 +116,7 @@
 3. **Failure modes**: Vite archive ≠ installed; zip ≠ runtime; server ≠ client; WordPress Playground SQLite ≠ all Woo plugins compatible; visual editor artifact ≠ testable page; automated a11y ≠ actual keyboard test; passing local fixture ≠ real production payment.
 4. **Free-first**: no paid AI API/host/plugin/theme/domain. Check official license, commercial use, provider geo/terms, quotas, telemetry, card requirement **before** activation. Unknown cost = UNKNOWN / do not enable.
 5. **Permissions**: least privilege local folder; WordPress abilities opt-in; no remote MCP to public site by default; no private browser profile attached to tests; no tokens in logs/repo.
-6. **PC memory**: 8GB; one browser worker, one dev host, no Docker for base. Monitor RAM; Windows free memory hard emergency stop historically 100MiB.
+6. **PC memory — owner correction 2026-11-22:** 8 GiB physically installed (2×4 GiB), about 6020 MiB Windows-visible. **~2048 MiB available RAM is the pre-session preparation target**, not the workload ceiling or a permanent post-launch minimum. Use professional tools concurrently when outcome warrants and measured memory/commit/response remain stable. The old 100 MiB emergency observation is NOT the normal operating target. Docker is excluded from the static M01 runtime for architectural reasons, not solely RAM.
 7. **Reversibility**: pinned dependencies + lockfile + git diff/commit + app data backup for WordPress; no installing to globally mutating environment without approval.
 8. **Licensing**: GitHub source location itself is **not** license proof; consult exact LICENSE at selected commit. Third-party visual/media rights require explicit authorization.
 
@@ -212,23 +212,62 @@ https://github.com/vitejs/vite · https://github.com/withastro/astro · https://
 | Bridgerator, GitHub connector | Available and used through this chat; laptop online; GitHub commits verified in S01–S10 | **Executor + GitHub code authority**. No new MCP needed |
 | Node.js 24.22.1 / Git 2.55.0.5 | Installed and used for source build, tests and commits | **SELECTED**. Native HTML/CSS/JS + deterministic build |
 | Chrome 157 / Edge 158 | Installed; Edge used in prior Playwright S08–S10 QA | **SELECTED Observer**. Chrome DevTools for manual audit |
-| Playwright 1.65.1 (also playwright-core and @playwright/test) | Resolves from existing M01-Prep/qa; used S08–S10 | **PRIORITY S11–S20**, one worker and Edge channel=msedge |
+| Playwright 1.65.1 (also playwright-core and @playwright/test) | Resolves from existing M01-Prep/qa; used S08–S10 | **PRIORITY S11–S20**, start with tested profile and scale browser workers after measured stability; Edge channel=msedge |
 | axe-core 4.14.1 | Resolves from M01-Prep/qa; not yet run as S16 scan | **PRIORITY S16/S18**; human a11y testing still mandatory |
 | html-validate 11.21.1 | Resolves from M01-Prep/qa; not globally on PATH | **PRIORITY S11+** for offline HTML checks; first establish baseline |
 | Prettier 3.10.1 | Resolves from M01-Prep/qa; not globally on PATH | **OPTIONAL CHECK** only; never bulk reformat prior source without diff |
 | Lighthouse | Not on CLI PATH and not in tested QA modules; included as Chrome DevTools capability per official documentation | **S17 via Chrome**, measure actual score before claim |
 | VS Code 1.142.0 | Installed (user installation) | **OPTIONAL EDITOR**; no runtime or MCP requirement |
 | Python 3.14.7 | Installed; bare python is a WindowsApps alias; real interpreter/py launcher exists | **ALTERNATIVE HELPER**; Node default |
-| GIMP 3.2.8 | Installed according to Windows uninstall registry; no new M01 artwork produced with it | **OPTIONAL RASTER AUTHORING**, run only if S11/S17 requires |
-| Blender 5.3.0 | Installed according to registry; not launched, no GPU/RAM render test | **DEFER** for pure M01; optional offline pre-render only if justified |
+| GIMP 3.2.8 | Executable verified and version command passed on 2026-11-22; M01 project artwork not yet produced with it | **PROFESSIONAL ARTWORK CANDIDATE** for S06/S10 revisits and S11/S17; use as needed with asset provenance and measured resource impact |
+| Blender 5.3.0 | Executable verified, version command passed 2026-11-22; complex scene/render/GPU test still unverified | **PROFESSIONAL ASSET PILOT CANDIDATE** for original pre-rendered hero/case stills/video in S06/S10 revisits and S11/S17, with performance tests; static site runtime remains vanilla |
 | GitHub Copilot 1.1.30, Codex 0.166.0 | Copilot in installed list; Codex in global npm list; actual license/quota unknown | **NOT NEEDED** as default for M01, no automatic model spending |
 | Inkscape, Sharp, SVGO, ESLint, Lighthouse CLI | Not found in inspected PATH/QA module scope; installed elsewhere unverified | **CANDIDATES** only on demonstrated gap, no install now |
 | Docker Desktop 4.99.0 and WSL | Installed/available commands but not launched in this audit | **EXCLUDED** for memory-light M01 |
 | Penpot MCP, Figma, Canva, Adobe Express, tldraw | Tools advertised in this ChatGPT tool catalog; project authorization, provider quota and working M01 design file NOT TESTED here. Does not prove local Windows installation | **DESIGN PROJECTION/ALTERNATIVE** only when editable wireframe need is proven |
 | Playwright MCP / Chrome DevTools MCP | No separate direct tool connection verified; existing local Playwright already works via laptop | **NOT SELECTED**, avoids duplicate tool |
 
-**Free-first and memory:** No installation, download, browser package setup, account login, provider activation, OAuth, payment, API usage or public deployment occurred during this audit. Local OSS can be free without cloud permissions or usage being free; optional provider cost/quota is UNKNOWN/DENY until a concrete action is approved. The read-only audit saw approximately **535 MiB available RAM**; this is a variable observation, not a safe fixed capacity. Use one browser worker and one loopback server. When RAM is low, defer heavy 3D/GUI tests and preserve test coverage rather than launching multiple apps.
+**Free-first and memory:** No installation, download, browser package setup, account login, provider activation, OAuth, payment, API usage or public deployment occurred during this audit. Local OSS can be free without cloud permissions or usage being free; optional provider cost/quota is UNKNOWN/DENY until a concrete action is approved. Prior read-only audit observed 535 MiB available. New owner-corrected read-only audit on 2026-11-22 observed **1664 MiB available**; the **pre-session goal is 2048 MiB**, a 384 MiB gap at that instant. **Do not discard professional tools based on the old transient number**; prepare the session, then benchmark actual combinations and adapt configuration in small steps; see §O.
 
 **Official evidence:** [Playwright installed Edge channel](https://playwright.dev/docs/browsers), [HTML-Validate offline](https://html-validate.org/), [Prettier check](https://prettier.io/docs/cli), [axe-core free OSS](https://www.deque.com/axe/axe-core/), [Chrome DevTools Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [W3C limits of automated a11y](https://www.w3.org/WAI/test-evaluate/tools/selecting/), [GIMP](https://www.gimp.org/), [Blender](https://www.blender.org/), [GitHub supply-chain guidance](https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security), [Penpot official pricing](https://penpot.app/pricing).
 
 **Status:** VERIFIED INVENTORY + SELECTED ROLES only. The project's active code authority and earlier S01–S10 PASS evidence remain unchanged.
+
+## O — M01 professional tooling and RAM policy correction (owner decision, 2026-11-22)
+
+**Supersedes previous blanket restrictions** in this catalog that treated one browser worker or avoidance of Blender/GIMP as permanent policy. Professional tool use is decided by deliverable quality and measured fit, not current free RAM alone. This update does NOT change past S01–S10 PASS evidence or mean these tools were previously used.
+
+### Verified local facts and resource budget
+
+| Evidence | Observation | Meaning |
+|---|---|---|
+| Windows physical-memory modules | Two 4 GiB modules: **8 GiB physically installed** | Hardware is not a 6 GB configuration |
+| Windows OS-visible RAM | About **6020 MiB** | Usable is lower; exact reserved-memory cause not fully verified |
+| Available RAM snapshot | **1664 MiB**; repeat after version checks **1613 MiB** | Variable instantaneous readings, not fixed tool limits |
+| User-directed preparation goal | **~2048 MiB free before demanding work** | A target to prepare the workspace, NOT a constant floor after apps launch |
+| Shortfall at initial snapshot | **384 MiB** | Investigate reversible ways to recover, do not terminate user apps without approval |
+| Disk/pagefile | C: free **84.9 GiB**, pagefile allocated **8644 MiB** | Storage-backed commit headroom; NOT extra physical RAM or equal speed |
+| GPU | AMD Radeon Vega 8 | Check render backend and graphics memory during a real pilot |
+| Professional apps | GIMP **3.2.8**, Blender **5.3.0** both installed and version commands returned | Programs usable for small trials; demanding scenes/render results NOT benchmarked |
+
+### Operational workflow
+
+1. **Pick tools based on the desired visual or functional improvement.** The pure HTML/CSS/JS site output can still be authored with GIMP, Blender, Penpot/Figma (if authorized), VS Code, Playwright and Chrome. Static runtime simplicity does not mean a restricted offline creation workflow.
+2. Before an intensive session aim for **~2 GiB RAM available** by first inspecting processes, closing only demonstrably idle and owner-approved user programs or our disposable test instances, while preserving VPN, bridge, active project server and unsaved work. No blind process killing, disablement of antivirus/memory compression, forced memory cleaner or permanent pagefile/security changes.
+3. **Allow measured concurrent use** when useful: e.g. design board + GIMP + Chrome preview, Blender + export preview, or Edge/Playwright + Chrome DevTools. Collect actual available RAM, commit/pagefile use, CPU/GPU load, latency and errors while exercising the real workload. If thrashing emerges, adjust in small reversible increments; phase render/export/test only if verified necessary, without discarding advanced artwork.
+4. Tune worker count, number of tabs, texture resolution, image tile cache, Blender samples/scene size, parallel tasks and asset preview sizes **adaptively**, but do not reduce final deliverable fidelity or skip acceptance coverage. Start small and scale after evidence; **one worker is an initial safe profile, not a permanent maximum**.
+5. Treat failure/low free memory as diagnostic context, not an automatic rejection. If Windows becomes unresponsive, crashes, or severe sustained paging/commit pressure occurs, preserve current files and pause further heavy launches; revert workload settings. Historical 100 MiB is an emergency danger indicator, not an operating strategy.
+6. Retain **free-first / provider approval / one authority**. Locally installed free tools do not authorize cloud credits, OAuth scopes or hosting. Verify optional plugin plan/quota/cost and rights before activation; GitHub retains source authority.
+
+### Professional chains now eligible for evaluation
+
+| Output | Complementary tools and acceptance |
+|---|---|
+| Premium five-language design | Existing CSS/SVG + authorized Penpot/Figma for editable artboards if useful → actual semantic HTML/Node renderer and review. No requirement to keep the design app running in production |
+| Rich original hero and three concept cases | GIMP for raster composites/textures, Blender for carefully bounded original 3D models/pre-rendered images/short clips, Chrome/Edge preview; verify originality/licenses, dimensions, file size, LCP and reduced-motion |
+| Accessibility + fast UI | axe-core + Playwright/Edge + DevTools/Lighthouse; these are test tools, not web runtime dependencies |
+| Real S14A editing interface | Penpot/Figma optional UX exploration + native Node/JSON/Git and browser tests; keep authoring server loopback/private |
+
+**Official sources:** [Blender requirements](https://www.blender.org/download/requirements/) (8GB minimum, 32GB recommended); [GIMP memory and swap](https://docs.gimp.org/3.2/en/gimp-prefs-system-resources.html); [Microsoft available/committed memory](https://learn.microsoft.com/en-us/windows/win32/memory/memory-performance-information); [Windows pagefile](https://learn.microsoft.com/en-us/troubleshoot/windows-client/performance/how-to-determine-the-appropriate-page-file-size-for-64-bit-versions-of-windows); [Playwright workers](https://playwright.dev/docs/test-parallel).
+
+**Scope/status:** Read-only resource/profile measurements, GIMP and Blender CLI version checks, architectural/tool-policy update only. Neither application was used for project artwork; no benchmark of a heavy scene, new installation, process termination, account/permission change or paid usage occurred.
