@@ -380,4 +380,42 @@ Sources: [web.dev CWV](https://web.dev/articles/defining-core-web-vitals-thresho
 **References checked 2026-11-22:** [Decap CMS architecture](https://decapcms.org/docs/intro/), [Decap GitHub backend](https://decapcms.org/docs/github-backend/), [OWASP access-control authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [OWASP session storage](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html), [MDN client-side storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), [MDN File System API and user permission](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API), [GOV.UK task list / errors](https://design-system.service.gov.uk/components/), [W3C accessible data tables](https://www.w3.org/WAI/tutorials/tables/), [GitHub protected review](https://docs.github.com/en/pull-requests/reference/managing-and-standardizing-pull-requests). No provider, installer, paid tier, login or sensitive permission activated during this research.
 
 **Status:** RESEARCHED + SPECIFIED (not coded). The stage checkbox in `03-EXECUTION-ROADMAP.md` and independent tests in `05-QA-AND-HANDOFF.md` govern S14A PASS; do not confuse this design contract with functioning admin capability.
+## 9) Professional visitor/operator experience — 2026-11-22 architecture review (PLANNED)
 
+**Decision:** Refine M01 without changing its technical model, 30 public/demo URL kinds, content authority or adding a production backend. Requirements in [Brief §11](01-RESEARCH-AND-BRIEF.md) are acceptance targets for **S10–S20 plus S14A**, not implemented software.
+
+### 9.1 Shared presentation / page contracts
+
+- Each `/{locale}/{page-kind}/` delivers meaningful server-readable **static HTML** with title, H1, logical heading hierarchy, breadcrumbs on inner page kinds, translated summaries, useful descriptions and **actual links only to existing route kinds**. On build, detect orphaned/dead links and ensure same-kind language alternates only where pages exist. No auth or public admin route.
+- A small **component contract** (implemented with existing Node deterministic renderers, HTML and CSS custom properties, *not a new component framework*) should cover `ServiceCard`, `CaseNarrative`, `KitCard`, `FeatureSummary`, `ProcessSteps`, `FAQ`, `Breadcrumbs`, `DemoStatus`, `Empty/ErrorState` and `Action/CTA`. Reuse only on the second stable occurrence; no speculative registry or new design system service.
+- **Service schema** extends existing six stable IDs only with content fields genuinely needed for scope/intent/process/deliverables/inclusions/exclusions and FAQ. **Concept case schema** extends existing three IDs for problem, approach, deliverable/visual artifact and learning labeled `DEMO`; no fake results or actual client claims. **Kit schema** extends existing six IDs for scope, demo-only specification and comparable attributes. All five locales must share required keys. Upgrade `schemaVersion` **only with a backward-compatible migration/test plan and explicit approval if data is durable**; do not bulk-rewrite the current JSON merely to implement a planning note.
+- Proposed **guided brief simulator** is an anonymous, local-only state machine in Contact: typed synthetic selections, validation, summary output, reset and copy/download. Do not ask for/store/submit names, emails, phone numbers or real business data; no network call, no contact delivery claim. It is *not* a lead capture system.
+- **Advanced polish** is driven by informative visual composition: useful original media, well-paced typography, intentful hover/focus states, low-motion microinteractions, consistent theme/tokens and a strong no-JS view. Optional same-origin cross-document View Transitions `@view-transition` only if browser support and reduced-motion/focus tests pass. No autoplay, mandatory 3D, scroll hijacking or new third-party JS.
+
+### 9.2 Information architecture and acceptance boundaries
+
+- **Keep exactly six page kinds:** Home, Services, Work, Catalog, Contact, Demo Checkout. Add **sections** inside these routes, not new public page families. Optional `404.html` and root chooser are ancillary, not counted among 30.
+- **Service decision support:** clear navigation from Home to service scope/process, conceptual portfolio and an anonymous brief summary. No invented times/prices/testimonials. **Portfolio storytelling:** problem, design rationale, artifact, learning and media license per case; explicit concept badge in all locales.
+- **Catalog decision support:** simple filters suitable for **six** items, descriptive details, clear reset/empty feedback; conditional comparison maximum 2–3 items only if testing reveals a real user need. Do not implement Elasticsearch, recommendation models, subscriptions, dynamic pricing, reviews or real checkout.
+- **Error/offline states:** return a useful static 404 without leaking internal file paths; preserve HTML content/no-JS reading and static links when optional scripts fail; show honest zero-item and invalid-synthetic-input states. Do not install offline PWA/service worker for imagined future use.
+- **Operator editing:** S14A local-only console is kept outside `site/`, with draft, provenance, validation, preview, diff and rollback. Its readiness checks include missing locale fields, demo labeling, absent alt/license, internal broken links, and unreviewed translation; public build and local editor never share an unauthenticated write endpoint.
+- **Privacy/SEO:** keep demo `noindex` until approval and public deployment, and never insert fake ratings, `Offer`/Merchant `AggregateRating`, organization identity or fake customer claims into structured data. Only after a real public domain exists may S15 generate reciprocal absolute `hreflang`/canonical and truthful applicable schema. No automatic analytics or third-party trackers.
+
+### 9.3 Risk, fallbacks and tool review
+
+| Concern | Default | Failure mode + required test |
+|---|---|---|
+| Content schema | Existing JSON + deterministic Node | Missing locale/duplicate IDs → build blocked; no silent fallback to wrong language |
+| Art/editorial | Original assets with credits; `alt=""` for purely decorative | Unlicensed media/irrelevant alt → publish blocked; manual S16/S19 audit |
+| Service matching | Deterministic client-only demo with synthetic input | Invalid input/JS off → clear explanation, safe reset and no network |
+| Experience motion | Native HTML/CSS with reduced-motion default respect | Unsupported View Transitions or high INP → immediate plain-navigation fallback |
+| Local editor | Loopback-only draft, validation + rollback | Wrong Origin/Host/LAN request → denied; no public admin or secrets |
+| Real services | No deployment, real identities, provider or commerce | Scope requested → separate proposal, cost/security/permission verification and approval |
+
+### 9.4 Official and observed evidence
+
+- [GOV.UK user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs), [Google people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content), [Baymard product-list UX](https://baymard.com/research/ecommerce-product-lists).
+- [Instrument Work and its Eames case-study methodology](https://www.instrument.com/work/eames-institute/), [Pentagram Work browsing](https://www.pentagram.com/work/). **References only**, no copyright transfer or site cloning.
+- [MDN View Transition API](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API), [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/), [W3C alt decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/), [web.dev INP](https://web.dev/articles/optimize-inp), [OWASP DOM XSS](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html), [Google misleading structured data](https://developers.google.com/search/docs/appearance/structured-data/sd-policies).
+
+**Status: researched/specification only.** Existing S01–S09 PASS remains based on prior evidence; S10–S20 and S14A remain NOT STARTED. A stage may be checked only after its actual code, I/O, tests, observations and verified Git revision exist.
