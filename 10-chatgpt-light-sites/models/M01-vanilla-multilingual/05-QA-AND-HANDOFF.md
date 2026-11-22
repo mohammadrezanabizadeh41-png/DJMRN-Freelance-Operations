@@ -1,5 +1,5 @@
 # M01 — ماتریس تست، معیار پذیرش و تحویل نمونه‌کار
-**State:** planned acceptance matrix; executed evidence for S01–S09 is recorded in the existing roadmap, while the new admin tests T21–T24 and S14A are **NOT RUN**. Do not infer implementation from a test plan.  
+**State:** S01–S11 have execution evidence in the existing roadmap; S11 includes Node, HTML-Validate, Edge/Playwright browser, and representative axe-core checks. Future T21–T24 and S14A are **NOT RUN**. Overall S15–S20 acceptance, complete human accessibility/translation review, and public launch are **NOT DONE**. Do not infer unexecuted gates from the plan.
 **Build plan:** [03 Execution Roadmap](03-EXECUTION-ROADMAP.md); [04 i18n/SEO/payment/security](04-I18N-SEO-COMMERCE-SECURITY.md).
 
 ## 1) What we will actually test

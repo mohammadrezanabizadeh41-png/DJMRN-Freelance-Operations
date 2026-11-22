@@ -40,7 +40,7 @@
     "performance-check-pack"
   ],
   "brand": "NOVA Atelier",
-  "note": "Temporary fictional studio. Site pages will be created in S08+ only. All 5 languages require qualified human proofreading before public deployment. Image alt strings are illustrative descriptions of planned original illustrations; S11/S12 must match real assets or use alt='' for purely decorative images.",
+  "note": "M01 S11: Five Home + five Services + five Work routes are generated from this JSON. Remaining Catalog/Contact/Checkout routes are future S12–S14. All translations are editorial drafts pending qualified human review before publication. Concept art is original project SVG; no real clients, sales, payments or real contact.",
   "locales": {
     "fa": {
       "autonym": "فارسی",
@@ -267,6 +267,135 @@
         "nextLead": "این صفحه نمایش مفهومی است. خدمات و نمونه‌کارهای آزمایشی را مرور کنید؛ هیچ درخواست یا پیام واقعی از اینجا ارسال نمی‌شود.",
         "nextPrimary": "مرور خدمات",
         "nextSecondary": "دیدن نمونه‌کارهای مفهومی"
+      },
+      "serviceWork": {
+        "labels": {
+          "scope": "محدودهٔ خدمت",
+          "audience": "مناسب برای",
+          "inputs": "ورودی لازم برای شروع",
+          "included": "موارد شامل‌شده در نمونه",
+          "excluded": "موارد خارج از محدوده",
+          "deliverable": "تحویل‌دادنی نمایشی",
+          "process": "فرایند پیشنهادی",
+          "concept": "مطالعهٔ موردی مفهومی",
+          "problem": "مسئله",
+          "approach": "رویکرد و تصمیم طراحی",
+          "artifact": "خروجی تصویری اصیل",
+          "learning": "آموختهٔ طرح",
+          "related": "خدمت مرتبط",
+          "openCase": "دیدن نمونهٔ مفهومی",
+          "exploreServices": "مشاهدهٔ خدمات",
+          "exploreWork": "مرور نمونه‌کارها",
+          "nextContact": "گام بعد: پیش‌نمایش تماس",
+          "noSend": "هیچ پیامی ارسال نمی‌شود؛ این فقط یک نمایش است.",
+          "contactHome": "پیش‌نمایش درخواست در صفحهٔ خانه",
+          "faq": "پرسش‌های متداول",
+          "faqOne": "آیا این پروژهٔ یک مشتری واقعی است؟",
+          "answerOne": "خیر. هر شش خدمت و هر سه مطالعهٔ موردی صرفاً نمونه‌های مفهومی و ساختگی‌اند.",
+          "faqTwo": "می‌توانم درخواست واقعی بفرستم؟",
+          "answerTwo": "فعلاً خیر. بخش تماس یک پیش‌نمایش غیرارسالی است و دادهٔ شخصی جمع‌آوری نمی‌کند.",
+          "faqThree": "آیا این نتیجه‌ها تأییدشده‌اند؟",
+          "answerThree": "خیر. تصمیم‌ها و خروجی‌ها برای نمایش طراحی‌اند، نه آمار یا نتیجهٔ کسب‌وکار.",
+          "artLabel": "مطالعهٔ برداری اصیل",
+          "backHome": "بازگشت به خانه"
+        },
+        "services": {
+          "company-websites": {
+            "audience": "تیم‌های کوچک برای معرفی روشن فعالیت خود",
+            "inputs": "فهرست خدمات، اولویت مخاطب و متن مجاز برند",
+            "included": "ساختار دسترس‌پذیر صفحات، ناوبری و معرفی واکنش‌گرای خدمات",
+            "excluded": "میزبانی، اتصال واقعی CRM یا تضمین جذب مشتری",
+            "deliverable": "نقشهٔ صفحات، اجزای نمونه و پیش‌نمایش استاتیک",
+            "process": [
+              "شناخت مخاطب",
+              "ترسیم نقشهٔ صفحات",
+              "بررسی نمونهٔ واکنش‌گرا"
+            ]
+          },
+          "landing-pages": {
+            "audience": "محصول تازه با یک پیام و اقدام مشخص",
+            "inputs": "ارزش پیشنهادی محصول، اقدام مطلوب و تصاویر مجاز",
+            "included": "سلسله‌مراتب معرفی، ساختار دلایل و جای‌گذاری اقدام بعدی",
+            "excluded": "مدیریت تبلیغات یا ادعای نرخ تبدیل اندازه‌گیری‌شده",
+            "deliverable": "وایرفریم فرود و نمونهٔ واکنش‌گرا",
+            "process": [
+              "روشن کردن پیشنهاد",
+              "چیدمان صفحه",
+              "بازبینی نمایشگر کوچک"
+            ]
+          },
+          "ui-accessibility": {
+            "audience": "تیم‌های محصول برای بهبود استفادهٔ روزمره",
+            "inputs": "مسیرهای اصلی، دستگاه هدف و نیازهای دسترس‌پذیری",
+            "included": "الگوهای معنایی، فوکوس نمایان و تعامل صفحه‌کلید",
+            "excluded": "گواهی رسمی انطباق یا تضمین همهٔ ابزارهای کمکی",
+            "deliverable": "نمونهٔ اجزای رابط و چک‌لیست بررسی دسترس‌پذیری",
+            "process": [
+              "ترسیم مسیر کاربر",
+              "نمونه‌سازی کنترل‌ها",
+              "بررسی صفحه‌کلید"
+            ]
+          },
+          "mobile-performance": {
+            "audience": "سایت‌های محتوایی برای تجربهٔ بهتر گوشی",
+            "inputs": "صفحات اصلی، رسانهٔ نمونه و هدف‌های عملکرد",
+            "included": "چیدمان سیال، برنامهٔ اندازهٔ تصویر و تعامل کم‌تحرک",
+            "excluded": "تضمین سرعت در محیط واقعی یا رتبه‌بندی تحلیلی",
+            "deliverable": "نمونهٔ واکنش‌گرا و چک‌لیست آزمون تکرارپذیر",
+            "process": [
+              "تعریف دستگاه‌ها",
+              "سبک‌سازی رسانه",
+              "بررسی رفتار اندازه‌ها"
+            ]
+          },
+          "seo-localization": {
+            "audience": "تیم‌های چندزبانه با محتوای خوانا",
+            "inputs": "زبان‌ها، ترجمهٔ تأییدشده و ساختار صفحات",
+            "included": "مسیر زبان‌ها، تغییر زبان، راست‌به‌چپ و نقشهٔ فراداده",
+            "excluded": "ترجمهٔ دارای گواهی انسانی یا تضمین رتبهٔ جست‌وجو",
+            "deliverable": "نمونهٔ ناوبری پنج‌زبانه و چک‌لیست بومی‌سازی",
+            "process": [
+              "تعریف ساختار زبان",
+              "طراحی جهت متن",
+              "بازبینی فراداده"
+            ]
+          },
+          "visual-identity": {
+            "audience": "برندهای مستقل با هویت منسجم",
+            "inputs": "شرح مخاطب، مرجع تصویری مجاز و لحن",
+            "included": "رنگ، مقیاس تایپ، نقوش برداری اصیل و جهت هنری اجزا",
+            "excluded": "ثبت علامت تجاری، تصاویر استوک پولی یا اجرای کامل برند",
+            "deliverable": "مودبورد، توکن‌ها و عناصر برداری قابل‌ویرایش",
+            "process": [
+              "کشف جهت بصری",
+              "اصلاح نقش‌های اصیل",
+              "بررسی کنتراست"
+            ]
+          }
+        },
+        "cases": {
+          "corporate-presence": {
+            "problem": "یک استودیوی خدماتی خیالی باید خدمات متنوع را بدون پنهان‌کردن اقدام اصلی معرفی می‌کرد.",
+            "approach": "ارزش پیشنهادی، دسته‌های خدمات و پیش‌نمایش تماس را جدا کردیم و سلسله‌مراتب واکنش‌گرا ساختیم.",
+            "artifact": "ترکیب‌بندی برداری اصیل از شبکهٔ خدمات، ناوبری و معرفی مجله‌ای.",
+            "learning": "مسیر روشن محتوا باید پیش از حرکت تزئینی قرار بگیرد.",
+            "serviceId": "company-websites"
+          },
+          "creative-portfolio": {
+            "problem": "یک هنرمند فرضی لازم داشت برای پروژه‌ها فراتر از تصاویر بندانگشتی زمینه بسازد.",
+            "approach": "روایت هر طرح را با هدف، تصمیم بصری و مسیر دسترس‌پذیر مشاهده تنظیم کردیم.",
+            "artifact": "استوری‌بورد برداری اصیل از کارت‌های پروژه، یادداشت و وضعیت ناوبری.",
+            "learning": "نمونه‌کار معتبر دلیل تصمیم را توضیح می‌دهد؛ مشتری و نتیجه نمی‌سازد.",
+            "serviceId": "visual-identity"
+          },
+          "digital-catalog": {
+            "problem": "مجموعه‌ای خیالی از بسته‌های دیجیتال نیاز به دسته‌بندی روشن و انتخاب قابل‌فهم داشت.",
+            "approach": "کارت دسته‌ها و نشانه‌های مقایسهٔ ساده را بدون وانمود پرداخت واقعی طراحی کردیم.",
+            "artifact": "مطالعهٔ برداری اصیل از فیلتر و کارت‌های یک کاتالوگ نمایشی.",
+            "learning": "برچسب صادقانهٔ DEMO و محدودیت روشن از آمار ساختگی ارزشمندتر است.",
+            "serviceId": "ui-accessibility"
+          }
+        }
       }
     },
     "en": {
@@ -494,6 +623,135 @@
         "nextLead": "This site is a design concept. Browse the services and fictional work; no inquiry or personal information is submitted here.",
         "nextPrimary": "Explore services",
         "nextSecondary": "View concept work"
+      },
+      "serviceWork": {
+        "labels": {
+          "scope": "Service scope",
+          "audience": "Who this is for",
+          "inputs": "What we need to begin",
+          "included": "Included in the concept",
+          "excluded": "Not included",
+          "deliverable": "Illustrative deliverable",
+          "process": "Proposed process",
+          "concept": "Concept study",
+          "problem": "Problem",
+          "approach": "Design approach",
+          "artifact": "Original artifact",
+          "learning": "What this concept teaches",
+          "related": "Related service",
+          "openCase": "Explore the case",
+          "exploreServices": "View services",
+          "exploreWork": "Explore the work",
+          "nextContact": "Next step: contact preview",
+          "noSend": "No message is sent; this is only a demonstration.",
+          "contactHome": "Brief preview on Home",
+          "faq": "Common questions",
+          "faqOne": "Is this a real client project?",
+          "answerOne": "No. All six service descriptions and three case studies are fictional design examples.",
+          "faqTwo": "Can I send an inquiry?",
+          "answerTwo": "Not yet. The contact area is an unsubmitted preview; no personal information is collected.",
+          "faqThree": "Are these confirmed outcomes?",
+          "answerThree": "No. Decisions and artifacts are design demonstrations, not verified business results.",
+          "artLabel": "Original vector study",
+          "backHome": "Return to Home"
+        },
+        "services": {
+          "company-websites": {
+            "audience": "Small teams launching a clear online presence",
+            "inputs": "Service list, audience priorities and approved brand copy",
+            "included": "Accessible page hierarchy, navigation and responsive service storytelling",
+            "excluded": "Hosting, live CRM integration and customer acquisition guarantees",
+            "deliverable": "Page map, sample components and a static preview",
+            "process": [
+              "Discover audience",
+              "Sketch the page map",
+              "Review responsive prototypes"
+            ]
+          },
+          "landing-pages": {
+            "audience": "New products needing one focused story",
+            "inputs": "Product value, desired action and legal visual assets",
+            "included": "Hero hierarchy, proof section structure and clear call-to-action placement",
+            "excluded": "Advertising management or measured conversion claims",
+            "deliverable": "Landing-page wireframe and responsive mock layout",
+            "process": [
+              "Clarify the offer",
+              "Compose the page",
+              "Review small screens"
+            ]
+          },
+          "ui-accessibility": {
+            "audience": "Product teams improving everyday usability",
+            "inputs": "Key journeys, target devices and inclusive-use goals",
+            "included": "Semantic patterns, visible focus states and keyboard-first interactions",
+            "excluded": "Certified compliance audits or assistive-technology guarantees",
+            "deliverable": "UI pattern samples and an accessibility review checklist",
+            "process": [
+              "Map user journeys",
+              "Prototype inclusive controls",
+              "Check keyboard paths"
+            ]
+          },
+          "mobile-performance": {
+            "audience": "Content-heavy sites that must work on phones",
+            "inputs": "Priority pages, sample media and performance goals",
+            "included": "Fluid layouts, image sizing plan and low-motion interaction choices",
+            "excluded": "Production performance SLA or analytics-based rankings",
+            "deliverable": "Responsive sample and a repeatable test checklist",
+            "process": [
+              "Define device cases",
+              "Optimize sample media",
+              "Inspect viewport behavior"
+            ]
+          },
+          "seo-localization": {
+            "audience": "Multilingual teams building readable content",
+            "inputs": "Supported languages, approved translations and page structure",
+            "included": "Locale routes, language switching, RTL/LTR patterns and metadata map",
+            "excluded": "Human-certified translations or guaranteed search ranking",
+            "deliverable": "Five-locale navigation example and localization checklist",
+            "process": [
+              "Define locale structure",
+              "Draft language layouts",
+              "Review direction and metadata"
+            ]
+          },
+          "visual-identity": {
+            "audience": "Independent brands needing a cohesive visual voice",
+            "inputs": "Audience brief, permitted visual references and tone",
+            "included": "Color, type scale, original vector motifs and component-level art direction",
+            "excluded": "Trademark registration, licensed stock packs or full brand rollout",
+            "deliverable": "Visual moodboard, tokens and original editable vector elements",
+            "process": [
+              "Explore a direction",
+              "Refine original motifs",
+              "Check contrast and consistency"
+            ]
+          }
+        },
+        "cases": {
+          "corporate-presence": {
+            "problem": "A fictional service studio needed to explain varied offers without hiding the first action.",
+            "approach": "We separated the promise, service categories and contact preview, then built a restrained responsive hierarchy.",
+            "artifact": "An original vector composition showing a service-page grid, navigation and an editorial hero.",
+            "learning": "Clear content pathways should come before decorative motion.",
+            "serviceId": "company-websites"
+          },
+          "creative-portfolio": {
+            "problem": "A hypothetical independent maker needed to give selected projects context beyond a grid of thumbnails.",
+            "approach": "We organized each story around intent, design decisions and an accessible route to explore more.",
+            "artifact": "An original vector storyboard with project tiles, annotation and navigation states.",
+            "learning": "A credible portfolio explains decisions; it does not invent clients or results.",
+            "serviceId": "visual-identity"
+          },
+          "digital-catalog": {
+            "problem": "An imaginary collection of digital kits needed transparent categories and an understandable choice process.",
+            "approach": "We sketched distinct category cards and simple comparison cues without implying a real checkout.",
+            "artifact": "An original vector catalog interface study with filters and product cards.",
+            "learning": "Honest demo labels and clear exclusions matter more than fake conversion numbers.",
+            "serviceId": "ui-accessibility"
+          }
+        }
       }
     },
     "ar": {
@@ -721,6 +979,135 @@
         "nextLead": "هذا الموقع عرض مفهومي. تصفّح الخدمات والأعمال التجريبية؛ لا تُرسل طلبات أو بيانات شخصية من هنا.",
         "nextPrimary": "استكشاف الخدمات",
         "nextSecondary": "مشاهدة الأعمال التصورية"
+      },
+      "serviceWork": {
+        "labels": {
+          "scope": "نطاق الخدمة",
+          "audience": "الفئة المناسبة",
+          "inputs": "ما نحتاجه للبدء",
+          "included": "ما يشمله هذا التصور",
+          "excluded": "ما لا يشمله",
+          "deliverable": "مخرج توضيحي",
+          "process": "مراحل العمل المقترحة",
+          "concept": "دراسة حالة مفاهيمية",
+          "problem": "المشكلة",
+          "approach": "النهج وقرارات التصميم",
+          "artifact": "العمل البصري الأصلي",
+          "learning": "الدروس المستفادة",
+          "related": "خدمة مرتبطة",
+          "openCase": "استكشف الحالة",
+          "exploreServices": "عرض الخدمات",
+          "exploreWork": "تصفح الأعمال",
+          "nextContact": "الخطوة التالية: معاينة التواصل",
+          "noSend": "لا تُرسَل أي رسالة؛ هذا عرض توضيحي فقط.",
+          "contactHome": "معاينة الطلب على الصفحة الرئيسية",
+          "faq": "أسئلة شائعة",
+          "faqOne": "هل هذا مشروع لعميل حقيقي؟",
+          "answerOne": "لا، جميع الخدمات الست ودراسات الحالات الثلاث أمثلة تصميم افتراضية.",
+          "faqTwo": "هل يمكنني إرسال استفسار؟",
+          "answerTwo": "ليس بعد. قسم التواصل معاينة بلا إرسال ولا يجمع بيانات شخصية.",
+          "faqThree": "هل هذه نتائج مُثبتة؟",
+          "answerThree": "لا؛ القرارات والمخرجات أمثلة تصميم وليست نتائج أعمال موثقة.",
+          "artLabel": "دراسة متجهية أصلية",
+          "backHome": "العودة للرئيسية"
+        },
+        "services": {
+          "company-websites": {
+            "audience": "الفرق الصغيرة التي تريد حضورًا رقميًا واضحًا",
+            "inputs": "قائمة الخدمات وأولويات الجمهور ونصوص العلامة المسموحة",
+            "included": "هيكل صفحات واضح، تنقل يسهل الوصول إليه وعرض خدمات متجاوب",
+            "excluded": "الاستضافة أو ربط إدارة العملاء أو ضمان اكتساب عملاء",
+            "deliverable": "خريطة صفحات وعناصر واجهة ومعاينة ثابتة",
+            "process": [
+              "فهم الجمهور",
+              "رسم خريطة الصفحات",
+              "اختبار النموذج المتجاوب"
+            ]
+          },
+          "landing-pages": {
+            "audience": "المنتجات الجديدة ذات الرسالة المركزة",
+            "inputs": "قيمة المنتج والإجراء المطلوب والوسائط المسموح بها",
+            "included": "تدرج بصري للمقدمة وأقسام توضيحية ودعوة واضحة لاتخاذ إجراء",
+            "excluded": "إدارة الإعلانات أو الادعاء بنسب تحويل مقاسة",
+            "deliverable": "مخطط صفحة هبوط ونموذج متجاوب",
+            "process": [
+              "توضيح العرض",
+              "ترتيب الصفحة",
+              "مراجعة الهاتف"
+            ]
+          },
+          "ui-accessibility": {
+            "audience": "فرق المنتجات التي تحسن سهولة الاستخدام",
+            "inputs": "المسارات الأساسية والأجهزة المستهدفة واحتياجات الإتاحة",
+            "included": "بنية دلالية وتركيز مرئي وتفاعلات مناسبة للوحة المفاتيح",
+            "excluded": "شهادة امتثال رسمية أو ضمان جميع التقنيات المساعدة",
+            "deliverable": "نماذج واجهة وقائمة فحص للإتاحة",
+            "process": [
+              "فهم مسار المستخدم",
+              "بناء عناصر شاملة",
+              "اختبار لوحة المفاتيح"
+            ]
+          },
+          "mobile-performance": {
+            "audience": "المواقع الغنية بالمحتوى على الهواتف",
+            "inputs": "الصفحات المهمة والوسائط وأهداف الأداء",
+            "included": "تخطيط مرن وأحجام صور مناسبة وخيارات حركة معتدلة",
+            "excluded": "ضمان أداء الإنتاج أو ترتيب معتمد على التحليلات",
+            "deliverable": "عينة متجاوبة وقائمة اختبارات قابلة للتكرار",
+            "process": [
+              "تحديد الأجهزة",
+              "تحسين الوسائط",
+              "فحص أحجام العرض"
+            ]
+          },
+          "seo-localization": {
+            "audience": "الفرق التي تنشر بلغات متعددة",
+            "inputs": "اللغات والترجمات المعتمدة وبنية الصفحات",
+            "included": "مسارات اللغات والتبديل بينها وأنماط RTL/LTR وخريطة بيانات",
+            "excluded": "ترجمة بشرية معتمدة أو ضمان ترتيب البحث",
+            "deliverable": "مثال تنقل بخمس لغات وقائمة توطين",
+            "process": [
+              "تخطيط اللغات",
+              "تصميم اتجاه النص",
+              "مراجعة البيانات"
+            ]
+          },
+          "visual-identity": {
+            "audience": "العلامات المستقلة التي تريد هوية متماسكة",
+            "inputs": "وصف الجمهور والمراجع البصرية المسموحة والنبرة",
+            "included": "الألوان ومقاييس الخطوط ورسوم متجهية أصلية ونمط المكونات",
+            "excluded": "تسجيل علامة تجارية أو صور مدفوعة أو إطلاق كامل",
+            "deliverable": "لوحة إلهام ورموز تصميم وعناصر متجهية قابلة للتعديل",
+            "process": [
+              "استكشاف الاتجاه",
+              "تحسين الرسوم الأصلية",
+              "فحص التباين"
+            ]
+          }
+        },
+        "cases": {
+          "corporate-presence": {
+            "problem": "احتاج استوديو خدمات افتراضي إلى توضيح عروض متنوعة مع إبراز الخطوة الأولى.",
+            "approach": "فصلنا الرسالة الرئيسية وفئات الخدمات ومعاينة التواصل في تسلسل متجاوب.",
+            "artifact": "لوحة متجهية أصلية تعرض شبكة الخدمات والتنقل ومقدمة تحريرية.",
+            "learning": "وضوح مسارات المحتوى أهم من الحركة الزخرفية.",
+            "serviceId": "company-websites"
+          },
+          "creative-portfolio": {
+            "problem": "احتاج مبدع افتراضي إلى سياق يشرح أعماله بدل شبكة صور مصغرة فقط.",
+            "approach": "نظمنا القصص حول الهدف والقرارات البصرية ومسار الاستكشاف السهل.",
+            "artifact": "لوحة متجهية أصلية تعرض بطاقات أعمال وتعليقات وحالات تنقل.",
+            "learning": "ملف الأعمال الموثوق يشرح القرارات ولا يخترع العملاء أو النتائج.",
+            "serviceId": "visual-identity"
+          },
+          "digital-catalog": {
+            "problem": "احتاجت مجموعة افتراضية من الأدوات الرقمية إلى فئات وخيارات واضحة.",
+            "approach": "صممنا بطاقات فئات وإشارات مقارنة بسيطة دون الإيحاء بشراء فعلي.",
+            "artifact": "تصور متجهي أصلي لفلاتر وبطاقات كتالوج تجريبي.",
+            "learning": "تسميات التجربة والحدود الواضحة أهم من أرقام تحويل وهمية.",
+            "serviceId": "ui-accessibility"
+          }
+        }
       }
     },
     "tr": {
@@ -948,6 +1335,135 @@
         "nextLead": "Bu site bir tasarım konseptidir. Hizmetlere ve kurgusal çalışmalara göz atın; buradan gerçek talep veya kişisel bilgi gönderilmez.",
         "nextPrimary": "Hizmetleri keşfet",
         "nextSecondary": "Konsept çalışmaları gör"
+      },
+      "serviceWork": {
+        "labels": {
+          "scope": "Hizmet kapsamı",
+          "audience": "Kimin için",
+          "inputs": "Başlamak için gerekenler",
+          "included": "Konseptin kapsadıkları",
+          "excluded": "Kapsam dışı",
+          "deliverable": "Örnek teslim",
+          "process": "Önerilen süreç",
+          "concept": "Kavramsal vaka",
+          "problem": "Problem",
+          "approach": "Tasarım yaklaşımı",
+          "artifact": "Özgün görsel çıktı",
+          "learning": "Öğrenilenler",
+          "related": "İlgili hizmet",
+          "openCase": "Vaka çalışmasını incele",
+          "exploreServices": "Hizmetleri incele",
+          "exploreWork": "Çalışmaları keşfet",
+          "nextContact": "Sonraki adım: iletişim önizlemesi",
+          "noSend": "Mesaj gönderilmez; bu yalnızca bir gösterimdir.",
+          "contactHome": "Ana sayfada talep önizlemesi",
+          "faq": "Sık sorulan sorular",
+          "faqOne": "Bu gerçek bir müşteri projesi mi?",
+          "answerOne": "Hayır. Altı hizmet ve üç vaka tamamen kurgusal tasarım örnekleridir.",
+          "faqTwo": "Talep gönderebilir miyim?",
+          "answerTwo": "Henüz hayır. İletişim alanı veri toplamayan, gönderimsiz bir önizlemedir.",
+          "faqThree": "Bu sonuçlar doğrulandı mı?",
+          "answerThree": "Hayır. Kararlar ve tasarımlar işletme sonucu değil, kavramsal örneklerdir.",
+          "artLabel": "Özgün vektör çalışma",
+          "backHome": "Ana sayfaya dön"
+        },
+        "services": {
+          "company-websites": {
+            "audience": "Dijital varlığını netleştiren küçük ekipler",
+            "inputs": "Hizmet listesi, hedef kitle öncelikleri ve onaylı marka metni",
+            "included": "Erişilebilir sayfa düzeni, gezinme ve duyarlı hizmet anlatımı",
+            "excluded": "Barındırma, canlı CRM entegrasyonu veya müşteri kazanım garantisi",
+            "deliverable": "Sayfa haritası, örnek bileşenler ve statik önizleme",
+            "process": [
+              "Kitleyi tanı",
+              "Sayfa haritasını çiz",
+              "Duyarlı prototipi incele"
+            ]
+          },
+          "landing-pages": {
+            "audience": "Tek mesajı olan yeni ürünler",
+            "inputs": "Ürün değeri, hedef eylem ve izinli görseller",
+            "included": "Giriş hiyerarşisi, açıklama bölümleri ve belirgin eylem düğmesi",
+            "excluded": "Reklam yönetimi veya ölçülmüş dönüşüm iddiası",
+            "deliverable": "Açılış sayfası şeması ve duyarlı örnek",
+            "process": [
+              "Teklifi netleştir",
+              "Sayfayı düzenle",
+              "Mobil görünümü denetle"
+            ]
+          },
+          "ui-accessibility": {
+            "audience": "Günlük kullanılabilirliği geliştiren ürün ekipleri",
+            "inputs": "Ana kullanıcı akışları, cihazlar ve erişilebilirlik hedefleri",
+            "included": "Anlamsal bileşenler, görünür odak ve klavye etkileşimi",
+            "excluded": "Resmi uyumluluk belgesi veya tüm yardımcı araçlar için garanti",
+            "deliverable": "UI bileşenleri ve erişilebilirlik kontrol listesi",
+            "process": [
+              "Akışları haritala",
+              "Kapsayıcı kontrol tasarla",
+              "Klavye ile kontrol et"
+            ]
+          },
+          "mobile-performance": {
+            "audience": "Telefonda iyi çalışan içerik siteleri",
+            "inputs": "Öncelikli sayfalar, örnek medya ve performans hedefleri",
+            "included": "Esnek yerleşim, görsel boyutlandırma ve azaltılmış hareket",
+            "excluded": "Üretim performans taahhüdü veya analitik temelli sıralama",
+            "deliverable": "Duyarlı örnek ve tekrar edilebilir test listesi",
+            "process": [
+              "Cihazları tanımla",
+              "Medyayı optimize et",
+              "Ekranları denetle"
+            ]
+          },
+          "seo-localization": {
+            "audience": "Çok dilli içerik ekipleri",
+            "inputs": "Diller, onaylı çeviriler ve sayfa yapısı",
+            "included": "Dil URL’leri, dil değişimi, RTL/LTR düzenleri ve meta veri",
+            "excluded": "Sertifikalı çeviri veya arama sıralaması garantisi",
+            "deliverable": "Beş dilde gezinme örneği ve yerelleştirme listesi",
+            "process": [
+              "Dil yapısını kur",
+              "Yönleri tasarla",
+              "Meta veriyi incele"
+            ]
+          },
+          "visual-identity": {
+            "audience": "Tutarlı kimlik arayan bağımsız markalar",
+            "inputs": "Kitle özeti, izinli referanslar ve üslup",
+            "included": "Renk sistemi, tipografi ölçeği ve özgün vektör motifleri",
+            "excluded": "Marka tescili, ücretli stok görseller veya tam lansman",
+            "deliverable": "Görsel pano, tasarım tokenları ve düzenlenebilir vektörler",
+            "process": [
+              "Görsel yönü seç",
+              "Özgün motifleri geliştir",
+              "Kontrastı denetle"
+            ]
+          }
+        },
+        "cases": {
+          "corporate-presence": {
+            "problem": "Kurgusal bir hizmet stüdyosu, çeşitli tekliflerini ilk adımı gizlemeden açıklamak zorundaydı.",
+            "approach": "Ana vaadi, hizmet başlıklarını ve iletişim önizlemesini duyarlı bir hiyerarşiye ayırdık.",
+            "artifact": "Hizmet ızgarası, gezinme ve editoryal giriş gösteren özgün vektör kompozisyonu.",
+            "learning": "Önce net içerik yolları, sonra dekoratif hareket gelmeli.",
+            "serviceId": "company-websites"
+          },
+          "creative-portfolio": {
+            "problem": "Hayali bağımsız bir üretici, işlerini küçük görsellerin ötesinde anlatmak istedi.",
+            "approach": "Her hikâyeyi amaç, tasarım kararı ve erişilebilir keşif yolu etrafında düzenledik.",
+            "artifact": "Proje kartları, notlar ve gezinme durumları içeren özgün vektör taslağı.",
+            "learning": "Güvenilir portföy kararları anlatır; müşteri ya da sonuç uydurmaz.",
+            "serviceId": "visual-identity"
+          },
+          "digital-catalog": {
+            "problem": "Hayali dijital kit koleksiyonu, açık kategorilere ve anlaşılır seçim yoluna ihtiyaç duydu.",
+            "approach": "Kategori kartlarını ve yalın karşılaştırma ipuçlarını gerçek ödeme iddiası olmadan çizdik.",
+            "artifact": "Filtreler ve ürün kartları içeren özgün vektör katalog çalışması.",
+            "learning": "Dürüst DEMO etiketi ve net kapsam, uydurma dönüşüm sayılarından daha değerlidir.",
+            "serviceId": "ui-accessibility"
+          }
+        }
       }
     },
     "de": {
@@ -1175,6 +1691,135 @@
         "nextLead": "Dies ist eine Konzeptwebsite. Entdecken Sie Leistungen und fiktive Arbeiten; hier werden keine Anfragen oder personenbezogenen Daten übermittelt.",
         "nextPrimary": "Leistungen entdecken",
         "nextSecondary": "Konzeptarbeiten ansehen"
+      },
+      "serviceWork": {
+        "labels": {
+          "scope": "Leistungsumfang",
+          "audience": "Für wen",
+          "inputs": "Benötigte Grundlagen",
+          "included": "Im Konzept enthalten",
+          "excluded": "Nicht enthalten",
+          "deliverable": "Beispiel-Ergebnis",
+          "process": "Vorgeschlagener Ablauf",
+          "concept": "Konzeptstudie",
+          "problem": "Ausgangsproblem",
+          "approach": "Gestaltungsansatz",
+          "artifact": "Eigenständiges Artefakt",
+          "learning": "Erkenntnis",
+          "related": "Passende Leistung",
+          "openCase": "Fallstudie ansehen",
+          "exploreServices": "Leistungen entdecken",
+          "exploreWork": "Arbeiten erkunden",
+          "nextContact": "Nächster Schritt: Kontaktvorschau",
+          "noSend": "Es wird keine Nachricht gesendet – dies ist nur eine Demonstration.",
+          "contactHome": "Anfragevorschau auf der Startseite",
+          "faq": "Häufige Fragen",
+          "faqOne": "Ist das ein echtes Kundenprojekt?",
+          "answerOne": "Nein. Alle sechs Leistungen und drei Fallstudien sind erfundene Gestaltungskonzepte.",
+          "faqTwo": "Kann ich eine Anfrage senden?",
+          "answerTwo": "Noch nicht. Der Kontaktbereich ist eine Vorschau ohne Versand oder Erhebung personenbezogener Daten.",
+          "faqThree": "Sind die Ergebnisse belegt?",
+          "answerThree": "Nein. Entwürfe und Entscheidungen zeigen Gestaltung, keine nachgewiesenen Geschäftsergebnisse.",
+          "artLabel": "Eigene Vektorskizze",
+          "backHome": "Zur Startseite"
+        },
+        "services": {
+          "company-websites": {
+            "audience": "Kleine Teams mit Bedarf an einem klaren Webauftritt",
+            "inputs": "Leistungsübersicht, Zielgruppen und freigegebene Markentexte",
+            "included": "Zugängliche Seitenstruktur, Navigation und responsive Service-Erzählung",
+            "excluded": "Hosting, echte CRM-Anbindung oder Neukunden-Garantien",
+            "deliverable": "Seitenplan, Beispielkomponenten und statische Vorschau",
+            "process": [
+              "Zielgruppe verstehen",
+              "Struktur skizzieren",
+              "Responsive Muster prüfen"
+            ]
+          },
+          "landing-pages": {
+            "audience": "Neue Produkte mit einer fokussierten Botschaft",
+            "inputs": "Produktnutzen, gewünschte Handlung und erlaubte Bilder",
+            "included": "Prägnante Einleitung, schlüssige Abschnitte und sichtbare Handlungsoption",
+            "excluded": "Anzeigenverwaltung oder Behauptungen gemessener Conversion-Raten",
+            "deliverable": "Landingpage-Wireframe und responsiver Entwurf",
+            "process": [
+              "Angebot klären",
+              "Seite gestalten",
+              "Mobile Ansicht prüfen"
+            ]
+          },
+          "ui-accessibility": {
+            "audience": "Produktteams zur Verbesserung der Nutzbarkeit",
+            "inputs": "Wichtige Abläufe, Zielgeräte und Inklusionsziele",
+            "included": "Semantische Elemente, sichtbarer Fokus und Tastaturinteraktion",
+            "excluded": "Offizielle Konformitätszertifikate oder Garantien für alle Hilfsmittel",
+            "deliverable": "UI-Beispiele und Checkliste zur Barrierefreiheit",
+            "process": [
+              "Nutzerwege verstehen",
+              "Inklusive Elemente gestalten",
+              "Tastatur testen"
+            ]
+          },
+          "mobile-performance": {
+            "audience": "Inhaltsreiche Angebote auf kleinen Bildschirmen",
+            "inputs": "Wichtige Seiten, Beispielmedien und Leistungsziele",
+            "included": "Flexible Layouts, Bildgrößenplan und reduzierte Bewegungsreize",
+            "excluded": "Produktiv-SLA oder datenbasierte Ranking-Behauptungen",
+            "deliverable": "Responsives Muster und wiederholbare Testliste",
+            "process": [
+              "Geräte definieren",
+              "Medien optimieren",
+              "Darstellung prüfen"
+            ]
+          },
+          "seo-localization": {
+            "audience": "Teams mit mehrsprachigem Publikationsbedarf",
+            "inputs": "Sprachen, geprüfte Übersetzungen und Seitenstruktur",
+            "included": "Sprachpfade, Sprachwechsel, RTL/LTR-Muster und Metadatenplan",
+            "excluded": "Zertifizierte Fachübersetzung oder Ranking-Garantien",
+            "deliverable": "Fünfsprachige Navigationsvorschau und Lokalisierungsprüfung",
+            "process": [
+              "Sprachen planen",
+              "Schriftrichtung entwerfen",
+              "Metadaten prüfen"
+            ]
+          },
+          "visual-identity": {
+            "audience": "Unabhängige Marken mit konsistenter Gestaltung",
+            "inputs": "Zielgruppenbriefing, erlaubte Referenzen und Tonalität",
+            "included": "Farben, Typografie, eigene Vektormotive und einheitliche Komponenten",
+            "excluded": "Markenschutzanmeldung, bezahlte Stockbilder oder vollständiger Rollout",
+            "deliverable": "Moodboard, Design-Tokens und editierbare Vektorgrafiken",
+            "process": [
+              "Richtung erkunden",
+              "Motive entwickeln",
+              "Kontrast kontrollieren"
+            ]
+          }
+        },
+        "cases": {
+          "corporate-presence": {
+            "problem": "Ein fiktives Dienstleistungsstudio musste vielfältige Angebote verständlich erklären.",
+            "approach": "Wir trennten Kernbotschaft, Leistungsgruppen und Kontaktvorschau in einer responsiven Ordnung.",
+            "artifact": "Eigene Vektorkomposition mit Leistungsraster, Navigation und Editorial-Hero.",
+            "learning": "Klare Inhaltswege sind wichtiger als dekorative Bewegung.",
+            "serviceId": "company-websites"
+          },
+          "creative-portfolio": {
+            "problem": "Eine imaginäre kreative Person brauchte mehr Kontext als eine reine Bildergalerie.",
+            "approach": "Jede Geschichte bekam Ziel, Designentscheidungen und einen zugänglichen Erkundungsweg.",
+            "artifact": "Eigene Vektorskizze mit Projektkarten, Anmerkungen und Navigationszuständen.",
+            "learning": "Glaubwürdige Portfolios erläutern Entscheidungen, statt Kunden und Erfolge zu erfinden.",
+            "serviceId": "visual-identity"
+          },
+          "digital-catalog": {
+            "problem": "Eine erfundene Sammlung digitaler Kits brauchte nachvollziehbare Kategorien.",
+            "approach": "Wir skizzierten Kategorien und einfache Vergleiche ohne vorgetäuschten Kaufprozess.",
+            "artifact": "Eigene Vektorgrafik einer Katalogoberfläche mit Filtern und Produktkarten.",
+            "learning": "Ehrliche DEMO-Hinweise und klare Grenzen zählen mehr als erfundene Kennzahlen.",
+            "serviceId": "ui-accessibility"
+          }
+        }
       }
     }
   }

@@ -1,6 +1,6 @@
-# M01 — S08 first running vertical slice (local only)
+# M01 — static local demo through S11 (Home + Services + Work × five locales)
 
-This folder is the **first actually runnable** NOVA Atelier prototype in the dedicated M01 branch. **All five Home locales** (fa/en/ar/tr/de) now run locally, but the full 30-route site is not finished and nothing is publicly deployed. Implementation is pure HTML, CSS and vanilla ES modules; Node is only a local preview/test tool.
+This folder is the running NOVA Atelier prototype in the dedicated M01 branch. **Fifteen routes** are now built (Home, Services, Work across fa/en/ar/tr/de); the remaining fifteen planned routes (Catalog, Contact, DEMO Checkout × five) are not built, and nothing is publicly deployed. Implementation is pure HTML, CSS and vanilla ES modules; Node is only a local preview/test tool.
 
 ## Run on the authorized DJMRN laptop
 
@@ -16,11 +16,11 @@ Open **http://127.0.0.1:4173/** to choose any of the five Home languages, or vis
 node --test .\tests\*.test.mjs
 ```
 
-The first five real pages are `site/{fa,en,ar,tr,de}/index.html`. The root chooser is an ancillary route outside the planned 30. **All five Home links now work**, including without JavaScript. Independent services/work/catalog/contact/demo-checkout pages are future stages and are not linked as separate routes yet.
+Built routes: `site/{fa,en,ar,tr,de}/index.html` plus `site/{locale}/{services,work}/index.html` for every locale. The root chooser is an ancillary route outside the planned 30. Navigation Home→Services→Work works without JavaScript, and the future Contact action currently points to the existing Home `#contact` preview, not a non-existent page. Catalog and DEMO Checkout remain pending.
 
 ## State and boundaries
 
-- S07 `content/i18n.v1.json` is the current **draft content authority**. The five static Home pages are deterministically rendered with `scripts/render-home-locales.mjs` from this one JSON content source, not manually maintained as five diverging templates. During S10/S15, compare the rendered content to S07.
+- `content/i18n.v1.json` is the single **draft content authority** for all fifteen static pages. `scripts/render-home-locales.mjs` and `scripts/render-service-work.mjs` deterministically regenerate Home and Services/Work. They do not maintain separate translation authorities.
 - Original S06 SVG is copied unaltered to `site/assets/img` so localhost can serve it with the same-origin CSP.
 - Header, footer, services/work/catalog anchors and the five-language switch remain native links without JavaScript. `main.js` imports the small `nav.js` disclosure module for keyboard, pointer and touch behavior of the compact mobile/tablet menu; no shop/cart/contact submission yet.
 - Security: no PSP, payments, order/receipt processing, back-end, tracking, collection of PII, external fonts or API.
@@ -63,3 +63,12 @@ The copy authority stays content/i18n.v1.json (the existing DRAFT_EDITORIAL_HUMA
 Local preview: http://127.0.0.1:4173/fa/ on the laptop (requires running the existing Node preview server). If the already authorized same-Wi-Fi LAN relay is running, its address can be checked separately; it does not expose the content editor or create a public website.
 
 No real clients, analytics, purchases, form submission, production hosting, paid dependencies or CMS have been added. S10 does not complete S14A and does not authorize deployment.
+## S11 — real localized Services and Work (2026-11-22)
+
+- **Build:** From the model root run `node scripts/render-home-locales.mjs` followed by `node scripts/render-service-work.mjs`. Both consume **only** `content/i18n.v1.json`. Then run `node --test tests/*.test.mjs`.
+- **Routes:** `/{locale}/services/` has six fictional service scopes, process steps, a native FAQ and linked concept stories. `/{locale}/work/` has three explicit Concept/DEMO case studies with problem → approach → original artifact → learning, each linked to a real service anchor.
+- **Contact route:** Since S14 is not built, the S11 CTA goes to `/{locale}/#contact`, the existing non-submitting preview; it is not an inquiry endpoint.
+- **Original artwork:** `assets/img/s11-corporate-presence.svg`, `s11-creative-portfolio.svg`, `s11-digital-catalog.svg` are original editable SVG source/output made specifically for M01, with no outside images/fonts. No Blender/GIMP rendering or new cloud design service was used, so conditional T30 is not claimed.
+- **Runtime:** `assets/css/s11-detail.css` follows the shared palette. `main.js` and `nav.js` remain shared progressive navigation; content and links work without JavaScript.
+- **S11 tests:** 32 Node tests; 10 HTML-Validate checks with zero errors; 40 Edge/Playwright viewport checks with JS on/off plus real click flows; four representative automated axe scans with zero violations (one incomplete/manual check per scan). Screenshots and QA evidence remain in the separate local QA directory and are referenced by the existing S11 roadmap checkbox.
+- **Limitations:** Five Catalog, five Contact, five DEMO Checkout routes and S14A are future work. Translation drafts and manual accessibility/WCAG review remain pending. No field Web Vitals, physical-phone test, real purchase, client or public deployment is claimed.

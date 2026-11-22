@@ -43,12 +43,14 @@ test('S08 each locale has six services, three DEMO cases and six kits',()=>{
   assert(!page.includes('<form'),l+' no active form');
  }
 });
-test('S08 all native anchors resolve and future routes are not linked',()=>{
+test('S08 native anchors survive S11 and only actual routes are linked',()=>{
  for(const [l,page] of Object.entries(pages)){
   const hashes=[...page.matchAll(/href="#([\w-]+)"/g)].map(m=>m[1]);
   assert(hashes.length>=5,l+' anchors');
   for(const id of hashes)assert(page.includes('id="'+id+'"'),l+' #'+id);
-  for(const kind of ['services','work','catalog','contact','demo-checkout'])
+  for(const kind of ['services','work'])
+    assert(page.includes('href="/'+l+'/'+kind+'/'),l+' built '+kind);
+  for(const kind of ['catalog','contact','demo-checkout'])
     assert(!page.includes('href="/'+l+'/'+kind+'/'),l+' unfinished '+kind);
  }
 });

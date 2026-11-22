@@ -35,7 +35,7 @@ function buildHome(locale){
  for(const k of ['title','description','h1','lead'])if(!home[k])throw Error('Missing Home '+k+' for '+locale);
  const x=makeHomeBlocks(locale,data,esc);
  const nav='<nav class="site-nav" id="primary-nav" aria-label="'+esc(l.ui.primaryNavigation)+'">'
-   +hrefs.map(k=>'<a href="'+(k==='home'?'/'+locale+'/':'#'+k)+'"'+(k==='home'?' aria-current="page"':'')+'>'+esc(l.nav[k])+'</a>').join('\n')
+   +hrefs.map(k=>'<a href="'+(k==='home'?'/'+locale+'/':(k==='services'||k==='work'?'/'+locale+'/'+k+'/':'#'+k))+'"'+(k==='home'?' aria-current="page"':'')+'>'+esc(l.nav[k])+'</a>').join('\n')
    +'</nav>';
  const chooser='<nav class="locale-switch" aria-label="'+esc(l.nav.languages)+'">'
  +expected.map(code=>'<a href="/'+code+'/" lang="'+code+'" dir="'+data.locales[code].dir+'"'+(code===locale?' aria-current="page"':'')+'>'+esc(data.locales[code].autonym)+'</a>').join('')
@@ -86,8 +86,8 @@ function buildHome(locale){
  '</section>',
  x.stats,
  x.intro,
- section(l,'services','services',l.views.services.lead,'<div class="service-grid">'+svc+'</div>'),
- section(l,'work','work',l.views.work.lead,'<div class="work-grid">'+work+'</div>'),
+ section(l,'services','services',l.views.services.lead,'<div class="service-grid">'+svc+'</div><p class="home-section-link"><a class="btn btn-secondary" href="/'+language+'/services/">'+esc(l.serviceWork.labels.exploreServices)+'</a></p>'),
+ section(l,'work','work',l.views.work.lead,'<div class="work-grid">'+work+'</div><p class="home-section-link"><a class="btn btn-secondary" href="/'+language+'/work/">'+esc(l.serviceWork.labels.exploreWork)+'</a></p>'),
  x.process,
  section(l,'catalog','catalog',l.views.catalog.lead,'<div class="kit-grid">'+catalog+'</div>'),
  '<section class="section contact-panel" id="contact" aria-labelledby="contact-title" tabindex="-1">',
@@ -97,7 +97,7 @@ function buildHome(locale){
  x.closing,
  '<aside class="demo-notice" aria-label="'+esc(l.ui.demo)+'"><strong>'+esc(l.ui.noPayment)+'</strong><p>'+esc(l.views.catalog.description)+'</p></aside>',
  '</main>',
- '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+esc(l.ui.demo)+'</span><nav class="footer-nav" aria-label="'+esc(l.ui.footerNavigation)+'">'+hrefs.map(k=>'<a href="'+(k==='home'?'/'+language+'/':'#'+k)+'">'+esc(l.nav[k])+'</a>').join('')+'</nav><a class="back-to-top" href="#main-content">'+esc(l.ui.backToTop)+'</a></footer>',
+ '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+esc(l.ui.demo)+'</span><nav class="footer-nav" aria-label="'+esc(l.ui.footerNavigation)+'">'+hrefs.map(k=>'<a href="'+(k==='home'?'/'+language+'/':(k==='services'||k==='work'?'/'+language+'/'+k+'/':'#'+k))+'">'+esc(l.nav[k])+'</a>').join('')+'</nav><a class="back-to-top" href="#main-content">'+esc(l.ui.backToTop)+'</a></footer>',
  '</div>',
  '</body>',
  '</html>',
@@ -110,7 +110,7 @@ function rootChooser(){
  '<html lang="en" dir="ltr">',
  '<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>NOVA Atelier — choose language</title>',
  '<link rel="stylesheet" href="/assets/css/tokens.css"><link rel="stylesheet" href="/assets/css/base.css"><link rel="stylesheet" href="/assets/css/components.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"></head>',
- '<body><main class="shell entry"><p class="eyebrow">NOVA Atelier · Demo</p><h1>Choose a language</h1><p>All five language versions of the Home page are available. Other page types are built in later stages.</p>',
+ '<body><main class="shell entry"><p class="eyebrow">NOVA Atelier · Demo</p><h1>Choose a language</h1><p>Five-language Home, Services and Work pages are available. Catalog, Contact and the demo checkout are planned for later stages.</p>',
  '<nav class="entry-languages" aria-label="'+esc(english.nav.languages)+'">',
  ...expected.map(k=>'<a class="btn btn-secondary" href="/'+k+'/" lang="'+k+'" dir="'+data.locales[k].dir+'">'+esc(data.locales[k].autonym)+'</a>'),
  '</nav><p class="demo-notice">'+esc(english.ui.noPayment)+'</p></main></body></html>',''

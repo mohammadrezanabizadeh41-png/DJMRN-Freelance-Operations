@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Digital catalog concept — original product discovery interface study</title>
+<desc id="desc">A fictional catalog interface with filter controls, six concept product cards, and comparison cues.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#154454"/><stop offset="1" stop-color="#0a1b2a"/></linearGradient>
+<linearGradient id="card" x2="0" y2="1"><stop stop-color="#274e63"/><stop offset="1" stop-color="#1a3448"/></linearGradient>
+<filter id="shadow"><feDropShadow dy="15" stdDeviation="24" flood-opacity=".5"/></filter></defs>
+<rect width="1200" height="690" rx="24" fill="url(#bg)"/><circle cx="1080" cy="100" r="235" fill="#87dbc6" opacity=".09"/>
+<g filter="url(#shadow)"><rect x="85" y="68" width="1030" height="548" rx="24" fill="#152c3b" stroke="#52939a" stroke-opacity=".55"/></g>
+<rect x="86" y="69" width="1028" height="70" rx="24" fill="#234355"/><rect x="86" y="115" width="1028" height="24" fill="#234355"/>
+<circle cx="131" cy="103" r="12" fill="#eac486"/><rect x="158" y="96" width="117" height="13" rx="6" fill="#d4e5e3"/>
+<rect x="675" y="95" width="226" height="20" rx="10" fill="#2e6170"/><circle cx="703" cy="104" r="6" fill="none" stroke="#b8d8d5" stroke-width="2"/>
+<rect x="959" y="91" width="112" height="27" rx="12" fill="#eac486"/>
+<rect x="113" y="160" width="218" height="419" rx="17" fill="#203b4c"/>
+<rect x="140" y="190" width="125" height="14" rx="7" fill="#d8e7e6"/>
+<rect x="140" y="229" width="163" height="34" rx="9" fill="#3a6873"/>
+<rect x="140" y="281" width="163" height="34" rx="9" fill="#3a6873"/>
+<rect x="140" y="333" width="163" height="34" rx="9" fill="#eac486"/>
+<rect x="140" y="399" width="109" height="11" rx="5" fill="#8cbbc0"/>
+<rect x="140" y="426" width="145" height="11" rx="5" fill="#8cbbc0"/>
+<rect x="140" y="453" width="92" height="11" rx="5" fill="#8cbbc0"/>
+<rect x="356" y="163" width="190" height="20" rx="10" fill="#dbe8e7"/>
+<rect x="356" y="197" width="323" height="11" rx="5" fill="#8cbbc0"/>
+<g>
+<rect x="356" y="246" width="215" height="146" rx="15" fill="url(#card)"/>
+<rect x="590" y="246" width="215" height="146" rx="15" fill="url(#card)"/>
+<rect x="824" y="246" width="215" height="146" rx="15" fill="url(#card)"/>
+<rect x="356" y="411" width="215" height="146" rx="15" fill="url(#card)"/>
+<rect x="590" y="411" width="215" height="146" rx="15" fill="url(#card)"/>
+<rect x="824" y="411" width="215" height="146" rx="15" fill="url(#card)"/>
+</g>
+<g fill="none" stroke-width="9" stroke-linecap="round"><path d="M409 311h105m-52-41v80" stroke="#b0d6cb"/>
+<path d="M646 316l34-34 35 34 35-34" stroke="#eac486"/>
+<circle cx="931" cy="320" r="36" stroke="#a3c2e9"/><circle cx="931" cy="320" r="15" stroke="#a3c2e9"/>
+<path d="M407 470l53-27 59 27-59 26z" stroke="#e8c5a0"/><path d="M661 444v58m-28-29h56" stroke="#a3c2e9"/>
+<path d="M873 478h120m-95-24h70m-70 48h70" stroke="#9dd2c8"/></g>
+<g fill="#a2c4c5"><rect x="379" y="366" width="114" height="8" rx="4"/><rect x="613" y="366" width="114" height="8" rx="4"/><rect x="847" y="366" width="114" height="8" rx="4"/>
+<rect x="379" y="532" width="114" height="8" rx="4"/><rect x="613" y="532" width="114" height="8" rx="4"/><rect x="847" y="532" width="114" height="8" rx="4"/></g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+<title id="title">Corporate presence concept — original editorial interface study</title>
+<desc id="desc">A fictional service site interface, with a prominent hero panel, navigation, and three service cards.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#29485e"/><stop offset="1" stop-color="#0c172b"/></linearGradient>
+<linearGradient id="hero" x2=".9" y2="1"><stop stop-color="#f0c479"/><stop offset="1" stop-color="#b8874e"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#020612" flood-opacity=".5"/></filter>
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#d8e9f2" stroke-opacity=".04"/></pattern>
+</defs>
+<rect width="1200" height="690" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="690" rx="22" fill="url(#grid)"/>
+<circle cx="1040" cy="100" r="200" fill="#f0c479" opacity=".065"/>
+<g filter="url(#shadow)"><rect x="90" y="70" width="1020" height="540" rx="25" fill="#16273c" stroke="#63788b" stroke-opacity=".5"/>
+<rect x="90" y="70" width="1020" height="76" rx="25" fill="#1e344a"/>
+<rect x="90" y="120" width="1020" height="26" fill="#1e344a"/></g>
+<circle cx="136" cy="108" r="12" fill="#efc17b"/><rect x="161" y="98" width="145" height="19" rx="9" fill="#c3d4dc" opacity=".77"/>
+<rect x="740" y="100" width="77" height="13" rx="6" fill="#c3d4dc" opacity=".47"/>
+<rect x="847" y="100" width="77" height="13" rx="6" fill="#c3d4dc" opacity=".47"/>
+<rect x="956" y="92" width="112" height="32" rx="12" fill="#efc17b"/>
+<rect x="140" y="191" width="118" height="12" rx="6" fill="#efc17b" opacity=".88"/>
+<rect x="140" y="232" width="444" height="31" rx="10" fill="#f7f0e3"/><rect x="140" y="274" width="379" height="25" rx="10" fill="#f7f0e3"/>
+<rect x="140" y="327" width="403" height="12" rx="6" fill="#90a8bb"/><rect x="140" y="351" width="353" height="12" rx="6" fill="#90a8bb"/>
+<rect x="140" y="397" width="170" height="47" rx="12" fill="url(#hero)"/>
+<rect x="327" y="397" width="150" height="47" rx="12" fill="none" stroke="#90a8bb" stroke-opacity=".6"/>
+<g transform="translate(683 183)"><rect width="341" height="277" rx="26" fill="#243e56"/><circle cx="171" cy="138" r="98" fill="none" stroke="#efc17b" stroke-opacity=".65" stroke-width="2"/><circle cx="171" cy="138" r="60" fill="none" stroke="#efc17b" stroke-opacity=".32" stroke-width="2" stroke-dasharray="6 10"/><circle cx="171" cy="138" r="23" fill="#efc17b"/><path d="M171 40v197M72 138h197" stroke="#b4ccd5" stroke-opacity=".17"/><circle cx="239" cy="71" r="12" fill="#9dd5db"/></g>
+<g><rect x="140" y="496" width="271" height="84" rx="14" fill="#2b445b"/><rect x="426" y="496" width="270" height="84" rx="14" fill="#2b445b"/><rect x="711" y="496" width="313" height="84" rx="14" fill="#2b445b"/>
+<circle cx="174" cy="529" r="13" fill="#efc17b"/><circle cx="460" cy="529" r="13" fill="#9dd5db"/><circle cx="746" cy="529" r="13" fill="#d8a8b2"/>
+<path d="M198 525h169M484 525h168M770 525h208" stroke="#d5e1e8" stroke-opacity=".65" stroke-width="9" stroke-linecap="round"/>
+<path d="M163 555h197M450 555h202M734 555h249" stroke="#90a8bb" stroke-opacity=".45" stroke-width="8" stroke-linecap="round"/></g>
+<path d="M43 630h1114" stroke="#efc17b" stroke-opacity=".24"/><circle cx="60" cy="630" r="5" fill="#efc17b"/><circle cx="1140" cy="630" r="5" fill="#efc17b"/>
+</svg>
