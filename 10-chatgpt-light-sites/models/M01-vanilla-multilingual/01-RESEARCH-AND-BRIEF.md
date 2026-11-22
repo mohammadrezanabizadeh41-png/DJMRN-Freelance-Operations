@@ -201,3 +201,22 @@
 - [Envato: 2026 design trends](https://elements.envato.com/learn/web-design-trends)
 
 **Evidence rule:** these official and editorial links are research inputs; no claim of implementation or tested appearance yet.
+
+## 10) S09 dashboard gap audit — addendum requested 2026-11-22 (PLANNED, not implemented)
+
+**Finding from source and roadmap:** S01–S09 produced five localized Home documents with responsive public navigation. **There is no dashboard, admin/editor application, authenticated management account, CMS or database.** Public route plan remains exactly **5 languages × 6 page kinds = 30**; a private local editing console is **not** a seventh public page type or part of the five checkout URLs.
+
+**New explicit owner requirement / M01 fit:** A professional M01 sample should demonstrate a **functional local content-management dashboard** for the fictional NOVA Atelier site. This shall be a **separate local-only authoring tool** (proposed S14A) with genuine draft read/edit/validate/preview/export/import/recovery, and **no separate framework, production API, live user registration or public credential**. It must look and function as a responsive management interface, while labeling any dashboard metrics as **content counts and test status only**. No invented clients, sales, traffic, revenue, payments, reviews or messages.
+
+**Target operator journeys, distinct from public visitors:**
+1. `Local editor → Overview → five-language coverage / missing-field indicators → choose locale and page → edit safe draft`.
+2. `Local editor → Services / Concept Work / DEMO Catalog → change one synthetic item and its localized descriptions / categories / demo-credit label → validate schema → preview result`.
+3. `Local editor → Assets / alt text / provenance → validate appropriate rights → preview mobile/tablet/desktop → save local draft safely`.
+4. `Local editor → change summary / diff / quality gate → export or apply explicitly approved canonical JSON update → deterministic rebuild → local tests → Git commit and reversible rollback`. The canonical content authority stays `content/i18n.v1.json`; **a draft must not silently overwrite it**.
+
+**Out of scope for M01:** Public `/admin`, fake login, user roles, account management, real order/inventory/CRM, payment processing, production analytics, online remote content mutation, cloud database, and GitHub OAuth by default. Genuine internet-accessible authenticated administration belongs to a separately justified CMS/full-stack choice (existing models M10/M15/M21, or optional Git-based CMS research), plus provider/cost/security/approval gate. Do not use browser-only hiding or localStorage to impersonate secure authorization.
+
+**Acceptance linkage:** S14A must pass its local editor functional tests before M01's final DONE; S15–S18 include admin isolation, accessibility, mobile/tablet/desktop layout, draft validation and recovery; S19–S20 include independent operator instructions and an owner hands-on walkthrough. **S14A = NOT STARTED** at this research/update. This addendum does not retroactively change S02's original PASS or mark any product feature implemented.
+
+**Canonical references:** [Decap CMS official Git backend](https://decapcms.org/docs/github-backend/), [OWASP authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [MDN File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API), [GOV.UK Design System components](https://design-system.service.gov.uk/components/).
+
