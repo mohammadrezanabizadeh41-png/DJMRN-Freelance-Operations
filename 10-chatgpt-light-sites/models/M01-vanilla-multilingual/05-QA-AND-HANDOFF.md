@@ -1,5 +1,5 @@
 # M01 — ماتریس تست، معیار پذیرش و تحویل نمونه‌کار
-**State:** TEST PLAN ONLY — zero tests executed and zero claims of real compatibility.  
+**State:** planned acceptance matrix; executed evidence for S01–S09 is recorded in the existing roadmap, while the new admin tests T21–T24 and S14A are **NOT RUN**. Do not infer implementation from a test plan.  
 **Build plan:** [03 Execution Roadmap](03-EXECUTION-ROADMAP.md); [04 i18n/SEO/payment/security](04-I18N-SEO-COMMERCE-SECURITY.md).
 
 ## 1) What we will actually test
@@ -25,6 +25,10 @@
 | T18 | Performance for mobile, desktop and large images | Lighthouse mobile+desktop diagnostic, image `srcset/sizes`, inspect JS sizes/requests and LCP/CLS lab | reports with emulation settings and real hardware caveat | internal aspiration ≥90 scores measured, no false claim of field CWV; tablet UX separately checked |
 | T19 | Security hygiene | text scan for secrets, forbidden endpoints and unsafe DOM APIs | `git grep`/manual review | no keys/passwords or untrusted `innerHTML`; no insecure paid endpoint |
 | T20 | Cross-device customer handoff | clone branch, follow README, review on actual phone + laptop, tablet real if available (otherwise explicitly simulated) | commit SHA, screens per class, owner feedback and QA summary | core flows work across all 3 classes, responsive evidence and limits recorded without claiming untested real hardware |
+| T21 | Local content management dashboard (S14A) | Open loopback-only editor; inspect 5-language overview, six services/three cases/six DEMO kits, edit at least 2 locale fields, validate, preview and export/import | Edge/Node logs, changed draft checksums, 320/820/1366 captures | Real operator I/O works; honest data counts, no invented sales/analytics; never directly edits live/public site |
+| T22 | Admin isolation and authorization truth (S14A/S18) | Probe LAN/public static server for /admin, management API and draft files; try invalid Host/Origin/HTTP method/path, XSS strings, oversized JSON and injected roles | status-code+network trace, source scan and error handling | Only laptop loopback editor can read/write draft; public/LAN preview has no editor/API/draft exposure; no client-only fake auth, no secrets or unsafe remote calls |
+| T23 | Content integrity, version conflict and rollback (S14A/S18/S19) | Edit synthetic catalog item in 2 locales; invalid schema/duplicate ID/stale hash, lost disk/restart, change preview, export validated version, repeat build, revert | canonical hash before/after, Git diff/test output, draft backup and recovery | No silent canonical overwrite; invalid/stale writes denied; real draft persisted, reproducible rebuild and rollback with no corrupt data |
+| T24 | Dashboard accessibility, RTL/LTR and operator handoff (S14A/S16/S20) | Navigate with keyboard/touch/mouse and screen-size 320/820/1366, fa/ar RTL vs de long text; active filter/forms/error summary/unsaved warning; owner walkthrough | representative screenshots+functional captures+feedback | No unreachable controls/false status, usable focus/labels/error feedback; independent owner demonstrates edit→preview→rollback |
 
 **Not every automated test suite must be installed.** Begin with deterministic Node tests and built-in browser DevTools; introduce Playwright/axe/HTML validator only when needed and after dependency/version/privacy review. No scan scores invented. For stress/security testing, only site we own/control and only approved scope.
 
@@ -83,6 +87,15 @@ Use the **existing stage checkbox itself** in `03-EXECUTION-ROADMAP.md` and fill
 - `Risk/rollback:` what changed, how to undo
 - `Next dependency:` one clear next stage
 Do not make a second status/counter file. Only tick **parent M01** after final evidence and owner evaluation.
+
+## 5A) Content-management dashboard test contract (S14A added 2026-11-22)
+
+- **Local operator-only**: Console source and draft state must be outside public `site/`; preview over LAN at port 4174 is never an administrator. Gate on an explicit `127.0.0.1` editor endpoint if implemented.
+- **Functional end-to-end**: User edits two localized synthetic content entries, sees validation and content diff, saves a draft that survives reload/restart, previews a real resulting page, imports/exports a validated JSON copy, and can revert. A static mock screenshot is not a PASS.
+- **No user accounts/revenue**: Dashboard overview can show verified content counts (30 planned routes, 5 local Home currently built, 6 services, 3 concept cases, 6 demo kits), locale coverage and real test data. Never fabricate visitor stats or purchased orders.
+- **Permissions / security**: No remote editing, Git credential in browser, authentication claim, real payment or PII. Check malformed input, unsafe markup, duplicate ID, link to private files, accidental admin inclusion in public build, stale draft conflicts, and rollback.
+- **Responsive and a11y**: Mobile 320/390, tablet 820/1024 and desktop 1366; RTL fa/ar, LTR en/tr/de; keyboard/visible focus, touch, form errors, unsaved warning, empty/loading states and zoom.
+- **Dependency chain**: Run S14A after S14, then include T21–T24 in S16/S18/S19/S20 gates. A new CMS/Auth/hosted service is not authorized by this plan. S14A is an **additional mandatory extension** under the existing 20-step roadmap; M01 parent remains unchecked.
 
 ## 6) Finish-line review by person
 - Visual originality and legibility on mobile in both RTL and LTR.
