@@ -1,10 +1,10 @@
 # M01 — نقشه راه اجرایی ترتیبی ساخت نمونه پنج‌زبانه
-**Status:** S01–S09 **PASS (environment + brief + UX research + architecture + IA + design + draft i18n + five localized Home pages + tested shared navigation)**; S10–S20 **NOT STARTED**; 5 of 30 planned main routes built, plus optional root chooser. Human translation review remains pending before publication.  
+**Status:** S01–S09 **PASS**; S10–S20 **NOT STARTED**; additional mandatory S14A **PLANNED / NOT STARTED** (owner requested local dashboard; no admin implemented). Five Home routes are built out of 30 planned, plus optional root chooser. Human translation review remains pending before publication.  
 **Source:** [01 Brief](01-RESEARCH-AND-BRIEF.md) · [02 Tools](02-STACK-TOOLS-AND-MCP.md) · [04 Cross-cutting contracts](04-I18N-SEO-COMMERCE-SECURITY.md) · [05 Acceptance](05-QA-AND-HANDOFF.md).  
 **Parent build checklist:** [M01 of 22](../../05-MODEL-BUILD-CHECKLIST.md). The parent M01 must remain unchecked until real acceptance.
 
 ## قوانین اجرا
-- مراحل به‌ترتیب `S01 → S20`؛ در هر turn کوچک‌ترین مرحله مجاز را انجام بده، سپس خروجی و **نتیجه TEST/FAIL/NOT TESTED** را اعلام کن. هیچ تیکی بدون فایل، تست و شواهد عملی نزن.
+- **۲۰ مرحلهٔ اصلی** به‌ترتیب `S01 → S20` باقی می‌مانند؛ یک **S14A اضافی و الزامی** بین S14 و S15 برای پنل مدیریت محتوا اضافه شد (در شمارندهٔ ۲۰ مرحلهٔ اصلی حساب نشود). در هر turn کوچک‌ترین مرحله مجاز را انجام بده، سپس خروجی و **نتیجه TEST/FAIL/NOT TESTED** را اعلام کن. هیچ تیکی بدون فایل، تست و شواهد عملی نزن.
 - **روال ثبت مورد تأیید کاربر از 2026-11-21:** پس از اجرای هر مرحله، فقط **همان checkbox در همین سند** در شاخه M01 به‌روزرسانی و در GitHub commit شود؛ اقدام، زمان، ابزار، خروجی، آزمون و PASS/FAIL/BLOCKED، محدودیت‌ها و اقدام بعد زیر همان مرحله نوشته شود. PASS با `[x]` و شواهد؛ FAIL/BLOCKED بدون تیک همراه شرح علت. SHA commit در پاسخ داده شود. هیچ فایل پیشرفت موازی ساخته نشود. چک‌باکس M01 در کارتابل ۲۲ مدل والد تا پایان کامل سایت همچنان خالی است.
 - هر مرحله شامل ورودی‌های تاییدشده، file(s)/output، test و مسئله بازگشت‌پذیری است. در صورت کمبود ورودی واقعی، از fixture ساده و صریح استفاده کن؛ به ساخت Agent یا dependency جدید فرار نکن.
 - GitHub فقط در شاخه `project/light-sites-m01-vanilla-20261121` و زیر `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`. مسیرهای اصلی/3D ممنوع.
@@ -30,7 +30,7 @@
 
 **مبنای منابع:** [MDN Responsive Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design) · [web.dev Breakpoints](https://web.dev/learn/design/media-queries) · [W3C WCAG 2.2 Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). جزئیات فنی در [04-I18N-SEO-COMMERCE-SECURITY.md](04-I18N-SEO-COMMERCE-SECURITY.md) و تست‌ها در [05-QA-AND-HANDOFF.md](05-QA-AND-HANDOFF.md).
 
-## کارتابل ۲۰ مرحله‌ای — تیک پس از اثبات معیار قبول
+## کارتابل ۲۰ مرحلهٔ اصلی + مرحلهٔ الحاقی S14A — تیک فقط پس از اثبات معیار قبول
 
 - [x] **S01 — تأیید مبنا، دسترسی و جداسازی**
   - **کار:** تطبیق شاخه Git و مسیر مستقل پروژه با RAM، Node/Git/VS Code، مرورگرها و تست viewport.
@@ -192,6 +192,16 @@
   - **قبولی:** Contact و disclaimer در موبایل/تبلت/دسکتاپ با focus/touch keyboard قابل استفاده و صادقانه فاقد ارسال واقعی باشند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
+- [ ] **S14A — داشبورد مدیریت محتوای محلی و پیشرفتهٔ M01 (الحاقی، الزامی پیش از تحویل)**
+  - **دلیل افزودن (پژوهش 2026-11-22):** کاربر صریحاً خواست سایت در نوع خودش کامل باشد و پنل مدیریتی حرفه‌ای داشته باشد. بررسی S01–S09 و ۳۰ مسیر برنامه‌ریزی‌شده نشان داد هیچ admin/dashboard ویرایشگر یا گردش‌کار انتشار در نقشهٔ راه وجود نداشت. **S14A افزوده شد تا ۲۰ مرحله اصلی بدون تغییر شماره حفظ شوند**؛ این مرحله یک مرحلهٔ قابل‌تیک **اضافی** بین S14 و S15 است، **NOT STARTED** و هنوز هیچ پنلی ساخته نشده.
+  - **نوع خروجی دقیق و صادقانه:** **Content Studio / Dashboard محلی (فقط روی لپ‌تاپ)** با HTML/CSS/vanilla JS موجود و در صورت نیاز Node داخلی؛ **نه** `/admin` عمومی، CMS خارجی، حساب مدیر امن، فروشگاه واقعی یا Backend آنلاین. UI تحریریه خارج از `site/` و مسیرهای عمومی قرار می‌گیرد تا روی سرور LAN گوشی یا نسخهٔ منتشرشده دیده نشود؛ هیچ قابلیت ادیت ریموت بدون مدل احراز هویت معتبر فعال نشود.
+  - **ماژول‌های لازم:** `Overview` با شمارش *واقعی* محتوا و وضعیت ۵ زبان/کیفیت (نه ترافیک یا فروش ساختگی)، `Pages & Locales` با ماتریس ۳۰ مسیر، `Services` (۶ خدمت)، `Concept Work` (۳ مورد با برچسب DEMO)، `Catalog` (۶ محصول با شناسه ثابت و قیمت خیالی DEMO_CREDIT)، `Assets/Alt/Licenses`، `SEO & Settings`، `Review Changes / Preview`، `Version / Recovery`. حالت‌های draft, invalid, review-required, validated, local-preview را جدا نشان دهد.
+  - **مالکیت داده و I/O واقعی:** فقط `content/i18n.v1.json` authority محتواست؛ UI ویرایشگر روی یک **draft محلیِ جدا از public root** کار کند. کاربر باید بتواند *واقعاً* عنوان/توضیح یک آیتم ساختگی را در حداقل دو زبان تغییر دهد، خطای اعتبارسنجی و حالت dirty را ببیند، draft را ذخیره کند تا بعد از بسته‌شدن/راه‌اندازی مجدد باقی بماند، قبل/بعد را diff کند، import/export معتبر انجام دهد، HTML پنج‌زبانه را با build موجود بازتولید/پیش‌نمایش کند و rollback داشته باشد. هیچ بازنویسی خودکار canonical، commit/merge و انتشار بدون تأیید صریح انجام نشود.
+  - **معماری/امنیت:** یک ابزار حداقلی با Git/JSON/Node؛ بدون Vite/React/DB/CMS/API پولی. اگر endpoint نویسنده لازم شد فقط `127.0.0.1` با allowlist مسیر/روش، origin/Host/CSRF کنترل‌شده، محدودیت حجم ورودی، schema/ID validation، atomic draft write، حفاظت path traversal، no secrets/no PII/no external egress. `localStorage` مرجع canonical یا محل رمز/token نیست و client-side role/auth امنیت محسوب نمی‌شود. اگر به **مدیریت واقعی چندکاربره اینترنتی یا orders/CRM** نیاز شد، انتخاب M10/M15/M21 یا Git-based CMS با proposal جداگانهٔ هزینه/permissions/security و تأیید مالک انجام می‌شود، **نه تغییر خاموش مدل M01**.
+  - **UX/دسترس‌پذیری و QA:** پنل باید در موبایل 320/390، تبلت 820 و دسکتاپ 1366 با touch/mouse/keyboard، RTL فارسی/عربی و متون طولانی DE خوانا باشد؛ فهرست‌ها، فرم‌ها، اعلان خطا، فیلتر، وضعیت‌های empty/loading و هشدار تغییر ذخیره‌نشده واقعاً کار کنند. شمارنده‌ها فقط دادهٔ fixture و نتایج اندازه‌گیری‌شده را نشان دهند. **معیار PASS فقط تست end-to-end و شواهد T21–T24** در [05 QA](05-QA-AND-HANDOFF.md)، شامل سناریوهای invalid JSON، duplicate ID، تغییر هم‌زمان، crash/recovery، مسیر عمومی فاقد admin و بازتولید deterministic است؛ تصویر mockup به‌تنهایی PASS نیست.
+  - **Reference/alternatives بررسی‌شده:** [Decap CMS backend/Auth](https://decapcms.org/docs/github-backend/) برای Git editor (نیاز به auth/adapter، هزینهٔ سرویس UNKNOWN و فعال‌نشده)، [OWASP Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) و [Session Management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)، [MDN File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API)، [GOV.UK task/error patterns](https://design-system.service.gov.uk/components/)، [W3C tables](https://www.w3.org/WAI/tutorials/tables/). قرارداد جزئی در [04](04-I18N-SEO-COMMERCE-SECURITY.md) و اصلاح Brief در [01](01-RESEARCH-AND-BRIEF.md) ثبت شد.
+  - **شواهد اجرا:** **NOT STARTED / NOT TESTED**؛ مسیر خروجی عملیاتی: — ؛ تست: — ؛ Commit پیاده‌سازی: — . **این نوبت فقط GAP AUDIT/RESEARCH و برنامهٔ قابل آزمون را ثبت کرده است.**
+
 - [ ] **S15 — سئوی فنی چندزبانه**
   - **کار:** URLهای ثابت locale، title/meta/OG، hreflang reciprocal، canonical، XML sitemap، robots، 404 policy.
   - **ابزار/نقش:** HTML/Node static checks + Google docs.
@@ -240,10 +250,12 @@
 | Brief and design approved | S01–S07 | معماری، محتوا و طراحی تایید شده | اگر ترجمه/برند/حق استفاده مبهم است، با fixture صریح ادامه بده و ادعای نهایی نکن |
 | Real minimal working vertical | S08–S10 | Home در ۵ زبان + navigation واقعی محلی، سه viewport نماینده و یک DOM responsive | اگر preview/route خراب است، توسعه قابلیت بعدی متوقف |
 | Service and shop demo functional | S11–S14 | Services/Portfolio/Catalog + cart/checkout DEMO end-to-end در سه کلاس نمایشگر | اگر مبلغ/حالت خطا/برچسب غیرواقعی روشن نیست، checkout نمایشی مسدود |
-| Professional quality gates | S15–S18 | SEO/i18n/RTL/a11y/performance/security و responsive mobile/tablet/desktop functional evidence | failureها fix شوند، FAIL را PASS اعلام نکن |
+| Local management UI — mandatory addendum | **S14A** after S14 | مدیریت واقعی محتوای ۵زبان/۶ خدمت/۳ case/۶ DEMO kit، draft/validation/preview/export/recovery فقط در لپ‌تاپ | بدون real I/O و بدون ایزوله‌سازی از public site، S14A و M01 ناتمام‌اند |
+| Professional quality gates | S15–S18 (incl. S14A regression) | SEO/i18n/RTL/a11y/performance/security، isolation و rollback پنل محلی و responsive mobile/tablet/desktop evidence | failureها fix شوند، FAIL را PASS اعلام نکن |
 | Handoff and real user proof | S19–S20 | branch+README+test+portable local demo و screenshots سه کلاس دستگاه | public deploy/real payments فقط با approval جدا |
 
 ## Dependency rules و برش‌های کوچک
+- **الحاق صریح 2026-11-22:** پس از S14 ابتدا S14A را انجام بده، سپس S15–S20؛ این یک مرحلهٔ *اضافی* داخل **همین** نقشه راه است، نه مدل بیست‌وسوم یا پروژهٔ موازی. S14A تنها با I/O واقعی و آزمون T21–T24 PASS می‌شود، نه ایجاد فایل/ظاهر.
 - فقط S01–S07 پژوهش/brief هستند؛ اگر همه تصمیم‌ها از پیش روشن شد سریع به S08/S09 برو؛ از بازتولید گزارش‌های یکسان خودداری کن.
 - S08 **smoke first**: یک فایل HTML با locale و یک CTA که از یک local HTTP server واقعی باز می‌شود؛ S09 navigation; S10 یک صفحه Home کامل؛ سپس S11–S14.
 - برای ۵ زبان «ترجمه اتوماتیک جاوااسکریپتی در مرورگر» جایگزین ۵ URL HTML مستقل نیست؛ در همه مراحل no-JS fallback را حفظ کن.
@@ -253,6 +265,7 @@
 
 ## Definition of Done overall
 - ۵ زبان با URL و محتوای مستقل، دو جهت RTL/LTR؛ صفحات Home/Services/Portfolio/Catalog/Contact، به‌علاوه Checkout DEMO روشن.
+- **الحاق الزامی مدیریت محتوا:** Local Content Studio جدا از `site/`، با overview صادقانه، ویرایش draft پنج‌زبانه، validation، live/local preview، export/import، diff، version/rollback و آزمون امنیت ایزوله‌سازی؛ S14A PASS باید **قبل از DONE نهایی M01** باشد. ورود کاربر/مدیریت آنلاین production خارج از M01 است و به approval/مدل دیگر نیاز دارد.
 - سئو ساختاری قابل ممیزی: title/H1/description/canonical/hreflang sitemap/robots/schema truthful. Indexed status NOT claimed without public domain/Search Console.
 - **Mobile + tablet + laptop/desktop (wide-screen optional)**: responsive fluid layout، portrait/landscape، touch/mouse/keyboard و zoom/reflow، هر پنج زبان RTL/LTR؛ navigation، forms mock، filter، cart and mock checkout واقعی در مرورگر، failure و reduced-motion.
 - Accessibility WCAG 2.2 AA target، حقوق assets و security baseline بررسی؛ no real PII/payments.
