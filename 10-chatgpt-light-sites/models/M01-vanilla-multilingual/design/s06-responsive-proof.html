@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NOVA Atelier — S06 visual proof (not a live site)</title>
+<style>
+:root{color-scheme:dark;--bg:#0C1220;--panel:#172335;--raised:#202E42;--ink:#F8F5EE;--muted:#BECADD;--accent:#F2C37A;--on-accent:#161C29;--focus:#8FE5F5;--border:#425069;--pad:clamp(1rem,3.2vw,3.2rem)}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;min-inline-size:0;background:var(--bg);color:var(--ink);font:400 clamp(1rem,.96rem + .18vw,1.13rem)/1.6 system-ui,"Segoe UI",Tahoma,Arial,sans-serif}
+a{color:inherit}a:focus-visible{outline:3px solid var(--focus);outline-offset:4px}
+.shell{max-inline-size:75rem;margin-inline:auto;padding-inline:var(--pad)}
+.note{font-size:.75rem;letter-spacing:.055em;color:var(--muted);padding-block:.65rem}
+.header{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.85rem;min-block-size:4.6rem;padding:.75rem 1rem;background:var(--panel);border:1px solid var(--border);border-radius:1rem}
+.brand{white-space:nowrap;font-size:1rem;font-weight:800;letter-spacing:.05em}.brand span{color:var(--accent)}
+nav{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center}
+nav a{display:inline-flex;align-items:center;min-block-size:2.75rem;text-decoration:none;font-size:.86rem}
+.locale{padding:.45rem .65rem;border:1px solid var(--border);border-radius:.65rem;font-size:.76rem}
+.hero{display:grid;grid-template-columns:minmax(0,1fr);align-items:center;gap:clamp(1rem,3vw,2rem);margin-block:1rem;padding:clamp(1.1rem,4vw,3.5rem);background:linear-gradient(120deg,var(--raised),var(--bg));border:1px solid var(--border);border-radius:1.5rem}
+.kicker{color:var(--accent);font-size:.75rem;font-weight:800;letter-spacing:.09em}
+h1{font-size:clamp(2.05rem,1.2rem + 4.3vw,4.9rem);line-height:1.1;letter-spacing:-.035em;max-inline-size:16ch;margin:.75rem 0 1rem}
+.hero p{max-inline-size:50ch;color:var(--muted);font-size:clamp(.98rem,1.4vw,1.15rem)}
+.motif{inline-size:100%;max-inline-size:29rem;aspect-ratio:5/3;object-fit:contain;min-inline-size:0;justify-self:center}
+.actions{display:flex;flex-wrap:wrap;gap:.7rem;margin-block-start:1.3rem}
+.actions a{display:inline-flex;justify-content:center;align-items:center;min-block-size:2.85rem;padding:.75rem 1.2rem;border-radius:.7rem;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:750;font-size:.9rem}
+.actions .secondary{color:var(--ink);background:var(--panel);border:1px solid var(--border)}
+section{padding-block:clamp(1rem,3vw,2rem)}h2{font-size:clamp(1.55rem,1.2rem + 1.55vw,2.4rem);margin:0 0 .2rem}section>p{color:var(--muted);margin:.1rem 0 1rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr));gap:1rem}
+.card{min-inline-size:0;overflow-wrap:anywhere;border:1px solid var(--border);border-radius:1.15rem;background:var(--panel);padding:1.25rem}
+.card strong{font-weight:760;font-size:1.05rem}.card small{display:block;color:var(--accent);font-weight:750;margin-block-end:.55rem}
+.card p{color:var(--muted);font-size:.85rem;margin:.4rem 0 0}
+.disclaimer{border:1px solid var(--border);border-radius:1rem;background:var(--raised);color:var(--accent);font-weight:700;padding:1.1rem;margin-block:1rem}
+footer{border-block-start:1px solid var(--border);padding-block:1.4rem;color:var(--muted);font-size:.8rem}
+@media(min-width:47rem){.hero{grid-template-columns:minmax(0,1.2fr) minmax(0,.9fr)}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:69rem){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:36rem){nav{order:3;inline-size:100%}nav a{font-size:.82rem}.hero{padding:1.1rem}.actions a{flex:1 1 8rem}.motif{max-inline-size:19rem}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="note">S06 DESIGN ONLY · STATIC RESPONSIVE PROOF · NOT THE REAL NOVA WEBSITE</div>
+<header class="header"><div class="brand"><span>✳</span> NOVA ATELIER</div><nav aria-label="Design proof navigation"><a href="#services">Services</a><a href="#work">Work</a><a href="#catalog">Catalog</a><a href="#contact">Contact</a></nav><div class="locale">FA · EN · +</div></header>
+<main>
+<section class="hero"><div><div class="kicker">DIGITAL CREATIVE STUDIO / DEMO CONCEPT</div><h1>Digital design, made human.</h1><p>Thoughtful websites, accessible interfaces and original creative concepts — presented with clarity.</p><div class="actions"><a href="#services">Explore services</a><a class="secondary" href="#work">View concept work</a></div></div><img class="motif" src="nova-hero-original.svg" width="1200" height="720" alt="Original orbital design motif"></section>
+<section id="services"><h2>What we create</h2><p>Six illustrative service capabilities.</p><div class="cards">
+<article class="card"><small>01 / SERVICE</small><strong>Company websites</strong><p>Structured, readable service presentations.</p></article>
+<article class="card"><small>02 / SERVICE</small><strong>Landing pages</strong><p>Clear content and conversion paths.</p></article>
+<article class="card"><small>03 / SERVICE</small><strong>UI / UX and accessibility</strong><p>Keyboard-friendly and inclusive layouts.</p></article>
+<article class="card"><small>04 / SERVICE</small><strong>Mobile performance</strong><p>Responsive and lightweight design.</p></article>
+<article class="card"><small>05 / SERVICE</small><strong>SEO and localization</strong><p>Ready for independent localized routes.</p></article>
+<article class="card"><small>06 / SERVICE</small><strong>Visual identity</strong><p>Simple and original brand concepts.</p></article>
+</div></section>
+<section id="work"><h2>Concept work</h2><p>Three DEMO cases — no actual clients or project results implied.</p><div class="cards">
+<article class="card"><small>DEMO CASE 01</small><strong>Corporate presence</strong></article>
+<article class="card"><small>DEMO CASE 02</small><strong>Creative portfolio</strong></article>
+<article class="card"><small>DEMO CASE 03</small><strong>Digital catalog</strong></article>
+</div></section>
+<section id="catalog"><h2>Digital kit catalog</h2><p>Static visual examples only; filters, cart and checkout belong to S12–S13.</p><div class="cards">
+<article class="card"><small>DEMO</small><strong>Landing Kit</strong></article>
+<article class="card"><small>DEMO</small><strong>Company Site Kit</strong></article>
+<article class="card"><small>DEMO</small><strong>Portfolio Kit</strong></article>
+<article class="card"><small>DEMO</small><strong>Multilingual UI Kit</strong></article>
+<article class="card"><small>DEMO</small><strong>SEO Starter Audit</strong></article>
+<article class="card"><small>DEMO</small><strong>Performance Check Pack</strong></article>
+</div></section>
+<div class="disclaimer" role="note">DEMO ONLY — no real payment, form submission or personal-data collection takes place.</div>
+</main><footer id="contact">NOVA Atelier / S06 design study only. No public contact details or final brand rights are asserted.</footer>
+</div></body></html>
