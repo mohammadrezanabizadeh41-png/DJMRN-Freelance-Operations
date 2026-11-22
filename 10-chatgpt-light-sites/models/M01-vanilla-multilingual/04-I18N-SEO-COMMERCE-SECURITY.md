@@ -78,7 +78,7 @@ M01-vanilla-multilingual/       # existing approved model folder
 | Local preview | `site/` static root only; localhost URL | Simple `127.0.0.1` HTTP, correct HTML/CSS/JS/JSON/SVG MIME, `index.html` resolving and 404 | Do not run via `file://` for modules/fetch. Reject `..\\` traversal, no exposed secret parent directory; stop process after tests |
 | Tests + Git | `tests/`, current M01 branch and current project folder | Deterministic validators, Node `--test`, browser viewport evidence, versioned changes | Never mutate other model folders, `main`, `09-` or private credentials; revert via Git commit |
 
-**Data-contract detail is deliberately deferred to S05:** product ID values, the six exact `priceMinor` fixtures, data shape and category/empty-state taxonomy are to be defined/tested then; no invented payment currency conversion. Shared catalog fixture stores a real ISO currency code only if chosen for **illustrative** price formatting; badge `DEMO` always displayed in all five languages. Arithmetic validates integers and never trusts DOM prices as authority. No real transfer is possible in M01.
+**S05 data authority:** the exact six ID/category/`priceMinor` values and state/failure rules are now recorded under section **1B** below. No real ISO currency or FX conversion is used. Physical `site/data/items.demo.json` begins only when implementation reaches S08/S12.
 
 ### HTML, JS and CSS interoperability contract (S08 implementation targets, not code shipped in S04)
 
@@ -136,6 +136,130 @@ M01-vanilla-multilingual/       # existing approved model folder
 - شواهد هر گام در checkbox همان Sxx و ماتریس تست T10/T08 ثبت می‌شود، نه سند وضعیت موازی.
 
 **منابع رسمی:** [MDN Responsive Web Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design); [MDN Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries); [web.dev Choose Breakpoints](https://web.dev/learn/design/media-queries); [W3C WCAG Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html); [W3C WCAG 2.2](https://www.w3.org/TR/WCAG22/).
+
+
+## 1B) S05 — معماری اطلاعات، URL/CTA، دادهٔ نمونه و حالت‌های خطا (2026-11-22)
+
+**S05 contract:** `PASS as specification only`. No website has been created: `site/` still belongs to S08, and no screenshot or real interaction of NOVA Atelier is asserted. The S02 brief remains canonical for product/audience, S04 for architecture, and **this subsection** is the detailed current IA/product-data contract; execution progress belongs **only** to `03-EXECUTION-ROADMAP.md`.
+
+### Routes: one locale × one page kind
+
+- Locale keys: `fa` (RTL), `en` (LTR), `ar` (RTL), `tr` (LTR), `de` (LTR); switcher autonyms are `فارسی / English / العربية / Türkçe / Deutsch`. Language selection always preserves the **page kind**, not necessarily search/filter UI state. No automatic geolocation/IP redirect.
+- Exactly six page kinds per locale: `home`, `services`, `work`, `catalog`, `contact`, `demo-checkout`. Home path `/{locale}/`; others `/{locale}/{kind}/`. File targets are respectively `site/{locale}/index.html` and `site/{locale}/{kind}/index.html`.
+- This yields **30 distinct HTML targets = 25 public-information pages plus 5 DEMO checkout pages**. All checkout variants have `meta name="robots" content="noindex"` and explicit "DEMO — no money charged" in their language; none appear in a production sitemap. Root language chooser and `404.html`, if created, do **not** count as the 30.
+- The **six future routes per language** are `/{locale}/`, `/{locale}/services/`, `/{locale}/work/`, `/{locale}/catalog/`, `/{locale}/contact/`, `/{locale}/demo-checkout/`. Locale equivalents must exist **before** creating links to them. During incremental S08–S14, hide/disable links to not-yet-built page routes rather than generate 404s. At S15, reciprocal `hreflang` annotations require the **final real public absolute URLs**, not example.com/localhost.
+- Origin for S08 testing: `http://127.0.0.1:<port>/` with `site/` as web root; trailing slash/`index.html` resolution and correct asset MIME required. No claims about eventual hosting base path; it is UNKNOWN and separately approved.
+
+### Navigation graph, CTAs and deliberate no-JS behavior
+
+**Global header:** logo → same-language Home, native anchor links Home / Services / Work / Catalog / Contact, the five-language switcher with autonyms, and discoverable DEMO cart entry where relevant. **Checkout is not a sixth permanent main menu entry**; access it only via demo cart, never advertise a real payment product. Footer shows truthful DEMO identity, navigation and contact disclaimer; no fake ratings, clients or physical address.
+
+| Page | Primary CTA / behavior | Secondary / recovery | Main required content |
+|---|---|---|---|
+| Home | `/{l}/services/` — Explore services | `/{l}/work/`, `/{l}/catalog/` | Value proposition, six services preview, three labelled Concept/DEMO projects |
+| Services | `/{l}/work/` — View conceptual work | `/{l}/contact/` | Six genuine capability descriptions (not unverified delivery claims), Demo notice |
+| Work | `/{l}/catalog/` — Explore demo catalog | `/{l}/contact/` | Three clearly marked Concept/DEMO cases, never fabricated clients or KPIs |
+| Catalog | `Add to DEMO cart` local JS action; then `/{l}/demo-checkout/` only if cart valid | `/{l}/work/`; clear filters | Six static product summaries, category/search controls, no-results/reset |
+| Contact | `Preview validation` with explicit **not sent** status, local-only | `/{l}/services/` | Labelled mock input controls, no network action or PII storage |
+| Demo checkout | `Confirm DEMO` local JS action only, never a real order | `/{l}/catalog/`, remove/reset cart | Item/quantity/fictional total, banner "no money charged", mock acknowledgement |
+
+Here `{l}` is exactly one of `fa/en/ar/tr/de`; it is **not** a literal production URL segment. **Three accepted journeys:** Services: Home → Services → Work → Contact; Demo catalog: Home → Work → Catalog → Cart → Demo checkout → simulated receipt; Language: any page kind → equivalent kind in selected locale. All anchored page navigation works without JS where implemented; filtering/cart/receipt are progressive enhancements and display an honest fallback when JS is disabled.
+
+**Contact no-leak rule:** no real `form action` or implicit GET submit can carry typed text into the URL. Initial static HTML can use a non-submitting group with disabled inputs until a local-only handler is installed; the preview control is `type=button`. A demo validation result must explicitly say that nothing was transmitted or stored.
+
+### Synthetic catalog fixture — S05 canonical JSON specification
+
+The following six entries are the **only S05 reference values**, matching the six names in the S02 Brief. S08/S12 will create `site/data/items.demo.json` from this single approved specification and then make the physical fixture canonical; do **not** maintain parallel prices. `titleKey` labels are translated at S07. Product/case assets must be original or separately licensed.
+
+```json
+{
+  "schemaVersion": 1,
+  "mode": "DEMO_ONLY",
+  "priceUnit": {
+    "code": "DEMO_CREDIT",
+    "minorPerUnit": 100
+  },
+  "categories": [
+    "web",
+    "design",
+    "audit"
+  ],
+  "items": [
+    {
+      "id": "landing-kit",
+      "titleKey": "catalog.landingKit",
+      "category": "web",
+      "priceMinor": 18000
+    },
+    {
+      "id": "company-site-kit",
+      "titleKey": "catalog.companySiteKit",
+      "category": "web",
+      "priceMinor": 48000
+    },
+    {
+      "id": "portfolio-kit",
+      "titleKey": "catalog.portfolioKit",
+      "category": "web",
+      "priceMinor": 28000
+    },
+    {
+      "id": "multilingual-ui-kit",
+      "titleKey": "catalog.multilingualUiKit",
+      "category": "design",
+      "priceMinor": 36000
+    },
+    {
+      "id": "seo-starter-audit",
+      "titleKey": "catalog.seoStarterAudit",
+      "category": "audit",
+      "priceMinor": 12000
+    },
+    {
+      "id": "performance-check-pack",
+      "titleKey": "catalog.performanceCheckPack",
+      "category": "audit",
+      "priceMinor": 16000
+    }
+  ]
+}
+```
+
+- Categories for actual items: `web` (3), `design` (1), `audit` (2). Filter choices: `all` plus those three; `all` is **not** an item category.
+- `DEMO_CREDIT` is a **fictional unit**, not legal tender, cryptocurrency, gift card or an ISO currency. `priceMinor` is a safe integer representing **1/100** of a fictional demo credit. Format `priceMinor/100` with `Intl.NumberFormat(locale)` in **decimal** style followed by a localized "demo credits" label; **never currency-style, FX conversion, bank symbols or provider checkout**.
+- Default catalog visible = six items. Search is local over approved translated labels, categories and descriptions; no-results state has explicit "0 results" and "Clear filters" action. Empty input + `all` resets all six. Invalid category is a reset/error, not a fatal exception.
+- The **maximum cart** is six distinct IDs, each integer quantity from **1 to 9**; unit prices always come from validated fixture, **never the UI or session storage**. All-six-nine maximum = **1422000 minor units**, i.e. **14220 fictional demo credits**; math remains below `Number.MAX_SAFE_INTEGER`.
+- Session-only anonymous optional state key `nova.m01.demoCart.v1` with `{schemaVersion:1,items:[{id,qty}]}`. Unknown item, duplicate ID, NaN, fractional or over-limit quantity, unsupported version, failed storage access or corrupted JSON triggers explicit local reset/validation and never an uncaught error. No names, emails, cards, actual delivery or PII stored.
+- Checkout state machine: `EMPTY` → prompt Catalog; `REVIEW` validated cart → `DEMO_CONFIRMED` with local synthetic acknowledgement and `role=status`; `RESET` back to empty. No transaction, PSP, order API, paid service, real receipt or durable order. If JS is off, show an honest non-functional demo disclaimer and navigation, not a false success.
+- Failed JSON fetch, unavailable JS or empty search must leave meaningful **HTML catalog cards** and truthful status text; never clear static content before validating fixture. File `/data/items.demo.json` is requested from same-origin localhost only after S08 creates it.
+
+### Three-screen interaction map, no hidden features
+
+| Surface | Mobile 320–430px | Tablet 600–1024px | Desktop ≥1024px | Required input/error |
+|---|---|---|---|---|
+| Navigation, locale and cart | One accessible menu plus visible access to language/cart | Compact or expanded per available content width | Full nav when room exists | Native keyboard links; touch targets ≥24 CSS px WCAG AA (aim 44); Escape/focus-visible; no hover-only |
+| Services & Work | One column, CTA reachable | 1–2 cards if readable | 2–3-column bounded grid | Cards link to correct local route and keep DEMO text |
+| Catalog search/filter | Search and category controls before 1-column cards | 1–2 columns, controls still accessible | Up to 3 columns and readable filters | Touch/mouse/keyboard, clear filter, no-match, invalid fixture fallback |
+| DEMO cart/checkout | Stacked summary, visible DEMO banner | Responsive group without truncated totals | Balanced layout with max-width | +/-/remove/reset/confirm, storage denied, invalid qty, 0 items |
+| Contact demo | Preview only, status never says "sent" | Same semantic controls | Same capability | Disabled-by-default or non-submitting controls; no GET/POST |
+| Language and direction | fa/ar RTL, en/tr/de LTR | Long German/Turkish strings reflow | Never hide locale switcher | Preserve kind, readable bidi product IDs, no forced redirect |
+
+Breakpoints are determined from content in **S06**, not chosen solely from the above test-width labels. Device-independent HTML/DOM remains constant. Zoom/reflow/landscape and actual hardware quality are **S16/S18/S20**, not S05 claims.
+
+### S05 acceptance (contract-only, tests must be deterministic)
+
+| ID | Static test now | Later real-product test |
+|---|---|---|
+| B01 | 5 locales × 6 kinds = 30 distinct route paths; 25 public + 5 noindex | S08/S15 real files/hreflang/robots |
+| B02 | Five main-nav targets per locale, 3 journeys, all CTA references resolve within the future route registry | S09–S14 browser navigation and same-kind language links |
+| B03 | JSON parses, 6 non-repeating IDs, categories valid, safe integer prices; total bounded | S12/S13 rendered data/cart tests |
+| B04 | Coverage for no-results/reset, invalid ID/qty, unavailable JSON/storage, no-JS, mock Contact and Checkout | S12–S14 injection/failure tests |
+| B05 | One UX contract for mobile/tablet/desktop and fa/ar RTL vs en/tr/de LTR | S06/S07/S16/S18 actual rendered QA |
+| B06 | No real payment/data transfer, new tooling, outside-folder access, invented domain or unlicensed assets | S13/S15/S18/S19 privacy/license checks |
+
+**S05 does not build pages.** S06 chooses layout/token/wireframes, S07 authors/validates five-language copy, S08 builds the first actually runnable HTML under the isolated M01 folder. No new packages, payment infrastructure, framework or live deployment is authorized.
+
+**Canonical references:** [Google localized URLs/hreflang](https://developers.google.com/search/docs/specialty/international/localized-versions), [Google multilingual site structure](https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites), [MDN local server for JS modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules/Modules_on_the_web), [W3C WCAG 2.2 24px minimum](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum).
 
 ## 2) i18n conventions and content QA
 - Locale: `fa` RTL, `ar` RTL; `en`, `tr`, `de` LTR. Root HTML always sets `lang` and `dir` and a locale-specific page title.
