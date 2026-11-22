@@ -1,5 +1,5 @@
 # M01 — نقشه راه اجرایی ترتیبی ساخت نمونه پنج‌زبانه
-**Status:** S01–S04 **PASS (environment + brief + external UX research + architecture contract)**; S05–S20 **NOT STARTED**; no website code has been built or tested.  
+**Status:** S01–S05 **PASS (environment + brief + UX research + architecture + information architecture)**; S06–S20 **NOT STARTED**; no website code has been built or tested.  
 **Source:** [01 Brief](01-RESEARCH-AND-BRIEF.md) · [02 Tools](02-STACK-TOOLS-AND-MCP.md) · [04 Cross-cutting contracts](04-I18N-SEO-COMMERCE-SECURITY.md) · [05 Acceptance](05-QA-AND-HANDOFF.md).  
 **Parent build checklist:** [M01 of 22](../../05-MODEL-BUILD-CHECKLIST.md). The parent M01 must remain unchecked until real acceptance.
 
@@ -100,12 +100,16 @@
   - **سیاست فضا و هزینه:** فقط [شاخهٔ اختصاصی M01](https://github.com/mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/tree/project/light-sites-m01-vanilla-20261121/10-chatgpt-light-sites/models/M01-vanilla-multilingual)؛ هیچ ویرایش در `main`، `09-self-marketing-website/` یا مدل‌های دیگر؛ بدون نصب/خرید/credit.
   - **مرحله بعد:** `S05` — IA، جدول URL و CTA، شکل دقیق fixture ۶ محصول، قوانین دسته/خطا و گردش‌های کار. `S06` visual و `S07` ترجمه؛ اولین سایت قابل اجرای واقعی در `S08`، نه این مرحله.
 
-- [ ] **S05 — معماری اطلاعات، صفحات و مسیرها**
-  - **کار:** navigation، sitemap، CTA، product data dummy، مسیر داده و حالت خطا برای زبان‌ها و هر سه سطح نمایش؛ منوی موبایل، ناوبری تبلت و desktop، سبد خرید و فرم بدون قابلیت گم‌شده.
-  - **ابزار/نقش:** HTML map/JSON fixtures.
-  - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** همه مسیرها و CTA در موبایل/تبلت/دسکتاپ و حالت‌های empty/error با ورودی touch/mouse/keyboard مشخص باشند؛ جمع‌آوری واقعی داده وجود ندارد.
-  - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
+- [x] **S05 — معماری اطلاعات، صفحات و مسیرها**
+  - **وضعیت/تاریخ:** **PASS — 2026-11-22** برای `IA + fixture specification + state/failure contracts`. **تست صفحات واقعی M01: NOT TESTED**؛ `site/` هنوز ساخته نشده است. مراحل S01 تا S04 قبلاً PASS بودند.
+  - **خروجی اصلی قابل Diff:** [بخش 1B — S05 در سند فنی موجود](04-I18N-SEO-COMMERCE-SECURITY.md): ۳۰ URL از ۵ locale `fa/en/ar/tr/de` × ۶ page kinds؛ ۲۵ صفحه عمومی و پنج `demo-checkout` با `noindex`. فرمت آینده `/{locale}/` و `/{locale}/{services|work|catalog|contact|demo-checkout}/`، بدون URL جعلی عمومی یا redirect خودکار. نقشه‌های Header/Footer، CTAs، تغییر زبان به equivalent kind، سه journey و fallback روشن شدند.
+  - **۵ لینک اصلی ناوبری:** Home / Services / Work / Catalog / Contact؛ پرداخت نمایشی فقط از cart. مسیر خدمات `Home→Services→Work→Contact`؛ مسیر نمایش کاتالوگ `Home→Work→Catalog→DEMO cart→mock checkout/receipt`؛ زبان بعدی همان نوع صفحه را باز می‌کند. لینک صفحات هنوز ساخته‌نشده باید تا مرحلهٔ ایجادشان غیرفعال/حذف شود، نه اینکه 404 بسازد.
+  - **Fixture شش‌تایی دقیق:** `landing-kit(18000)`, `company-site-kit(48000)`, `portfolio-kit(28000)`, `multilingual-ui-kit(36000)`, `seo-starter-audit(12000)`, `performance-check-pack(16000)` به واحد `priceMinor`؛ دسته‌ها `web=3, design=1, audit=2`. `DEMO_CREDIT` **پول واقعی نیست**؛ `minorPerUnit=100`، حداکثر ۶ شناسه × مقدار ۱…۹، بیشینهٔ همه اقلام ×۹ برابر `1,422,000 priceMinor` یا `14,220.00` اعتبار کاملاً خیالی است؛ هیچ نرخ ارز یا ارائه‌دهنده پرداخت وارد نشده. محتوا/ترجمهٔ `titleKey` در S07 نهایی می‌شود.
+  - **State و رفتار شکست:** دستهٔ `all/web/design/audit`، جست‌وجو و `no-results/reset`؛ `sessionStorage` ناشناس اختیاری با اعتبارسنجی schema/ID/qty و بازنشانی دادهٔ خراب؛ بدون JS صفحه و لینک‌های HTML معنادار و کارت‌های محصول قابل دیدن می‌مانند؛ Contact فقط نمایش اعتبارسنجی بدون ارسال یا ذخیره اطلاعات، بدون implicit GET؛ mock Checkout از `EMPTY→REVIEW→DEMO_CONFIRMED`، اعلان دائمی **no payment** و بدون PAN/CVV/PII/API/سفارش حقیقی. راه بازیابی هر failure در سند مشخص است.
+  - **تعهد سه نمایشگر:** موبایل 320–430، تبلت 600–1024، دسکتاپ ≥1024؛ همه بخش‌ها و زبان‌ها، منو/فیلتر/CTA/cart/contact با touch/mouse/keyboard و RTL/LTR قابل دسترس بمانند. اعداد width فقط اندازهٔ آزمون هستند؛ breakpoint نهایی و visual confirmation در S06 تعیین می‌شود.
+  - **تست واقعی قرارداد در لپ‌تاپ:** Bridgerator+Node 24 موجود؛ test code محلی مستقل در `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01-Prep\qa\S05-contract-check.cjs`، **۶ تست B01…B06 PASS / ۰ FAIL / exit 0**: B01 محاسبه ۳۰ مسیر یکتا، B02 صحت لینک‌های هدف و معادل‌های زبان، B03 parse JSON و six IDs + bounded integer total، B04 حالت‌های خطا، B05 RTL/LTR و کنترل‌های واکنش‌گرا، B06 مجزا بودن مسیر و نساختن سایت/پرداخت واقعی. `SHA256` اسکریپت QA: `9146908B8E20CC57C701EB26BB30FFA52DFF5813D50A262B73D94FF06AA7878A`. یک شکست اولیهٔ تست B06 به دلیل انتظار واژه‌ای سخت‌گیرانه و یک اجرای بدون متغیر محیطی `S05_ROOT` رخ داد؛ بدون دستکاری سورس/قرارداد اصلاح شدند و **اجرای نهایی همگی PASS** است. این آزمون، render/browser/e2e محصول نیست.
+  - **مرزها/حقوق و ادامه:** `S05` فقط تحلیل IA و fixture در سند موجود است؛ هنوز فایل واقعی `items.demo.json`، HTML یا CSS/JS ساخته نشده. نمونه‌کار و برند NOVA همچنان DEMO/موقت و ترجمه‌ها تأیید انسانی نشده؛ هیچ ابزار تازه، هزینه، سرور عمومی، حساب واقعی، انتشار یا تغییر در پروژه 09. تغییرات فقط در `project/light-sites-m01-vanilla-20261121` و همین پوشه است؛ با Git revert برگشت‌پذیر.
+  - **مرحلهٔ بعد:** `S06` — سه wireframe موبایل/تبلت/دسکتاپ، توکن رنگ/تایپ و تصویر اصل با تأیید بصری. `S07` متن و i18n؛ شروع HTML عملی و تست browser در `S08`.
 
 - [ ] **S06 — سیستم بصری و تایپوگرافی**
   - **کار:** **سه wireframe واضح موبایل، تبلت، دسکتاپ** + wide-screen fluid max-width، توکن رنگ/space/type با clamp، Grid/Flex، media/container queries لازم، RTL/LTR، touch/hover/keyboard، کنتراست، ۱ hero original؛ بدون WebGL سنگین.
