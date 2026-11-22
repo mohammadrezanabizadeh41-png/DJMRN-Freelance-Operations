@@ -1,5 +1,5 @@
 # M01 — ماتریس تست، معیار پذیرش و تحویل نمونه‌کار
-**State:** S01–S12 have execution evidence in the existing roadmap. S12 covers 40 Node tests, 40 actual Edge/Playwright catalog viewport checks and 20 browser interactions, five HTML-Validate pages and ten representative axe-core scans. T21–T24/S14A and full S13–S20 acceptance are **NOT RUN**. Human translation/accessibility reviews and public launch are **NOT DONE**. Do not infer unexecuted gates from the plan.
+**State (2026-11-22):** S01–S12 have evidence for **DEMO** (S12: 40 Node tests, 40 Edge viewports, 20 interactions, five HTML-Validate pages, ten automated axe scans). S12A, S13–S20 and S14A are **NOT IMPLEMENTED/NOT TESTED**. **NEW T31–T45 are PLANNED production gates only** for two-channel membership, secure customer/admin auth, ordering, provider callbacks, recovery and ops. No real user registration, admin login, email/SMS, paid purchase, database or production service exists. Human translation/accessibility review and publication are pending.
 **Build plan:** [03 Execution Roadmap](03-EXECUTION-ROADMAP.md); [04 i18n/SEO/payment/security](04-I18N-SEO-COMMERCE-SECURITY.md).
 
 ## 1) What we will actually test
@@ -156,3 +156,29 @@ The earlier snapshots of 535MiB free were **not an architecture ceiling**. New o
 - Confirm sample's identity as fictional/demo: no false client stories, purchasable items or pretend bank payments.
 - Distinguish **professional deploy-ready structure** from **verified live site**. Search rankings, PageSpeed field scores, KYC/PSP eligibility and customer conversion are not measured in this plan.
 - No deployment or actual provider activation without explicit later approval.
+
+## 5D) Production security/account/order acceptance — NEW T31–T45 (2026-11-22, ALL PLANNED / NOT EXECUTED)
+
+**Dependency:** S12A confirms scope/contracts before production P00–P18. Existing T01–T30 remain demo criteria; **T21–T24 apply only to the local S14A editor**, not an authenticated admin portal. No `T31–T45` can be marked PASS via screenshots, mocked accounts, UI role flags or documentation; real server/DB and independent negative tests are required before live activation.
+
+| ID | Real I/O + attack/failure exercise | Strict PASS gate / evidence |
+|---|---|---|
+| **T31** Registration/Email | duplicate/invalid IDNA email, normalization policy, generic errors, resend/expiry/one-time proof, existing account enumeration, concurrent requests | verified email only after legitimate issued challenge; audit/retry/rate-limit, no account enumeration |
+| **T32** Phone challenge | E.164 country codes, SMS provider unavailable, wrong/replayed/expired OTP, resend and lockouts, number change, duplicate verification | cannot activate without successful unique code verification; no true SMS sends or costs without approved provider |
+| **T33** Membership code | two proven channels, parallel activation requests, retry after crash, changed contact, account suspension | exactly one immutable customer_id and unique random nonsecret membership_code; no code as authenticator |
+| **T34** Customer login/session | credential validation, recovery, cookie attributes, fixation, logout/revoke all, expiry, CSRF, brute-force, browser password manager | session verified server-side; no secrets in storage/logs; equivalent accessible path in five locales |
+| **T35** Admin separated login | customer tries `/admin` and APIs, crafted role claims, privilege changes, admin MFA/passkey reset/recovery, invite revocation | server responds 401/403 appropriate, no customer privilege escalation, step-up and audit on risky actions |
+| **T36** Object-level authorization | user A guessing user B `membership_code`/order ID, bulk exports, IDOR/BOLA, API param overrides | each resource checked against authenticated internal principal and role; no cross-account leakage |
+| **T37** Live catalog/price | client-modified price/quantity/tax/currency, stale SKU, concurrent updates, invalid/unknown IDs | total sourced solely from versioned server catalog in integer minor units; rejection clean |
+| **T38** Order idempotency | double-click, parallel tabs, retry after network fail, temporary DB outage, canceled/expired order | one durable intended order, correct ownership and status/line snapshots through restart |
+| **T39** PSP callback/payment | forged signature, duplicate/out-of-order event, delayed redirect, timeout, refund/chargeback, mismatched amounts | only verified provider event/reconciled reference changes PAID; no double capture/fulfillment or client-side completion |
+| **T40** Fulfillment/receipts | payment event delivered twice, queue restarts, failed email/SMS, rejected entitlement, refund restoration | exactly-once business effect using idempotency/outbox; durable receipt and correct user history |
+| **T41** Customer self-service | order view/download own vs other customer, identity change/reverify, disabled account, account deletion/export | ownership preserved; no PII or purchase history leak, retention rules respected |
+| **T42** Admin operations/audit | role matrix for content/support/refund/user/owner, logging action origin, export approval, forced downgrade | unauthorized writes denied; sensitive changes audited, reversible where practical; no secrets in logs |
+| **T43** Privacy/compliance | consent, purpose minimization, accessible policies, account/data export & deletion, security notifications, legal retention | region-appropriate legal review, minimal records, deletion/export proof and privacy controls |
+| **T44** Reliability/load/incident | rate-limit under abuse, email/SMS/PSP outage, backups restorable, worker retry, parallel orders, source upgrade/rollback | monitored health + tested recovery, no silent lost state, fake PAID or repeated charge |
+| **T45** Full E2E/launch | five-language mobile/tablet/desktop + accessibility auth 3.3.8; real sandbox verified register→email→SMS→member→buy→signed-paid→delivery; admin review; isolated staging/security test | independent provenance, T31–T44 PASS, approved providers/hosting/country/fees, owner acceptance before public launch |
+
+**No false claims:** Screen-sized mock accounts never count as secure login. Sending a code to a test fixture is not real delivery. Provider eligibility/price/OTP quota are not verified until live official sources and user-specific constraints are checked at P03. After P18, record exact runtime evidence in the **existing [03 roadmap](03-EXECUTION-ROADMAP.md)** under the matching P-stage checkbox, not a second status ledger.
+
+**Official test baselines:** [OWASP ASVS 5](https://asvs.owasp.org/), [Auth](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html), [Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [API BOLA](https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/), [NIST 800-63B-4](https://pages.nist.gov/800-63-4/sp800-63b.html), [WCAG 2.2 Accessible Authentication](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html).

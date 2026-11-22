@@ -1,10 +1,10 @@
 # M01 — نقشه راه اجرایی ترتیبی ساخت نمونه پنج‌زبانه
-**Status:** S01–S12 **PASS** (20 of 30 planned routes built: five Home, five Services, five Work, five Catalog; 40 Node tests, 40 S12 Edge viewport checks, 20 S12 browser interactions, five S12 HTML-Validate pages and ten representative axe-core scans). S13–S20 **NOT STARTED**; mandatory S14A **PLANNED / NOT STARTED**. Contact and DEMO Checkout (10 routes) remain unbuilt. Human translation/manual accessibility review remains pending before publication.
+**Status (2026-11-22, scope expansion approved for ROADMAP ONLY):** S01–S12 **PASS for the static DEMO** (20/30 localized public demo routes; 40 Node tests, 40 S12 browser viewport checks, 20 interactions, 5 HTML-Validate and 10 axe scans). **S12A mandatory architecture/dependency gate: PLANNED / NOT IMPLEMENTED; S13–S20 and S14A: NOT STARTED.** Owner now requires a *real* future customer registration + verified email/phone + membership ID + order history, with independently protected admin login and operations. This needs a separate production-grade dynamic runtime; production gates P00–P18 below are **RESEARCHED/PLANNED ONLY**, not live. No registration, OTP, user data, actual purchase, provider, backend, production DB or admin authentication exists yet. Human translation/manual WCAG review remains pending.
 **Source:** [01 Brief](01-RESEARCH-AND-BRIEF.md) · [02 Tools](02-STACK-TOOLS-AND-MCP.md) · [04 Cross-cutting contracts](04-I18N-SEO-COMMERCE-SECURITY.md) · [05 Acceptance](05-QA-AND-HANDOFF.md).  
 **Parent build checklist:** [M01 of 22](../../05-MODEL-BUILD-CHECKLIST.md). The parent M01 must remain unchecked until real acceptance.
 
 ## قوانین اجرا
-- **۲۰ مرحلهٔ اصلی** به‌ترتیب `S01 → S20` باقی می‌مانند؛ یک **S14A اضافی و الزامی** بین S14 و S15 برای پنل مدیریت محتوا اضافه شد (در شمارندهٔ ۲۰ مرحلهٔ اصلی حساب نشود). در هر turn کوچک‌ترین مرحله مجاز را انجام بده، سپس خروجی و **نتیجه TEST/FAIL/NOT TESTED** را اعلام کن. هیچ تیکی بدون فایل، تست و شواهد عملی نزن.
+- **۲۰ مرحلهٔ نمایشی اصلی** به‌ترتیب `S01 → S20` باقی می‌مانند؛ **S12A (دروازهٔ بازنگری وابستگی/هویت قبل از S13)** و **S14A (پنل محتوای فقط محلی)** دو الحاق الزامی هستند و در ۲۰ مرحله شمارش نمی‌شوند. **P00–P18 مسیر اجرایی سایت واقعی** در همین نقشه راه است و جایگزین ادعاییِ ساخت M01 استاتیک نیست. تا زمانی که هدف سایت واقعی احراز هویت/خرید/ادمین است، S20 به‌تنهایی مجوز «سایت تولیدی کامل» نمی‌دهد. مراحل گذشته PASS نمایشی خود را حفظ می‌کنند ولی قراردادهای مربوط باید در S12A بازبینی شوند. هیچ مرحله‌ای بدون I/O، state، تست و evidence تیک نمی‌خورد.
 - **روال ثبت مورد تأیید کاربر از 2026-11-21:** پس از اجرای هر مرحله، فقط **همان checkbox در همین سند** در شاخه M01 به‌روزرسانی و در GitHub commit شود؛ اقدام، زمان، ابزار، خروجی، آزمون و PASS/FAIL/BLOCKED، محدودیت‌ها و اقدام بعد زیر همان مرحله نوشته شود. PASS با `[x]` و شواهد؛ FAIL/BLOCKED بدون تیک همراه شرح علت. SHA commit در پاسخ داده شود. هیچ فایل پیشرفت موازی ساخته نشود. چک‌باکس M01 در کارتابل ۲۲ مدل والد تا پایان کامل سایت همچنان خالی است.
 - هر مرحله شامل ورودی‌های تاییدشده، file(s)/output، test و مسئله بازگشت‌پذیری است. در صورت کمبود ورودی واقعی، از fixture ساده و صریح استفاده کن؛ به ساخت Agent یا dependency جدید فرار نکن.
 - GitHub فقط در شاخه `project/light-sites-m01-vanilla-20261121` و زیر `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`. مسیرهای اصلی/3D ممنوع.
@@ -32,7 +32,7 @@
 
 ## ممیزی جامع ارتقای تجربه حرفه‌ای — 2026-11-22 (تصمیم و معیار، **نه** پیاده‌سازی)
 
-**ماهیت محصول ثابت می‌ماند:** NOVA Atelier یک نمونهٔ **استودیوی دیجیتال/خدمات/سه Concept case/شش بستهٔ ساختگی** با **HTML/CSS/vanilla JS، پنج زبان و ۳۰ مسیر هدف** است. **S14A** فقط Content Studio محلی جدا از `site/` است. هدف این بازنگری افزودن قابلیت‌های قابل آزمون در مراحل موجود، نه افزودن فریم‌ورک، AI Agent، CMS، پرداخت، دیتابیس، برند/مشتری جعلی یا مدل ساخت دیگر است.
+**ماهیت در زمان این ممیزی (تاریخی):** NOVA Atelier یک نمونهٔ استاتیک **استودیوی دیجیتال/خدمات/سه Concept case/شش بستهٔ ساختگی** با **HTML/CSS/vanilla JS، پنج زبان و ۳۰ مسیر هدف** بود. **تصحیح دامنهٔ 2026-11-22:** مالک علاوه بر نمونهٔ استاتیک، سایت عملیاتی با عضویت و خرید واقعی خواسته است. ساختار HTML/CSS/JS می‌تواند frontend باقی بماند، اما حساب و سفارش واقعی بدون API امن، DB، سرویس‌های تأیید و runtime مستقل ممکن نیست؛ مسیر P00–P18 در همین فایل این نیاز را پوشش می‌دهد. **S14A** همچنان Content Studio محلی و نه پنل مدیر تولیدی است.
 
 | خط تجربه | نیاز واقعی کاربر | مالک اجرایی (هنوز انجام‌نشده) | تست مستقل |
 |---|---|---|---|
@@ -46,7 +46,7 @@
 | Inclusive / Fast / Safe | RTL/LTR، a11y/zoom/focus، media/INP، CSP، no-JS/offline fallback و تست خطا | S16–S18 | T08–T19 + T29 |
 | Handoff / Approve | تصاویر/مجوز/تست قابل بازتولید، مرور مالک و تصمیم انتشار جداگانه | S19–S20 | T20 + T21–T29 |
 
-**اولویت‌ها:** `P0` = ردیف‌های فوق در حد نوع سایت و مدل سبک، شرط DONE برای M01؛ `P1` = مقایسهٔ محدود دو/سه کیت، `<details>`های تکمیلی و Motion ملایم فقط اگر آزمون UX/هزینه/دسترس‌پذیری توجیه کند؛ `DEFER` = multiuser admin، سفارش واقعی، ارسال واقعی تماس، پرداخت، CRM، analytics/tracking، chatbot، PWA offline sync، WebGL/3D و CMS/مدل جدید تا درخواست و تأیید مستقل. هر feature بدون نیاز/آزمون واقعی حذف می‌شود.
+**اولویت‌ها (تاریخی/بازنگری‌شده 2026-11-22):** `P0` برای نمونهٔ استاتیک M01 همان نیازهای جدول است؛ `P1` بهبودهای UX با evidence. **استثنای صریح و جدید مالک:** ثبت‌نام/تأیید دو کانال/شناسهٔ عضویت، خرید واقعی و ورود امن و مستقل مدیریت دیگر DEFER دائمی نیستند و در **P00–P18** به‌عنوان قابلیت‌های الزامی برای *نسخهٔ واقعی* برنامه‌ریزی شده‌اند. فقط شروع provider/install/schema migration/deploy/درگاه نیازمند gate هزینه/امنیت و approval است؛ در نمونهٔ M01 ادعای عملیاتی‌شدنشان ممنوع است. سایر موارد بدون نیاز واقعی همچنان اختیاری‌اند.
 
 **مراجع و شواهد پژوهش:** [Instrument Work/Case Story](https://www.instrument.com/work/eames-institute/)، [Pentagram Work](https://www.pentagram.com/work/)، [GOV.UK user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)، [Baymard product lists](https://baymard.com/research/ecommerce-product-lists)، [Google people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)، [WCAG 2.2](https://www.w3.org/TR/WCAG22/)، [MDN View Transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API)، [OWASP DOM XSS](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html). جدول تفصیلی نیاز/اولویت در [Brief §11](01-RESEARCH-AND-BRIEF.md)، قرارداد فنی در [04 §9](04-I18N-SEO-COMMERCE-SECURITY.md) و معیارهای جدید [T25–T29](05-QA-AND-HANDOFF.md) هستند. شواهد پژوهشی **دلیل ساخت نیستند**؛ اجرای واقعی، تست و Commit جداگانه می‌خواهند.
 
@@ -256,7 +256,15 @@
   - **Evidence و تکرارپذیری:** در لپ‌تاپ `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01-Prep\qa\S12-catalog-evidence-20261122\`، سه فایل `summary.json`، `html-validate-summary.json`، `axe-summary.json` و **پنج تصویر PNG** ذخیره شده‌اند؛ اسکریپت‌های اجرای QA در همان `Prep\qa` قرار دارند. SHA256 سه گزارش به‌ترتیب `DB0649E12A531E895B9356D4F5A0198CB8AA9C2894D18E0253EBF94CB083D404`، `A86C1A8C2F425B91DFAC564463063D554500C9584F04379B6ED9348215B001C4` و `778EF04382C878C2B11D28EFDAB19EDEF5137014831D418A0B395373A85B407D`. راه بازتولید: `node scripts/render-home-locales.mjs`، `node scripts/render-service-work.mjs`، `node scripts/render-catalog-art.mjs`، `node scripts/render-catalog.mjs`، `node --test tests/*.test.mjs` و localhost با `scripts/serve-local.mjs`. کمینهٔ RAM آزاد هنگام QA نهایی حدود **۱٬۷۳۹MiB** گزارش شد؛ اجرا پایدار بود و محدودیت منابع یا توقف پردازش غیرضروری اعمال نشد.
   - **حقوق/امنیت و باقی‌مانده:** طرح‌های SVG خود پروژه و سورس تولیدشان همراه Git ذخیره می‌شوند؛ GIMP/Blender و سرویس طراحی جدید لازم نشدند، پس T30 مشروط **NOT RUN** است. محتوا/ترجمه‌های پنج‌زبانه `DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING` می‌مانند؛ تست گوشی فیزیکی، ممیزی انسانی کامل، Lighthouse/field CWV، امنیت/سئو نهایی و انتشار هنوز انجام نشده‌اند. S13–S20 و S14A همچنان `[ ]`، M01 در فهرست ۲۲ مدل `[ ]` است. **گام بعد: S13 — DEMO cart/checkout با اعداد صحیح و جریان معتبر در پنج زبان**. ثبت شاخه و SHA Commit نهایی باید پس از آپلود و تطبیق انجام شود.
 
+- [ ] **S12A — گیت الزامی بازنگری Scope/Identity/Order پیش از S13 (NEW / NOT IMPLEMENTED)**
+  - **چرا:** در S02 نیاز تجاری واقعی و هویت مشتری، در S04 مرز backend/security، در S05 قرارداد حالت/شناسه/قیمت و در S07 واژگان پنج‌زبانهٔ Login/Verify/Order تعریف نشده بود. S01–S12 فقط برای DEMO، نه حساب/سفارش واقعی PASS شده‌اند. S12A به‌معنای تخریب خروجی گذشته نیست؛ **بازبینی قراردادهای S02/S04/S05/S07 پیش از هر ویژگی وابسته به حساب** است.
+  - **خروجی اجرایی:** (۱) تفکیک scope نمایشگاهی و production؛ (۲) دو journey: `browse → register → email-confirm → phone-confirm → active membership → order → pay → fulfillment/refund` و `admin invitation → strong MFA → role approval → dashboard → audited action`؛ (۳) تعریف شناسهٔ داخلی immutable و `membership_code` یکتای غیرمحرمانه؛ (۴) resource boundaries/role×action و threat model؛ (۵) قرارداد backend/database/email/SMS/payment و وابستگی‌ها؛ (۶) locale/state پنج‌زبانهٔ pending, expired, denied, resend, recovery, paid, failed؛ (۷) ماتریس سازگاری و مهاجرت S13/S14/S14A و نسخهٔ واقعی.
+  - **گیت UI و صداقت:** S13 همچنان سبد/رسید *تماماً خیالی* بر پایهٔ `DEMO_CREDIT` می‌سازد؛ هیچ ایمیل/شماره/OTP واقعی یا account/session/admin جعلی وارد runtime استاتیک نشود. نمونهٔ بصری login در M01، اگر لازم شد، صریحاً `NON-FUNCTIONAL DEMO` باشد. **داشبورد local-only S14A با Admin Console واقعی متفاوت است.**
+  - **PASS قابل تیک فقط پس از:** تأیید انسانی دامنه و مدل اجرا، contract قابل تست، entity/state/role matrix، failure/rollback، طرح انتخاب Provider با جغرافیا و cost/quota/permission، و پذیرش معمارانهٔ مالک پیش از اجرا. تا آن زمان **PLANNED / NOT RUN**، بدون نصب Auth، ساخت user/DB/OTP، تغییر Production یا هزینه.
+  - **Evidence اجرا:** `NOT RUN`؛ تست: — ؛ Commit پیاده‌سازی: — . پژوهش و برنامهٔ پیشنهادی در «Production Track» همین سند آمده است.
+
 - [ ] **S13 — سبد و پرداخت نمایشی**
+  - **وابستگی جدید 2026-11-22:** ابتدا S12A review برای دو journey مشتری/ادمین و مرز واقعی/نمایشی. S13 فقط DEMO است و هیچ fake-login یا fake-email/SMS confirmation با ادعای امنیت یا شناسهٔ عضو «واقعی» اضافه نمی‌کند. برای خرید واقعی به P00–P18 رجوع کن.
   - **ابزار حرفه‌ای منتخب و گیت منابع — 2026-11-22، هنوز NOT STARTED:** برای DEMO Cart/Checkout از Node+Playwright و UI design tool در صورت بهبود نتیجه استفاده شود؛ کارگرهای مرورگر متناسب با RAM/commit واقعی تنظیم شوند، نه منع دائمی parallelism. هیچ خرید واقعی، PSP یا دادهٔ حساس.
   - **کار:** cart, quantity, sum in integer minor units, mock checkout, demo receipt; **فرم و جدول خلاصه reflow در موبایل و تبلت** و banner ثابت و خوانای «پرداخت نمایشی» در همه اندازه‌ها.
   - **ابزار/نقش:** vanilla JS + Node built-in unit tests.
@@ -275,6 +283,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14A — داشبورد مدیریت محتوای محلی و پیشرفتهٔ M01 (الحاقی، الزامی پیش از تحویل)**
+  - **مرز اصلاح‌شده:** نام «داشبورد مدیریت» در نسخهٔ پیشین فقط ابزار ویرایش محتوای لوکال بود؛ این مرحله **وظیفهٔ Login مدیر، کاربران، سفارش، بازپرداخت یا مدیریت نقش آنلاین ندارد**. این نیازهای واقعی باید در P09/P14 اجرا شوند؛ تغییر دسترسی به S14A بدون approval ممنوع است.
   - **ابزار حرفه‌ای منتخب و گیت منابع — 2026-11-22، هنوز NOT STARTED:** پنل حرفه‌ای محلی را می‌توان با **طرح UI در Penpot/Figma و اجرای Node/JSON/Git** و Playwright/axe/HTML-Validate ساخت؛ ابزارهای طراحی را صرفاً با بهانهٔ RAM حذف نکن. پیش از اجرا ~۲GiB آزاد هدف، هم‌زمانیِ سنجیده، ایزوله‌سازی endpoint و rollback؛ حساب مدیریت عمومی جعلی ممنوع.
   - **دلیل افزودن (پژوهش 2026-11-22):** کاربر صریحاً خواست سایت در نوع خودش کامل باشد و پنل مدیریتی حرفه‌ای داشته باشد. بررسی S01–S09 و ۳۰ مسیر برنامه‌ریزی‌شده نشان داد هیچ admin/dashboard ویرایشگر یا گردش‌کار انتشار در نقشهٔ راه وجود نداشت. **S14A افزوده شد تا ۲۰ مرحله اصلی بدون تغییر شماره حفظ شوند**؛ این مرحله یک مرحلهٔ قابل‌تیک **اضافی** بین S14 و S15 است، **NOT STARTED** و هنوز هیچ پنلی ساخته نشده.
   - **نوع خروجی دقیق و صادقانه:** **Content Studio / Dashboard محلی (فقط روی لپ‌تاپ)** با HTML/CSS/vanilla JS موجود و در صورت نیاز Node داخلی؛ **نه** `/admin` عمومی، CMS خارجی، حساب مدیر امن، فروشگاه واقعی یا Backend آنلاین. UI تحریریه خارج از `site/` و مسیرهای عمومی قرار می‌گیرد تا روی سرور LAN گوشی یا نسخهٔ منتشرشده دیده نشود؛ هیچ قابلیت ادیت ریموت بدون مدل احراز هویت معتبر فعال نشود.
@@ -332,6 +341,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S20 — بازبینی مشتری و تصمیم انتشار/گسترش**
+  - **شرط تکمیلی:** S20 صرفاً تحویل نمونهٔ DEMO را می‌سنجد. حتی با PASS شدن S20، برای اعلام «سایت واقعی/خرید و عضویت قابل استفاده» باید P00–P18، T31–T45 و مجوز انتشار/درگاه/دادهٔ واقعی جداگانه PASS شده باشند.
   - **ابزار حرفه‌ای منتخب و گیت منابع — 2026-11-22، هنوز NOT STARTED:** مالک باید **نسخهٔ حرفه‌ای ساخته‌شده با ابزارهای مناسب** را در گوشی/لپ‌تاپ ببیند؛ اجرای هم‌زمان preview، ابزارهای طراحی یا تست‌ها در صورت پایداری مجاز است. اگر مصرف زیاد بود تنظیمات/زمان‌بندی را تطبیق بده، نه نتیجه/کیفیت خروجی را فدا کن.
   - **کار:** **بازبینی واقعی در گوشی، تبلت در صورت دسترس، و لپ‌تاپ/PC** (یا شبیه‌سازی مستند در نبود دستگاه)، مقایسه portrait/landscape، دریافت بازخورد، اصلاح محدود، بررسی مجوز deploy اختیاری.
   - **ابزار/نقش:** browser/owner + Git; hosting only after approval.
@@ -367,3 +377,134 @@
 - Accessibility WCAG 2.2 AA target، حقوق assets و security baseline بررسی؛ no real PII/payments.
 - کد و راهنمای اجرای خوانا، commit خود M01، test evidence و owner review؛ تا قبل آن checkbox مدل M01 در parent **[ ]**.
 - هیچ کد یکپارچه‌ای از پروژه heavy Codex یا فایل‌های 3D وارد M01 نشود.
+
+---
+## الحاق رسمی 2026-11-22 — مسیر ساخت سایت عملیاتی با عضویت مشتری و ورود مستقل مدیر (PRODUCTION TRACK / NEW CANONICAL PROPOSAL)
+
+**وضعیت:** `RESEARCH COMPLETE / ROADMAP UPDATED / IMPLEMENTATION NOT STARTED`. درخواست جدید مالک، نسخهٔ واقعی و قابل استفادهٔ همان سایت NOVA Atelier است، **نه پروژهٔ سه‌بعدی 09 و نه یکی از ۲۱ مدل دیگر**. خروجی جاری S01–S12 نمونهٔ لوکال است و کارهای آن حفظ می‌شوند. افزودن این track به معنی فعال شدن auth، خرید واقعی، ایمیل/SMS، دیتابیس، درگاه یا تغییر معماریِ اجراشده نیست. هیچ P-step تیک نخورده است؛ انتخاب stack/provider و activation بعداً به gate نیاز دارد.
+
+### 1) حکم معماری و تفکیک قدرت (FACT / PROPOSAL / APPROVAL)
+- **FACT (کد موجود):** ۲۰ مسیر استاتیک واقعی Home/Services/Work/Catalog در پنج زبان، `site/` و `content/i18n.v1.json` فقط منبع محتوای DEMO هستند. `main.js`/`catalog.js` و local editor S14A فاقد اعتبارسنجی session سمت سرور، پایگاه دادهٔ مشترک یا تحویل واقعی ایمیل/SMS هستند. آن‌ها را نمی‌توان با `localStorage`، نمایش PIN یا مخفی‌کردن `/admin` به حساب یا فروشگاه امن تبدیل کرد.
+- **PROPOSAL:** frontend پنج‌زبانهٔ HTML/CSS/vanilla JS و دارایی‌های سبک را **reuse** کن؛ سرویس عملیاتی را در همان مخزن اما با boundary جدا و یک **modular monolith** با API سمت سرور، پایگاه دادهٔ transactional، identity/session، message dispatcher و payment adapter بساز. Compose تنها پس از نیاز واقعی؛ نه frontend framework، نه microservices، نه multi-agent پیش‌فرض. خروجی‌های محتوایی GitHub authority سورس هستند؛ DB منتخب authority برای کاربران/جلسات/سفارشات؛ runtime منتخب authority اجرا و provider منتخب authority نتیجهٔ تراکنش. API فقط مرز اجراست، نه memory/authority دوم.
+- **APPROVAL GATES:** انتخاب DB/host/Auth/SMS/Email/PSP و jurisdiction، ایجاد حساب/مدیریت credential، هزینه/credit/overage، schema migration، استقرار یا پرداخت واقعی **پیش از اجرا** با proposal امنیت/هزینه/جایگزین/بازگشت و موافقت صریح مالک. Free-first و امکان استفادهٔ قانونی/واقعی در کشور کاربران/مالک باید با اسناد رسمی *در زمان انتخاب* تأیید شود. قیمت UNKNOWN = DENY؛ credit آزمایشی فرضاً رایگان نیست.
+- **دو صفحه/حوزهٔ ورود کاملاً جدا:** `/{locale}/account/...` فقط مشتری، و محیط متمایز `admin` برای مسئولان **invite-only**، ترجیحاً origin/cookie scope جدا در تولید. حتی اگر identity engine مشترک باشد، tenant/roles/sessions/policies جدا و تفکیک در سرور mandatory است؛ هیچ client flag یا route hiding مجوز نیست. حساب مشتری هرگز از صفحهٔ signup مدیر نمی‌شود. S14A local content editor فقط روی `127.0.0.1` و خارج از public root باقی می‌ماند؛ داشبورد مدیریت واقعیِ آنلاین یک capability متفاوت است.
+- **مسیر خرید طبق خواست مالک:** برای checkout **واقعی** کاربر ابتدا عضو می‌شود، ایمیل ارتباطی خود را تأیید می‌کند، شماره تلفن را با کد ارسالی به همان شماره تأیید می‌کند، سپس عضویت `ACTIVE` با `membership_code` یکتا می‌گیرد؛ checkout فقط برای subject احرازشده و مجاز باز می‌شود. مشتری می‌تواند قبل از ثبت‌نام کاتالوگ را به صورت ناشناس ببیند. **تأیید ایمیل/شماره، اثبات مالکیت راه ارتباطی است و اثبات هویت حقوقی/KYC نیست.** وضعیت سفارش و تعلق آن فقط از DB سمت سرور استخراج می‌شود، نه از کدی که مشتری تایپ می‌کند.
+
+### 2) Domain Contract — purpose / I/O / authority / authorization / failure
+| Domain (مالک) | ورودی → خروجی واقعی | منبع حقیقت / مرز دسترسی | خطا و تست پذیرش |
+|---|---|---|---|
+| Identity | email + phone + proof + credentials → verified active customer | backend + DB؛ email/phone فقط برای هدف مصوب؛ admin فقط دعوتِ دارای مجوز | OTP wrong/expired/resend/duplicate، account enumeration، rate-limit |
+| Sessions & authorization | authenticated principal + role → permitted operation | session server/verified cookie؛ deny-by-default؛ server enforces per-resource ownership | stolen/expired/rotated session، CSRF، user→admin bypass، IDOR/BOLA |
+| Membership | internal immutable `customer_id` → public opaque `membership_code` | DB unique constraint؛ public code **not secret/not login** | collision/retry، changed email/phone، parallel signups، account disabled |
+| Catalog & price | approved item/price/availability → server price snapshot | DB/approved catalog revision؛ client totals never authority | price tamper, out-of-stock, stale catalog, duplicate SKU |
+| Cart & order | authenticated customer + validated items → durable order with owner_id | DB transactional `orders`/`order_items`؛ RLS/authorization each read/write | replay/reload, concurrent carts, forged owner_id, idempotency |
+| Payment | pending order → PSP session → signed event → paid/failed/refund | PSP is transaction result authority, DB projection keeps event IDs | callback forged/duplicate/out-of-order/timeout, refund reconciliation |
+| Fulfillment & notifications | paid order → entitled delivery + email/SMS status | DB event/outbox, retry with idempotency; approved notifications only | retries/restart, delivery failure, duplicate entitlement |
+| Administration | invited staff + MFA + scoped role → audited catalog/order/customer actions | server privilege checks; append audit event on sensitive writes | privilege escalation, bulk export, lost MFA, rogue admin |
+| Content Studio (existing S14A) | local draft JSON → preview/validated export | GitHub content source via local protected tooling, **not account/order DB** | editor LAN exposure, invalid draft, rollback |
+| Privacy/Operations | explicit consent/policy, retention, support → secure rights handling | selected DB & runtime logs; minimum PII; protected backup | deletion/restore, incident, notification failure, unbounded logs |
+
+### 3) قرارداد داده و ماشین حالت — طراحی پیشنهادی، هنوز Schema/Migration نیست
+- `principals(id UUID/ULID immutable, status, created_at)`؛ identity معتبر فقط پس از authentication. `customer_profiles(principal_id UNIQUE, membership_code UNIQUE opaque nonsequential, locale, status)`؛ public membership code برای پیگیری و UI است، **هیچ endpoint فقط با آن مالکیت را نمی‌پذیرد**. `customer_contacts(principal_id, normalized email, E.164 phone, verified_at, changed_at)` با constraint/uniqueness معنادار و امکان تغییر تأییدشده؛ retention طبق قانون/سیاست قابل تعیین.
+- `verification_challenges(id, subject, channel, purpose, expires_at, attempts, resend_cooldown, consumed_at)` با کد/توکن مولد تصادفی امن، یک‌بارمصرف، hashed/server-side، expiry کوتاه، throttling در account/phone/IP. **email confirmation = اثبات دسترسی به نشانی، نه second-factor login**؛ برای admin MFA ترجیحاً passkey/WebAuthn یا TOTP، با recovery ایمن و غیرقابل دورزدن با SMS. پیامک ممکن است charge یا محدودیت منطقه‌ای داشته باشد؛ تا cost/eligibility تأیید نشود mock connector تنها گزینهٔ آزمایش است.
+- `credentials/session` تحت مدیریت identity provider/سرور انتخابی، نه در JSON public؛ password در صورت انتخاب Argon2id/secure equivalent، session در cookie دارای `Secure`, `HttpOnly`, `SameSite`، rotation/revocation، inactivity/absolute expiry و CSRF defenses؛ audit به session/role/subject متصل ولی هرگز password/OTP/token را log نمی‌کند.
+- `staff_memberships(principal_id, role, approved_by, mfa_policy)` فقط با provisioning صاحب‌اختیار ایجاد می‌شود، admin self-register و client-settable role ممنوع؛ `audit_events(actor, action, subject_type, subject_id, outcome, trace_id, time)` append-only قابل نظارت.
+- `catalog_products(id, status, price_minor, currency, version)`، `orders(id, owner_principal_id FK, membership_code_snapshot, status, total_minor, currency, created_at)`، `order_items(order_id FK, product_id FK, unit_price_minor_snapshot, qty, total_minor)`، `payment_attempts(order_id, provider_reference UNIQUE, status)`، `provider_events(provider,event_id UNIQUE, verified_at)`، `fulfillments(order_id, grant_id, state)` و `outbox`؛ مبلغ از catalog سمت سرور snapshot می‌شود. `DEMO_CREDIT` هرگز در order/payment واقعی با مبلغ پولی جمع نمی‌شود؛ migration از DEMO به فروش واقعی بی‌تأیید ممنوع.
+- **Membership states:** `PENDING_EMAIL → PENDING_PHONE → ACTIVE → [SUSPENDED|CLOSED]`، با `EXPIRED/RESEND` در challengeهای مستقل. ایجاد شناسهٔ عضویت پس از اثبات هر دو کانال و commit اتمیک با DB unique index؛ retry با همان idempotency key دوباره شناسه نمی‌سازد. حالت recovery/change-address باید proof/notification و re-verification داشته باشد؛ SMS delivery failure کاربر را در pending نگه می‌دارد، نه ACTIVE.
+- **Order states:** `DRAFT → AWAITING_PAYMENT → PAID → FULFILLING → FULFILLED` یا `FAILED/CANCELLED/REFUND_PENDING/REFUNDED` تحت transition guards. موفق‌شدن redirect مرورگر سند پرداخت نیست؛ تنها callback با امضای معتبر و استعلام قابل اعتماد provider اجازهٔ تغییر وضعیت به PAID می‌دهد. ثبت سفارش با transaction و idempotent event processing و کلید order داخلی، نه ایمیل، موبایل یا membership_code ورودی مشتری.
+- **Visibility:** `customer` فقط حساب/سفارش خود؛ `support` صرفاً مشاهدهٔ مجاز و ماسک PII؛ `catalog_editor` فقط محتوا؛ `order_operator` فقط سفارش‌های مجاز؛ `admin` با MFA برای مدیریت نقش‌ها؛ `owner/superadmin` برای تغییر دسترسی سطح بالا با step-up و ثبت audit. permissions در **هر** API و query اعمال می‌شود؛ UI به‌تنهایی role enforcement محسوب نمی‌شود.
+
+### 4) ترتیب اجرایی دقیق نسخهٔ واقعی (همه NOT STARTED؛ P00 قبل از هر Migration/Provider)
+
+- [ ] **P00 — Baseline و تصمیم دامنه**
+  - **Build/output:** تأیید کشور/گروه مخاطب، سن قانونی/حریم خصوصی، نوع کالای واقعی، تسویه/پشتیبانی/مالیات و اینکه ثبت‌نام دوکاناله برای همه اجباری است؛ تعریف تفاوت DEMO و LIVE، no-guest-checkout واقعی
+  - **PASS gate/failure:** user journey و acceptance با scope signed؛ قوانین/جغرافیا UNVERIFIED → توقف live
+- [ ] **P01 — Threat model و تصمیم ساختاری**
+  - **Build/output:** diagram مرزهای public/customer/admin/PSP، capability alternative مقایسه: static+one API+DB، managed Auth+DB، self-hosted OSS؛ security/cost/reversibility/ops. انتخاب سبک‌ترین backend واقعی **با تأیید مالک**، نه چسباندن API به S14A
+  - **PASS gate/failure:** ADR reviewed، roles/sessions/CSRF/BOLA scenarios، rollout + rollback؛ NO CODE CHANGE UNTIL DECISION
+- [ ] **P02 — قرارداد داده و مهاجرت ایمن**
+  - **Build/output:** entities/fks/uniqueness/statuses/customer_id/membership_code، indexes، monetary minor units، retention، DB selection، migration plan up/down و encrypted backups
+  - **PASS gate/failure:** schema migration tests on isolated disposable fixture; no production migration without approval
+- [ ] **P03 — انتخاب Provider و Free-First**
+  - **Build/output:** email delivery، SMS route + coverage، Auth/Passkey/MFA، hosting/DB/backups، PSP؛ official pricing/quota/overage, ToS/eligibility/KYC/security/data region, free mocks
+  - **PASS gate/failure:** decision table reviewed; unknown costs or geographic eligibility → DENY; no install/signup/billing until approval
+- [ ] **P04 — کوچک‌ترین vertical سرور و state واقعی**
+  - **Build/output:** یک local HTTPS-safe dev runtime/API (Node native or proven minimal server), durable selected DB local fixture، health/readiness، migration dry-run، integration logs بدون secret
+  - **PASS gate/failure:** real request→transaction→restart→same state؛ rollback/recovery؛ no public reachability by default
+- [ ] **P05 — ثبت‌نام مشتری / تأیید ایمیل**
+  - **Build/output:** signup customer-only، normalize/unique email، clear consent، single-use expiring confirmation link/code، pending status، resend limits و generic responses
+  - **PASS gate/failure:** duplicate/replay/enumeration/expired/rate-limit tests؛ email provider mock first, no real recipients
+- [ ] **P06 — تأیید شمارهٔ موبایل**
+  - **Build/output:** E.164 & country selector، SMS challenge sender interface، one-time challenge/expiry/cooldown، wrong attempts/undeliverable handling و phone-change workflow
+  - **PASS gate/failure:** mock SMS + real DB state integration؛ no bypass to ACTIVE; live SMS only after legal coverage & cost approval
+- [ ] **P07 — عضویت نهایی و پروفایل**
+  - **Build/output:** issue atomic `membership_code` and immutable internal customer principal after both checks؛ active profile/locale/verified contacts/history view
+  - **PASS gate/failure:** concurrency/retry duplicate-safe, uniqueness, disabled/closed behavior, account changes preserve historical orders
+- [ ] **P08 — ورود مشتری، session و recovery**
+  - **Build/output:** password/passkey or other selected login with server-side sessions, secure cookies, log out all devices, password reset/MFA/recovery with verified change flow
+  - **PASS gate/failure:** cookie/session fixation/revocation, brute-force, CSRF, persistent re-login, accessible OTP/PW managers
+- [ ] **P09 — هویت مدیر مستقل و RBAC**
+  - **Build/output:** invite-only admin enrollment, distinct login screen/origin/session scope, mandatory phishing-resistant MFA where supported, role approvals, step-up on sensitive actions, recovery by audited owner process
+  - **PASS gate/failure:** automated 401/403 and cross-tenant negative tests, customer/admin privilege isolation, forced role downgrade/revoke
+- [ ] **P10 — کاتالوگ عملیاتی**
+  - **Build/output:** approved live SKU, stock/availability if relevant, money currency/price_minor from server, draft/publish and localization; map 6 demo kits to real items only with review
+  - **PASS gate/failure:** price tampering/conflicts/out-of-stock/versioned snapshot/rollback
+- [ ] **P11 — سبد و ثبت سفارش متصل به عضویت**
+  - **Build/output:** authenticated cart, server-side totals, immutable owner_principal_id, line-item snapshots, idempotent create, no anonymous paid checkout
+  - **PASS gate/failure:** user A cannot create/read/edit B's orders, forged member code denied, double-click/reload consistent
+- [ ] **P12 — درگاه sandbox با adapter قابل تعویض**
+  - **Build/output:** approved PSP sandbox, server creates payment intent/session; callback signature/time/replay/reconciliation, failure/timeout/return logic; hosted checkout lowers card-data scope
+  - **PASS gate/failure:** no direct PAN/CVV collection, signed fake/duplicate/out-of-order webhook tests, no marking PAID from browser redirect
+- [ ] **P13 — تحویل و عملیات پس از خرید**
+  - **Build/output:** digital entitlement or human fulfillment, email receipt/status from outbox, invoice/receipt requirements, return/refund/cancel workflows, order detail in customer account
+  - **PASS gate/failure:** one payment ⇒ one entitlement; retry/restart safe; order history remains linked after profile edits
+- [ ] **P14 — پنل ادمین واقعی**
+  - **Build/output:** separate console with customers masked, orders/search/refunds/catalog/roles/support, audited updates, bulk export permission, metrics from DB only؛ S14A remains local content editor
+  - **PASS gate/failure:** each action RBAC, step-up, audit/revert, privilege escalation tests and mobile/desktop UX
+- [ ] **P15 — حریم خصوصی، قوانین و پشتیبانی**
+  - **Build/output:** purpose-specific consent, privacy/terms/refund/fulfillment, retention/export/deletion/contact path, cookie policy, age/jurisdiction check, localized transactional templates
+  - **PASS gate/failure:** legal and regional review, accessibility of consent, PII minimization and verified deletion without destroying required accounting records
+- [ ] **P16 — عملیات و بازیابی**
+  - **Build/output:** metrics/alert for auth/SMS/webhook/order latency & errors, sanitized audit logs, rate limiting and abuse protection, backup restore tests, recovery runbook, key rotation/incident procedure
+  - **PASS gate/failure:** simulated provider outage, DB disconnect, disaster-recovery restore and no double charge
+- [ ] **P17 — QA امنیت/UX/عملکرد**
+  - **Build/output:** OWASP ASVS 5.0 applicable controls + WSTG, API ownership attacks, threat-test E2E, WCAG 2.2 AA accessible auth in 5 languages, load/race/responsiveness, security tests in CI
+  - **PASS gate/failure:** T31–T45 all relevant PASS with evidence; manual review and independent security check before real users
+- [ ] **P18 — انتشار کنترل‌شده و پذیرش عملیاتی**
+  - **Build/output:** verified domain/TLS/SMTP-SMS/PSP/DB hosting + secret management + admin runbook; staged roll-out, owner rehearsal, monitoring, rollback
+  - **PASS gate/failure:** separate explicit approval for each consequential action; real signup→dual verification→member ID→order→signed paid→fulfillment trace + owner acceptance
+
+### 5) کشف قابلیت‌های ضروریِ فراموش‌شده برای «سایت واقعی» (هیچ‌کدام در DEMO قبلی ساخته نشده‌اند)
+| بخش | خروجی/رفتار لازم در نسخهٔ واقعی | مالک اجرایی |
+|---|---|---|
+| عضویت/امنیت حساب | فرم ثبت‌نام پنج‌زبانه، پذیرش سیاست، verify email + phone مستقل، resend/cooldown، disabled/pending states، شناسه عضویت، login/logout، reset/recovery، sessions/devices | P05–P09 |
+| مسیر مشتری | پروفایل، ویرایش راه‌های ارتباطی با تأیید مجدد، نشانی/صورتحساب فقط در صورت نیاز، تاریخچهٔ سفارش، فاکتور/رسید واقعی، دانلود مجاز، cancel/refund و مرکز پیام/پشتیبانی | P07–P08/P13/P15 |
+| مدیریت واقعی | ورود جدا و admin invitation، MFA/passkey، permissions جزئی، Dashboard مبتنی بر آمار واقعی، کارتابل سفارش/کاربر/کالا، مجوزهای staff، audit، گزارش/اکسپورت محدود، عملیات refund | P09/P14/P16 |
+| تجارت واقعی | مالکیت سفارش، مجوز خرید فقط بعد از ACTIVE، سبد سمت سرور، قیمت و مالیات/ارز/تخفیف (در صورت نیاز) از DB، موجودی/تحویل، failure/abandon/timeout، رسید، refund/chargeback و settlement | P10–P13 |
+| اعتماد و انطباق | Privacy/Terms/Refund/Delivery، consent/preferences، data export/deletion، retention، cookies، دسترس‌پذیری ایمیل/OTP، قرارداد حقوقی واقعی بر مبنای حوزهٔ قضایی | P00/P15/P17 |
+| قابلیت عملیاتی | CI تست API/DB migration، staging ایزوله، ثبت رخداد بدون PII/رمز، queue/outbox برای email/SMS، alert/rate-limit/bot-abuse، backup/restore، incident response، secret rotation و reversibility | P02/P04/P16–P18 |
+| تجربهٔ سایت و رشد | SEO فقط صفحات عمومی؛ `account`، `admin`، `orders`، checkout و receipts را noindex/private نگه دار؛ i18n transactional messages، 404/500، password manager/autofill، mobile/tablet/desktop و 200%/400% reflow | S15–S20 + P05–P18 |
+| تغییرات آیندهٔ مشروط | coupon, tax engine, invoice gateway, wishlist, subscriptions, CRM, newsletter, analytics, social login, fraud scoring و inventory فقط با use case/قانون/تست/هزینهٔ مشخص؛ برای کامل‌بودن نوع سایت «همه‌چیز» را بی‌نیاز نمی‌سازیم | هنگام نیاز → impact analysis + owner approval |
+
+### 6) مقایسهٔ ابزارها/هزینه — بررسی رسمی اولیه، هیچ انتخاب یا اتصال انجام نشده
+| گزینه | ظرفیت فنی | واقعیت هزینه/محدودیت بررسی‌شده | تصمیم اکنون |
+|---|---|---|---|
+| HTML/CSS/JS فعلی + **یک** backend و DB انتخابی | حفظ UX/asset و اتصال امن API به server | می‌توان با Node/Python موجود و mock email/SMS/PSP لوکال تست اولیه را **بدون هزینهٔ provider** انجام داد؛ hosting, DB production, SMS/email/PSP هزینه/شرط مستقل دارد | **مرجع معماری سبکِ پیشنهادی؛ نه provider/DB انتخاب‌شده** |
+| Supabase Auth/DB (Managed) | email auth, Postgres, phone provider/hooks, session/RLS با طراحی درست | Free plan در اسناد رسمی وجود دارد؛ Phone MFA advanced در Free شامل نیست؛ SMS provider/region/cost جدا باید تأیید شود؛ جغرافیا/overage unknown | **candidate / NOT CONNECTED**, قیمت و محدودیت هر مسیر دوباره verify شود |
+| Firebase Auth | account system و SMS verification | اسناد رسمی: SMS برای Phone Auth **pay-as-you-go/Blaze** و نیازمند billing account است؛ Free-first به‌خودی‌خود پوشش دوکاناله نمی‌دهد | **نامناسب برای اجرای SMS بدون approval بودجه** |
+| Clerk/hosted identity | UI/account sessions, MFA, provider-managed user store | Free برای تا ۵۰هزار monthly retained users در صفحه رسمی؛ **هزینه/سهمیهٔ SMS/جغرافیا و overage برای این use case نامعلوم** | **candidate / UNKNOWN DENY activation** |
+| Keycloak/ZITADEL خودمیزبان | identity/access و نقش‌ها با نرم‌افزار قابل میزبانی | کد ممکن است رایگان باشد؛ سرور، عملیات، backup و ارسال SMS/email مجانی فرض نمی‌شود؛ نیاز به مقایسه با گزینهٔ تک‌برنامه‌ای | **alternative مشروط به ارزش عملیاتی** |
+| Stripe-hosted checkout (صرفاً الگوی فنی) | webhooks, server-side payment, idempotency و PCI-scope reduction | استناد فقط برای الگوی امضای webhook و retry؛ **نه توصیهٔ دسترسی حساب/درگاه برای مالک**؛ merchant eligibility/region/KYC/fee/settlement اصلاً برای این پروژه بررسی و تأیید نشده | **REFERENCE ONLY — NO ACCOUNT / NO PAYMENT** |
+
+### 7) الزامات ویژهٔ UX برای هر دو درگاه ورود
+- **Visitor:** `/{locale}/account/register`, `/verify-email`, `/verify-phone`, `/login`, `/recover`, `/me`, `/me/orders/:id`, `/me/security` در نسخهٔ تولیدی؛ همهٔ routes دارای login-gated/noindex، فرم واضح، مرحله‌بندی ۱/۲، امکان paste/autocomplete OTP و password managers، پیام‌های بدون account enumeration، حافظهٔ امن و متن resend/expiry به پنج زبان. پیام تأیید عضویت **تنها پس از verify کامل و transaction commit** کد عضویت را نشان می‌دهد؛ در صف ارسال ایمیل/پیامک قطعی ارسال‌شده ادعا نمی‌شود.
+- **Admin:** در محیط جدا (subdomain/origin در صورت امکان) `sign-in → passkey/MFA → role-aware dashboard`، navigation/branding مستقل و مجوزهای قابل رؤیت، session کوتاه‌تر، step-up برای refund/role changes، recovery فرآیند انسانی ثبت‌شده، عدم امکان public admin signup؛ کارکنان فقط بخش مجاز خود را ببینند. وقتی درخواست به API کاربر/سفارش دیگری داده می‌شود، سرور مستقل 403/404 مجاز برگرداند.
+- **خطاها:** اشتباه بودن OTP، تاخیر/قطع SMS، تغییر شماره، ایمیل تکراری، نشست منقضی، دو تب همزمان، browser back/refresh، انصراف از پرداخت، تکرار webhook و استرداد مالی با UI پنج‌زبانه و تست‌های منفی پوشش داده شوند. Accessibility از ابتدا (WCAG 2.2 Accessible Authentication 3.3.8) شامل اجازهٔ paste، autofill، نمایش خطای قابل فهم و alternative method است.
+
+### 8) منابع اصلی پژوهش 2026-11-22 (FACT SOURCES، نه شواهد پیاده‌سازی)
+- [OWASP ASVS 5.0](https://asvs.owasp.org/) · [Authentication](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html) · [Email Verification](https://cheatsheetseries.owasp.org/cheatsheets/Email_Validation_and_Verification_Cheat_Sheet.html) · [MFA](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html) · [Passkeys](https://cheatsheetseries.owasp.org/cheatsheets/Passkey_Security_Cheat_Sheet.html) · [Password Storage](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html).
+- [NIST SP 800-63B-4 authenticators](https://pages.nist.gov/800-63-4/sp800-63b/authenticators/) (email verification ≠ email-based OOB login؛ SMS restricted) · [NIST SP 800-63A address confirmation](https://pages.nist.gov/800-63-4/sp800-63a/ial-general/) · [OWASP Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) · [OWASP API BOLA](https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/) · [Session Management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html).
+- [W3C WCAG 2.2 Accessible Authentication](https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html) · [OWASP Logging](https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html) · [PCI SSC payment outsourcing](https://www.pcisecuritystandards.org/faqs/1439/) · [Stripe webhook verification pattern](https://docs.stripe.com/webhooks) · [Stripe idempotency pattern](https://docs.stripe.com/api/idempotent_requests) · [UK ICO privacy by design](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/accountability-and-governance/guide-to-accountability-and-governance/data-protection-by-design-and-by-default/).
+- [Supabase Free pricing](https://supabase.com/pricing) · [Supabase phone SMS](https://supabase.com/docs/guides/auth/phone-login) · [Firebase SMS charges](https://firebase.google.com/pricing) · [Firebase Auth limits](https://firebase.google.com/docs/auth/limits) · [Clerk pricing](https://clerk.com/pricing) · [ZITADEL self-host alternative](https://zitadel.com/docs/self-hosting/deploy/overview). **All prices, region/eligibility, data regulations and overage need revalidation at selection time.**
+
+**Stop/next:** در درخواست فعلی تنها **پژوهش و نقشهٔ راه** مجاز/انجام‌شده است؛ S12A و P00–P18 اجرا نشده‌اند. ادامهٔ ترتیبی امن: **S12A** (بازبینی قراردادهای S02/S04/S05/S07 و approval معماری) → S13 Demo Cart → S14 Demo Contact → S14A local Content Studio → S15–S20 demo QA؛ همزمان یا پس از تأیید مستقل، P00–P18 برای ساخت سایت واقعی با backend. آغاز کد production زودتر از گیت S12A/P00/P01 ممنوع؛ اما تحقیق و طراحی UI می‌تواند از همین حالا بدون provider/PII ادامه یابد.
