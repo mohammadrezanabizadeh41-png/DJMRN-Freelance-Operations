@@ -215,6 +215,58 @@
           "description": "چک‌لیست نمایشی سرعت و سازگاری موبایل.",
           "alt": "تصویر مفهومی اصیل از گزارش بررسی سرعت و نمایش موبایل"
         }
+      },
+      "homeExperience": {
+        "kicker": "استودیوی دیجیتال · نمونهٔ مفهومی",
+        "audience": "برای کسب‌وکارهای کوچک، تیم‌های خلاق و ایده‌هایی که به حضور دیجیتال روشن نیاز دارند.",
+        "heroNote": "پنج زبان، طراحی سبک و مسیرهای قابل فهم — در این نمونهٔ نمایشی.",
+        "visualLabel": "یک منظومهٔ بصری برای تجربه‌های دیجیتال",
+        "statsLabel": "ابعاد واقعی همین نمونه",
+        "stats": [
+          "حوزهٔ خدمات",
+          "پروژهٔ مفهومی",
+          "بستهٔ آزمایشی"
+        ],
+        "sampleNotice": "شمار واقعی اجزای این نمونه، نه آمار فروش یا مشتری.",
+        "introKicker": "رویکرد طراحی",
+        "introTitle": "شفافیت و تجربهٔ خوب، پیش از جلوه‌های ظاهری",
+        "introLead": "سایت حرفه‌ای فقط یک نمای زیبا نیست؛ باید به مخاطب کمک کند خدمات را درک کند، مسیر را پیدا کند و تصمیم بگیرد.",
+        "principles": [
+          {
+            "title": "وضوح در اولین نگاه",
+            "description": "ارزش و ساختار خدمات به‌سادگی و بدون اصطلاحات پیچیده نمایش داده می‌شود."
+          },
+          {
+            "title": "دسترس‌پذیری از ابتدا",
+            "description": "زبان، جهت نوشتار، صفحه‌کلید و نمایشگر کوچک بخشی از طراحی‌اند."
+          },
+          {
+            "title": "جزییات هدفمند",
+            "description": "تایپوگرافی، تصویر و حرکت باید فهم محتوا را بهتر کنند، نه آن را بپوشانند."
+          }
+        ],
+        "methodKicker": "نقشهٔ همکاری فرضی",
+        "methodTitle": "سه گام برای شکل‌دادن یک تجربهٔ دیجیتال",
+        "methodLead": "این روند صرفاً روش پیشنهادی در یک پروژهٔ مفهومی است و نشان‌دهندهٔ مشتری یا همکاری واقعی نیست.",
+        "steps": [
+          {
+            "title": "شناخت نیاز",
+            "description": "مخاطب، هدف و محدودیت‌های پروژهٔ فرضی را روشن می‌کنیم."
+          },
+          {
+            "title": "طراحی مسیر",
+            "description": "ساختار اطلاعات، محتوا و نمونهٔ تعامل را کنار هم می‌گذاریم."
+          },
+          {
+            "title": "ساخت و بررسی",
+            "description": "نسخهٔ قابل آزمایش می‌سازیم و روی دستگاه‌ها و زبان‌های مختلف می‌سنجیم."
+          }
+        ],
+        "nextKicker": "ادامهٔ مسیر",
+        "nextTitle": "از یک ایدهٔ ساده، تجربه‌ای واضح بسازیم",
+        "nextLead": "این صفحه نمایش مفهومی است. خدمات و نمونه‌کارهای آزمایشی را مرور کنید؛ هیچ درخواست یا پیام واقعی از اینجا ارسال نمی‌شود.",
+        "nextPrimary": "مرور خدمات",
+        "nextSecondary": "دیدن نمونه‌کارهای مفهومی"
       }
     },
     "en": {
@@ -390,6 +442,58 @@
           "description": "A demo checklist for speed and responsive behavior.",
           "alt": "Original concept artwork for a mobile performance checklist"
         }
+      },
+      "homeExperience": {
+        "kicker": "Digital studio · concept experience",
+        "audience": "Designed for independent businesses, creative teams and ideas that need a clearer digital presence.",
+        "heroNote": "Five languages. Lightweight pages. Thoughtful interaction — all within a concept demo.",
+        "visualLabel": "An original visual system for digital experiences",
+        "statsLabel": "The real scope of this demo",
+        "stats": [
+          "Service areas",
+          "Concept cases",
+          "Demo kits"
+        ],
+        "sampleNotice": "Actual content counts in this demo — not clients or sales.",
+        "introKicker": "Our approach, illustrated",
+        "introTitle": "Clarity before decoration. Purpose before motion.",
+        "introLead": "A compelling website does more than look polished. It helps visitors understand an offer, find their way and make an informed choice.",
+        "principles": [
+          {
+            "title": "Clear from the first glance",
+            "description": "An understandable message, useful service categories and visible next steps."
+          },
+          {
+            "title": "Accessible by design",
+            "description": "Language, reading direction, keyboard access and small screens belong in the starting brief."
+          },
+          {
+            "title": "Details with a purpose",
+            "description": "Type, images and restrained motion support the story instead of competing with it."
+          }
+        ],
+        "methodKicker": "Illustrative workflow",
+        "methodTitle": "Three steps toward a meaningful digital experience",
+        "methodLead": "This is a proposed design process for a fictional project, not evidence of a real client engagement.",
+        "steps": [
+          {
+            "title": "Discover the need",
+            "description": "Understand the hypothetical audience, objective and project constraints."
+          },
+          {
+            "title": "Shape the direction",
+            "description": "Connect information structure, copy and interface decisions."
+          },
+          {
+            "title": "Build and learn",
+            "description": "Create a testable version and evaluate it across devices and languages."
+          }
+        ],
+        "nextKicker": "Keep exploring",
+        "nextTitle": "Good digital work starts with a clear direction",
+        "nextLead": "This site is a design concept. Browse the services and fictional work; no inquiry or personal information is submitted here.",
+        "nextPrimary": "Explore services",
+        "nextSecondary": "View concept work"
       }
     },
     "ar": {
@@ -565,6 +669,58 @@
           "description": "قائمة توضيحية للسرعة والتجاوب مع الأجهزة.",
           "alt": "تصور أصلي لقائمة فحص الأداء على الهاتف"
         }
+      },
+      "homeExperience": {
+        "kicker": "استوديو رقمي · تجربة تصورية",
+        "audience": "تصور تصميمي للأعمال المستقلة والفرق الإبداعية والأفكار التي تحتاج إلى حضور رقمي واضح.",
+        "heroNote": "خمس لغات، صفحات خفيفة وتفاعل مدروس — ضمن عرض تجريبي فقط.",
+        "visualLabel": "منظومة بصرية أصلية للتجارب الرقمية",
+        "statsLabel": "النطاق الفعلي لهذا العرض",
+        "stats": [
+          "مجالات الخدمة",
+          "أعمال تصورية",
+          "باقات تجريبية"
+        ],
+        "sampleNotice": "أعداد حقيقية لعناصر هذا العرض، وليست إحصاءات عملاء أو مبيعات.",
+        "introKicker": "منهج التصميم",
+        "introTitle": "الوضوح قبل الزخرفة، والهدف قبل الحركة",
+        "introLead": "الموقع الجيد ليس مظهراً جميلاً فقط؛ بل يساعد الزائر على فهم الخدمات والتنقل واتخاذ قرار مناسب.",
+        "principles": [
+          {
+            "title": "فكرة واضحة من البداية",
+            "description": "رسالة مفهومة، وتصنيف واضح للخدمات، وخطوة تالية يسهل العثور عليها."
+          },
+          {
+            "title": "إمكانية الوصول جزء من التصميم",
+            "description": "اللغة واتجاه القراءة ولوحة المفاتيح والشاشات الصغيرة اعتبارات أساسية."
+          },
+          {
+            "title": "تفاصيل تؤدي وظيفة",
+            "description": "تدعم الخطوط والصور والحركة الهادئة فهم المحتوى دون تشتيت."
+          }
+        ],
+        "methodKicker": "مسار عمل افتراضي",
+        "methodTitle": "ثلاث خطوات لتشكيل تجربة رقمية مفيدة",
+        "methodLead": "هذا مسار مقترح لمشروع تصوري، وليس دليلاً على وجود عملاء أو تعاقدات فعلية.",
+        "steps": [
+          {
+            "title": "فهم الحاجة",
+            "description": "تحديد الجمهور والهدف والقيود في مشروع افتراضي."
+          },
+          {
+            "title": "تحديد الاتجاه",
+            "description": "الربط بين بنية المعلومات والمحتوى وقرارات الواجهة."
+          },
+          {
+            "title": "البناء والتحسين",
+            "description": "إنشاء نسخة قابلة للاختبار ومراجعتها على أجهزة ولغات مختلفة."
+          }
+        ],
+        "nextKicker": "استكشف المزيد",
+        "nextTitle": "تبدأ التجربة الرقمية الجيدة باتجاه واضح",
+        "nextLead": "هذا الموقع عرض مفهومي. تصفّح الخدمات والأعمال التجريبية؛ لا تُرسل طلبات أو بيانات شخصية من هنا.",
+        "nextPrimary": "استكشاف الخدمات",
+        "nextSecondary": "مشاهدة الأعمال التصورية"
       }
     },
     "tr": {
@@ -740,6 +896,58 @@
           "description": "Hız ve duyarlı tasarım için demo kontrol listesi.",
           "alt": "Mobil performans kontrol listesinin özgün konsept görseli"
         }
+      },
+      "homeExperience": {
+        "kicker": "Dijital stüdyo · konsept deneyimi",
+        "audience": "Daha açık bir dijital varlık isteyen bağımsız işletmeler, yaratıcı ekipler ve fikirler için tasarım konsepti.",
+        "heroNote": "Beş dil, hafif sayfalar ve özenli etkileşim — yalnızca konsept gösterimi.",
+        "visualLabel": "Dijital deneyimler için özgün bir görsel sistem",
+        "statsLabel": "Bu demonun gerçek kapsamı",
+        "stats": [
+          "Hizmet alanı",
+          "Konsept çalışma",
+          "Demo paketi"
+        ],
+        "sampleNotice": "Bunlar gerçek içerik adetleridir; müşteri veya satış verileri değildir.",
+        "introKicker": "Tasarım yaklaşımı",
+        "introTitle": "Önce açıklık, sonra görsellik. Önce amaç, sonra hareket.",
+        "introLead": "İyi bir web sitesi yalnızca şık görünmez; ziyaretçilerin hizmetleri anlamasını, yolunu bulmasını ve bilinçli seçim yapmasını sağlar.",
+        "principles": [
+          {
+            "title": "İlk bakışta açıklık",
+            "description": "Anlaşılır bir mesaj, düzenli hizmet alanları ve görünür sonraki adımlar."
+          },
+          {
+            "title": "Başlangıçtan itibaren erişilebilirlik",
+            "description": "Dil, yazı yönü, klavye kullanımı ve küçük ekranlar tasarımın parçasıdır."
+          },
+          {
+            "title": "Amaca hizmet eden ayrıntılar",
+            "description": "Tipografi, görseller ve hafif hareketler içeriği destekler; dikkat dağıtmaz."
+          }
+        ],
+        "methodKicker": "Örnek çalışma süreci",
+        "methodTitle": "Anlamlı bir dijital deneyim için üç adım",
+        "methodLead": "Bu, kurgusal bir proje için önerilen yaklaşımdır; gerçek müşteri çalışması iddiası değildir.",
+        "steps": [
+          {
+            "title": "İhtiyacı keşfet",
+            "description": "Varsayımsal hedef kitleyi, amacı ve kısıtları belirle."
+          },
+          {
+            "title": "Yönü şekillendir",
+            "description": "Bilgi mimarisini, içeriği ve arayüz kararlarını birleştir."
+          },
+          {
+            "title": "Oluştur ve öğren",
+            "description": "Test edilebilir bir sürüm hazırla ve farklı cihaz ve dillerde değerlendir."
+          }
+        ],
+        "nextKicker": "Keşfetmeye devam edin",
+        "nextTitle": "İyi dijital deneyimler net bir yönle başlar",
+        "nextLead": "Bu site bir tasarım konseptidir. Hizmetlere ve kurgusal çalışmalara göz atın; buradan gerçek talep veya kişisel bilgi gönderilmez.",
+        "nextPrimary": "Hizmetleri keşfet",
+        "nextSecondary": "Konsept çalışmaları gör"
       }
     },
     "de": {
@@ -915,6 +1123,58 @@
           "description": "Demo-Checkliste zu Geschwindigkeit und responsiver Darstellung.",
           "alt": "Eigenständige Konzeptgrafik einer Checkliste für mobile Performance"
         }
+      },
+      "homeExperience": {
+        "kicker": "Digitalstudio · Konzeptpräsentation",
+        "audience": "Ein Designkonzept für selbstständige Unternehmen, Kreativteams und Ideen, die einen klaren digitalen Auftritt brauchen.",
+        "heroNote": "Fünf Sprachen, schlanke Seiten und durchdachte Interaktionen — ausschließlich als Demo.",
+        "visualLabel": "Ein eigenständiges visuelles System für digitale Erlebnisse",
+        "statsLabel": "Der tatsächliche Umfang dieser Demo",
+        "stats": [
+          "Leistungsbereiche",
+          "Konzeptarbeiten",
+          "Demo-Pakete"
+        ],
+        "sampleNotice": "Echte Inhaltszahlen dieser Demo, keine Kunden- oder Verkaufsstatistik.",
+        "introKicker": "Unser Designansatz",
+        "introTitle": "Klarheit vor Dekoration. Zweck vor Bewegung.",
+        "introLead": "Eine gute Website sieht nicht nur hochwertig aus: Sie hilft Menschen, das Angebot zu verstehen, sich zu orientieren und bewusst zu entscheiden.",
+        "principles": [
+          {
+            "title": "Von Anfang an verständlich",
+            "description": "Eine klare Botschaft, sinnvolle Leistungskategorien und sichtbare nächste Schritte."
+          },
+          {
+            "title": "Barrierefreiheit mitdenken",
+            "description": "Sprache, Leserichtung, Tastaturbedienung und kleine Bildschirme gehören zur Grundlage."
+          },
+          {
+            "title": "Details mit Funktion",
+            "description": "Typografie, Bildsprache und dezente Bewegung unterstützen den Inhalt statt abzulenken."
+          }
+        ],
+        "methodKicker": "Beispielhafter Projektablauf",
+        "methodTitle": "Drei Schritte zu einem durchdachten digitalen Erlebnis",
+        "methodLead": "Dieser Ablauf ist ein Vorschlag für ein fiktives Projekt und kein Nachweis einer echten Kundenbeziehung.",
+        "steps": [
+          {
+            "title": "Bedarf verstehen",
+            "description": "Zielgruppe, Absicht und Rahmenbedingungen eines Beispielprojekts klären."
+          },
+          {
+            "title": "Richtung gestalten",
+            "description": "Informationsstruktur, Inhalte und Entscheidungen zur Oberfläche verbinden."
+          },
+          {
+            "title": "Umsetzen und prüfen",
+            "description": "Eine testbare Version erstellen und auf Geräten und in verschiedenen Sprachen bewerten."
+          }
+        ],
+        "nextKicker": "Weiter entdecken",
+        "nextTitle": "Gute digitale Arbeit beginnt mit einer klaren Richtung",
+        "nextLead": "Dies ist eine Konzeptwebsite. Entdecken Sie Leistungen und fiktive Arbeiten; hier werden keine Anfragen oder personenbezogenen Daten übermittelt.",
+        "nextPrimary": "Leistungen entdecken",
+        "nextSecondary": "Konzeptarbeiten ansehen"
       }
     }
   }

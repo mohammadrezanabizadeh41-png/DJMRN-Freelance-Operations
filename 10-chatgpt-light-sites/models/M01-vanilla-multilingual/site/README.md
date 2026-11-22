@@ -50,3 +50,16 @@ Remaining out of scope for S08: independent Services, Work, Catalog, Contact, DE
 The same deterministic build script now generates semantic header, main/skip, footer and language navigation for every locale. Language and current-page controls are real links. The disclosure menu is progressive enhancement only: at viewports up to 56rem with JavaScript it opens/closes through a native button, manages aria-expanded, closes on Escape, outside click, link choice and resize, and returns keyboard focus to the trigger on Escape. Without JavaScript the navigation stays visible and usable.
 
 For reproducibility: run node ./scripts/render-home-locales.mjs, then node --test ./tests/*.test.mjs. Edge/Playwright interaction evidence and checksums are recorded once in the existing 03-EXECUTION-ROADMAP.md stage S09. No separate route kind beyond Home was created here, and the 25 remaining independent pages are still pending.
+## S10 editorial Home release (five locales; local demo)
+
+The existing Home pages for fa/ar RTL and en/tr/de LTR now have:
+- a focused editorial hero with original S06 artwork, localized audience and message, and two real same-page CTAs;
+- **actual content counts** (six service entries, three fictional concept cases and six demo kits) instead of claimed visitor/sales statistics;
+- three localized design principles, an illustrative three-step workflow and closing navigation that works without JavaScript;
+- one shared responsive stylesheet at site/assets/css/home.css, with keyboard focus and reduced-motion fallback.
+
+The copy authority stays content/i18n.v1.json (the existing DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING status). The deterministic scripts/render-home-locales.mjs imports scripts/home-sections.mjs. Run node scripts/render-home-locales.mjs and then node --test tests/*.test.mjs from the model root. The visible Home references are functional sections only; separate /services/, /work/, /catalog/, /contact/ and /demo-checkout/ routes are still planned for S11–S14.
+
+Local preview: http://127.0.0.1:4173/fa/ on the laptop (requires running the existing Node preview server). If the already authorized same-Wi-Fi LAN relay is running, its address can be checked separately; it does not expose the content editor or create a public website.
+
+No real clients, analytics, purchases, form submission, production hosting, paid dependencies or CMS have been added. S10 does not complete S14A and does not authorize deployment.

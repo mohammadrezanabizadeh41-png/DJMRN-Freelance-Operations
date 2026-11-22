@@ -3,6 +3,7 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {join,resolve,dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {makeHomeBlocks} from './home-sections.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const site=join(root,'site');
@@ -32,6 +33,7 @@ function buildHome(locale){
  const l=data.locales[locale],home=l.views.home;
  if(!l||!home||!['rtl','ltr'].includes(l.dir))throw Error('Locale missing '+locale);
  for(const k of ['title','description','h1','lead'])if(!home[k])throw Error('Missing Home '+k+' for '+locale);
+ const x=makeHomeBlocks(locale,data,esc);
  const nav='<nav class="site-nav" id="primary-nav" aria-label="'+esc(l.ui.primaryNavigation)+'">'
    +hrefs.map(k=>'<a href="'+(k==='home'?'/'+locale+'/':'#'+k)+'"'+(k==='home'?' aria-current="page"':'')+'>'+esc(l.nav[k])+'</a>').join('\n')
    +'</nav>';
@@ -54,6 +56,7 @@ function buildHome(locale){
  '<link rel="stylesheet" href="/assets/css/tokens.css">',
  '<link rel="stylesheet" href="/assets/css/base.css">',
  '<link rel="stylesheet" href="/assets/css/components.css">',
+ '<link rel="stylesheet" href="/assets/css/home.css">',
  '<link rel="icon" href="/favicon.svg" type="image/svg+xml">',
  '<script type="module" src="/assets/js/main.js"></script>',
  '</head>',
@@ -69,20 +72,29 @@ function buildHome(locale){
  '<main id="main-content" tabindex="-1">',
  '<section class="hero" aria-labelledby="hero-heading">',
  '<div class="hero-copy">',
- '<p class="eyebrow">'+esc(l.ui.concept)+' · '+esc(l.ui.demo)+'</p>',
+ '<p class="eyebrow">'+x.kicker+'</p>',
  '<h1 id="hero-heading">'+esc(home.h1)+'</h1>',
  '<p class="hero-lead">'+esc(home.lead)+'</p>',
+ x.heroContext,
  '<div class="hero-actions"><a class="btn btn-primary" href="#services">'+esc(l.ui.viewServices)+'</a><a class="btn btn-secondary" href="#work">'+esc(l.ui.viewWork)+'</a></div>',
  '</div>',
+ '<figure class="hero-art-frame">',
+ x.visualLabel,
  '<img class="hero-art" src="/assets/img/nova-hero-original.svg" alt="" width="1200" height="720" decoding="async" aria-hidden="true">',
+ '<figcaption>'+esc(l.homeExperience.visualLabel)+'</figcaption>',
+ '</figure>',
  '</section>',
+ x.stats,
+ x.intro,
  section(l,'services','services',l.views.services.lead,'<div class="service-grid">'+svc+'</div>'),
  section(l,'work','work',l.views.work.lead,'<div class="work-grid">'+work+'</div>'),
+ x.process,
  section(l,'catalog','catalog',l.views.catalog.lead,'<div class="kit-grid">'+catalog+'</div>'),
  '<section class="section contact-panel" id="contact" aria-labelledby="contact-title" tabindex="-1">',
  '<div><p class="eyebrow"><bdi dir="ltr">04</bdi> / '+esc(l.nav.contact)+'</p><h2 id="contact-title">'+esc(l.views.contact.h1)+'</h2><p>'+esc(l.views.contact.lead)+'</p></div>',
  '<p class="contact-status" role="note">'+esc(l.ui.noPersonalData)+'</p>',
  '</section>',
+ x.closing,
  '<aside class="demo-notice" aria-label="'+esc(l.ui.demo)+'"><strong>'+esc(l.ui.noPayment)+'</strong><p>'+esc(l.views.catalog.description)+'</p></aside>',
  '</main>',
  '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+esc(l.ui.demo)+'</span><nav class="footer-nav" aria-label="'+esc(l.ui.footerNavigation)+'">'+hrefs.map(k=>'<a href="'+(k==='home'?'/'+language+'/':'#'+k)+'">'+esc(l.nav[k])+'</a>').join('')+'</nav><a class="back-to-top" href="#main-content">'+esc(l.ui.backToTop)+'</a></footer>',
