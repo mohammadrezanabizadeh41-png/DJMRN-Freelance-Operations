@@ -52,9 +52,27 @@
 
 **وضعیت اجرا در این نوبت:** صرفاً **RESEARCHED / ROADMAP UPDATED**، بدون تغییر سورس واقعی `site/` یا اعمال تیک جدید. S01–S09 همان PASS قبلی، S10–S20 و S14A همچنان **NOT STARTED**.
 
+## ممیزی ابزارها و راهنمای بازسازی مراحل — 2026-11-22 (بدون ایجاد مرحلهٔ جدید)
+
+**Fact:** از S01 تا S10 ابزارهای مستقیم واقعاً مورد استفاده شامل Bridgerator/PowerShell، GitHub/Git، Node.js و Edge/Playwright برای بخش‌های اجرایی بوده‌اند؛ سایر ابزارهایی که اکنون موجودند (axe-core، HTML-Validate، Prettier، GIMP، Blender) الزاماً در آن PASSها استفاده نشده‌اند. **گزینه‌های بازسازی آینده** کنار هر مرحلهٔ S01–S10 درج شده‌اند و نباید به‌عنوان شواهد اجرای گذشته تلقی شوند. **S11–S20 و S14A همچنان NOT STARTED** و نقشهٔ ابزار آن‌ها شرط آمادگی است نه کار انجام‌شده.
+
+| معیار انتخاب | ساده‌ترین راه واقعی | افزودن ابزار فقط با گیت |
+|---|---|---|
+| Data/render/source | Node native + static HTML + GitHub canonical source | ابزار جدید نباید authority موازی بسازد |
+| E2E و موبایل/تبلت/دسکتاپ | Playwright 1.65.1 از QA موجود + Edge، یک worker | Playwright MCP/Chrome DevTools MCP فقط gap مستند، نه انباشت |
+| Syntax/HTML/style | Node --check/--test؛ HTML-Validate 11.21.1 برای آزمون جدید؛ Prettier 3.10.1 فقط check/diff | پکیج‌های QA فقط در M01-Prep/qa resolvable، نه runtime خود site |
+| دسترس‌پذیری | axe-core 4.14.1 + تست دستی مطابق W3C | ابزار اتوماتیک جای بازبینی زبان/کیبورد/Screen Reader را نمی‌گیرد |
+| عملکرد/SEO | DevTools Chrome/Edge و Lighthouse داخلی Chrome + Node link/size checks | تا سنجش واقعی score ننویس؛ SaaS SEO/CLI اضافی اختیاری |
+| دارایی تصویری | SVG اختصاصی S06 + CSS؛ GIMP نصب‌شده در صورت نیاز به raster | Blender نصب شده ولی سنگین و غیرضروری برای runtime M01؛ نصب Inkscape/Sharp/SVGO فقط روی gap واقعی |
+| Editable design | طرح HTML/CSS فعلی + screenshot/feedback | Penpot/Figma/Canva/Adobe Express/tldraw صرفاً Alternative و دسترسی/هزینه پروژه تأیید نشده |
+| امنیت و هزینه | بدون CMS/hosting واقعی/پرداخت، لوپ‌بک local، Git diff و بدون data شخصی | unknown quotas/fees/security permissions → STOP؛ upgrade/connect فقط با approval |
+
+**Authority:** وضعیت و نسخه‌های نصب در [parent tools/REGISTRY.md §N](../../tools/REGISTRY.md)، دستورهای دقیق انتخاب/کاربرد در [02 M01 Tools §7](02-STACK-TOOLS-AND-MCP.md)، برنامهٔ آزمون در [05 QA](05-QA-AND-HANDOFF.md)؛ این نقشه راه فقط مالک مرحله و نقش را ثبت می‌کند. ممیزی صرفاً مستندات را اصلاح کرده؛ **نصب/اکانت/پلاگین جدید، هزینه، تولید کد جدید و تغییر تیک مراحل = صفر**.
+
 ## کارتابل ۲۰ مرحلهٔ اصلی + مرحلهٔ الحاقی S14A — تیک فقط پس از اثبات معیار قبول
 
 - [x] **S01 — تأیید مبنا، دسترسی و جداسازی**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** Git/PowerShell/Bridgerator + Node/Edge ابزارهای واقعی مبنا بودند. بازسازی: نسخه‌ها، RAM، branch ایزوله و مسیر QA موجود را دوباره بخوان؛ HTML-Validate/Prettier را فقط وقتی سورس واقعی هست به‌صورت read-only به کار بگیر. نصب جدید لازم نیست.
   - **کار:** تطبیق شاخه Git و مسیر مستقل پروژه با RAM، Node/Git/VS Code، مرورگرها و تست viewport.
   - **ابزار/نقش:** Bridgerator + PowerShell + Git؛ Playwright Test + Edge برای smoke test پیش‌نیاز.
   - **نتیجه و زمان:** **PASS** — 2026-11-21، حدود 23:50 به ساعت دستگاه؛ شواهد در اجرای همان روز جمع‌آوری شدند و به درخواست صریح کاربر در GitHub ثبت شدند.
@@ -67,6 +85,7 @@
   - **مرحله بعد:** `S02 — NOT STARTED`. قبل از نوشتن سورس روی لپ‌تاپ، شاخه local به HEAD جدید GitHub fast-forward شود.
 
 - [x] **S02 — Brief کاربردی و مشتری فرضی**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** Brief همان authority موجود است؛ ابزار بهینه: GitHub docs و منابع رسمی با بررسی دستی. VS Code/Prettier فقط برای خوانایی پیش‌نویس؛ Figma/Penpot برای brief ضروری نیستند. این پیشنهاد بازسازی است، نه ابزار استفاده‌شده در S02.
   - **کار انجام‌شده:** تثبیت Brief اجرایی v1 برای مدل M01: سایت حرفه‌ای نمونه‌کار با برند نمایشی **NOVA Atelier**، خدمات دیجیتال و UI، سه مطالعه موردی مفهومی، کاتالوگ ۶ بسته دیجیتال و جریان پرداخت کاملاً آزمایشی. برند **موقت و قابل تعویض** است؛ حقوق نام تجاری/دامنه و هویت تجاری قطعی تأیید نشده‌اند.
   - **ابزار و منبع:** GPT-6 + سند موجود [01-RESEARCH-AND-BRIEF.md](01-RESEARCH-AND-BRIEF.md) (بخش جدید **2A — S02**)، نیازهای قبلاً تعیین‌شده کاربر، GitHub برای منبع کد.
   - **مخاطبان و مسیرها:** کسب‌وکار کوچک، شرکت/فریلنسر و مخاطب کاتالوگ نمایشی؛ سه مسیر `Home→Services→Work→Contact`، `Home→Work→Catalog→Demo Cart→Mock Receipt` و `Same page→Other language`. CTA اصلی «مشاهده خدمات / Explore services»، CTA ثانویه نمونه‌کار و کاتالوگ.
@@ -79,6 +98,7 @@
   - **مرحله بعد در زمان ثبت S02:** S03 پژوهش نمونه‌های مرجع بود و اکنون در همان کارتابل به حالت PASS رسیده است؛ پس از آن S04 آغاز می‌شود. بازگشت/اصلاح Brief از طریق Git commit قابل ردگیری است.
 
 - [x] **S03 — مرور رقبا/الگوهای طراحی روز**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** منابع و الگوها با مرورگر/viewport بررسی شدند. در بازآزمایی آینده Playwright موجود + Edge برای ۵ زبان/سه کلاس و DevTools برای مشاهده، بدون کپی asset؛ اگر Penpot برای annotation لازم شد، صرفاً OPTIONAL پس از تأیید اتصال و هزینه.
   - **کار:** مقایسهٔ منابع حرفه‌ای مرتبط با **NOVA Atelier** در سه viewport و سنجش ناوبری، گالری، کاتالوگ، حقوق دارایی و قابلیت انتقال الگو به HTML/CSS/JS بدون کپی. **زمان تکمیل پژوهش/آزمون:** 2026-11-22. **وضعیت S03: PASS (research/reference acceptance)**؛ این قبولی به معنی ساخت سایت یا تأیید QA نهایی M01 نیست.
   - **مبنای S01/S02:** محیط مستقل `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01`، QA موجود در `C:\Users\Mrn7206\Desktop\DJMRN-LightSites-M01-Prep\qa`، پنچ زبان `fa/ar RTL`, `en/tr/de LTR`، شش خدمت، سه Concept/Demo case، شش بستهٔ DEMO، ۲۵ صفحهٔ عمومی + ۵ checkout نمایشی `noindex` **فقط هدف آینده**. هیچ سایت واقعی، درگاه، دیتابیس، نصب تازه یا استقرار ساخته نشد.
   - **روش آزمون واقعی (نه صرفاً تئوری):** Bridgerator → PowerShell → Playwright موجود → Edge headless، یک مرورگر و فقط URLهای عمومی؛ `page.goto(waitUntil: 'commit')`، اندازه‌های 390×844، 820×900 و 1366×768 CSS px، ثبت `HTTP`، `documentElement.scrollWidth`، nav/headings/buttons/cardRect و screenshot در فایل محلی. در تلاش نخست همه URLها با پراکسی پیش‌فرض مرورگر timeout شدند؛ راه‌حل فقط برای فرایند Edge آزمایشی `--no-proxy-server` بود، **بدون دستکاری پراکسی سیستم/VPN**. مسیر HTTPS با `curl` پاسخ 200 داشت. بدون login/cookie accept/payment و بدون انتقال asset به GitHub.
@@ -111,6 +131,7 @@
   - **Commit و بازگشت:** همه تغییرات فقط در همین فایل و همین branch ثبت می‌شوند؛ با Git revert قابل بازگشت‌اند. شاخه والد، `main` و `09-self-marketing-website` دست‌نخورده‌اند.
 
 - [x] **S04 — معماری ساده و قرارداد توسعه**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** معماری ثابت HTML/CSS/JS و یک authority داده باقی می‌ماند؛ Git + Node برای تست قرارداد، HTML-Validate برای source موجود در بازسازی اختیاری. Docker/WordPress/CMS و UI-builder نباید به‌عنوان dependency وارد M01 شوند.
   - **وضعیت و زمان:** **PASS — 2026-11-22** برای قرارداد معماری/طراحی مهندسی؛ **NOT BUILT / NOT RUNTIME TESTED** برای کد سایت. `S01–S03` از قبل PASS بودند.
   - **ورودی تأییدشده:** [S02 Brief](01-RESEARCH-AND-BRIEF.md) و [S03 evidence](03-EXECUTION-ROADMAP.md)؛ برند آزمایشی `NOVA Atelier`، شش خدمت، سه Concept/Demo case، شش محصول ساختگی، ۵ زبان و ۳ کلاس نمایشگر.
   - **خروجی قابل بازبینی:** بند [S04 — قرارداد تأییدشدهٔ معماری استاتیک](04-I18N-SEO-COMMERCE-SECURITY.md) در سند موجود، نه گزارش موازی؛ شامل درخت `site/`، مالکیت CSS/JS، ۳۰ route هدف، public HTML/no-JS، state/data، failure modes، اجرای localhost، امنیت، rollback و انتقال به S05–S08.
@@ -123,6 +144,7 @@
   - **مرحله بعد:** `S05` — IA، جدول URL و CTA، شکل دقیق fixture ۶ محصول، قوانین دسته/خطا و گردش‌های کار. `S06` visual و `S07` ترجمه؛ اولین سایت قابل اجرای واقعی در `S08`، نه این مرحله.
 
 - [x] **S05 — معماری اطلاعات، صفحات و مسیرها**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** مسیرها/fixture و شناسه‌ها را با Node built-in JSON/URL checks بازآزمایی کن؛ HTML-Validate بعد از تولید واقعی HTML. Git diff و همسانی locale چک شود؛ ابزار طراحی/agent اضافی نقش ضروری ندارد.
   - **وضعیت/تاریخ:** **PASS — 2026-11-22** برای `IA + fixture specification + state/failure contracts`. **تست صفحات واقعی M01: NOT TESTED**؛ `site/` هنوز ساخته نشده است. مراحل S01 تا S04 قبلاً PASS بودند.
   - **خروجی اصلی قابل Diff:** [بخش 1B — S05 در سند فنی موجود](04-I18N-SEO-COMMERCE-SECURITY.md): ۳۰ URL از ۵ locale `fa/en/ar/tr/de` × ۶ page kinds؛ ۲۵ صفحه عمومی و پنج `demo-checkout` با `noindex`. فرمت آینده `/{locale}/` و `/{locale}/{services|work|catalog|contact|demo-checkout}/`، بدون URL جعلی عمومی یا redirect خودکار. نقشه‌های Header/Footer، CTAs، تغییر زبان به equivalent kind، سه journey و fallback روشن شدند.
   - **۵ لینک اصلی ناوبری:** Home / Services / Work / Catalog / Contact؛ پرداخت نمایشی فقط از cart. مسیر خدمات `Home→Services→Work→Contact`؛ مسیر نمایش کاتالوگ `Home→Work→Catalog→DEMO cart→mock checkout/receipt`؛ زبان بعدی همان نوع صفحه را باز می‌کند. لینک صفحات هنوز ساخته‌نشده باید تا مرحلهٔ ایجادشان غیرفعال/حذف شود، نه اینکه 404 بسازد.
@@ -134,6 +156,7 @@
   - **مرحلهٔ بعد:** `S06` — سه wireframe موبایل/تبلت/دسکتاپ، توکن رنگ/تایپ و تصویر اصل با تأیید بصری. `S07` متن و i18n؛ شروع HTML عملی و تست browser در `S08`.
 
 - [x] **S06 — سیستم بصری و تایپوگرافی**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** هویت Midnight Editorial و SVG اصلی با CSS و SVG تولید شده است. برای بازسازی یا polish بعدی، GIMP 3.2.8 نصب‌شده فقط برای raster، Penpot/Figma فقط اگر طرح editable خواسته شد، Blender نصب‌شده ولی برای M01 پیش‌فرض نیست؛ حقوق و حجم asset اندازه‌گیری شود.
   - **زمان و نتیجه:** **PASS — 2026-11-22** برای مبنای طراحی بصری **موقت و برگشت‌پذیر**، سه اندازهٔ نمایشگر، نمای RTL و کنترل ایستای نمونهٔ طراحی. **این PASS به معنی تأیید تجاری نام NOVA یا کیفیت ترجمه، تست واقعی سایت، خرید یا انتشار نیست.** S07–S20 انجام‌نشده‌اند.
   - **خروجی‌های واقعی در همین شاخه M01:** [قرارداد سیستم طراحی S06](design/S06-VISUAL-SYSTEM.md)، [وایرفریم موبایل 390](design/wireframe-mobile-390.svg)، [وایرفریم فارسی RTL موبایل](design/wireframe-mobile-rtl-390.svg)، [وایرفریم تبلت 820](design/wireframe-tablet-820.svg)، [وایرفریم دسکتاپ 1366](design/wireframe-desktop-1366.svg)، [Hero برداری اصل](design/nova-hero-original.svg) و [اثبات استاتیک واکنش‌گرایی HTML/CSS](design/s06-responsive-proof.html). فایل‌های SVG منابع **قابل ویرایش** و اصیل هستند و بدون کپی منبع ثالث طراحی شده‌اند؛ HTML نمونه در پوشه `design/` است، نه سایت اجرایی `site/`.
   - **تصمیم بصریِ قابل تغییر:** `Midnight Editorial` با canvas `#0C1220`، panel `#172335`، متن `#F8F5EE`، متن کم‌رنگ `#BECADD`، تأکید `#F2C37A`، برچسب روی تأکید `#161C29` و فوکوس `#8FE5F5`. font stack سیستم `system-ui/Segoe UI/Tahoma/Arial` و در نسخه اجرایی `clamp()` برای مقیاس تایپ؛ هیچ خرید یا نصب فونت جدید نیست.
@@ -145,6 +168,7 @@
   - **محدودیت/ادامه:** رنگ، برند، گرافیک و فونت نهایی هنوز برای استفاده عمومی به تأیید سلیقه‌ای مالک و بررسی حقوقی نیاز دارند؛ S07 ترجمه/بومی‌سازی واقعی را انجام می‌دهد، S08 نخستین HTML/CSS/JS اجرایی را. پوشه `site/` هنوز وجود ندارد؛ کارتابل مدل 01 از 22 همچنان ساخت را کامل نمی‌داند. بدون React/Vite/3D/پرداخت واقعی و بدون دستکاری `09-self-marketing-website/` یا `main`.
 
 - [x] **S07 — طراحی i18n و محتوای پنج زبان**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** پیش‌نویس پنج‌زبانه در یک JSON canonical؛ بازسازی با Node parity + مرور دستی مترجم. Prettier 3.10.1 موجود صرفاً برای --check/diff، نه ترجمهٔ ماشینی یا overwrite خودکار. تأیید انسانی هنوز معوق است.
   - **تاریخ و نتیجه:** **PASS — 2026-11-22** برای **تکمیل پیش‌نویس چندزبانه + اعتبارسنجی ساختاری و مرورگر**. این تیک به معنی **تأیید کیفیت زبانی توسط مترجم انسانی یا آماده بودن سایت برای انتشار نیست**؛ بازبینی تخصصی هر پنج زبان **PENDING** و گیت کیفیت S16/انتشار است. S08–S20 هنوز انجام نشده‌اند.
   - **فایل خروجی واقعی و تنها authority محتوایی S07:** [`content/i18n.v1.json`](content/i18n.v1.json) در همین مسیر M01 و branch اختصاصی. `schemaVersion=1`، `contentStatus=DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING`، برند آزمایشی NOVA Atelier. **۵ locale** `fa/en/ar/tr/de` با `dir=rtl/ltr/rtl/ltr/ltr`، **۶ نوع صفحه** در هر زبان، `title`، `meta description`، `H1`، متن معرفی، ۳۸ کلید UI/CTA/a11y در هر زبان، شش خدمت، سه Concept case و شش محصول DEMO در هر زبان؛ **۳۰ متن alt پیشنهادی برای محصولات** و ۱۵ متن alt برای سه case (هر یک در پنج زبان). Service card decoration می‌تواند `alt=""` داشته باشد. همهٔ نمونه‌ها از برندها/کارفرمایان واقعی، ادعای KPI و گواهی کارفرما خالی‌اند.
   - **قرارداد UI:** `lang` و `dir` در `html`؛ سوییچ زبان به **همان page kind** `/{locale}/{kind}/`، `<bdi>` برای شناسه‌های لاتین در جملهٔ RTL، layout با CSS منطقی و متن طولانی آلمانی/ترکی. Demo Checkout `noindex`، اعلان دائمیِ عدم پرداخت، سبد با اعتبار خیالی `DEMO_CREDIT` (نه ارز واقعی)؛ Contact فقط پیش‌نمایش بدون ارسال یا ذخیره داده. در S08 HTML واقعی باید به‌صورت محتوای استاتیک قابل‌خواندن بدون JS ساخته شود، نه تزریق صرفاً با JS.
@@ -155,6 +179,7 @@
   - **محدودیت و مسیر بعد:** ترجمه‌ها **مدل‌نویس و draft**، بدون گواهی ترجمه تخصصی؛ بومی‌سازی اصطلاحات، دقت معنایی، alt مطابق artwork واقعی، نمایش ۵ زبان در مرورگر سایت ساخته‌شده و WCAG هدف S08/S11–S16 است. S08 نخستین واقعی `site/` HTML/CSS/JS و تست localhost را شروع می‌کند؛ ۳۰ صفحه هنوز وجود ندارند. ابزار/کتابخانه/هزینه/ساخت Agent جدید یا تغییر شاخهٔ `main`، سایر مدل‌ها و پروژه سنگین Codex انجام نشده است؛ فقط یک فایل داده و دو سند موجود M01 تغییر کرده‌اند.
 
 - [x] **S08 — قالب HTML، Git و پیش‌نمایش محلی**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** ۵ Home و preview با Node/Git و Edge/Playwright اجرا و تأیید شده‌اند. بازسازی: مرورگر تک‌کارگر، HTML-Validate 11.21.1 و axe-core 4.14.1 موجود **برای آزمون جدیدِ اختیاری**؛ در PASS تاریخی S08 از این دو ابزار استفاده نشده است.
   - **نتیجهٔ به‌روزشده و تاریخ:** **PASS — 2026-11-22** برای **پنج صفحهٔ Home واقعی، RTL/LTR و تغییر زبانِ اجرایی در localhost**. مرحله در ابتدا فقط Home انگلیسی داشت؛ بنا به دستور جدید کاربر، همان S08 کامل‌تر شد. **این نتیجه به معنای تکمیل ۳۰ صفحهٔ نهایی، پرداخت/کاتالوگ عملیاتی یا تأیید انسانی پنج ترجمه نیست.** S01–S08 PASS، S09–S20 همچنان [ ].
   - **۵ مسیر واقعی فعال + یک chooser:** `http://127.0.0.1:4173/fa/`, `/en/`, `/ar/`, `/tr/`, `/de/` همگی HTTP **200**. صفحهٔ `http://127.0.0.1:4173/` هر پنج زبان را با لینک واقعی نشان می‌دهد. فایل‌های `site/{fa,en,ar,tr,de}/index.html` هرکدام `title`، meta description، H1، RTL/LTR صحیح، HTML قابل خواندن بدون JS، لینک‌های native به چهار زبان دیگر، CTAهای داخلی، محتوای شش خدمت، سه مورد `DEMO` و شش کیت ساختگی دارند. `/fa/` دیگر 404 نیست و دیگر هیچ زبان غیرفعال ندارد.
   - **Authority و تولید منسجم، بدون framework جدید:** `content/i18n.v1.json` همچنان تنها مبنای پیش‌نویس متن است؛ `scripts/render-home-locales.mjs` با Node.js موجود هر پنج Home را به‌صورت **HTML استاتیک واقعی** از یک قالب مشترک تولید می‌کند (بدون SSR/SPA/React/Vite و بدون نصب یا پرداخت). `site/assets/css/tokens.css`, `base.css`, `components.css` یک سیستم مشترک طراحی S06 دارند؛ `site/assets/js/main.js` فقط منوی compact را تقویت و متن «باز کردن/بستن» را از `data-open-label/data-close-label` همان زبان استفاده می‌کند. `site/assets/img/nova-hero-original.svg` عین asset اصلی S06 است؛ `site/favicon.svg` محلی؛ `site/README.md` با وضعیت جدید و دستور بازتولید هماهنگ شد.
@@ -167,6 +192,7 @@
   - **مرز با مراحل بعد:** پنج **Home** واقعاً کار می‌کنند؛ اما `services/work/catalog/contact/demo-checkout` پنج نوع مسیر مستقل هنوز ساخته نشده‌اند (۲۵ صفحه از هدف ۳۰ صفحه). `S09` تعامل و ناوبری تکمیلی هنگام ساخت این صفحات؛ `S10` تکمیل نهایی Home و polish؛ `S11–S14` صفحات/عملکرد مستقل (مخصوصاً جست‌وجو، سبد، رسید نمایشی، فرم غیرارسالی)؛ `S15–S18` SEO، WCAG، عملکرد و امنیت؛ `S19–S20` تحویل. محتوا `DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING` است و بازبینی انسانی پیش از انتشار لازم است. **M01 هنوز در چک‌لیست اصلی ۲۲ نمونه تیک نهایی ندارد.**
 
 - [x] **S09 — کامپوننت‌های مشترک و ناوبری**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** ناوبری مشترک با Playwright/Edge واقعاً آزمایش شد؛ بازسازی: reflow/keyboard/touch و JS off، HTML-Validate + axe برای بازبینی جدید در صورت کفایت RAM. افزونه Playwright MCP لازم نیست چون Playwright کتابخانه‌ای موجود است.
   - **تاریخ/وضعیت:** **PASS — 2026-11-22** برای **سیستم ناوبری مشترک و قابل استفاده در پنج صفحه Home واقعی**، با اجرای Edge/Playwright روی لپ‌تاپ. S01–S08 از قبل PASS بودند و S10–S20 هنوز **[ ] / NOT STARTED** هستند. **قبولی S09 به معنای ساخت ۲۵ صفحهٔ مستقل باقی‌مانده یا اتمام سایت نیست.**
   - **خروجی‌های سورس در همان شاخه و همان مدل:** `scripts/render-home-locales.mjs` اکنون از **یک منبع محتوای اصلی** `content/i18n.v1.json` برای تولید Header، Footer، nav، locale switch و HTML استاتیک هر پنج زبان استفاده می‌کند. سه کلید جدید برای هر زبان (`primaryNavigation`, `footerNavigation`, `backToTop`) به همان authority S07 افزوده شد؛ ساخت پایگاه دادهٔ ترجمهٔ دوم ممنوع. خروجی‌های واقعی `site/{fa,en,ar,tr,de}/index.html` بازتولید شدند؛ `site/assets/js/main.js` فقط `nav.js` کوچک را وارد می‌کند؛ `site/assets/js/nav.js` رفتار Disclosure Navigation را مدیریت می‌کند؛ `site/assets/css/components.css` حالت‌های compact/wide و ناحیه‌های لمس را پیاده کرده است؛ `site/README.md` با روش استفاده/تست هماهنگ شد. فایل `tests/s09-navigation.test.mjs` همراه با سازگارسازی ۲ آزمون قدیمی S08 اضافه شد.
   - **Header/Footer و مدل DOM:** یک ساختار semantic برای موبایل، تبلت و دسکتاپ؛ landmarkهای مجزای `nav.site-nav` و `nav.locale-switch` و `nav.footer-nav` با `aria-label` ترجمه‌شده؛ ۵ لینک واقعی همان صفحه Home در header/footer؛ brand، `skip-link` به `main#main-content` و `back-to-top`؛ `tabindex="-1"` برای main و sections جهت انتقال فوکوس. `aria-current="page"` برای Home و locale فعال، `aria-current="location"` برای بخش انتخاب‌شده با hash؛ **بدون لینک به صفحات مستقل هنوز نساخته‌شده**.
@@ -180,6 +206,7 @@
   - **مرز و مرحلهٔ بعد:** `S10` تکمیل و polish حرفه‌ای Home در هر پنج زبان با عناصر حرفه‌ای، سنجش responsive و CTA؛ سپس S11–S14 صفحات مستقل و منطق کاتالوگ/سبد/فرم و S15–S18 آزمون‌های کامل SEO/accessibility/security/performance. هنوز فقط پنج Home از ۳۰ صفحه هدف ساخته شده‌اند؛ ۲۵ مسیر مستقل ساخته‌نشده و ترجمه‌ها `DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING` هستند. **تیک نهایی M01 از ۲۲ نمونه باید خالی بماند.**
 
 - [x] **S10 — صفحه اصلی حرفه‌ای**
+  - **ضمیمهٔ ابزار برای بازسازی/بازآزمایی (بدون تغییر PASS قبلی) — ممیزی 2026-11-22:** Hero/editorial و ۵ زبان با Node و Playwright/Edge PASS شد. بازسازی/بهبود بعدی: Chrome DevTools Lighthouse و axe فقط به‌عنوان سنجش جدید، GIMP/Blender فقط برای تصویر اصلی با نیاز و مجوز؛ نمره Lighthouse یا axe تا کنون ثبت نشده است.
   - **تاریخ/وضعیت نهایی:** **PASS — 2026-11-22** برای صفحه Home حرفه‌ای **واقعی در پنج زبان**، با کد HTML/CSS/JS، بازتولید قطعی صفحات، کنترل محتوا و آزمون مرورگر. S01–S10 PASS؛ S11–S20 و S14A همچنان `[ ] / NOT STARTED`. این PASS دربارهٔ **Home** است؛ اتمام ۳۰ مسیر، پنل مدیریت، دریافت مشتری/پرداخت یا تأیید ترجمهٔ انسانی نیست.
   - **چرا/هدف کاربر:** مطابق گیت S10 و بازبینی کامل حرفه‌ای [Brief §11](01-RESEARCH-AND-BRIEF.md)، صفحه باید برای مخاطب استودیوی دیجیتال ارزش روشن، هویت متفاوت اما سبک، دو CTA واقعی و مسیر محتوا/خدمات/Concept Work داشته باشد. **هویت NOVA Atelier موقت/فیکشنال** است. نمونه‌هایی از Eames/Instrument و Pentagram فقط برای معیار UX بررسی شده‌اند؛ هیچ layout/code/media ثالث کپی نشده است.
   - **فایل‌های واقعی فقط در همین M01/branch:** `content/i18n.v1.json` همچنان **single canonical content authority** و `contentStatus=DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING`؛ برای هر locale یک `homeExperience` کامل (برچسب معرفی، مخاطب، پیام اصلی، سه اصل طراحی، سه قدم فرآیند مفهومی، closing/CTA و برچسب‌های واقعی شمارنده‌ها) افزوده شد. `scripts/home-sections.mjs` بخش‌های S10 را بدون JS سمت بازدیدکننده تولید می‌کند؛ `scripts/render-home-locales.mjs` همان مولد مشترک قبلی را از آن استفاده می‌کند؛ `site/assets/css/home.css` طراحی مختص Home را با رنگ/توکن‌های S06 ارائه می‌کند و خروجی‌های `site/{fa,en,ar,tr,de}/index.html` تجدید شدند؛ `tests/s10-home.test.mjs` شامل ۷ تست اضافه شد؛ `site/README.md` دستور بازتولید و مرز S10 را دارد.
@@ -192,6 +219,7 @@
   - **مرز/گام بعد:** S11 باید صفحات مستقل و پنج‌زبانه Services/Portfolio با scope/process/Concept narratives بسازد؛ S12–S14 Catalog/DEMO cart/Contact brief، S14A داشبورد مدیریت محتوای محلی واقعی و S15–S20 SEO/QA/تحویل. هنوز فقط ۵ Home از ۳۰ مسیر نهایی ساخته شده‌اند و ترجمه‌ها به تأیید انسانی پیش از انتشار عمومی نیاز دارند. **مدل M01 هنوز DONE نیست؛ تیک نهایی فهرست ۲۲مدلی خالی بماند.**
 
 - [ ] **S11 — صفحات خدمات و نمونه‌کار**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** اجرای بعدی: Node renderer/HTML semantics + HTML-Validate موجود برای Services/Work، Playwright + Edge برای ۵ زبان و RTL/LTR؛ GIMP فقط در صورت احتیاج واقعی به سه asset اصیلِ دارای مجوز. طرح قابل‌ویرایش Penpot/Figma فقط OPTIONAL با تأیید دسترسی.
   - **کار:** Services + Portfolio با case studies واضح DEMO، جزئیات و CTA به contact؛ grid کارت‌ها و طول متن fa/ar/de در موبایل/تبلت/دسکتاپ.
   - **ابزار/نقش:** static localized HTML + CSS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -200,6 +228,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S12 — کاتالوگ استاتیک و فیلتر**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** برای ۶ کیت DEMO: native HTML/CSS/JS + Node validation و تست جست‌وجو/فیلتر/empty، Playwright touch/keyboard و HTML-Validate. کتابخانه فیلتر، فروشگاه یا CMS جدید لازم نیست.
   - **کار:** ۴–۶ آیتم آزمایشی، جست‌وجو، فیلتر، حالت no-result، price labels nonreal؛ **فیلتر و cart قابل استفاده با لمس موبایل/تبلت و موس/کیبورد دسکتاپ**، بدون hover-only UX.
   - **ابزار/نقش:** vanilla JS modules + JSON/static HTML.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -208,6 +237,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S13 — سبد و پرداخت نمایشی**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** سبد و رسید DEMO: Node built-in test برای integer/qty/state و Playwright برای سناریوهای واقعی؛ axe در مرحله کیفیت. هیچ PSP/API/credential/ساختار commerce واقعی مجاز نیست.
   - **کار:** cart, quantity, sum in integer minor units, mock checkout, demo receipt; **فرم و جدول خلاصه reflow در موبایل و تبلت** و banner ثابت و خوانای «پرداخت نمایشی» در همه اندازه‌ها.
   - **ابزار/نقش:** vanilla JS + Node built-in unit tests.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -216,6 +246,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14 — تماس، اعتماد و صفحات حقوقی نمایشی**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** خلاصه‌درخواست غیرشخصی: native HTML/forms + Node pure functions، Playwright + Edge برای خطا، فوکوس، keyboard/touch و عدم شبکه. برای نمونهٔ نمایشی سرویس فرم یا ابزار CRM نصب نکن.
   - **کار:** Contact, privacy/terms placeholder فقط صادقانه، بدون فرم ارسال واقعی یا شخص/نشانی جعلی؛ کنترل‌ها و برچسب‌های form در موبایل، تبلت و دسکتاپ با لمس و keyboard تست شوند.
   - **ابزار/نقش:** semantic HTML + validation UI.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -224,6 +255,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14A — داشبورد مدیریت محتوای محلی و پیشرفتهٔ M01 (الحاقی، الزامی پیش از تحویل)**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** داشبورد فقط محلی: Node/JSON/Git برای draft نسخه‌دار/validation/diff/rollback؛ Playwright/HTML-Validate/axe برای QA. UI طرح قابل‌ویرایش Penpot/Figma تنها در صورت gap واقعی؛ login نمایشی به‌جای auth معتبر نگذار. بخش public بدون API نویسنده باشد.
   - **دلیل افزودن (پژوهش 2026-11-22):** کاربر صریحاً خواست سایت در نوع خودش کامل باشد و پنل مدیریتی حرفه‌ای داشته باشد. بررسی S01–S09 و ۳۰ مسیر برنامه‌ریزی‌شده نشان داد هیچ admin/dashboard ویرایشگر یا گردش‌کار انتشار در نقشهٔ راه وجود نداشت. **S14A افزوده شد تا ۲۰ مرحله اصلی بدون تغییر شماره حفظ شوند**؛ این مرحله یک مرحلهٔ قابل‌تیک **اضافی** بین S14 و S15 است، **NOT STARTED** و هنوز هیچ پنلی ساخته نشده.
   - **نوع خروجی دقیق و صادقانه:** **Content Studio / Dashboard محلی (فقط روی لپ‌تاپ)** با HTML/CSS/vanilla JS موجود و در صورت نیاز Node داخلی؛ **نه** `/admin` عمومی، CMS خارجی، حساب مدیر امن، فروشگاه واقعی یا Backend آنلاین. UI تحریریه خارج از `site/` و مسیرهای عمومی قرار می‌گیرد تا روی سرور LAN گوشی یا نسخهٔ منتشرشده دیده نشود؛ هیچ قابلیت ادیت ریموت بدون مدل احراز هویت معتبر فعال نشود.
   - **ماژول‌های لازم:** `Overview` با شمارش *واقعی* محتوا و وضعیت ۵ زبان/کیفیت (نه ترافیک یا فروش ساختگی)، `Pages & Locales` با ماتریس ۳۰ مسیر، `Services` (۶ خدمت)، `Concept Work` (۳ مورد با برچسب DEMO)، `Catalog` (۶ محصول با شناسه ثابت و قیمت خیالی DEMO_CREDIT)، `Assets/Alt/Licenses`، `SEO & Settings`، `Review Changes / Preview`، `Version / Recovery`. حالت‌های draft, invalid, review-required, validated, local-preview را جدا نشان دهد.
@@ -235,6 +267,7 @@
   - **شواهد اجرا:** **NOT STARTED / NOT TESTED**؛ مسیر خروجی عملیاتی: — ؛ تست: — ؛ Commit پیاده‌سازی: — . **این نوبت فقط GAP AUDIT/RESEARCH و برنامهٔ قابل آزمون را ثبت کرده است.**
 
 - [ ] **S15 — سئوی فنی چندزبانه**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** Node built-in route/link/hreflang/sitemap/robots checks + HTML-Validate آفلاین، DevTools برای مشاهده، آزمون 404. Crawler یا ابزار SEO SaaS فقط اگر بررسی شش نوع صفحه × پنج زبان ناکافی و هزینه مجاز بود.
   - **کار:** URLهای ثابت locale، title/meta/OG، hreflang reciprocal، canonical، XML sitemap، robots، 404 policy.
   - **ابزار/نقش:** HTML/Node static checks + Google docs.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -243,6 +276,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S16 — دسترس‌پذیری و بومی‌سازی دقیق**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** axe-core 4.14.1 موجود با Playwright یک مرورگر Edge، همراه تست دستی keyboard/zoom/reduced-motion/RTL و بازبینی انسان. axe خودکار جای گواهی کامل WCAG را نمی‌گیرد؛ هزینهٔ ابزارهای cloud نامعلوم.
   - **کار:** WCAG 2.2 AA target، **reflow تا 320 CSS px و زوم 200%/400% مطابق تست مرتبط**، keyboard، pointer coarse/fine، touch targets، focus، contrast، lang/dir، bdi، forms، alt و reduced-motion در سه کلاس نمایش.
   - **ابزار/نقش:** axe-core optional + manual browser.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -251,6 +285,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S17 — بهینه‌سازی و بودجه عملکرد**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** Chrome DevTools Performance/Lighthouse داخلی قبل از نصب CLI، Node اندازه‌گیری asset/CLS/INP/LCP. GIMP 3.2.8 برای تصویر raster در صورت نیاز؛ Blender سنگین و Sharp/SVGO تا وجود gap کمی DEFER. هیچ نمرهٔ آزمون هنوز محاسبه نشده.
   - **کار:** WebP/AVIF با **srcset/sizes/picture در صورت نیاز** و حفظ نسبت، fonts subsetting، no hydration، defer JS، CWV/Lighthouse روی پروفایل موبایل و دسکتاپ؛ استفاده از width محدود در نمایشگرهای بزرگ.
   - **ابزار/نقش:** Chrome DevTools + Lighthouse; Sharp/SVGO optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -259,6 +294,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S18 — تست جامع عملکرد، امنیت و بازیابی**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** Playwright موجود (یک worker) + Node/HTML-Validate/axe با تست منفی no-JS/invalid-data/locale/XSS/PII/rollback. ابزارهای Playwright MCP و Chrome DevTools MCP فعلاً تکراری‌اند و نیازمند اتصال جدید نیستند.
   - **کار:** URL/lang routes، link crawl، unit/e2e، **ماتریس عرض 320/360/390/430/600/768/820/1024/1280/1440/1920 px** با ۳ کلاس اصلی، portrait/landscape، touch+mouse+keyboard، RTL/LTR، zoom، failure، XSS، no secrets.
   - **ابزار/نقش:** node --test, node --check, Playwright if verified, OWASP.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -267,6 +303,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S19 — پکیج نمونه‌کار و تحویل**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** GitHub source/README + Playwright screenshots و traceهای محلی برای تحویل با provenance و asset license؛ VS Code مرور اختیاری. نصب ShareX/ScreenToGif فقط اگر ضبط تعامل با Playwright قابل تحویل نباشد.
   - **کار:** سورس خوانا، دستور اجرا، **تصویر تأییدشده از هر سه کلاس نمایشگر** (موبایل، تبلت، لپ‌تاپ/دسکتاپ) در fa RTL و en LTR، LICENSE assets، محدودیت پرداخت.
   - **ابزار/نقش:** Git + GitHub branch + screenshot tools optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
@@ -275,6 +312,7 @@
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S20 — بازبینی مشتری و تصمیم انتشار/گسترش**
+  - **ابزار منتخب و گیت استفاده (برنامهٔ اجرا؛ هنوز NOT STARTED) — ممیزی 2026-11-22:** تست روی Chrome/Edge و گوشی واقعیِ کاربر به‌عنوان قضاوت نهایی؛ Playwright emulation فقط با برچسب شبیه‌سازی. مرحله انتشار، host/permission/cost و اقدام رسمی صرفاً پس از تأیید جدا؛ ابزار اضافی الزام ندارد.
   - **کار:** **بازبینی واقعی در گوشی، تبلت در صورت دسترس، و لپ‌تاپ/PC** (یا شبیه‌سازی مستند در نبود دستگاه)، مقایسه portrait/landscape، دریافت بازخورد، اصلاح محدود، بررسی مجوز deploy اختیاری.
   - **ابزار/نقش:** browser/owner + Git; hosting only after approval.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
