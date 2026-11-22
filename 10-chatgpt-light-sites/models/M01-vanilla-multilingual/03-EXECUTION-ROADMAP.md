@@ -58,10 +58,37 @@
 
 - [ ] **S03 — مرور رقبا/الگوهای طراحی روز**
   - **کار:** ۳–۵ نمونه موفق و ۲–۳ الگوی UX با منابع/مجوز؛ از هر الگو رفتار layout در موبایل، تبلت و دسکتاپ را مقایسه کن، نه کپی کد/دارایی.
-  - **ابزار/نقش:** Web research + GitHub + browser read-only.
-  - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** جدول شاهد، تاریخ، انتخاب moodboard و ریسک کپی‌رایت.
-  - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
+  - **ابزار/نقش:** Web research + GitHub canonical + browser read-only (در این مرور، مرورگر قابل‌کنترل برای تست viewport در دسترس نبود).
+  - **خروجی قابل بررسی:** جدول شاهد/تاریخ، تحلیل مختص Brief M01 و ارتباط آن با S04–S20 در همین کارتابل؛ اصلاح بدون پروندهٔ وضعیت موازی.
+  - **قبولی:** جدول شاهد، تاریخ، جهت بصری موقت و ریسک کپی‌رایت، همراه با مقایسه مشاهده‌شدهٔ viewport واقعی؛ تا هنگام رفع گپ‌های پایین تیک نخورد.
+  - **وضعیت بازبازبینی S03 / M01 — 2026-11-22:** `RESEARCH_REBASE_COMPLETED / RESPONSIVE_REFERENCE_TESTS_NOT_RUN / PENDING`. **S01 و S02 قبلاً PASS** هستند. پژوهش S03 قبلی در شاخه والد `project/chatgpt-light-sites-20261121` صرفاً به یک landing خدماتی می‌پرداخت و برای Brief اختصاصی M01 **ناکافی** بود؛ این تحلیل جدید از Branch فعلی و Brief S02 تبعیت می‌کند. **S03 هنوز PASS نیست.**
+  - **دامنه صحیح و ثابت S02:** برند نمایشی `NOVA Atelier`، ۶ خدمت، ۳ case study با نشان `DEMO`، ۶ بستهٔ دیجیتال آزمایشی؛ ۵ نوع صفحهٔ عمومی (Home/Services/Work/Catalog/Contact) × ۵ زبان = هدف ۲۵ HTML و Checkout آزمایشی ×۵ = هدف ۵ HTML `noindex`، جمعاً **۳۰ خروجی موردنظر، هیچ‌کدام هنوز ساخته نشده**. fa/ar=RTL، en/tr/de=LTR؛ فناوری فقط HTML/CSS/JS خالص، یک codebase، بدون framework/server/backend واقعی.
+  - **سه مسیر مورد پژوهش:** خدمات `Home→Services→Work→Contact`؛ محصول نمایشی `Home/Work→Catalog→Demo Cart→Mock Receipt` با هشدار دائمی «No payment»؛ تغییر زبان از همان صفحه به equivalent locale بدون از دست رفتن context کاربر (رفتار cart در S05/S13 تعیین/تست شود).
+  - **پنج مرجع عمومی رسمی، خوانده‌شده در 2026-11-22؛ تحلیل ساختار/محتوا، نه آزمون اندازه/تاچ:**
+
+    | مرجع و URL | شاهد عینیِ قابل خواندن / الگوی انتخابی | استفاده در M01 | حقوق و محدودیت |
+    |---|---|---|---|
+    | [Instrument](https://www.instrument.com/) | Home دارای Work/Services/Contact، CTA و نمونه پروژه | hierarchy هدر/hero، مسیر خدمت→نمونه‌کار→تماس | تصاویر/ویدئو/برند و طراحی اختصاصی مجاز برای کپی فرض نشود |
+    | [Pentagram Work](https://www.pentagram.com/work/) | جست‌وجو و گروه‌های sector/discipline و نمونه‌کار | کارت case study با برچسب DEMO؛ فقط ۳ پروژه، فیلتر پیچیده حذف | محتوای مشتری/تصویر/فونت کپی نشود |
+    | [Framer Templates](https://www.framer.com/marketplace/templates/) | دسته‌های Portfolio/Agency/Ecommerce/Services، کارت و price labels | ۶ بسته ساختگی، دسته‌بندی کمینه، جست‌وجو/empty-state | قالب/کد/عکس متعلق به فروشندگان است؛ دانلود/استفاده نشود |
+    | [Framer Product Listing Page](https://www.framer.com/marketplace/components/product-listing-page/) | توضیح فروشنده: live search، فیلتر، reset و responsive grid | رفتار کاتالوگ در S12، نه وابستگی Framer | کامپوننت **پولی $6 و single-use** در صفحه؛ فقط مشاهده، هیچ خرید/کپی |
+    | [Stripe Checkout](https://stripe.com/payments/checkout) | توضیح رسمی: layout واکنش‌گرا و خلاصه فرآیند checkout | گروه‌بندی اطلاعات در سبد و رسید نمایشی S13 | **فقط ایدهٔ UX**؛ هیچ Stripe API، درگاه، شماره کارت، پرداخت یا فعال‌سازی provider |
+
+  - **سه الگوی منتخب، برگرفته از مقایسه:** (۱) `EDITORIAL_SERVICES`: معرفی موجز/تایپوگرافی با کیفیت، خدمات، ۳ DEMO work و CTA معتبر؛ (۲) `SMALL_CATALOG_DISCOVERY`: جست‌وجو/فیلتر ساده، کارت ۶ محصول ساختگی، no-result/reset و افزودن به cart؛ (۳) `HONEST_DEMO_CHECKOUT`: quantity/sum/receipt و پیام واضح عدم پرداخت، بدون form/PSP واقعی. **جهت بصری پیشنهادی و قابل برگشت:** Premium editorial + clean catalog/transaction hierarchy، یک accent ملایم، micro-interaction سبک؛ brand/color/hero هنوز تأیید مالک ندارد.
+  - **ماتریس تطبیق طراحی، وضعیت: فقط پیشنهاد برای M01؛ نه مشاهدات تست‌شده از ۵ سایت خارجی:**
+
+    | جزء | موبایل 320/390/430 CSS px | تبلت 768/820/1024 | دسکتاپ 1366/1440/1920 | مرحله ساخت/آزمون |
+    |---|---|---|---|---|
+    | Header + locale + cart | nav قابل لمس، CTA حاضر، lang switch واضح؛ keyboard/focus | menu وابسته به عرض محتوا، لمس+کیبورد | navigation کامل، badge cart، max-width | S05/S06/S09؛ تست S16/S18 |
+    | Home / Services / Work | Hero و کارت‌ها عمدتاً یک ستون | ۱–۲ ستون با فضای محتوایی کافی | ۲–۳ ستون و فضای سفید کنترل‌شده | S06/S10/S11 |
+    | Catalog 6 DEMO items | جست‌وجو + فیلتر قابل‌لمس و کارت یک‌ستونی | ۲ ستون در صورت کفایت عرض | grid تا ۳ ستون، بدون sidebar غیرضروری | S05/S12/S18 |
+    | Demo cart/receipt | summary عمودی، CTA و DEMO label دائمی | summary منعطف با full labels | summary متعادل، فضاهای قابل خواندن | S13/S16/S18 |
+    | 5 locales | fa/ar RTL، en/tr/de LTR؛ متن بلند و نام‌های لاتین | تغییر جهت همراه navigation/filter | typographic scale و max-width | S07/S15/S16/S18 |
+
+  - **استاندارد و شاهد فنی:** [W3C HTML direction](https://www.w3.org/International/questions/qa-html-dir.en) برای `lang/dir`، [Google localized versions](https://developers.google.com/search/docs/specialty/international/localized-versions) برای `hreflang` متقابل و URL واقعی بعد از deploy، [WCAG 2.2](https://www.w3.org/TR/WCAG22/) برای keyboard/focus/reflow/touch؛ هیچ نمرهٔ عملکرد و دسترس‌پذیری بدون تست ادعا نمی‌شود.
+  - **گیت‌های باقی‌مانده S03:** (الف) مشاهدهٔ زنده و خواندنی reference sites در حداقل 390/820/1366 با مرورگر/Playwright، ثبت screen/منو/فیلتر و موارد responsive نه صرفاً emulation smoke خالیِ S01؛ (ب) حقوق commercial برای تصویر/فونت/SVG منتخب هنوز بررسی نشده، فقط asset اصل یا مجوز مشخص؛ (ج) جهت نهایی moodboard/brand نیازمند تأیید بصری مالک در S06؛ (د) شواهد قابل بازتولید با RAM محدود S01 (یک مرورگر و یک سرور) و بدون نصب جدید. دسترسی مرورگر این گفت‌وگو به tabهای محلی برای تست برقرار نبود؛ آزمون واقعی سایت M01 هنوز غیرممکن چون سورسی ساخته نشده.
+  - **نتیجه/مرز اجرا:** این فقط **بازخوانی و rebase تحقیقی** است، نه PASS S03، نه S04، نه ساخت M01. برنامهٔ S04–S20 بدون جابه‌جایی باقی می‌ماند: S04 قرارداد ساده، S05 IA و cart state، S06 wireframes سه کلاس، S07 i18n، S08 اولین HTML در localhost، S09–S14 journeys واقعی، S15–S18 تست، S19–S20 تحویل و بازبینی. **شمار PASS کل: ۲/۲۰**.
+  - **گام بعد:** شواهد viewport واقعی مراجع را با دسترسی read-only و RAM-safe کامل کن، سپس اگر معیار S03 واقعاً پوشش یافت همان checkbox را PASS و commit کن؛ اگر نشد، این گیت را PENDING نگه دار. نسخهٔ والد فقط catalog سطح بالاست؛ **مرجع اصلی S01–S20 همین سند در شاخه M01 است.**
 
 - [ ] **S04 — معماری ساده و قرارداد توسعه**
   - **کار:** نقشه HTML/CSS/JS ماژولار با **یک DOM معنایی و CSS mobile-first، viewport meta، توکن‌های fluid و breakpoints محتوامحور**؛ JavaScript صرفاً تعامل، SSR/DB صفر؛ preview loopback.
