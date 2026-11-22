@@ -5,19 +5,19 @@
 
 ## 1) S04 — قرارداد تأییدشدهٔ معماری استاتیک (2026-11-22)
 
-**S04 result:** \`PASS — architecture/contract only\`. This stage ratifies the **target source layout and boundaries**. It is **not** evidence that any \`site/\` code exists or has passed browser tests; S05–S08 create data, visual design, then the real HTML. Branch \`project/light-sites-m01-vanilla-20261121\` and folder \`10-chatgpt-light-sites/models/M01-vanilla-multilingual/\` are the only project write scope; parent \`main\`/other models/Codex \`09-\` are out of scope.
+**S04 result:** `PASS — architecture/contract only`. This stage ratifies the **target source layout and boundaries**. It is **not** evidence that any `site/` code exists or has passed browser tests; S05–S08 create data, visual design, then the real HTML. Branch `project/light-sites-m01-vanilla-20261121` and folder `10-chatgpt-light-sites/models/M01-vanilla-multilingual/` are the only project write scope; parent `main`/other models/Codex `09-` are out of scope.
 
 ### Architectural decision, why it is minimal
 
 - **Family/M01:** static multi-page HTML + mobile-first CSS + native ES modules JavaScript. No React/Vite/Astro/WordPress, SSR, backend, Docker, database, external CMS/checkout, hosted API or runtime package installation.
-- **Output:** 5 locale prefixes (\`fa,en,ar,tr,de\`) × 6 route kinds (\`home,services,work,catalog,contact,demo-checkout\`) = **30 planned HTML routes**; 25 information pages + 5 \`noindex\` DEMO checkout pages. Each route contains **meaningful static HTML content and native anchors without JS**. A root \`index.html\` explicit language choice and \`404.html\` are optional ancillary pages, **not** part of the 30.
-- **One semantic DOM hierarchy per page kind:** layout changes only by CSS: Grid/Flex, fluid sizing and media/container queries where content requires. Different language **documents** have translated contents and \`lang/dir\`, but do not fork device-specific DOM. \`fa/ar\` RTL; \`en/tr/de\` LTR.
-- **Smallest-first delivery:** S08 begins with **one actual \`en/index.html\` or \`fa/index.html\`** and a local HTTP smoke test, not 30 empty files. S09–S14 add the requested vertical slices; additional locale pages only when supported by verified copy. No generator until duplicated edits actually justify it. If the 30 routes make manual markup/error control wasteful, a **single built-in Node deterministic render script** can be proposed/tested later, producing plain HTML; this does **not** require Vite or change M01's runtime architecture.
+- **Output:** 5 locale prefixes (`fa,en,ar,tr,de`) × 6 route kinds (`home,services,work,catalog,contact,demo-checkout`) = **30 planned HTML routes**; 25 information pages + 5 `noindex` DEMO checkout pages. Each route contains **meaningful static HTML content and native anchors without JS**. A root `index.html` explicit language choice and `404.html` are optional ancillary pages, **not** part of the 30.
+- **One semantic DOM hierarchy per page kind:** layout changes only by CSS: Grid/Flex, fluid sizing and media/container queries where content requires. Different language **documents** have translated contents and `lang/dir`, but do not fork device-specific DOM. `fa/ar` RTL; `en/tr/de` LTR.
+- **Smallest-first delivery:** S08 begins with **one actual `en/index.html` or `fa/index.html`** and a local HTTP smoke test, not 30 empty files. S09–S14 add the requested vertical slices; additional locale pages only when supported by verified copy. No generator until duplicated edits actually justify it. If the 30 routes make manual markup/error control wasteful, a **single built-in Node deterministic render script** can be proposed/tested later, producing plain HTML; this does **not** require Vite or change M01's runtime architecture.
 - **Alternatives rejected at S04:** fully client-rendered SPA (breaks no-JS content/SEO); 30 separate hand-coded device variants (duplication); WordPress/full-stack (unnecessary RAM/services); paid design component/checkout service (rights/cost/real-payment risk). Costs for this architecture: **zero new paid dependencies**; hosting/public-domain terms remain UNKNOWN and separate approval-gated.
 
 ### Proposed physical tree; paths are a specification until S08
 
-\`\`\`text
+```text
 M01-vanilla-multilingual/       # existing approved model folder
   01-RESEARCH-AND-BRIEF.md
   02-STACK-TOOLS-AND-MCP.md
@@ -60,42 +60,42 @@ M01-vanilla-multilingual/       # existing approved model folder
     cart.test.mjs               # Node built-in tests when cart exists
     routes.test.mjs             # 30 route/anchor/locale expectations once files exist
     smoke.test.mjs              # optional existing Playwright when browser exists
-\`\`\`
+```
 
-**No empty \`site/\` folders or placeholder pages are created as S04 evidence.** The physical layout above must be reviewed before S08 creation. Keep engineering documents in the existing M01 scope and stage outcomes only in \`03-EXECUTION-ROADMAP.md\`.
+**No empty `site/` folders or placeholder pages are created as S04 evidence.** The physical layout above must be reviewed before S08 creation. Keep engineering documents in the existing M01 scope and stage outcomes only in `03-EXECUTION-ROADMAP.md`.
 
 ### File ownership, module I/O and failure contracts
 
 | Boundary | Owner / canonical input | Output / allowed I/O | Failure or isolation policy |
 |---|---|---|---|
-| Route HTML | One localized \`site/{locale}/{kind}/index.html\` for the selected page kind | Static heading, metadata, content, native internal links, DOM landmarks and \`data-page\`; \`<html lang dir>\`, viewport | Basic navigation/content work **without JS**. Missing locale page is a build/test failure, not silent redirect to unrelated home |
-| CSS presentation | \`tokens.css\` → \`base.css\` → \`components.css\`; shared responsive tokens | A single semantic page DOM rendered across 320–1920 CSS px; logical properties and \`prefers-reduced-motion\` | No layout controlled by JS, no mandatory hover and no page-level horizontal overflow; adapt breakpoints only on evidence/content |
-| \`main.js\` | \`data-page\` + current locale from document/URL | Imports \`nav.js\`/\`locale.js\`; conditionally starts catalog/cart/checkout only on matching pages | Missing optional elements are harmless; errors scoped to page behavior; not an authority for primary content |
-| \`nav.js\` and \`locale.js\` | Native HTML anchors + \`lang/dir\` + equivalent page-kind map | Optional accessible menu controls, active state and locale switching via **real hrefs** | No JS: nav/locale anchors remain reachable. JS: \`aria-expanded\`, Escape, visible focus; no interaction can be hidden by JS failure |
-| \`catalog.js\` | Public synthetic \`/data/items.demo.json\`, shared product IDs | Optional local search/category filter/empty/reset on pre-rendered cards; no external calls | Fetch/JSON failure leaves static cards and an honest state message; don't clear content before data validated |
-| \`cart.js\` | Validated IDs and integer \`priceMinor\` from canonical fixture, bounded quantities | Deterministic total in **integer minor units**; \`sessionStorage\` optional, anonymous only | Invalid item, overflow, corrupted storage, storage denied → ignore/reset safely and show message; no sensitive data or order proof |
-| \`checkout.js\` | Cart snapshot validated against same fixture | Mock review, no-money-charged state, synthetic receipt with \`role=status\` | No real PAN/CVV, payment provider, identity fields, webhook, API, transmission or legally valid receipt |
-| Local preview | \`site/\` static root only; localhost URL | Simple \`127.0.0.1\` HTTP, correct HTML/CSS/JS/JSON/SVG MIME, \`index.html\` resolving and 404 | Do not run via \`file://\` for modules/fetch. Reject \`..\\\` traversal, no exposed secret parent directory; stop process after tests |
-| Tests + Git | \`tests/\`, current M01 branch and current project folder | Deterministic validators, Node \`--test\`, browser viewport evidence, versioned changes | Never mutate other model folders, \`main\`, \`09-\` or private credentials; revert via Git commit |
+| Route HTML | One localized `site/{locale}/{kind}/index.html` for the selected page kind | Static heading, metadata, content, native internal links, DOM landmarks and `data-page`; `<html lang dir>`, viewport | Basic navigation/content work **without JS**. Missing locale page is a build/test failure, not silent redirect to unrelated home |
+| CSS presentation | `tokens.css` → `base.css` → `components.css`; shared responsive tokens | A single semantic page DOM rendered across 320–1920 CSS px; logical properties and `prefers-reduced-motion` | No layout controlled by JS, no mandatory hover and no page-level horizontal overflow; adapt breakpoints only on evidence/content |
+| `main.js` | `data-page` + current locale from document/URL | Imports `nav.js`/`locale.js`; conditionally starts catalog/cart/checkout only on matching pages | Missing optional elements are harmless; errors scoped to page behavior; not an authority for primary content |
+| `nav.js` and `locale.js` | Native HTML anchors + `lang/dir` + equivalent page-kind map | Optional accessible menu controls, active state and locale switching via **real hrefs** | No JS: nav/locale anchors remain reachable. JS: `aria-expanded`, Escape, visible focus; no interaction can be hidden by JS failure |
+| `catalog.js` | Public synthetic `/data/items.demo.json`, shared product IDs | Optional local search/category filter/empty/reset on pre-rendered cards; no external calls | Fetch/JSON failure leaves static cards and an honest state message; don't clear content before data validated |
+| `cart.js` | Validated IDs and integer `priceMinor` from canonical fixture, bounded quantities | Deterministic total in **integer minor units**; `sessionStorage` optional, anonymous only | Invalid item, overflow, corrupted storage, storage denied → ignore/reset safely and show message; no sensitive data or order proof |
+| `checkout.js` | Cart snapshot validated against same fixture | Mock review, no-money-charged state, synthetic receipt with `role=status` | No real PAN/CVV, payment provider, identity fields, webhook, API, transmission or legally valid receipt |
+| Local preview | `site/` static root only; localhost URL | Simple `127.0.0.1` HTTP, correct HTML/CSS/JS/JSON/SVG MIME, `index.html` resolving and 404 | Do not run via `file://` for modules/fetch. Reject `..\\` traversal, no exposed secret parent directory; stop process after tests |
+| Tests + Git | `tests/`, current M01 branch and current project folder | Deterministic validators, Node `--test`, browser viewport evidence, versioned changes | Never mutate other model folders, `main`, `09-` or private credentials; revert via Git commit |
 
-**Data-contract detail is deliberately deferred to S05:** product ID values, the six exact \`priceMinor\` fixtures, data shape and category/empty-state taxonomy are to be defined/tested then; no invented payment currency conversion. Shared catalog fixture stores a real ISO currency code only if chosen for **illustrative** price formatting; badge \`DEMO\` always displayed in all five languages. Arithmetic validates integers and never trusts DOM prices as authority. No real transfer is possible in M01.
+**Data-contract detail is deliberately deferred to S05:** product ID values, the six exact `priceMinor` fixtures, data shape and category/empty-state taxonomy are to be defined/tested then; no invented payment currency conversion. Shared catalog fixture stores a real ISO currency code only if chosen for **illustrative** price formatting; badge `DEMO` always displayed in all five languages. Arithmetic validates integers and never trusts DOM prices as authority. No real transfer is possible in M01.
 
 ### HTML, JS and CSS interoperability contract (S08 implementation targets, not code shipped in S04)
 
-- HTML head: \`charset=utf-8\`, \`<meta name="viewport" content="width=device-width, initial-scale=1">\`, localized \`<title>\` and description, \`<html lang="fa|en|ar|tr|de" dir="rtl|ltr">\`, and ordered native CSS links. Use a single \`<script type="module" src=".../assets/js/main.js">\` referencing same-origin assets. Modules defer execution by default; test correct MIME.
-- Layout: \`header\` containing a single \`nav\` with native links and always-discoverable language controls; \`main id=main-content\`, accessible page heading, \`footer\`, skip link. JS-enhanced mobile menu control starts hidden in no-JS mode and only becomes active once JS has initialized; without JS, native nav links remain visible and keyboard-reachable.
+- HTML head: `charset=utf-8`, `<meta name="viewport" content="width=device-width, initial-scale=1">`, localized `<title>` and description, `<html lang="fa|en|ar|tr|de" dir="rtl|ltr">`, and ordered native CSS links. Use a single `<script type="module" src=".../assets/js/main.js">` referencing same-origin assets. Modules defer execution by default; test correct MIME.
+- Layout: `header` containing a single `nav` with native links and always-discoverable language controls; `main id=main-content`, accessible page heading, `footer`, skip link. JS-enhanced mobile menu control starts hidden in no-JS mode and only becomes active once JS has initialized; without JS, native nav links remain visible and keyboard-reachable.
 - Use relative or site-root-based links **consistently** for localhost (S08); hosting under a subpath is UNVERIFIED and must not be assumed. S19 tests final base-path mapping before a permitted deploy. Localization switch targets corresponding kind, never automatically changes language by IP/UA.
-- CSS uses logical box properties, \`min-inline-size:0\`, \`max-inline-size:100%\`, \`clamp()\`, \`auto-fit/minmax\` where useful. Desktop nav and 2–3-column content expand only when enough space; breakpoints are specified in S06 after real content, not hardcoded to device user agents. No permanent mandatory font download or oversized image/animation.
-- JS enhancement loads on **localhost HTTP**; \`fetch('/data/items.demo.json')\` only if local static server serves \`site/\` at origin root. No \`eval\`, injecting user strings through \`innerHTML\`, analytics, external payment scripts or remote APIs.
-- Contact form has client validation/mock result only; no \`action\` that sends PII or hidden submission. No-JS message honestly says preview is interactive only when enabled.
-- Persisted demo cart does **not** represent durable orders. Changing locale on the same origin may keep anonymous \`sessionStorage\` cart with validation; no guarantee across browsers, tabs, origins or restarts. A reset is available.
+- CSS uses logical box properties, `min-inline-size:0`, `max-inline-size:100%`, `clamp()`, `auto-fit/minmax` where useful. Desktop nav and 2–3-column content expand only when enough space; breakpoints are specified in S06 after real content, not hardcoded to device user agents. No permanent mandatory font download or oversized image/animation.
+- JS enhancement loads on **localhost HTTP**; `fetch('/data/items.demo.json')` only if local static server serves `site/` at origin root. No `eval`, injecting user strings through `innerHTML`, analytics, external payment scripts or remote APIs.
+- Contact form has client validation/mock result only; no `action` that sends PII or hidden submission. No-JS message honestly says preview is interactive only when enabled.
+- Persisted demo cart does **not** represent durable orders. Changing locale on the same origin may keep anonymous `sessionStorage` cart with validation; no guarantee across browsers, tabs, origins or restarts. A reset is available.
 
 ### S04 acceptance checks and handover
 
 | ID | Non-runtime test (S04) | Expected result | Later operational verification |
 |---|---|---|---|
-| A01 | fixed 5 locale keys × 6 page-kind keys; distinct canonical route strings | exactly 30 unique \`site/{locale}/...\` targets, checkout \`noindex\` | S05 IA; S08–S15 actual outputs |
-| A02 | architecture path stays in approved model folder; current local branch and clean status | isolated \`project/light-sites-m01-vanilla-20261121\`, no project 09 touched | S08 git change/diff |
+| A01 | fixed 5 locale keys × 6 page-kind keys; distinct canonical route strings | exactly 30 unique `site/{locale}/...` targets, checkout `noindex` | S05 IA; S08–S15 actual outputs |
+| A02 | architecture path stays in approved model folder; current local branch and clean status | isolated `project/light-sites-m01-vanilla-20261121`, no project 09 touched | S08 git change/diff |
 | A03 | 3 CSS/6 ES-module roles, one fixture and one localhost preview; no framework/back end | explicit I/O, storage, failures and stop conditions | S08–S14 real localhost/I/O |
 | A04 | no-JS semantic content, 5 locale/RTL contract and 3 responsive classes | complete written contract, not a render pass | S09/S10/S16/S18 browser QA |
 | A05 | no real PSP/PII, missing product/browser/network/fetch failures, rollback policy | documented safety and reversibility | S13–S19 failure tests |
