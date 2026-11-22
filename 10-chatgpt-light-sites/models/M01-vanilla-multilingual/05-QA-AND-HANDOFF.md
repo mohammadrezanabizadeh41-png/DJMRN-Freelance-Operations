@@ -113,6 +113,31 @@ Do not make a second status/counter file. Only tick **parent M01** after final e
 - **Evidence:** Node deterministic tests + actual Edge browser smoke + minimum visible screenshots per representative viewport for each implemented feature; a source citation is not evidence of implementation. Each stage remains `[ ]` until its own tests pass. References and prioritization live in [01 Brief §11](01-RESEARCH-AND-BRIEF.md) and [04 Contract §9](04-I18N-SEO-COMMERCE-SECURITY.md).
 - **Excluded by default:** real CRM, purchases, authentication, paid APIs, CMS, online admin, chatbots, newsletters, tracking, speculative PWA caching, mandatory 3D. Any added provider or production service needs a separate documented need, reliable free-tier/cost verification and approval.
 
+## 5C) Reusable actual-tool QA protocol (audited 2026-11-22; NOT a test execution)
+
+**Audit provenance:** The S10-completed local laptop was inspected read-only. Playwright 1.65.1 / @playwright/test, axe-core 4.14.1, html-validate 11.21.1 and Prettier 3.10.1 are resolvable from the **existing M01-Prep/qa package context**, not automatically from the M01 source tree, and not guaranteed globally. Node 24.22.1, Chrome 157, Edge 158 and Git 2.55 are installed. S08–S10 pass results used Edge/Playwright and Node; **no axe/HTML-Validate/Lighthouse score exists yet**. Installation snapshot is the single [parent tools registry §N](../../tools/REGISTRY.md); actual stage tool placement is the [M01 profile §7](02-STACK-TOOLS-AND-MCP.md). This QA matrix remains a **plan** for unexecuted checks.
+
+| Existing acceptance cases | Required smallest tool | New/retrospective usage rule |
+|---|---|---|
+| T01–T07, T25–T26 — pages, routes, journeys, conceptual work | Native Node URL/JSON/HTML checks + existing Playwright/Edge E2E | Repeat 5 locales × mobile/tablet/desktop; HTML-Validate can find markup errors after baseline. Old PASS must not be reattributed to new analyzer |
+| T08–T11, T24, T29 — RTL, reading order, keyboard, motion, focus | axe-core 4.14.1 injected only into isolated local test pages, Playwright + manual keyboard/touch/zoom/reading review | Save rule IDs/severity/elements/evidence; automated tests **cannot** claim full WCAG compliance. Browser reduced-motion and no-JS fallback required |
+| T12–T19, T27–T28 — demo cart, contact, security, recovery | Node built-in test for state/math/validation + Playwright one-worker browser/network; offline HTML-Validate | No PSP/PII/remote POST, inspect public/LAN request paths; fail with clear reproduction, don't infer safety from a clean static scan |
+| T20, T25 and T29 — load/SEO/overall handoff | Chrome DevTools Performance/Lighthouse already in Chrome + native link checks and original-asset size measurements | Separate real runs on representative mobile/desktop; record actual scores and runtime constraints. Zero scores before execution |
+| T21–T24 — S14A local content studio | Node/Git draft/validate/backup+rollback tests + Playwright UI + HTML-Validate and axe + manual operator walkthrough | Loopback-only editor, negative external/LAN access checks, real diff/preview and version recovery. Figma/Penpot cannot substitute for editor authorization |
+
+**Rebuild/QA procedure, free-first and reproducible:**
+1. Read target source, verify branch/diff, RAM and actual installed tool versions; keep Node static preview bound to loopback. Do not launch Blender/Docker or parallel browsers, especially when memory is low.
+2. Use the current Node renderer and Node built-in tests, then one Playwright/Edge worker. For a new feature choose representative 390/820/1366 first and widen only if needed; run all five locales and JS-on/off at acceptance gate.
+3. Use offline HTML-Validate for a **measured baseline** before making validation mandatory; inspect configuration and report false positives vs HTML Living Standard. Use Prettier in **check/diff only** mode, never indiscriminately reformat all generated files without updating the generator.
+4. At S16/S18 integrate the already-present axe-core with a reviewed local Playwright script. Store test input/URL, version, WCAG rule finding, affected DOM/locale, evidence and remediation in the corresponding **existing stage**, not a new current-status log. Pair with human review based on W3C evaluation guidance.
+5. In S17 measure Lighthouse/Performance via built-in Chrome DevTools instead of installing a second CLI by default; capture CPU/connection/device and actual 75th-percentile **field** values only if real field data exists. Local lab score is not field data or production proof.
+6. Prettier/HTML-Validate/axe modules in M01-Prep/qa **must not** become an implicit runtime dependency or leak npm artifacts to site/. Any committed QA dependency later requires pinned version/license/security review and explicit bounded scope. No npx fetching, no install/upgrade/paid API/permission changes in this audit.
+7. Re-run Node smoke whenever the content schema, five-language render or public routes change. W3C screen reader, zoom/reflow, manual linguistic approval, copyright/licenses and physical-phone checks remain separate, and stage PASS still requires independent evidence.
+
+**Official sources:** [Playwright docs](https://playwright.dev/docs/browsers), [HTML-Validate](https://html-validate.org/), [Prettier check](https://prettier.io/docs/cli), [axe-core](https://www.deque.com/axe/axe-core/), [Chrome DevTools Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [W3C evaluation tools](https://www.w3.org/WAI/test-evaluate/tools/selecting/), [GitHub dependency security](https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security).
+
+**Status:** Tool-to-test MAPPING ONLY; no new S-stage PASS, test result, cloud plugin activation, dashboard feature or actual Lighthouse/axe scan is claimed.
+
 ## 6) Finish-line review by person
 - Visual originality and legibility on mobile in both RTL and LTR.
 - Minimum real flows: navigate and switch language, inspect services/cases, filter products, add to cart, mock checkout and reset.
