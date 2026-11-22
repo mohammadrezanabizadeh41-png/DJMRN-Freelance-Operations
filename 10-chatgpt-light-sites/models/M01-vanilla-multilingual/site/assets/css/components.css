@@ -68,3 +68,25 @@
   .hero-art { max-inline-size: 21rem; }
   .work-card .work-mark { inline-size: 32%; }
 }
+
+/* S08 Home locales: native links are reachable and the current locale is explicit. */
+.locale-switch a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+  border-radius: .5rem;
+  font-size: .72rem;
+  padding: .32rem .55rem;
+  min-block-size: 2.75rem;
+  white-space: nowrap;
+}
+.locale-switch a[aria-current="page"] { color: var(--color-accent); border-color: var(--color-accent); }
+.locale-switch a:hover { color: var(--color-accent); border-color: var(--color-accent); }
+.entry-languages { display: flex; flex-wrap: wrap; gap: .75rem; margin-block: 1.5rem; }
+.entry-languages .btn { min-inline-size: 7rem; }
+[dir="rtl"] .brand { letter-spacing: .05em; }
+[dir="rtl"] .hero h1 { letter-spacing: normal; }
+[dir="rtl"] .card h3 { letter-spacing: normal; }

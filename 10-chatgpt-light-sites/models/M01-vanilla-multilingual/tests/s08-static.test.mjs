@@ -36,9 +36,9 @@ test('S08 anchor navigation has no missing targets', () => {
   for (const match of page.matchAll(/href="#([\w-]+)"/g)) assert(page.includes('id="'+match[1]+'"'), match[1]);
   assert.match(chooser, /href="\/en\/"/);
 });
-test('S08 uses no dead links for unbuilt locales or future routes', () => {
-  for (const l of ['fa','ar','tr','de']) assert(!page.includes('href="/'+l+'/')); 
-  for (const kind of ['services','work','catalog','contact','demo-checkout']) assert(!page.includes('href="/en/'+kind+'/'));
+test('S08 links to built Home locales but not unfinished page kinds', () => {
+  for (const l of ['fa','en','ar','tr','de']) assert(page.includes('href="/'+l+'/'),l);
+  for (const kind of ['services','work','catalog','contact','demo-checkout']) assert(!page.includes('href="/en/'+kind+'/'),kind);
 });
 test('S08 actual image is bitwise identical to original approved S06 SVG', async () => {
   const [original,copy]=await Promise.all([
