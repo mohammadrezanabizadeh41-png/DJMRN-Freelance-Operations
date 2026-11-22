@@ -1,5 +1,5 @@
 # M01 — نقشه راه اجرایی ترتیبی ساخت نمونه پنج‌زبانه
-**Status:** S01–S03 **PASS (environment + product brief + external UX research)**; S04–S20 **NOT STARTED**; no website code has been built or tested.  
+**Status:** S01–S04 **PASS (environment + brief + external UX research + architecture contract)**; S05–S20 **NOT STARTED**; no website code has been built or tested.  
 **Source:** [01 Brief](01-RESEARCH-AND-BRIEF.md) · [02 Tools](02-STACK-TOOLS-AND-MCP.md) · [04 Cross-cutting contracts](04-I18N-SEO-COMMERCE-SECURITY.md) · [05 Acceptance](05-QA-AND-HANDOFF.md).  
 **Parent build checklist:** [M01 of 22](../../05-MODEL-BUILD-CHECKLIST.md). The parent M01 must remain unchecked until real acceptance.
 
@@ -88,12 +88,17 @@
   - **نتیجهٔ پذیرش:** **PASS برای گیت پژوهش S03** = پنج مرجع با URL/تاریخ/استنتاج/ریسک حقوقی، ۱۵ viewport واقعی+۳ viewport پیش‌نمایش کاتالوگ، screenshots محلی، یک نمونه فیلتر قابل مشاهده 9→3، سه الگوی قابل پیاده‌سازی و جهت بصری موقت. **NOT TESTED برای سایت M01:** هیچ صفحهٔ ساخته‌شده، زبان‌ها، backend، پرداخت، درگاه، Lighthouse/WCAG یا تست واقعی روی گوشی. **مراحل بعد S04 → S20 هنوز [ ]**؛ S04 تصمیم معماری/فایل، S05 IA/data، S06 طراحی مصوب، S07 i18n، S08 اولین HTML واقعی. تیک نهایی M01 در فهرست ۲۲ مدل خالی می‌ماند.
   - **Commit و بازگشت:** همه تغییرات فقط در همین فایل و همین branch ثبت می‌شوند؛ با Git revert قابل بازگشت‌اند. شاخه والد، `main` و `09-self-marketing-website` دست‌نخورده‌اند.
 
-- [ ] **S04 — معماری ساده و قرارداد توسعه**
-  - **کار:** نقشه HTML/CSS/JS ماژولار با **یک DOM معنایی و CSS mobile-first، viewport meta، توکن‌های fluid و breakpoints محتوامحور**؛ JavaScript صرفاً تعامل، SSR/DB صفر؛ preview loopback.
-  - **ابزار/نقش:** GPT-6 + Git.
-  - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
-  - **قبولی:** ساختار فایل/قرارداد state، یک DOM یکسان در هر locale، متای viewport، رویکرد mobile-first، breakpoints محتوامحور و rollback تأیید.
-  - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
+- [x] **S04 — معماری ساده و قرارداد توسعه**
+  - **وضعیت و زمان:** **PASS — 2026-11-22** برای قرارداد معماری/طراحی مهندسی؛ **NOT BUILT / NOT RUNTIME TESTED** برای کد سایت. `S01–S03` از قبل PASS بودند.
+  - **ورودی تأییدشده:** [S02 Brief](01-RESEARCH-AND-BRIEF.md) و [S03 evidence](03-EXECUTION-ROADMAP.md)؛ برند آزمایشی `NOVA Atelier`، شش خدمت، سه Concept/Demo case، شش محصول ساختگی، ۵ زبان و ۳ کلاس نمایشگر.
+  - **خروجی قابل بازبینی:** بند [S04 — قرارداد تأییدشدهٔ معماری استاتیک](04-I18N-SEO-COMMERCE-SECURITY.md) در سند موجود، نه گزارش موازی؛ شامل درخت `site/`، مالکیت CSS/JS، ۳۰ route هدف، public HTML/no-JS، state/data، failure modes، اجرای localhost، امنیت، rollback و انتقال به S05–S08.
+  - **فناوری و Boundary:** HTML چندصفحه‌ای قابل خواندن بدون JS؛ CSS mobile-first در `tokens.css/base.css/components.css` با یک DOM معنایی در هر locale/page؛ شش ماژول JS `main/nav/locale/catalog/cart/checkout` فقط برای تعامل؛ یک `items.demo.json` مصنوعی؛ SSR/DB/framework/real payment/real contact submission/CDN وابسته = **هیچ**. `site/` فقط نقشهٔ ساخت تا شروع S08 است، پوشه/صفحات سایت هنوز ایجاد نشده‌اند.
+  - **قرارداد زبان/مسیر:** `fa/ar` RTL و `en/tr/de` LTR؛ ۵ نوع صفحهٔ عمومی × ۵ زبان = **۲۵**؛ `demo-checkout` × ۵ = **۵** `noindex`، جمعاً **۳۰**. صفحهٔ انتخاب زبان یا 404 در صورت نیاز خارج از این ۳۰. تغییر زبان به همان نوع صفحه، لینک واقعی HTML؛ breakpoint بر اساس محتوا در S06.
+  - **State و Failure:** محصول/مبلغ canonical فقط fixture آزمایشی؛ `priceMinor` عدد صحیح، کمیت محدود، `sessionStorage` اختیاری و پاک‌سازی در خطا؛ catalog static fallback هنگام fail JSON؛ nav قابل استفاده بدون JS؛ نمایش دائمی `DEMO — no money charged`، بدون PSP/PII/CVV/حساب واقعی. `file://` برای module/fetch ممنوع؛ S08 روی `127.0.0.1` با MIME درست و مسیرهای امن آزمایش شود.
+  - **شواهد آزمون قرارداد A01–A06:** A01 `PASS` شمارش `5×6=30` route یکتا، `25` عمومی/`5` DEMO؛ A02 `PASS` بررسی محلی Git branch `project/light-sites-m01-vanilla-20261121`، sparse فقط M01، `git status` پاک، `site/` موجود نیست؛ A03 `PASS` دامنه مسئولیت ۳ CSS/۶ JS/یک داده + failure policy؛ A04 `PASS` ثبت no-JS, lang/dir, responsive؛ A05 `PASS` جداسازی پرداخت/PII و بازگشت با Git؛ A06 `PASS` ارجاع به MDN و Google official. **همه PASSها قرارداد/مطابقت ایستا هستند؛ مرورگر و کد M01 تست نشده‌اند**.
+  - **ریسک/محدودیت:** نام تجاری/رنگ نهایی، حقوق asset واقعی و ترجمه انسانی هنوز نهایی نیستند؛ دامنه یا مسیر میزبانی نامشخص است؛ اسکریپت تولید HTML، server و JSON هنوز فایل فیزیکی نیستند؛ دو مسیر پرداخت/فرم واقعی عامدانه حذف‌اند. پیشنهاد Node generator فقط در صورت نیاز اثبات‌شده و بدون package جدید.
+  - **سیاست فضا و هزینه:** فقط [شاخهٔ اختصاصی M01](https://github.com/mohammadrezanabizadeh41-png/DJMRN-Freelance-Operations/tree/project/light-sites-m01-vanilla-20261121/10-chatgpt-light-sites/models/M01-vanilla-multilingual)؛ هیچ ویرایش در `main`، `09-self-marketing-website/` یا مدل‌های دیگر؛ بدون نصب/خرید/credit.
+  - **مرحله بعد:** `S05` — IA، جدول URL و CTA، شکل دقیق fixture ۶ محصول، قوانین دسته/خطا و گردش‌های کار. `S06` visual و `S07` ترجمه؛ اولین سایت قابل اجرای واقعی در `S08`، نه این مرحله.
 
 - [ ] **S05 — معماری اطلاعات، صفحات و مسیرها**
   - **کار:** navigation، sitemap، CTA، product data dummy، مسیر داده و حالت خطا برای زبان‌ها و هر سه سطح نمایش؛ منوی موبایل، ناوبری تبلت و desktop، سبد خرید و فرم بدون قابلیت گم‌شده.
