@@ -1,0 +1,19 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { min-inline-size: 0; margin: 0; color: var(--color-text); background: var(--color-bg); font: 400 clamp(1rem, .96rem + .18vw, 1.13rem)/1.6 system-ui, "Segoe UI", Tahoma, Arial, sans-serif; }
+img, svg { max-inline-size: 100%; block-size: auto; }
+a { color: inherit; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--color-focus); outline-offset: 4px; }
+button { font: inherit; }
+h1, h2, h3, p { overflow-wrap: anywhere; }
+h1, h2, h3 { line-height: 1.16; letter-spacing: -.025em; }
+h1 { font-size: clamp(2.05rem, 1.2rem + 4.3vw, 4.9rem); }
+h2 { font-size: clamp(1.55rem, 1.2rem + 1.55vw, 2.4rem); }
+p { margin-block: .65rem 1rem; }
+.shell { max-inline-size: var(--content-width); margin-inline: auto; padding-inline: var(--page-gutter); }
+.skip-link { position: absolute; inset-block-start: -8rem; inset-inline-start: var(--page-gutter); z-index: 100; background: var(--color-accent); color: var(--color-on-accent); padding: .65rem 1rem; }
+.skip-link:focus { inset-block-start: .5rem; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
+}
