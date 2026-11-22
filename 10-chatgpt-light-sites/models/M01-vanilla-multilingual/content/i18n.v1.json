@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "contentStatus": "DRAFT_EDITORIAL_HUMAN_REVIEW_PENDING",
+  "rights": "Original model-authored demonstration copy; no actual client claims",
+  "project": "DJMRN-CHATGPT-LIGHT-SITES-001 / M01-vanilla-multilingual",
+  "localeOrder": [
+    "fa",
+    "en",
+    "ar",
+    "tr",
+    "de"
+  ],
+  "pageKinds": [
+    "home",
+    "services",
+    "work",
+    "catalog",
+    "contact",
+    "demo-checkout"
+  ],
+  "serviceIds": [
+    "company-websites",
+    "landing-pages",
+    "ui-accessibility",
+    "mobile-performance",
+    "seo-localization",
+    "visual-identity"
+  ],
+  "caseIds": [
+    "corporate-presence",
+    "creative-portfolio",
+    "digital-catalog"
+  ],
+  "productIds": [
+    "landing-kit",
+    "company-site-kit",
+    "portfolio-kit",
+    "multilingual-ui-kit",
+    "seo-starter-audit",
+    "performance-check-pack"
+  ],
+  "brand": "NOVA Atelier",
+  "note": "Temporary fictional studio. Site pages will be created in S08+ only. All 5 languages require qualified human proofreading before public deployment.",
+  "locales": {
+    "fa": {
+      "autonym": "فارسی",
+      "dir": "rtl",
+      "nav": {
+        "home": "خانه",
+        "services": "خدمات",
+        "work": "نمونه‌کارها",
+        "catalog": "کاتالوگ",
+        "contact": "تماس",
+        "checkout": "سبد نمایشی",
+        "languages": "انتخاب زبان"
+      },
+      "ui": {
+        "skip": "رفتن به محتوای اصلی",
+        "menuOpen": "باز کردن منو",
+        "menuClose": "بستن منو",
+        "search": "جست‌وجوی بسته‌های نمایشی",
+        "searchPlaceholder": "نام بسته را جست‌وجو کنید",
+        "filter": "دسته‌بندی",
+        "all": "همه",
+        "web": "وب",
+        "design": "طراحی",
+        "audit": "بررسی فنی",
+        "clearFilters": "پاک کردن فیلترها",
+        "emptyResults": "بسته‌ای مطابق جست‌وجو پیدا نشد.",
+        "resultCount": "تعداد نتایج",
+        "demo": "نمونهٔ نمایشی",
+        "concept": "پروژهٔ مفهومی",
+        "viewServices": "مشاهدهٔ خدمات",
+        "viewWork": "دیدن نمونه‌کارها",
+        "viewCatalog": "مشاهدهٔ کاتالوگ",
+        "previewContact": "نمایش آزمایشی فرم",
+        "addToCart": "افزودن به سبد نمایشی",
+        "viewCart": "مشاهدهٔ سبد نمایشی",
+        "remove": "حذف از سبد",
+        "increase": "افزایش تعداد",
+        "decrease": "کاهش تعداد",
+        "resetCart": "پاک کردن سبد",
+        "quantity": "تعداد",
+        "total": "جمع اعتبارات نمایشی",
+        "unit": "اعتبار آزمایشی",
+        "emptyCart": "سبد نمایشی خالی است؛ از کاتالوگ یک بسته انتخاب کنید.",
+        "confirm": "تأیید آزمایشی",
+        "confirmed": "تأیید آزمایشی ثبت شد؛ هیچ سفارش یا پرداختی انجام نشده است.",
+        "noPayment": "فقط نمونهٔ نمایشی — هیچ پرداختی انجام نمی‌شود.",
+        "noPersonalData": "هیچ پیام یا اطلاعات شخصی ارسال یا ذخیره نمی‌شود.",
+        "formLabel": "پیش‌نمایش فرم تماس",
+        "formResult": "فرم صرفاً نمایش داده شد؛ هیچ پیامی ارسال نشده است.",
+        "dataUnavailable": "دادهٔ آزمایشی در دسترس نیست؛ کارت‌های موجود همچنان نمایش داده می‌شوند.",
+        "invalidCart": "اطلاعات سبد معتبر نبود و به حالت امن بازنشانی شد.",
+        "loading": "در حال آماده‌سازی"
+      },
+      "views": {
+        "home": {
+          "title": "نووا آتلیه | طراحی دیجیتال و نمونه‌کار نمایشی",
+          "description": "نمونهٔ آموزشی طراحی سایت، تجربهٔ کاربری و کاتالوگ دیجیتال در پنج زبان، بدون مشتری و پرداخت واقعی.",
+          "h1": "طراحی دیجیتال، برای انسان‌ها",
+          "lead": "مفهوم‌هایی روشن برای سایت‌ها، رابط‌های کاربری و تجربه‌های دیجیتال."
+        },
+        "services": {
+          "title": "خدمات نمایشی | نووا آتلیه",
+          "description": "شش حوزهٔ نمونه در طراحی وب، تجربهٔ کاربری، سرعت، سئو و هویت بصری؛ صرفاً برای نمایش توانایی طراحی.",
+          "h1": "خدمات دیجیتال",
+          "lead": "شش حوزهٔ طراحی برای مرور مسیر کار، نه ادعای قرارداد با مشتری."
+        },
+        "work": {
+          "title": "نمونه‌کارهای مفهومی | نووا آتلیه",
+          "description": "سه مطالعهٔ موردی فرضی برای نمایش تصمیم‌های طراحی؛ بدون مشتری یا نتایج واقعی.",
+          "h1": "نمونه‌کارهای مفهومی",
+          "lead": "سه مسئله و راهکار ساختگی که با برچسب «نمونه» معرفی شده‌اند."
+        },
+        "catalog": {
+          "title": "کاتالوگ بسته‌های نمایشی | نووا آتلیه",
+          "description": "شش بستهٔ دیجیتال آزمایشی با اعتبار خیالی و سبد غیرواقعی؛ امکان خرید وجود ندارد.",
+          "h1": "کاتالوگ بسته‌های دیجیتال",
+          "lead": "بسته‌های آزمایشی را جست‌وجو و فیلتر کنید؛ هیچ خرید واقعی انجام نمی‌شود."
+        },
+        "contact": {
+          "title": "پیش‌نمایش تماس | نووا آتلیه",
+          "description": "پیش‌نمایش غیرارسالی فرم تماس برای یک نمونهٔ طراحی؛ هیچ اطلاعاتی منتقل نمی‌شود.",
+          "h1": "تماس آزمایشی",
+          "lead": "چیدمان فرم را ببینید؛ این صفحه پیام واقعی دریافت نمی‌کند."
+        },
+        "demo-checkout": {
+          "title": "تأیید نمایشی سبد | نووا آتلیه",
+          "description": "بازبینی سبد ساختگی و رسید آزمایشی بدون پرداخت، سفارش یا دریافت اطلاعات شخصی.",
+          "h1": "تأیید سبد آزمایشی",
+          "lead": "این فرایند فقط برای نمایش تجربهٔ کاربری است و هیچ تراکنشی ندارد."
+        }
+      },
+      "services": {
+        "company-websites": {
+          "title": "سایت شرکتی و خدماتی",
+          "description": "معرفی روشن خدمات و مسیرهای تماس در یک وب‌سایت سبک.",
+          "alt": ""
+        },
+        "landing-pages": {
+          "title": "صفحهٔ فرود",
+          "description": "ساختار صفحهٔ معرفی محصول با پیام اصلی و اقدام بعدی واضح.",
+          "alt": ""
+        },
+        "ui-accessibility": {
+          "title": "رابط کاربری و دسترس‌پذیری",
+          "description": "چیدمان قابل فهم برای کاربران صفحه‌کلید، لمس و ابزارهای کمکی.",
+          "alt": ""
+        },
+        "mobile-performance": {
+          "title": "عملکرد و تجربهٔ موبایل",
+          "description": "توجه به سرعت، اندازهٔ صفحه و خوانایی در دستگاه‌های کوچک.",
+          "alt": ""
+        },
+        "seo-localization": {
+          "title": "سئو و ساختار چندزبانه",
+          "description": "ساختار محتوا و مسیرهای جداگانهٔ زبان‌ها برای بررسی فنی.",
+          "alt": ""
+        },
+        "visual-identity": {
+          "title": "هویت بصری سبک",
+          "description": "رنگ، تایپوگرافی و اجزای تصویری منسجم و ساده.",
+          "alt": ""
+        }
+      },
+      "cases": {
+        "corporate-presence": {
+          "title": "حضور شرکتی",
+          "description": "طرح فرضی برای معرفی شفاف خدمات یک شرکت.",
+          "alt": "تصویر مفهومی اصیل برای طرح حضور شرکتی"
+        },
+        "creative-portfolio": {
+          "title": "پورتفولیوی خلاق",
+          "description": "طرح مفهومی برای نمایش نمونه‌کارهای یک فرد خلاق.",
+          "alt": "گرافیک مفهومی اصیل برای پورتفولیوی خلاق"
+        },
+        "digital-catalog": {
+          "title": "کاتالوگ دیجیتال",
+          "description": "طرح نمایشی برای یافتن و مقایسهٔ بسته‌های دیجیتال.",
+          "alt": "تصویر مفهومی اصیل از ساختار کاتالوگ دیجیتال"
+        }
+      },
+      "products": {
+        "landing-kit": {
+          "title": "بستهٔ صفحهٔ فرود",
+          "description": "الگوی نمایشی یک صفحهٔ معرفی محصول.",
+          "alt": ""
+        },
+        "company-site-kit": {
+          "title": "بستهٔ سایت شرکتی",
+          "description": "ساختار مفهومی یک سایت معرفی خدمات.",
+          "alt": ""
+        },
+        "portfolio-kit": {
+          "title": "بستهٔ نمونه‌کار",
+          "description": "طرح اولیهٔ نمایش پروژه‌های شخصی.",
+          "alt": ""
+        },
+        "multilingual-ui-kit": {
+          "title": "بستهٔ رابط چندزبانه",
+          "description": "الگوی نمایشی اجزای راست‌به‌چپ و چپ‌به‌راست.",
+          "alt": ""
+        },
+        "seo-starter-audit": {
+          "title": "بررسی مقدماتی سئو",
+          "description": "فهرست آزمایشی موارد فنی برای مرور ساختار سایت.",
+          "alt": ""
+        },
+        "performance-check-pack": {
+          "title": "بستهٔ بررسی عملکرد",
+          "description": "چک‌لیست نمایشی سرعت و سازگاری موبایل.",
+          "alt": ""
+        }
+      }
+    },
+    "en": {
+      "autonym": "English",
+      "dir": "ltr",
+      "nav": {
+        "home": "Home",
+        "services": "Services",
+        "work": "Work",
+        "catalog": "Catalog",
+        "contact": "Contact",
+        "checkout": "Demo cart",
+        "languages": "Choose language"
+      },
+      "ui": {
+        "skip": "Skip to main content",
+        "menuOpen": "Open menu",
+        "menuClose": "Close menu",
+        "search": "Search demo kits",
+        "searchPlaceholder": "Search for a kit",
+        "filter": "Categories",
+        "all": "All",
+        "web": "Web",
+        "design": "Design",
+        "audit": "Technical audit",
+        "clearFilters": "Clear filters",
+        "emptyResults": "No demo kits match your search.",
+        "resultCount": "Results",
+        "demo": "Demo only",
+        "concept": "Concept project",
+        "viewServices": "Explore services",
+        "viewWork": "View concept work",
+        "viewCatalog": "Explore catalog",
+        "previewContact": "Preview contact form",
+        "addToCart": "Add to demo cart",
+        "viewCart": "View demo cart",
+        "remove": "Remove from cart",
+        "increase": "Increase quantity",
+        "decrease": "Decrease quantity",
+        "resetCart": "Clear cart",
+        "quantity": "Quantity",
+        "total": "Total demo credits",
+        "unit": "fictional demo credits",
+        "emptyCart": "Your demo cart is empty. Choose a kit from the catalog.",
+        "confirm": "Confirm demo",
+        "confirmed": "Demo confirmed. No order was placed and no payment was made.",
+        "noPayment": "Demo only — no real payment is made.",
+        "noPersonalData": "No message or personal information is sent or stored.",
+        "formLabel": "Contact form preview",
+        "formResult": "This was only a preview; no message was sent.",
+        "dataUnavailable": "Demo data could not load; existing cards remain available.",
+        "invalidCart": "Invalid demo cart data was safely reset.",
+        "loading": "Loading preview"
+      },
+      "views": {
+        "home": {
+          "title": "NOVA Atelier | Digital design concept portfolio",
+          "description": "A five-language concept site for digital services, sample work and a fictional catalog. No real clients or payments.",
+          "h1": "Digital design, made human.",
+          "lead": "Clear concepts for websites, interfaces and thoughtful digital experiences."
+        },
+        "services": {
+          "title": "Demo services | NOVA Atelier",
+          "description": "Six illustrative capabilities spanning websites, UX, performance, localization and identity. No customer outcomes are claimed.",
+          "h1": "Digital services",
+          "lead": "Explore six design capabilities presented as portfolio concepts."
+        },
+        "work": {
+          "title": "Concept work | NOVA Atelier",
+          "description": "Three fictional design case studies demonstrating decisions, not real customer engagements.",
+          "h1": "Concept projects",
+          "lead": "Three clearly labeled demo problems and design approaches."
+        },
+        "catalog": {
+          "title": "Demo digital kits | NOVA Atelier",
+          "description": "Browse six fictional digital kits with demo credits. Nothing can actually be purchased.",
+          "h1": "Digital kit catalog",
+          "lead": "Search and filter synthetic kits; the cart is a demonstration."
+        },
+        "contact": {
+          "title": "Contact preview | NOVA Atelier",
+          "description": "An illustrative, non-submitting contact interface. No personal data is transmitted.",
+          "h1": "Contact form preview",
+          "lead": "Explore the form design; this is not an active contact channel."
+        },
+        "demo-checkout": {
+          "title": "Demo checkout | NOVA Atelier",
+          "description": "Review a fictional cart and acknowledgment without payment, purchase or data collection.",
+          "h1": "Demo cart review",
+          "lead": "This interaction is a non-transactional UI demonstration only."
+        }
+      },
+      "services": {
+        "company-websites": {
+          "title": "Company websites",
+          "description": "A clear structure for presenting services and ways to get in touch.",
+          "alt": ""
+        },
+        "landing-pages": {
+          "title": "Landing pages",
+          "description": "Focused product introductions with a visible next step.",
+          "alt": ""
+        },
+        "ui-accessibility": {
+          "title": "UI / UX and accessibility",
+          "description": "Interfaces designed around keyboard, touch and assistive technology.",
+          "alt": ""
+        },
+        "mobile-performance": {
+          "title": "Mobile performance",
+          "description": "Attention to speed, device size and small-screen readability.",
+          "alt": ""
+        },
+        "seo-localization": {
+          "title": "SEO and localization",
+          "description": "Content hierarchy and language-specific routes for technical review.",
+          "alt": ""
+        },
+        "visual-identity": {
+          "title": "Light visual identity",
+          "description": "A cohesive, restrained palette, typography and visual system.",
+          "alt": ""
+        }
+      },
+      "cases": {
+        "corporate-presence": {
+          "title": "Corporate presence",
+          "description": "A fictional concept for presenting a company's services.",
+          "alt": "Original conceptual artwork for a corporate presence mockup"
+        },
+        "creative-portfolio": {
+          "title": "Creative portfolio",
+          "description": "An illustrative way to showcase independent creative projects.",
+          "alt": "Original visual concept for a creative portfolio"
+        },
+        "digital-catalog": {
+          "title": "Digital catalog",
+          "description": "A mock experience for finding and comparing digital kits.",
+          "alt": "Original concept artwork showing a digital catalog layout"
+        }
+      },
+      "products": {
+        "landing-kit": {
+          "title": "Landing Kit",
+          "description": "A fictional product-introduction page kit.",
+          "alt": ""
+        },
+        "company-site-kit": {
+          "title": "Company Site Kit",
+          "description": "A sample structure for a service-focused website.",
+          "alt": ""
+        },
+        "portfolio-kit": {
+          "title": "Portfolio Kit",
+          "description": "A concept layout for selected personal work.",
+          "alt": ""
+        },
+        "multilingual-ui-kit": {
+          "title": "Multilingual UI Kit",
+          "description": "A demonstration of RTL and LTR interface components.",
+          "alt": ""
+        },
+        "seo-starter-audit": {
+          "title": "SEO Starter Audit",
+          "description": "An illustrative list of structural SEO checks.",
+          "alt": ""
+        },
+        "performance-check-pack": {
+          "title": "Performance Check Pack",
+          "description": "A demo checklist for speed and responsive behavior.",
+          "alt": ""
+        }
+      }
+    },
+    "ar": {
+      "autonym": "العربية",
+      "dir": "rtl",
+      "nav": {
+        "home": "الرئيسية",
+        "services": "الخدمات",
+        "work": "الأعمال",
+        "catalog": "الكتالوج",
+        "contact": "التواصل",
+        "checkout": "السلة التجريبية",
+        "languages": "اختيار اللغة"
+      },
+      "ui": {
+        "skip": "تخطَّ إلى المحتوى الرئيسي",
+        "menuOpen": "فتح القائمة",
+        "menuClose": "إغلاق القائمة",
+        "search": "البحث في الباقات التجريبية",
+        "searchPlaceholder": "ابحث عن باقة",
+        "filter": "الفئات",
+        "all": "الكل",
+        "web": "الويب",
+        "design": "التصميم",
+        "audit": "المراجعة التقنية",
+        "clearFilters": "مسح المرشحات",
+        "emptyResults": "لا توجد باقات تجريبية مطابقة للبحث.",
+        "resultCount": "النتائج",
+        "demo": "عرض تجريبي فقط",
+        "concept": "مشروع تصوري",
+        "viewServices": "استكشف الخدمات",
+        "viewWork": "عرض الأعمال التصورية",
+        "viewCatalog": "استكشف الكتالوج",
+        "previewContact": "معاينة نموذج التواصل",
+        "addToCart": "إضافة إلى السلة التجريبية",
+        "viewCart": "عرض السلة التجريبية",
+        "remove": "إزالة من السلة",
+        "increase": "زيادة الكمية",
+        "decrease": "تقليل الكمية",
+        "resetCart": "إفراغ السلة",
+        "quantity": "الكمية",
+        "total": "إجمالي الأرصدة التجريبية",
+        "unit": "رصيد تجريبي افتراضي",
+        "emptyCart": "السلة التجريبية فارغة. اختر باقة من الكتالوج.",
+        "confirm": "تأكيد تجريبي",
+        "confirmed": "اكتمل التأكيد التجريبي. لم يُنشأ طلب ولم تُنفّذ أي عملية دفع.",
+        "noPayment": "عرض تجريبي فقط — لا تُجرى أي عملية دفع حقيقية.",
+        "noPersonalData": "لا تُرسل أو تُخزَّن رسائل أو معلومات شخصية.",
+        "formLabel": "معاينة نموذج التواصل",
+        "formResult": "هذه معاينة فقط؛ لم تُرسل أي رسالة.",
+        "dataUnavailable": "تعذّر تحميل البيانات التجريبية؛ ستبقى البطاقات المعروضة متاحة.",
+        "invalidCart": "أُعيد ضبط بيانات السلة غير الصالحة بأمان.",
+        "loading": "جارٍ تحميل المعاينة"
+      },
+      "views": {
+        "home": {
+          "title": "نوفا أتيليه | تصور للتصميم الرقمي",
+          "description": "موقع تصوري بخمس لغات لعرض الخدمات والأعمال والكتالوج التجريبي، دون عملاء أو مدفوعات حقيقية.",
+          "h1": "تصميم رقمي يضع الإنسان أولاً",
+          "lead": "أفكار واضحة للمواقع والواجهات والتجارب الرقمية المدروسة."
+        },
+        "services": {
+          "title": "الخدمات التجريبية | نوفا أتيليه",
+          "description": "ست قدرات تصميمية توضيحية تشمل المواقع وتجربة المستخدم والأداء والتعريب والهوية.",
+          "h1": "الخدمات الرقمية",
+          "lead": "استكشف ستة مجالات تصميم معروضة لأغراض توضيحية فقط."
+        },
+        "work": {
+          "title": "أعمال تصورية | نوفا أتيليه",
+          "description": "ثلاث دراسات حالة افتراضية لتوضيح قرارات التصميم، وليست أعمالاً لعملاء حقيقيين.",
+          "h1": "الأعمال التصورية",
+          "lead": "ثلاث مشكلات وحلول افتراضية مع وسم تجريبي واضح."
+        },
+        "catalog": {
+          "title": "كتالوج الباقات التجريبية | نوفا أتيليه",
+          "description": "ست باقات رقمية افتراضية بأرصدة تجريبية؛ لا يمكن إجراء شراء حقيقي.",
+          "h1": "كتالوج الباقات الرقمية",
+          "lead": "ابحث عن الباقات الافتراضية وصفّها؛ السلة للعرض فقط."
+        },
+        "contact": {
+          "title": "معاينة التواصل | نوفا أتيليه",
+          "description": "واجهة توضيحية لا ترسل رسائل ولا تنقل معلومات شخصية.",
+          "h1": "معاينة التواصل",
+          "lead": "اطّلع على تصميم النموذج؛ هذه ليست قناة تواصل فعّالة."
+        },
+        "demo-checkout": {
+          "title": "تأكيد السلة التجريبية | نوفا أتيليه",
+          "description": "مراجعة سلة افتراضية وإشعار تجريبي دون طلب أو دفع أو جمع بيانات.",
+          "h1": "مراجعة السلة التجريبية",
+          "lead": "هذا المسار لمعاينة تجربة المستخدم فقط، دون أي معاملة مالية."
+        }
+      },
+      "services": {
+        "company-websites": {
+          "title": "مواقع الشركات والخدمات",
+          "description": "بنية واضحة لعرض الخدمات وطرق التواصل.",
+          "alt": ""
+        },
+        "landing-pages": {
+          "title": "الصفحات المقصودة",
+          "description": "صفحات تعريفية مركزة مع خطوة تالية واضحة.",
+          "alt": ""
+        },
+        "ui-accessibility": {
+          "title": "الواجهات وتجربة المستخدم وإمكانية الوصول",
+          "description": "واجهات تراعي لوحة المفاتيح واللمس والتقنيات المساعدة.",
+          "alt": ""
+        },
+        "mobile-performance": {
+          "title": "الأداء وتجربة الهاتف",
+          "description": "اهتمام بسرعة العرض وأحجام الشاشات ووضوح القراءة.",
+          "alt": ""
+        },
+        "seo-localization": {
+          "title": "السيو وتعدد اللغات",
+          "description": "تنظيم المحتوى ومسارات مستقلة للغات للمراجعة التقنية.",
+          "alt": ""
+        },
+        "visual-identity": {
+          "title": "هوية بصرية خفيفة",
+          "description": "ألوان وخطوط وعناصر بصرية متناسقة دون تعقيد.",
+          "alt": ""
+        }
+      },
+      "cases": {
+        "corporate-presence": {
+          "title": "حضور الشركات",
+          "description": "تصور افتراضي لتقديم خدمات شركة.",
+          "alt": "رسم تصوري أصلي لواجهة حضور الشركات"
+        },
+        "creative-portfolio": {
+          "title": "ملف أعمال إبداعي",
+          "description": "مفهوم لعرض مشاريع مستقلة بطريقة واضحة.",
+          "alt": "تصميم مفهومي أصلي لملف أعمال إبداعي"
+        },
+        "digital-catalog": {
+          "title": "كتالوج رقمي",
+          "description": "تجربة تجريبية للعثور على الباقات الرقمية ومقارنتها.",
+          "alt": "رسم تصوري أصلي لترتيب كتالوج رقمي"
+        }
+      },
+      "products": {
+        "landing-kit": {
+          "title": "باقة الصفحة المقصودة",
+          "description": "مجموعة افتراضية لصفحة تعريف بمنتج.",
+          "alt": ""
+        },
+        "company-site-kit": {
+          "title": "باقة موقع شركة",
+          "description": "هيكل توضيحي لموقع يعرض الخدمات.",
+          "alt": ""
+        },
+        "portfolio-kit": {
+          "title": "باقة ملف الأعمال",
+          "description": "تصميم تصوري لعرض الأعمال الشخصية المختارة.",
+          "alt": ""
+        },
+        "multilingual-ui-kit": {
+          "title": "باقة واجهات متعددة اللغات",
+          "description": "عرض توضيحي لمكوّنات الواجهة من اليمين واليسار.",
+          "alt": ""
+        },
+        "seo-starter-audit": {
+          "title": "تدقيق سيو أولي",
+          "description": "قائمة تجريبية لفحص بنية الموقع.",
+          "alt": ""
+        },
+        "performance-check-pack": {
+          "title": "باقة فحص الأداء",
+          "description": "قائمة توضيحية للسرعة والتجاوب مع الأجهزة.",
+          "alt": ""
+        }
+      }
+    },
+    "tr": {
+      "autonym": "Türkçe",
+      "dir": "ltr",
+      "nav": {
+        "home": "Ana sayfa",
+        "services": "Hizmetler",
+        "work": "Çalışmalar",
+        "catalog": "Katalog",
+        "contact": "İletişim",
+        "checkout": "Demo sepeti",
+        "languages": "Dil seçin"
+      },
+      "ui": {
+        "skip": "Ana içeriğe geç",
+        "menuOpen": "Menüyü aç",
+        "menuClose": "Menüyü kapat",
+        "search": "Demo paketleri ara",
+        "searchPlaceholder": "Paket adıyla arayın",
+        "filter": "Kategoriler",
+        "all": "Tümü",
+        "web": "Web",
+        "design": "Tasarım",
+        "audit": "Teknik inceleme",
+        "clearFilters": "Filtreleri temizle",
+        "emptyResults": "Aramanızla eşleşen demo paketi bulunamadı.",
+        "resultCount": "Sonuçlar",
+        "demo": "Yalnızca demo",
+        "concept": "Kavramsal proje",
+        "viewServices": "Hizmetleri keşfedin",
+        "viewWork": "Kavramsal çalışmaları görün",
+        "viewCatalog": "Kataloğu keşfedin",
+        "previewContact": "İletişim formunu önizle",
+        "addToCart": "Demo sepetine ekle",
+        "viewCart": "Demo sepetini görüntüle",
+        "remove": "Sepetten çıkar",
+        "increase": "Adedi artır",
+        "decrease": "Adedi azalt",
+        "resetCart": "Sepeti temizle",
+        "quantity": "Adet",
+        "total": "Toplam demo kredisi",
+        "unit": "kurgusal demo kredisi",
+        "emptyCart": "Demo sepetiniz boş. Katalogdan bir paket seçin.",
+        "confirm": "Demoyu onayla",
+        "confirmed": "Demo onaylandı. Sipariş verilmedi ve ödeme yapılmadı.",
+        "noPayment": "Yalnızca demo — gerçek ödeme yapılmaz.",
+        "noPersonalData": "Hiçbir mesaj veya kişisel bilgi gönderilmez ya da saklanmaz.",
+        "formLabel": "İletişim formu önizlemesi",
+        "formResult": "Bu yalnızca bir önizlemeydi; hiçbir mesaj gönderilmedi.",
+        "dataUnavailable": "Demo verileri yüklenemedi; mevcut kartlar gösterilmeye devam eder.",
+        "invalidCart": "Geçersiz demo sepeti verileri güvenle sıfırlandı.",
+        "loading": "Önizleme yükleniyor"
+      },
+      "views": {
+        "home": {
+          "title": "NOVA Atelier | Dijital tasarım konseptleri",
+          "description": "Beş dilli dijital hizmetler, kavramsal çalışmalar ve kurgusal katalog örneği. Gerçek müşteri veya ödeme yoktur.",
+          "h1": "İnsan odaklı dijital tasarım",
+          "lead": "Web siteleri, arayüzler ve özenle hazırlanmış dijital deneyimler için açık fikirler."
+        },
+        "services": {
+          "title": "Demo hizmetler | NOVA Atelier",
+          "description": "Web, kullanıcı deneyimi, performans, çok dillilik ve görsel kimlik alanında altı örnek yetkinlik.",
+          "h1": "Dijital hizmetler",
+          "lead": "Portföy amacıyla sunulan altı tasarım alanını inceleyin."
+        },
+        "work": {
+          "title": "Kavramsal çalışmalar | NOVA Atelier",
+          "description": "Gerçek müşteri işi olmayan, tasarım kararlarını açıklayan üç kurgusal örnek.",
+          "h1": "Kavramsal projeler",
+          "lead": "Demo olarak işaretlenmiş üç kurgusal problem ve tasarım yaklaşımı."
+        },
+        "catalog": {
+          "title": "Demo dijital paketler | NOVA Atelier",
+          "description": "Kurgusal demo kredileriyle altı dijital paketi inceleyin; gerçek satın alma yoktur.",
+          "h1": "Dijital paket kataloğu",
+          "lead": "Kurgusal paketleri arayın ve filtreleyin; sepet yalnızca demodur."
+        },
+        "contact": {
+          "title": "İletişim önizlemesi | NOVA Atelier",
+          "description": "Mesaj göndermeyen veya kişisel veri aktarmayan örnek iletişim arayüzü.",
+          "h1": "İletişim formu önizlemesi",
+          "lead": "Form tasarımını inceleyin; bu etkin bir iletişim kanalı değildir."
+        },
+        "demo-checkout": {
+          "title": "Demo sepet onayı | NOVA Atelier",
+          "description": "Ödeme, sipariş veya kişisel veri toplamadan kurgusal sepet özeti.",
+          "h1": "Demo sepetini inceleyin",
+          "lead": "Bu akış yalnızca işlem içermeyen bir arayüz gösterimidir."
+        }
+      },
+      "services": {
+        "company-websites": {
+          "title": "Kurumsal web siteleri",
+          "description": "Hizmetleri ve iletişim yollarını açıkça sunan bir yapı.",
+          "alt": ""
+        },
+        "landing-pages": {
+          "title": "Açılış sayfaları",
+          "description": "Ürün tanıtımı ve belirgin bir sonraki adım.",
+          "alt": ""
+        },
+        "ui-accessibility": {
+          "title": "Arayüz ve erişilebilirlik",
+          "description": "Klavye, dokunma ve yardımcı teknolojilere uygun tasarım.",
+          "alt": ""
+        },
+        "mobile-performance": {
+          "title": "Mobil performans",
+          "description": "Hız, ekran boyutları ve küçük ekranda okunabilirlik.",
+          "alt": ""
+        },
+        "seo-localization": {
+          "title": "SEO ve çok dillilik",
+          "description": "İçerik hiyerarşisi ve dile özel yolların teknik incelenmesi.",
+          "alt": ""
+        },
+        "visual-identity": {
+          "title": "Sade görsel kimlik",
+          "description": "Birbiriyle uyumlu renk, tipografi ve görsel öğeler.",
+          "alt": ""
+        }
+      },
+      "cases": {
+        "corporate-presence": {
+          "title": "Kurumsal görünüm",
+          "description": "Bir şirketin hizmetlerini sunmak için kurgusal konsept.",
+          "alt": "Kurumsal görünüm için özgün kavramsal görsel"
+        },
+        "creative-portfolio": {
+          "title": "Yaratıcı portföy",
+          "description": "Bağımsız yaratıcı işleri sergilemek için örnek.",
+          "alt": "Yaratıcı portföy için özgün konsept görseli"
+        },
+        "digital-catalog": {
+          "title": "Dijital katalog",
+          "description": "Dijital paketleri bulup karşılaştırmaya yönelik demo deneyimi.",
+          "alt": "Dijital katalog düzenini gösteren özgün görsel"
+        }
+      },
+      "products": {
+        "landing-kit": {
+          "title": "Açılış Sayfası Paketi",
+          "description": "Kurgusal bir ürün tanıtım sayfası seti.",
+          "alt": ""
+        },
+        "company-site-kit": {
+          "title": "Kurumsal Site Paketi",
+          "description": "Hizmet odaklı bir site için örnek yapı.",
+          "alt": ""
+        },
+        "portfolio-kit": {
+          "title": "Portföy Paketi",
+          "description": "Seçili kişisel işleri sunmak için konsept düzen.",
+          "alt": ""
+        },
+        "multilingual-ui-kit": {
+          "title": "Çok Dilli Arayüz Paketi",
+          "description": "Sağdan sola ve soldan sağa arayüz öğeleri örneği.",
+          "alt": ""
+        },
+        "seo-starter-audit": {
+          "title": "Başlangıç SEO İncelemesi",
+          "description": "Yapısal SEO kontrollerini gösteren örnek liste.",
+          "alt": ""
+        },
+        "performance-check-pack": {
+          "title": "Performans Kontrol Paketi",
+          "description": "Hız ve duyarlı tasarım için demo kontrol listesi.",
+          "alt": ""
+        }
+      }
+    },
+    "de": {
+      "autonym": "Deutsch",
+      "dir": "ltr",
+      "nav": {
+        "home": "Startseite",
+        "services": "Leistungen",
+        "work": "Arbeiten",
+        "catalog": "Katalog",
+        "contact": "Kontakt",
+        "checkout": "Demo-Warenkorb",
+        "languages": "Sprache wählen"
+      },
+      "ui": {
+        "skip": "Zum Hauptinhalt springen",
+        "menuOpen": "Menü öffnen",
+        "menuClose": "Menü schließen",
+        "search": "Demo-Pakete durchsuchen",
+        "searchPlaceholder": "Nach Paketen suchen",
+        "filter": "Kategorien",
+        "all": "Alle",
+        "web": "Web",
+        "design": "Design",
+        "audit": "Technische Prüfung",
+        "clearFilters": "Filter zurücksetzen",
+        "emptyResults": "Keine Demo-Pakete entsprechen der Suche.",
+        "resultCount": "Ergebnisse",
+        "demo": "Nur Demo",
+        "concept": "Konzeptprojekt",
+        "viewServices": "Leistungen entdecken",
+        "viewWork": "Konzeptarbeiten ansehen",
+        "viewCatalog": "Katalog entdecken",
+        "previewContact": "Kontaktformular ansehen",
+        "addToCart": "Zum Demo-Warenkorb hinzufügen",
+        "viewCart": "Demo-Warenkorb anzeigen",
+        "remove": "Aus dem Warenkorb entfernen",
+        "increase": "Menge erhöhen",
+        "decrease": "Menge verringern",
+        "resetCart": "Warenkorb leeren",
+        "quantity": "Menge",
+        "total": "Demo-Guthaben insgesamt",
+        "unit": "fiktive Demo-Guthabenpunkte",
+        "emptyCart": "Der Demo-Warenkorb ist leer. Bitte ein Paket aus dem Katalog auswählen.",
+        "confirm": "Demo bestätigen",
+        "confirmed": "Demo bestätigt. Es wurde keine Bestellung aufgegeben und keine Zahlung durchgeführt.",
+        "noPayment": "Nur Demo — es erfolgt keine echte Zahlung.",
+        "noPersonalData": "Es werden keine Nachrichten oder personenbezogenen Daten gesendet oder gespeichert.",
+        "formLabel": "Vorschau des Kontaktformulars",
+        "formResult": "Dies war nur eine Vorschau; es wurde keine Nachricht versendet.",
+        "dataUnavailable": "Demo-Daten konnten nicht geladen werden; vorhandene Karten bleiben sichtbar.",
+        "invalidCart": "Ungültige Demo-Warenkorbdaten wurden sicher zurückgesetzt.",
+        "loading": "Vorschau wird geladen"
+      },
+      "views": {
+        "home": {
+          "title": "NOVA Atelier | Konzepte für digitales Design",
+          "description": "Fünfsprachige Konzeptwebsite für digitale Leistungen, Musterarbeiten und fiktiven Produktkatalog. Keine echten Kunden oder Zahlungen.",
+          "h1": "Digitales Design für Menschen",
+          "lead": "Klare Konzepte für Websites, Benutzeroberflächen und durchdachte digitale Erlebnisse."
+        },
+        "services": {
+          "title": "Demo-Leistungen | NOVA Atelier",
+          "description": "Sechs beispielhafte Bereiche: Websites, UX, Performance, Mehrsprachigkeit und visuelle Identität.",
+          "h1": "Digitale Leistungen",
+          "lead": "Sechs Designkompetenzen als unverbindliche Portfoliokonzepte entdecken."
+        },
+        "work": {
+          "title": "Konzeptarbeiten | NOVA Atelier",
+          "description": "Drei frei erfundene Designbeispiele zur Darstellung von Entscheidungen, ohne echte Kundenaufträge.",
+          "h1": "Konzeptprojekte",
+          "lead": "Drei klar als Demo gekennzeichnete Herausforderungen und Gestaltungsansätze."
+        },
+        "catalog": {
+          "title": "Demo-Produktkatalog | NOVA Atelier",
+          "description": "Sechs fiktive digitale Pakete mit Demo-Guthaben; ein echter Kauf ist nicht möglich.",
+          "h1": "Digitaler Paketkatalog",
+          "lead": "Fiktive Pakete suchen und filtern; der Warenkorb dient nur der Demonstration."
+        },
+        "contact": {
+          "title": "Kontakt-Vorschau | NOVA Atelier",
+          "description": "Ein beispielhaftes Kontaktformular ohne Nachrichtenversand oder Verarbeitung persönlicher Daten.",
+          "h1": "Kontaktformular-Vorschau",
+          "lead": "Das Formularlayout ansehen; dies ist kein aktiver Kontaktkanal."
+        },
+        "demo-checkout": {
+          "title": "Demo-Warenkorb | NOVA Atelier",
+          "description": "Fiktive Zusammenfassung und Bestätigung ohne Bestellung, Bezahlung oder Datenerfassung.",
+          "h1": "Demo-Warenkorb überprüfen",
+          "lead": "Dieser Ablauf demonstriert ausschließlich die Bedienoberfläche ohne Transaktion."
+        }
+      },
+      "services": {
+        "company-websites": {
+          "title": "Unternehmenswebsites",
+          "description": "Eine klare Struktur zur Darstellung von Leistungen und Kontaktwegen.",
+          "alt": ""
+        },
+        "landing-pages": {
+          "title": "Landingpages",
+          "description": "Fokussierte Produktvorstellung mit verständlicher nächster Aktion.",
+          "alt": ""
+        },
+        "ui-accessibility": {
+          "title": "UI, UX und Barrierefreiheit",
+          "description": "Oberflächen für Tastatur, Touch und unterstützende Technologien.",
+          "alt": ""
+        },
+        "mobile-performance": {
+          "title": "Mobile Performance",
+          "description": "Geschwindigkeit, Bildschirmgrößen und Lesbarkeit auf kleinen Geräten.",
+          "alt": ""
+        },
+        "seo-localization": {
+          "title": "SEO und Mehrsprachigkeit",
+          "description": "Inhaltshierarchie und sprachspezifische Routen zur technischen Prüfung.",
+          "alt": ""
+        },
+        "visual-identity": {
+          "title": "Reduzierte visuelle Identität",
+          "description": "Abgestimmte Farben, Typografie und zurückhaltende Gestaltung.",
+          "alt": ""
+        }
+      },
+      "cases": {
+        "corporate-presence": {
+          "title": "Unternehmenspräsenz",
+          "description": "Fiktives Konzept zur Darstellung der Leistungen eines Unternehmens.",
+          "alt": "Eigenständige Konzeptgrafik einer Unternehmenspräsenz"
+        },
+        "creative-portfolio": {
+          "title": "Kreatives Portfolio",
+          "description": "Beispiel für die Präsentation unabhängiger kreativer Projekte.",
+          "alt": "Eigenständige Illustration eines kreativen Portfolios"
+        },
+        "digital-catalog": {
+          "title": "Digitaler Katalog",
+          "description": "Demo zum Finden und Vergleichen digitaler Pakete.",
+          "alt": "Eigenständige Konzeptgrafik zur Struktur eines digitalen Katalogs"
+        }
+      },
+      "products": {
+        "landing-kit": {
+          "title": "Landingpage-Paket",
+          "description": "Fiktives Paket für eine Produktvorstellungsseite.",
+          "alt": ""
+        },
+        "company-site-kit": {
+          "title": "Unternehmenswebsite-Paket",
+          "description": "Beispielstruktur für eine Website mit Dienstleistungsangebot.",
+          "alt": ""
+        },
+        "portfolio-kit": {
+          "title": "Portfolio-Paket",
+          "description": "Konzeptlayout für ausgewählte eigene Arbeiten.",
+          "alt": ""
+        },
+        "multilingual-ui-kit": {
+          "title": "Mehrsprachiges UI-Paket",
+          "description": "Demonstration von RTL- und LTR-Oberflächenelementen.",
+          "alt": ""
+        },
+        "seo-starter-audit": {
+          "title": "SEO-Starterprüfung",
+          "description": "Beispielhafte Liste für technische Strukturprüfungen.",
+          "alt": ""
+        },
+        "performance-check-pack": {
+          "title": "Performance-Prüfpaket",
+          "description": "Demo-Checkliste zu Geschwindigkeit und responsiver Darstellung.",
+          "alt": ""
+        }
+      }
+    }
+  }
+}
