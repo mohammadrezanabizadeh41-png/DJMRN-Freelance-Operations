@@ -30,6 +30,28 @@
 
 **مبنای منابع:** [MDN Responsive Design](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design) · [web.dev Breakpoints](https://web.dev/learn/design/media-queries) · [W3C WCAG 2.2 Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html). جزئیات فنی در [04-I18N-SEO-COMMERCE-SECURITY.md](04-I18N-SEO-COMMERCE-SECURITY.md) و تست‌ها در [05-QA-AND-HANDOFF.md](05-QA-AND-HANDOFF.md).
 
+## ممیزی جامع ارتقای تجربه حرفه‌ای — 2026-11-22 (تصمیم و معیار، **نه** پیاده‌سازی)
+
+**ماهیت محصول ثابت می‌ماند:** NOVA Atelier یک نمونهٔ **استودیوی دیجیتال/خدمات/سه Concept case/شش بستهٔ ساختگی** با **HTML/CSS/vanilla JS، پنج زبان و ۳۰ مسیر هدف** است. **S14A** فقط Content Studio محلی جدا از `site/` است. هدف این بازنگری افزودن قابلیت‌های قابل آزمون در مراحل موجود، نه افزودن فریم‌ورک، AI Agent، CMS، پرداخت، دیتابیس، برند/مشتری جعلی یا مدل ساخت دیگر است.
+
+| خط تجربه | نیاز واقعی کاربر | مالک اجرایی (هنوز انجام‌نشده) | تست مستقل |
+|---|---|---|---|
+| Discover / Decide | هویت روشن، ارزش قابل فهم، CTA، روش همکاری، تفاوت خدمات | S10 + S11 | T25 |
+| Understand Work | ۳ روایت صادقانهٔ پروژهٔ مفهومی با دلیل طراحی و دارایی مجاز | S11 | T26 |
+| Choose Kit | ۶ بستهٔ DEMO با توضیح scope/inclusions، search/filter/empty/decision support | S12 | T27 |
+| Try Demo Purchase | سبد/بازبینی/رسید/بازنشانی کاملاً ساختگی و محاسبهٔ درست | S13 | T12/T13/T27 |
+| Prepare Inquiry | خلاصه‌درخواست **صرفاً نمایشی** با گزینه‌های غیرشخصی و بدون ارسال | S14 | T28 |
+| Author / Review | پنل محلی واقعی با draft/diff/preview/validation/rollback | S14A | T21–T24 |
+| Trust / Discoverability | پیوندهای روشن، FAQ، breadcrumbs، 404، محتوای people-first و hreflang معتبر | S11/S14/S15 | T25/T29 |
+| Inclusive / Fast / Safe | RTL/LTR، a11y/zoom/focus، media/INP، CSP، no-JS/offline fallback و تست خطا | S16–S18 | T08–T19 + T29 |
+| Handoff / Approve | تصاویر/مجوز/تست قابل بازتولید، مرور مالک و تصمیم انتشار جداگانه | S19–S20 | T20 + T21–T29 |
+
+**اولویت‌ها:** `P0` = ردیف‌های فوق در حد نوع سایت و مدل سبک، شرط DONE برای M01؛ `P1` = مقایسهٔ محدود دو/سه کیت، `<details>`های تکمیلی و Motion ملایم فقط اگر آزمون UX/هزینه/دسترس‌پذیری توجیه کند؛ `DEFER` = multiuser admin، سفارش واقعی، ارسال واقعی تماس، پرداخت، CRM، analytics/tracking، chatbot، PWA offline sync، WebGL/3D و CMS/مدل جدید تا درخواست و تأیید مستقل. هر feature بدون نیاز/آزمون واقعی حذف می‌شود.
+
+**مراجع و شواهد پژوهش:** [Instrument Work/Case Story](https://www.instrument.com/work/eames-institute/)، [Pentagram Work](https://www.pentagram.com/work/)، [GOV.UK user needs](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)، [Baymard product lists](https://baymard.com/research/ecommerce-product-lists)، [Google people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)، [WCAG 2.2](https://www.w3.org/TR/WCAG22/)، [MDN View Transitions](https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API)، [OWASP DOM XSS](https://cheatsheetseries.owasp.org/cheatsheets/DOM_based_XSS_Prevention_Cheat_Sheet.html). جدول تفصیلی نیاز/اولویت در [Brief §11](01-RESEARCH-AND-BRIEF.md)، قرارداد فنی در [04 §9](04-I18N-SEO-COMMERCE-SECURITY.md) و معیارهای جدید [T25–T29](05-QA-AND-HANDOFF.md) هستند. شواهد پژوهشی **دلیل ساخت نیستند**؛ اجرای واقعی، تست و Commit جداگانه می‌خواهند.
+
+**وضعیت اجرا در این نوبت:** صرفاً **RESEARCHED / ROADMAP UPDATED**، بدون تغییر سورس واقعی `site/` یا اعمال تیک جدید. S01–S09 همان PASS قبلی، S10–S20 و S14A همچنان **NOT STARTED**.
+
 ## کارتابل ۲۰ مرحلهٔ اصلی + مرحلهٔ الحاقی S14A — تیک فقط پس از اثبات معیار قبول
 
 - [x] **S01 — تأیید مبنا، دسترسی و جداسازی**
@@ -162,6 +184,7 @@
   - **ابزار/نقش:** HTML/CSS + DOM JS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** Home در همه پنج زبان با سه viewport نماینده کار کند، محتوا/CTA بدون JS معنی‌دار، hero و typography بدون crop/overflow مخرب.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — الزامی در اجرا:** Home باید ظرف نگاه اول مشخص کند «چه خدمتی، برای چه مخاطبی، با چه خروجی»، دارای ۲ CTA متمایز (دیدن خدمات / دیدن Work یا شروع خلاصه‌درخواست نمایشی)، نمای کوتاه روش همکاری، نشانهٔ اعتماد **بدون ادعای مشتری واقعی**، رسانهٔ اصیل، سلسله‌مراتب تایپوگرافی و در تمامی ۵ زبان برچسب Concept/DEMO باشد. **PASS اضافی:** مسیر CTA واقعی و no-JS، نگاه موبایل/تبلت/دسکتاپ و سرفصل‌های قابل فهم بررسی شوند؛ motion اختیاری صرفاً بعد از سنجش و رعایت reduced-motion. آزمون‌های T25/T29.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S11 — صفحات خدمات و نمونه‌کار**
@@ -169,6 +192,7 @@
   - **ابزار/نقش:** static localized HTML + CSS.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** خدمات و نمونه‌کار در پنج زبان و سه کلاس بدون بریدگی کارت/متن، با لینک‌های واقعی محلی و بدون testimonials جعلی.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — الزامی در اجرا:** در Services برای **هر شش خدمت** هدف/مخاطب، پیش‌نیاز، دامنه شامل/خارج، تحویل‌دادنی و مراحل فرآیند با CTA مرتبط؛ FAQ کوتاه با `<details>` در صورت مفیدبودن. در Work برای **سه Concept Case** روایت `Problem → Approach/Design Decisions → Original Artifact → Learning`، دستهٔ شفاف DEMO و لینک ارتباطی/خدمت مرتبط ایجاد شود. هیچ client/KPI/quote/timeline ساختگی یا تصویر بدون مجوز. **PASS اضافی:** مسیر Services→Work→Contact و محتوای پنج‌زبانه بدون JS و حقوق/alt دارایی مطابق T25/T26.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S12 — کاتالوگ استاتیک و فیلتر**
@@ -176,6 +200,7 @@
   - **ابزار/نقش:** vanilla JS modules + JSON/static HTML.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** فیلتر و جست‌وجو در mobile touch، tablet tap و desktop keyboard/mouse قابل استفاده؛ حالت خالی accessible و layout پایدار.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — الزامی در اجرا:** کارت/جزئیات **شش کیت خیالی** باید کاربرد، مخاطب، تحویل‌دادنی، شامل/خارج، دسته و واحد DEMO_CREDIT را روشن کند؛ `search/filter/count/reset/empty state` با keyboard/touch و HTML معنادار بدون JS. مقایسهٔ ۲–۳ کیت یا quick-view **P1 مشروط** به مشاهدهٔ نیاز واقعی؛ نه موتور جست‌وجوی حجیم/هوش مصنوعی. **PASS اضافی:** کاربر واقعاً بتواند بین شش بسته تصمیم بگیرد، zero-result/keyboard/RTL و T27 قبول شوند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S13 — سبد و پرداخت نمایشی**
@@ -183,6 +208,7 @@
   - **ابزار/نقش:** vanilla JS + Node built-in unit tests.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** cart و receipt آزمایشی در هر سه کلاس screen با reflow درست و بنر DEMO روشن کار کند؛ بدون واقعی‌سازی پرداخت/PII و total غلط.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — الزامی در اجرا:** جریان واقعی نمایشی `kit detail → select/add → quantity/edit/remove → review → confirm DEMO → fictitious receipt → reset` در ۵ زبان، با جمع‌بندی واضح و بازگشت به انتخاب، بدون پرداخت/نام/اطلاعات بانکی/سفارش واقعی؛ حالت reload/corrupt state خطای قابل فهم بدهد. **PASS اضافی:** آزمون ارتباط S12↔S13 و دقت integer در موبایل/تبلت/دسکتاپ، no-payment دائمی و T27.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14 — تماس، اعتماد و صفحات حقوقی نمایشی**
@@ -190,6 +216,7 @@
   - **ابزار/نقش:** semantic HTML + validation UI.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** Contact و disclaimer در موبایل/تبلت/دسکتاپ با focus/touch keyboard قابل استفاده و صادقانه فاقد ارسال واقعی باشند.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — الزامی در اجرا:** Contact به‌جای صرفاً یک فرم ظاهر، **راهنمای انتخاب خدمت و ساخت خلاصه‌درخواست کاملاً نمایشی و بدون دادهٔ شخصی** داشته باشد: گزینه‌های از پیش تعیین‌شدهٔ `service → goal → scope`، اعتبارسنجی و error-summary/focus، مرور/ویرایش خلاصه، کپی/دانلود محلی در صورت پشتیبانی و reset. وضعیت `NOT SUBMITTED` همواره واضح؛ بدون نام/ایمیل/شماره، storage یا HTTP POST. بخش فرآیند و FAQ/سیاست حفظ حریم خصوصی صادقانه در همین route. **PASS اضافی:** جریان کامل T28 در پنج زبان/سه کلاس دستگاه، بدون JS حداقل اطلاعات/مسیر مطالعهٔ خدمات باقی بماند. هیچ lead collection واقعی ادعا نشود.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S14A — داشبورد مدیریت محتوای محلی و پیشرفتهٔ M01 (الحاقی، الزامی پیش از تحویل)**
@@ -200,6 +227,7 @@
   - **معماری/امنیت:** یک ابزار حداقلی با Git/JSON/Node؛ بدون Vite/React/DB/CMS/API پولی. اگر endpoint نویسنده لازم شد فقط `127.0.0.1` با allowlist مسیر/روش، origin/Host/CSRF کنترل‌شده، محدودیت حجم ورودی، schema/ID validation، atomic draft write، حفاظت path traversal، no secrets/no PII/no external egress. `localStorage` مرجع canonical یا محل رمز/token نیست و client-side role/auth امنیت محسوب نمی‌شود. اگر به **مدیریت واقعی چندکاربره اینترنتی یا orders/CRM** نیاز شد، انتخاب M10/M15/M21 یا Git-based CMS با proposal جداگانهٔ هزینه/permissions/security و تأیید مالک انجام می‌شود، **نه تغییر خاموش مدل M01**.
   - **UX/دسترس‌پذیری و QA:** پنل باید در موبایل 320/390، تبلت 820 و دسکتاپ 1366 با touch/mouse/keyboard، RTL فارسی/عربی و متون طولانی DE خوانا باشد؛ فهرست‌ها، فرم‌ها، اعلان خطا، فیلتر، وضعیت‌های empty/loading و هشدار تغییر ذخیره‌نشده واقعاً کار کنند. شمارنده‌ها فقط دادهٔ fixture و نتایج اندازه‌گیری‌شده را نشان دهند. **معیار PASS فقط تست end-to-end و شواهد T21–T24** در [05 QA](05-QA-AND-HANDOFF.md)، شامل سناریوهای invalid JSON، duplicate ID، تغییر هم‌زمان، crash/recovery، مسیر عمومی فاقد admin و بازتولید deterministic است؛ تصویر mockup به‌تنهایی PASS نیست.
   - **Reference/alternatives بررسی‌شده:** [Decap CMS backend/Auth](https://decapcms.org/docs/github-backend/) برای Git editor (نیاز به auth/adapter، هزینهٔ سرویس UNKNOWN و فعال‌نشده)، [OWASP Authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html) و [Session Management](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html)، [MDN File System API](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API)، [GOV.UK task/error patterns](https://design-system.service.gov.uk/components/)، [W3C tables](https://www.w3.org/WAI/tutorials/tables/). قرارداد جزئی در [04](04-I18N-SEO-COMMERCE-SECURITY.md) و اصلاح Brief در [01](01-RESEARCH-AND-BRIEF.md) ثبت شد.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22 — کیفیت عملیات:** علاوه بر الزامات قبلی، Overview قابلیت‌های قابل اثباتِ `content completeness / locale parity / broken links / missing alt/license / unreviewed translation / build-test status` داشته باشد؛ ویرایش منسجم فیلدهای جدید Service/Case/Kit، پیش‌نمایش صادقانه در صفحهٔ واقعی و مسیر `draft → validate → review diff → rebuild locally → tests → explicit approval / rollback` بدون auto-publish. **PASS اضافی:** T21–T24 + T29، راهنمای بهره‌بردار، عدم دسترسی از LAN/public، نبود داشبورد نمایشی با KPI ساختگی؛ ابزار همچنان از `site/` جدا و فقط loopback است.
   - **شواهد اجرا:** **NOT STARTED / NOT TESTED**؛ مسیر خروجی عملیاتی: — ؛ تست: — ؛ Commit پیاده‌سازی: — . **این نوبت فقط GAP AUDIT/RESEARCH و برنامهٔ قابل آزمون را ثبت کرده است.**
 
 - [ ] **S15 — سئوی فنی چندزبانه**
@@ -207,6 +235,7 @@
   - **ابزار/نقش:** HTML/Node static checks + Google docs.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** هر صفحه indexable نسخه‌های ترجمه واقعی دارد، demo checkout noindex، هیچ structured data جعلی.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** سئوی خدماتی **people-first**: متن اختصاصی صفحه و لینک‌های داخلی قابل فهم، breadcrumbs واقعی برای routes داخلی، URLهای معادل و hreflang متقابل پس از تعیین دامنه/تولید واقعی، `404` مفید و noindex تا مجوز انتشار. هیچ `Offer/Review/AggregateRating/merchant` جعلی برای کیت‌های DEMO یا هویت تجاری تأییدنشده. **PASS اضافی:** link crawl + locale parity + T25/T29.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S16 — دسترس‌پذیری و بومی‌سازی دقیق**
@@ -214,6 +243,7 @@
   - **ابزار/نقش:** axe-core optional + manual browser.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** reflow تا 320 CSS px، zoom 200% و سناریوی 400%، focus/keyboard/touch و WCAG 2.2 AA target در fa/ar RTL و LTR بررسی؛ blockerهای جدی صفر.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** تست inclusive برای مسیر خدمات، `<details>` FAQ، فیلتر/سبد، فرم خلاصه‌درخواست و پنل S14A: خطا/خلاصهٔ خطا/فوکوس، `focus-not-obscured`، touch target، alt decorative/function، RTL+bdi، copy متن بلند، 200%/400% zoom، کاهش حرکت و مرور دستی کیفیت ترجمه با وضعیت `PENDING` تا تأیید واقعی. **PASS اضافی:** T25–T29 و T21–T24، هیچ ادعای انطباق WCAG پیش از آزمون.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S17 — بهینه‌سازی و بودجه عملکرد**
@@ -221,6 +251,7 @@
   - **ابزار/نقش:** Chrome DevTools + Lighthouse; Sharp/SVGO optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** اندازه/عکس/فونت و کشیدگی 1920 با شواهد lab mobile + desktop بررسی؛ Lighthouse ≥90 فقط هدف و نه PASS تضمینی.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** علاوه بر Lighthouse، رندر/تعامل واقعی Home/Work/Catalog و کلیدهای UI با `LCP/INP/CLS` در lab، بودجهٔ منبع براساس baseline واقعی و عکس‌های responsive با حقوق مشخص سنجیده شود. `@view-transition` بین صفحات static فقط **P1 مشروط** به سازگاری مرورگر، reduced-motion، focus preservation و نبود افت کیفیت. **PASS اضافی:** هر feature اختیاری اگر هزینه/کندی افزود، حذف و fallback ساده اثبات شود؛ T29.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S18 — تست جامع عملکرد، امنیت و بازیابی**
@@ -228,6 +259,7 @@
   - **ابزار/نقش:** node --test, node --check, Playwright if verified, OWASP.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** ماتریس 3 کلاس × 5 زبان، zoom/portrait-landscape، touch/mouse/keyboard و مسیرها/سبد/فرم/test failures با شواهد PASS/FAIL واقعی کامل شود؛ هیچ class بلاک‌شده باقی نماند.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** E2E پذیرش دو سفر کامل بازدیدکننده: `Home → Service scope → Demo Work → local guided brief → summary/reset` و `Work → Kit detail/filter → mock cart/receipt/reset` در ۵ زبان و سه کلاس؛ `404`، شکست تصویر/JS، نبود PII/network، منوی keyboard/touch، صحت locale و لینک بدون JS. مسیر مدیریت `S14A → draft edit → validation → preview → build → rollback` فقط loopback و تست‌های منفی امنیت. **PASS اضافی:** T21–T29 و ماتریس قدیمی T01–T20، هیچ مرحله‌ای صرفاً با screenshot PASS نشود.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S19 — پکیج نمونه‌کار و تحویل**
@@ -235,6 +267,7 @@
   - **ابزار/نقش:** Git + GitHub branch + screenshot tools optional.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** حداقل screenshot و تست قابل بازبینی برای موبایل، تبلت و لپ‌تاپ/دسکتاپ، fa RTL و en LTR، commit مستند و مجوز asset ثبت شود.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** تحویل واقعی شامل نمونهٔ گردش‌های visitor/admin با تصاویر واقعی موبایل/تبلت/دسکتاپ، کاتالوگ شش‌کیت، سه case DEMO با منبع دارایی، راهنمای بازتولید HTML و راهنمای اپراتور S14A، تست‌های منفی، لیست deferred/محدودیت‌ها و نحوهٔ بازگشت به نسخهٔ قبل. **PASS اضافی:** شخص ثالث بتواند با README و Node/Git موجود سایت و فرایند draft→preview را بدون نصب غیرضروری اجرا کند.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 - [ ] **S20 — بازبینی مشتری و تصمیم انتشار/گسترش**
@@ -242,6 +275,7 @@
   - **ابزار/نقش:** browser/owner + Git; hosting only after approval.
   - **خروجی قابل بررسی:** فایل/صفحه/تست مرحله‌ای در پوشه کد M01، با تغییرات قابل Diff.
   - **قبولی:** UX نهایی موبایل و لپ‌تاپ واقعی و تبلت واقعی در صورت دسترس (وگرنه emulator با برچسب) تأیید شود؛ انتشار/دامنه/درگاه با approval مستقل.
+  - **الحاق پژوهش حرفه‌ای 2026-11-22:** بازبینی مالک با دو نقش `visitor` و `operator`: پیدا کردن خدمت مناسب، خواندن روایت کار مفهومی، انتخاب بسته/رسید DEMO، ساخت خلاصه‌درخواست بدون ارسال، و ویرایش/preview/rollback محتوای پنج‌زبانه؛ تجربهٔ گوشی و لپ‌تاپ واقعی (تبلت فقط با برچسب شبیه‌ساز اگر موجود نیست). بررسی حقوق برند، ترجمه انسانی و گیت مستقل انتشار/سرویس واقعی. **PASS اضافی:** checklist تمام P0های [Brief §11](01-RESEARCH-AND-BRIEF.md) با شواهد T25–T29 بسته باشد، P1های حذف‌شده گزارش شوند، هیچ upgrade یا publish ضمنی رخ ندهد.
   - **شواهد اجرا:** `NOT STARTED` — مسیر خروجی: — ؛ تست: — ؛ commit/تصویر: — .
 
 ## خوشه‌های تحویل؛ زیرمجموعه همین ۲۰ مرحله، نه پروژه‌های موازی
