@@ -12,7 +12,7 @@ const source = JSON.parse(await readFile(join(root,'content/i18n.v1.json'), 'utf
 test('S08 real English Home has semantic metadata, lang/dir and page heading', () => {
   assert.match(page, /<html lang="en" dir="ltr">/);
   assert.match(page, /<meta name="viewport"/);
-  assert.match(page, /<main id="main-content">/);
+  assert.match(page, /<main id="main-content" tabindex="-1">/);
   assert.match(page, /<h1 id="hero-heading">/);
   assert(page.includes(source.locales.en.views.home.title));
   assert(page.includes(source.locales.en.views.home.h1));

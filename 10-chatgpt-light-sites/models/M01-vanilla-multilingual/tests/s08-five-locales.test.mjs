@@ -20,7 +20,7 @@ test('S08 five real Home HTML files use S07 copy and correct lang/dir',()=>{
   assert(page.includes(escapeHTML(loc.views.home.description)),l+' description');
   assert(page.includes(escapeHTML(loc.views.home.h1)),l+' H1');
   assert(page.includes(escapeHTML(loc.views.home.lead)),l+' intro');
-  assert(page.includes('<main id="main-content">'),l+' main');
+  assert(page.includes('<main id="main-content" tabindex="-1">'),l+' main');
   assert(page.includes('noindex,nofollow'),l+' preview noindex');
   assert(!page.includes('aria-disabled="true"'),l+' no disabled locale');
  }

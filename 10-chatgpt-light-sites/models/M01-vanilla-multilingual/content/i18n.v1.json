@@ -92,7 +92,10 @@
         "formResult": "فرم صرفاً نمایش داده شد؛ هیچ پیامی ارسال نشده است.",
         "dataUnavailable": "دادهٔ آزمایشی در دسترس نیست؛ کارت‌های موجود همچنان نمایش داده می‌شوند.",
         "invalidCart": "اطلاعات سبد معتبر نبود و به حالت امن بازنشانی شد.",
-        "loading": "در حال آماده‌سازی"
+        "loading": "در حال آماده‌سازی",
+        "primaryNavigation": "پیمایش اصلی",
+        "footerNavigation": "پیوندهای پایین صفحه",
+        "backToTop": "بازگشت به بالای صفحه"
       },
       "views": {
         "home": {
@@ -264,7 +267,10 @@
         "formResult": "This was only a preview; no message was sent.",
         "dataUnavailable": "Demo data could not load; existing cards remain available.",
         "invalidCart": "Invalid demo cart data was safely reset.",
-        "loading": "Loading preview"
+        "loading": "Loading preview",
+        "primaryNavigation": "Primary navigation",
+        "footerNavigation": "Footer navigation",
+        "backToTop": "Back to top"
       },
       "views": {
         "home": {
@@ -436,7 +442,10 @@
         "formResult": "هذه معاينة فقط؛ لم تُرسل أي رسالة.",
         "dataUnavailable": "تعذّر تحميل البيانات التجريبية؛ ستبقى البطاقات المعروضة متاحة.",
         "invalidCart": "أُعيد ضبط بيانات السلة غير الصالحة بأمان.",
-        "loading": "جارٍ تحميل المعاينة"
+        "loading": "جارٍ تحميل المعاينة",
+        "primaryNavigation": "التنقل الرئيسي",
+        "footerNavigation": "روابط أسفل الصفحة",
+        "backToTop": "العودة إلى أعلى الصفحة"
       },
       "views": {
         "home": {
@@ -608,7 +617,10 @@
         "formResult": "Bu yalnızca bir önizlemeydi; hiçbir mesaj gönderilmedi.",
         "dataUnavailable": "Demo verileri yüklenemedi; mevcut kartlar gösterilmeye devam eder.",
         "invalidCart": "Geçersiz demo sepeti verileri güvenle sıfırlandı.",
-        "loading": "Önizleme yükleniyor"
+        "loading": "Önizleme yükleniyor",
+        "primaryNavigation": "Ana gezinme",
+        "footerNavigation": "Alt bilgi bağlantıları",
+        "backToTop": "Sayfanın başına dön"
       },
       "views": {
         "home": {
@@ -780,7 +792,10 @@
         "formResult": "Dies war nur eine Vorschau; es wurde keine Nachricht versendet.",
         "dataUnavailable": "Demo-Daten konnten nicht geladen werden; vorhandene Karten bleiben sichtbar.",
         "invalidCart": "Ungültige Demo-Warenkorbdaten wurden sicher zurückgesetzt.",
-        "loading": "Vorschau wird geladen"
+        "loading": "Vorschau wird geladen",
+        "primaryNavigation": "Hauptnavigation",
+        "footerNavigation": "Navigation im Fußbereich",
+        "backToTop": "Zurück nach oben"
       },
       "views": {
         "home": {

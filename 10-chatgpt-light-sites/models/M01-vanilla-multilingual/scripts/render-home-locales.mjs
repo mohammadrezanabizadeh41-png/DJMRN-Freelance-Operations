@@ -24,7 +24,7 @@ const row=(strings,idx,localeKey,cssClass,header)=>{
 };
 const hrefs=['home','services','work','catalog','contact'];
 const section=(lang,key,titleKey,lead,body)=>{
-return '<section class="section" id="'+key+'" aria-labelledby="'+key+'-title">'
+return '<section class="section" id="'+key+'" aria-labelledby="'+key+'-title" tabindex="-1">'
 +'<div class="section-header"><div><p class="eyebrow"><bdi dir="ltr">'+({services:'01',work:'02',catalog:'03'}[key])+'</bdi> / '+esc(lang.nav[titleKey])+'</p><h2 id="'+key+'-title">'+esc(lang.nav[titleKey])+'</h2></div><p>'+esc(lead)+'</p></div>'
 +body+'</section>';
 };
@@ -32,13 +32,12 @@ function buildHome(locale){
  const l=data.locales[locale],home=l.views.home;
  if(!l||!home||!['rtl','ltr'].includes(l.dir))throw Error('Locale missing '+locale);
  for(const k of ['title','description','h1','lead'])if(!home[k])throw Error('Missing Home '+k+' for '+locale);
- const nav='<nav class="site-nav" id="primary-nav" aria-label="'+esc(l.nav.languages)+'">'
+ const nav='<nav class="site-nav" id="primary-nav" aria-label="'+esc(l.ui.primaryNavigation)+'">'
    +hrefs.map(k=>'<a href="'+(k==='home'?'/'+locale+'/':'#'+k)+'"'+(k==='home'?' aria-current="page"':'')+'>'+esc(l.nav[k])+'</a>').join('\n')
    +'</nav>';
- const chooser='<div class="locale-switch" role="navigation" aria-label="'+esc(l.nav.languages)+'">'
+ const chooser='<nav class="locale-switch" aria-label="'+esc(l.nav.languages)+'">'
  +expected.map(code=>'<a href="/'+code+'/" lang="'+code+'" dir="'+data.locales[code].dir+'"'+(code===locale?' aria-current="page"':'')+'>'+esc(data.locales[code].autonym)+'</a>').join('')
- +'</div>';
- const buildNote='<p class="build-note"><bdi dir="ltr">M01 · NOVA ATELIER · DEMO · S08 FIVE HOME LANGUAGES</bdi></p>';
+ +'</nav>';
  const svc=row('services','serviceIds',locale,'service-card');
  const work=row('cases','caseIds',locale,'work-card');
  const catalog=row('products','productIds',locale,'kit-card');
@@ -61,14 +60,13 @@ function buildHome(locale){
  '<body data-page="home">',
  '<a class="skip-link" href="#main-content">'+esc(l.ui.skip)+'</a>',
  '<div class="shell">',
- buildNote,
  '<header class="site-header">',
  '<a class="brand" href="/'+language+'/" aria-label="NOVA Atelier — '+esc(l.nav.home)+'"><span class="brand-mark" aria-hidden="true">✳</span><bdi lang="en" dir="ltr">NOVA ATELIER</bdi></a>',
  '<button class="menu-toggle" type="button" hidden aria-expanded="false" aria-controls="primary-nav" data-open-label="'+esc(l.ui.menuOpen)+'" data-close-label="'+esc(l.ui.menuClose)+'">'+esc(l.ui.menuOpen)+'</button>',
  nav,
  chooser,
  '</header>',
- '<main id="main-content">',
+ '<main id="main-content" tabindex="-1">',
  '<section class="hero" aria-labelledby="hero-heading">',
  '<div class="hero-copy">',
  '<p class="eyebrow">'+esc(l.ui.concept)+' · '+esc(l.ui.demo)+'</p>',
@@ -81,13 +79,13 @@ function buildHome(locale){
  section(l,'services','services',l.views.services.lead,'<div class="service-grid">'+svc+'</div>'),
  section(l,'work','work',l.views.work.lead,'<div class="work-grid">'+work+'</div>'),
  section(l,'catalog','catalog',l.views.catalog.lead,'<div class="kit-grid">'+catalog+'</div>'),
- '<section class="section contact-panel" id="contact" aria-labelledby="contact-title">',
+ '<section class="section contact-panel" id="contact" aria-labelledby="contact-title" tabindex="-1">',
  '<div><p class="eyebrow"><bdi dir="ltr">04</bdi> / '+esc(l.nav.contact)+'</p><h2 id="contact-title">'+esc(l.views.contact.h1)+'</h2><p>'+esc(l.views.contact.lead)+'</p></div>',
  '<p class="contact-status" role="note">'+esc(l.ui.noPersonalData)+'</p>',
  '</section>',
  '<aside class="demo-notice" aria-label="'+esc(l.ui.demo)+'"><strong>'+esc(l.ui.noPayment)+'</strong><p>'+esc(l.views.catalog.description)+'</p></aside>',
  '</main>',
- '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+esc(l.ui.demo)+'</span><a href="#main-content">'+esc(l.ui.skip)+'</a></footer>',
+ '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+esc(l.ui.demo)+'</span><nav class="footer-nav" aria-label="'+esc(l.ui.footerNavigation)+'">'+hrefs.map(k=>'<a href="'+(k==='home'?'/'+language+'/':'#'+k)+'">'+esc(l.nav[k])+'</a>').join('')+'</nav><a class="back-to-top" href="#main-content">'+esc(l.ui.backToTop)+'</a></footer>',
  '</div>',
  '</body>',
  '</html>',

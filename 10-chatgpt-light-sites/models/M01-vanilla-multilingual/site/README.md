@@ -22,7 +22,7 @@ The first five real pages are `site/{fa,en,ar,tr,de}/index.html`. The root choos
 
 - S07 `content/i18n.v1.json` is the current **draft content authority**. The five static Home pages are deterministically rendered with `scripts/render-home-locales.mjs` from this one JSON content source, not manually maintained as five diverging templates. During S10/S15, compare the rendered content to S07.
 - Original S06 SVG is copied unaltered to `site/assets/img` so localhost can serve it with the same-origin CSP.
-- Header anchors, services, concept work, catalog preview and disclaimer all function without JavaScript. `main.js` enhances the compact menu only; no shop/cart/contact submission yet.
+- Header, footer, services/work/catalog anchors and the five-language switch remain native links without JavaScript. `main.js` imports the small `nav.js` disclosure module for keyboard, pointer and touch behavior of the compact mobile/tablet menu; no shop/cart/contact submission yet.
 - Security: no PSP, payments, order/receipt processing, back-end, tracking, collection of PII, external fonts or API.
 - The previews and browser QA are S08 evidence; the implementation and final copy/polish of all routes are **S09–S18**, with publication gated by owner approval and human translation review.
 - GitHub branch: `project/light-sites-m01-vanilla-20261121`; write scope: `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`. Do not alter M02, the parent general branch, `main`, or the Codex-heavy `09-` project.
@@ -44,3 +44,9 @@ To run all static tests:
 The renderer is a deterministic build-time Node script. It requires no framework or server-side production runtime.
 
 Remaining out of scope for S08: independent Services, Work, Catalog, Contact, DEMO Checkout pages and their final functionality. Those stages are tracked as S09–S14; translation drafts require human review before publication.
+
+## S09 shared navigation — all five Home languages
+
+The same deterministic build script now generates semantic header, main/skip, footer and language navigation for every locale. Language and current-page controls are real links. The disclosure menu is progressive enhancement only: at viewports up to 56rem with JavaScript it opens/closes through a native button, manages aria-expanded, closes on Escape, outside click, link choice and resize, and returns keyboard focus to the trigger on Escape. Without JavaScript the navigation stays visible and usable.
+
+For reproducibility: run node ./scripts/render-home-locales.mjs, then node --test ./tests/*.test.mjs. Edge/Playwright interaction evidence and checksums are recorded once in the existing 03-EXECUTION-ROADMAP.md stage S09. No separate route kind beyond Home was created here, and the 25 remaining independent pages are still pending.

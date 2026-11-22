@@ -90,3 +90,67 @@
 [dir="rtl"] .brand { letter-spacing: .05em; }
 [dir="rtl"] .hero h1 { letter-spacing: normal; }
 [dir="rtl"] .card h3 { letter-spacing: normal; }
+
+/* S09 shared navigation: semantic disclosure, touch targets and keyboard focus. */
+.site-header { position: relative; isolation: isolate; }
+.site-nav a, .footer-nav a, .back-to-top {
+  min-block-size: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: .6rem;
+  border-radius: .6rem;
+}
+.site-nav a[aria-current="location"],
+.footer-nav a[aria-current="location"] {
+  color: var(--color-accent);
+  background: var(--color-panel-raised);
+}
+.site-nav a:hover, .footer-nav a:hover, .back-to-top:hover {
+  color: var(--color-accent);
+  background: var(--color-panel-raised);
+}
+.locale-switch a { min-block-size: 2.75rem; min-inline-size: 2.75rem; }
+.footer-nav { display: flex; align-items: center; flex-wrap: wrap; gap: .15rem .45rem; }
+.footer-nav a, .back-to-top { font-size: .83rem; color: var(--color-muted); text-decoration: none; }
+.site-footer { row-gap: .8rem; }
+.menu-toggle { cursor: pointer; }
+.menu-toggle:hover { border-color: var(--color-accent); }
+.menu-toggle[aria-expanded="true"] { color: var(--color-accent); border-color: var(--color-accent); }
+#main-content:focus, .section:focus { outline: 3px solid var(--color-focus); outline-offset: 3px; }
+@media (max-width: 56rem) {
+  .site-header { gap: .65rem .9rem; }
+  .site-header .site-nav { order: 3; inline-size: 100%; }
+  .site-header .locale-switch { order: 4; inline-size: 100%; }
+  .site-header .menu-toggle { margin-inline-start: auto; }
+  [data-js-ready="true"] .site-header .menu-toggle:not([hidden]) { display: inline-flex; align-items: center; }
+  [data-js-ready="true"] .site-header .site-nav {
+    display: none;
+    position: absolute;
+    z-index: 15;
+    inset-block-start: calc(100% - .2rem);
+    inset-inline-start: .65rem;
+    inline-size: calc(100% - 1.3rem);
+    background: var(--color-panel);
+    box-shadow: 0 .9rem 2rem #0008;
+    border: 2px solid var(--color-accent);
+    border-radius: 1rem;
+    padding: .5rem;
+    max-block-size: min(65vh, 32rem);
+    overflow-y: auto;
+  }
+  [data-js-ready="true"] .site-header .site-nav[data-open="true"] {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: .1rem;
+  }
+  [data-js-ready="true"] .site-header .site-nav a {
+    inline-size: 100%;
+    min-block-size: 2.9rem;
+    padding: .7rem 1rem;
+  }
+}
+
+/* Ensure opened disclosure stacks above the hero; brand is a 44px pointer target. */
+.site-header { z-index: 10; }
+.site-header .brand { display: inline-flex; align-items: center; min-block-size: 2.75rem; }
