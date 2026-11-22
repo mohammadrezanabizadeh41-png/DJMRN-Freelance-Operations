@@ -202,3 +202,33 @@ https://github.com/vitejs/vite · https://github.com/withastro/astro · https://
 **Coverage and counts:** Former A–F entries were audited separately in [LEGACY-CROSSWALK.md](LEGACY-CROSSWALK.md) (86 historical grouped rows = 14 already represented + 32 assessed for relevant optional reuse + 40 out of scope). Rows in this registry include groups and variants; they are **not a unique software count**. The previously drafted section G covering coding agents was explicitly excluded in this 2026-11-21 non-agent-only reconciliation.
 
 **Active base remains unchanged:** GPT-6 + Bridgerator + Git + Node.js + browser QA; Vite only when chosen project needs build. No install, code execution, MCPB activation, payment or merge in this audit.
+
+## N — M01 verified local tool reconciliation (2026-11-22, read-only inventory)
+
+**Provenance and authority:** Read-only inspection of DJMRN-LAPTOP with Bridgerator: git status, Windows executable discovery, installed-app registry, global npm list and Node package resolution from the existing M01-Prep/qa directory. This dated verification supersedes older unverified installation labels above; it does not retroactively mark unexecuted tests PASS. This remains the project-wide canonical inventory; stage-specific usage belongs to the [M01 selected tool profile](../models/M01-vanilla-multilingual/02-STACK-TOOLS-AND-MCP.md).
+
+| Tool | Verified status in this inventory | Placement and decision for M01 |
+|---|---|---|
+| Bridgerator, GitHub connector | Available and used through this chat; laptop online; GitHub commits verified in S01–S10 | **Executor + GitHub code authority**. No new MCP needed |
+| Node.js 24.22.1 / Git 2.55.0.5 | Installed and used for source build, tests and commits | **SELECTED**. Native HTML/CSS/JS + deterministic build |
+| Chrome 157 / Edge 158 | Installed; Edge used in prior Playwright S08–S10 QA | **SELECTED Observer**. Chrome DevTools for manual audit |
+| Playwright 1.65.1 (also playwright-core and @playwright/test) | Resolves from existing M01-Prep/qa; used S08–S10 | **PRIORITY S11–S20**, one worker and Edge channel=msedge |
+| axe-core 4.14.1 | Resolves from M01-Prep/qa; not yet run as S16 scan | **PRIORITY S16/S18**; human a11y testing still mandatory |
+| html-validate 11.21.1 | Resolves from M01-Prep/qa; not globally on PATH | **PRIORITY S11+** for offline HTML checks; first establish baseline |
+| Prettier 3.10.1 | Resolves from M01-Prep/qa; not globally on PATH | **OPTIONAL CHECK** only; never bulk reformat prior source without diff |
+| Lighthouse | Not on CLI PATH and not in tested QA modules; included as Chrome DevTools capability per official documentation | **S17 via Chrome**, measure actual score before claim |
+| VS Code 1.142.0 | Installed (user installation) | **OPTIONAL EDITOR**; no runtime or MCP requirement |
+| Python 3.14.7 | Installed; bare python is a WindowsApps alias; real interpreter/py launcher exists | **ALTERNATIVE HELPER**; Node default |
+| GIMP 3.2.8 | Installed according to Windows uninstall registry; no new M01 artwork produced with it | **OPTIONAL RASTER AUTHORING**, run only if S11/S17 requires |
+| Blender 5.3.0 | Installed according to registry; not launched, no GPU/RAM render test | **DEFER** for pure M01; optional offline pre-render only if justified |
+| GitHub Copilot 1.1.30, Codex 0.166.0 | Copilot in installed list; Codex in global npm list; actual license/quota unknown | **NOT NEEDED** as default for M01, no automatic model spending |
+| Inkscape, Sharp, SVGO, ESLint, Lighthouse CLI | Not found in inspected PATH/QA module scope; installed elsewhere unverified | **CANDIDATES** only on demonstrated gap, no install now |
+| Docker Desktop 4.99.0 and WSL | Installed/available commands but not launched in this audit | **EXCLUDED** for memory-light M01 |
+| Penpot MCP, Figma, Canva, Adobe Express, tldraw | Tools advertised in this ChatGPT tool catalog; project authorization, provider quota and working M01 design file NOT TESTED here. Does not prove local Windows installation | **DESIGN PROJECTION/ALTERNATIVE** only when editable wireframe need is proven |
+| Playwright MCP / Chrome DevTools MCP | No separate direct tool connection verified; existing local Playwright already works via laptop | **NOT SELECTED**, avoids duplicate tool |
+
+**Free-first and memory:** No installation, download, browser package setup, account login, provider activation, OAuth, payment, API usage or public deployment occurred during this audit. Local OSS can be free without cloud permissions or usage being free; optional provider cost/quota is UNKNOWN/DENY until a concrete action is approved. The read-only audit saw approximately **535 MiB available RAM**; this is a variable observation, not a safe fixed capacity. Use one browser worker and one loopback server. When RAM is low, defer heavy 3D/GUI tests and preserve test coverage rather than launching multiple apps.
+
+**Official evidence:** [Playwright installed Edge channel](https://playwright.dev/docs/browsers), [HTML-Validate offline](https://html-validate.org/), [Prettier check](https://prettier.io/docs/cli), [axe-core free OSS](https://www.deque.com/axe/axe-core/), [Chrome DevTools Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), [W3C limits of automated a11y](https://www.w3.org/WAI/test-evaluate/tools/selecting/), [GIMP](https://www.gimp.org/), [Blender](https://www.blender.org/), [GitHub supply-chain guidance](https://docs.github.com/en/code-security/concepts/supply-chain-security/supply-chain-security), [Penpot official pricing](https://penpot.app/pricing).
+
+**Status:** VERIFIED INVENTORY + SELECTED ROLES only. The project's active code authority and earlier S01–S10 PASS evidence remain unchanged.
