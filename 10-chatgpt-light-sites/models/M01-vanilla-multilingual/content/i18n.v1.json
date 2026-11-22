@@ -40,7 +40,7 @@
     "performance-check-pack"
   ],
   "brand": "NOVA Atelier",
-  "note": "Temporary fictional studio. Site pages will be created in S08+ only. All 5 languages require qualified human proofreading before public deployment.",
+  "note": "Temporary fictional studio. Site pages will be created in S08+ only. All 5 languages require qualified human proofreading before public deployment. Image alt strings are illustrative descriptions of planned original illustrations; S11/S12 must match real assets or use alt='' for purely decorative images.",
   "locales": {
     "fa": {
       "autonym": "فارسی",
@@ -185,32 +185,32 @@
         "landing-kit": {
           "title": "بستهٔ صفحهٔ فرود",
           "description": "الگوی نمایشی یک صفحهٔ معرفی محصول.",
-          "alt": ""
+          "alt": "طرح مفهومی اصیل از صفحهٔ فرود یک محصول نمایشی"
         },
         "company-site-kit": {
           "title": "بستهٔ سایت شرکتی",
           "description": "ساختار مفهومی یک سایت معرفی خدمات.",
-          "alt": ""
+          "alt": "تصویر نمونهٔ اصیل از ساختار یک وب‌سایت شرکتی"
         },
         "portfolio-kit": {
           "title": "بستهٔ نمونه‌کار",
           "description": "طرح اولیهٔ نمایش پروژه‌های شخصی.",
-          "alt": ""
+          "alt": "گرافیک مفهومی اصیل برای صفحهٔ نمونه‌کارها"
         },
         "multilingual-ui-kit": {
           "title": "بستهٔ رابط چندزبانه",
           "description": "الگوی نمایشی اجزای راست‌به‌چپ و چپ‌به‌راست.",
-          "alt": ""
+          "alt": "تصویر مفهومی اصیل از رابط چندزبانهٔ راست‌به‌چپ و چپ‌به‌راست"
         },
         "seo-starter-audit": {
           "title": "بررسی مقدماتی سئو",
           "description": "فهرست آزمایشی موارد فنی برای مرور ساختار سایت.",
-          "alt": ""
+          "alt": "طرح نمایشی اصیل از چک‌لیست بررسی سئو"
         },
         "performance-check-pack": {
           "title": "بستهٔ بررسی عملکرد",
           "description": "چک‌لیست نمایشی سرعت و سازگاری موبایل.",
-          "alt": ""
+          "alt": "تصویر مفهومی اصیل از گزارش بررسی سرعت و نمایش موبایل"
         }
       }
     },
@@ -357,32 +357,32 @@
         "landing-kit": {
           "title": "Landing Kit",
           "description": "A fictional product-introduction page kit.",
-          "alt": ""
+          "alt": "Original concept artwork of a demo product landing page"
         },
         "company-site-kit": {
           "title": "Company Site Kit",
           "description": "A sample structure for a service-focused website.",
-          "alt": ""
+          "alt": "Original illustration of a company website structure"
         },
         "portfolio-kit": {
           "title": "Portfolio Kit",
           "description": "A concept layout for selected personal work.",
-          "alt": ""
+          "alt": "Original concept artwork for a portfolio page"
         },
         "multilingual-ui-kit": {
           "title": "Multilingual UI Kit",
           "description": "A demonstration of RTL and LTR interface components.",
-          "alt": ""
+          "alt": "Original concept showing RTL and LTR multilingual interface elements"
         },
         "seo-starter-audit": {
           "title": "SEO Starter Audit",
           "description": "An illustrative list of structural SEO checks.",
-          "alt": ""
+          "alt": "Original illustration of a sample SEO audit checklist"
         },
         "performance-check-pack": {
           "title": "Performance Check Pack",
           "description": "A demo checklist for speed and responsive behavior.",
-          "alt": ""
+          "alt": "Original concept artwork for a mobile performance checklist"
         }
       }
     },
@@ -529,32 +529,32 @@
         "landing-kit": {
           "title": "باقة الصفحة المقصودة",
           "description": "مجموعة افتراضية لصفحة تعريف بمنتج.",
-          "alt": ""
+          "alt": "رسم مفهومي أصلي لصفحة هبوط منتج تجريبي"
         },
         "company-site-kit": {
           "title": "باقة موقع شركة",
           "description": "هيكل توضيحي لموقع يعرض الخدمات.",
-          "alt": ""
+          "alt": "تصور أصلي لبنية موقع شركة"
         },
         "portfolio-kit": {
           "title": "باقة ملف الأعمال",
           "description": "تصميم تصوري لعرض الأعمال الشخصية المختارة.",
-          "alt": ""
+          "alt": "رسم مفهومي أصلي لصفحة ملف الأعمال"
         },
         "multilingual-ui-kit": {
           "title": "باقة واجهات متعددة اللغات",
           "description": "عرض توضيحي لمكوّنات الواجهة من اليمين واليسار.",
-          "alt": ""
+          "alt": "تصميم أصلي لواجهة متعددة اللغات باتجاهي القراءة"
         },
         "seo-starter-audit": {
           "title": "تدقيق سيو أولي",
           "description": "قائمة تجريبية لفحص بنية الموقع.",
-          "alt": ""
+          "alt": "رسم توضيحي أصلي لقائمة مراجعة السيو"
         },
         "performance-check-pack": {
           "title": "باقة فحص الأداء",
           "description": "قائمة توضيحية للسرعة والتجاوب مع الأجهزة.",
-          "alt": ""
+          "alt": "تصور أصلي لقائمة فحص الأداء على الهاتف"
         }
       }
     },
@@ -701,32 +701,32 @@
         "landing-kit": {
           "title": "Açılış Sayfası Paketi",
           "description": "Kurgusal bir ürün tanıtım sayfası seti.",
-          "alt": ""
+          "alt": "Demo ürün açılış sayfasının özgün konsept görseli"
         },
         "company-site-kit": {
           "title": "Kurumsal Site Paketi",
           "description": "Hizmet odaklı bir site için örnek yapı.",
-          "alt": ""
+          "alt": "Kurumsal web sitesi yapısının özgün çizimi"
         },
         "portfolio-kit": {
           "title": "Portföy Paketi",
           "description": "Seçili kişisel işleri sunmak için konsept düzen.",
-          "alt": ""
+          "alt": "Portföy sayfasına ait özgün konsept görseli"
         },
         "multilingual-ui-kit": {
           "title": "Çok Dilli Arayüz Paketi",
           "description": "Sağdan sola ve soldan sağa arayüz öğeleri örneği.",
-          "alt": ""
+          "alt": "RTL ve LTR çok dilli arayüz öğelerini gösteren özgün tasarım"
         },
         "seo-starter-audit": {
           "title": "Başlangıç SEO İncelemesi",
           "description": "Yapısal SEO kontrollerini gösteren örnek liste.",
-          "alt": ""
+          "alt": "Örnek SEO kontrol listesinin özgün illüstrasyonu"
         },
         "performance-check-pack": {
           "title": "Performans Kontrol Paketi",
           "description": "Hız ve duyarlı tasarım için demo kontrol listesi.",
-          "alt": ""
+          "alt": "Mobil performans kontrol listesinin özgün konsept görseli"
         }
       }
     },
@@ -873,32 +873,32 @@
         "landing-kit": {
           "title": "Landingpage-Paket",
           "description": "Fiktives Paket für eine Produktvorstellungsseite.",
-          "alt": ""
+          "alt": "Eigenständige Konzeptgrafik einer Demo-Produktlandingpage"
         },
         "company-site-kit": {
           "title": "Unternehmenswebsite-Paket",
           "description": "Beispielstruktur für eine Website mit Dienstleistungsangebot.",
-          "alt": ""
+          "alt": "Eigenständige Illustration einer Unternehmenswebsite-Struktur"
         },
         "portfolio-kit": {
           "title": "Portfolio-Paket",
           "description": "Konzeptlayout für ausgewählte eigene Arbeiten.",
-          "alt": ""
+          "alt": "Eigenständige Konzeptgrafik einer Portfolioseite"
         },
         "multilingual-ui-kit": {
           "title": "Mehrsprachiges UI-Paket",
           "description": "Demonstration von RTL- und LTR-Oberflächenelementen.",
-          "alt": ""
+          "alt": "Eigenständige Darstellung von RTL- und LTR-Elementen einer mehrsprachigen Oberfläche"
         },
         "seo-starter-audit": {
           "title": "SEO-Starterprüfung",
           "description": "Beispielhafte Liste für technische Strukturprüfungen.",
-          "alt": ""
+          "alt": "Eigenständige Illustration einer beispielhaften SEO-Prüfliste"
         },
         "performance-check-pack": {
           "title": "Performance-Prüfpaket",
           "description": "Demo-Checkliste zu Geschwindigkeit und responsiver Darstellung.",
-          "alt": ""
+          "alt": "Eigenständige Konzeptgrafik einer Checkliste für mobile Performance"
         }
       }
     }
