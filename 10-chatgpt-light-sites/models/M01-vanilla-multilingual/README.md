@@ -5,7 +5,7 @@
 **Project branch:** `project/light-sites-m01-vanilla-20261121`  
 **Base branch:** `project/chatgpt-light-sites-20261121`  
 **Path:** `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`  
-**Project stage (2026-11-22):** **S01–S12 PASS for the static DEMO**, 20/30 local routes built; **mandatory S12A architecture/identity gate PLANNED before S13**, S13–S20 + local S14A NOT STARTED. **Production membership/admin/order track P00–P18 RESEARCHED/PLANNED, NOT IMPLEMENTED.** No signup, SMS, real order/payment, production database or deployment.
+**Project stage (2026-11-22):** **S01–S12 PASS for the static DEMO**, 20/30 local routes built; **S12A mandatory + I00–I20 infrastructure readiness PLANNED**, then S13–S20 + local S14A. **Production membership/admin/order track P00–P18 RESEARCHED/PLANNED, NOT IMPLEMENTED.** No signup, SMS, real order/payment, production database or deployment.
 **Upstream model:** [parent build checklist, M01 is unchecked](../../05-MODEL-BUILD-CHECKLIST.md).  
 **Isolation:** No changes to `main`, parent project branch, or `09-self-marketing-website/` heavy Codex/3D site.
 
@@ -42,7 +42,7 @@
 | Permissions | no new software installed, no MCP/server configured, no provider sign-up, no actual data transmitted or external deploy |
 
 ## Where to begin next
-**First S12A:** revisit S02/S04/S05/S07 contracts for customer registration, dual-channel verification, membership code, server-owned orders, separate admin authentication and legal/provider/cost gates. **Then S13 of 20** builds the five-language **synthetic** DEMO_CREDIT cart/receipt with guarded integer arithmetic and real browser tests. Home, Services, Work and Catalog are built across five locales; no live sale or real transaction is allowed. S14 is the non-submitting Contact preview, S14A the local-only content-management dashboard. Review [stage evidence](03-EXECUTION-ROADMAP.md) before advancing.
+**First S12A:** revisit S02/S04/S05/S07 contracts and readiness map **I00–I20** for customer registration, dual-channel verification, membership code, server-owned orders, separate admin authentication and legal/provider/cost gates. **Then S13 of 20** builds the five-language **synthetic** DEMO_CREDIT cart/receipt with guarded integer arithmetic and real browser tests. Home, Services, Work and Catalog are built across five locales; no live sale or real transaction is allowed. S14 is the non-submitting Contact preview, S14A the local-only content-management dashboard. Review [stage evidence](03-EXECUTION-ROADMAP.md) before advancing.
 
 A live payment gateway is intentionally not part of this pure-front-end implementation: real checkout requires a secure server-side provider session and verified callback/webhook, legitimate merchant eligibility, privacy and additional approval. A realistic demo checkout remains in scope.
 
@@ -59,3 +59,11 @@ A live payment gateway is intentionally not part of this pure-front-end implemen
 The owner explicitly requires a **real** member account flow (email confirmation + phone SMS confirmation, then unique public membership code and authenticated order history) and a **separate invite-only secure administration login/dashboard**. Static M01 remains reusable presentation/Demo and is NOT a secure user/auth/order system. The mandatory pre-S13 **S12A** re-examines requirements in S02/S04/S05/S07. A distinct **production P00–P18** track, with server/DB/security/identity/notification/payment/operations/legal/QA gates, is mapped in the existing [03 roadmap](03-EXECUTION-ROADMAP.md), [01 new brief §12](01-RESEARCH-AND-BRIEF.md), [04 security contract §10](04-I18N-SEO-COMMERCE-SECURITY.md) and [05 tests T31–T45](05-QA-AND-HANDOFF.md).
 
 **No real auth/backend, emails/SMS, provider connection, production schema, checkout, permissions, credential storage or costs were activated in this roadmap revision.** Decisions on jurisdiction, SMS delivery, PSP account/fee/settlement, DB and runtime remain UNVERIFIED and require explicit approval. The local-only S14A content editor is not the online Admin Console. Parent M01 and all unexecuted stage checkboxes remain unchanged until actual tested implementation.
+
+## Infrastructure discovery checklist — research-only expansion, 2026-11-22
+
+**Canonical source:** [03 Roadmap → Infrastructure Readiness I00–I20](03-EXECUTION-ROADMAP.md) maps **21 infrastructure layers/gates** (legal merchant/cost eligibility, DNS/domain, static CDN, origin HTTPS, API runtime, secrets, CI, SQL database, backups, sender email DNS, SMS OTP, customer sessions, separated admin, merchant PSP, order fulfillment, private assets, queue/retry, WAF, monitoring, legal/privacy, staging and launch). Each has a concrete test and unmarked checkbox; none has been provisioned.
+
+**Service discovery:** Existing connected ChatGPT plugins GitHub/Supabase/Neon/Render/Railway were verified through plugin discovery. Direct plugin name searches for Cloudflare, Resend, Twilio and Sentry returned no match, so official dashboard/CLI/API/manual signup options and exact selection gates are listed. Candidate Free-tier capacities are evidence for comparison, **not** proof that the owner's account/region/usage is entitled or that live SMS/PSP/24×7 hosting is free.
+
+**Next operational step remains S12A**, a contract and infrastructure decision gate before implementing M01 S13 demo cart; a free-first local backend vertical (Node+SQLite+mock email/SMS/payment) can then be tested before permissioned cloud selection P00–P18. Nothing was installed, connected or published in this infrastructure research turn. [QA infra T46–T55](05-QA-AND-HANDOFF.md) are all NOT RUN. S01–S12 DEMO PASS and parent model NOT DONE remain unchanged.

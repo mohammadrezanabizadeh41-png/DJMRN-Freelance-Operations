@@ -454,3 +454,14 @@ Sources: [web.dev CWV](https://web.dev/articles/defining-core-web-vitals-thresho
 - Provider/cost gate: examine official Free tier, SMS per-message costs, email quota, backup, database, regional eligibility, overage, paid add-ons, KYC/settlement; **UNKNOWN = NO ACTIVATION**. Research references and checklist: [03 Production Track](03-EXECUTION-ROADMAP.md), [05 T31–T45](05-QA-AND-HANDOFF.md).
 
 **Compatibility amendment:** Old statements in §6–§9 excluding backend/payment/login still apply **only to M01 DEMO**; they are superseded **for the new production goal** by this §10. Do not change existing demo behavior or claim a new real system before reviewed P00–P18 gates.
+
+## 11) Infrastructure transport/authority/security contracts (2026-11-22 / PROPOSAL)
+
+Read [03 / I00–I20](03-EXECUTION-ROADMAP.md) for provider quotes, official links, free quota, MCP visibility, registration guidance and independently checkable acceptance. The public static M01 demo remains source-compatible and private account/order features are **not implemented**.
+
+- **Transport:** A DNS hostname, correctly routed domain or free preview subdomain, edge TLS, valid origin TLS (e.g. Cloudflare Full strict or host managed end-to-end), cookie scope/flags, secure origin for WebAuthn and explicit redirect/HSTS rollout are distinct requirements. `HTTPS on CDN` does not imply secure edge→origin, or a free registered domain.
+- **Authority separation:** GitHub code/CI, selected DB principals/orders, selected identity engine verified sessions, payment provider signed result, email/SMS senders delivery status, selected runtime execution, local Notion rationale. No alternate second customer DB or unaudited provider events.
+- **Secrets and permissions:** runtime-managed config, narrow service accounts, secret rotation/revocation, neither GitHub public source nor Browser/Notion/chat transcripts store secrets/OTP/customer PII. Host account permissions must not silently grant production data to optional MCP operators.
+- **Reliability:** DB transactions + unique constraints, outbox durable retry/idempotency, health checks with realistic free idle/sleep limits, encrypted off-site backups and tested restore, error redaction, WAF/rate-limits and cost/spam alerting. Use a small first vertical before queue/cache/analytics services.
+- **Legal/pricing:** merchant KYC, eligible account and destination countries, SMS delivery, PSP settlement/fees, invoices, GDPR/other applicable privacy, domain ownership and full production availability are NOT verified until P00/I00/I13. Free plan quotas alone do not authorize provider setup or represent 24×7 production commitment.
+- **T46–T55:** measured DNS/HTTPS, host/API, DB/restore, messages, IAM, PSP, jobs/storage, monitoring/billing, staging/approval; T31–T45 remain end-to-end customer/admin/order requirements. Neither set has been run.
