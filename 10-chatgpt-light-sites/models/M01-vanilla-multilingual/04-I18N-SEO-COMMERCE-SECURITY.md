@@ -338,3 +338,46 @@ Sources: [web.dev CWV](https://web.dev/articles/defining-core-web-vitals-thresho
 - After each approved implementation slice: diff/test/commit and possible revert; preserve ability to roll back without schema migration or cloud account changes.
 
 **Status:** S04 architecture contract PASS (specification only); no site code created, no runtime/security test or public deployment.
+
+## 8) S09 content-dashboard architecture gap audit — 2026-11-22; stage S14A is NOT STARTED
+
+### 8.1 Fact / assumption / judgment
+
+- **FACT (repo + real PC inspection):** Current M01 is five static localized Home pages and a root chooser; `site/` has no admin/editor/dashboard route, no DB, no auth, and Node `serve-local.mjs` serves `site/` only.
+- **FACT:** S02 explicitly excludes actual accounts, database, payments and contact collection. The prior 20-stage roadmap had **no independently testable operator/authoring dashboard deliverable**.
+- **OWNER REQUIREMENT:** A professional, complete-in-its-category M01 sample must also demonstrate a real **management UI**.
+- **JUDGMENT / PROPOSED IMPLEMENTATION:** Keep M01 **pure HTML/CSS/vanilla JS output** and add one **local-only content studio** as extra stage S14A. Public 30-route contract and existing model identity remain unchanged. Prefer a small separate loopback-only authoring tool over introducing a second CMS, DB, authentication system or frontend framework.
+
+### 8.2 Boundaries, authority and architecture (decision for future S14A build)
+
+| Concern | Canonical authority / contract | Not allowed |
+|---|---|---|
+| Public site | `site/`: 30 intended public/demo HTML routes; deterministic static files | Host dashboard/auth logic or sensitive draft files under `site/` |
+| Content | `content/i18n.v1.json`: single canonical approved source, IDs and 5 locale keys | Parallel production content DB, shadow translation store |
+| Editor draft | Private local-only file *outside* `site/`; explicit draft version, original hash, bounded schema and reversible backup | Silent overwrite of canonical data, uncontrolled file writes |
+| Rendering | Existing Node deterministic build script(s); preview differences in **local browser** | Runtime dependency on paid SaaS, React/Vite/CMS, secret client-side keys |
+| Auth/security | **No genuine admin account in M01.** Run the authoring endpoint **loopback-only**, never through the LAN preview or public host; restrict origin, HTTP methods, file paths and input limits | Client-only password, fake access-control role, storage of secrets, open CORS or remote write API |
+| Publishing | Owner reviews diff and explicitly approves production-relevant content/hosting changes; GitHub source/commit provides history and rollback | Auto-publish, silent PR merge, direct write to live site |
+| Analytics / sales | Only measured static page count, content readiness, fictional product count and QA results with provenance | Fabricated visits/orders/revenue/customer data or implicit telemetry |
+
+### 8.3 One small but professional management experience
+
+**IA and dashboard screens:** `Overview` (coverage + build/QA health), `Pages & Languages` (30-route planning/locale matrix), `Services` (six descriptions), `Concept Work` (three clearly DEMO cases), `Catalog` (six fictional kits, tags/category, DEMO_CREDIT), `Media/Alt/Licenses`, `Settings/SEO`, `Review Changes & Preview`, `Recovery`. Display each status honestly as `draft / needs review / validated / locally built`; do not claim public traffic.
+
+**Minimum real I/O:** Read canonical fixture; edit a synthetic value in at least two languages; dirty-state and unsaved-change warning; schema validation with field-level errors and summary; import/export safe UTF-8 JSON or explicit local draft file; persist and reload draft after process restart; show before/after diff; rebuild static HTML only after explicit approval; test resulting pages; rollback to previous Git/draft version on failure. Image workflow must preserve provenance/licenses and alt correctness. Support mouse, touch, keyboard, RTL/LTR and 320/820/1366px.
+
+**Security and reliability:** No `/admin` in public `site/`; no stored password/token/session ID in `localStorage`; never trust client-only role checks. Any local Node authoring HTTP service needs explicit loopback binding, restrictive same-origin/Host/CSRF defenses where applicable, allowlisted methods and paths, bounded JSON, schema and filename checks, atomic safe draft writes, no path traversal/symlink escape, no external egress, and tests for invalid data, duplicate IDs, tampered DEMO price, locale gaps, crash/restart and rollback. A passive file import/export UI may be preferable if it meets actual durable editing use. Do not copy draft/PII into a public GitHub repo.
+
+**Alternative comparison and activation gate:**
+
+| Candidate | Role / fit | Cost, permissions and risk | Decision |
+|---|---|---|---|
+| Built-in local editor + Node/vanilla JS | One small content-authoring UI; Git+JSON source; sufficient for M01 | Existing tools, no new provider, smallest reversible option | **PLANNED DEFAULT**; S14A proves real I/O |
+| Decap CMS / Git-backed editor | External CMS editor for static sites with Git backend | Official docs require Git host authentication/OAuth or other backend; exact provider quota/hosted auth pricing **UNKNOWN**, new auth/security work | **ALTERNATIVE / NOT ACTIVATED** |
+| M10 WordPress / M15 Grav CMS | Fully different CMS showcase model with publishing/editor runtime | Extra runtime, configuration, CMS auth and RAM/maintenance | **SEPARATE MODEL / NOT INSTALLED HERE** |
+| M21 real full-stack service | Real multiuser admin, authenticated writes, server-side roles, orders/CRM | Requires backend/durable state, authorization and security review, approval | **ONLY if real production use case explicitly approved** |
+
+**References checked 2026-11-22:** [Decap CMS architecture](https://decapcms.org/docs/intro/), [Decap GitHub backend](https://decapcms.org/docs/github-backend/), [OWASP access-control authorization](https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html), [OWASP session storage](https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html), [MDN client-side storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API), [MDN File System API and user permission](https://developer.mozilla.org/en-US/docs/Web/API/File_System_API), [GOV.UK task list / errors](https://design-system.service.gov.uk/components/), [W3C accessible data tables](https://www.w3.org/WAI/tutorials/tables/), [GitHub protected review](https://docs.github.com/en/pull-requests/reference/managing-and-standardizing-pull-requests). No provider, installer, paid tier, login or sensitive permission activated during this research.
+
+**Status:** RESEARCHED + SPECIFIED (not coded). The stage checkbox in `03-EXECUTION-ROADMAP.md` and independent tests in `05-QA-AND-HANDOFF.md` govern S14A PASS; do not confuse this design contract with functioning admin capability.
+
