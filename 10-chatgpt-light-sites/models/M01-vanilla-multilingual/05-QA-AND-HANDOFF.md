@@ -1,5 +1,5 @@
 # M01 — ماتریس تست، معیار پذیرش و تحویل نمونه‌کار
-**State:** S01–S11 have execution evidence in the existing roadmap; S11 includes Node, HTML-Validate, Edge/Playwright browser, and representative axe-core checks. Future T21–T24 and S14A are **NOT RUN**. Overall S15–S20 acceptance, complete human accessibility/translation review, and public launch are **NOT DONE**. Do not infer unexecuted gates from the plan.
+**State:** S01–S12 have execution evidence in the existing roadmap. S12 covers 40 Node tests, 40 actual Edge/Playwright catalog viewport checks and 20 browser interactions, five HTML-Validate pages and ten representative axe-core scans. T21–T24/S14A and full S13–S20 acceptance are **NOT RUN**. Human translation/accessibility reviews and public launch are **NOT DONE**. Do not infer unexecuted gates from the plan.
 **Build plan:** [03 Execution Roadmap](03-EXECUTION-ROADMAP.md); [04 i18n/SEO/payment/security](04-I18N-SEO-COMMERCE-SECURITY.md).
 
 ## 1) What we will actually test

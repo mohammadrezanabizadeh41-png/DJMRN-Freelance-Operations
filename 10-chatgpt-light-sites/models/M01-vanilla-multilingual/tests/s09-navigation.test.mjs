@@ -30,7 +30,7 @@ for(const l of translations.localeOrder){
  assert(footer,l+' footer exists');
  assert.equal((footer.match(/<a href=/g)||[]).length,5,l+' footer item count');
  for(const kind of ['home','services','work','catalog','contact']){
-   const expected=kind==='home'?'/'+l+'/':(kind==='services'||kind==='work'?'/'+l+'/'+kind+'/':'#'+kind);
+   const expected=kind==='home'?'/'+l+'/':(kind==='services'||kind==='work'||kind==='catalog'?'/'+l+'/'+kind+'/':'#'+kind);
    assert(footer.includes('href="'+expected+'"'),l+' footer '+kind);
  }
  assert(!html.includes('href="/'+l+'/demo-checkout/'),l+' no phantom checkout');

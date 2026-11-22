@@ -23,7 +23,7 @@ const relatedCase={
 const art={ 'corporate-presence':'s11-corporate-presence.svg','creative-portfolio':'s11-creative-portfolio.svg','digital-catalog':'s11-digital-catalog.svg' };
 function header(locale,type,l) {
  const nav=['home','services','work','catalog','contact'].map(k=>{
-  const href=k==='home'?'/'+locale+'/':(k==='services'||k==='work'?'/'+locale+'/'+k+'/':'/'+locale+'/#'+k);
+  const href=k==='home'?'/'+locale+'/':(k==='services'||k==='work'||k==='catalog'?'/'+locale+'/'+k+'/':'/'+locale+'/#'+k);
   return '<a href="'+href+'"'+(k===type?' aria-current="page"':'')+'>'+e(l.nav[k])+'</a>';
  }).join('');
  const switcher=localeOrder.map(code=>
@@ -38,7 +38,7 @@ function header(locale,type,l) {
 }
 function footer(locale,l){
  const links=['home','services','work','catalog','contact'].map(k=>{
-  const href=k==='home'?'/'+locale+'/':(k==='services'||k==='work'?'/'+locale+'/'+k+'/':'/'+locale+'/#'+k);
+  const href=k==='home'?'/'+locale+'/':(k==='services'||k==='work'||k==='catalog'?'/'+locale+'/'+k+'/':'/'+locale+'/#'+k);
   return link(href,l.nav[k]);
  }).join('');
  return '<footer class="site-footer"><span><bdi lang="en" dir="ltr">NOVA Atelier</bdi> · '+e(l.ui.demo)+'</span>'+

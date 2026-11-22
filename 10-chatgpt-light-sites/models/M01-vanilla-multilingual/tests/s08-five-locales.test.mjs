@@ -48,9 +48,9 @@ test('S08 native anchors survive S11 and only actual routes are linked',()=>{
   const hashes=[...page.matchAll(/href="#([\w-]+)"/g)].map(m=>m[1]);
   assert(hashes.length>=5,l+' anchors');
   for(const id of hashes)assert(page.includes('id="'+id+'"'),l+' #'+id);
-  for(const kind of ['services','work'])
+  for(const kind of ['services','work','catalog'])
     assert(page.includes('href="/'+l+'/'+kind+'/'),l+' built '+kind);
-  for(const kind of ['catalog','contact','demo-checkout'])
+  for(const kind of ['contact','demo-checkout'])
     assert(!page.includes('href="/'+l+'/'+kind+'/'),l+' unfinished '+kind);
  }
 });

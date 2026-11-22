@@ -40,7 +40,7 @@
     "performance-check-pack"
   ],
   "brand": "NOVA Atelier",
-  "note": "M01 S11: Five Home + five Services + five Work routes are generated from this JSON. Remaining Catalog/Contact/Checkout routes are future S12–S14. All translations are editorial drafts pending qualified human review before publication. Concept art is original project SVG; no real clients, sales, payments or real contact.",
+  "note": "M01 S12: Home, Services, Work and Catalog static routes in five languages (20/30). Six fictional kit values in integer DEMO_CREDIT (not currency). S13 Cart/Checkout and S14 Contact remain unbuilt. Human translation review required before publication. Original vector assets generated within project source.",
   "locales": {
     "fa": {
       "autonym": "فارسی",
@@ -394,6 +394,110 @@
             "artifact": "مطالعهٔ برداری اصیل از فیلتر و کارت‌های یک کاتالوگ نمایشی.",
             "learning": "برچسب صادقانهٔ DEMO و محدودیت روشن از آمار ساختگی ارزشمندتر است.",
             "serviceId": "ui-accessibility"
+          }
+        }
+      },
+      "catalogDetail": {
+        "labels": {
+          "kicker": "کاوش بسته‌های نمایشی",
+          "lead": "شش مفهوم با جزئیات روشن، بدون خرید یا پرداخت واقعی.",
+          "categoryLabel": "دستهٔ بسته",
+          "audienceLabel": "مناسب برای",
+          "useLabel": "کاربرد",
+          "deliverLabel": "تحویل نمونه",
+          "includedLabel": "شامل",
+          "excludedLabel": "شامل نمی‌شود",
+          "fictionalValue": "اعتبار خیالی",
+          "creditLabel": "اعتبار نمایشی",
+          "creditUnit": "DEMO_CREDIT",
+          "detailsLabel": "جزئیات بسته",
+          "relatedService": "مشاهدهٔ خدمت مرتبط",
+          "resetLabel": "پاک‌سازی جست‌وجو و فیلتر",
+          "countSuffix": "نتیجه از شش بسته",
+          "showAll": "نمایش همهٔ بسته‌ها",
+          "demoDisclaimer": "این بسته صرفاً یک طرح مفهومی است؛ امکان خرید و ثبت سفارش وجود ندارد.",
+          "filtersHeading": "جست‌وجو و دسته‌بندی",
+          "emptyHeading": "نتیجه‌ای پیدا نشد",
+          "emptyHint": "می‌توانید جست‌وجو را پاک کنید یا دستهٔ دیگری انتخاب کنید.",
+          "relatedConcepts": "نمایش مفاهیم مرتبط",
+          "privacy": "بدون ارسال یا ذخیرهٔ دادهٔ شخصی",
+          "optionsHeading": "گزینه‌های موجود",
+          "backServices": "بازگشت به خدمات",
+          "notYetCart": "تنها نمونهٔ آموزشی، بدون سبد فعال و پرداخت",
+          "kitCount": "تعداد بسته‌های نمایشی"
+        },
+        "items": {
+          "landing-kit": {
+            "category": "web",
+            "categoryLabel": "وب",
+            "audience": "تیم کوچک در حال بررسی ایدهٔ یک محصول",
+            "use": "معرفی یک محصول ساختگی با پیام مشخص",
+            "deliverable": "ساختار فرود و مسیر اقدام واضح — وایرفریم واکنش‌گرا و نمونهٔ بصریِ قابل بررسی",
+            "included": "ساختار محتوا، بخش ارزش پیشنهادی و دکمهٔ اقدام",
+            "excluded": "مدیریت تبلیغات، نرخ تبدیل واقعی و میزبانی",
+            "credits": 120,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "landing-pages"
+          },
+          "company-site-kit": {
+            "category": "web",
+            "categoryLabel": "وب",
+            "audience": "تیم خدماتی در مرحلهٔ تعریف حضور دیجیتال",
+            "use": "نمایش خدمات یک شرکت فرضی در چند بخش",
+            "deliverable": "نقشهٔ صفحات معرفی خدمات و مسیرهای روشن — نقشهٔ سایت کوچک و نمونهٔ صفحهٔ معرفی",
+            "included": "ناوبری، سلسله‌مراتب محتوا و اجزای واکنش‌گرا",
+            "excluded": "CRM، دامنه و راه‌اندازی تولیدی",
+            "credits": 220,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "company-websites"
+          },
+          "portfolio-kit": {
+            "category": "design",
+            "categoryLabel": "طراحی",
+            "audience": "طراح مستقل با پروژه‌های مفهومی",
+            "use": "روایت کارهای انتخابی بدون ادعای مشتری",
+            "deliverable": "گالری همراه با متن تصمیم‌های طراحی — نمونهٔ کارت مطالعهٔ موردی و چیدمان پورتفولیو",
+            "included": "تصویرسازی اصیل و ساختار روایت پروژه",
+            "excluded": "توصیه‌نامه، مشتری واقعی و عکاسی تجاری",
+            "credits": 160,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "visual-identity"
+          },
+          "multilingual-ui-kit": {
+            "category": "design",
+            "categoryLabel": "طراحی",
+            "audience": "تیم محتوا با نسخه‌های RTL و LTR",
+            "use": "نمایش دقیق یک رابط در پنج زبان",
+            "deliverable": "نمونهٔ زبان‌گردان و اجزای جهت‌پذیر — کیت رابط فارسی/عربی و سه زبان چپ‌به‌راست",
+            "included": "کنترل‌های قابل لمس، جهت نوشتار و متن نمونه",
+            "excluded": "ترجمهٔ رسمی تاییدشده یا زیرساخت مدیریت ترجمه",
+            "credits": 180,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "seo-starter-audit": {
+            "category": "audit",
+            "categoryLabel": "بررسی فنی",
+            "audience": "تیم کوچک در حال یادگیری ساختار محتوا",
+            "use": "نمایش گام‌های یک مرور اولیهٔ سئو",
+            "deliverable": "چک‌لیست فرضی مسیرها و فرادادهٔ صفحات — جدول بررسی عنوان، H1 و ساختار پیوندها",
+            "included": "موارد فنی قابل آزمایش و توضیح دامنهٔ ارزیابی",
+            "excluded": "تضمین رتبهٔ جست‌وجو، بک‌لینک و سرویس سئوی واقعی",
+            "credits": 90,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "performance-check-pack": {
+            "category": "audit",
+            "categoryLabel": "بررسی فنی",
+            "audience": "مالک سایت فرضی با هدف تجربهٔ روان",
+            "use": "نمایش بررسی سرعت و نمایش موبایل",
+            "deliverable": "چک‌لیست اندازهٔ تصویر و واکنش‌گرایی — نمونهٔ گزارش آزمایشی عملکرد و دستگاه",
+            "included": "موارد بازتولیدپذیر برای عرض صفحه و تصاویر",
+            "excluded": "گزارش Core Web Vitals واقعی یا تضمین SLA",
+            "credits": 110,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "mobile-performance"
           }
         }
       }
@@ -752,6 +856,110 @@
             "serviceId": "ui-accessibility"
           }
         }
+      },
+      "catalogDetail": {
+        "labels": {
+          "kicker": "Explore demo kits",
+          "lead": "Six transparent digital concepts, with no purchase or real payment.",
+          "categoryLabel": "Kit category",
+          "audienceLabel": "Best for",
+          "useLabel": "Use case",
+          "deliverLabel": "Sample deliverable",
+          "includedLabel": "Included",
+          "excludedLabel": "Not included",
+          "fictionalValue": "Fictional value",
+          "creditLabel": "demo credits",
+          "creditUnit": "DEMO_CREDIT",
+          "detailsLabel": "Kit details",
+          "relatedService": "View related service",
+          "resetLabel": "Reset search and filters",
+          "countSuffix": "results of six kits",
+          "showAll": "Show all kits",
+          "demoDisclaimer": "This is a design concept only. No purchase or order can be placed.",
+          "filtersHeading": "Search and categories",
+          "emptyHeading": "No kits found",
+          "emptyHint": "Try clearing the search or choosing another category.",
+          "relatedConcepts": "Explore related concepts",
+          "privacy": "No personal information is submitted or stored",
+          "optionsHeading": "Available options",
+          "backServices": "Back to services",
+          "notYetCart": "Educational demonstration only; cart and checkout are not active",
+          "kitCount": "Demo kit count"
+        },
+        "items": {
+          "landing-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Small teams exploring an early product idea",
+            "use": "Illustrate a fictional product with one clear message",
+            "deliverable": "A focused landing hierarchy and next action — Responsive wireframe and visual page prototype",
+            "included": "Content outline, offer section and action button",
+            "excluded": "Advertising management, real conversion rates or hosting",
+            "credits": 120,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "landing-pages"
+          },
+          "company-site-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Service teams shaping a digital presence",
+            "use": "Show an imaginary company’s services across focused sections",
+            "deliverable": "Service page map with clear navigation paths — Small sitemap and illustrative services page",
+            "included": "Navigation, content hierarchy and responsive building blocks",
+            "excluded": "CRM, domain purchase or production launch",
+            "credits": 220,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "company-websites"
+          },
+          "portfolio-kit": {
+            "category": "design",
+            "categoryLabel": "Design",
+            "audience": "Independent designers with conceptual projects",
+            "use": "Tell the story of selected work without invented clients",
+            "deliverable": "An editorial gallery explaining design decisions — Case-study card set and portfolio layout",
+            "included": "Original artwork and project narrative structure",
+            "excluded": "Testimonials, actual clients or commercial photography",
+            "credits": 160,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "visual-identity"
+          },
+          "multilingual-ui-kit": {
+            "category": "design",
+            "categoryLabel": "Design",
+            "audience": "Content teams using both RTL and LTR pages",
+            "use": "Demonstrate an interface across five writing systems",
+            "deliverable": "Localized language switch and direction-aware patterns — Persian/Arabic plus three LTR interface examples",
+            "included": "Touch-friendly controls, text direction and sample copy",
+            "excluded": "Certified translation or translation-management services",
+            "credits": 180,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "seo-starter-audit": {
+            "category": "audit",
+            "categoryLabel": "Technical audit",
+            "audience": "Small teams learning content structure",
+            "use": "Illustrate an introductory SEO review workflow",
+            "deliverable": "A fictional checklist for routes and page metadata — Review table for titles, H1 and internal links",
+            "included": "Testable technical checks and a defined review scope",
+            "excluded": "Ranking guarantees, backlinks or a live SEO service",
+            "credits": 90,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "performance-check-pack": {
+            "category": "audit",
+            "categoryLabel": "Technical audit",
+            "audience": "Hypothetical site owners seeking smoother mobile UX",
+            "use": "Illustrate site speed and mobile review steps",
+            "deliverable": "Image sizing and responsive review checklist — Sample performance and viewport review report",
+            "included": "Repeatable checks for device sizes and image choices",
+            "excluded": "Real field Core Web Vitals report or guaranteed SLA",
+            "credits": 110,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "mobile-performance"
+          }
+        }
       }
     },
     "ar": {
@@ -1106,6 +1314,110 @@
             "artifact": "تصور متجهي أصلي لفلاتر وبطاقات كتالوج تجريبي.",
             "learning": "تسميات التجربة والحدود الواضحة أهم من أرقام تحويل وهمية.",
             "serviceId": "ui-accessibility"
+          }
+        }
+      },
+      "catalogDetail": {
+        "labels": {
+          "kicker": "استكشف الباقات التجريبية",
+          "lead": "ستة تصورات رقمية واضحة دون شراء أو دفع حقيقي.",
+          "categoryLabel": "فئة الباقة",
+          "audienceLabel": "مناسبة لـ",
+          "useLabel": "الاستخدام",
+          "deliverLabel": "مخرج توضيحي",
+          "includedLabel": "يشمل",
+          "excludedLabel": "لا يشمل",
+          "fictionalValue": "قيمة خيالية",
+          "creditLabel": "رصيد تجريبي",
+          "creditUnit": "DEMO_CREDIT",
+          "detailsLabel": "تفاصيل الباقة",
+          "relatedService": "عرض الخدمة المرتبطة",
+          "resetLabel": "إعادة ضبط البحث والفلاتر",
+          "countSuffix": "نتائج من ست باقات",
+          "showAll": "عرض كل الباقات",
+          "demoDisclaimer": "هذه فكرة تصميم فقط، ولا يمكن إتمام شراء أو تسجيل طلب.",
+          "filtersHeading": "البحث والتصنيفات",
+          "emptyHeading": "لا توجد نتائج",
+          "emptyHint": "امسح البحث أو اختر فئة أخرى.",
+          "relatedConcepts": "تصفح التصورات ذات الصلة",
+          "privacy": "لا تُرسل أو تُخزن معلومات شخصية",
+          "optionsHeading": "الخيارات المتاحة",
+          "backServices": "العودة للخدمات",
+          "notYetCart": "عرض تعليمي فقط؛ السلة والدفع غير مفعّلين",
+          "kitCount": "عدد الباقات التجريبية"
+        },
+        "items": {
+          "landing-kit": {
+            "category": "web",
+            "categoryLabel": "ويب",
+            "audience": "فريق صغير يستكشف فكرة منتج جديدة",
+            "use": "عرض منتج افتراضي برسالة واحدة واضحة",
+            "deliverable": "ترتيب صفحة هبوط واضح وخطوة تالية — مخطط مرن ونموذج بصري لصفحة هبوط",
+            "included": "هيكل المحتوى وعرض القيمة وزر الإجراء",
+            "excluded": "إدارة إعلانات أو نسب تحويل حقيقية أو استضافة",
+            "credits": 120,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "landing-pages"
+          },
+          "company-site-kit": {
+            "category": "web",
+            "categoryLabel": "ويب",
+            "audience": "فريق خدمات يخطط لحضوره الرقمي",
+            "use": "تعريف خدمات شركة خيالية بأقسام واضحة",
+            "deliverable": "خريطة صفحات خدمات ومسارات تنقل واضحة — خريطة موقع صغيرة ونموذج صفحة خدمات",
+            "included": "التنقل وتسلسل المحتوى ومكونات متجاوبة",
+            "excluded": "CRM أو شراء نطاق أو إطلاق إنتاجي",
+            "credits": 220,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "company-websites"
+          },
+          "portfolio-kit": {
+            "category": "design",
+            "categoryLabel": "تصميم",
+            "audience": "مصمم مستقل لديه مشاريع مفاهيمية",
+            "use": "سرد أعمال مختارة دون ادعاء عملاء حقيقيين",
+            "deliverable": "معرض تحريري يشرح قرارات التصميم — بطاقات دراسات حالة وتصميم معرض أعمال",
+            "included": "رسوم أصلية وبنية قصة المشروع",
+            "excluded": "شهادات عملاء أو مشاريع فعلية أو تصوير تجاري",
+            "credits": 160,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "visual-identity"
+          },
+          "multilingual-ui-kit": {
+            "category": "design",
+            "categoryLabel": "تصميم",
+            "audience": "فريق محتوى يستخدم RTL وLTR",
+            "use": "عرض واجهة بخمس لغات واتجاهات متعددة",
+            "deliverable": "مبدل لغات وأنماط تتكيف مع اتجاه النص — واجهات فارسية وعربية وثلاث لغات LTR",
+            "included": "عناصر لمس واتجاه كتابة ونصوص توضيحية",
+            "excluded": "ترجمة معتمدة أو نظام إدارة ترجمة",
+            "credits": 180,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "seo-starter-audit": {
+            "category": "audit",
+            "categoryLabel": "تدقيق فني",
+            "audience": "فريق صغير يتعلم بنية المحتوى",
+            "use": "عرض خطوات مراجعة SEO مبدئية",
+            "deliverable": "قائمة افتراضية للمسارات والبيانات الوصفية — جدول لفحص العناوين وH1 والروابط",
+            "included": "خطوات تقنية قابلة للفحص ونطاق محدد",
+            "excluded": "ضمان ترتيب البحث أو روابط خلفية أو خدمة SEO فعلية",
+            "credits": 90,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "performance-check-pack": {
+            "category": "audit",
+            "categoryLabel": "تدقيق فني",
+            "audience": "مالك موقع افتراضي يريد تجربة أسرع",
+            "use": "شرح مراجعة سرعة الموقع وتجربة الهاتف",
+            "deliverable": "قائمة فحص أحجام الصور والتجاوب — تقرير عينة عن الأداء وأحجام الشاشات",
+            "included": "خطوات متكررة لفحص العرض والصور",
+            "excluded": "تقرير Core Web Vitals حقيقي أو ضمان أداء",
+            "credits": 110,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "mobile-performance"
           }
         }
       }
@@ -1464,6 +1776,110 @@
             "serviceId": "ui-accessibility"
           }
         }
+      },
+      "catalogDetail": {
+        "labels": {
+          "kicker": "Demo paketleri keşfedin",
+          "lead": "Satın alma veya gerçek ödeme olmadan altı açıklanmış dijital konsept.",
+          "categoryLabel": "Paket kategorisi",
+          "audienceLabel": "Kimler için",
+          "useLabel": "Kullanım amacı",
+          "deliverLabel": "Örnek teslim",
+          "includedLabel": "Dahil",
+          "excludedLabel": "Dahil değil",
+          "fictionalValue": "Hayali değer",
+          "creditLabel": "demo kredisi",
+          "creditUnit": "DEMO_CREDIT",
+          "detailsLabel": "Paket ayrıntıları",
+          "relatedService": "İlgili hizmeti incele",
+          "resetLabel": "Arama ve filtreleri sıfırla",
+          "countSuffix": "altı paketten sonuç",
+          "showAll": "Tüm paketleri göster",
+          "demoDisclaimer": "Bu sadece bir tasarım konseptidir; satın alma veya sipariş yoktur.",
+          "filtersHeading": "Arama ve kategoriler",
+          "emptyHeading": "Paket bulunamadı",
+          "emptyHint": "Aramayı temizleyin veya başka kategori seçin.",
+          "relatedConcepts": "İlgili konseptleri keşfet",
+          "privacy": "Kişisel veri gönderilmez veya saklanmaz",
+          "optionsHeading": "Mevcut seçenekler",
+          "backServices": "Hizmetlere dön",
+          "notYetCart": "Sadece eğitim demosu; sepet ve ödeme henüz etkin değil",
+          "kitCount": "Demo paket sayısı"
+        },
+        "items": {
+          "landing-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Erken aşamadaki ürün fikirleri olan küçük ekipler",
+            "use": "Kurgusal bir ürünü tek net mesajla tanıtmak",
+            "deliverable": "Odaklanmış açılış sayfası ve net sonraki adım — Duyarlı wireframe ve görsel sayfa örneği",
+            "included": "İçerik taslağı, değer önerisi ve işlem düğmesi",
+            "excluded": "Reklam yönetimi, gerçek dönüşüm oranları veya barındırma",
+            "credits": 120,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "landing-pages"
+          },
+          "company-site-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Dijital varlığını planlayan hizmet ekipleri",
+            "use": "Hayali bir şirketin hizmetlerini anlaşılır sunmak",
+            "deliverable": "Net gezinme yollarıyla hizmet sayfası haritası — Küçük site haritası ve hizmet sayfası örneği",
+            "included": "Gezinme, içerik hiyerarşisi ve duyarlı bileşenler",
+            "excluded": "CRM, alan adı satın alma veya canlıya alma",
+            "credits": 220,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "company-websites"
+          },
+          "portfolio-kit": {
+            "category": "design",
+            "categoryLabel": "Tasarım",
+            "audience": "Konsept projeleri olan bağımsız tasarımcılar",
+            "use": "Gerçek müşteri uydurmadan seçili işleri anlatmak",
+            "deliverable": "Tasarım kararlarını açıklayan editoryal galeri — Vaka kartları ve portföy yerleşimi",
+            "included": "Özgün çizimler ve proje anlatısı",
+            "excluded": "Referanslar, gerçek müşteriler veya ticari fotoğraf",
+            "credits": 160,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "visual-identity"
+          },
+          "multilingual-ui-kit": {
+            "category": "design",
+            "categoryLabel": "Tasarım",
+            "audience": "RTL ve LTR kullanan içerik ekipleri",
+            "use": "Beş dilde bir arayüzü göstermek",
+            "deliverable": "Yerelleştirilmiş dil geçişi ve yön duyarlı düzen — Farsça/Arapça ve üç LTR arayüz örneği",
+            "included": "Dokunmatik kontroller, metin yönü ve örnek içerik",
+            "excluded": "Onaylı çeviri veya çeviri yönetim altyapısı",
+            "credits": 180,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "seo-starter-audit": {
+            "category": "audit",
+            "categoryLabel": "Teknik denetim",
+            "audience": "İçerik yapısını öğrenen küçük ekipler",
+            "use": "Başlangıç SEO inceleme akışını göstermek",
+            "deliverable": "Rotalar ve meta veriler için kurgusal kontrol listesi — Başlık, H1 ve bağlantı inceleme tablosu",
+            "included": "Test edilebilir teknik denetimler ve kapsam açıklaması",
+            "excluded": "Sıralama garantisi, backlink veya gerçek SEO hizmeti",
+            "credits": 90,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "performance-check-pack": {
+            "category": "audit",
+            "categoryLabel": "Teknik denetim",
+            "audience": "Daha iyi mobil deneyim isteyen hayali site sahipleri",
+            "use": "Site hızını ve mobil davranışı incelemek",
+            "deliverable": "Görsel boyutu ve responsive kontrol listesi — Örnek performans ve viewport inceleme raporu",
+            "included": "Ekran genişliği ve medya kararlarını test etme",
+            "excluded": "Gerçek Core Web Vitals saha raporu veya SLA garantisi",
+            "credits": 110,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "mobile-performance"
+          }
+        }
       }
     },
     "de": {
@@ -1818,6 +2234,110 @@
             "artifact": "Eigene Vektorgrafik einer Katalogoberfläche mit Filtern und Produktkarten.",
             "learning": "Ehrliche DEMO-Hinweise und klare Grenzen zählen mehr als erfundene Kennzahlen.",
             "serviceId": "ui-accessibility"
+          }
+        }
+      },
+      "catalogDetail": {
+        "labels": {
+          "kicker": "Demo-Kits entdecken",
+          "lead": "Sechs nachvollziehbare Digitalkonzepte – ohne Kauf oder echte Zahlung.",
+          "categoryLabel": "Kit-Kategorie",
+          "audienceLabel": "Geeignet für",
+          "useLabel": "Einsatzbereich",
+          "deliverLabel": "Beispiel-Ergebnis",
+          "includedLabel": "Enthalten",
+          "excludedLabel": "Nicht enthalten",
+          "fictionalValue": "Fiktiver Wert",
+          "creditLabel": "Demo-Credits",
+          "creditUnit": "DEMO_CREDIT",
+          "detailsLabel": "Kit-Details",
+          "relatedService": "Passende Leistung ansehen",
+          "resetLabel": "Suche und Filter zurücksetzen",
+          "countSuffix": "Ergebnisse aus sechs Kits",
+          "showAll": "Alle Kits anzeigen",
+          "demoDisclaimer": "Dies ist nur ein Gestaltungskonzept. Käufe oder Bestellungen sind nicht möglich.",
+          "filtersHeading": "Suche und Kategorien",
+          "emptyHeading": "Keine Kits gefunden",
+          "emptyHint": "Suche löschen oder eine andere Kategorie auswählen.",
+          "relatedConcepts": "Verwandte Konzepte entdecken",
+          "privacy": "Es werden keine persönlichen Daten gesendet oder gespeichert",
+          "optionsHeading": "Verfügbare Optionen",
+          "backServices": "Zurück zu den Leistungen",
+          "notYetCart": "Nur Lern-Demo; Warenkorb und Kasse sind noch nicht aktiv",
+          "kitCount": "Anzahl der Demo-Kits"
+        },
+        "items": {
+          "landing-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Kleine Teams in einer frühen Ideenphase",
+            "use": "Ein fiktives Produkt mit einer klaren Aussage präsentieren",
+            "deliverable": "Fokussierte Landingpage und sichtbarer nächster Schritt — Responsiver Wireframe und visuelles Seitenmuster",
+            "included": "Inhaltskonzept, Angebotsbereich und Handlungsbutton",
+            "excluded": "Anzeigenverwaltung, reale Conversion-Raten oder Hosting",
+            "credits": 120,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "landing-pages"
+          },
+          "company-site-kit": {
+            "category": "web",
+            "categoryLabel": "Web",
+            "audience": "Dienstleistungsteams beim Aufbau ihres Onlineauftritts",
+            "use": "Die Angebote eines erfundenen Unternehmens verständlich darstellen",
+            "deliverable": "Service-Seitenplan und leicht auffindbare Navigation — Kleine Sitemap und beispielhafte Leistungsseite",
+            "included": "Navigation, Inhaltshierarchie und responsive Komponenten",
+            "excluded": "CRM, Domainkauf oder Produktivstart",
+            "credits": 220,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "company-websites"
+          },
+          "portfolio-kit": {
+            "category": "design",
+            "categoryLabel": "Design",
+            "audience": "Freie Designer mit konzeptionellen Projekten",
+            "use": "Ausgewählte Arbeiten ohne erfundene Kunden erzählen",
+            "deliverable": "Editorial-Galerie mit nachvollziehbaren Designentscheidungen — Fallstudienkarten und Portfolio-Layout",
+            "included": "Eigene Grafiken und nachvollziehbare Projektgeschichte",
+            "excluded": "Referenzen, tatsächliche Kunden oder kommerzielle Fotografie",
+            "credits": 160,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "visual-identity"
+          },
+          "multilingual-ui-kit": {
+            "category": "design",
+            "categoryLabel": "Design",
+            "audience": "Content-Teams mit RTL- und LTR-Inhalten",
+            "use": "Eine Oberfläche in fünf Sprachrichtungen präsentieren",
+            "deliverable": "Lokalisierter Sprachwechsel und richtungsbewusste Muster — Persisch/Arabisch plus drei LTR-Oberflächen",
+            "included": "Touch-Bedienung, Schreibrichtung und Beispieltexte",
+            "excluded": "Beglaubigte Übersetzungen oder Übersetzungsplattform",
+            "credits": 180,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "seo-starter-audit": {
+            "category": "audit",
+            "categoryLabel": "Technische Prüfung",
+            "audience": "Kleine Teams, die Inhaltsstrukturen prüfen",
+            "use": "Einen ersten SEO-Prüfablauf anschaulich erklären",
+            "deliverable": "Fiktive Checkliste für Routen und Metadaten — Prüftabelle zu Titeln, H1 und internen Links",
+            "included": "Überprüfbare technische Schritte und klare Grenzen",
+            "excluded": "Rankinggarantien, Backlinks oder echter SEO-Vertrag",
+            "credits": 90,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "seo-localization"
+          },
+          "performance-check-pack": {
+            "category": "audit",
+            "categoryLabel": "Technische Prüfung",
+            "audience": "Hypothetische Seitenbetreiber mit mobilen Zielen",
+            "use": "Website-Geschwindigkeit und Mobiltauglichkeit veranschaulichen",
+            "deliverable": "Checkliste für Bildgrößen und responsive Verhalten — Beispielbericht zu Performance und Viewports",
+            "included": "Wiederholbare Checks für Bildschirmgrößen und Bilder",
+            "excluded": "Echte Core Web Vitals-Felddaten oder SLA-Garantien",
+            "credits": 110,
+            "unit": "DEMO_CREDIT",
+            "serviceId": "mobile-performance"
           }
         }
       }

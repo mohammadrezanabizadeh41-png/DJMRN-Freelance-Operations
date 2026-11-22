@@ -38,8 +38,8 @@ test('S08 anchor navigation has no missing targets', () => {
 });
 test('S08 regression with S11 links: built pages reachable, future pages absent', () => {
   for (const l of ['fa','en','ar','tr','de']) assert(page.includes('href="/'+l+'/'),l);
-  for (const kind of ['services','work']) assert(page.includes('href="/en/'+kind+'/'),kind+' S11 link');
-  for (const kind of ['catalog','contact','demo-checkout']) assert(!page.includes('href="/en/'+kind+'/'),kind+' future');
+  for (const kind of ['services','work','catalog']) assert(page.includes('href="/en/'+kind+'/'),kind+' built link');
+  for (const kind of ['contact','demo-checkout']) assert(!page.includes('href="/en/'+kind+'/'),kind+' future');
 });
 test('S08 actual image is bitwise identical to original approved S06 SVG', async () => {
   const [original,copy]=await Promise.all([

@@ -5,7 +5,7 @@
 **Project branch:** `project/light-sites-m01-vanilla-20261121`  
 **Base branch:** `project/chatgpt-light-sites-20261121`  
 **Path:** `10-chatgpt-light-sites/models/M01-vanilla-multilingual/`  
-**Project stage:** **S01–S11 PASS; 15 locally runnable language pages (Home, Services, Work × 5); S12 next. S14A and S13–S20 pending. No public deployment.**
+**Project stage:** **S01–S12 PASS; 20 of 30 local language routes built (Home, Services, Work, Catalog × 5); S13 next. S14A and S13–S20 pending; no public deployment.**
 **Upstream model:** [parent build checklist, M01 is unchecked](../../05-MODEL-BUILD-CHECKLIST.md).  
 **Isolation:** No changes to `main`, parent project branch, or `09-self-marketing-website/` heavy Codex/3D site.
 
@@ -34,7 +34,7 @@
 | Develop/edit | GPT-6 → **existing Bridgerator MCP** → local files/PowerShell; Git and Node tests |
 | Optional OSS QA | browser DevTools/Lighthouse, Playwright CLI, axe-core, HTML-Validate, SiteOne if tested need |
 | Visual direction | original editorial hero, strong type, responsive asymmetric/bento grids, purposeful subtle motion |
-| Fonts/assets | Existing system-font fallback plus original S06 hero SVG and three editable S11 vector case studies; optional font packages not installed |
+| Fonts/assets | System-font fallback; original S06 hero, three S11 concept vectors and six original editable S12 kit SVGs; no external or paid imagery |
 | SEO | meaningful static HTML in 5 language URL subfolders, no JS-only SEO content, `hreflang` reciprocity, original truthful metadata |
 | Cart/payment | synthetic inventory/amounts, mock cart and mock receipt with no card fields; real payment future independent architecture |
 | Responsive | **Mobile 320–430px, tablet 600–1024px, laptop/desktop 1024–1440px, wide 1920px optional**; keyboard/touch/mouse, rotation/zoom and fa/ar RTL + en/tr/de LTR |
@@ -42,14 +42,14 @@
 | Permissions | no new software installed, no MCP/server configured, no provider sign-up, no actual data transmitted or external deploy |
 
 ## Where to begin next
-**S12 of 20 — build the six-item fictional Catalog page in five languages with a working keyboard/touch search, category filter, result count, empty/reset states and a real local browser test.** Home, Services and Work are already built in all five locales. Contact and DEMO Checkout are future S13/S14; S14A is the mandatory local-only authoring dashboard after S14. Review [stage evidence](03-EXECUTION-ROADMAP.md) before advancing.
+**S13 of 20 — build the five-language fully synthetic selection/cart/checkout/receipt flow with guarded integer DEMO_CREDIT arithmetic, quantity/edit/remove/reset and real browser tests.** Home, Services, Work and Catalog are built across five locales; no live sale or real transaction is allowed. S14 is the non-submitting Contact preview, S14A the local-only content-management dashboard. Review [stage evidence](03-EXECUTION-ROADMAP.md) before advancing.
 
 A live payment gateway is intentionally not part of this pure-front-end implementation: real checkout requires a secure server-side provider session and verified callback/webhook, legitimate merchant eligibility, privacy and additional approval. A realistic demo checkout remains in scope.
 
 ## Explicitly not done
-- No independent Catalog, Contact or DEMO Checkout routes, cart/order/payment, production backend, local management dashboard or public deployment yet.
-- Home ×5, Services ×5 and Work ×5 with static code and original vector case art exist; Node, HTML-Validate, Edge/Playwright and representative axe QA are recorded in S08–S11. **Qualified human translation review and final manual WCAG validation are still pending.**
-- No new npm install, third-party service, paid use, account activation, source transfer from project 09, publication or merge during S11.
+- No independent Contact or DEMO Checkout routes, demo cart/receipt, actual payment, production backend, management dashboard or public deployment yet.
+- Home ×5, Services ×5, Work ×5 and Catalog ×5 are built with original editable SVG art and functional catalog search/filter/reset. Automated Node, HTML-Validate, Edge/Playwright and representative axe QA are recorded in S08–S12. **Qualified human translation review and manual WCAG validation are still pending.**
+- No new npm install, provider integration, paid usage, source transfer from project 09, publication or merge during S12.
 - No old 3D source/media files copied and no Codex involvement.
 
 **Source control:** This is an independent Git branch from the *existing light-site project branch*. GitHub is canonical; any later status or artifact change occurs only with user-approved execution and readback. Parent **M01 remains unchecked** until a full functional demo is built/tested and accepted.
