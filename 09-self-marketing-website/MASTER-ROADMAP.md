@@ -61,9 +61,9 @@ Websites & landing pages; app/UI prototypes; JavaScript/Python/API automation; A
 
 ### Candidate buyer-facing service taxonomy — P2/B01–B03 research snapshot (2026-11-14)
 
-**OWNER-DIRECTED AUDIT / STATUS:** 9 visual *portals* → 27 optional *corridors* (2–3 per portal) → **63 distinct buyer-facing service families** (each may have 0–many truthful samples, with further subtypes added only for real needs). This is the CANDIDATE SERVICE COVERAGE MAP, **NOT 52 verified current offerings, 52 built sample apps, nor 52 new roadmap B## workstreams**. The existing **B01–B23 workstreams** still own planning/implementation. These `VP##/SC##/SV##` IDs are descriptive **proposed taxonomy labels for discussion**, not an implemented database/schema/provider registry; final identity/route names are accepted only at B02/B03 approval. 
+**OWNER-DIRECTED AUDIT / STATUS:** 9 visual *portals* → 27 optional *corridors* (3 per portal) → **63 distinct buyer-facing service families** (each may have 0–many truthful samples, with further subtypes added only for real needs). This is the CANDIDATE SERVICE COVERAGE MAP, **NOT 63 verified current offerings, 63 built sample apps, nor 63 new roadmap B## workstreams**. The existing **B01–B23 workstreams** still own planning/implementation. These `VP##/SC##/SV##` IDs are descriptive **proposed taxonomy labels for discussion**, not an implemented database/schema/provider registry; final identity/route names are accepted only at B02/B03 approval. 
 
-**Interaction structure:** one artistically unified, multi-layer, optionally spatial DJMRN main hub displays **9 recognizably distinct graphical portals**, not a wall of 63 cards. Each portal expands into 3 labeled corridors, each corridor into 2–3 **separate services**, each service into one truthful explanation + **0–many** relevant gallery items; each actually built sample can be a video, playable website, audio, graphic gallery, code or working app, with its own media/visual branding, clear status and direct-link/back route. Show direct search/filter and a clear list-mode in parallel for users who want speed; no mandatory 3D/hover or obscure nomenclature. The active first fold should show brief visitor outcomes, not frameworks. Do not create unnecessary routes/depth for one-service scenarios. Grouping is a PRESENTATION strategy; semantic stable service URLs remain. 
+**Interaction structure:** one artistically unified, multi-layer, optionally spatial DJMRN main hub displays **9 recognizably distinct graphical portals**, not a wall of 63 cards. Each portal expands into 3 labeled corridors, each corridor into 2–4 **separate services**, each service into one truthful explanation + **0–many** relevant gallery items; each actually built sample can be a video, playable website, audio, graphic gallery, code or working app, with its own media/visual branding, clear status and direct-link/back route. Show direct search/filter and a clear list-mode in parallel for users who want speed; no mandatory 3D/hover or obscure nomenclature. The active first fold should show brief visitor outcomes, not frameworks. Do not create unnecessary routes/depth for one-service scenarios. Grouping is a PRESENTATION strategy; semantic stable service URLs remain. 
 
 **Market-evidence interpretation:** 
 - **FACT [Upwork, 2026-02-04]:** https://www.upwork.com/research/in-demand-skills-2026 , https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work . 2025 US-origin CONTRACT earnings favor established full stack/web design/mobile/ecommerce/UX/automation/testing, graphics, video editing/production, data, SEO and virtual assistance; strong AI skill growth in *AI integration* +178%, *AI video generation/editing* +329%, *AI chatbot development* +71%, *AI data annotation* +154%. These are platform/period-specific growth rates, not global market-share, job counts or DJMRN earning forecasts.
@@ -73,167 +73,142 @@ Websites & landing pages; app/UI prototypes; JavaScript/Python/API automation; A
 - **JUDGMENT:** first research and example priority candidates include SV01/SV02/SV07/SV09/SV13/SV15/SV18/SV20/SV24/SV31/SV42/SV45; **priority is provisional**, must be adjusted by user's actual demonstrable skills, owned samples, language/legal geography, time/cost and provider access rather than market-growth rankings alone. Marketing, prompt-only or basic input work may have lower earnings or heavy competition. Never claim every listed category is similarly profitable.
 - **B02 PROOF GATE:** label each SV## as `AVAILABLE_VERIFIED | CONCEPT_ONLY | RESEARCHING | NOT_OFFERED` after checking real output, skills, sample ownership, localization/voice ability, tool/free-quota, permission/security, and delivery. Pending verification, each SV## is **RESEARCHING / UNVERIFIED FOR PUBLIC OFFERING**, irrespective of marketplace demand. Only approved verified services appear as actively orderable; planned samples must never show as live or real customer commissions. No regulated finance/legal/tax, fraudulent marketing, scraping without rights, impersonation/voice cloning without consent, or paid ad spend without approval.
 
+**OWNER-REQUESTED EXPLICIT SERVICE TREE — 2026-11-24 / ساختار درختی مرجع خدمات:** سطح ۱ (`VP`) = شاخهٔ اصلی؛ سطح ۲ (`SC`) = زیرشاخهٔ همان VP؛ سطح ۳ (`SV`) = خانوادهٔ خدمت نهایی همان SC، همراه با شرح وظایف ثبت‌شده. هر VP دقیقاً سه SC دارد و هر SC دارای ۲ تا ۴ SV است. مسیر انتخاب به صورت `VP → SC → SV` خوانده می‌شود؛ مثال: `VP09 → SC26 → SV59` (امنیت و پایداری وب → تست عملکرد و ترافیک بالا → رفع باگ و افت کارایی در بازدید بالا). ترتیب و والد اصلی تمام شناسه‌های موجود حفظ شده‌اند. ارتباطات عرضی صرفاً ارجاع هستند، نه والد دوم. این بازآرایی همان فهرست canonical است، نه یک فهرست موازی؛ وضعیت و محدودیت B02 و مجوزهای قبلی بدون تغییر است.
+
 #### VP01 — وب‌سایت و تجارت آنلاین / Websites & Commerce (6 services)
 
-**SC01 — سایت و مدیریت محتوا**
+- **SC01 — سایت و مدیریت محتوا** (2 خدمت؛ مسیر: `VP01 → SC01`)
+  - **SV01 · طراحی و ساخت وب‌سایت:** شرکتی، شخصی، لندینگ، چندزبانه
+  - **SV03 · توسعهٔ WordPress و CMS:** قالب، افزونه، سفارشی‌سازی و سیستم مدیریت محتوا
 
-- **SV01 · طراحی و ساخت وب‌سایت:** شرکتی، شخصی، لندینگ، چندزبانه
-- **SV03 · توسعهٔ WordPress و CMS:** قالب، افزونه، سفارشی‌سازی و سیستم مدیریت محتوا
+- **SC02 — فروشگاه و وب خلاق** (2 خدمت؛ مسیر: `VP01 → SC02`)
+  - **SV02 · ساخت فروشگاه اینترنتی:** کاتالوگ، سبد، سفارش؛ B23 پرداخت کاملاً ساختگی
+  - **SV05 · وب‌سایت تعاملی و سه‌بعدی:** گرافیک پویا، نمایش تعاملی، صحنهٔ سه‌بعدی اختیاری
 
-**SC02 — فروشگاه و وب خلاق**
-
-- **SV02 · ساخت فروشگاه اینترنتی:** کاتالوگ، سبد، سفارش؛ B23 پرداخت کاملاً ساختگی
-- **SV05 · وب‌سایت تعاملی و سه‌بعدی:** گرافیک پویا، نمایش تعاملی، صحنهٔ سه‌بعدی اختیاری
-
-**SC03 — تجربه و بهینه‌سازی وب**
-
-- **SV04 · طراحی UI/UX وب و محصول:** وایرفریم، پروتوتایپ، سیستم طراحی
-- **SV06 · نگهداری و بهبود فنی وب‌سایت:** رفع خطاهای عادی، به‌روزرسانی، سرعت، واکنش‌گرایی و دسترس‌پذیری؛ امنیت تخصصی، تست فشار و اختلال ترافیک بالا در **VP09**.
+- **SC03 — تجربه و بهینه‌سازی وب** (2 خدمت؛ مسیر: `VP01 → SC03`)
+  - **SV04 · طراحی UI/UX وب و محصول:** وایرفریم، پروتوتایپ، سیستم طراحی
+  - **SV06 · نگهداری و بهبود فنی وب‌سایت:** رفع خطاهای عادی، به‌روزرسانی، سرعت، واکنش‌گرایی و دسترس‌پذیری؛ امنیت تخصصی، تست فشار و اختلال ترافیک بالا در **VP09**.
 
 #### VP02 — اپلیکیشن و برنامه‌نویسی / Apps & Software (6 services)
 
-**SC04 — اپلیکیشن‌های کاربری**
+- **SC04 — اپلیکیشن‌های کاربری** (2 خدمت؛ مسیر: `VP02 → SC04`)
+  - **SV07 · ساخت اپلیکیشن موبایل:** Android و iOS یا کراس‌پلتفرم مشروط به توان عملی
+  - **SV08 · ساخت نرم‌افزار دسکتاپ:** ابزارهای اختصاصی Windows و برنامه‌های کاربردی
 
-- **SV07 · ساخت اپلیکیشن موبایل:** Android و iOS یا کراس‌پلتفرم مشروط به توان عملی
-- **SV08 · ساخت نرم‌افزار دسکتاپ:** ابزارهای اختصاصی Windows و برنامه‌های کاربردی
+- **SC05 — محصول و زیرساخت نرم‌افزاری** (2 خدمت؛ مسیر: `VP02 → SC05`)
+  - **SV09 · ساخت وب‌اپلیکیشن و SaaS:** داشبورد، پنل و سامانهٔ تحت وب؛ متفاوت از سایت معرفی
+  - **SV10 · توسعهٔ بک‌اند و API:** منطق سرور، API و یکپارچه‌سازی فنی
 
-**SC05 — محصول و زیرساخت نرم‌افزاری**
+- **SC06 — ابزار، اصلاح و آزمون** (2 خدمت؛ مسیر: `VP02 → SC06`)
+  - **SV11 · اسکریپت‌نویسی و ابزار Python/JavaScript:** پردازش فایل، خط فرمان، ابزار کمکی؛ نه سناریوی رسانه‌ای
+  - **SV12 · آزمون، رفع باگ و QA نرم‌افزار:** آزمون UI/API، مرورگر، رگرسیون، اشکال‌زدایی عمومی و گزارش خطا؛ آزمون تخصصی امنیت، کارایی و پایداری وب در **VP09**.
 
-- **SV09 · ساخت وب‌اپلیکیشن و SaaS:** داشبورد، پنل و سامانهٔ تحت وب؛ متفاوت از سایت معرفی
-- **SV10 · توسعهٔ بک‌اند و API:** منطق سرور، API و یکپارچه‌سازی فنی
+#### VP03 — هوش مصنوعی و خودکارسازی / AI & Automation (7 services)
 
-**SC06 — ابزار، اصلاح و آزمون**
+- **SC07 — گفتگو و عامل‌های هوشمند** (3 خدمت؛ مسیر: `VP03 → SC07`)
+  - **SV13 · ساخت چت‌بات و دستیار AI:** پرسش‌وپاسخ و رابط گفتگویی با کنترل دسترسی
+  - **SV14 · ساخت ایجنت هوشمند:** عامل وظیفه‌محور با ابزار مجاز، ارزیابی و نظارت انسان
+  - **SV53 · ساخت ایجنت و بات شبکه‌های اجتماعی و پیام‌رسان‌ها:** اتوماسیون مجاز Instagram/Telegram/WhatsApp و سایر کانال‌های دارای دسترسی رسمی: پیش‌نویس/زمان‌بندی محتوای تأییدشده، پاسخ پیشنهادی پیام/کامنت، دسته‌بندی درخواست‌ها، گزارش تعامل و ارجاع به انسان. تنها با مجوز صاحب حساب، رعایت قوانین پلتفرم و حریم خصوصی؛ بدون دورزدن محدودیت، ارسال اسپم یا انتشار خودکار بدون کنترل.
 
-- **SV11 · اسکریپت‌نویسی و ابزار Python/JavaScript:** پردازش فایل، خط فرمان، ابزار کمکی؛ نه سناریوی رسانه‌ای
-- **SV12 · آزمون، رفع باگ و QA نرم‌افزار:** آزمون UI/API، مرورگر، رگرسیون، اشکال‌زدایی عمومی و گزارش خطا؛ آزمون تخصصی امنیت، کارایی و پایداری وب در **VP09**.
+- **SC08 — ادغام و پرامپت** (2 خدمت؛ مسیر: `VP03 → SC08`)
+  - **SV15 · یکپارچه‌سازی AI با محصولات:** افزودن قابلیت AI به اپ و گردش‌کار با هزینهٔ کنترل‌شده
+  - **SV16 · مهندسی پرامپت و طراحی دستورها:** پرامپت ساختاریافته، ارزیابی کیفیت و الگوی اجرا
 
-#### VP03 — هوش مصنوعی و خودکارسازی / AI & Automation (6 services)
-
-**SC07 — گفتگو و عامل‌های هوشمند**
-
-- **SV13 · ساخت چت‌بات و دستیار AI:** پرسش‌وپاسخ و رابط گفتگویی با کنترل دسترسی
-- **SV14 · ساخت ایجنت هوشمند:** عامل وظیفه‌محور با ابزار مجاز، ارزیابی و نظارت انسان
-- **SV53 · ساخت ایجنت و بات شبکه‌های اجتماعی و پیام‌رسان‌ها:** اتوماسیون مجاز Instagram/Telegram/WhatsApp و سایر کانال‌های دارای دسترسی رسمی: پیش‌نویس/زمان‌بندی محتوای تأییدشده، پاسخ پیشنهادی پیام/کامنت، دسته‌بندی درخواست‌ها، گزارش تعامل و ارجاع به انسان. تنها با مجوز صاحب حساب، رعایت قوانین پلتفرم و حریم خصوصی؛ بدون دورزدن محدودیت، ارسال اسپم یا انتشار خودکار بدون کنترل.
-
-**SC08 — ادغام و پرامپت**
-
-- **SV15 · یکپارچه‌سازی AI با محصولات:** افزودن قابلیت AI به اپ و گردش‌کار با هزینهٔ کنترل‌شده
-- **SV16 · مهندسی پرامپت و طراحی دستورها:** پرامپت ساختاریافته، ارزیابی کیفیت و الگوی اجرا
-
-**SC09 — توسعهٔ AI-assisted و فرایند**
-
-- **SV17 · Vibe Coding و نمونه‌سازی با AI:** ساخت نمونهٔ کاربردی با بازبینی و آزمون مهندسی
-- **SV18 · اتوماسیون گردش‌کار و RPA:** فرایندهای فایل، وب و اتصال سرویس‌های مجاز
+- **SC09 — توسعهٔ AI-assisted و فرایند** (2 خدمت؛ مسیر: `VP03 → SC09`)
+  - **SV17 · Vibe Coding و نمونه‌سازی با AI:** ساخت نمونهٔ کاربردی با بازبینی و آزمون مهندسی
+  - **SV18 · اتوماسیون گردش‌کار و RPA:** فرایندهای فایل، وب و اتصال سرویس‌های مجاز
 
 #### VP04 — ویدیو و تصویر متحرک / Video & Motion (6 services)
 
-**SC10 — تولید و تدوین**
+- **SC10 — تولید و تدوین** (2 خدمت؛ مسیر: `VP04 → SC10`)
+  - **SV19 · ساخت و تولید ویدیو:** تیزر، آموزش، معرفی برند و محصول
+  - **SV20 · تدوین و ادیت ویدیو:** مونتاژ، اصلاح رنگ، میکس و خروجی نهایی
 
-- **SV19 · ساخت و تولید ویدیو:** تیزر، آموزش، معرفی برند و محصول
-- **SV20 · تدوین و ادیت ویدیو:** مونتاژ، اصلاح رنگ، میکس و خروجی نهایی
+- **SC11 — کوتاه‌فرم و موشن** (2 خدمت؛ مسیر: `VP04 → SC11`)
+  - **SV21 · ویدیوی کوتاه و شبکه‌های اجتماعی:** Reels، Shorts، تیزر عمودی و UGC مفهومی
+  - **SV22 · موشن‌گرافیک:** تایپوگرافی متحرک، موشن لوگو و اکسپلینر
 
-**SC11 — کوتاه‌فرم و موشن**
-
-- **SV21 · ویدیوی کوتاه و شبکه‌های اجتماعی:** Reels، Shorts، تیزر عمودی و UGC مفهومی
-- **SV22 · موشن‌گرافیک:** تایپوگرافی متحرک، موشن لوگو و اکسپلینر
-
-**SC12 — انیمیشن و ویدیوی هوشمند**
-
-- **SV23 · ساخت انیمیشن دوبعدی و سه‌بعدی:** حرکت شخصیت، محصول و روایت انیمیشنی
-- **SV24 · تولید ویدیوی AI و پس‌تولید:** نماهای تولیدی، انتخاب، اصلاح و تدوین انسانی
+- **SC12 — انیمیشن و ویدیوی هوشمند** (2 خدمت؛ مسیر: `VP04 → SC12`)
+  - **SV23 · ساخت انیمیشن دوبعدی و سه‌بعدی:** حرکت شخصیت، محصول و روایت انیمیشنی
+  - **SV24 · تولید ویدیوی AI و پس‌تولید:** نماهای تولیدی، انتخاب، اصلاح و تدوین انسانی
 
 #### VP05 — صدا، گویندگی و موسیقی / Audio & Voice (6 services)
 
-**SC13 — گویندگی طبیعی و مصنوعی**
+- **SC13 — گویندگی طبیعی و مصنوعی** (2 خدمت؛ مسیر: `VP05 → SC13`)
+  - **SV25 · گویندگی و ساخت وویس:** نریشن، دوبله و وویس‌اور فقط در زبان‌های واقعاً قابل ارائه
+  - **SV26 · ساخت صدای AI و متن‌به‌گفتار:** TTS و صدای مصنوعی با رضایت صاحب صدا، بدون جعل هویت
 
-- **SV25 · گویندگی و ساخت وویس:** نریشن، دوبله و وویس‌اور فقط در زبان‌های واقعاً قابل ارائه
-- **SV26 · ساخت صدای AI و متن‌به‌گفتار:** TTS و صدای مصنوعی با رضایت صاحب صدا، بدون جعل هویت
+- **SC14 — ویرایش و پادکست** (2 خدمت؛ مسیر: `VP05 → SC14`)
+  - **SV27 · ادیت و ترمیم صدا:** نویزگیری، میکس، مستر و اصلاح فایل صوتی
+  - **SV28 · تولید و تدوین پادکست:** ساختار اپیزود، ویرایش، بسته‌بندی و خروجی
 
-**SC14 — ویرایش و پادکست**
-
-- **SV27 · ادیت و ترمیم صدا:** نویزگیری، میکس، مستر و اصلاح فایل صوتی
-- **SV28 · تولید و تدوین پادکست:** ساختار اپیزود، ویرایش، بسته‌بندی و خروجی
-
-**SC15 — موسیقی و متن صوتی**
-
-- **SV29 · ساخت موسیقی و طراحی صدا:** جینگل، موسیقی اختصاصی مجاز و افکت صوتی
-- **SV30 · پیاده‌سازی صوت و زیرنویس:** رونوشت، زمان‌بندی کپشن، زیرنویس و تبدیل صوت به متن
+- **SC15 — موسیقی و متن صوتی** (2 خدمت؛ مسیر: `VP05 → SC15`)
+  - **SV29 · ساخت موسیقی و طراحی صدا:** جینگل، موسیقی اختصاصی مجاز و افکت صوتی
+  - **SV30 · پیاده‌سازی صوت و زیرنویس:** رونوشت، زمان‌بندی کپشن، زیرنویس و تبدیل صوت به متن
 
 #### VP06 — گرافیک، هنر دیجیتال و سه‌بعدی / Graphic, Visual & 3D (6 services)
 
-**SC16 — هویت و تبلیغات**
+- **SC16 — هویت و تبلیغات** (2 خدمت؛ مسیر: `VP06 → SC16`)
+  - **SV31 · طراحی لوگو و هویت بصری:** نشان، سیستم رنگ و عناصر برند
+  - **SV32 · طراحی گرافیک تبلیغاتی و شبکهٔ اجتماعی:** پوستر، بنر، کاور، پست و کمپین
 
-- **SV31 · طراحی لوگو و هویت بصری:** نشان، سیستم رنگ و عناصر برند
-- **SV32 · طراحی گرافیک تبلیغاتی و شبکهٔ اجتماعی:** پوستر، بنر، کاور، پست و کمپین
+- **SC17 — تصویرسازی و تصویر** (2 خدمت؛ مسیر: `VP06 → SC17`)
+  - **SV33 · تصویرسازی و تولید تصویر با AI:** تصویر هنری و تبلیغاتی با حقوق و اصالت روشن
+  - **SV34 · ادیت و روتوش عکس:** اصلاح عکس، حذف پس‌زمینه و ترکیب تصویر
 
-**SC17 — تصویرسازی و تصویر**
-
-- **SV33 · تصویرسازی و تولید تصویر با AI:** تصویر هنری و تبلیغاتی با حقوق و اصالت روشن
-- **SV34 · ادیت و روتوش عکس:** اصلاح عکس، حذف پس‌زمینه و ترکیب تصویر
-
-**SC18 — سه‌بعدی و ارائه**
-
-- **SV35 · مدل‌سازی و رندر سه‌بعدی:** مدل محصول، صحنه، متریال و رندر
-- **SV36 · طراحی ارائه و اسلاید:** PowerPoint، Pitch Deck و ارائهٔ آموزشی/تجاری
+- **SC18 — سه‌بعدی و ارائه** (2 خدمت؛ مسیر: `VP06 → SC18`)
+  - **SV35 · مدل‌سازی و رندر سه‌بعدی:** مدل محصول، صحنه، متریال و رندر
+  - **SV36 · طراحی ارائه و اسلاید:** PowerPoint، Pitch Deck و ارائهٔ آموزشی/تجاری
 
 #### VP07 — نویسندگی، محتوا و بازاریابی / Writing, Content & Marketing (8 services)
 
-**SC19 — متن و سناریو**
+- **SC19 — متن و سناریو** (3 خدمت؛ مسیر: `VP07 → SC19`)
+  - **SV37 · کپی‌رایتینگ و متن تبلیغاتی:** متن لندینگ، محصول و پیام کمپین
+  - **SV38 · سناریونویسی و اسکریپت رسانه‌ای حرفه‌ای:** سناریوی ویدیو، پادکست، تبلیغ و یوتیوب؛ جدا از اسکریپت برنامه‌نویسی
+  - **SV39 · مقاله‌نویسی و محتوای متنی:** وبلاگ، راهنما، شرح خدمات و محتوای تخصصی
 
-- **SV37 · کپی‌رایتینگ و متن تبلیغاتی:** متن لندینگ، محصول و پیام کمپین
-- **SV38 · سناریونویسی و اسکریپت رسانه‌ای حرفه‌ای:** سناریوی ویدیو، پادکست، تبلیغ و یوتیوب؛ جدا از اسکریپت برنامه‌نویسی
-- **SV39 · مقاله‌نویسی و محتوای متنی:** وبلاگ، راهنما، شرح خدمات و محتوای تخصصی
+- **SC20 — ویرایش و زبان** (2 خدمت؛ مسیر: `VP07 → SC20`)
+  - **SV40 · ویراستاری، بازنویسی و اصلاح متن:** Proofreading، ساختاربندی و کنترل کیفیت متن
+  - **SV41 · ترجمه و بومی‌سازی:** محتوای چندزبانه، UI copy و زیرنویس با بازبینی انسانی
 
-**SC20 — ویرایش و زبان**
-
-- **SV40 · ویراستاری، بازنویسی و اصلاح متن:** Proofreading، ساختاربندی و کنترل کیفیت متن
-- **SV41 · ترجمه و بومی‌سازی:** محتوای چندزبانه، UI copy و زیرنویس با بازبینی انسانی
-
-**SC21 — رشد و ارتباطات**
-
-- **SV42 · خدمات SEO و جست‌وجوپذیری:** SEO فنی، تحقیق کلمه و بهینه‌سازی محتوای وب
-- **SV43 · مدیریت محتوا و شبکه‌های اجتماعی:** تقویم محتوا، مدیریت انتشار با مجوز و گزارش؛ ساخت سیستم/ایجنت این کار **SV53** است.
-- **SV44 · ایمیل‌مارکتینگ و کمپین دیجیتال:** کمپین ایمیل، پیام‌ها و تحلیل؛ بدون ارسال ناخواسته یا هزینهٔ تبلیغ بدون مجوز
+- **SC21 — رشد و ارتباطات** (3 خدمت؛ مسیر: `VP07 → SC21`)
+  - **SV42 · خدمات SEO و جست‌وجوپذیری:** SEO فنی، تحقیق کلمه و بهینه‌سازی محتوای وب
+  - **SV43 · مدیریت محتوا و شبکه‌های اجتماعی:** تقویم محتوا، مدیریت انتشار با مجوز و گزارش؛ ساخت سیستم/ایجنت این کار **SV53** است.
+  - **SV44 · ایمیل‌مارکتینگ و کمپین دیجیتال:** کمپین ایمیل، پیام‌ها و تحلیل؛ بدون ارسال ناخواسته یا هزینهٔ تبلیغ بدون مجوز
 
 #### VP08 — داده، تحقیق و خدمات اداری / Data, Research & Operations (8 services)
 
-**SC22 — اکسل و امور اجرایی**
+- **SC22 — اکسل و امور اجرایی** (3 خدمت؛ مسیر: `VP08 → SC22`)
+  - **SV45 · Excel و Google Sheets:** فرمول، فایل کاری، پاک‌سازی و اتوماسیون صفحه‌گسترده
+  - **SV48 · تایپ، ورود داده و تبدیل اسناد:** تایپ، تبدیل PDF به جدول/متن، قالب‌بندی اسناد
+  - **SV50 · دستیار مجازی و امور اداری آنلاین:** ساماندهی فایل، تقویم، هماهنگی و پشتیبانی مجاز
 
-- **SV45 · Excel و Google Sheets:** فرمول، فایل کاری، پاک‌سازی و اتوماسیون صفحه‌گسترده
-- **SV48 · تایپ، ورود داده و تبدیل اسناد:** تایپ، تبدیل PDF به جدول/متن، قالب‌بندی اسناد
-- **SV50 · دستیار مجازی و امور اداری آنلاین:** ساماندهی فایل، تقویم، هماهنگی و پشتیبانی مجاز
+- **SC23 — تحلیل و تحقیق** (3 خدمت؛ مسیر: `VP08 → SC23`)
+  - **SV46 · تحلیل داده و داشبورد:** گزارش KPI، مصورسازی و آمار کاربردی
+  - **SV47 · استخراج و پردازش داده:** ETL سبک، پاک‌سازی، جمع‌آوری از منابع مجاز
+  - **SV49 · تحقیق اینترنتی و بازار:** رقبا، گردآوری شواهد، گزارش ارجاع‌دار و تحلیل
 
-**SC23 — تحلیل و تحقیق**
-
-- **SV46 · تحلیل داده و داشبورد:** گزارش KPI، مصورسازی و آمار کاربردی
-- **SV47 · استخراج و پردازش داده:** ETL سبک، پاک‌سازی، جمع‌آوری از منابع مجاز
-- **SV49 · تحقیق اینترنتی و بازار:** رقبا، گردآوری شواهد، گزارش ارجاع‌دار و تحلیل
-
-**SC24 — مدیریت عملیاتی و AI data**
-
-- **SV51 · مدیریت محتوایی و عملیاتی فروشگاه:** ورود کالا، کاتالوگ و عملیات مجاز؛ نه توسعهٔ فروشگاه
-- **SV52 · برچسب‌گذاری داده و ارزیابی AI:** Annotation، طبقه‌بندی و کنترل کیفیت دادهٔ مجاز
+- **SC24 — مدیریت عملیاتی و AI data** (2 خدمت؛ مسیر: `VP08 → SC24`)
+  - **SV51 · مدیریت محتوایی و عملیاتی فروشگاه:** ورود کالا، کاتالوگ و عملیات مجاز؛ نه توسعهٔ فروشگاه
+  - **SV52 · برچسب‌گذاری داده و ارزیابی AI:** Annotation، طبقه‌بندی و کنترل کیفیت دادهٔ مجاز
 
 #### VP09 — امنیت، کیفیت، کارایی و پشتیبانی تخصصی وب / Web Security, Performance & Reliability (10 services)
 
-**SC25 — تست امنیت و مقاوم‌سازی سایت**
+- **SC25 — تست امنیت و مقاوم‌سازی سایت** (3 خدمت؛ مسیر: `VP09 → SC25`)
+  - **SV54 · ارزیابی امنیت وب‌سایت و آسیب‌پذیری‌ها:** بررسی کنترل‌شدهٔ سطح حمله، پیکربندی، کنترل دسترسی، احراز هویت، API و CMS، بررسی معیارهای OWASP و گزارش اولویت‌بندی‌شده؛ صرفاً در دامنهٔ مجاز با تأیید کتبی صاحب سامانه.
+  - **SV55 · اصلاح آسیب‌پذیری و سخت‌سازی امنیتی:** رفع ضعف‌های احرازشده، تنظیم TLS/HTTPS و هدرها، نشست و دسترسی، امن‌سازی استقرار و بازآزمایی اصلاحات؛ بدون ادعای امنیت مطلق.
+  - **SV56 · بازبینی امنیت کد، افزونه و وابستگی‌ها:** ممیزی کد/پیکربندی، وابستگی‌های آسیب‌پذیر، مجوز API، مدیریت اسرار، CMS/WordPress، به‌روزرسانی و حداقل‌سازی دسترسی.
 
-- **SV54 · ارزیابی امنیت وب‌سایت و آسیب‌پذیری‌ها:** بررسی کنترل‌شدهٔ سطح حمله، پیکربندی، کنترل دسترسی، احراز هویت، API و CMS، بررسی معیارهای OWASP و گزارش اولویت‌بندی‌شده؛ صرفاً در دامنهٔ مجاز با تأیید کتبی صاحب سامانه.
-- **SV55 · اصلاح آسیب‌پذیری و سخت‌سازی امنیتی:** رفع ضعف‌های احرازشده، تنظیم TLS/HTTPS و هدرها، نشست و دسترسی، امن‌سازی استقرار و بازآزمایی اصلاحات؛ بدون ادعای امنیت مطلق.
-- **SV56 · بازبینی امنیت کد، افزونه و وابستگی‌ها:** ممیزی کد/پیکربندی، وابستگی‌های آسیب‌پذیر، مجوز API، مدیریت اسرار، CMS/WordPress، به‌روزرسانی و حداقل‌سازی دسترسی.
+- **SC26 — تست عملکرد، ظرفیت و ترافیک بالا** (3 خدمت؛ مسیر: `VP09 → SC26`)
+  - **SV57 · سنجش و بهینه‌سازی سرعت و گلوگاه‌ها:** Core Web Vitals/Lighthouse، رندر، تصویر/فونت، JavaScript، پاسخ API، کش و پرس‌وجوهای پایگاه‌داده؛ مقایسهٔ اعداد قبل و بعد از اصلاح.
+  - **SV58 · تست بار، فشار و دوام وب‌سایت:** شبیه‌سازی کاربران مجاز، Load/Stress/Soak، ظرفیت‌سنجی، خطا و زمان پاسخ، تحلیل CPU/RAM/DB؛ فقط در محیط آزمایش یا با محدودهٔ زمان/نرخ تأییدشدهٔ مالک زیرساخت.
+  - **SV59 · رفع باگ و افت کارایی در بازدید بالا:** عیب‌یابی 5xx/Timeout، اشباع اتصال و صف، نشتی حافظه و قفل DB؛ برنامهٔ اصلاح Cache/CDN/Queue/Rate limiting و ظرفیت‌پذیری با آزمون پس از تغییر.
 
-**SC26 — تست عملکرد، ظرفیت و ترافیک بالا**
-
-- **SV57 · سنجش و بهینه‌سازی سرعت و گلوگاه‌ها:** Core Web Vitals/Lighthouse، رندر، تصویر/فونت، JavaScript، پاسخ API، کش و پرس‌وجوهای پایگاه‌داده؛ مقایسهٔ اعداد قبل و بعد از اصلاح.
-- **SV58 · تست بار، فشار و دوام وب‌سایت:** شبیه‌سازی کاربران مجاز، Load/Stress/Soak، ظرفیت‌سنجی، خطا و زمان پاسخ، تحلیل CPU/RAM/DB؛ فقط در محیط آزمایش یا با محدودهٔ زمان/نرخ تأییدشدهٔ مالک زیرساخت.
-- **SV59 · رفع باگ و افت کارایی در بازدید بالا:** عیب‌یابی 5xx/Timeout، اشباع اتصال و صف، نشتی حافظه و قفل DB؛ برنامهٔ اصلاح Cache/CDN/Queue/Rate limiting و ظرفیت‌پذیری با آزمون پس از تغییر.
-
-**SC27 — عیب‌یابی، پایایی و تضمین کیفیت وب**
-
-- **SV60 · رفع باگ‌های پیچیده سایت و API:** بازتولید خطا، تحلیل لاگ و علت ریشه‌ای، اشکال‌زدایی Frontend/Backend، رفع Regression و آزمون انتشار.
-- **SV61 · پایش سلامت، خطاها و پاسخ به رخداد سایت:** راه‌اندازی نظارت متناسب با نیاز، متریک/لاگ/هشدار، تحلیل قطعی، Runbook و گزارش Incident؛ بدون ادعای نظارت 24/7 یا SLA تأییدنشده.
-- **SV62 · بکاپ، بازیابی، ارتقا و بازگشت امن:** نسخهٔ پشتیبان، آزمون بازیابی در محیط مجزا، Staging، ارتقای CMS/وابستگی‌ها، Rollback و برنامهٔ احیای سرویس؛ عملیات روی Production صرفاً پس از مجوز.
-- **SV63 · تست جامع وب، دسترس‌پذیری و سازگاری:** E2E و رگرسیون وب، مرورگر/موبایل، تست کیبورد/WCAG، API و رگرسیون بصری؛ خروجی قابل‌سنجش و توصیه‌های اصلاحی.
+- **SC27 — عیب‌یابی، پایایی و تضمین کیفیت وب** (4 خدمت؛ مسیر: `VP09 → SC27`)
+  - **SV60 · رفع باگ‌های پیچیده سایت و API:** بازتولید خطا، تحلیل لاگ و علت ریشه‌ای، اشکال‌زدایی Frontend/Backend، رفع Regression و آزمون انتشار.
+  - **SV61 · پایش سلامت، خطاها و پاسخ به رخداد سایت:** راه‌اندازی نظارت متناسب با نیاز، متریک/لاگ/هشدار، تحلیل قطعی، Runbook و گزارش Incident؛ بدون ادعای نظارت 24/7 یا SLA تأییدنشده.
+  - **SV62 · بکاپ، بازیابی، ارتقا و بازگشت امن:** نسخهٔ پشتیبان، آزمون بازیابی در محیط مجزا، Staging، ارتقای CMS/وابستگی‌ها، Rollback و برنامهٔ احیای سرویس؛ عملیات روی Production صرفاً پس از مجوز.
+  - **SV63 · تست جامع وب، دسترس‌پذیری و سازگاری:** E2E و رگرسیون وب، مرورگر/موبایل، تست کیبورد/WCAG، API و رگرسیون بصری؛ خروجی قابل‌سنجش و توصیه‌های اصلاحی.
 
 **مرزبندی بدون تکرار:** SV06 نگهداری عمومی وب، SV12 تست عمومی نرم‌افزار، SV43 مدیریت انسانی محتوا و SV14 ایجنت عمومی باقی می‌مانند؛ SV53 ایجنت تخصصی شبکهٔ اجتماعی و SV54–SV63 خدمات تخصصی امنیت/کارایی/پایداری هستند. Cross-link مجاز است، تکثیر خانوادهٔ خدمت یا نمونهٔ کار نه. آزمون امنیت، Load/Stress، انتشار در شبکه اجتماعی، دسترسی به حساب یا تغییر Production بدون مالکیت/مجوز روشن ممنوع است. **تمام SV53–SV63 در وضعیت CANDIDATE / RESEARCHING هستند** تا B02 توان، نمونهٔ واقعی، شرایط تحویل، ابزار مجاز، مجوز/هزینه و حقوق نشر را تأیید کند؛ صرف ورود به فهرست وعدهٔ خدمت آماده نیست.
 
@@ -252,7 +227,7 @@ Challenge → intended users → constraints → owned contribution → method/a
 
 ### CURRENT OWNER-APPROVED MAIN-SCREEN INTERACTION CONTRACT — 2026-11-14
 
-**OWNER-CONFIRMED product interaction requirement — binding for B03/B05/B06/B14/B15/P3/P5; visual look, technology/3D, exact overlay mechanism and implementation still UNSELECTED.** Keep the previously researched **nine buyer-facing main service portals `VP01–VP09`, 27 nested corridor groups `SC01–SC27`, and 63 individually defined service families `SV01–SV63`** from the existing `### Candidate buyer-facing service taxonomy` in this same roadmap. These are *site navigation content*, distinct from the 23 implementation workstreams B01–B23; do not recreate the taxonomy or put all 52 on the first screen.
+**OWNER-CONFIRMED product interaction requirement — binding for B03/B05/B06/B14/B15/P3/P5; visual look, technology/3D, exact overlay mechanism and implementation still UNSELECTED.** Keep the previously researched **nine buyer-facing main service portals `VP01–VP09`, 27 nested corridor groups `SC01–SC27`, and 63 individually defined service families `SV01–SV63`** from the existing `### Candidate buyer-facing service taxonomy` in this same roadmap. These are *site navigation content*, distinct from the 23 implementation workstreams B01–B23; do not recreate the taxonomy or put all 63 on the first screen.
 
 **Non-negotiable visitor interaction behavior (progressive exploration within ONE main visual environment):**
 1. **Single main immersive-but-usable homepage canvas:** present **nine prominent creative service windows/portals** inside a unified, high-end, multidimensional/multimedia DJMRN identity; labels remain understandable and the design avoids clutter. Graphic style, animation, physical depth, 3D/WebGL and supporting technologies are later design decisions, not prerequisites to saving this structure.
@@ -574,7 +549,7 @@ The extension modifies the **existing [X extraction runbook](graphics/flower-val
 #### J.1–J.5 — Reversible phased delivery, all within existing gates
 
 1. **J.1 P2/P3 — research and graphic selection now.** Receive the owner's **three user-interface interaction prompts** (main 9 VP selection, 27 SC corridor choice, 63 SV service detail flow) and **one live reactive-background prompt**. Decompose, source/rights-check, create one coherent hybrid desktop-first art direction and interactive state/return map per §1C-H/I. Use desktop as the *visual reference/master study*, while reviewing at least one compact/touch and one RTL sketch early so design does not bake in mouse/English/width assumptions. P2 still must finish truthful selected service/sample and visitor promise before implementation lock. Three views remain stages of one site, not three applications.
-2. **J.2 P4 architectural minimum, NOT feature bloat.** After the owner approves design and authorizes separate Codex build, choose the simplest adequate stack and implement **one semantic site** with: stable VP/SC/SV identifiers and localized URL/content contract; content strings independent of animation/component code; one actual `en` initial locale; expandable `lang/dir` and logical CSS properties for RTL/LTR; no fake locale routes or fake translated switch options; responsive fluid layout and touch/keyboard/focus/reduced-motion behaviors on the primary journey. No need for a translation SaaS, huge i18n module, per-device codebases, full 52 content copies, database, always-on WebGL or early sample app multiplication. An English default for **first content/release** is NOW owner-approved; this does **not** rescind the global multilingual target and is **not** proof any English content is written/reviewed.
+2. **J.2 P4 architectural minimum, NOT feature bloat.** After the owner approves design and authorizes separate Codex build, choose the simplest adequate stack and implement **one semantic site** with: stable VP/SC/SV identifiers and localized URL/content contract; content strings independent of animation/component code; one actual `en` initial locale; expandable `lang/dir` and logical CSS properties for RTL/LTR; no fake locale routes or fake translated switch options; responsive fluid layout and touch/keyboard/focus/reduced-motion behaviors on the primary journey. No need for a translation SaaS, huge i18n module, per-device codebases, full 63 content copies, database, always-on WebGL or early sample app multiplication. An English default for **first content/release** is NOW owner-approved; this does **not** rescind the global multilingual target and is **not** proof any English content is written/reviewed.
 3. **J.3 P5 — first useful English vertical and real evidence.** Build/test one **home → VP portal → SC subgroup within SAME page → SV explanation → one truthful case/demo preview or clearly `NOT YET BUILT` placeholder → safe return**, with discoverable navigation and a real user contact path only if explicitly selected and verified. Polish graphical transitions for laptop/desktop first, **but provide basic readable and operable phone/tablet experience before any public launch** (tap rather than hover, visible menu, controls, service text and return). If the first sample is still incomplete, do not claim that a placeholder is a working functional portfolio proof. Build locally first; independent Codex authorization, real tests and owner-gated hosting/publication are separate.
 4. **J.4 P5 release gate / P6 extension.** Before any authorized public V1: verify content accuracy and license provenance, honest sample status, real mobile functionality and responsive zoom/reflow across the B12 device matrix, one English route with truthful `lang=en` and SEO, usable keyboard/touch/focus, background-off/reduced-motion fallback, performance/security/basic accessibility, meaningful inquiry or project-contact entry as selected, error/deep-link/back path and actual test evidence; P7 QA / P8 verified free eligibility / P9 explicit deploy authorization still apply. Later extend polished graphical layouts for tablet/wide monitors, per-service distinctive showcases and functional samples in B14/B15, only after the P5 slice passes.
 5. **J.5 Incremental language rollout (B04/B18, after actual need and review).** Future owner-targeted languages are **English, Persian, Arabic, French, German, Dutch**, and additional justified living languages (other roadmap candidates kept, not mandated for V1). Launch with real reviewed English, **not translated stubs**. When a language is ready, add reviewed content and actual locale routes, correct `lang/dir`, fonts and right-to-left or left-to-right interactions, language switch and correct SEO `hreflang` only for pages actually translated. Verify each locale's VP→SC→SV→sample/back path and text-fit; do not claim language support or put flags in a selector before tested content exists. Default-language choice can be revisited by owner with evidence; English is the current starting decision.
